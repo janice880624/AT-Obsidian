@@ -1,0 +1,207 @@
+{
+  "main": {
+    "id": "e6328f68f6575a4a",
+    "type": "split",
+    "children": [
+      {
+        "id": "90b49215ea0e9e41",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e45a63e161a77f0c",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "關聯圖檢視"
+            }
+          },
+          {
+            "id": "74af1605ff997251",
+            "type": "leaf",
+            "state": {
+              "type": "galaxy-view",
+              "state": {},
+              "icon": "orbit",
+              "title": "Galaxy view"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "025b6e0d8f9b335c",
+    "type": "split",
+    "children": [
+      {
+        "id": "1bb940439acf775a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a00499f42d1ba639",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "檔案瀏覽器"
+            }
+          },
+          {
+            "id": "f5c798e13af983a8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜尋"
+            }
+          },
+          {
+            "id": "6532e9c55f698faa",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "書籤"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8dbdf65fb3460230",
+    "type": "split",
+    "children": [
+      {
+        "id": "5b00bc2fa0848214",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b0e2057a40e2f4c2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向連結"
+            }
+          },
+          {
+            "id": "16117fd7b6e6a54c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "對外連結"
+            }
+          },
+          {
+            "id": "13471fb12249ddec",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "標籤"
+            }
+          },
+          {
+            "id": "0c256a193769bb67",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "所有屬性"
+            }
+          },
+          {
+            "id": "8f93107da2990a41",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大綱"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:開啟快速切換": false,
+      "graph:查看關聯圖": false,
+      "canvas:建立新畫布": false,
+      "daily-notes:開啟今天的每日筆記": false,
+      "templates:插入模板": false,
+      "command-palette:開啟命令面板": false,
+      "bases:建立新的 base": false,
+      "galaxy-view:打开星系视图": false
+    }
+  },
+  "active": "74af1605ff997251",
+  "lastOpenFiles": [
+    "01_基礎解剖/骨骼/骨骼與關節－頸椎.md",
+    "傷害－頸椎扭傷與拉傷.md",
+    "00_首頁與索引/首頁.md",
+    "03_傷害與疾病/急性傷害/傷害－前十字韌帶損傷.md",
+    "02_身體區域/肩部.md",
+    "01_基礎解剖/肌肉/肌肉－股直肌.md",
+    "02_身體區域/頭頸.md",
+    "00_首頁與索引/待整理.md"
+  ]
+}

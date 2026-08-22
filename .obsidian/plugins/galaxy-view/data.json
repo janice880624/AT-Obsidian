@@ -1,0 +1,217 @@
+{
+  "bloom": {
+    "strength": 0,
+    "radius": 0,
+    "threshold": 0
+  },
+  "physics": {
+    "repel": 200,
+    "linkDistance": 95,
+    "linkStrength": 0.9,
+    "centerPull": 0.09,
+    "flatten": 0.5,
+    "coreGravity": 0.2,
+    "spiral": 0
+  },
+  "look": {
+    "nodeSize": 1.25,
+    "linkOpacity": 0.42,
+    "linkCurve": 0.65,
+    "twinkle": 0,
+    "sizeBy": "degree"
+  },
+  "space": {
+    "nebula": 0,
+    "fieldStars": 0,
+    "clusterClouds": 0
+  },
+  "cruise": true,
+  "cruiseSpeed": 0.3,
+  "showUnresolved": false,
+  "showOrphans": true,
+  "showTags": false,
+  "tagLens": null,
+  "colorByTag": false,
+  "showTagHubs": false,
+  "tagHubLimit": 20,
+  "hiddenFolders": [],
+  "filterQuery": "",
+  "showGhostEdges": false,
+  "showStarfield": true,
+  "colorTheme": "sunset",
+  "qualityOverride": "auto",
+  "preset": "deep-space",
+  "activePreset": "orbits",
+  "customPresets": [],
+  "language": "auto",
+  "panelSections": {
+    "filter": true,
+    "nav": true,
+    "look": true,
+    "space": true,
+    "bloom": true
+  },
+  "panelWidth": 300,
+  "hintsSeen": false,
+  "selectionDepth": 1,
+  "tour": {
+    "speed": 1.2
+  },
+  "colorGroups": [
+    {
+      "query": "path:99_模板",
+      "color": "#f58529"
+    },
+    {
+      "query": "path:00_首頁與索引",
+      "color": "#dd2a7b"
+    },
+    {
+      "query": "path:02_身體區域",
+      "color": "#8134af"
+    },
+    {
+      "query": "path:01_基礎解剖",
+      "color": "#515bd4"
+    },
+    {
+      "query": "path:04_臨床評估",
+      "color": "#feda77"
+    },
+    {
+      "query": "path:07_個案紀錄",
+      "color": "#e1306c"
+    },
+    {
+      "query": "path:03_傷害與疾病",
+      "color": "#c13584"
+    }
+  ],
+  "positionCache": {
+    "傷害－頸椎扭傷與拉傷.md": [
+      -170.5,
+      0.1,
+      32.2
+    ],
+    "README.md": [
+      144.8,
+      -0.2,
+      -95.3
+    ],
+    "99_模板/模板－骨骼或關節.md": [
+      -92.7,
+      -18.4,
+      11.6
+    ],
+    "99_模板/模板－運動治療.md": [
+      51.4,
+      -23.3,
+      -51.1
+    ],
+    "99_模板/模板－貼紮.md": [
+      37.8,
+      -19.7,
+      68.5
+    ],
+    "99_模板/模板－肌肉.md": [
+      -11.9,
+      23.6,
+      -16.5
+    ],
+    "99_模板/模板－特殊檢查.md": [
+      51.2,
+      25.1,
+      -32.2
+    ],
+    "99_模板/模板－文獻筆記.md": [
+      -28.3,
+      -1,
+      47.4
+    ],
+    "99_模板/模板－功能性測試.md": [
+      -91.3,
+      14.1,
+      -27.9
+    ],
+    "99_模板/模板－傷害.md": [
+      18.9,
+      -17.3,
+      15.3
+    ],
+    "07_個案紀錄/個案紀錄注意事項.md": [
+      16.5,
+      0,
+      -157.8
+    ],
+    "04_臨床評估/特殊檢查/特殊檢查－Lachman Test.md": [
+      -97.6,
+      3,
+      -104.8
+    ],
+    "04_臨床評估/主觀問診/新個案評估.md": [
+      137.3,
+      0.7,
+      30.9
+    ],
+    "03_傷害與疾病/急性傷害/傷害－前十字韌帶損傷.md": [
+      -43,
+      -6.4,
+      -70.3
+    ],
+    "02_身體區域/頭頸.md": [
+      140.9,
+      0.6,
+      81.7
+    ],
+    "02_身體區域/肩部.md": [
+      116.9,
+      0.9,
+      -3.6
+    ],
+    "02_身體區域/膝部.md": [
+      -77.1,
+      5.5,
+      40.9
+    ],
+    "01_基礎解剖/骨骼/骨骼與關節－頸椎.md": [
+      -124.7,
+      -0.2,
+      116.1
+    ],
+    "01_基礎解剖/韌帶/韌帶－前十字韌帶.md": [
+      -147.1,
+      -1.1,
+      -38.4
+    ],
+    "01_基礎解剖/肌肉/肌肉－股直肌.md": [
+      -53.9,
+      0.3,
+      140
+    ],
+    "00_首頁與索引/首頁.md": [
+      45.2,
+      12.6,
+      64.5
+    ],
+    "00_首頁與索引/貼紮技術索引.md": [
+      29.8,
+      0.4,
+      161.3
+    ],
+    "00_首頁與索引/特殊檢查索引.md": [
+      2.6,
+      2.3,
+      -57.8
+    ],
+    "00_首頁與索引/待整理.md": [
+      107.9,
+      0,
+      137.2
+    ],
+    "00_首頁與索引/傷害索引.md": [
+      71.4,
+      2.3,
+      -50.9
+    ]
+  }
+}
