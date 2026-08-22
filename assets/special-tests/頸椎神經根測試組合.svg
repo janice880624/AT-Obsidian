@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="620" viewBox="0 0 1100 620">
+  <rect width="1100" height="620" fill="#fafbfe"/>
+  <text x="550" y="48" text-anchor="middle" font-family="sans-serif" font-size="28" font-weight="700" fill="#172033">頸椎神經根病變：測試組合</text>
+  <g font-family="sans-serif" font-size="20" text-anchor="middle" fill="#172033">
+    <rect x="80" y="110" width="400" height="90" rx="18" fill="#dde8ff" stroke="#365ea8" stroke-width="3"/><text x="280" y="150">Spurling Test</text><text x="280" y="178" font-size="16">熟悉上肢症狀重現</text>
+    <rect x="620" y="110" width="400" height="90" rx="18" fill="#ddf4ea" stroke="#2f7d62" stroke-width="3"/><text x="820" y="150">頸椎牽引測試</text><text x="820" y="178" font-size="16">熟悉上肢症狀減輕</text>
+    <rect x="80" y="280" width="400" height="90" rx="18" fill="#fff0cf" stroke="#a56b00" stroke-width="3"/><text x="280" y="320">ULNT1</text><text x="280" y="348" font-size="16">神經動力與症狀反應</text>
+    <rect x="620" y="280" width="400" height="90" rx="18" fill="#f0e1f7" stroke="#7d4a91" stroke-width="3"/><text x="820" y="320">症狀側旋轉 &lt; 60°</text><text x="820" y="348" font-size="16">活動度項目</text>
+    <rect x="300" y="460" width="500" height="105" rx="18" fill="#ffe8d6" stroke="#a95822" stroke-width="3"/><text x="550" y="505">組合提升判讀價值</text><text x="550" y="537" font-size="17">仍須整合病史、神經學與鑑別診斷</text>
+  </g>
+  <g stroke="#4b5568" stroke-width="4" fill="none"><path d="M280 200 L450 460"/><path d="M820 200 L650 460"/><path d="M280 370 L470 460"/><path d="M820 370 L630 460"/></g>
+</svg>

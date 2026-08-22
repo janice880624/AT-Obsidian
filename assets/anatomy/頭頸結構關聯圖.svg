@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="520" viewBox="0 0 1000 520">
+  <rect width="1000" height="520" fill="#f7f8fc"/>
+  <text x="500" y="48" text-anchor="middle" font-family="sans-serif" font-size="28" font-weight="700" fill="#182033">頭頸結構關聯（教學示意）</text>
+  <g font-family="sans-serif" font-size="20" text-anchor="middle">
+    <rect x="370" y="80" width="260" height="65" rx="18" fill="#dde8ff" stroke="#365ea8" stroke-width="3"/><text x="500" y="120" fill="#182033">枕骨</text>
+    <rect x="170" y="210" width="260" height="75" rx="18" fill="#ddf4ea" stroke="#2f7d62" stroke-width="3"/><text x="300" y="255" fill="#182033">C1 寰椎</text>
+    <rect x="570" y="210" width="260" height="75" rx="18" fill="#fff0cf" stroke="#a56b00" stroke-width="3"/><text x="700" y="255" fill="#182033">C2 樞椎／齒突</text>
+    <rect x="370" y="390" width="260" height="75" rx="18" fill="#f0e1f7" stroke="#7d4a91" stroke-width="3"/><text x="500" y="435" fill="#182033">C3–C7 下頸椎</text>
+  </g>
+  <g stroke="#4b5568" stroke-width="4" fill="none"><path d="M445 145 L340 210"/><path d="M555 145 L660 210"/><path d="M430 248 L570 248"/><path d="M300 285 L445 390"/><path d="M700 285 L555 390"/></g>
+  <g font-family="sans-serif" font-size="16" fill="#4b5568"><text x="315" y="174">寰枕關節</text><text x="645" y="174">顱頸交界</text><text x="500" y="235" text-anchor="middle">寰樞旋轉</text></g>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="700" viewBox="0 0 1000 700">
+  <rect width="1000" height="700" fill="#fafbfe"/>
+  <text x="500" y="45" text-anchor="middle" font-family="sans-serif" font-size="28" font-weight="700" fill="#172033">頸部初步評估流程</text>
+  <g font-family="sans-serif" font-size="20" text-anchor="middle" fill="#172033">
+    <rect x="320" y="80" width="360" height="70" rx="16" fill="#dde8ff" stroke="#365ea8" stroke-width="3"/><text x="500" y="123">創傷機轉與生命威脅</text>
+    <rect x="320" y="205" width="360" height="70" rx="16" fill="#ffe0e0" stroke="#b33939" stroke-width="3"/><text x="500" y="248">紅旗／神經血管警訊？</text>
+    <rect x="70" y="340" width="360" height="90" rx="16" fill="#ffd1d1" stroke="#b33939" stroke-width="3"/><text x="250" y="378">是：停止測試</text><text x="250" y="406">固定、急救與轉介</text>
+    <rect x="570" y="340" width="360" height="90" rx="16" fill="#ddf4ea" stroke="#2f7d62" stroke-width="3"/><text x="750" y="378">否：主動活動度</text><text x="750" y="406">神經學與功能檢查</text>
+    <rect x="570" y="520" width="360" height="100" rx="16" fill="#fff0cf" stroke="#a56b00" stroke-width="3"/><text x="750" y="560">整合病史與測試結果</text><text x="750" y="590">決定處置、回場或轉介</text>
+  </g>
+  <g stroke="#4b5568" stroke-width="5" fill="none"><path d="M500 150 L500 205"/><path d="M400 275 L250 340"/><path d="M600 275 L750 340"/><path d="M750 430 L750 520"/></g>
+  <g font-family="sans-serif" font-size="18" fill="#4b5568"><text x="310" y="302">有</text><text x="680" y="302">無</text></g>
+</svg>
