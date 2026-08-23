@@ -1,0 +1,25 @@
+{
+  "date": "2026-08-23",
+  "region": "肩部",
+  "source_repository": "janice880624/AT-Obsidian",
+  "source_branch": "main",
+  "source_tree_sha": "9f2f5f79fe238619a3db37165ce560f5ff1c5676",
+  "core_notes": 5,
+  "related_notes": 10,
+  "note_count": 15,
+  "image_count": 3,
+  "index_updates": [
+    "02_身體區域/肩部.md",
+    "00_首頁與索引/首頁.md",
+    "00_首頁與索引/傷害索引.md",
+    "00_首頁與索引/特殊檢查索引.md",
+    "00_首頁與索引/每日知識包目錄/每日知識包－2026-08-23－肩部.md",
+    "assets/圖片來源與授權.md"
+  ],
+  "duplicates_skipped": [
+    "2026-08-22 頭頸知識包全部既有筆記"
+  ],
+  "conflicts": [
+    "既有 02_身體區域/肩部.md 為空白；本包提供完整替換版本"
+  ]
+}
