@@ -1,24 +1,15 @@
 {
-  "date": "2026-08-24",
-  "region": "肘部",
-  "source_repository": "janice880624/AT-Obsidian",
-  "source_branch": "main",
-  "source_tree_sha": "d76f4adaeaf55e93b9c3f36692aa57a8729c9b87",
+  "package": "AT-Obsidian-知識包-2026-08-25-手腕與手",
+  "date": "2026-08-25",
+  "region": "手腕與手",
   "core_notes": 5,
   "related_notes": 10,
-  "note_count": 15,
-  "image_count": 3,
-  "index_updates": [
-    "02_身體區域/肘部.md",
-    "00_首頁與索引/首頁.md",
-    "00_首頁與索引/傷害索引.md",
-    "00_首頁與索引/特殊檢查索引.md",
-    "00_首頁與索引/每日知識包目錄/每日知識包－2026-08-24－肘部.md",
-    "assets/圖片來源與授權.md"
-  ],
-  "duplicates_skipped": [
-    "2026-08-22 頭頸與 2026-08-23 肩部既有內容"
-  ],
-  "conflicts": [],
-  "next_region": "手腕與手"
+  "images": 3,
+  "index_updates": 6,
+  "source_repository": "janice880624/AT-Obsidian",
+  "source_branch": "main",
+  "source_tree_sha": "7f5f55e6ceac16bdb026ab6802a570dc6076f29e",
+  "github_modified": false,
+  "next_region": "胸腰椎"
 }
+
