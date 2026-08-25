@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">手指肌腱與正中神經示意圖</title>
+  <desc id="desc">以路徑圖呈現屈肌腱、伸肌腱與正中神經的臨床功能關係。</desc>
+  <rect width="1200" height="760" fill="#fffaf5"/>
+  <text x="600" y="52" text-anchor="middle" font-family="sans-serif" font-size="32" font-weight="700" fill="#111827">手指肌腱與正中神經：功能路徑</text>
+  <text x="600" y="82" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#6b7280">原創教學示意；非解剖比例圖</text>
+  <g font-family="sans-serif">
+    <rect x="70" y="125" width="310" height="520" rx="28" fill="#fef3c7" stroke="#d97706" stroke-width="4"/>
+    <text x="225" y="175" text-anchor="middle" font-size="27" font-weight="700" fill="#92400e">掌側屈肌系統</text>
+    <path d="M145 225 C150 330 155 460 160 575" fill="none" stroke="#dc2626" stroke-width="18" stroke-linecap="round"/>
+    <path d="M225 225 C230 330 235 430 238 515" fill="none" stroke="#f97316" stroke-width="18" stroke-linecap="round"/>
+    <path d="M305 225 C310 330 315 455 320 590" fill="none" stroke="#dc2626" stroke-width="18" stroke-linecap="round"/>
+    <text x="225" y="305" text-anchor="middle" font-size="20" fill="#7c2d12">FDS → PIP 屈曲</text>
+    <text x="225" y="350" text-anchor="middle" font-size="20" fill="#7c2d12">FDP → DIP 屈曲</text>
+    <text x="225" y="625" text-anchor="middle" font-size="18" fill="#7c2d12">割傷後主動屈曲缺失＝轉介</text>
+
+    <rect x="445" y="125" width="310" height="520" rx="28" fill="#dbeafe" stroke="#2563eb" stroke-width="4"/>
+    <text x="600" y="175" text-anchor="middle" font-size="27" font-weight="700" fill="#1e3a8a">背側伸肌系統</text>
+    <path d="M520 225 C525 330 530 430 535 520" fill="none" stroke="#2563eb" stroke-width="18" stroke-linecap="round"/>
+    <path d="M600 225 C605 335 610 455 615 585" fill="none" stroke="#0ea5e9" stroke-width="18" stroke-linecap="round"/>
+    <path d="M680 225 C685 335 690 430 695 520" fill="none" stroke="#2563eb" stroke-width="18" stroke-linecap="round"/>
+    <text x="600" y="305" text-anchor="middle" font-size="20" fill="#1e3a8a">中央束 → PIP 伸展</text>
+    <text x="600" y="350" text-anchor="middle" font-size="20" fill="#1e3a8a">側束 → DIP 伸展</text>
+    <text x="600" y="625" text-anchor="middle" font-size="18" fill="#1e3a8a">下垂、卡鎖或伸展缺失＝複評</text>
+
+    <rect x="820" y="125" width="310" height="520" rx="28" fill="#ede9fe" stroke="#7c3aed" stroke-width="4"/>
+    <text x="975" y="175" text-anchor="middle" font-size="27" font-weight="700" fill="#5b21b6">正中神經</text>
+    <path d="M975 220 L975 400" stroke="#7c3aed" stroke-width="24" stroke-linecap="round"/>
+    <rect x="900" y="385" width="150" height="65" rx="18" fill="#fff" stroke="#6d28d9" stroke-width="4"/>
+    <text x="975" y="425" text-anchor="middle" font-size="20" fill="#5b21b6">腕隧道</text>
+    <path d="M975 450 C900 505 875 550 850 600 M975 450 C965 520 965 560 965 610 M975 450 C1040 510 1065 555 1090 600" fill="none" stroke="#8b5cf6" stroke-width="14" stroke-linecap="round"/>
+    <text x="975" y="265" text-anchor="middle" font-size="19" fill="#5b21b6">感覺：拇、食、中、環指橈側</text>
+    <text x="975" y="305" text-anchor="middle" font-size="19" fill="#5b21b6">運動：拇指外展／對掌</text>
+    <text x="975" y="635" text-anchor="middle" font-size="18" fill="#5b21b6">單一誘發測試不能確診 CTS</text>
+  </g>
+</svg>
+
