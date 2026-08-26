@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="620" viewBox="0 0 1000 620" role="img" aria-labelledby="t d">
+  <title id="t">胸腰椎臨床關聯圖</title><desc id="d">胸椎、胸腰交界、腰椎與相關臨床問題的概念圖。</desc>
+  <rect width="1000" height="620" fill="#f7fafc"/><text x="500" y="48" text-anchor="middle" font-size="30" font-weight="700" fill="#183153" font-family='Arial, Noto Sans TC, sans-serif'>胸腰椎：結構、負荷與臨床分流</text>
+  <path d="M500 95 C455 145 555 185 500 235 C445 285 555 330 500 380 C455 425 535 470 500 525" fill="none" stroke="#426b8e" stroke-width="28" stroke-linecap="round"/>
+  <g fill="#ffffff" stroke="#5683a6" stroke-width="3" font-family='Arial, Noto Sans TC, sans-serif'>
+    <rect x="85" y="115" width="300" height="120" rx="18"/><rect x="615" y="115" width="300" height="120" rx="18"/>
+    <rect x="85" y="355" width="300" height="140" rx="18"/><rect x="615" y="355" width="300" height="140" rx="18"/>
+  </g>
+  <g fill="#183153" font-size="23" font-family='Arial, Noto Sans TC, sans-serif'>
+    <text x="235" y="153" text-anchor="middle" font-weight="700">胸椎 T1–T12</text><text x="235" y="188" text-anchor="middle">肋骨增加穩定</text><text x="235" y="218" text-anchor="middle">胸痛須排除非肌骨原因</text>
+    <text x="765" y="153" text-anchor="middle" font-weight="700">胸腰交界 T11–L2</text><text x="765" y="188" text-anchor="middle">剛性與活動性的轉換區</text><text x="765" y="218" text-anchor="middle">創傷後留意骨折</text>
+    <text x="235" y="395" text-anchor="middle" font-weight="700">腰椎 L1–L5</text><text x="235" y="430" text-anchor="middle">承受壓縮、剪力與活動</text><text x="235" y="465" text-anchor="middle">影像異常不等於疼痛來源</text>
+    <text x="765" y="395" text-anchor="middle" font-weight="700">神經與馬尾</text><text x="765" y="430" text-anchor="middle">肌節・皮節・反射</text><text x="765" y="465" text-anchor="middle">雙側／鞍區／尿滯留＝緊急</text>
+  </g>
+  <g stroke="#91a9bc" stroke-width="3"><line x1="385" y1="175" x2="475" y2="175"/><line x1="525" y1="175" x2="615" y2="175"/><line x1="385" y1="420" x2="475" y2="420"/><line x1="525" y1="420" x2="615" y2="420"/></g>
+  <text x="500" y="585" text-anchor="middle" font-size="18" fill="#5c6f7d" font-family='Arial, Noto Sans TC, sans-serif'>概念示意，非比例解剖圖；須結合病史、神經學與影像適應症。</text>
+</svg>
