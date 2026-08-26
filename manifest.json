@@ -1,15 +1,14 @@
 {
-  "package": "AT-Obsidian-知識包-2026-08-25-手腕與手",
-  "date": "2026-08-25",
-  "region": "手腕與手",
+  "package": "AT-Obsidian-知識包-2026-08-26-胸腰椎",
+  "date": "2026-08-26",
+  "region": "胸腰椎",
   "core_notes": 5,
   "related_notes": 10,
   "images": 3,
   "index_updates": 6,
   "source_repository": "janice880624/AT-Obsidian",
   "source_branch": "main",
-  "source_tree_sha": "7f5f55e6ceac16bdb026ab6802a570dc6076f29e",
+  "source_tree_sha": "07fb8fc134ee9a4c2b5cec78adf1b6b590bbfc57",
   "github_modified": false,
-  "next_region": "胸腰椎"
+  "next_region": "骨盆與髖"
 }
-
