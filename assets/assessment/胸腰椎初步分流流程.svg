@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="690" viewBox="0 0 1100 690" role="img" aria-labelledby="t d">
+  <title id="t">胸腰椎初步分流流程</title><desc id="d">胸腰椎症狀由紅旗、神經與功能進行初步分流的流程。</desc>
+  <rect width="1100" height="690" fill="#f8fbfd"/><text x="550" y="46" text-anchor="middle" font-size="30" font-weight="700" fill="#183153" font-family='Arial, Noto Sans TC, sans-serif'>胸腰椎初步分流</text>
+  <g font-family='Arial, Noto Sans TC, sans-serif' text-anchor="middle"><rect x="350" y="80" width="400" height="72" rx="18" fill="#dcebf5" stroke="#5683a6" stroke-width="3"/><text x="550" y="124" font-size="24" fill="#183153">胸背／腰背痛或外傷</text>
+    <path d="M550 152V195" stroke="#6d879a" stroke-width="4"/><polygon points="550,208 541,192 559,192" fill="#6d879a"/>
+    <rect x="250" y="208" width="600" height="112" rx="18" fill="#fff1e8" stroke="#d16b3a" stroke-width="3"/><text x="550" y="248" font-size="23" font-weight="700" fill="#8a3d1d">高能量／骨質風險？馬尾？進行性神經？</text><text x="550" y="284" font-size="21" fill="#8a3d1d">感染、腫瘤、胸腹腔或血管警訊？</text>
+    <path d="M250 264H145V390" stroke="#6d879a" stroke-width="4" fill="none"/><polygon points="145,404 136,388 154,388" fill="#6d879a"/><text x="170" y="250" font-size="20" fill="#8a3d1d">有／不確定</text>
+    <rect x="45" y="404" width="300" height="120" rx="18" fill="#fde2db" stroke="#b84d32" stroke-width="3"/><text x="195" y="449" font-size="23" font-weight="700" fill="#8b2f20">停止一般測試</text><text x="195" y="486" font-size="21" fill="#8b2f20">依緊急度固定、轉介、影像</text>
+    <path d="M850 264H955V390" stroke="#6d879a" stroke-width="4" fill="none"/><polygon points="955,404 946,388 964,388" fill="#6d879a"/><text x="925" y="250" font-size="20" fill="#2b6650">無</text>
+    <rect x="755" y="404" width="300" height="120" rx="18" fill="#e4f3ec" stroke="#44866b" stroke-width="3"/><text x="905" y="449" font-size="23" font-weight="700" fill="#245640">系統性檢查</text><text x="905" y="486" font-size="21" fill="#245640">活動・神經・功能基準</text>
+    <path d="M905 524V565H550" stroke="#6d879a" stroke-width="4" fill="none"/><path d="M195 524V565H550" stroke="#6d879a" stroke-width="4" fill="none"/>
+    <rect x="300" y="565" width="500" height="76" rx="18" fill="#edf0f5" stroke="#6d879a" stroke-width="3"/><text x="550" y="612" font-size="22" fill="#263f52">記錄變化、提供安全網與明確複評條件</text>
+  </g>
+</svg>
