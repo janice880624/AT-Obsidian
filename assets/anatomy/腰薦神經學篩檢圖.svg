@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="650" viewBox="0 0 1100 650" role="img" aria-labelledby="t d">
+  <title id="t">腰薦神經學篩檢圖</title><desc id="d">L2 到 S1 肌節、感覺與反射快速篩檢表。</desc>
+  <rect width="1100" height="650" fill="#fbfcfe"/><text x="550" y="48" text-anchor="middle" font-size="30" font-weight="700" fill="#183153" font-family='Arial, Noto Sans TC, sans-serif'>腰薦神經學快速篩檢（概略）</text>
+  <g font-family='Arial, Noto Sans TC, sans-serif' font-size="22"><rect x="70" y="90" width="960" height="430" rx="20" fill="#eef5fa" stroke="#5683a6" stroke-width="3"/>
+    <g fill="#d7e8f3"><rect x="70" y="90" width="960" height="70" rx="20"/><rect x="70" y="160" width="960" height="72"/><rect x="70" y="304" width="960" height="72"/><rect x="70" y="448" width="960" height="72" rx="0 0 20 20"/></g>
+    <g fill="#183153" font-weight="700"><text x="145" y="135">節段</text><text x="360" y="135">代表動作</text><text x="650" y="135">感覺代表區</text><text x="915" y="135">反射</text></g>
+    <g fill="#263f52"><text x="145" y="205">L2–L3</text><text x="360" y="205">髖屈／膝伸</text><text x="650" y="205">大腿前側</text><text x="915" y="205">膝</text>
+      <text x="145" y="277">L4</text><text x="360" y="277">踝背屈</text><text x="650" y="277">小腿內側</text><text x="915" y="277">膝</text>
+      <text x="145" y="349">L5</text><text x="360" y="349">大拇趾伸／髖外展</text><text x="650" y="349">足背／第一蹼</text><text x="915" y="349">—</text>
+      <text x="145" y="421">S1</text><text x="360" y="421">蹠屈／足外翻</text><text x="650" y="421">足外側</text><text x="915" y="421">跟腱</text>
+      <text x="145" y="493">馬尾</text><text x="360" y="493">雙腿與盆腔功能</text><text x="650" y="493">鞍區</text><text x="915" y="493">緊急分流</text></g>
+  </g>
+  <rect x="110" y="550" width="880" height="58" rx="14" fill="#fff1e8" stroke="#d16b3a" stroke-width="2"/><text x="550" y="587" text-anchor="middle" font-size="21" fill="#8a3d1d" font-family='Arial, Noto Sans TC, sans-serif'>新發尿滯留、鞍區感覺或雙側快速惡化症狀：停止一般測試並緊急轉介</text>
+</svg>
