@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1050" height="650" viewBox="0 0 1050 650" role="img" aria-labelledby="t d">
+  <title id="t">髖部疼痛區域與鑑別圖</title><desc id="d">前側腹股溝、外側髖與後側臀部疼痛的常見鑑別方向。</desc>
+  <rect width="1050" height="650" fill="#fbfcfe"/><text x="525" y="48" text-anchor="middle" font-size="30" font-weight="700" fill="#17324d" font-family='Arial, Noto Sans TC, sans-serif'>髖部疼痛位置：只用來開始鑑別</text>
+  <g font-family='Arial, Noto Sans TC, sans-serif'><rect x="55" y="100" width="300" height="430" rx="22" fill="#e9f3f8" stroke="#4f819e" stroke-width="3"/><rect x="375" y="100" width="300" height="430" rx="22" fill="#eef6ed" stroke="#538361" stroke-width="3"/><rect x="695" y="100" width="300" height="430" rx="22" fill="#f6eef8" stroke="#866198" stroke-width="3"/>
+    <text x="205" y="150" text-anchor="middle" font-size="26" font-weight="700" fill="#245a78">前側／腹股溝</text><text x="525" y="150" text-anchor="middle" font-size="26" font-weight="700" fill="#386447">外側髖</text><text x="845" y="150" text-anchor="middle" font-size="26" font-weight="700" fill="#674379">後側／臀部</text>
+    <g font-size="21" fill="#263f52"><text x="85" y="210">• 髖關節相關疼痛</text><text x="85" y="255">• 股骨頸骨應力傷</text><text x="85" y="300">• 內收肌／髂腰肌</text><text x="85" y="345">• 腹股溝管／腹部</text><text x="405" y="210">• 臀肌腱／GTPS</text><text x="405" y="255">• 外側壓迫與負荷</text><text x="405" y="300">• 腰椎轉移痛</text><text x="725" y="210">• 近端腿後肌腱</text><text x="725" y="255">• 深臀區</text><text x="725" y="300">• 腰薦神經／轉移痛</text><text x="725" y="345">• 薦髂區或非肌骨</text></g>
+  </g>
+  <rect x="130" y="565" width="790" height="52" rx="14" fill="#fff1e8" stroke="#c8683e" stroke-width="2"/><text x="525" y="598" text-anchor="middle" font-size="20" fill="#823b1f" font-family='Arial, Noto Sans TC, sans-serif'>位置重疊常見：整合病史、負荷、活動、力量、神經與必要影像；不要單靠痛點確診</text>
+</svg>
