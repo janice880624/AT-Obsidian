@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="700" viewBox="0 0 1100 700" role="img" aria-labelledby="t d">
+  <title id="t">骨盆與髖初步分流流程</title><desc id="d">骨盆與髖症狀依創傷、負重、骨應力傷、感染與非肌骨紅旗分流。</desc>
+  <rect width="1100" height="700" fill="#f8fbfd"/><text x="550" y="46" text-anchor="middle" font-size="30" font-weight="700" fill="#17324d" font-family='Arial, Noto Sans TC, sans-serif'>骨盆與髖初步分流</text>
+  <g font-family='Arial, Noto Sans TC, sans-serif' text-anchor="middle"><rect x="350" y="82" width="400" height="70" rx="18" fill="#dbeaf4" stroke="#547e9b" stroke-width="3"/><text x="550" y="125" font-size="24" fill="#17324d">髖／腹股溝／臀部痛</text>
+    <path d="M550 152V194" stroke="#71899a" stroke-width="4"/><polygon points="550,208 541,192 559,192" fill="#71899a"/>
+    <rect x="245" y="208" width="610" height="118" rx="18" fill="#fff0e8" stroke="#c8683e" stroke-width="3"/><text x="550" y="248" font-size="22" font-weight="700" fill="#823b1f">高能量／變形／無法負重？神經血管？</text><text x="550" y="282" font-size="21" fill="#823b1f">骨應力傷、感染、兒科或腹部／泌尿生殖紅旗？</text>
+    <path d="M245 268H140V400" stroke="#71899a" stroke-width="4" fill="none"/><polygon points="140,414 131,398 149,398" fill="#71899a"/><text x="170" y="255" font-size="20" fill="#823b1f">有／不確定</text>
+    <rect x="35" y="414" width="315" height="126" rx="18" fill="#f9ded5" stroke="#aa4c31" stroke-width="3"/><text x="192" y="458" font-size="23" font-weight="700" fill="#7a2c1d">停止誘發與負荷測試</text><text x="192" y="496" font-size="20" fill="#7a2c1d">固定／減重・緊急或同日轉介</text>
+    <path d="M855 268H960V400" stroke="#71899a" stroke-width="4" fill="none"/><polygon points="960,414 951,398 969,398" fill="#71899a"/><text x="930" y="255" font-size="20" fill="#35644f">無</text>
+    <rect x="750" y="414" width="315" height="126" rx="18" fill="#e4f2eb" stroke="#4c8268" stroke-width="3"/><text x="907" y="458" font-size="23" font-weight="700" fill="#2e5d48">系統性檢查</text><text x="907" y="496" font-size="20" fill="#2e5d48">活動・力量・功能・選擇性測試</text>
+    <path d="M192 540V580H550" stroke="#71899a" stroke-width="4" fill="none"/><path d="M907 540V580H550" stroke="#71899a" stroke-width="4" fill="none"/>
+    <rect x="285" y="580" width="530" height="76" rx="18" fill="#edf1f5" stroke="#71899a" stroke-width="3"/><text x="550" y="626" font-size="21" fill="#263f52">記錄負重程度、症狀變化、複評與安全網</text></g>
+</svg>
