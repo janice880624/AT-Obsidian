@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1050" height="600" viewBox="0 0 1050 600" role="img" aria-labelledby="title desc">
+  <title id="title">足踝 PAASS 回場框架</title>
+  <desc id="desc">五個回場評估領域：疼痛、踝部缺損、運動員感受、感覺動作控制與運動功能</desc>
+  <rect width="1050" height="600" fill="#f7fafc"/>
+  <text x="40" y="50" font-family="sans-serif" font-size="30" font-weight="700" fill="#17324d">PAASS：足踝回場的五個評估領域</text>
+  <g font-family="sans-serif" text-anchor="middle">
+    <circle cx="525" cy="320" r="105" fill="#17324d"/>
+    <text x="525" y="303" font-size="27" font-weight="700" fill="white">回到運動</text>
+    <text x="525" y="336" font-size="19" fill="white">不是單一測試或固定日期</text>
+    <text x="525" y="364" font-size="17" fill="#d9ecf8">含完整訓練課與24小時反應</text>
+    <g font-size="20" fill="#17324d">
+      <rect x="390" y="80" width="270" height="95" rx="18" fill="#fde9e9" stroke="#bd5656" stroke-width="2"/>
+      <text x="525" y="115" font-weight="700">P｜疼痛</text><text x="525" y="145">運動中＋過去 24 小時</text>
+      <rect x="55" y="205" width="285" height="105" rx="18" fill="#e7f1f8" stroke="#5b86a2" stroke-width="2"/>
+      <text x="197" y="240" font-weight="700">A｜踝部缺損</text><text x="197" y="270">活動度、力量、耐力、爆發力</text>
+      <rect x="710" y="205" width="285" height="105" rx="18" fill="#fff2d9" stroke="#c58b2c" stroke-width="2"/>
+      <text x="852" y="240" font-weight="700">A｜運動員感受</text><text x="852" y="270">信心、穩定感、心理準備</text>
+      <rect x="120" y="420" width="310" height="105" rx="18" fill="#e9f5e9" stroke="#559160" stroke-width="2"/>
+      <text x="275" y="455" font-weight="700">S｜感覺動作控制</text><text x="275" y="485">本體感覺、靜態／動態平衡</text>
+      <rect x="620" y="420" width="310" height="105" rx="18" fill="#eee9f8" stroke="#7860a1" stroke-width="2"/>
+      <text x="775" y="455" font-weight="700">S｜運動／功能表現</text><text x="775" y="485">跳躍、敏捷、專項、完整訓練</text>
+    </g>
+  </g>
+  <g stroke="#6b7f8d" stroke-width="3"><line x1="525" y1="215" x2="525" y2="175"/><line x1="420" y1="285" x2="340" y2="260"/><line x1="630" y1="285" x2="710" y2="260"/><line x1="455" y1="400" x2="390" y2="450"/><line x1="595" y1="400" x2="660" y2="450"/></g>
+  <text x="40" y="570" font-family="sans-serif" font-size="18" fill="#5d6d7e">依 Smith et al.（2021）共識概念原創整理；PAASS 不是加總分數或已驗證的固定通關值。</text>
+</svg>
