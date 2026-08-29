@@ -1,16 +1,16 @@
 {
-  "package": "AT-Obsidian-知識包-2026-08-28-膝部",
-  "date": "2026-08-28",
-  "region": "膝部",
+  "package": "AT-Obsidian-知識包-2026-08-29-足踝",
+  "date": "2026-08-29",
+  "region": "足踝",
   "core_notes": 5,
   "related_notes": 10,
-  "support_notes": 1,
+  "support_notes": 0,
   "images": 3,
   "index_updates": 6,
   "source_repository": "janice880624/AT-Obsidian",
   "source_branch": "main",
-  "source_commit_sha": "3f3299183e524ddd34749a4d3852faa63add7b01",
+  "source_commit_sha": "34e7a92b8d6564a008ac610fad55d9e054ad3439",
   "github_modified": false,
-  "overwritten_existing_notes": 4,
-  "next_region": "足踝"
+  "overwritten_existing_notes": 0,
+  "next_region": "頭頸（第二輪）"
 }
