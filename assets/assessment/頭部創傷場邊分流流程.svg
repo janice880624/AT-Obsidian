@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="650" viewBox="0 0 1100 650" role="img" aria-labelledby="title desc">
+  <title id="title">頭部創傷場邊分流流程</title>
+  <desc id="desc">從初級評估與頸椎保護、紅旗、疑似腦震盪移除到持續觀察的流程</desc>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#4b6578"/></marker></defs>
+  <rect width="1100" height="650" fill="#f7fafc"/>
+  <text x="45" y="55" font-family="sans-serif" font-size="31" font-weight="700" fill="#17364a">頭部撞擊後：場邊先辨識、移除、再評估</text>
+  <g font-family="sans-serif" font-size="20" text-anchor="middle">
+    <rect x="390" y="85" width="320" height="70" rx="14" fill="#dceef7" stroke="#527f98" stroke-width="2"/>
+    <text x="550" y="116">頭／頸／身體受力</text><text x="550" y="142">疑似腦震盪或重大創傷</text>
+    <rect x="70" y="215" width="285" height="105" rx="14" fill="#fde7e7" stroke="#b64a4a" stroke-width="2"/>
+    <text x="212" y="248">ABC、意識或神經紅旗</text><text x="212" y="276">疑顱內／頸椎傷</text><text x="212" y="304">→ 緊急醫療與轉送</text>
+    <rect x="407" y="215" width="285" height="105" rx="14" fill="#fff1d8" stroke="#c58a27" stroke-width="2"/>
+    <text x="550" y="248">無立即紅旗但有可疑徵象</text><text x="550" y="276">症狀、混亂、失憶、失衡</text><text x="550" y="304">→ 立即移除，不得當日回場</text>
+    <rect x="745" y="215" width="285" height="105" rx="14" fill="#e9f5e9" stroke="#4d8d57" stroke-width="2"/>
+    <text x="887" y="248">初始表現不明顯</text><text x="887" y="276">仍需負責任成人觀察</text><text x="887" y="304">症狀可延遲出現</text>
+    <rect x="270" y="405" width="300" height="92" rx="14" fill="#e8eef8" stroke="#587aa8" stroke-width="2"/>
+    <text x="420" y="440">安靜環境多領域評估</text><text x="420" y="469">SCAT6 僅供受訓醫療人員</text>
+    <rect x="625" y="405" width="300" height="92" rx="14" fill="#eee9f8" stroke="#7860a1" stroke-width="2"/>
+    <text x="775" y="440">提供書面觀察指示</text><text x="775" y="469">惡化即急診；不可自行駕車</text>
+    <rect x="390" y="555" width="320" height="60" rx="14" fill="#17364a"/>
+    <text x="550" y="592" fill="white" font-weight="700">沒有任何單一場邊測試可排除腦震盪</text>
+  </g>
+  <g stroke="#4b6578" stroke-width="3" fill="none" marker-end="url(#a)">
+    <path d="M550 155 L212 215"/><path d="M550 155 L550 215"/><path d="M550 155 L887 215"/>
+    <path d="M550 320 L450 405"/><path d="M887 320 L800 405"/><path d="M570 497 L530 555"/><path d="M700 497 L610 555"/>
+  </g>
+  <text x="45" y="635" font-family="sans-serif" font-size="17" fill="#5d6d7e">原創教學流程；緊急處置、頸椎移動與轉送以所在地法規及機構 SOP 為準。</text>
+</svg>
