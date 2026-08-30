@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="620" viewBox="0 0 1120 620" role="img" aria-labelledby="title desc">
+  <title id="title">腦震盪分階段恢復圖</title>
+  <desc id="desc">由相對休息、輕度有氧、個人運動、非接觸、接觸訓練到比賽的六階段</desc>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#5a7182"/></marker></defs>
+  <rect width="1120" height="620" fill="#f7fafc"/>
+  <text x="40" y="52" font-family="sans-serif" font-size="30" font-weight="700" fill="#17364a">腦震盪恢復：負荷逐步增加，不能跳階</text>
+  <g font-family="sans-serif" text-anchor="middle">
+    <g font-size="19">
+      <rect x="45" y="110" width="300" height="105" rx="16" fill="#e7f1f8" stroke="#5b86a2" stroke-width="2"/><text x="195" y="145" font-weight="700">1｜症狀限制活動</text><text x="195" y="175">24–48 小時相對休息</text><text x="195" y="201">日常活動，不完全隔離</text>
+      <rect x="410" y="110" width="300" height="105" rx="16" fill="#e9f5e9" stroke="#559160" stroke-width="2"/><text x="560" y="145" font-weight="700">2｜輕度有氧</text><text x="560" y="175">步行／固定腳踏車</text><text x="560" y="201">低於明顯症狀惡化</text>
+      <rect x="775" y="110" width="300" height="105" rx="16" fill="#fff2d9" stroke="#c58b2c" stroke-width="2"/><text x="925" y="145" font-weight="700">3｜個人專項運動</text><text x="925" y="175">提高心率與動作複雜度</text><text x="925" y="201">仍避免頭部撞擊</text>
+      <rect x="775" y="320" width="300" height="105" rx="16" fill="#f7e9dd" stroke="#b87a45" stroke-width="2"/><text x="925" y="355" font-weight="700">4｜非接觸訓練</text><text x="925" y="385">協調、阻力、雙任務</text><text x="925" y="411">恢復運動專項能力</text>
+      <rect x="410" y="320" width="300" height="105" rx="16" fill="#eee9f8" stroke="#7860a1" stroke-width="2"/><text x="560" y="355" font-weight="700">5｜完整接觸訓練</text><text x="560" y="385">需醫療許可</text><text x="560" y="411">確認完整訓練耐受</text>
+      <rect x="45" y="320" width="300" height="105" rx="16" fill="#fde9e9" stroke="#b64a4a" stroke-width="2"/><text x="195" y="355" font-weight="700">6｜回到比賽</text><text x="195" y="385">完成所有階段</text><text x="195" y="411">無新的臨床問題</text>
+    </g>
+  </g>
+  <g stroke="#5a7182" stroke-width="3" fill="none" marker-end="url(#a)"><path d="M345 162 L410 162"/><path d="M710 162 L775 162"/><path d="M925 215 L925 320"/><path d="M775 372 L710 372"/><path d="M410 372 L345 372"/></g>
+  <rect x="190" y="495" width="740" height="70" rx="16" fill="#17364a"/>
+  <text x="560" y="524" font-family="sans-serif" font-size="21" font-weight="700" text-anchor="middle" fill="white">每階段通常至少 24 小時；明顯或持續惡化就退回並再評估</text>
+  <text x="560" y="552" font-family="sans-serif" font-size="17" text-anchor="middle" fill="#dcecf5">接觸風險前需恢復症狀、認知、臨床檢查與運動反應並獲醫療許可</text>
+  <text x="40" y="604" font-family="sans-serif" font-size="17" fill="#5d6d7e">依 Amsterdam 2022 共識概念原創整理；實際階段與許可遵循所在地規範及醫療團隊。</text>
+</svg>
