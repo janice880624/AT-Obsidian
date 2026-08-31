@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">急性肩帶創傷分流流程</title>
+  <desc id="desc">由主調查、立即紅旗、保護與神經血管紀錄、正交影像到再評估的流程圖。</desc>
+  <rect width="1200" height="760" fill="#f8fafc"/>
+  <text x="600" y="48" text-anchor="middle" font-family="sans-serif" font-size="32" font-weight="700" fill="#0f172a">急性肩帶創傷分流</text>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#475569"/></marker></defs>
+  <g font-family="sans-serif" text-anchor="middle">
+    <rect x="360" y="80" width="480" height="80" rx="16" fill="#dbeafe" stroke="#2563eb" stroke-width="4"/>
+    <text x="600" y="128" font-size="25" fill="#1e3a8a">主調查：生命徵象、頭頸／胸部、多重創傷</text>
+    <path d="M600 160 V205" stroke="#475569" stroke-width="4" marker-end="url(#a)"/>
+    <rect x="310" y="210" width="580" height="105" rx="16" fill="#fee2e2" stroke="#dc2626" stroke-width="4"/>
+    <text x="600" y="250" font-size="24" fill="#991b1b">開放傷／皮膚受壓／呼吸吞嚥困難</text>
+    <text x="600" y="285" font-size="24" fill="#991b1b">脈搏異常／進行性神經缺損／明顯變形</text>
+    <path d="M600 315 V360" stroke="#475569" stroke-width="4" marker-end="url(#a)"/>
+    <rect x="355" y="365" width="490" height="92" rx="16" fill="#fef3c7" stroke="#d97706" stroke-width="4"/>
+    <text x="600" y="402" font-size="24" fill="#92400e">支托與保護；記錄復位／轉運前</text>
+    <text x="600" y="434" font-size="24" fill="#92400e">神經血管狀態；禁止場邊復位</text>
+    <path d="M600 457 V502" stroke="#475569" stroke-width="4" marker-end="url(#a)"/>
+    <rect x="330" y="507" width="540" height="92" rx="16" fill="#dcfce7" stroke="#16a34a" stroke-width="4"/>
+    <text x="600" y="546" font-size="24" fill="#166534">X 光正交觀為常見起點</text>
+    <text x="600" y="578" font-size="22" fill="#166534">持續高度懷疑 → 依結構選 CT／MRI／超音波</text>
+    <path d="M600 599 V644" stroke="#475569" stroke-width="4" marker-end="url(#a)"/>
+    <rect x="355" y="649" width="490" height="66" rx="16" fill="#e0e7ff" stroke="#4f46e5" stroke-width="4"/>
+    <text x="600" y="690" font-size="24" fill="#3730a3">影像＋臨床＋復查：共同決策</text>
+  </g>
+  <text x="70" y="742" font-family="sans-serif" font-size="18" fill="#475569">教學流程，不取代急救、影像判讀與所在地 SOP。</text>
+</svg>
+
