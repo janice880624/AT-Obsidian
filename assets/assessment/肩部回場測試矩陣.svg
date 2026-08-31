@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">肩部回場測試矩陣</title>
+  <desc id="desc">將組織、症狀、能力、專項暴露及心理與風險共同決策整合的回場矩陣。</desc>
+  <rect width="1200" height="720" fill="#f8fafc"/>
+  <text x="600" y="52" text-anchor="middle" font-family="sans-serif" font-size="32" font-weight="700" fill="#0f172a">肩部回場不是一個分數：五個證據面向</text>
+  <g font-family="sans-serif" text-anchor="middle">
+    <g><rect x="70" y="110" width="330" height="120" rx="18" fill="#dbeafe" stroke="#2563eb" stroke-width="4"/><text x="235" y="157" font-size="25" fill="#1e3a8a">組織／醫療限制</text><text x="235" y="193" font-size="21" fill="#1e3a8a">癒合、穩定、醫師許可</text></g>
+    <g><rect x="435" y="110" width="330" height="120" rx="18" fill="#dcfce7" stroke="#16a34a" stroke-width="4"/><text x="600" y="157" font-size="25" fill="#166534">症狀反應</text><text x="600" y="193" font-size="21" fill="#166534">疼痛、腫脹、24 小時反應</text></g>
+    <g><rect x="800" y="110" width="330" height="120" rx="18" fill="#fef3c7" stroke="#d97706" stroke-width="4"/><text x="965" y="157" font-size="25" fill="#92400e">身體能力</text><text x="965" y="193" font-size="21" fill="#92400e">活動度、力量、CKCUEST／UQYBT</text></g>
+    <g><rect x="230" y="285" width="330" height="120" rx="18" fill="#ede9fe" stroke="#7c3aed" stroke-width="4"/><text x="395" y="332" font-size="25" fill="#5b21b6">專項暴露</text><text x="395" y="368" font-size="21" fill="#5b21b6">投擲、過頭、碰撞、疲勞</text></g>
+    <g><rect x="640" y="285" width="330" height="120" rx="18" fill="#ffe4e6" stroke="#e11d48" stroke-width="4"/><text x="805" y="332" font-size="25" fill="#9f1239">心理與情境</text><text x="805" y="368" font-size="21" fill="#9f1239">信心、風險接受、賽程角色</text></g>
+    <path d="M600 430 V495" stroke="#475569" stroke-width="5"/>
+    <rect x="290" y="500" width="620" height="105" rx="22" fill="#e0f2fe" stroke="#0284c7" stroke-width="5"/>
+    <text x="600" y="545" font-size="27" font-weight="700" fill="#075985">共享決策：控制環境 → 練習 → 競賽</text>
+    <text x="600" y="582" font-size="22" fill="#075985">任一測試都不能單獨宣告安全</text>
+  </g>
+  <text x="70" y="675" font-family="sans-serif" font-size="19" fill="#475569">依 Bern 肩部回場共識概念整理；門檻需依個人、運動與測量程序決定。</text>
+</svg>
