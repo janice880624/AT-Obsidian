@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">肘部骨性創傷關聯圖</title>
+  <desc id="desc">顯示遠端肱骨、橈骨頭、鷹嘴與冠狀突的概念位置，並標示可怕三聯徵組合。</desc>
+  <rect width="1200" height="720" fill="#f8fafc"/>
+  <text x="600" y="52" text-anchor="middle" font-family="sans-serif" font-size="32" font-weight="700" fill="#0f172a">肘部骨性創傷：骨塊位置要與整體穩定性一起看</text>
+  <path d="M520 100 L470 300 Q470 365 540 385 L660 385 Q730 365 730 300 L680 100 Z" fill="#fde68a" stroke="#ca8a04" stroke-width="6"/>
+  <text x="600" y="180" text-anchor="middle" font-family="sans-serif" font-size="28" fill="#854d0e">遠端肱骨</text>
+  <path d="M545 390 Q500 430 490 520 L470 650" fill="none" stroke="#60a5fa" stroke-width="62" stroke-linecap="round"/>
+  <path d="M660 390 Q700 430 705 520 L720 650" fill="none" stroke="#fb923c" stroke-width="54" stroke-linecap="round"/>
+  <ellipse cx="666" cy="393" rx="48" ry="34" fill="#fdba74" stroke="#c2410c" stroke-width="5"/>
+  <path d="M500 380 Q455 350 430 410 Q485 445 535 407" fill="#93c5fd" stroke="#1d4ed8" stroke-width="5"/>
+  <path d="M530 410 Q570 450 530 492" fill="#bfdbfe" stroke="#1d4ed8" stroke-width="5"/>
+  <g font-family="sans-serif" font-size="24">
+    <text x="280" y="370" fill="#1e40af">鷹嘴</text><path d="M370 365 L445 390" stroke="#1e40af" stroke-width="3"/>
+    <text x="290" y="485" fill="#1e40af">冠狀突</text><path d="M390 480 L515 450" stroke="#1e40af" stroke-width="3"/>
+    <text x="790" y="405" fill="#9a3412">橈骨頭</text><path d="M775 395 L715 395" stroke="#9a3412" stroke-width="3"/>
+  </g>
+  <rect x="160" y="565" width="880" height="96" rx="18" fill="#fee2e2" stroke="#dc2626" stroke-width="4"/>
+  <text x="600" y="605" text-anchor="middle" font-family="sans-serif" font-size="25" font-weight="700" fill="#991b1b">可怕三聯徵＝肘脫臼＋橈骨頭骨折＋冠狀突骨折</text>
+  <text x="600" y="640" text-anchor="middle" font-family="sans-serif" font-size="21" fill="#991b1b">非比例教學圖；復位後仍須正交影像、神經血管複查與穩定性評估</text>
+</svg>
+
