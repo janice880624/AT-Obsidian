@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">肘部回場測試矩陣</title>
+  <desc id="desc">整合組織癒合、症狀、肘部能力、上肢功能、專項工作量與心理情境的回場矩陣。</desc>
+  <rect width="1200" height="720" fill="#f8fafc"/>
+  <text x="600" y="50" text-anchor="middle" font-family="sans-serif" font-size="32" font-weight="700" fill="#0f172a">肘部回場：能力 × 負荷 × 反應</text>
+  <g font-family="sans-serif" text-anchor="middle">
+    <g><rect x="65" y="105" width="330" height="115" rx="18" fill="#dbeafe" stroke="#2563eb" stroke-width="4"/><text x="230" y="150" font-size="24" fill="#1e3a8a">組織／醫療限制</text><text x="230" y="185" font-size="20" fill="#1e3a8a">骨癒合、腱韌帶、穩定性</text></g>
+    <g><rect x="435" y="105" width="330" height="115" rx="18" fill="#dcfce7" stroke="#16a34a" stroke-width="4"/><text x="600" y="150" font-size="24" fill="#166534">局部能力</text><text x="600" y="185" font-size="20" fill="#166534">活動度、握力、屈伸／旋轉力量</text></g>
+    <g><rect x="805" y="105" width="330" height="115" rx="18" fill="#fef3c7" stroke="#d97706" stroke-width="4"/><text x="970" y="150" font-size="24" fill="#92400e">功能表現</text><text x="970" y="185" font-size="20" fill="#92400e">單臂推擲、CKCUEST、抓推拉</text></g>
+    <g><rect x="235" y="275" width="330" height="115" rx="18" fill="#ede9fe" stroke="#7c3aed" stroke-width="4"/><text x="400" y="320" font-size="24" fill="#5b21b6">專項負荷</text><text x="400" y="355" font-size="20" fill="#5b21b6">球數、速度、碰撞、疲勞</text></g>
+    <g><rect x="635" y="275" width="330" height="115" rx="18" fill="#ffe4e6" stroke="#e11d48" stroke-width="4"/><text x="800" y="320" font-size="24" fill="#9f1239">症狀與情境</text><text x="800" y="355" font-size="20" fill="#9f1239">24 小時反應、信心、角色風險</text></g>
+    <path d="M600 415 V480" stroke="#475569" stroke-width="5"/>
+    <rect x="260" y="485" width="680" height="112" rx="22" fill="#e0f2fe" stroke="#0284c7" stroke-width="5"/>
+    <text x="600" y="530" font-size="27" font-weight="700" fill="#075985">逐級暴露：控制環境 → 完整訓練 → 競賽</text>
+    <text x="600" y="570" font-size="22" fill="#075985">單一測試、日曆週數或一次無痛都不能單獨通關</text>
+  </g>
+  <text x="70" y="670" font-family="sans-serif" font-size="19" fill="#475569">測試門檻應依個人基準、測量誤差與運動需求決定。</text>
+</svg>
