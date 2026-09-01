@@ -1,7 +1,7 @@
 {
-  "package": "AT-Obsidian-知識包-2026-08-31-肩部第二輪",
-  "date": "2026-08-31",
-  "region": "肩部（第二輪）",
+  "package": "AT-Obsidian-知識包-2026-09-01-肘部第二輪",
+  "date": "2026-09-01",
+  "region": "肘部（第二輪）",
   "core_notes": 5,
   "related_notes": 10,
   "support_notes": 0,
@@ -9,11 +9,9 @@
   "index_updates": 7,
   "source_repository": "janice880624/AT-Obsidian",
   "source_branch": "main",
-  "source_commit_sha": "325ed496600f59cc904344adf9b31450ea09d092",
+  "source_commit_sha": "8d501a8f4ef38887405cd20cfe070c53b45bc507",
   "github_modified": false,
   "overwritten_existing_notes": 0,
-  "new_functional_test_index": 1,
   "inherited_unresolved_placeholder_links": 5,
-  "next_region": "肘部（第二輪）"
+  "next_region": "手腕與手（第二輪）"
 }
-
