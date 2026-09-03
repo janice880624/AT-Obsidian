@@ -1,7 +1,7 @@
 {
-  "package": "AT-Obsidian-知識包-2026-09-02-手腕與手第二輪",
-  "date": "2026-09-02",
-  "region": "手腕與手（第二輪）",
+  "package": "AT-Obsidian-知識包-2026-09-03-胸腰椎第二輪",
+  "date": "2026-09-03",
+  "region": "胸腰椎（第二輪）",
   "core_notes": 5,
   "related_notes": 10,
   "support_notes": 0,
@@ -9,10 +9,10 @@
   "index_updates": 7,
   "source_repository": "janice880624/AT-Obsidian",
   "source_branch": "main",
-  "source_commit_sha": "1c176cd9943d224be262d2b4bd490ed18b15af9c",
+  "source_commit_sha": "10027a7dc246314fb69fb2ac153d200d106f2b43",
   "github_modified": false,
   "overwritten_existing_notes": 0,
   "inherited_unresolved_placeholder_links": 5,
-  "next_region": "胸腰椎（第二輪）"
+  "next_region": "骨盆與髖（第二輪）"
 }
 
