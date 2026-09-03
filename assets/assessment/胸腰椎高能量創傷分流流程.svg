@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="780" viewBox="0 0 1200 780" role="img" aria-labelledby="title desc">
+  <title id="title">胸腰椎高能量創傷分流流程</title><desc id="desc">從生命支持、脊柱防護、神經紀錄到影像與交接的創傷流程。</desc>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#475569"/></marker></defs><rect width="1200" height="780" fill="#f8fafc"/>
+  <text x="55" y="58" font-family="sans-serif" font-size="34" font-weight="700">胸腰椎高能量創傷分流</text>
+  <g font-family="sans-serif" font-size="22" text-anchor="middle"><rect x="350" y="90" width="500" height="78" rx="20" fill="#fee2e2" stroke="#dc2626" stroke-width="3"/><text x="600" y="137">停止活動；先處理氣道、呼吸、循環</text>
+  <rect x="350" y="220" width="500" height="92" rx="20" fill="#ffedd5" stroke="#ea580c" stroke-width="3"/><text x="600" y="256">原位手動穩定、最少必要搬動</text><text x="600" y="286">避免低氧與低血壓</text>
+  <rect x="75" y="390" width="455" height="108" rx="20" fill="#dbeafe" stroke="#2563eb" stroke-width="3"/><text x="302" y="428">機轉、壓痛、變形、分散傷</text><text x="302" y="462">記錄雙下肢神經與馬尾警訊</text>
+  <rect x="670" y="390" width="455" height="108" rx="20" fill="#dcfce7" stroke="#16a34a" stroke-width="3"/><text x="897" y="428">高風險 → 創傷中心與 CT</text><text x="897" y="462">疑脊髓／韌帶 → 專科決定 MRI</text>
+  <rect x="310" y="590" width="580" height="105" rx="20" fill="#e0e7ff" stroke="#4f46e5" stroke-width="3"/><text x="600" y="628">轉送前後重測；完整交接所有變化</text><text x="600" y="662">不要求站立、坐起或彎腰證明安全</text></g>
+  <g stroke="#475569" stroke-width="5" fill="none" marker-end="url(#a)"><path d="M600 168 V215"/><path d="M520 312 L350 385"/><path d="M680 312 L850 385"/><path d="M302 498 L500 585"/><path d="M897 498 L700 585"/></g>
+  <text x="55" y="745" font-family="sans-serif" font-size="18" fill="#475569">教學用原創流程圖；不取代急救系統、創傷中心或機構 SOP。</text>
+</svg>
+
