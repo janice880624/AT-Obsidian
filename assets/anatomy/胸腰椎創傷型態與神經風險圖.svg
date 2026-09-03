@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">胸腰椎創傷型態與神經風險圖</title><desc id="desc">比較壓縮、爆裂與屈曲牽張型態及神經風險的非比例示意圖。</desc>
+  <rect width="1200" height="720" fill="#f8fafc"/><text x="55" y="58" font-family="sans-serif" font-size="34" font-weight="700" fill="#0f172a">胸腰椎創傷型態與神經風險（非比例）</text>
+  <g font-family="sans-serif" text-anchor="middle"><text x="205" y="125" font-size="27">壓縮型</text><text x="600" y="125" font-size="27">爆裂型</text><text x="995" y="125" font-size="27">屈曲牽張型</text></g>
+  <g stroke="#334155" stroke-width="4"><path d="M125 210 L285 210 L265 305 L145 305 Z" fill="#fde68a"/><rect x="140" y="330" width="130" height="90" rx="12" fill="#fef3c7"/><rect x="140" y="445" width="130" height="90" rx="12" fill="#fef3c7"/>
+  <path d="M520 205 L680 205 L700 315 L500 315 Z" fill="#fca5a5"/><rect x="535" y="340" width="130" height="90" rx="12" fill="#fee2e2"/><rect x="535" y="455" width="130" height="90" rx="12" fill="#fee2e2"/>
+  <rect x="930" y="205" width="130" height="90" rx="12" fill="#bfdbfe"/><rect x="910" y="350" width="170" height="90" rx="12" fill="#dbeafe"/><rect x="930" y="495" width="130" height="90" rx="12" fill="#dbeafe"/></g>
+  <g stroke="#dc2626" stroke-width="7" fill="none"><path d="M600 205 L735 270"/><path d="M600 205 L465 270"/><path d="M910 350 L1080 440"/><path d="M1080 350 L910 440"/></g>
+  <g fill="#dc2626"><path d="M720 280 l45 -18 l-18 45 z"/><path d="M995 315 l-18 28 h36 z"/></g>
+  <g font-family="sans-serif" font-size="20" fill="#334155" text-anchor="middle"><text x="205" y="610">前柱壓縮；仍須判斷後壁</text><text x="600" y="610">後壁骨片可能進入椎管</text><text x="995" y="610">後方張力帶可能失效</text><text x="600" y="675" font-weight="700">神經正常 ≠ 結構穩定；影像與專科整合判讀</text></g>
+</svg>
+
