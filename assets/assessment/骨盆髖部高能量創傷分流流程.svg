@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="820" viewBox="0 0 1400 820" role="img" aria-labelledby="title desc">
+  <title id="title">骨盆髖部高能量創傷分流流程</title>
+  <desc id="desc">由高能量機轉至ABCDE、紅旗與影像轉介的流程圖</desc>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#334155"/></marker></defs>
+  <rect width="1400" height="820" fill="#f8fafc"/>
+  <text x="700" y="65" text-anchor="middle" font-size="38" font-family="sans-serif" font-weight="700" fill="#0f172a">骨盆髖部高能量創傷分流</text>
+  <g font-family="sans-serif" text-anchor="middle">
+    <rect x="470" y="105" width="460" height="85" rx="18" fill="#fee2e2" stroke="#dc2626" stroke-width="4"/>
+    <text x="700" y="155" font-size="28" font-weight="700" fill="#991b1b">高能量機轉或循環不穩？</text>
+    <line x1="700" y1="190" x2="700" y2="245" stroke="#334155" stroke-width="5" marker-end="url(#a)"/>
+    <rect x="430" y="250" width="540" height="110" rx="18" fill="#fff7ed" stroke="#f97316" stroke-width="4"/>
+    <text x="700" y="295" font-size="27" font-weight="700" fill="#9a3412">ABCDE ＋ 脊柱與骨盆保護</text>
+    <text x="700" y="332" font-size="21" fill="#431407">控制外出血・保溫・最少必要搬動・啟動緊急轉送</text>
+    <line x1="700" y1="360" x2="700" y2="415" stroke="#334155" stroke-width="5" marker-end="url(#a)"/>
+    <rect x="90" y="420" width="520" height="155" rx="18" fill="#fef2f2" stroke="#dc2626" stroke-width="4"/>
+    <text x="350" y="465" font-size="27" font-weight="700" fill="#991b1b">紅旗／立即急診</text>
+    <text x="350" y="505" font-size="21" fill="#450a0a">休克、畸形、開放傷、神經血管異常</text>
+    <text x="350" y="540" font-size="21" fill="#450a0a">無法承重、會陰感覺或排尿異常</text>
+    <rect x="790" y="420" width="520" height="155" rx="18" fill="#eff6ff" stroke="#2563eb" stroke-width="4"/>
+    <text x="1050" y="465" font-size="27" font-weight="700" fill="#1e3a8a">生命徵象穩定仍需評估</text>
+    <text x="1050" y="505" font-size="21" fill="#172554">機轉、疼痛、承重、遠端神經血管</text>
+    <text x="1050" y="540" font-size="21" fill="#172554">避免反覆擠壓或強迫活動</text>
+    <line x1="350" y1="575" x2="350" y2="645" stroke="#334155" stroke-width="5" marker-end="url(#a)"/>
+    <line x1="1050" y1="575" x2="1050" y2="645" stroke="#334155" stroke-width="5" marker-end="url(#a)"/>
+    <rect x="120" y="650" width="460" height="85" rx="18" fill="#dcfce7" stroke="#16a34a" stroke-width="4"/>
+    <text x="350" y="700" font-size="25" font-weight="700" fill="#14532d">創傷中心／急診團隊處置</text>
+    <rect x="820" y="650" width="460" height="85" rx="18" fill="#e0f2fe" stroke="#0284c7" stroke-width="4"/>
+    <text x="1050" y="688" font-size="24" font-weight="700" fill="#0c4a6e">依臨床疑慮安排 X 光／CT</text>
+    <text x="1050" y="718" font-size="19" fill="#0c4a6e">X 光陰性但高度疑慮：MRI 或 CT</text>
+  </g>
+  <text x="40" y="790" font-size="18" font-family="sans-serif" fill="#64748b">原創流程圖・CC BY 4.0・請遵循所在地急救與創傷中心流程</text>
+</svg>
+
