@@ -1,18 +1,146 @@
 {
-  "package": "AT-Obsidian-知識包-2026-09-04-骨盆與髖第二輪",
-  "date": "2026-09-04",
-  "region": "骨盆與髖（第二輪）",
-  "core_notes": 5,
-  "related_notes": 10,
-  "support_notes": 0,
-  "images": 3,
-  "index_updates": 7,
-  "source_repository": "janice880624/AT-Obsidian",
-  "source_branch": "main",
-  "source_commit_sha": "0367aa34d5b214bd0078b9223ebfa9b216ded182",
-  "github_modified": false,
-  "overwritten_existing_notes": 0,
-  "inherited_unresolved_placeholder_links": 5,
-  "next_region": "膝部（第二輪）"
+  "schema_version": 2,
+  "date": "2026-09-05",
+  "region": "膝部第二輪",
+  "github": {
+    "repository": "janice880624/AT-Obsidian",
+    "branch": "main",
+    "commit": "6d477def8a43821c5d690d0b53966c70340da5d3",
+    "mode": "read-only"
+  },
+  "template_policy": {
+    "source": "99_模板",
+    "files_read": {
+      "模板－骨骼或關節.md": "f6478782ded9a18f7b68eea8026dc0cb0e77e029244caa28dd7a909eaecc07e4",
+      "模板－傷害.md": "cff336b061adeb879ded696075adae55c480416f8e884e2f37a62315d8d93e4c",
+      "模板－肌肉.md": "ab7208d5949983fd943503c9554d211b1f4c944fdff4d110f2414bbb2eef96f2",
+      "模板－特殊檢查.md": "eb32c17d3900ae8b5abc68a6a3e4c7597940e1b12633402f5fcae5be48277010",
+      "模板－功能性測試.md": "4b0da535c9d548c3fe4b5f9e5a8ab294bdc40a11b0bb74db9d5bb4c1ce947d49",
+      "模板－運動治療.md": "886477d6466c50442d863b15e9df5726ee0268040c97fb6ca9d7bcf65c7f8909",
+      "模板－貼紮.md": "f5c049b70cdafd4acbdf00f4e62098a33d2791e85930ad20916b8c8209ab5226"
+    },
+    "validated_note_count": 15,
+    "unsupported_new_note_types": [],
+    "yaml_and_heading_order_exact": true
+  },
+  "counts": {
+    "core_notes": 5,
+    "related_notes": 10,
+    "knowledge_notes": 15,
+    "svg": 3
+  },
+  "skipped_duplicates": [],
+  "notes": [
+    {
+      "path": "01_基礎解剖/骨骼/骨骼與關節－髕股關節與伸膝機轉.md",
+      "title": "骨骼與關節－髕股關節與伸膝機轉",
+      "role": "核心",
+      "template": "模板－骨骼或關節.md"
+    },
+    {
+      "path": "03_傷害與疾病/急性傷害/傷害－後十字韌帶損傷.md",
+      "title": "傷害－後十字韌帶損傷",
+      "role": "核心",
+      "template": "模板－傷害.md"
+    },
+    {
+      "path": "03_傷害與疾病/急性傷害/傷害－膝後外側角損傷.md",
+      "title": "傷害－膝後外側角損傷",
+      "role": "核心",
+      "template": "模板－傷害.md"
+    },
+    {
+      "path": "03_傷害與疾病/急性傷害/傷害－急性髕骨外側脫位.md",
+      "title": "傷害－急性髕骨外側脫位",
+      "role": "核心",
+      "template": "模板－傷害.md"
+    },
+    {
+      "path": "03_傷害與疾病/急性傷害/傷害－膝關節骨軟骨損傷.md",
+      "title": "傷害－膝關節骨軟骨損傷",
+      "role": "核心",
+      "template": "模板－傷害.md"
+    },
+    {
+      "path": "01_基礎解剖/肌肉/肌肉－膕肌.md",
+      "title": "肌肉－膕肌",
+      "role": "相關",
+      "template": "模板－肌肉.md"
+    },
+    {
+      "path": "04_評估與檢查/特殊檢查/特殊檢查－Posterior Drawer Test.md",
+      "title": "特殊檢查－Posterior Drawer Test",
+      "role": "相關",
+      "template": "模板－特殊檢查.md"
+    },
+    {
+      "path": "04_評估與檢查/特殊檢查/特殊檢查－Posterior Sag Sign.md",
+      "title": "特殊檢查－Posterior Sag Sign",
+      "role": "相關",
+      "template": "模板－特殊檢查.md"
+    },
+    {
+      "path": "04_評估與檢查/特殊檢查/特殊檢查－Dial Test.md",
+      "title": "特殊檢查－Dial Test",
+      "role": "相關",
+      "template": "模板－特殊檢查.md"
+    },
+    {
+      "path": "04_評估與檢查/特殊檢查/特殊檢查－Moving Patellar Apprehension Test.md",
+      "title": "特殊檢查－Moving Patellar Apprehension Test",
+      "role": "相關",
+      "template": "模板－特殊檢查.md"
+    },
+    {
+      "path": "06_功能性測試/下肢/功能性測試－單腳跳測試組.md",
+      "title": "功能性測試－單腳跳測試組",
+      "role": "相關",
+      "template": "模板－功能性測試.md"
+    },
+    {
+      "path": "06_功能性測試/下肢/功能性測試－側向階梯下降測試.md",
+      "title": "功能性測試－側向階梯下降測試",
+      "role": "相關",
+      "template": "模板－功能性測試.md"
+    },
+    {
+      "path": "05_處置技術/運動治療/運動治療－PCL 保護期股四頭肌等長收縮.md",
+      "title": "運動治療－PCL 保護期股四頭肌等長收縮",
+      "role": "相關",
+      "template": "模板－運動治療.md"
+    },
+    {
+      "path": "05_處置技術/運動治療/運動治療－髕股負荷階梯.md",
+      "title": "運動治療－髕股負荷階梯",
+      "role": "相關",
+      "template": "模板－運動治療.md"
+    },
+    {
+      "path": "05_處置技術/貼紮/貼紮－髕股疼痛症狀調節貼紮.md",
+      "title": "貼紮－髕股疼痛症狀調節貼紮",
+      "role": "相關",
+      "template": "模板－貼紮.md"
+    }
+  ],
+  "assets": [
+    "assets/anatomy/膝後方與髕股穩定結構圖.svg",
+    "assets/assessment/急性髕骨脫位與骨軟骨傷分流.svg",
+    "assets/assessment/膝後向與旋轉檢查整合圖.svg"
+  ],
+  "validation": {
+    "status": "passed",
+    "checks": [
+      "template source integrity",
+      "exact YAML keys",
+      "exact H2 names/order",
+      "no placeholders",
+      "new-name deduplication",
+      "bidirectional index links",
+      "SVG XML",
+      "SHA-256 manifest",
+      "ZIP extraction",
+      "ZIP path safety"
+    ]
+  },
+  "generated_at_utc": "2026-09-05T00:09:48.403348+00:00"
 }
-
