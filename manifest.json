@@ -1,27 +1,49 @@
 {
-  "schema_version": 2,
-  "date": "2026-09-05",
-  "region": "膝部第二輪",
+  "schema_version": 3,
+  "date": "2026-09-06",
+  "region": "足踝第二輪",
   "github": {
     "repository": "janice880624/AT-Obsidian",
     "branch": "main",
-    "commit": "6d477def8a43821c5d690d0b53966c70340da5d3",
+    "commit": "9387a3658e2d9594b30a0d7f47da54c8c0260b6c",
     "mode": "read-only"
   },
   "template_policy": {
-    "source": "99_模板",
-    "files_read": {
-      "模板－骨骼或關節.md": "f6478782ded9a18f7b68eea8026dc0cb0e77e029244caa28dd7a909eaecc07e4",
+    "source": "main/99_模板",
+    "all_templates_read": {
+      "模板－STTT理學檢查.md": "91055a3cfefaf1ccbabfecad989f5194de524e705b1ba1fb54f7a3885b0f14df",
+      "模板－主觀問診.md": "c12410f10346eea2067c8b2fe5f12b4595f0d5b8589ce032339bf78555c55a70",
       "模板－傷害.md": "cff336b061adeb879ded696075adae55c480416f8e884e2f37a62315d8d93e4c",
-      "模板－肌肉.md": "ab7208d5949983fd943503c9554d211b1f4c944fdff4d110f2414bbb2eef96f2",
-      "模板－特殊檢查.md": "eb32c17d3900ae8b5abc68a6a3e4c7597940e1b12633402f5fcae5be48277010",
       "模板－功能性測試.md": "4b0da535c9d548c3fe4b5f9e5a8ab294bdc40a11b0bb74db9d5bb4c1ce947d49",
+      "模板－文獻筆記.md": "ee6c68de8e32e798c9513d1896e0a1b621eada3a85bdcea0c01e7a262c51b6d3",
+      "模板－特殊檢查.md": "eb32c17d3900ae8b5abc68a6a3e4c7597940e1b12633402f5fcae5be48277010",
+      "模板－神經.md": "e74f0bfdb08dfe84af66f8132838502dc704c7ea41b1aec41a8ed020f819743a",
+      "模板－系統性評估.md": "457f74969a0b469f027bd8290a0d5fc0b8ae6e990a4088dc5698b4c9c3e506a5",
+      "模板－肌肉.md": "ab7208d5949983fd943503c9554d211b1f4c944fdff4d110f2414bbb2eef96f2",
+      "模板－肌腱.md": "d7de94a951a34b95158262303b36d8c2c8a75221270ae400ae8f7bd351ebac16",
+      "模板－貼紮.md": "f5c049b70cdafd4acbdf00f4e62098a33d2791e85930ad20916b8c8209ab5226",
+      "模板－身體區域.md": "15fb66b8b70e3afc3885b5fc49476f510db2a1d03831e1c50362926f9f11a6fb",
+      "模板－身體檢查.md": "7dca68e6f24e713222c5e5fa0a116b6ec1a96d22f475b206fa082e71cae54150",
       "模板－運動治療.md": "886477d6466c50442d863b15e9df5726ee0268040c97fb6ca9d7bcf65c7f8909",
-      "模板－貼紮.md": "f5c049b70cdafd4acbdf00f4e62098a33d2791e85930ad20916b8c8209ab5226"
+      "模板－韌帶.md": "2a6c086b647f7451dbb1667704217302539478cfc6e17e499db841d4b445e157",
+      "模板－骨骼或關節.md": "f6478782ded9a18f7b68eea8026dc0cb0e77e029244caa28dd7a909eaecc07e4"
     },
+    "template_count": 16,
+    "used_templates": [
+      "模板－傷害.md",
+      "模板－功能性測試.md",
+      "模板－特殊檢查.md",
+      "模板－神經.md",
+      "模板－系統性評估.md",
+      "模板－肌腱.md",
+      "模板－貼紮.md",
+      "模板－運動治療.md",
+      "模板－韌帶.md",
+      "模板－骨骼或關節.md"
+    ],
     "validated_note_count": 15,
     "unsupported_new_note_types": [],
-    "yaml_and_heading_order_exact": true
+    "exact_yaml_h1_h2_and_subfields": true
   },
   "counts": {
     "core_notes": 5,
@@ -32,115 +54,269 @@
   "skipped_duplicates": [],
   "notes": [
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－髕股關節與伸膝機轉.md",
-      "title": "骨骼與關節－髕股關節與伸膝機轉",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－距下關節與橫跗關節.md",
+      "title": "骨骼與關節－距下關節與橫跗關節",
       "role": "核心",
+      "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－後十字韌帶損傷.md",
-      "title": "傷害－後十字韌帶損傷",
+      "path": "01_基礎解剖/韌帶/韌帶－遠端脛腓聯合韌帶複合體.md",
+      "title": "韌帶－遠端脛腓聯合韌帶複合體",
       "role": "核心",
+      "type": "韌帶",
+      "template": "模板－韌帶.md"
+    },
+    {
+      "path": "03_傷害與疾病/急性傷害/傷害－Lisfranc 中足損傷.md",
+      "title": "傷害－Lisfranc 中足損傷",
+      "role": "核心",
+      "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－膝後外側角損傷.md",
-      "title": "傷害－膝後外側角損傷",
+      "path": "03_傷害與疾病/急性傷害/傷害－距骨骨軟骨病灶.md",
+      "title": "傷害－距骨骨軟骨病灶",
       "role": "核心",
+      "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－急性髕骨外側脫位.md",
-      "title": "傷害－急性髕骨外側脫位",
+      "path": "03_傷害與疾病/急性傷害/傷害－第五蹠骨近端骨折.md",
+      "title": "傷害－第五蹠骨近端骨折",
       "role": "核心",
+      "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－膝關節骨軟骨損傷.md",
-      "title": "傷害－膝關節骨軟骨損傷",
-      "role": "核心",
-      "template": "模板－傷害.md"
+      "path": "01_基礎解剖/肌腱/肌腱－腓骨肌腱複合體.md",
+      "title": "肌腱－腓骨肌腱複合體",
+      "role": "相關",
+      "type": "肌腱",
+      "template": "模板－肌腱.md"
     },
     {
-      "path": "01_基礎解剖/肌肉/肌肉－膕肌.md",
-      "title": "肌肉－膕肌",
+      "path": "01_基礎解剖/神經/神經－脛神經與足底神經於足踝.md",
+      "title": "神經－脛神經與足底神經於足踝",
       "role": "相關",
-      "template": "模板－肌肉.md"
+      "type": "神經",
+      "template": "模板－神經.md"
     },
     {
-      "path": "04_評估與檢查/特殊檢查/特殊檢查－Posterior Drawer Test.md",
-      "title": "特殊檢查－Posterior Drawer Test",
+      "path": "04_評估與檢查/特殊檢查/特殊檢查－Syndesmosis Squeeze Test.md",
+      "title": "特殊檢查－Syndesmosis Squeeze Test",
       "role": "相關",
+      "type": "特殊檢查",
       "template": "模板－特殊檢查.md"
     },
     {
-      "path": "04_評估與檢查/特殊檢查/特殊檢查－Posterior Sag Sign.md",
-      "title": "特殊檢查－Posterior Sag Sign",
+      "path": "04_評估與檢查/特殊檢查/特殊檢查－Dorsiflexion External Rotation Stress Test.md",
+      "title": "特殊檢查－Dorsiflexion External Rotation Stress Test",
       "role": "相關",
+      "type": "特殊檢查",
       "template": "模板－特殊檢查.md"
     },
     {
-      "path": "04_評估與檢查/特殊檢查/特殊檢查－Dial Test.md",
-      "title": "特殊檢查－Dial Test",
+      "path": "04_評估與檢查/特殊檢查/特殊檢查－Windlass Test.md",
+      "title": "特殊檢查－Windlass Test",
       "role": "相關",
+      "type": "特殊檢查",
       "template": "模板－特殊檢查.md"
     },
     {
-      "path": "04_評估與檢查/特殊檢查/特殊檢查－Moving Patellar Apprehension Test.md",
-      "title": "特殊檢查－Moving Patellar Apprehension Test",
+      "path": "06_功能性測試/下肢/功能性測試－單腳跟提耐力測試.md",
+      "title": "功能性測試－單腳跟提耐力測試",
       "role": "相關",
-      "template": "模板－特殊檢查.md"
-    },
-    {
-      "path": "06_功能性測試/下肢/功能性測試－單腳跳測試組.md",
-      "title": "功能性測試－單腳跳測試組",
-      "role": "相關",
+      "type": "功能性測試",
       "template": "模板－功能性測試.md"
     },
     {
-      "path": "06_功能性測試/下肢/功能性測試－側向階梯下降測試.md",
-      "title": "功能性測試－側向階梯下降測試",
+      "path": "06_功能性測試/下肢/功能性測試－膝觸牆負重踝背屈測試.md",
+      "title": "功能性測試－膝觸牆負重踝背屈測試",
       "role": "相關",
+      "type": "功能性測試",
       "template": "模板－功能性測試.md"
     },
     {
-      "path": "05_處置技術/運動治療/運動治療－PCL 保護期股四頭肌等長收縮.md",
-      "title": "運動治療－PCL 保護期股四頭肌等長收縮",
+      "path": "04_評估與檢查/系統性評估/評估－足踝與中足創傷分流.md",
+      "title": "評估－足踝與中足創傷分流",
       "role": "相關",
+      "type": "系統性評估",
+      "template": "模板－系統性評估.md"
+    },
+    {
+      "path": "05_處置技術/運動治療/運動治療－短足與足趾控制訓練.md",
+      "title": "運動治療－短足與足趾控制訓練",
+      "role": "相關",
+      "type": "運動治療",
       "template": "模板－運動治療.md"
     },
     {
-      "path": "05_處置技術/運動治療/運動治療－髕股負荷階梯.md",
-      "title": "運動治療－髕股負荷階梯",
+      "path": "05_處置技術/貼紮/貼紮－Low-Dye 足弓支撐貼紮.md",
+      "title": "貼紮－Low-Dye 足弓支撐貼紮",
       "role": "相關",
-      "template": "模板－運動治療.md"
-    },
-    {
-      "path": "05_處置技術/貼紮/貼紮－髕股疼痛症狀調節貼紮.md",
-      "title": "貼紮－髕股疼痛症狀調節貼紮",
-      "role": "相關",
+      "type": "貼紮",
       "template": "模板－貼紮.md"
     }
   ],
+  "per_note_validation": [
+    {
+      "path": "01_基礎解剖/骨骼/骨骼與關節－距下關節與橫跗關節.md",
+      "template": "模板－骨骼或關節.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "01_基礎解剖/韌帶/韌帶－遠端脛腓聯合韌帶複合體.md",
+      "template": "模板－韌帶.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "03_傷害與疾病/急性傷害/傷害－Lisfranc 中足損傷.md",
+      "template": "模板－傷害.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "03_傷害與疾病/急性傷害/傷害－距骨骨軟骨病灶.md",
+      "template": "模板－傷害.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "03_傷害與疾病/急性傷害/傷害－第五蹠骨近端骨折.md",
+      "template": "模板－傷害.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "01_基礎解剖/肌腱/肌腱－腓骨肌腱複合體.md",
+      "template": "模板－肌腱.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "01_基礎解剖/神經/神經－脛神經與足底神經於足踝.md",
+      "template": "模板－神經.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "04_評估與檢查/特殊檢查/特殊檢查－Syndesmosis Squeeze Test.md",
+      "template": "模板－特殊檢查.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "04_評估與檢查/特殊檢查/特殊檢查－Dorsiflexion External Rotation Stress Test.md",
+      "template": "模板－特殊檢查.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "04_評估與檢查/特殊檢查/特殊檢查－Windlass Test.md",
+      "template": "模板－特殊檢查.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "06_功能性測試/下肢/功能性測試－單腳跟提耐力測試.md",
+      "template": "模板－功能性測試.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "06_功能性測試/下肢/功能性測試－膝觸牆負重踝背屈測試.md",
+      "template": "模板－功能性測試.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "04_評估與檢查/系統性評估/評估－足踝與中足創傷分流.md",
+      "template": "模板－系統性評估.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "05_處置技術/運動治療/運動治療－短足與足趾控制訓練.md",
+      "template": "模板－運動治療.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "05_處置技術/貼紮/貼紮－Low-Dye 足弓支撐貼紮.md",
+      "template": "模板－貼紮.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    }
+  ],
   "assets": [
-    "assets/anatomy/膝後方與髕股穩定結構圖.svg",
-    "assets/assessment/急性髕骨脫位與骨軟骨傷分流.svg",
-    "assets/assessment/膝後向與旋轉檢查整合圖.svg"
+    "assets/anatomy/足踝中後足穩定結構圖.svg",
+    "assets/assessment/Lisfranc中足創傷分流.svg",
+    "assets/assessment/足踝第二輪評估矩陣.svg"
   ],
   "validation": {
     "status": "passed",
     "checks": [
-      "template source integrity",
-      "exact YAML keys",
+      "all template source SHA-256",
+      "exact YAML keys/order",
+      "H1 equals filename",
       "exact H2 names/order",
+      "required template subfields",
       "no placeholders",
       "new-name deduplication",
       "bidirectional index links",
       "SVG XML",
-      "SHA-256 manifest",
-      "ZIP extraction",
-      "ZIP path safety"
+      "file SHA-256",
+      "ZIP CRC",
+      "ZIP extraction and path safety"
     ]
   },
-  "generated_at_utc": "2026-09-05T00:09:48.403348+00:00"
+  "generated_at_utc": "2026-09-06T00:09:18.828147+00:00"
 }
