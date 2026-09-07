@@ -1,11 +1,11 @@
 {
   "schema_version": 3,
-  "date": "2026-09-06",
-  "region": "足踝第二輪",
+  "date": "2026-09-07",
+  "region": "頭頸第三輪",
   "github": {
     "repository": "janice880624/AT-Obsidian",
     "branch": "main",
-    "commit": "9387a3658e2d9594b30a0d7f47da54c8c0260b6c",
+    "commit": "02d0d8e64590cea312a4d4d854a2575c7faacb67",
     "mode": "read-only"
   },
   "template_policy": {
@@ -30,13 +30,14 @@
     },
     "template_count": 16,
     "used_templates": [
+      "模板－STTT理學檢查.md",
+      "模板－主觀問診.md",
       "模板－傷害.md",
       "模板－功能性測試.md",
       "模板－特殊檢查.md",
       "模板－神經.md",
       "模板－系統性評估.md",
-      "模板－肌腱.md",
-      "模板－貼紮.md",
+      "模板－肌肉.md",
       "模板－運動治療.md",
       "模板－韌帶.md",
       "模板－骨骼或關節.md"
@@ -54,114 +55,114 @@
   "skipped_duplicates": [],
   "notes": [
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－距下關節與橫跗關節.md",
-      "title": "骨骼與關節－距下關節與橫跗關節",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－頸椎小面關節與椎間孔.md",
+      "title": "骨骼與關節－頸椎小面關節與椎間孔",
       "role": "核心",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "01_基礎解剖/韌帶/韌帶－遠端脛腓聯合韌帶複合體.md",
-      "title": "韌帶－遠端脛腓聯合韌帶複合體",
+      "path": "01_基礎解剖/韌帶/韌帶－寰椎橫韌帶與翼狀韌帶.md",
+      "title": "韌帶－寰椎橫韌帶與翼狀韌帶",
       "role": "核心",
       "type": "韌帶",
       "template": "模板－韌帶.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－Lisfranc 中足損傷.md",
-      "title": "傷害－Lisfranc 中足損傷",
+      "path": "01_基礎解剖/肌肉/肌肉－深層頸屈肌群.md",
+      "title": "肌肉－深層頸屈肌群",
+      "role": "核心",
+      "type": "肌肉",
+      "template": "模板－肌肉.md"
+    },
+    {
+      "path": "03_傷害與疾病/過度使用/傷害－退化性頸髓病變.md",
+      "title": "傷害－退化性頸髓病變",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－距骨骨軟骨病灶.md",
-      "title": "傷害－距骨骨軟骨病灶",
+      "path": "03_傷害與疾病/急性傷害/傷害－頸部灼熱刺痛症候群（Stinger／Burner）.md",
+      "title": "傷害－頸部灼熱刺痛症候群（Stinger／Burner）",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－第五蹠骨近端骨折.md",
-      "title": "傷害－第五蹠骨近端骨折",
-      "role": "核心",
-      "type": "傷害",
-      "template": "模板－傷害.md"
-    },
-    {
-      "path": "01_基礎解剖/肌腱/肌腱－腓骨肌腱複合體.md",
-      "title": "肌腱－腓骨肌腱複合體",
-      "role": "相關",
-      "type": "肌腱",
-      "template": "模板－肌腱.md"
-    },
-    {
-      "path": "01_基礎解剖/神經/神經－脛神經與足底神經於足踝.md",
-      "title": "神經－脛神經與足底神經於足踝",
+      "path": "01_基礎解剖/神經/神經－脊髓頸段與長傳導徑.md",
+      "title": "神經－脊髓頸段與長傳導徑",
       "role": "相關",
       "type": "神經",
       "template": "模板－神經.md"
     },
     {
-      "path": "04_評估與檢查/特殊檢查/特殊檢查－Syndesmosis Squeeze Test.md",
-      "title": "特殊檢查－Syndesmosis Squeeze Test",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－Sharp-Purser Test.md",
+      "title": "特殊檢查－Sharp-Purser Test",
       "role": "相關",
       "type": "特殊檢查",
       "template": "模板－特殊檢查.md"
     },
     {
-      "path": "04_評估與檢查/特殊檢查/特殊檢查－Dorsiflexion External Rotation Stress Test.md",
-      "title": "特殊檢查－Dorsiflexion External Rotation Stress Test",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－Cervical Flexion-Rotation Test.md",
+      "title": "特殊檢查－Cervical Flexion-Rotation Test",
       "role": "相關",
       "type": "特殊檢查",
       "template": "模板－特殊檢查.md"
     },
     {
-      "path": "04_評估與檢查/特殊檢查/特殊檢查－Windlass Test.md",
-      "title": "特殊檢查－Windlass Test",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－Hoffmann Sign.md",
+      "title": "特殊檢查－Hoffmann Sign",
       "role": "相關",
       "type": "特殊檢查",
       "template": "模板－特殊檢查.md"
     },
     {
-      "path": "06_功能性測試/下肢/功能性測試－單腳跟提耐力測試.md",
-      "title": "功能性測試－單腳跟提耐力測試",
+      "path": "06_功能性測試/軀幹/功能性測試－深層頸屈肌耐力測試.md",
+      "title": "功能性測試－深層頸屈肌耐力測試",
       "role": "相關",
       "type": "功能性測試",
       "template": "模板－功能性測試.md"
     },
     {
-      "path": "06_功能性測試/下肢/功能性測試－膝觸牆負重踝背屈測試.md",
-      "title": "功能性測試－膝觸牆負重踝背屈測試",
+      "path": "06_功能性測試/軀幹/功能性測試－顱頸屈曲控制測試.md",
+      "title": "功能性測試－顱頸屈曲控制測試",
       "role": "相關",
       "type": "功能性測試",
       "template": "模板－功能性測試.md"
     },
     {
-      "path": "04_評估與檢查/系統性評估/評估－足踝與中足創傷分流.md",
-      "title": "評估－足踝與中足創傷分流",
+      "path": "04_評估與檢查/系統性評估/評估－退化性頸髓病變神經篩檢.md",
+      "title": "評估－退化性頸髓病變神經篩檢",
       "role": "相關",
       "type": "系統性評估",
       "template": "模板－系統性評估.md"
     },
     {
-      "path": "05_處置技術/運動治療/運動治療－短足與足趾控制訓練.md",
-      "title": "運動治療－短足與足趾控制訓練",
+      "path": "04_臨床評估/主觀問診/評估－運動員暫時性上肢灼痛與無力問診.md",
+      "title": "評估－運動員暫時性上肢灼痛與無力問診",
+      "role": "相關",
+      "type": "主觀問診",
+      "template": "模板－主觀問診.md"
+    },
+    {
+      "path": "04_臨床評估/身體檢查/評估－頸椎機械性疼痛 STTT 組織判別.md",
+      "title": "評估－頸椎機械性疼痛 STTT 組織判別",
+      "role": "相關",
+      "type": "STTT理學檢查",
+      "template": "模板－STTT理學檢查.md"
+    },
+    {
+      "path": "05_處置技術/運動治療/運動治療－深層頸屈肌分階段訓練.md",
+      "title": "運動治療－深層頸屈肌分階段訓練",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
-    },
-    {
-      "path": "05_處置技術/貼紮/貼紮－Low-Dye 足弓支撐貼紮.md",
-      "title": "貼紮－Low-Dye 足弓支撐貼紮",
-      "role": "相關",
-      "type": "貼紮",
-      "template": "模板－貼紮.md"
     }
   ],
   "per_note_validation": [
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－距下關節與橫跗關節.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－頸椎小面關節與椎間孔.md",
       "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
@@ -170,7 +171,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/韌帶/韌帶－遠端脛腓聯合韌帶複合體.md",
+      "path": "01_基礎解剖/韌帶/韌帶－寰椎橫韌帶與翼狀韌帶.md",
       "template": "模板－韌帶.md",
       "yaml": "passed",
       "h1": "passed",
@@ -179,7 +180,16 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－Lisfranc 中足損傷.md",
+      "path": "01_基礎解剖/肌肉/肌肉－深層頸屈肌群.md",
+      "template": "模板－肌肉.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "03_傷害與疾病/過度使用/傷害－退化性頸髓病變.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -188,7 +198,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－距骨骨軟骨病灶.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－頸部灼熱刺痛症候群（Stinger／Burner）.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -197,25 +207,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－第五蹠骨近端骨折.md",
-      "template": "模板－傷害.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "01_基礎解剖/肌腱/肌腱－腓骨肌腱複合體.md",
-      "template": "模板－肌腱.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "01_基礎解剖/神經/神經－脛神經與足底神經於足踝.md",
+      "path": "01_基礎解剖/神經/神經－脊髓頸段與長傳導徑.md",
       "template": "模板－神經.md",
       "yaml": "passed",
       "h1": "passed",
@@ -224,7 +216,7 @@
       "links": "passed"
     },
     {
-      "path": "04_評估與檢查/特殊檢查/特殊檢查－Syndesmosis Squeeze Test.md",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－Sharp-Purser Test.md",
       "template": "模板－特殊檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -233,7 +225,7 @@
       "links": "passed"
     },
     {
-      "path": "04_評估與檢查/特殊檢查/特殊檢查－Dorsiflexion External Rotation Stress Test.md",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－Cervical Flexion-Rotation Test.md",
       "template": "模板－特殊檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -242,7 +234,7 @@
       "links": "passed"
     },
     {
-      "path": "04_評估與檢查/特殊檢查/特殊檢查－Windlass Test.md",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－Hoffmann Sign.md",
       "template": "模板－特殊檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -251,7 +243,7 @@
       "links": "passed"
     },
     {
-      "path": "06_功能性測試/下肢/功能性測試－單腳跟提耐力測試.md",
+      "path": "06_功能性測試/軀幹/功能性測試－深層頸屈肌耐力測試.md",
       "template": "模板－功能性測試.md",
       "yaml": "passed",
       "h1": "passed",
@@ -260,7 +252,7 @@
       "links": "passed"
     },
     {
-      "path": "06_功能性測試/下肢/功能性測試－膝觸牆負重踝背屈測試.md",
+      "path": "06_功能性測試/軀幹/功能性測試－顱頸屈曲控制測試.md",
       "template": "模板－功能性測試.md",
       "yaml": "passed",
       "h1": "passed",
@@ -269,7 +261,7 @@
       "links": "passed"
     },
     {
-      "path": "04_評估與檢查/系統性評估/評估－足踝與中足創傷分流.md",
+      "path": "04_評估與檢查/系統性評估/評估－退化性頸髓病變神經篩檢.md",
       "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
@@ -278,8 +270,8 @@
       "links": "passed"
     },
     {
-      "path": "05_處置技術/運動治療/運動治療－短足與足趾控制訓練.md",
-      "template": "模板－運動治療.md",
+      "path": "04_臨床評估/主觀問診/評估－運動員暫時性上肢灼痛與無力問診.md",
+      "template": "模板－主觀問診.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -287,8 +279,17 @@
       "links": "passed"
     },
     {
-      "path": "05_處置技術/貼紮/貼紮－Low-Dye 足弓支撐貼紮.md",
-      "template": "模板－貼紮.md",
+      "path": "04_臨床評估/身體檢查/評估－頸椎機械性疼痛 STTT 組織判別.md",
+      "template": "模板－STTT理學檢查.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "05_處置技術/運動治療/運動治療－深層頸屈肌分階段訓練.md",
+      "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -297,9 +298,9 @@
     }
   ],
   "assets": [
-    "assets/anatomy/足踝中後足穩定結構圖.svg",
-    "assets/assessment/Lisfranc中足創傷分流.svg",
-    "assets/assessment/足踝第二輪評估矩陣.svg"
+    "assets/anatomy/上頸椎穩定與頸髓路徑圖.svg",
+    "assets/assessment/退化性頸髓病變神經篩檢流程.svg",
+    "assets/assessment/頭頸第三輪臨床推理矩陣.svg"
   ],
   "validation": {
     "status": "passed",
@@ -318,5 +319,5 @@
       "ZIP extraction and path safety"
     ]
   },
-  "generated_at_utc": "2026-09-06T00:09:18.828147+00:00"
+  "generated_at_utc": "2026-09-07T00:07:32.705727+00:00"
 }
