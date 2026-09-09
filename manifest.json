@@ -1,11 +1,11 @@
 {
   "schema_version": 4,
-  "date": "2026-09-08",
-  "region": "肩部第三輪",
+  "date": "2026-09-09",
+  "region": "肘部第三輪",
   "github": {
     "repository": "janice880624/AT-Obsidian",
     "branch": "main",
-    "commit": "792d78ac048cef7db645977a357fcf817cf7b3be",
+    "commit": "ecddb16e2afad40dc761839ff02dedcab5992aaf",
     "mode": "read-only"
   },
   "template_policy": {
@@ -81,12 +81,10 @@
       "模板－STTT理學檢查.md",
       "模板－主觀問診.md",
       "模板－傷害.md",
-      "模板－功能性測試.md",
       "模板－特殊檢查.md",
       "模板－神經.md",
       "模板－系統性評估.md",
       "模板－肌腱.md",
-      "模板－身體檢查.md",
       "模板－運動治療.md",
       "模板－韌帶.md",
       "模板－骨骼或關節.md"
@@ -105,118 +103,120 @@
     "related_notes": 10,
     "knowledge_notes": 15,
     "svg": 3,
-    "index_or_support_files": 11
+    "index_or_support_files": 10
   },
   "topic_candidates_skipped": [
-    "傷害－肱骨近端骨折",
-    "功能性測試－CKCUEST",
-    "特殊檢查－Apprehension Relocation Test",
-    "特殊檢查－External Rotation Lag Sign",
-    "肌肉－胸小肌",
-    "肌肉－前鋸肌"
+    "傷害－肘關節脫臼",
+    "傷害－肘部可怕三聯徵",
+    "傷害－遠端肱二頭肌腱斷裂",
+    "傷害－肘內側尺側副韌帶損傷",
+    "傷害－外側肘肌腱病變",
+    "特殊檢查－Moving Valgus Stress Test",
+    "特殊檢查－Cozen Test",
+    "特殊檢查－Distal Biceps Hook Test"
   ],
   "notes": [
     {
-      "path": "03_傷害與疾病/過度使用/傷害－多方向性肩關節不穩定.md",
-      "title": "傷害－多方向性肩關節不穩定",
+      "path": "03_傷害與疾病/神經卡壓/傷害－肘隧道症候群.md",
+      "title": "傷害－肘隧道症候群",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－肩胛上神經病變.md",
-      "title": "傷害－肩胛上神經病變",
+      "path": "03_傷害與疾病/急性傷害/傷害－遠端肱三頭肌腱斷裂.md",
+      "title": "傷害－遠端肱三頭肌腱斷裂",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－肩關節不穩定方向與安全分流.md",
-      "title": "評估－肩關節不穩定方向與安全分流",
+      "path": "03_傷害與疾病/過度使用/傷害－肱骨小頭剝離性骨軟骨炎.md",
+      "title": "傷害－肱骨小頭剝離性骨軟骨炎",
+      "role": "核心",
+      "type": "傷害",
+      "template": "模板－傷害.md"
+    },
+    {
+      "path": "03_傷害與疾病/過度使用/傷害－肱骨內上髁骨骺炎.md",
+      "title": "傷害－肱骨內上髁骨骺炎",
+      "role": "核心",
+      "type": "傷害",
+      "template": "模板－傷害.md"
+    },
+    {
+      "path": "04_臨床評估/系統性評估/評估－投擲者肘部疼痛與神經安全分流.md",
+      "title": "評估－投擲者肘部疼痛與神經安全分流",
       "role": "核心",
       "type": "系統性評估",
       "template": "模板－系統性評估.md"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－肩部旋轉肌力量與活動度測量.md",
-      "title": "評估－肩部旋轉肌力量與活動度測量",
-      "role": "核心",
-      "type": "身體檢查",
-      "template": "模板－身體檢查.md"
-    },
-    {
-      "path": "05_處置與復健/運動治療/運動治療－肩關節不穩定動態控制進階.md",
-      "title": "運動治療－肩關節不穩定動態控制進階",
-      "role": "核心",
-      "type": "運動治療",
-      "template": "模板－運動治療.md"
-    },
-    {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－肩胛胸廓與盂肱運動耦合.md",
-      "title": "骨骼與關節－肩胛胸廓與盂肱運動耦合",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－肱橈關節與肱骨小頭.md",
+      "title": "骨骼與關節－肱橈關節與肱骨小頭",
       "role": "相關",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "01_基礎解剖/韌帶/韌帶－盂肱關節囊韌帶複合體.md",
-      "title": "韌帶－盂肱關節囊韌帶複合體",
+      "path": "01_基礎解剖/韌帶/韌帶－肘外側副韌帶複合體.md",
+      "title": "韌帶－肘外側副韌帶複合體",
       "role": "相關",
       "type": "韌帶",
       "template": "模板－韌帶.md"
     },
     {
-      "path": "01_基礎解剖/神經/神經－肩胛上神經.md",
-      "title": "神經－肩胛上神經",
-      "role": "相關",
-      "type": "神經",
-      "template": "模板－神經.md"
-    },
-    {
-      "path": "01_基礎解剖/肌腱/肌腱－旋轉肌袖肌腱.md",
-      "title": "肌腱－旋轉肌袖肌腱",
+      "path": "01_基礎解剖/肌腱/肌腱－遠端肱三頭肌腱.md",
+      "title": "肌腱－遠端肱三頭肌腱",
       "role": "相關",
       "type": "肌腱",
       "template": "模板－肌腱.md"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－肩部疼痛與負荷反應問診.md",
-      "title": "評估－肩部疼痛與負荷反應問診",
+      "path": "01_基礎解剖/神經/神經－正中神經與前骨間神經於肘部.md",
+      "title": "神經－正中神經與前骨間神經於肘部",
+      "role": "相關",
+      "type": "神經",
+      "template": "模板－神經.md"
+    },
+    {
+      "path": "03_傷害與疾病/過度使用/傷害－肘部外翻伸展過負荷症候群.md",
+      "title": "傷害－肘部外翻伸展過負荷症候群",
+      "role": "相關",
+      "type": "傷害",
+      "template": "模板－傷害.md"
+    },
+    {
+      "path": "04_臨床評估/主觀問診/評估－投擲者肘部負荷與生長板問診.md",
+      "title": "評估－投擲者肘部負荷與生長板問診",
       "role": "相關",
       "type": "主觀問診",
       "template": "模板－主觀問診.md"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－肩部 STTT 組織判別.md",
-      "title": "評估－肩部 STTT 組織判別",
+      "path": "04_臨床評估/身體檢查/評估－肘部 STTT 組織判別.md",
+      "title": "評估－肘部 STTT 組織判別",
       "role": "相關",
       "type": "STTT理學檢查",
       "template": "模板－STTT理學檢查.md"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Sulcus Sign.md",
-      "title": "特殊檢查－Sulcus Sign",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－Elbow Flexion-Compression Test.md",
+      "title": "特殊檢查－Elbow Flexion-Compression Test",
       "role": "相關",
       "type": "特殊檢查",
       "template": "模板－特殊檢查.md"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Cross-body Adduction Test.md",
-      "title": "特殊檢查－Cross-body Adduction Test",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－Valgus Extension Overload Test.md",
+      "title": "特殊檢查－Valgus Extension Overload Test",
       "role": "相關",
       "type": "特殊檢查",
       "template": "模板－特殊檢查.md"
     },
     {
-      "path": "06_功能性測試/上肢/功能性測試－單臂閉鎖鏈上肢穩定測試.md",
-      "title": "功能性測試－單臂閉鎖鏈上肢穩定測試",
-      "role": "相關",
-      "type": "功能性測試",
-      "template": "模板－功能性測試.md"
-    },
-    {
-      "path": "05_處置與復健/運動治療/運動治療－前鋸肌與斜方肌協同訓練.md",
-      "title": "運動治療－前鋸肌與斜方肌協同訓練",
+      "path": "05_處置與復健/運動治療/運動治療－肘伸肌腱與動力鏈漸進負荷.md",
+      "title": "運動治療－肘伸肌腱與動力鏈漸進負荷",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
@@ -224,7 +224,7 @@
   ],
   "per_note_validation": [
     {
-      "path": "03_傷害與疾病/過度使用/傷害－多方向性肩關節不穩定.md",
+      "path": "03_傷害與疾病/神經卡壓/傷害－肘隧道症候群.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -233,7 +233,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－肩胛上神經病變.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－遠端肱三頭肌腱斷裂.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -242,7 +242,25 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－肩關節不穩定方向與安全分流.md",
+      "path": "03_傷害與疾病/過度使用/傷害－肱骨小頭剝離性骨軟骨炎.md",
+      "template": "模板－傷害.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "03_傷害與疾病/過度使用/傷害－肱骨內上髁骨骺炎.md",
+      "template": "模板－傷害.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "04_臨床評估/系統性評估/評估－投擲者肘部疼痛與神經安全分流.md",
       "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
@@ -251,25 +269,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－肩部旋轉肌力量與活動度測量.md",
-      "template": "模板－身體檢查.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "05_處置與復健/運動治療/運動治療－肩關節不穩定動態控制進階.md",
-      "template": "模板－運動治療.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－肩胛胸廓與盂肱運動耦合.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－肱橈關節與肱骨小頭.md",
       "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
@@ -278,7 +278,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/韌帶/韌帶－盂肱關節囊韌帶複合體.md",
+      "path": "01_基礎解剖/韌帶/韌帶－肘外側副韌帶複合體.md",
       "template": "模板－韌帶.md",
       "yaml": "passed",
       "h1": "passed",
@@ -287,16 +287,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/神經/神經－肩胛上神經.md",
-      "template": "模板－神經.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "01_基礎解剖/肌腱/肌腱－旋轉肌袖肌腱.md",
+      "path": "01_基礎解剖/肌腱/肌腱－遠端肱三頭肌腱.md",
       "template": "模板－肌腱.md",
       "yaml": "passed",
       "h1": "passed",
@@ -305,7 +296,25 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－肩部疼痛與負荷反應問診.md",
+      "path": "01_基礎解剖/神經/神經－正中神經與前骨間神經於肘部.md",
+      "template": "模板－神經.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "03_傷害與疾病/過度使用/傷害－肘部外翻伸展過負荷症候群.md",
+      "template": "模板－傷害.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "04_臨床評估/主觀問診/評估－投擲者肘部負荷與生長板問診.md",
       "template": "模板－主觀問診.md",
       "yaml": "passed",
       "h1": "passed",
@@ -314,7 +323,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－肩部 STTT 組織判別.md",
+      "path": "04_臨床評估/身體檢查/評估－肘部 STTT 組織判別.md",
       "template": "模板－STTT理學檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -323,7 +332,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Sulcus Sign.md",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－Elbow Flexion-Compression Test.md",
       "template": "模板－特殊檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -332,7 +341,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Cross-body Adduction Test.md",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－Valgus Extension Overload Test.md",
       "template": "模板－特殊檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -341,16 +350,7 @@
       "links": "passed"
     },
     {
-      "path": "06_功能性測試/上肢/功能性測試－單臂閉鎖鏈上肢穩定測試.md",
-      "template": "模板－功能性測試.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "05_處置與復健/運動治療/運動治療－前鋸肌與斜方肌協同訓練.md",
+      "path": "05_處置與復健/運動治療/運動治療－肘伸肌腱與動力鏈漸進負荷.md",
       "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
@@ -360,19 +360,20 @@
     }
   ],
   "assets": [
-    "assets/anatomy/肩部動態穩定結構圖.svg",
-    "assets/assessment/肩關節不穩定安全分流圖.svg",
-    "assets/assessment/肩部測試與負荷進展圖.svg"
+    "assets/anatomy/投擲肘外翻負荷結構圖.svg",
+    "assets/assessment/投擲者肘部疼痛安全分流圖.svg",
+    "assets/assessment/肘部第三輪臨床推理矩陣.svg"
   ],
   "sources_checked": [
-    "ACR Appropriateness Criteria: Acute Shoulder Pain. https://acsearch.acr.org/docs/69433/Narrative/",
-    "Desmeules F, et al. Rotator Cuff Tendinopathy CPG. JOSPT. 2025. https://pubmed.ncbi.nlm.nih.gov/40165544/",
-    "Schwank A, et al. 2022 Bern Consensus Statement on Shoulder Injury Prevention, Rehabilitation, and Return to Sport. https://www.jospt.org/doi/10.2519/jospt.2022.10952",
-    "Best MJ, et al. Multidirectional Instability of the Shoulder: Treatment Options and Considerations. 2018. https://pubmed.ncbi.nlm.nih.gov/30059445/",
-    "Strauss EJ, et al. Evaluation and Management of Suprascapular Neuropathy. 2020. https://pubmed.ncbi.nlm.nih.gov/32732653/",
-    "Lo IKY, et al. Apprehension/relocation/surprise tests. https://pubmed.ncbi.nlm.nih.gov/14977651/",
-    "Chronopoulos E, et al. AC joint tests. https://pubmed.ncbi.nlm.nih.gov/15090381/",
-    "Waldhelm A, et al. Single-arm CKCUEST. https://pubmed.ncbi.nlm.nih.gov/41718173/"
+    "ACR Appropriateness Criteria: Acute Elbow or Forearm Pain. https://acsearch.acr.org/docs/3195154/Narrative/",
+    "ACR Appropriateness Criteria: Chronic Elbow Pain. https://acsearch.acr.org/docs/69423/Narrative/",
+    "Pottanat PJ, et al. Evaluation of the Elbow in Throwing Athletes. 2025. https://pmc.ncbi.nlm.nih.gov/articles/PMC11950621/",
+    "Nakashian MN, et al. Cubital Tunnel Syndrome: Current Concepts. 2020. https://pmc.ncbi.nlm.nih.gov/articles/PMC7340724/",
+    "Bowman EN, et al. Management of osteochondritis dissecans lesions of the capitellum. 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11649728/",
+    "Tran DV, et al. Surgical repair of distal triceps rupture: systematic review. 2022. https://pubmed.ncbi.nlm.nih.gov/37588859/",
+    "Pelosi L, et al. UNE EDX plus ultrasound consensus. https://pubmed.ncbi.nlm.nih.gov/34229959/",
+    "Novak CB, et al. Cubital tunnel provocative testing. https://pubmed.ncbi.nlm.nih.gov/7806810/",
+    "MLB/USA Baseball Pitch Smart. https://www.mlb.com/pitch-smart/pitching-guidelines"
   ],
   "validation": {
     "status": "passed",
@@ -392,5 +393,5 @@
       "ZIP extraction and path safety"
     ]
   },
-  "generated_at_utc": "2026-09-08T00:17:31.638003+00:00"
+  "generated_at_utc": "2026-09-09T00:20:02.890293+00:00"
 }
