@@ -1,11 +1,11 @@
 {
   "schema_version": 4,
-  "date": "2026-09-10",
-  "region": "手腕與手第三輪",
+  "date": "2026-09-11",
+  "region": "胸腰椎第三輪",
   "github": {
     "repository": "janice880624/AT-Obsidian",
     "branch": "main",
-    "commit": "4e66606fd100ea5e53571612d2dae4c51d61f345",
+    "commit": "6169243ab4ac00e10921b428036a0468491da3d9",
     "mode": "read-only"
   },
   "template_policy": {
@@ -85,9 +85,10 @@
       "模板－特殊檢查.md",
       "模板－神經.md",
       "模板－系統性評估.md",
-      "模板－肌腱.md",
+      "模板－肌肉.md",
       "模板－身體檢查.md",
       "模板－運動治療.md",
+      "模板－韌帶.md",
       "模板－骨骼或關節.md"
     ],
     "validated_note_count": 15,
@@ -107,119 +108,116 @@
     "index_or_support_files": 11
   },
   "topic_candidates_skipped": [
-    "傷害－舟狀骨骨折",
-    "傷害－三角纖維軟骨複合體損傷",
-    "傷害－月骨與月骨周圍脫位",
-    "傷害－手指屈肌腱撕裂與 Jersey Finger",
-    "傷害－手指伸肌腱 Mallet Finger",
-    "傷害－De Quervain 腱鞘病變",
-    "特殊檢查－Watson Scaphoid Shift Test",
-    "特殊檢查－TFCC Fovea Sign",
-    "特殊檢查－Phalen Test",
-    "特殊檢查－Elson Test"
+    "傷害－胸腰椎壓迫性骨折",
+    "傷害－胸腰椎爆裂性骨折",
+    "傷害－腰椎椎弓解離",
+    "傷害－腰椎椎間盤突出",
+    "傷害－腰椎神經根症候群",
+    "評估－馬尾症候群與嚴重神經壓迫警訊",
+    "功能性測試－軀幹肌耐力測試組"
   ],
   "notes": [
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－舟月骨間韌帶損傷.md",
-      "title": "傷害－舟月骨間韌帶損傷",
+      "path": "03_傷害與疾病/過度使用/傷害－腰椎滑脫.md",
+      "title": "傷害－腰椎滑脫",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－手指屈肌腱滑車損傷.md",
-      "title": "傷害－手指屈肌腱滑車損傷",
+      "path": "03_傷害與疾病/過度使用/傷害－Scheuermann 胸椎後凸.md",
+      "title": "傷害－Scheuermann 胸椎後凸",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－伸拇長肌腱斷裂.md",
-      "title": "傷害－伸拇長肌腱斷裂",
+      "path": "03_傷害與疾病/過度使用/傷害－胸椎椎間盤突出與脊髓病變.md",
+      "title": "傷害－胸椎椎間盤突出與脊髓病變",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－橈神經淺支卡壓.md",
-      "title": "傷害－橈神經淺支卡壓",
+      "path": "03_傷害與疾病/過度使用/傷害－非特異性下背痛.md",
+      "title": "傷害－非特異性下背痛",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－手腕與手第三輪安全分流.md",
-      "title": "評估－手腕與手第三輪安全分流",
+      "path": "04_臨床評估/系統性評估/評估－青少年運動員背痛安全分流.md",
+      "title": "評估－青少年運動員背痛安全分流",
       "role": "核心",
       "type": "系統性評估",
       "template": "模板－系統性評估.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－遠端橈尺關節.md",
-      "title": "骨骼與關節－遠端橈尺關節",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－肋椎與肋橫突關節.md",
+      "title": "骨骼與關節－肋椎與肋橫突關節",
       "role": "相關",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "01_基礎解剖/肌腱/肌腱－伸拇長肌腱與 Lister 結節.md",
-      "title": "肌腱－伸拇長肌腱與 Lister 結節",
+      "path": "01_基礎解剖/韌帶/韌帶－胸腰椎棘上與棘間韌帶.md",
+      "title": "韌帶－胸腰椎棘上與棘間韌帶",
       "role": "相關",
-      "type": "肌腱",
-      "template": "模板－肌腱.md"
+      "type": "韌帶",
+      "template": "模板－韌帶.md"
     },
     {
-      "path": "01_基礎解剖/神經/神經－橈神經淺支於手腕.md",
-      "title": "神經－橈神經淺支於手腕",
+      "path": "01_基礎解剖/神經/神經－胸髓與長傳導徑定位.md",
+      "title": "神經－胸髓與長傳導徑定位",
       "role": "相關",
       "type": "神經",
       "template": "模板－神經.md"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－手腕與手疼痛及負荷問診.md",
-      "title": "評估－手腕與手疼痛及負荷問診",
+      "path": "01_基礎解剖/肌肉/肌肉－腰方肌.md",
+      "title": "肌肉－腰方肌",
+      "role": "相關",
+      "type": "肌肉",
+      "template": "模板－肌肉.md"
+    },
+    {
+      "path": "04_臨床評估/主觀問診/評估－青少年背痛與訓練負荷問診.md",
+      "title": "評估－青少年背痛與訓練負荷問診",
       "role": "相關",
       "type": "主觀問診",
       "template": "模板－主觀問診.md"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－手腕橈尺側疼痛身體檢查.md",
-      "title": "評估－手腕橈尺側疼痛身體檢查",
-      "role": "相關",
-      "type": "身體檢查",
-      "template": "模板－身體檢查.md"
-    },
-    {
-      "path": "04_臨床評估/系統性評估/評估－手腕與手 STTT 組織判別.md",
-      "title": "評估－手腕與手 STTT 組織判別",
+      "path": "04_臨床評估/系統性評估/評估－胸腰椎 STTT 組織判別.md",
+      "title": "評估－胸腰椎 STTT 組織判別",
       "role": "相關",
       "type": "STTT理學檢查",
       "template": "模板－STTT理學檢查.md"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－ECU Synergy Test.md",
-      "title": "特殊檢查－ECU Synergy Test",
+      "path": "04_臨床評估/身體檢查/評估－胸椎與肋廓身體檢查.md",
+      "title": "評估－胸椎與肋廓身體檢查",
+      "role": "相關",
+      "type": "身體檢查",
+      "template": "模板－身體檢查.md"
+    },
+    {
+      "path": "04_臨床評估/特殊檢查/特殊檢查－Femoral Nerve Stretch Test.md",
+      "title": "特殊檢查－Femoral Nerve Stretch Test",
       "role": "相關",
       "type": "特殊檢查",
       "template": "模板－特殊檢查.md"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－WHAT Test.md",
-      "title": "特殊檢查－WHAT Test",
-      "role": "相關",
-      "type": "特殊檢查",
-      "template": "模板－特殊檢查.md"
-    },
-    {
-      "path": "06_功能性測試/上肢/功能性測試－Nine-Hole Peg Test.md",
-      "title": "功能性測試－Nine-Hole Peg Test",
+      "path": "06_功能性測試/軀幹/功能性測試－Back Performance Scale.md",
+      "title": "功能性測試－Back Performance Scale",
       "role": "相關",
       "type": "功能性測試",
       "template": "模板－功能性測試.md"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－手指屈肌滑車漸進負荷.md",
-      "title": "運動治療－手指屈肌滑車漸進負荷",
+      "path": "05_處置與復健/運動治療/運動治療－青少年腰椎伸展旋轉負荷進展.md",
+      "title": "運動治療－青少年腰椎伸展旋轉負荷進展",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
@@ -227,7 +225,7 @@
   ],
   "per_note_validation": [
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－舟月骨間韌帶損傷.md",
+      "path": "03_傷害與疾病/過度使用/傷害－腰椎滑脫.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -236,7 +234,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－手指屈肌腱滑車損傷.md",
+      "path": "03_傷害與疾病/過度使用/傷害－Scheuermann 胸椎後凸.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -245,7 +243,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－伸拇長肌腱斷裂.md",
+      "path": "03_傷害與疾病/過度使用/傷害－胸椎椎間盤突出與脊髓病變.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -254,7 +252,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－橈神經淺支卡壓.md",
+      "path": "03_傷害與疾病/過度使用/傷害－非特異性下背痛.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -263,7 +261,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－手腕與手第三輪安全分流.md",
+      "path": "04_臨床評估/系統性評估/評估－青少年運動員背痛安全分流.md",
       "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
@@ -272,7 +270,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－遠端橈尺關節.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－肋椎與肋橫突關節.md",
       "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
@@ -281,8 +279,8 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/肌腱/肌腱－伸拇長肌腱與 Lister 結節.md",
-      "template": "模板－肌腱.md",
+      "path": "01_基礎解剖/韌帶/韌帶－胸腰椎棘上與棘間韌帶.md",
+      "template": "模板－韌帶.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -290,7 +288,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/神經/神經－橈神經淺支於手腕.md",
+      "path": "01_基礎解剖/神經/神經－胸髓與長傳導徑定位.md",
       "template": "模板－神經.md",
       "yaml": "passed",
       "h1": "passed",
@@ -299,7 +297,16 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－手腕與手疼痛及負荷問診.md",
+      "path": "01_基礎解剖/肌肉/肌肉－腰方肌.md",
+      "template": "模板－肌肉.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "04_臨床評估/主觀問診/評估－青少年背痛與訓練負荷問診.md",
       "template": "模板－主觀問診.md",
       "yaml": "passed",
       "h1": "passed",
@@ -308,16 +315,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－手腕橈尺側疼痛身體檢查.md",
-      "template": "模板－身體檢查.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "04_臨床評估/系統性評估/評估－手腕與手 STTT 組織判別.md",
+      "path": "04_臨床評估/系統性評估/評估－胸腰椎 STTT 組織判別.md",
       "template": "模板－STTT理學檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -326,7 +324,16 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－ECU Synergy Test.md",
+      "path": "04_臨床評估/身體檢查/評估－胸椎與肋廓身體檢查.md",
+      "template": "模板－身體檢查.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "04_臨床評估/特殊檢查/特殊檢查－Femoral Nerve Stretch Test.md",
       "template": "模板－特殊檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -335,16 +342,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－WHAT Test.md",
-      "template": "模板－特殊檢查.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "06_功能性測試/上肢/功能性測試－Nine-Hole Peg Test.md",
+      "path": "06_功能性測試/軀幹/功能性測試－Back Performance Scale.md",
       "template": "模板－功能性測試.md",
       "yaml": "passed",
       "h1": "passed",
@@ -353,7 +351,7 @@
       "links": "passed"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－手指屈肌滑車漸進負荷.md",
+      "path": "05_處置與復健/運動治療/運動治療－青少年腰椎伸展旋轉負荷進展.md",
       "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
@@ -363,38 +361,35 @@
     }
   ],
   "assets": [
-    "assets/anatomy/手腕第三輪結構關聯圖.svg",
-    "assets/assessment/手腕與手第三輪安全分流圖.svg",
-    "assets/assessment/手腕與手第三輪負荷進展矩陣.svg"
+    "assets/anatomy/胸腰椎第三輪結構關聯圖.svg",
+    "assets/assessment/青少年運動員背痛安全分流圖.svg",
+    "assets/assessment/胸腰椎第三輪臨床推理矩陣.svg"
   ],
   "sources_checked": [
-    "ACR Appropriateness Criteria: Acute Hand and Wrist Trauma. https://acsearch.acr.org/docs/69418/Narrative/",
-    "ACR Appropriateness Criteria: Chronic Hand and Wrist Pain. https://acsearch.acr.org/docs/69427/Narrative/",
-    "Kitay A, Wolfe SW. Scapholunate instability: current concepts. J Hand Surg Am. 2012. https://pubmed.ncbi.nlm.nih.gov/22855833/",
-    "Schöffl VR, et al. Pulley injuries in rock climbers. Wilderness Environ Med. 2003;14(2):94-100. https://doi.org/10.1580/1080-6032(2003)014%5B0094:PIIRC%5D2.0.CO;2",
-    "Cha SM, et al. Lister's tubercle fractures and delayed EPL rupture. Injury. 2018. https://doi.org/10.1016/j.injury.2018.08.019",
-    "Lanzetta M, Foucher G. Entrapment of the superficial radial nerve: 52 cases. Int Orthop. 1993. https://doi.org/10.1007/BF00183971",
-    "Sato J, et al. Diagnostic performance of the ECU synergy test. J Ultrasound Med. 2016. https://doi.org/10.7863/ultra.15.01055",
-    "Goubau JF, et al. The WHAT test. J Hand Surg Eur. 2014. https://doi.org/10.1177/1753193412475043",
-    "Mathiowetz V, et al. Adult norms for the Nine Hole Peg Test of finger dexterity. Occup Ther J Res. 1985. https://doi.org/10.1177/153944928500500102"
+    "ACR Appropriateness Criteria: Low Back Pain. https://acsearch.acr.org/docs/69483/Narrative/",
+    "ACR Appropriateness Criteria: Thoracic Back Pain. J Am Coll Radiol. 2024. https://pubmed.ncbi.nlm.nih.gov/39488357/",
+    "George SZ, et al. Interventions for Acute and Chronic Low Back Pain: CPG Revision 2021. https://doi.org/10.2519/jospt.2021.0304",
+    "Selhorst M, et al. Rehabilitation Considerations for Spondylolysis in the Youth Athlete. 2020. https://doi.org/10.26603/ijspt20200287",
+    "O'Donnell JM, et al. Scheuermann Kyphosis: Current Concepts and Management. 2023. https://doi.org/10.1007/s12178-023-09861-z",
+    "Strand LI, et al. Back Performance Scale for mobility-related activities. Phys Ther. 2002. https://doi.org/10.1093/ptj/82.12.1213",
+    "Suri P, et al. Accuracy of physical examination for midlumbar nerve root impingement. Spine. 2011. https://pmc.ncbi.nlm.nih.gov/articles/PMC2978791/"
   ],
   "validation": {
     "status": "passed",
     "checks": [
-      "template Git blob SHA and SHA-256",
+      "all template SHAs",
       "exact YAML keys/order",
-      "H1 equals filename",
-      "exact H2 names/order",
+      "H1 filename",
+      "exact H2 order",
       "required subfields",
       "no placeholders",
-      "filename deduplication",
-      "bidirectional index links",
+      "deduplication",
+      "bidirectional indexes",
       "SVG XML",
-      "no main-unknown directories",
-      "file SHA-256",
-      "ZIP CRC",
-      "ZIP extraction and path safety"
+      "no new directories",
+      "SHA-256",
+      "ZIP CRC/extraction/path"
     ]
   },
-  "generated_at_utc": "2026-09-10T00:27:59.090951+00:00"
+  "generated_at_utc": "2026-09-11T00:29:09.644686+00:00"
 }
