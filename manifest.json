@@ -1,11 +1,11 @@
 {
   "schema_version": 4,
-  "date": "2026-09-11",
-  "region": "胸腰椎第三輪",
+  "date": "2026-09-12",
+  "region": "骨盆與髖第三輪",
   "github": {
     "repository": "janice880624/AT-Obsidian",
     "branch": "main",
-    "commit": "6169243ab4ac00e10921b428036a0468491da3d9",
+    "commit": "de761f96a9b84b9183ed79caf6d3e2e1477525ac",
     "mode": "read-only"
   },
   "template_policy": {
@@ -86,7 +86,7 @@
       "模板－神經.md",
       "模板－系統性評估.md",
       "模板－肌肉.md",
-      "模板－身體檢查.md",
+      "模板－肌腱.md",
       "模板－運動治療.md",
       "模板－韌帶.md",
       "模板－骨骼或關節.md"
@@ -108,116 +108,116 @@
     "index_or_support_files": 11
   },
   "topic_candidates_skipped": [
-    "傷害－胸腰椎壓迫性骨折",
-    "傷害－胸腰椎爆裂性骨折",
-    "傷害－腰椎椎弓解離",
-    "傷害－腰椎椎間盤突出",
-    "傷害－腰椎神經根症候群",
-    "評估－馬尾症候群與嚴重神經壓迫警訊",
-    "功能性測試－軀幹肌耐力測試組"
+    "傷害－股骨髖臼夾擠症候群",
+    "傷害－髖臼唇損傷",
+    "傷害－股骨頸骨應力傷",
+    "傷害－骨盆環高能量骨折",
+    "特殊檢查－FADIR Test",
+    "特殊檢查－FABER Test",
+    "功能性測試－單腳蹲與骨盆控制"
   ],
   "notes": [
     {
-      "path": "03_傷害與疾病/過度使用/傷害－腰椎滑脫.md",
-      "title": "傷害－腰椎滑脫",
+      "path": "03_傷害與疾病/急性傷害/傷害－股骨頭骨骺滑脫.md",
+      "title": "傷害－股骨頭骨骺滑脫",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－Scheuermann 胸椎後凸.md",
-      "title": "傷害－Scheuermann 胸椎後凸",
+      "path": "03_傷害與疾病/過度使用/傷害－股骨頭骨壞死.md",
+      "title": "傷害－股骨頭骨壞死",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－胸椎椎間盤突出與脊髓病變.md",
-      "title": "傷害－胸椎椎間盤突出與脊髓病變",
+      "path": "03_傷害與疾病/過度使用/傷害－髂腰肌症候群與內彈響髖.md",
+      "title": "傷害－髂腰肌症候群與內彈響髖",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－非特異性下背痛.md",
-      "title": "傷害－非特異性下背痛",
+      "path": "03_傷害與疾病/過度使用/傷害－薦髂關節相關疼痛.md",
+      "title": "傷害－薦髂關節相關疼痛",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－青少年運動員背痛安全分流.md",
-      "title": "評估－青少年運動員背痛安全分流",
+      "path": "04_臨床評估/系統性評估/評估－運動員腹股溝痛 Doha 分類與安全分流.md",
+      "title": "評估－運動員腹股溝痛 Doha 分類與安全分流",
       "role": "核心",
       "type": "系統性評估",
       "template": "模板－系統性評估.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－肋椎與肋橫突關節.md",
-      "title": "骨骼與關節－肋椎與肋橫突關節",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－薦髂關節.md",
+      "title": "骨骼與關節－薦髂關節",
       "role": "相關",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "01_基礎解剖/韌帶/韌帶－胸腰椎棘上與棘間韌帶.md",
-      "title": "韌帶－胸腰椎棘上與棘間韌帶",
+      "path": "01_基礎解剖/韌帶/韌帶－髖關節囊與髂股韌帶.md",
+      "title": "韌帶－髖關節囊與髂股韌帶",
       "role": "相關",
       "type": "韌帶",
       "template": "模板－韌帶.md"
     },
     {
-      "path": "01_基礎解剖/神經/神經－胸髓與長傳導徑定位.md",
-      "title": "神經－胸髓與長傳導徑定位",
-      "role": "相關",
-      "type": "神經",
-      "template": "模板－神經.md"
-    },
-    {
-      "path": "01_基礎解剖/肌肉/肌肉－腰方肌.md",
-      "title": "肌肉－腰方肌",
+      "path": "01_基礎解剖/肌肉/肌肉－深層髖外旋肌群.md",
+      "title": "肌肉－深層髖外旋肌群",
       "role": "相關",
       "type": "肌肉",
       "template": "模板－肌肉.md"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－青少年背痛與訓練負荷問診.md",
-      "title": "評估－青少年背痛與訓練負荷問診",
+      "path": "01_基礎解剖/肌腱/肌腱－臀中肌與臀小肌腱.md",
+      "title": "肌腱－臀中肌與臀小肌腱",
+      "role": "相關",
+      "type": "肌腱",
+      "template": "模板－肌腱.md"
+    },
+    {
+      "path": "01_基礎解剖/神經/神經－外側股皮神經.md",
+      "title": "神經－外側股皮神經",
+      "role": "相關",
+      "type": "神經",
+      "template": "模板－神經.md"
+    },
+    {
+      "path": "04_臨床評估/主觀問診/評估－髖與腹股溝主觀問診.md",
+      "title": "評估－髖與腹股溝主觀問診",
       "role": "相關",
       "type": "主觀問診",
       "template": "模板－主觀問診.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－胸腰椎 STTT 組織判別.md",
-      "title": "評估－胸腰椎 STTT 組織判別",
+      "path": "04_臨床評估/系統性評估/評估－髖與腹股溝 STTT 理學檢查.md",
+      "title": "評估－髖與腹股溝 STTT 理學檢查",
       "role": "相關",
       "type": "STTT理學檢查",
       "template": "模板－STTT理學檢查.md"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－胸椎與肋廓身體檢查.md",
-      "title": "評估－胸椎與肋廓身體檢查",
-      "role": "相關",
-      "type": "身體檢查",
-      "template": "模板－身體檢查.md"
-    },
-    {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Femoral Nerve Stretch Test.md",
-      "title": "特殊檢查－Femoral Nerve Stretch Test",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－薦髂關節疼痛誘發測試組.md",
+      "title": "特殊檢查－薦髂關節疼痛誘發測試組",
       "role": "相關",
       "type": "特殊檢查",
       "template": "模板－特殊檢查.md"
     },
     {
-      "path": "06_功能性測試/軀幹/功能性測試－Back Performance Scale.md",
-      "title": "功能性測試－Back Performance Scale",
+      "path": "06_功能性測試/下肢/功能性測試－Copenhagen 五秒內收擠壓測試.md",
+      "title": "功能性測試－Copenhagen 五秒內收擠壓測試",
       "role": "相關",
       "type": "功能性測試",
       "template": "模板－功能性測試.md"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－青少年腰椎伸展旋轉負荷進展.md",
-      "title": "運動治療－青少年腰椎伸展旋轉負荷進展",
+      "path": "05_處置與復健/運動治療/運動治療－Copenhagen Adduction Exercise 漸進負荷.md",
+      "title": "運動治療－Copenhagen Adduction Exercise 漸進負荷",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
@@ -225,7 +225,7 @@
   ],
   "per_note_validation": [
     {
-      "path": "03_傷害與疾病/過度使用/傷害－腰椎滑脫.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－股骨頭骨骺滑脫.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -234,7 +234,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－Scheuermann 胸椎後凸.md",
+      "path": "03_傷害與疾病/過度使用/傷害－股骨頭骨壞死.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -243,7 +243,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－胸椎椎間盤突出與脊髓病變.md",
+      "path": "03_傷害與疾病/過度使用/傷害－髂腰肌症候群與內彈響髖.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -252,7 +252,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－非特異性下背痛.md",
+      "path": "03_傷害與疾病/過度使用/傷害－薦髂關節相關疼痛.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -261,7 +261,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－青少年運動員背痛安全分流.md",
+      "path": "04_臨床評估/系統性評估/評估－運動員腹股溝痛 Doha 分類與安全分流.md",
       "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
@@ -270,7 +270,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－肋椎與肋橫突關節.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－薦髂關節.md",
       "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
@@ -279,7 +279,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/韌帶/韌帶－胸腰椎棘上與棘間韌帶.md",
+      "path": "01_基礎解剖/韌帶/韌帶－髖關節囊與髂股韌帶.md",
       "template": "模板－韌帶.md",
       "yaml": "passed",
       "h1": "passed",
@@ -288,16 +288,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/神經/神經－胸髓與長傳導徑定位.md",
-      "template": "模板－神經.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "01_基礎解剖/肌肉/肌肉－腰方肌.md",
+      "path": "01_基礎解剖/肌肉/肌肉－深層髖外旋肌群.md",
       "template": "模板－肌肉.md",
       "yaml": "passed",
       "h1": "passed",
@@ -306,7 +297,25 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－青少年背痛與訓練負荷問診.md",
+      "path": "01_基礎解剖/肌腱/肌腱－臀中肌與臀小肌腱.md",
+      "template": "模板－肌腱.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "01_基礎解剖/神經/神經－外側股皮神經.md",
+      "template": "模板－神經.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "04_臨床評估/主觀問診/評估－髖與腹股溝主觀問診.md",
       "template": "模板－主觀問診.md",
       "yaml": "passed",
       "h1": "passed",
@@ -315,7 +324,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－胸腰椎 STTT 組織判別.md",
+      "path": "04_臨床評估/系統性評估/評估－髖與腹股溝 STTT 理學檢查.md",
       "template": "模板－STTT理學檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -324,16 +333,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－胸椎與肋廓身體檢查.md",
-      "template": "模板－身體檢查.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Femoral Nerve Stretch Test.md",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－薦髂關節疼痛誘發測試組.md",
       "template": "模板－特殊檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -342,7 +342,7 @@
       "links": "passed"
     },
     {
-      "path": "06_功能性測試/軀幹/功能性測試－Back Performance Scale.md",
+      "path": "06_功能性測試/下肢/功能性測試－Copenhagen 五秒內收擠壓測試.md",
       "template": "模板－功能性測試.md",
       "yaml": "passed",
       "h1": "passed",
@@ -351,7 +351,7 @@
       "links": "passed"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－青少年腰椎伸展旋轉負荷進展.md",
+      "path": "05_處置與復健/運動治療/運動治療－Copenhagen Adduction Exercise 漸進負荷.md",
       "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
@@ -361,18 +361,20 @@
     }
   ],
   "assets": [
-    "assets/anatomy/胸腰椎第三輪結構關聯圖.svg",
-    "assets/assessment/青少年運動員背痛安全分流圖.svg",
-    "assets/assessment/胸腰椎第三輪臨床推理矩陣.svg"
+    "assets/anatomy/骨盆髖第三輪結構關聯圖.svg",
+    "assets/assessment/骨盆髖第三輪腹股溝痛分類圖.svg",
+    "assets/assessment/骨盆髖第三輪負荷進展矩陣.svg"
   ],
   "sources_checked": [
-    "ACR Appropriateness Criteria: Low Back Pain. https://acsearch.acr.org/docs/69483/Narrative/",
-    "ACR Appropriateness Criteria: Thoracic Back Pain. J Am Coll Radiol. 2024. https://pubmed.ncbi.nlm.nih.gov/39488357/",
-    "George SZ, et al. Interventions for Acute and Chronic Low Back Pain: CPG Revision 2021. https://doi.org/10.2519/jospt.2021.0304",
-    "Selhorst M, et al. Rehabilitation Considerations for Spondylolysis in the Youth Athlete. 2020. https://doi.org/10.26603/ijspt20200287",
-    "O'Donnell JM, et al. Scheuermann Kyphosis: Current Concepts and Management. 2023. https://doi.org/10.1007/s12178-023-09861-z",
-    "Strand LI, et al. Back Performance Scale for mobility-related activities. Phys Ther. 2002. https://doi.org/10.1093/ptj/82.12.1213",
-    "Suri P, et al. Accuracy of physical examination for midlumbar nerve root impingement. Spine. 2011. https://pmc.ncbi.nlm.nih.gov/articles/PMC2978791/"
+    "ACR Appropriateness Criteria: Acute Hip Pain. https://acsearch.acr.org/docs/3082587/Narrative/",
+    "ACR Appropriateness Criteria: Chronic Hip Pain. https://acsearch.acr.org/docs/69425/Narrative/",
+    "Royal Children's Hospital Melbourne. Slipped upper femoral epiphysis emergency guideline. https://www.rch.org.au/clinicalguide/guideline_index/fractures/Slipped_upper_femoral_epiphysis_SUFE_-_Emergency_Department/",
+    "ARCO. Management of Nontraumatic Osteonecrosis of the Femoral Head. https://www.aaos.org/globalassets/quality-and-practice-resources/external-quality-products/arco/arco-management-of-nontraumatic-osteonecrosis-ot-the-femoral-head.pdf",
+    "Weir A, et al. Doha agreement meeting on terminology and definitions in groin pain in athletes. Br J Sports Med. 2015. https://pubmed.ncbi.nlm.nih.gov/26031643/",
+    "Walker P, et al. Snapping Hip Syndrome: A Comprehensive Update. 2021. https://pmc.ncbi.nlm.nih.gov/articles/PMC8567760/",
+    "Saueressig T, et al. Diagnostic Accuracy of Clusters of Pain Provocation Tests for Detecting Sacroiliac Joint Pain. 2021. https://pubmed.ncbi.nlm.nih.gov/34210160/",
+    "Ishøi L, et al. Five-Second Squeeze Testing in 333 Professional and Semiprofessional Male Ice Hockey Players. 2019. https://pmc.ncbi.nlm.nih.gov/articles/PMC6383089/",
+    "Harøy J, et al. The Adductor Strengthening Programme Prevents Groin Problems among Male Football Players. 2019. https://pubmed.ncbi.nlm.nih.gov/29891614/"
   ],
   "validation": {
     "status": "passed",
@@ -391,5 +393,5 @@
       "ZIP CRC/extraction/path"
     ]
   },
-  "generated_at_utc": "2026-09-11T00:29:09.644686+00:00"
+  "generated_at_utc": "2026-09-12T00:06:10.981707+00:00"
 }
