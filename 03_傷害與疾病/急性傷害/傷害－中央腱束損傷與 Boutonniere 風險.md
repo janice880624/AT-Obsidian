@@ -4,7 +4,7 @@
 英文名稱: Central slip injury and boutonniere risk
 狀態: 已查核
 更新日期: 2026-09-02
-組織:
+組織: 待依原文或可靠來源補充
 tags: [手指, 中央腱束, Boutonniere, 伸肌腱, 傷害]
 ---
 

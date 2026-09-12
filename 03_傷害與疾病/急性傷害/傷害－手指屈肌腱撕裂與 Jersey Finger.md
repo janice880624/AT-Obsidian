@@ -4,7 +4,7 @@
 英文名稱: Flexor tendon injury and jersey finger
 狀態: 已查核
 更新日期: 2026-09-02
-組織:
+組織: 待依原文或可靠來源補充
 tags: [手指, 屈肌腱, Jersey_Finger, 急性傷害, 傷害]
 ---
 
