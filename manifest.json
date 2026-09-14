@@ -1,11 +1,11 @@
 {
   "schema_version": 4,
-  "date": "2026-09-13",
-  "region": "膝部第三輪",
+  "date": "2026-09-14",
+  "region": "足踝第三輪",
   "github": {
     "repository": "janice880624/AT-Obsidian",
     "branch": "main",
-    "commit": "c3b74513893f6de5dcb02c448e85636c5f148854",
+    "commit": "a5853598f6b453b6a23ac6b4628e1e6dc4824b62",
     "mode": "read-only"
   },
   "template_policy": {
@@ -78,7 +78,6 @@
     },
     "template_count": 16,
     "used_templates": [
-      "模板－STTT理學檢查.md",
       "模板－主觀問診.md",
       "模板－傷害.md",
       "模板－功能性測試.md",
@@ -87,6 +86,7 @@
       "模板－系統性評估.md",
       "模板－肌肉.md",
       "模板－肌腱.md",
+      "模板－貼紮.md",
       "模板－運動治療.md",
       "模板－韌帶.md",
       "模板－骨骼或關節.md"
@@ -105,128 +105,128 @@
     "related_notes": 10,
     "knowledge_notes": 15,
     "svg": 3,
-    "index_or_support_files": 11
+    "index_or_support_files": 12
   },
   "topic_candidates_skipped": [
-    "傷害－前十字韌帶損傷",
-    "傷害－後十字韌帶損傷",
-    "傷害－急性半月板損傷",
-    "傷害－膝內側副韌帶扭傷",
-    "傷害－膝後外側角損傷",
-    "傷害－急性髕骨外側脫位",
-    "傷害－髕股疼痛",
-    "功能性測試－單腳跳測試組"
+    "傷害－急性外側踝扭傷",
+    "傷害－足踝骨折與脫臼紅旗",
+    "傷害－跟腱斷裂",
+    "傷害－高位踝扭傷",
+    "傷害－Lisfranc 中足損傷",
+    "傷害－距骨骨軟骨病灶",
+    "傷害－第五蹠骨近端骨折",
+    "特殊檢查－Simmonds-Thompson Test"
   ],
   "notes": [
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－脛骨平台骨折.md",
-      "title": "傷害－脛骨平台骨折",
+      "path": "03_傷害與疾病/急性傷害/傷害－距骨頸骨折.md",
+      "title": "傷害－距骨頸骨折",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－膝伸肌機轉斷裂.md",
-      "title": "傷害－膝伸肌機轉斷裂",
+      "path": "03_傷害與疾病/急性傷害/傷害－跟骨骨折.md",
+      "title": "傷害－跟骨骨折",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－脛骨粗隆撕脫骨折.md",
-      "title": "傷害－脛骨粗隆撕脫骨折",
+      "path": "03_傷害與疾病/急性傷害/傷害－Turf Toe 第一蹠趾關節扭傷.md",
+      "title": "傷害－Turf Toe 第一蹠趾關節扭傷",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－Osgood-Schlatter 病.md",
-      "title": "傷害－Osgood-Schlatter 病",
+      "path": "03_傷害與疾病/過度使用/傷害－慢性踝關節不穩定.md",
+      "title": "傷害－慢性踝關節不穩定",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－膝關節脫臼與血管損傷緊急分流.md",
-      "title": "評估－膝關節脫臼與血管損傷緊急分流",
+      "path": "04_臨床評估/系統性評估/評估－足踝高能量創傷神經血管與腔室分流.md",
+      "title": "評估－足踝高能量創傷神經血管與腔室分流",
       "role": "核心",
       "type": "系統性評估",
       "template": "模板－系統性評估.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－近端脛腓關節.md",
-      "title": "骨骼與關節－近端脛腓關節",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－第一蹠趾關節與籽骨複合體.md",
+      "title": "骨骼與關節－第一蹠趾關節與籽骨複合體",
       "role": "相關",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "01_基礎解剖/韌帶/韌帶－外側副韌帶.md",
-      "title": "韌帶－外側副韌帶",
+      "path": "01_基礎解剖/韌帶/韌帶－三角韌帶複合體.md",
+      "title": "韌帶－三角韌帶複合體",
       "role": "相關",
       "type": "韌帶",
       "template": "模板－韌帶.md"
     },
     {
-      "path": "01_基礎解剖/肌肉/肌肉－股四頭肌群.md",
-      "title": "肌肉－股四頭肌群",
+      "path": "01_基礎解剖/肌肉/肌肉－後脛肌.md",
+      "title": "肌肉－後脛肌",
       "role": "相關",
       "type": "肌肉",
       "template": "模板－肌肉.md"
     },
     {
-      "path": "01_基礎解剖/肌腱/肌腱－股四頭肌腱與髕腱.md",
-      "title": "肌腱－股四頭肌腱與髕腱",
+      "path": "01_基礎解剖/肌腱/肌腱－後脛肌腱.md",
+      "title": "肌腱－後脛肌腱",
       "role": "相關",
       "type": "肌腱",
       "template": "模板－肌腱.md"
     },
     {
-      "path": "01_基礎解剖/神經/神經－腓總神經於膝外側.md",
-      "title": "神經－腓總神經於膝外側",
+      "path": "01_基礎解剖/神經/神經－腓淺神經於足踝.md",
+      "title": "神經－腓淺神經於足踝",
       "role": "相關",
       "type": "神經",
       "template": "模板－神經.md"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－膝部創傷與負重能力問診.md",
-      "title": "評估－膝部創傷與負重能力問診",
+      "path": "04_臨床評估/主觀問診/評估－足踝創傷近端腓骨與負重問診.md",
+      "title": "評估－足踝創傷近端腓骨與負重問診",
       "role": "相關",
       "type": "主觀問診",
       "template": "模板－主觀問診.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－膝部 STTT 組織判別.md",
-      "title": "評估－膝部 STTT 組織判別",
-      "role": "相關",
-      "type": "STTT理學檢查",
-      "template": "模板－STTT理學檢查.md"
-    },
-    {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Varus Stress Test.md",
-      "title": "特殊檢查－Varus Stress Test",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－足根管 Tinel Test.md",
+      "title": "特殊檢查－足根管 Tinel Test",
       "role": "相關",
       "type": "特殊檢查",
       "template": "模板－特殊檢查.md"
     },
     {
-      "path": "06_功能性測試/下肢/功能性測試－單腳坐站測試.md",
-      "title": "功能性測試－單腳坐站測試",
+      "path": "06_功能性測試/下肢/功能性測試－Side Hop Test.md",
+      "title": "功能性測試－Side Hop Test",
       "role": "相關",
       "type": "功能性測試",
       "template": "模板－功能性測試.md"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－膝伸肌力量與跑跳銜接.md",
-      "title": "運動治療－膝伸肌力量與跑跳銜接",
+      "path": "05_處置與復健/運動治療/運動治療－足踝反應性平衡與方向變換.md",
+      "title": "運動治療－足踝反應性平衡與方向變換",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
+    },
+    {
+      "path": "05_處置與復健/貼紮/貼紮－閉鎖籃式踝關節支撐貼紮.md",
+      "title": "貼紮－閉鎖籃式踝關節支撐貼紮",
+      "role": "相關",
+      "type": "貼紮",
+      "template": "模板－貼紮.md"
     }
   ],
   "per_note_validation": [
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－脛骨平台骨折.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－距骨頸骨折.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -235,7 +235,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－膝伸肌機轉斷裂.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－跟骨骨折.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -244,7 +244,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－脛骨粗隆撕脫骨折.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－Turf Toe 第一蹠趾關節扭傷.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -253,7 +253,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－Osgood-Schlatter 病.md",
+      "path": "03_傷害與疾病/過度使用/傷害－慢性踝關節不穩定.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -262,7 +262,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－膝關節脫臼與血管損傷緊急分流.md",
+      "path": "04_臨床評估/系統性評估/評估－足踝高能量創傷神經血管與腔室分流.md",
       "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
@@ -271,7 +271,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－近端脛腓關節.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－第一蹠趾關節與籽骨複合體.md",
       "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
@@ -280,7 +280,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/韌帶/韌帶－外側副韌帶.md",
+      "path": "01_基礎解剖/韌帶/韌帶－三角韌帶複合體.md",
       "template": "模板－韌帶.md",
       "yaml": "passed",
       "h1": "passed",
@@ -289,7 +289,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/肌肉/肌肉－股四頭肌群.md",
+      "path": "01_基礎解剖/肌肉/肌肉－後脛肌.md",
       "template": "模板－肌肉.md",
       "yaml": "passed",
       "h1": "passed",
@@ -298,7 +298,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/肌腱/肌腱－股四頭肌腱與髕腱.md",
+      "path": "01_基礎解剖/肌腱/肌腱－後脛肌腱.md",
       "template": "模板－肌腱.md",
       "yaml": "passed",
       "h1": "passed",
@@ -307,7 +307,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/神經/神經－腓總神經於膝外側.md",
+      "path": "01_基礎解剖/神經/神經－腓淺神經於足踝.md",
       "template": "模板－神經.md",
       "yaml": "passed",
       "h1": "passed",
@@ -316,7 +316,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－膝部創傷與負重能力問診.md",
+      "path": "04_臨床評估/主觀問診/評估－足踝創傷近端腓骨與負重問診.md",
       "template": "模板－主觀問診.md",
       "yaml": "passed",
       "h1": "passed",
@@ -325,16 +325,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－膝部 STTT 組織判別.md",
-      "template": "模板－STTT理學檢查.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Varus Stress Test.md",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－足根管 Tinel Test.md",
       "template": "模板－特殊檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -343,7 +334,7 @@
       "links": "passed"
     },
     {
-      "path": "06_功能性測試/下肢/功能性測試－單腳坐站測試.md",
+      "path": "06_功能性測試/下肢/功能性測試－Side Hop Test.md",
       "template": "模板－功能性測試.md",
       "yaml": "passed",
       "h1": "passed",
@@ -352,8 +343,17 @@
       "links": "passed"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－膝伸肌力量與跑跳銜接.md",
+      "path": "05_處置與復健/運動治療/運動治療－足踝反應性平衡與方向變換.md",
       "template": "模板－運動治療.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "05_處置與復健/貼紮/貼紮－閉鎖籃式踝關節支撐貼紮.md",
+      "template": "模板－貼紮.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -362,21 +362,24 @@
     }
   ],
   "assets": [
-    "assets/anatomy/膝部第三輪結構關聯圖.svg",
-    "assets/assessment/膝部第三輪血管緊急分流圖.svg",
-    "assets/assessment/膝部第三輪負荷進展矩陣.svg"
+    "assets/anatomy/足踝第三輪結構關聯圖.svg",
+    "assets/assessment/足踝第三輪高能量創傷分流圖.svg",
+    "assets/assessment/足踝第三輪負荷進展矩陣.svg"
   ],
   "sources_checked": [
-    "ACR Appropriateness Criteria: Acute Trauma to the Knee. https://acsearch.acr.org/docs/69419/Narrative/",
-    "AAOS. Management of Acute Compartment Syndrome Clinical Practice Guideline. 2025. https://www.aaos.org/acscpg2025",
-    "Malik S, et al. Tibial Plateau Fractures. StatPearls. https://www.ncbi.nlm.nih.gov/books/NBK470593/",
-    "Tandogan RN, et al. Extensor mechanism ruptures. https://pubmed.ncbi.nlm.nih.gov/35638613/",
-    "Reyes CD, et al. Adolescent Tibial Tubercle Fracture: Review of Outcomes and Complications. 2023. https://pmc.ncbi.nlm.nih.gov/articles/PMC10427568/",
-    "Neuhaus C, et al. A systematic review on conservative treatment options for Osgood-Schlatter disease. 2021. https://pubmed.ncbi.nlm.nih.gov/33744766/",
-    "Medina O, et al. Vascular and nerve injury after knee dislocation: a systematic review. https://pubmed.ncbi.nlm.nih.gov/24554457/",
-    "Mills WJ, et al. The value of the ankle-brachial index for diagnosing arterial injury after knee dislocation. https://pubmed.ncbi.nlm.nih.gov/15211135/",
-    "James EW, et al. Stress radiography for the diagnosis of knee ligament injuries: a systematic review. https://pubmed.ncbi.nlm.nih.gov/24504647/",
-    "Waldhelm A, et al. Reliability of two single leg sit-to-stand tests. 2020. https://pubmed.ncbi.nlm.nih.gov/32566375/"
+    "Saravi B, et al. Conservative and Surgical Treatment of Talar Fractures: A Systematic Review and Meta-Analysis. 2024. https://pubmed.ncbi.nlm.nih.gov/38741879/",
+    "Dodd A, Lefaivre KA. Outcomes of Talar Neck Fractures: A Systematic Review and Meta-analysis. 2015. https://pubmed.ncbi.nlm.nih.gov/25635362/",
+    "Davis D, et al. Calcaneus Fractures. StatPearls. Updated 2026. https://www.ncbi.nlm.nih.gov/books/NBK430861/",
+    "Fraser JJ, et al. Turf Toe Injuries in the Athlete: an Updated Review. 2023. https://pubmed.ncbi.nlm.nih.gov/37789169/",
+    "Gribble PA, et al. Selection criteria for patients with chronic ankle instability in controlled research. 2014. https://pubmed.ncbi.nlm.nih.gov/24377963/",
+    "Martin RL, et al. Lateral Ankle Ligament Sprains Revision 2021 Clinical Practice Guideline. https://pubmed.ncbi.nlm.nih.gov/33789434/",
+    "Smith MD, et al. Return to sport decisions after an acute lateral ankle sprain: the PAASS framework. 2021. https://pubmed.ncbi.nlm.nih.gov/34158354/",
+    "Bäcker HC, et al. Diagnostic Workup of Tarsal Tunnel Syndrome: A Systematic Review. 2026. https://pubmed.ncbi.nlm.nih.gov/41662474/",
+    "Rosen AB, et al. Functional Performance Tests Identify Lateral Ankle Sprain and Chronic Ankle Instability: A Systematic Review. 2019. https://pubmed.ncbi.nlm.nih.gov/31688183/",
+    "Ross MH, et al. Exercise for posterior tibial tendon dysfunction: a systematic review. 2018. https://pubmed.ncbi.nlm.nih.gov/30271611/",
+    "Li Y, et al. Effects of balance and strength training on chronic ankle instability: a systematic review and meta-analysis. 2024. https://pubmed.ncbi.nlm.nih.gov/39058626/",
+    "Olmsted LC, et al. Prophylactic ankle taping and bracing: a numbers-needed-to-treat and cost-benefit analysis. 2004. https://pubmed.ncbi.nlm.nih.gov/15085217/",
+    "AAOS. Management of Acute Compartment Syndrome Clinical Practice Guideline. 2025. https://www.aaos.org/acscpg2025"
   ],
   "validation": {
     "status": "passed",
@@ -395,5 +398,5 @@
       "ZIP CRC/extraction/path"
     ]
   },
-  "generated_at_utc": "2026-09-13T00:20:58.782681+00:00"
+  "generated_at_utc": "2026-09-14T00:16:59.405227+00:00"
 }
