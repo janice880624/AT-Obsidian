@@ -1,11 +1,11 @@
 {
   "schema_version": 4,
-  "date": "2026-09-15",
-  "region": "頭頸第四輪",
+  "date": "2026-09-16",
+  "region": "肩部第四輪",
   "github": {
     "repository": "janice880624/AT-Obsidian",
     "branch": "main",
-    "commit": "a50850a825d7c25c3f7508ba11071cfc0a8cae40",
+    "commit": "d000a48dbbffaff0453331aa63de524d1477410f",
     "mode": "read-only"
   },
   "template_policy": {
@@ -85,9 +85,9 @@
       "模板－神經.md",
       "模板－系統性評估.md",
       "模板－肌肉.md",
+      "模板－肌腱.md",
       "模板－身體檢查.md",
       "模板－運動治療.md",
-      "模板－韌帶.md",
       "模板－骨骼或關節.md"
     ],
     "validated_note_count": 15,
@@ -107,117 +107,118 @@
     "index_or_support_files": 11
   },
   "topic_candidates_skipped": [
-    "傷害－運動相關腦震盪",
-    "傷害－頸部神經根病變",
-    "傷害－退化性頸髓病變",
-    "傷害－頸部灼熱刺痛症候群（Stinger／Burner）",
-    "特殊檢查－Spurling Test",
-    "特殊檢查－Sharp-Purser Test",
-    "特殊檢查－Hoffmann Sign",
-    "評估－Canadian C-Spine Rule 與 NEXUS"
+    "傷害－旋轉肌袖相關肩痛",
+    "傷害－肩關節前方不穩定",
+    "傷害－多方向性肩關節不穩定",
+    "傷害－肩胛上神經病變",
+    "傷害－鎖骨骨折",
+    "傷害－近端肱骨骨折",
+    "特殊檢查－Sulcus Sign",
+    "特殊檢查－Cross-body Adduction Test",
+    "功能性測試－CKCUEST"
   ],
   "notes": [
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－齒突骨折.md",
-      "title": "傷害－齒突骨折",
+      "path": "03_傷害與疾病/過度使用/傷害－近端肱骨骨骺應力傷（Little League Shoulder）.md",
+      "title": "傷害－近端肱骨骨骺應力傷（Little League Shoulder）",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－頸髓神經失用與暫時性四肢症狀.md",
-      "title": "傷害－頸髓神經失用與暫時性四肢症狀",
+      "path": "03_傷害與疾病/急性傷害/傷害－胸大肌腱斷裂.md",
+      "title": "傷害－胸大肌腱斷裂",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－頸椎椎間盤突出與神經壓迫.md",
-      "title": "傷害－頸椎椎間盤突出與神經壓迫",
+      "path": "03_傷害與疾病/神經卡壓/傷害－長胸神經麻痺與翼狀肩胛.md",
+      "title": "傷害－長胸神經麻痺與翼狀肩胛",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－枕神經痛.md",
-      "title": "傷害－枕神經痛",
+      "path": "03_傷害與疾病/過度使用/傷害－黏連性肩關節囊炎.md",
+      "title": "傷害－黏連性肩關節囊炎",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－持續性頸痛神經與血管轉介分流.md",
-      "title": "評估－持續性頸痛神經與血管轉介分流",
+      "path": "04_臨床評估/系統性評估/評估－過頭運動員肩部旋轉活動度與負荷分流.md",
+      "title": "評估－過頭運動員肩部旋轉活動度與負荷分流",
       "role": "核心",
       "type": "系統性評估",
       "template": "模板－系統性評估.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－齒突與上頸椎穩定.md",
-      "title": "骨骼與關節－齒突與上頸椎穩定",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－近端肱骨骨骺與生長板.md",
+      "title": "骨骼與關節－近端肱骨骨骺與生長板",
       "role": "相關",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "01_基礎解剖/韌帶/韌帶－前縱韌帶與後縱韌帶.md",
-      "title": "韌帶－前縱韌帶與後縱韌帶",
-      "role": "相關",
-      "type": "韌帶",
-      "template": "模板－韌帶.md"
-    },
-    {
-      "path": "01_基礎解剖/肌肉/肌肉－頸半棘肌與頸多裂肌.md",
-      "title": "肌肉－頸半棘肌與頸多裂肌",
+      "path": "01_基礎解剖/肌肉/肌肉－胸大肌.md",
+      "title": "肌肉－胸大肌",
       "role": "相關",
       "type": "肌肉",
       "template": "模板－肌肉.md"
     },
     {
-      "path": "01_基礎解剖/神經/神經－枕大神經與枕小神經.md",
-      "title": "神經－枕大神經與枕小神經",
+      "path": "01_基礎解剖/肌腱/肌腱－胸大肌腱.md",
+      "title": "肌腱－胸大肌腱",
+      "role": "相關",
+      "type": "肌腱",
+      "template": "模板－肌腱.md"
+    },
+    {
+      "path": "01_基礎解剖/神經/神經－長胸神經.md",
+      "title": "神經－長胸神經",
       "role": "相關",
       "type": "神經",
       "template": "模板－神經.md"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－頭頸碰撞後暫時性四肢症狀問診.md",
-      "title": "評估－頭頸碰撞後暫時性四肢症狀問診",
+      "path": "04_臨床評估/主觀問診/評估－投擲肩負荷與症狀問診.md",
+      "title": "評估－投擲肩負荷與症狀問診",
       "role": "相關",
       "type": "主觀問診",
       "template": "模板－主觀問診.md"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－頸椎節段性神經學檢查.md",
-      "title": "評估－頸椎節段性神經學檢查",
+      "path": "04_臨床評估/身體檢查/評估－盂肱內外旋與總旋轉弧測量.md",
+      "title": "評估－盂肱內外旋與總旋轉弧測量",
       "role": "相關",
       "type": "身體檢查",
       "template": "模板－身體檢查.md"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Upper Limb Tension Test 1.md",
-      "title": "特殊檢查－Upper Limb Tension Test 1",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－Scapular Assistance Test.md",
+      "title": "特殊檢查－Scapular Assistance Test",
       "role": "相關",
       "type": "特殊檢查",
       "template": "模板－特殊檢查.md"
     },
     {
-      "path": "06_功能性測試/軀幹/功能性測試－頸部多方向等長肌力測試.md",
-      "title": "功能性測試－頸部多方向等長肌力測試",
+      "path": "06_功能性測試/上肢/功能性測試－Athletic Shoulder Test.md",
+      "title": "功能性測試－Athletic Shoulder Test",
       "role": "相關",
       "type": "功能性測試",
       "template": "模板－功能性測試.md"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－頸部等長肌力與接觸準備.md",
-      "title": "運動治療－頸部等長肌力與接觸準備",
+      "path": "05_處置與復健/運動治療/運動治療－投擲肩後側柔軟度與旋轉容量訓練.md",
+      "title": "運動治療－投擲肩後側柔軟度與旋轉容量訓練",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－頸部位置覺與感覺運動訓練.md",
-      "title": "運動治療－頸部位置覺與感覺運動訓練",
+      "path": "05_處置與復健/運動治療/運動治療－翼狀肩胛與前鋸肌漸進負荷.md",
+      "title": "運動治療－翼狀肩胛與前鋸肌漸進負荷",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
@@ -225,7 +226,7 @@
   ],
   "per_note_validation": [
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－齒突骨折.md",
+      "path": "03_傷害與疾病/過度使用/傷害－近端肱骨骨骺應力傷（Little League Shoulder）.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -234,7 +235,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－頸髓神經失用與暫時性四肢症狀.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－胸大肌腱斷裂.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -243,7 +244,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－頸椎椎間盤突出與神經壓迫.md",
+      "path": "03_傷害與疾病/神經卡壓/傷害－長胸神經麻痺與翼狀肩胛.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -252,7 +253,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－枕神經痛.md",
+      "path": "03_傷害與疾病/過度使用/傷害－黏連性肩關節囊炎.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -261,7 +262,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－持續性頸痛神經與血管轉介分流.md",
+      "path": "04_臨床評估/系統性評估/評估－過頭運動員肩部旋轉活動度與負荷分流.md",
       "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
@@ -270,7 +271,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－齒突與上頸椎穩定.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－近端肱骨骨骺與生長板.md",
       "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
@@ -279,16 +280,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/韌帶/韌帶－前縱韌帶與後縱韌帶.md",
-      "template": "模板－韌帶.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "01_基礎解剖/肌肉/肌肉－頸半棘肌與頸多裂肌.md",
+      "path": "01_基礎解剖/肌肉/肌肉－胸大肌.md",
       "template": "模板－肌肉.md",
       "yaml": "passed",
       "h1": "passed",
@@ -297,7 +289,16 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/神經/神經－枕大神經與枕小神經.md",
+      "path": "01_基礎解剖/肌腱/肌腱－胸大肌腱.md",
+      "template": "模板－肌腱.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "01_基礎解剖/神經/神經－長胸神經.md",
       "template": "模板－神經.md",
       "yaml": "passed",
       "h1": "passed",
@@ -306,7 +307,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－頭頸碰撞後暫時性四肢症狀問診.md",
+      "path": "04_臨床評估/主觀問診/評估－投擲肩負荷與症狀問診.md",
       "template": "模板－主觀問診.md",
       "yaml": "passed",
       "h1": "passed",
@@ -315,7 +316,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－頸椎節段性神經學檢查.md",
+      "path": "04_臨床評估/身體檢查/評估－盂肱內外旋與總旋轉弧測量.md",
       "template": "模板－身體檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -324,7 +325,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Upper Limb Tension Test 1.md",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－Scapular Assistance Test.md",
       "template": "模板－特殊檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -333,7 +334,7 @@
       "links": "passed"
     },
     {
-      "path": "06_功能性測試/軀幹/功能性測試－頸部多方向等長肌力測試.md",
+      "path": "06_功能性測試/上肢/功能性測試－Athletic Shoulder Test.md",
       "template": "模板－功能性測試.md",
       "yaml": "passed",
       "h1": "passed",
@@ -342,7 +343,7 @@
       "links": "passed"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－頸部等長肌力與接觸準備.md",
+      "path": "05_處置與復健/運動治療/運動治療－投擲肩後側柔軟度與旋轉容量訓練.md",
       "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
@@ -351,7 +352,7 @@
       "links": "passed"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－頸部位置覺與感覺運動訓練.md",
+      "path": "05_處置與復健/運動治療/運動治療－翼狀肩胛與前鋸肌漸進負荷.md",
       "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
@@ -361,23 +362,29 @@
     }
   ],
   "assets": [
-    "assets/anatomy/頭頸第四輪上頸椎與神經關聯圖.svg",
-    "assets/assessment/頭頸第四輪持續性頸痛分流圖.svg",
-    "assets/assessment/頭頸第四輪肌力與回場矩陣.svg"
+    "assets/anatomy/肩部第四輪生長板與前胸結構圖.svg",
+    "assets/assessment/肩部第四輪過頭運動員分流圖.svg",
+    "assets/assessment/肩部第四輪負荷進展矩陣.svg"
   ],
   "sources_checked": [
-    "ACR Appropriateness Criteria: Acute Spinal Trauma. https://acsearch.acr.org/docs/69359/Narrative/",
-    "ACR Appropriateness Criteria: Cervical Pain or Cervical Radiculopathy. https://acsearch.acr.org/docs/69426/Narrative/",
-    "NICE NG41. Spinal injury: assessment and initial management. https://www.nice.org.uk/guidance/ng41/chapter/recommendations",
-    "Munakomi S, Varacallo MA. Odontoid Fractures. StatPearls. https://www.ncbi.nlm.nih.gov/books/NBK441956/",
-    "Jabola R, et al. Transient Quadriplegia: A Case-Based Approach to Cervical Trauma. Clin Pract Cases Emerg Med. 2021;5(2):163-166. https://doi.org/10.5811/cpcem.2020.12.49364",
-    "Huang P, et al. Return-to-Play Recommendations After Cervical, Thoracic, and Lumbar Spine Injuries. 2016. https://pmc.ncbi.nlm.nih.gov/articles/PMC4702157/",
-    "Wainner RS, et al. Reliability and diagnostic accuracy of the clinical examination for cervical radiculopathy. 2003. https://pubmed.ncbi.nlm.nih.gov/12544957/",
-    "International Headache Society. ICHD-3: Occipital neuralgia. https://ichd-3.org/13-painful-cranial-neuropathies-and-other-facial-pains/13-4-occipital-neuralgia/",
-    "Thomas DC, et al. Occipital Neuralgia and Its Management: An Overview. Neurol India. 2021;69(Suppl):S213-S218. https://pubmed.ncbi.nlm.nih.gov/34003168/",
-    "Blanpied PR, et al. Neck Pain: Revision 2017 Clinical Practice Guideline. https://www.jospt.org/doi/10.2519/jospt.2017.0302",
-    "Versteegh T, et al. Evaluating the reliability of a novel neck-strength assessment protocol for healthy adults using self-generated resistance with a hand-held dynamometer. Physiother Can. 2015;67(1):58-66. https://pubmed.ncbi.nlm.nih.gov/25931654/",
-    "de Vries J, et al. Joint position sense error in people with neck pain: a systematic review. Man Ther. 2015;20(6):736-744. https://pubmed.ncbi.nlm.nih.gov/25983238/"
+    "ACR Appropriateness Criteria: Acute Shoulder Pain. https://acsearch.acr.org/docs/69433/Narrative/",
+    "ACR Appropriateness Criteria: Chronic Shoulder Pain. https://acsearch.acr.org/docs/3101482/Narrative/",
+    "Zaremski JL, et al. Diagnosis and Management of Little League Shoulder: A Systematic Review. Orthop J Sports Med. 2021. https://doi.org/10.1177/23259671211017563",
+    "Heyworth BE, et al. Little League shoulder: an update. JSES Int. 2024. https://doi.org/10.1016/j.jseint.2024.03.006",
+    "Bodendorfer BM, et al. Treatment of Pectoralis Major Tendon Tears: A Systematic Review and Meta-analysis. Orthop J Sports Med. 2020. https://pubmed.ncbi.nlm.nih.gov/32083144/",
+    "Bodendorfer BM, et al. Treatment of Pectoralis Major Tendon Tears: Timing and Fixation Methods. Am J Sports Med. 2020. https://pubmed.ncbi.nlm.nih.gov/32109153/",
+    "Nath RK, et al. Long Thoracic Nerve Palsy: When Is Decompression Indicated. J Hand Surg Glob Online. 2023. https://pubmed.ncbi.nlm.nih.gov/37521538/",
+    "Vetter M, et al. Treatment of Neurogenic Scapular Winging: A Systematic Review. 2022. https://pubmed.ncbi.nlm.nih.gov/36252782/",
+    "Kelley MJ, et al. Shoulder Pain and Mobility Deficits: Adhesive Capsulitis. JOSPT. 2013. https://pubmed.ncbi.nlm.nih.gov/23636125/",
+    "Rangan A, et al. Effectiveness of nonsurgical interventions for frozen shoulder: systematic review. 2023. https://pubmed.ncbi.nlm.nih.gov/36861780/",
+    "Rose MB, Noonan T. Glenohumeral Internal Rotation Deficit in Throwing Athletes: Current Perspectives. 2018. https://pmc.ncbi.nlm.nih.gov/articles/PMC5967160/",
+    "Wilk KE, et al. Correlation of glenohumeral internal rotation deficit and total rotational motion to shoulder injuries. https://pubmed.ncbi.nlm.nih.gov/26075147/",
+    "Rabin A, et al. The intertester reliability of the Scapular Assistance Test. 2015. https://pubmed.ncbi.nlm.nih.gov/25935796/",
+    "Wright AA, et al. Diagnostic accuracy of scapular physical examination tests: systematic review. 2013. https://pubmed.ncbi.nlm.nih.gov/23080313/",
+    "Ashworth B, et al. The Athletic Shoulder Test: reliability for measuring isometric strength in athletes. BMJ Open Sport Exerc Med. 2018. https://pmc.ncbi.nlm.nih.gov/articles/PMC6059329/",
+    "Hattori S, et al. Reliability and validity of the Athletic Shoulder Test. 2025. https://pubmed.ncbi.nlm.nih.gov/39965305/",
+    "Mine K, et al. Stretching interventions for posterior shoulder tightness: systematic review. 2017. https://pubmed.ncbi.nlm.nih.gov/27632891/",
+    "McClure P, et al. Randomized controlled comparison of stretching procedures for posterior shoulder tightness. 2007. https://pubmed.ncbi.nlm.nih.gov/17416125/"
   ],
   "validation": {
     "status": "passed",
@@ -396,5 +403,5 @@
       "ZIP CRC/extraction/path"
     ]
   },
-  "generated_at_utc": "2026-09-15T00:12:35.099010+00:00"
+  "generated_at_utc": "2026-09-16T00:10:24.147490+00:00"
 }
