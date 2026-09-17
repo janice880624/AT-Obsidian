@@ -1,11 +1,11 @@
 {
   "schema_version": 4,
-  "date": "2026-09-16",
-  "region": "肩部第四輪",
+  "date": "2026-09-17",
+  "region": "肘部第四輪",
   "github": {
     "repository": "janice880624/AT-Obsidian",
     "branch": "main",
-    "commit": "d000a48dbbffaff0453331aa63de524d1477410f",
+    "commit": "73f38b08beadb3757c82f99fa41088c41a6c30a8",
     "mode": "read-only"
   },
   "template_policy": {
@@ -82,12 +82,12 @@
       "模板－傷害.md",
       "模板－功能性測試.md",
       "模板－特殊檢查.md",
-      "模板－神經.md",
       "模板－系統性評估.md",
       "模板－肌肉.md",
       "模板－肌腱.md",
       "模板－身體檢查.md",
       "模板－運動治療.md",
+      "模板－韌帶.md",
       "模板－骨骼或關節.md"
     ],
     "validated_note_count": 15,
@@ -107,118 +107,118 @@
     "index_or_support_files": 11
   },
   "topic_candidates_skipped": [
-    "傷害－旋轉肌袖相關肩痛",
-    "傷害－肩關節前方不穩定",
-    "傷害－多方向性肩關節不穩定",
-    "傷害－肩胛上神經病變",
-    "傷害－鎖骨骨折",
-    "傷害－近端肱骨骨折",
-    "特殊檢查－Sulcus Sign",
-    "特殊檢查－Cross-body Adduction Test",
-    "功能性測試－CKCUEST"
+    "傷害－外側肘肌腱病變",
+    "傷害－肘內側尺側副韌帶損傷",
+    "傷害－肘隧道症候群",
+    "傷害－遠端肱三頭肌腱斷裂",
+    "傷害－肱骨小頭剝離性骨軟骨炎",
+    "傷害－肱骨內上髁骨骺炎",
+    "特殊檢查－Moving Valgus Stress Test",
+    "特殊檢查－Valgus Extension Overload Test",
+    "特殊檢查－Elbow Flexion-Compression Test"
   ],
   "notes": [
     {
-      "path": "03_傷害與疾病/過度使用/傷害－近端肱骨骨骺應力傷（Little League Shoulder）.md",
-      "title": "傷害－近端肱骨骨骺應力傷（Little League Shoulder）",
+      "path": "03_傷害與疾病/過度使用/傷害－鷹嘴應力性骨折.md",
+      "title": "傷害－鷹嘴應力性骨折",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－胸大肌腱斷裂.md",
-      "title": "傷害－胸大肌腱斷裂",
+      "path": "03_傷害與疾病/過度使用/傷害－肘關節後外側旋轉不穩定.md",
+      "title": "傷害－肘關節後外側旋轉不穩定",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－長胸神經麻痺與翼狀肩胛.md",
-      "title": "傷害－長胸神經麻痺與翼狀肩胛",
+      "path": "03_傷害與疾病/神經卡壓/傷害－旋前圓肌症候群.md",
+      "title": "傷害－旋前圓肌症候群",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－黏連性肩關節囊炎.md",
-      "title": "傷害－黏連性肩關節囊炎",
+      "path": "03_傷害與疾病/急性傷害/傷害－創傷後肘關節僵硬.md",
+      "title": "傷害－創傷後肘關節僵硬",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－過頭運動員肩部旋轉活動度與負荷分流.md",
-      "title": "評估－過頭運動員肩部旋轉活動度與負荷分流",
+      "path": "04_臨床評估/系統性評估/評估－肘部鎖住卡住與活動受限分流.md",
+      "title": "評估－肘部鎖住卡住與活動受限分流",
       "role": "核心",
       "type": "系統性評估",
       "template": "模板－系統性評估.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－近端肱骨骨骺與生長板.md",
-      "title": "骨骼與關節－近端肱骨骨骺與生長板",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－近端橈尺關節與前臂旋轉軸.md",
+      "title": "骨骼與關節－近端橈尺關節與前臂旋轉軸",
       "role": "相關",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "01_基礎解剖/肌肉/肌肉－胸大肌.md",
-      "title": "肌肉－胸大肌",
+      "path": "01_基礎解剖/韌帶/韌帶－橈骨環狀韌帶.md",
+      "title": "韌帶－橈骨環狀韌帶",
+      "role": "相關",
+      "type": "韌帶",
+      "template": "模板－韌帶.md"
+    },
+    {
+      "path": "01_基礎解剖/肌肉/肌肉－旋前圓肌與旋前方肌.md",
+      "title": "肌肉－旋前圓肌與旋前方肌",
       "role": "相關",
       "type": "肌肉",
       "template": "模板－肌肉.md"
     },
     {
-      "path": "01_基礎解剖/肌腱/肌腱－胸大肌腱.md",
-      "title": "肌腱－胸大肌腱",
+      "path": "01_基礎解剖/肌腱/肌腱－共同屈肌旋前肌腱.md",
+      "title": "肌腱－共同屈肌旋前肌腱",
       "role": "相關",
       "type": "肌腱",
       "template": "模板－肌腱.md"
     },
     {
-      "path": "01_基礎解剖/神經/神經－長胸神經.md",
-      "title": "神經－長胸神經",
-      "role": "相關",
-      "type": "神經",
-      "template": "模板－神經.md"
-    },
-    {
-      "path": "04_臨床評估/主觀問診/評估－投擲肩負荷與症狀問診.md",
-      "title": "評估－投擲肩負荷與症狀問診",
+      "path": "04_臨床評估/主觀問診/評估－肘部機械症狀與鎖住問診.md",
+      "title": "評估－肘部機械症狀與鎖住問診",
       "role": "相關",
       "type": "主觀問診",
       "template": "模板－主觀問診.md"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－盂肱內外旋與總旋轉弧測量.md",
-      "title": "評估－盂肱內外旋與總旋轉弧測量",
+      "path": "04_臨床評估/身體檢查/評估－肘部終末伸直與前臂旋轉檢查.md",
+      "title": "評估－肘部終末伸直與前臂旋轉檢查",
       "role": "相關",
       "type": "身體檢查",
       "template": "模板－身體檢查.md"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Scapular Assistance Test.md",
-      "title": "特殊檢查－Scapular Assistance Test",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－Posterolateral Rotatory Drawer Test.md",
+      "title": "特殊檢查－Posterolateral Rotatory Drawer Test",
       "role": "相關",
       "type": "特殊檢查",
       "template": "模板－特殊檢查.md"
     },
     {
-      "path": "06_功能性測試/上肢/功能性測試－Athletic Shoulder Test.md",
-      "title": "功能性測試－Athletic Shoulder Test",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－Chair Push-up Sign.md",
+      "title": "特殊檢查－Chair Push-up Sign",
+      "role": "相關",
+      "type": "特殊檢查",
+      "template": "模板－特殊檢查.md"
+    },
+    {
+      "path": "06_功能性測試/上肢/功能性測試－FIT-HaNSA 上肢功能耐力測試.md",
+      "title": "功能性測試－FIT-HaNSA 上肢功能耐力測試",
       "role": "相關",
       "type": "功能性測試",
       "template": "模板－功能性測試.md"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－投擲肩後側柔軟度與旋轉容量訓練.md",
-      "title": "運動治療－投擲肩後側柔軟度與旋轉容量訓練",
-      "role": "相關",
-      "type": "運動治療",
-      "template": "模板－運動治療.md"
-    },
-    {
-      "path": "05_處置與復健/運動治療/運動治療－翼狀肩胛與前鋸肌漸進負荷.md",
-      "title": "運動治療－翼狀肩胛與前鋸肌漸進負荷",
+      "path": "05_處置與復健/運動治療/運動治療－投擲肘前臂容量與動力鏈進展.md",
+      "title": "運動治療－投擲肘前臂容量與動力鏈進展",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
@@ -226,7 +226,7 @@
   ],
   "per_note_validation": [
     {
-      "path": "03_傷害與疾病/過度使用/傷害－近端肱骨骨骺應力傷（Little League Shoulder）.md",
+      "path": "03_傷害與疾病/過度使用/傷害－鷹嘴應力性骨折.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -235,7 +235,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－胸大肌腱斷裂.md",
+      "path": "03_傷害與疾病/過度使用/傷害－肘關節後外側旋轉不穩定.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -244,7 +244,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－長胸神經麻痺與翼狀肩胛.md",
+      "path": "03_傷害與疾病/神經卡壓/傷害－旋前圓肌症候群.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -253,7 +253,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－黏連性肩關節囊炎.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－創傷後肘關節僵硬.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -262,7 +262,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－過頭運動員肩部旋轉活動度與負荷分流.md",
+      "path": "04_臨床評估/系統性評估/評估－肘部鎖住卡住與活動受限分流.md",
       "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
@@ -271,7 +271,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－近端肱骨骨骺與生長板.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－近端橈尺關節與前臂旋轉軸.md",
       "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
@@ -280,7 +280,16 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/肌肉/肌肉－胸大肌.md",
+      "path": "01_基礎解剖/韌帶/韌帶－橈骨環狀韌帶.md",
+      "template": "模板－韌帶.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "01_基礎解剖/肌肉/肌肉－旋前圓肌與旋前方肌.md",
       "template": "模板－肌肉.md",
       "yaml": "passed",
       "h1": "passed",
@@ -289,7 +298,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/肌腱/肌腱－胸大肌腱.md",
+      "path": "01_基礎解剖/肌腱/肌腱－共同屈肌旋前肌腱.md",
       "template": "模板－肌腱.md",
       "yaml": "passed",
       "h1": "passed",
@@ -298,16 +307,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/神經/神經－長胸神經.md",
-      "template": "模板－神經.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "04_臨床評估/主觀問診/評估－投擲肩負荷與症狀問診.md",
+      "path": "04_臨床評估/主觀問診/評估－肘部機械症狀與鎖住問診.md",
       "template": "模板－主觀問診.md",
       "yaml": "passed",
       "h1": "passed",
@@ -316,7 +316,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－盂肱內外旋與總旋轉弧測量.md",
+      "path": "04_臨床評估/身體檢查/評估－肘部終末伸直與前臂旋轉檢查.md",
       "template": "模板－身體檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -325,7 +325,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Scapular Assistance Test.md",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－Posterolateral Rotatory Drawer Test.md",
       "template": "模板－特殊檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -334,7 +334,16 @@
       "links": "passed"
     },
     {
-      "path": "06_功能性測試/上肢/功能性測試－Athletic Shoulder Test.md",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－Chair Push-up Sign.md",
+      "template": "模板－特殊檢查.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "06_功能性測試/上肢/功能性測試－FIT-HaNSA 上肢功能耐力測試.md",
       "template": "模板－功能性測試.md",
       "yaml": "passed",
       "h1": "passed",
@@ -343,16 +352,7 @@
       "links": "passed"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－投擲肩後側柔軟度與旋轉容量訓練.md",
-      "template": "模板－運動治療.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "05_處置與復健/運動治療/運動治療－翼狀肩胛與前鋸肌漸進負荷.md",
+      "path": "05_處置與復健/運動治療/運動治療－投擲肘前臂容量與動力鏈進展.md",
       "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
@@ -362,29 +362,22 @@
     }
   ],
   "assets": [
-    "assets/anatomy/肩部第四輪生長板與前胸結構圖.svg",
-    "assets/assessment/肩部第四輪過頭運動員分流圖.svg",
-    "assets/assessment/肩部第四輪負荷進展矩陣.svg"
+    "assets/anatomy/肘部第四輪近端橈尺與旋前結構圖.svg",
+    "assets/assessment/肘部第四輪機械症狀分流圖.svg",
+    "assets/assessment/肘部第四輪負荷進展矩陣.svg"
   ],
   "sources_checked": [
-    "ACR Appropriateness Criteria: Acute Shoulder Pain. https://acsearch.acr.org/docs/69433/Narrative/",
-    "ACR Appropriateness Criteria: Chronic Shoulder Pain. https://acsearch.acr.org/docs/3101482/Narrative/",
-    "Zaremski JL, et al. Diagnosis and Management of Little League Shoulder: A Systematic Review. Orthop J Sports Med. 2021. https://doi.org/10.1177/23259671211017563",
-    "Heyworth BE, et al. Little League shoulder: an update. JSES Int. 2024. https://doi.org/10.1016/j.jseint.2024.03.006",
-    "Bodendorfer BM, et al. Treatment of Pectoralis Major Tendon Tears: A Systematic Review and Meta-analysis. Orthop J Sports Med. 2020. https://pubmed.ncbi.nlm.nih.gov/32083144/",
-    "Bodendorfer BM, et al. Treatment of Pectoralis Major Tendon Tears: Timing and Fixation Methods. Am J Sports Med. 2020. https://pubmed.ncbi.nlm.nih.gov/32109153/",
-    "Nath RK, et al. Long Thoracic Nerve Palsy: When Is Decompression Indicated. J Hand Surg Glob Online. 2023. https://pubmed.ncbi.nlm.nih.gov/37521538/",
-    "Vetter M, et al. Treatment of Neurogenic Scapular Winging: A Systematic Review. 2022. https://pubmed.ncbi.nlm.nih.gov/36252782/",
-    "Kelley MJ, et al. Shoulder Pain and Mobility Deficits: Adhesive Capsulitis. JOSPT. 2013. https://pubmed.ncbi.nlm.nih.gov/23636125/",
-    "Rangan A, et al. Effectiveness of nonsurgical interventions for frozen shoulder: systematic review. 2023. https://pubmed.ncbi.nlm.nih.gov/36861780/",
-    "Rose MB, Noonan T. Glenohumeral Internal Rotation Deficit in Throwing Athletes: Current Perspectives. 2018. https://pmc.ncbi.nlm.nih.gov/articles/PMC5967160/",
-    "Wilk KE, et al. Correlation of glenohumeral internal rotation deficit and total rotational motion to shoulder injuries. https://pubmed.ncbi.nlm.nih.gov/26075147/",
-    "Rabin A, et al. The intertester reliability of the Scapular Assistance Test. 2015. https://pubmed.ncbi.nlm.nih.gov/25935796/",
-    "Wright AA, et al. Diagnostic accuracy of scapular physical examination tests: systematic review. 2013. https://pubmed.ncbi.nlm.nih.gov/23080313/",
-    "Ashworth B, et al. The Athletic Shoulder Test: reliability for measuring isometric strength in athletes. BMJ Open Sport Exerc Med. 2018. https://pmc.ncbi.nlm.nih.gov/articles/PMC6059329/",
-    "Hattori S, et al. Reliability and validity of the Athletic Shoulder Test. 2025. https://pubmed.ncbi.nlm.nih.gov/39965305/",
-    "Mine K, et al. Stretching interventions for posterior shoulder tightness: systematic review. 2017. https://pubmed.ncbi.nlm.nih.gov/27632891/",
-    "McClure P, et al. Randomized controlled comparison of stretching procedures for posterior shoulder tightness. 2007. https://pubmed.ncbi.nlm.nih.gov/17416125/"
+    "ACR Appropriateness Criteria: Acute Elbow and Forearm Pain. https://acsearch.acr.org/docs/3195154/Narrative/",
+    "ACR Appropriateness Criteria: Chronic Elbow Pain. https://acsearch.acr.org/docs/69423/Narrative/",
+    "Smith SR, et al. Stress Fractures of the Elbow in the Throwing Athlete: A Systematic Review. 2018. https://pubmed.ncbi.nlm.nih.gov/30306096/",
+    "Fedorka CJ, Oh LS. Posterolateral Rotatory Instability of the Elbow. 2016. https://pmc.ncbi.nlm.nih.gov/articles/PMC4896886/",
+    "Regan W, Lapner PC. Prospective evaluation of two diagnostic apprehension signs for posterolateral instability of the elbow. 2006. https://pubmed.ncbi.nlm.nih.gov/16679236/",
+    "Binsaleem S. Median nerve entrapment neuropathy: a review on the pronator syndrome. 2024. https://pubmed.ncbi.nlm.nih.gov/39872334/",
+    "Rodner CM, Tinsley BA, O'Malley MP. Pronator syndrome and anterior interosseous nerve syndrome. 2013. https://pubmed.ncbi.nlm.nih.gov/23637145/",
+    "Zhang D, et al. Post-traumatic elbow stiffness: Pathogenesis and current treatments. 2020. https://pubmed.ncbi.nlm.nih.gov/32010232/",
+    "Triplet JJ, et al. Factors that Increase Elbow Stress in the Throwing Athlete: a Systematic Review. 2023. https://pubmed.ncbi.nlm.nih.gov/36572821/",
+    "MacDermid JC, et al. Validation of a new test that assesses functional performance of the upper extremity and neck. 2007. https://pubmed.ncbi.nlm.nih.gov/17509150/",
+    "MacDermid JC, et al. The FIT-HaNSA demonstrates reliability and convergent validity. 2012. https://pubmed.ncbi.nlm.nih.gov/22281818/"
   ],
   "validation": {
     "status": "passed",
@@ -403,5 +396,5 @@
       "ZIP CRC/extraction/path"
     ]
   },
-  "generated_at_utc": "2026-09-16T00:10:24.147490+00:00"
+  "generated_at_utc": "2026-09-17T00:11:16.673377+00:00"
 }
