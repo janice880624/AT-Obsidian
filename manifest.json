@@ -1,11 +1,11 @@
 {
   "schema_version": 4,
-  "date": "2026-09-17",
-  "region": "肘部第四輪",
+  "date": "2026-09-18",
+  "region": "手腕與手第四輪",
   "github": {
     "repository": "janice880624/AT-Obsidian",
     "branch": "main",
-    "commit": "73f38b08beadb3757c82f99fa41088c41a6c30a8",
+    "commit": "8d26fc606bee2529d2dd44487194db138bba9d7d",
     "mode": "read-only"
   },
   "template_policy": {
@@ -82,8 +82,7 @@
       "模板－傷害.md",
       "模板－功能性測試.md",
       "模板－特殊檢查.md",
-      "模板－系統性評估.md",
-      "模板－肌肉.md",
+      "模板－神經.md",
       "模板－肌腱.md",
       "模板－身體檢查.md",
       "模板－運動治療.md",
@@ -107,118 +106,118 @@
     "index_or_support_files": 11
   },
   "topic_candidates_skipped": [
-    "傷害－外側肘肌腱病變",
-    "傷害－肘內側尺側副韌帶損傷",
-    "傷害－肘隧道症候群",
-    "傷害－遠端肱三頭肌腱斷裂",
-    "傷害－肱骨小頭剝離性骨軟骨炎",
-    "傷害－肱骨內上髁骨骺炎",
-    "特殊檢查－Moving Valgus Stress Test",
-    "特殊檢查－Valgus Extension Overload Test",
-    "特殊檢查－Elbow Flexion-Compression Test"
+    "傷害－舟狀骨骨折",
+    "傷害－三角纖維軟骨複合體損傷",
+    "傷害－鉤骨鉤骨折",
+    "傷害－舟月骨間韌帶損傷",
+    "傷害－手指屈肌腱滑車損傷",
+    "傷害－伸拇長肌腱斷裂",
+    "傷害－橈神經淺支卡壓",
+    "特殊檢查－ECU Synergy Test",
+    "特殊檢查－TFCC Fovea Sign"
   ],
   "notes": [
     {
-      "path": "03_傷害與疾病/過度使用/傷害－鷹嘴應力性骨折.md",
-      "title": "傷害－鷹嘴應力性骨折",
+      "path": "03_傷害與疾病/急性傷害/傷害－手指 PIP 關節掌側板損傷.md",
+      "title": "傷害－手指 PIP 關節掌側板損傷",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－肘關節後外側旋轉不穩定.md",
-      "title": "傷害－肘關節後外側旋轉不穩定",
+      "path": "03_傷害與疾病/急性傷害/傷害－伸肌腱矢狀帶損傷.md",
+      "title": "傷害－伸肌腱矢狀帶損傷",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－旋前圓肌症候群.md",
-      "title": "傷害－旋前圓肌症候群",
+      "path": "03_傷害與疾病/神經卡壓/傷害－尺神經 Guyon 管症候群.md",
+      "title": "傷害－尺神經 Guyon 管症候群",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－創傷後肘關節僵硬.md",
-      "title": "傷害－創傷後肘關節僵硬",
+      "path": "03_傷害與疾病/急性傷害/傷害－伸腕尺側肌腱不穩定.md",
+      "title": "傷害－伸腕尺側肌腱不穩定",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－肘部鎖住卡住與活動受限分流.md",
-      "title": "評估－肘部鎖住卡住與活動受限分流",
+      "path": "03_傷害與疾病/過度使用/傷害－尺骨撞擊症候群.md",
+      "title": "傷害－尺骨撞擊症候群",
       "role": "核心",
-      "type": "系統性評估",
-      "template": "模板－系統性評估.md"
+      "type": "傷害",
+      "template": "模板－傷害.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－近端橈尺關節與前臂旋轉軸.md",
-      "title": "骨骼與關節－近端橈尺關節與前臂旋轉軸",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－腕中關節與腕骨運動鏈.md",
+      "title": "骨骼與關節－腕中關節與腕骨運動鏈",
       "role": "相關",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "01_基礎解剖/韌帶/韌帶－橈骨環狀韌帶.md",
-      "title": "韌帶－橈骨環狀韌帶",
+      "path": "01_基礎解剖/神經/神經－尺神經於 Guyon 管.md",
+      "title": "神經－尺神經於 Guyon 管",
       "role": "相關",
-      "type": "韌帶",
-      "template": "模板－韌帶.md"
+      "type": "神經",
+      "template": "模板－神經.md"
     },
     {
-      "path": "01_基礎解剖/肌肉/肌肉－旋前圓肌與旋前方肌.md",
-      "title": "肌肉－旋前圓肌與旋前方肌",
-      "role": "相關",
-      "type": "肌肉",
-      "template": "模板－肌肉.md"
-    },
-    {
-      "path": "01_基礎解剖/肌腱/肌腱－共同屈肌旋前肌腱.md",
-      "title": "肌腱－共同屈肌旋前肌腱",
+      "path": "01_基礎解剖/肌腱/肌腱－伸腕尺側肌腱與第六伸肌腱室.md",
+      "title": "肌腱－伸腕尺側肌腱與第六伸肌腱室",
       "role": "相關",
       "type": "肌腱",
       "template": "模板－肌腱.md"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－肘部機械症狀與鎖住問診.md",
-      "title": "評估－肘部機械症狀與鎖住問診",
+      "path": "01_基礎解剖/韌帶/韌帶－手指 PIP 掌側板與側副韌帶.md",
+      "title": "韌帶－手指 PIP 掌側板與側副韌帶",
+      "role": "相關",
+      "type": "韌帶",
+      "template": "模板－韌帶.md"
+    },
+    {
+      "path": "04_臨床評估/主觀問診/評估－手腕尺側疼痛與卡彈問診.md",
+      "title": "評估－手腕尺側疼痛與卡彈問診",
       "role": "相關",
       "type": "主觀問診",
       "template": "模板－主觀問診.md"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－肘部終末伸直與前臂旋轉檢查.md",
-      "title": "評估－肘部終末伸直與前臂旋轉檢查",
+      "path": "04_臨床評估/身體檢查/評估－手指伸肌腱中央化與 PIP 穩定檢查.md",
+      "title": "評估－手指伸肌腱中央化與 PIP 穩定檢查",
       "role": "相關",
       "type": "身體檢查",
       "template": "模板－身體檢查.md"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Posterolateral Rotatory Drawer Test.md",
-      "title": "特殊檢查－Posterolateral Rotatory Drawer Test",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－DRUJ Ballottement Test.md",
+      "title": "特殊檢查－DRUJ Ballottement Test",
       "role": "相關",
       "type": "特殊檢查",
       "template": "模板－特殊檢查.md"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Chair Push-up Sign.md",
-      "title": "特殊檢查－Chair Push-up Sign",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－Ulnocarpal Stress Test.md",
+      "title": "特殊檢查－Ulnocarpal Stress Test",
       "role": "相關",
       "type": "特殊檢查",
       "template": "模板－特殊檢查.md"
     },
     {
-      "path": "06_功能性測試/上肢/功能性測試－FIT-HaNSA 上肢功能耐力測試.md",
-      "title": "功能性測試－FIT-HaNSA 上肢功能耐力測試",
+      "path": "06_功能性測試/上肢/功能性測試－Jebsen-Taylor Hand Function Test.md",
+      "title": "功能性測試－Jebsen-Taylor Hand Function Test",
       "role": "相關",
       "type": "功能性測試",
       "template": "模板－功能性測試.md"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－投擲肘前臂容量與動力鏈進展.md",
-      "title": "運動治療－投擲肘前臂容量與動力鏈進展",
+      "path": "05_處置與復健/運動治療/運動治療－尺側手腕穩定與握持負荷進展.md",
+      "title": "運動治療－尺側手腕穩定與握持負荷進展",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
@@ -226,7 +225,7 @@
   ],
   "per_note_validation": [
     {
-      "path": "03_傷害與疾病/過度使用/傷害－鷹嘴應力性骨折.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－手指 PIP 關節掌側板損傷.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -235,7 +234,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－肘關節後外側旋轉不穩定.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－伸肌腱矢狀帶損傷.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -244,7 +243,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－旋前圓肌症候群.md",
+      "path": "03_傷害與疾病/神經卡壓/傷害－尺神經 Guyon 管症候群.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -253,7 +252,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－創傷後肘關節僵硬.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－伸腕尺側肌腱不穩定.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -262,8 +261,8 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－肘部鎖住卡住與活動受限分流.md",
-      "template": "模板－系統性評估.md",
+      "path": "03_傷害與疾病/過度使用/傷害－尺骨撞擊症候群.md",
+      "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -271,7 +270,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－近端橈尺關節與前臂旋轉軸.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－腕中關節與腕骨運動鏈.md",
       "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
@@ -280,8 +279,8 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/韌帶/韌帶－橈骨環狀韌帶.md",
-      "template": "模板－韌帶.md",
+      "path": "01_基礎解剖/神經/神經－尺神經於 Guyon 管.md",
+      "template": "模板－神經.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -289,16 +288,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/肌肉/肌肉－旋前圓肌與旋前方肌.md",
-      "template": "模板－肌肉.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "01_基礎解剖/肌腱/肌腱－共同屈肌旋前肌腱.md",
+      "path": "01_基礎解剖/肌腱/肌腱－伸腕尺側肌腱與第六伸肌腱室.md",
       "template": "模板－肌腱.md",
       "yaml": "passed",
       "h1": "passed",
@@ -307,7 +297,16 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－肘部機械症狀與鎖住問診.md",
+      "path": "01_基礎解剖/韌帶/韌帶－手指 PIP 掌側板與側副韌帶.md",
+      "template": "模板－韌帶.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "04_臨床評估/主觀問診/評估－手腕尺側疼痛與卡彈問診.md",
       "template": "模板－主觀問診.md",
       "yaml": "passed",
       "h1": "passed",
@@ -316,7 +315,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－肘部終末伸直與前臂旋轉檢查.md",
+      "path": "04_臨床評估/身體檢查/評估－手指伸肌腱中央化與 PIP 穩定檢查.md",
       "template": "模板－身體檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -325,7 +324,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Posterolateral Rotatory Drawer Test.md",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－DRUJ Ballottement Test.md",
       "template": "模板－特殊檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -334,7 +333,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Chair Push-up Sign.md",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－Ulnocarpal Stress Test.md",
       "template": "模板－特殊檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -343,7 +342,7 @@
       "links": "passed"
     },
     {
-      "path": "06_功能性測試/上肢/功能性測試－FIT-HaNSA 上肢功能耐力測試.md",
+      "path": "06_功能性測試/上肢/功能性測試－Jebsen-Taylor Hand Function Test.md",
       "template": "模板－功能性測試.md",
       "yaml": "passed",
       "h1": "passed",
@@ -352,7 +351,7 @@
       "links": "passed"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－投擲肘前臂容量與動力鏈進展.md",
+      "path": "05_處置與復健/運動治療/運動治療－尺側手腕穩定與握持負荷進展.md",
       "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
@@ -362,22 +361,26 @@
     }
   ],
   "assets": [
-    "assets/anatomy/肘部第四輪近端橈尺與旋前結構圖.svg",
-    "assets/assessment/肘部第四輪機械症狀分流圖.svg",
-    "assets/assessment/肘部第四輪負荷進展矩陣.svg"
+    "assets/anatomy/手腕與手第四輪尺側結構示意圖.svg",
+    "assets/assessment/手腕與手第四輪尺側疼痛分流圖.svg",
+    "assets/assessment/手腕與手第四輪負荷進展矩陣.svg"
   ],
   "sources_checked": [
-    "ACR Appropriateness Criteria: Acute Elbow and Forearm Pain. https://acsearch.acr.org/docs/3195154/Narrative/",
-    "ACR Appropriateness Criteria: Chronic Elbow Pain. https://acsearch.acr.org/docs/69423/Narrative/",
-    "Smith SR, et al. Stress Fractures of the Elbow in the Throwing Athlete: A Systematic Review. 2018. https://pubmed.ncbi.nlm.nih.gov/30306096/",
-    "Fedorka CJ, Oh LS. Posterolateral Rotatory Instability of the Elbow. 2016. https://pmc.ncbi.nlm.nih.gov/articles/PMC4896886/",
-    "Regan W, Lapner PC. Prospective evaluation of two diagnostic apprehension signs for posterolateral instability of the elbow. 2006. https://pubmed.ncbi.nlm.nih.gov/16679236/",
-    "Binsaleem S. Median nerve entrapment neuropathy: a review on the pronator syndrome. 2024. https://pubmed.ncbi.nlm.nih.gov/39872334/",
-    "Rodner CM, Tinsley BA, O'Malley MP. Pronator syndrome and anterior interosseous nerve syndrome. 2013. https://pubmed.ncbi.nlm.nih.gov/23637145/",
-    "Zhang D, et al. Post-traumatic elbow stiffness: Pathogenesis and current treatments. 2020. https://pubmed.ncbi.nlm.nih.gov/32010232/",
-    "Triplet JJ, et al. Factors that Increase Elbow Stress in the Throwing Athlete: a Systematic Review. 2023. https://pubmed.ncbi.nlm.nih.gov/36572821/",
-    "MacDermid JC, et al. Validation of a new test that assesses functional performance of the upper extremity and neck. 2007. https://pubmed.ncbi.nlm.nih.gov/17509150/",
-    "MacDermid JC, et al. The FIT-HaNSA demonstrates reliability and convergent validity. 2012. https://pubmed.ncbi.nlm.nih.gov/22281818/"
+    "ACR Appropriateness Criteria: Acute Hand and Wrist Trauma. https://acsearch.acr.org/docs/69418/Narrative/",
+    "ACR Appropriateness Criteria: Chronic Hand and Wrist Pain. https://acsearch.acr.org/docs/69427/Narrative/",
+    "Pattni A, Jones M, Gujral S. Volar Plate Avulsion Injury. Eplasty. 2016. https://pmc.ncbi.nlm.nih.gov/articles/PMC4894366/",
+    "Wu K, Masschelein G, Suh N. Treatment of Sagittal Band Injuries and Extensor Tendon Subluxation: A Systematic Review. Hand (N Y). 2021. https://pubmed.ncbi.nlm.nih.gov/31965857/",
+    "Fenech M, et al. Sonographic anatomy and assessment of sagittal band tears. 2023. https://pmc.ncbi.nlm.nih.gov/articles/PMC10716571/",
+    "Aleksenko D, Varacallo M. Guyon Canal Syndrome. StatPearls. 2023. https://pubmed.ncbi.nlm.nih.gov/28613717/",
+    "Akuthota V, et al. The effect of long-distance bicycling on ulnar and median nerves. 2005. https://pubmed.ncbi.nlm.nih.gov/16000656/",
+    "Zarro M, et al. Extensor Carpi Ulnaris Tendinopathy in Athletes: A Review of Conservative and Rehabilitative Options. 2024. https://pubmed.ncbi.nlm.nih.gov/36250572/",
+    "Campbell D, et al. Sports-related extensor carpi ulnaris pathology. Br J Sports Med. 2013. https://pubmed.ncbi.nlm.nih.gov/23036880/",
+    "Biswas S, et al. Impaction Syndromes About the Wrist. 2022. https://pmc.ncbi.nlm.nih.gov/articles/PMC9839928/",
+    "Xu W, et al. Guidelines for the Diagnosis and Treatment of Ulnar Impaction Syndrome (2024). https://pmc.ncbi.nlm.nih.gov/articles/PMC11781854/",
+    "Wijffels M, et al. Clinical assessment of distal radioulnar joint instability. https://pubmed.ncbi.nlm.nih.gov/22009035/",
+    "Vezeridis PS, et al. Ulnar-sided wrist pain. Part I: anatomy and physical examination. 2010. https://doi.org/10.1007/s11999-009-1118-x",
+    "Jebsen RH, et al. An objective and standardized test of hand function. Arch Phys Med Rehabil. 1969. https://pubmed.ncbi.nlm.nih.gov/5788487/",
+    "Within-Session Practice Effects in the Jebsen Hand Function Test. 2018. https://pmc.ncbi.nlm.nih.gov/articles/PMC6231700/"
   ],
   "validation": {
     "status": "passed",
@@ -396,5 +399,5 @@
       "ZIP CRC/extraction/path"
     ]
   },
-  "generated_at_utc": "2026-09-17T00:11:16.673377+00:00"
+  "generated_at_utc": "2026-09-18T00:11:33.559422+00:00"
 }
