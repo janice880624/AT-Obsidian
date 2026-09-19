@@ -1,11 +1,11 @@
 {
   "schema_version": 4,
-  "date": "2026-09-18",
-  "region": "手腕與手第四輪",
+  "date": "2026-09-19",
+  "region": "胸腰椎第四輪",
   "github": {
     "repository": "janice880624/AT-Obsidian",
     "branch": "main",
-    "commit": "8d26fc606bee2529d2dd44487194db138bba9d7d",
+    "commit": "ee8c3086c817a5ff341252a0f0fa42302cf5f389",
     "mode": "read-only"
   },
   "template_policy": {
@@ -83,7 +83,8 @@
       "模板－功能性測試.md",
       "模板－特殊檢查.md",
       "模板－神經.md",
-      "模板－肌腱.md",
+      "模板－系統性評估.md",
+      "模板－肌肉.md",
       "模板－身體檢查.md",
       "模板－運動治療.md",
       "模板－韌帶.md",
@@ -106,118 +107,119 @@
     "index_or_support_files": 11
   },
   "topic_candidates_skipped": [
-    "傷害－舟狀骨骨折",
-    "傷害－三角纖維軟骨複合體損傷",
-    "傷害－鉤骨鉤骨折",
-    "傷害－舟月骨間韌帶損傷",
-    "傷害－手指屈肌腱滑車損傷",
-    "傷害－伸拇長肌腱斷裂",
-    "傷害－橈神經淺支卡壓",
-    "特殊檢查－ECU Synergy Test",
-    "特殊檢查－TFCC Fovea Sign"
+    "傷害－胸腰椎壓迫性骨折",
+    "傷害－腰椎神經根症候群",
+    "傷害－腰椎椎弓解離",
+    "傷害－腰椎椎間盤突出",
+    "傷害－腰椎滑脫",
+    "傷害－Scheuermann 胸椎後凸",
+    "傷害－非特異性下背痛",
+    "特殊檢查－Straight Leg Raise Test",
+    "特殊檢查－Slump Test",
+    "功能性測試－Back Performance Scale"
   ],
   "notes": [
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－手指 PIP 關節掌側板損傷.md",
-      "title": "傷害－手指 PIP 關節掌側板損傷",
+      "path": "03_傷害與疾病/過度使用/傷害－退化性腰椎管狹窄與神經性跛行.md",
+      "title": "傷害－退化性腰椎管狹窄與神經性跛行",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－伸肌腱矢狀帶損傷.md",
-      "title": "傷害－伸肌腱矢狀帶損傷",
+      "path": "03_傷害與疾病/過度使用/傷害－原生性脊椎骨髓炎與椎間盤炎.md",
+      "title": "傷害－原生性脊椎骨髓炎與椎間盤炎",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－尺神經 Guyon 管症候群.md",
-      "title": "傷害－尺神經 Guyon 管症候群",
+      "path": "03_傷害與疾病/急性傷害/傷害－胸腰椎橫突骨折.md",
+      "title": "傷害－胸腰椎橫突骨折",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－伸腕尺側肌腱不穩定.md",
-      "title": "傷害－伸腕尺側肌腱不穩定",
+      "path": "03_傷害與疾病/過度使用/傷害－腰椎小面關節相關疼痛.md",
+      "title": "傷害－腰椎小面關節相關疼痛",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－尺骨撞擊症候群.md",
-      "title": "傷害－尺骨撞擊症候群",
+      "path": "04_臨床評估/系統性評估/評估－成人運動員持續性胸腰痛安全分流.md",
+      "title": "評估－成人運動員持續性胸腰痛安全分流",
       "role": "核心",
-      "type": "傷害",
-      "template": "模板－傷害.md"
+      "type": "系統性評估",
+      "template": "模板－系統性評估.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－腕中關節與腕骨運動鏈.md",
-      "title": "骨骼與關節－腕中關節與腕骨運動鏈",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－腰椎小面關節與椎間孔.md",
+      "title": "骨骼與關節－腰椎小面關節與椎間孔",
       "role": "相關",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "01_基礎解剖/神經/神經－尺神經於 Guyon 管.md",
-      "title": "神經－尺神經於 Guyon 管",
+      "path": "01_基礎解剖/神經/神經－腰椎後支與內側支.md",
+      "title": "神經－腰椎後支與內側支",
       "role": "相關",
       "type": "神經",
       "template": "模板－神經.md"
     },
     {
-      "path": "01_基礎解剖/肌腱/肌腱－伸腕尺側肌腱與第六伸肌腱室.md",
-      "title": "肌腱－伸腕尺側肌腱與第六伸肌腱室",
+      "path": "01_基礎解剖/肌肉/肌肉－腹橫肌與腹內斜肌.md",
+      "title": "肌肉－腹橫肌與腹內斜肌",
       "role": "相關",
-      "type": "肌腱",
-      "template": "模板－肌腱.md"
+      "type": "肌肉",
+      "template": "模板－肌肉.md"
     },
     {
-      "path": "01_基礎解剖/韌帶/韌帶－手指 PIP 掌側板與側副韌帶.md",
-      "title": "韌帶－手指 PIP 掌側板與側副韌帶",
+      "path": "01_基礎解剖/韌帶/韌帶－黃韌帶與腰椎管邊界.md",
+      "title": "韌帶－黃韌帶與腰椎管邊界",
       "role": "相關",
       "type": "韌帶",
       "template": "模板－韌帶.md"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－手腕尺側疼痛與卡彈問診.md",
-      "title": "評估－手腕尺側疼痛與卡彈問診",
+      "path": "04_臨床評估/主觀問診/評估－步行誘發腿部症狀問診.md",
+      "title": "評估－步行誘發腿部症狀問診",
       "role": "相關",
       "type": "主觀問診",
       "template": "模板－主觀問診.md"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－手指伸肌腱中央化與 PIP 穩定檢查.md",
-      "title": "評估－手指伸肌腱中央化與 PIP 穩定檢查",
+      "path": "04_臨床評估/身體檢查/評估－腰椎管狹窄與神經性跛行身體檢查.md",
+      "title": "評估－腰椎管狹窄與神經性跛行身體檢查",
       "role": "相關",
       "type": "身體檢查",
       "template": "模板－身體檢查.md"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－DRUJ Ballottement Test.md",
-      "title": "特殊檢查－DRUJ Ballottement Test",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－Lumbar Quadrant Test.md",
+      "title": "特殊檢查－Lumbar Quadrant Test",
       "role": "相關",
       "type": "特殊檢查",
       "template": "模板－特殊檢查.md"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Ulnocarpal Stress Test.md",
-      "title": "特殊檢查－Ulnocarpal Stress Test",
-      "role": "相關",
-      "type": "特殊檢查",
-      "template": "模板－特殊檢查.md"
-    },
-    {
-      "path": "06_功能性測試/上肢/功能性測試－Jebsen-Taylor Hand Function Test.md",
-      "title": "功能性測試－Jebsen-Taylor Hand Function Test",
+      "path": "06_功能性測試/軀幹/功能性測試－Self-Paced Walking Test.md",
+      "title": "功能性測試－Self-Paced Walking Test",
       "role": "相關",
       "type": "功能性測試",
       "template": "模板－功能性測試.md"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－尺側手腕穩定與握持負荷進展.md",
-      "title": "運動治療－尺側手腕穩定與握持負荷進展",
+      "path": "05_處置與復健/運動治療/運動治療－腰椎管狹窄步行與耐力進展.md",
+      "title": "運動治療－腰椎管狹窄步行與耐力進展",
+      "role": "相關",
+      "type": "運動治療",
+      "template": "模板－運動治療.md"
+    },
+    {
+      "path": "05_處置與復健/運動治療/運動治療－腰椎小面關節相關疼痛多方向負荷進展.md",
+      "title": "運動治療－腰椎小面關節相關疼痛多方向負荷進展",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
@@ -225,7 +227,7 @@
   ],
   "per_note_validation": [
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－手指 PIP 關節掌側板損傷.md",
+      "path": "03_傷害與疾病/過度使用/傷害－退化性腰椎管狹窄與神經性跛行.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -234,7 +236,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－伸肌腱矢狀帶損傷.md",
+      "path": "03_傷害與疾病/過度使用/傷害－原生性脊椎骨髓炎與椎間盤炎.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -243,7 +245,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－尺神經 Guyon 管症候群.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－胸腰椎橫突骨折.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -252,7 +254,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－伸腕尺側肌腱不穩定.md",
+      "path": "03_傷害與疾病/過度使用/傷害－腰椎小面關節相關疼痛.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -261,8 +263,8 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－尺骨撞擊症候群.md",
-      "template": "模板－傷害.md",
+      "path": "04_臨床評估/系統性評估/評估－成人運動員持續性胸腰痛安全分流.md",
+      "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -270,7 +272,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－腕中關節與腕骨運動鏈.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－腰椎小面關節與椎間孔.md",
       "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
@@ -279,7 +281,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/神經/神經－尺神經於 Guyon 管.md",
+      "path": "01_基礎解剖/神經/神經－腰椎後支與內側支.md",
       "template": "模板－神經.md",
       "yaml": "passed",
       "h1": "passed",
@@ -288,8 +290,8 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/肌腱/肌腱－伸腕尺側肌腱與第六伸肌腱室.md",
-      "template": "模板－肌腱.md",
+      "path": "01_基礎解剖/肌肉/肌肉－腹橫肌與腹內斜肌.md",
+      "template": "模板－肌肉.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -297,7 +299,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/韌帶/韌帶－手指 PIP 掌側板與側副韌帶.md",
+      "path": "01_基礎解剖/韌帶/韌帶－黃韌帶與腰椎管邊界.md",
       "template": "模板－韌帶.md",
       "yaml": "passed",
       "h1": "passed",
@@ -306,7 +308,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－手腕尺側疼痛與卡彈問診.md",
+      "path": "04_臨床評估/主觀問診/評估－步行誘發腿部症狀問診.md",
       "template": "模板－主觀問診.md",
       "yaml": "passed",
       "h1": "passed",
@@ -315,7 +317,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－手指伸肌腱中央化與 PIP 穩定檢查.md",
+      "path": "04_臨床評估/身體檢查/評估－腰椎管狹窄與神經性跛行身體檢查.md",
       "template": "模板－身體檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -324,7 +326,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－DRUJ Ballottement Test.md",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－Lumbar Quadrant Test.md",
       "template": "模板－特殊檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -333,16 +335,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Ulnocarpal Stress Test.md",
-      "template": "模板－特殊檢查.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "06_功能性測試/上肢/功能性測試－Jebsen-Taylor Hand Function Test.md",
+      "path": "06_功能性測試/軀幹/功能性測試－Self-Paced Walking Test.md",
       "template": "模板－功能性測試.md",
       "yaml": "passed",
       "h1": "passed",
@@ -351,7 +344,16 @@
       "links": "passed"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－尺側手腕穩定與握持負荷進展.md",
+      "path": "05_處置與復健/運動治療/運動治療－腰椎管狹窄步行與耐力進展.md",
+      "template": "模板－運動治療.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "05_處置與復健/運動治療/運動治療－腰椎小面關節相關疼痛多方向負荷進展.md",
       "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
@@ -361,26 +363,23 @@
     }
   ],
   "assets": [
-    "assets/anatomy/手腕與手第四輪尺側結構示意圖.svg",
-    "assets/assessment/手腕與手第四輪尺側疼痛分流圖.svg",
-    "assets/assessment/手腕與手第四輪負荷進展矩陣.svg"
+    "assets/anatomy/胸腰椎第四輪腰椎管與後方結構示意圖.svg",
+    "assets/assessment/胸腰椎第四輪持續性疼痛分流圖.svg",
+    "assets/assessment/胸腰椎第四輪站走容量進展矩陣.svg"
   ],
   "sources_checked": [
-    "ACR Appropriateness Criteria: Acute Hand and Wrist Trauma. https://acsearch.acr.org/docs/69418/Narrative/",
-    "ACR Appropriateness Criteria: Chronic Hand and Wrist Pain. https://acsearch.acr.org/docs/69427/Narrative/",
-    "Pattni A, Jones M, Gujral S. Volar Plate Avulsion Injury. Eplasty. 2016. https://pmc.ncbi.nlm.nih.gov/articles/PMC4894366/",
-    "Wu K, Masschelein G, Suh N. Treatment of Sagittal Band Injuries and Extensor Tendon Subluxation: A Systematic Review. Hand (N Y). 2021. https://pubmed.ncbi.nlm.nih.gov/31965857/",
-    "Fenech M, et al. Sonographic anatomy and assessment of sagittal band tears. 2023. https://pmc.ncbi.nlm.nih.gov/articles/PMC10716571/",
-    "Aleksenko D, Varacallo M. Guyon Canal Syndrome. StatPearls. 2023. https://pubmed.ncbi.nlm.nih.gov/28613717/",
-    "Akuthota V, et al. The effect of long-distance bicycling on ulnar and median nerves. 2005. https://pubmed.ncbi.nlm.nih.gov/16000656/",
-    "Zarro M, et al. Extensor Carpi Ulnaris Tendinopathy in Athletes: A Review of Conservative and Rehabilitative Options. 2024. https://pubmed.ncbi.nlm.nih.gov/36250572/",
-    "Campbell D, et al. Sports-related extensor carpi ulnaris pathology. Br J Sports Med. 2013. https://pubmed.ncbi.nlm.nih.gov/23036880/",
-    "Biswas S, et al. Impaction Syndromes About the Wrist. 2022. https://pmc.ncbi.nlm.nih.gov/articles/PMC9839928/",
-    "Xu W, et al. Guidelines for the Diagnosis and Treatment of Ulnar Impaction Syndrome (2024). https://pmc.ncbi.nlm.nih.gov/articles/PMC11781854/",
-    "Wijffels M, et al. Clinical assessment of distal radioulnar joint instability. https://pubmed.ncbi.nlm.nih.gov/22009035/",
-    "Vezeridis PS, et al. Ulnar-sided wrist pain. Part I: anatomy and physical examination. 2010. https://doi.org/10.1007/s11999-009-1118-x",
-    "Jebsen RH, et al. An objective and standardized test of hand function. Arch Phys Med Rehabil. 1969. https://pubmed.ncbi.nlm.nih.gov/5788487/",
-    "Within-Session Practice Effects in the Jebsen Hand Function Test. 2018. https://pmc.ncbi.nlm.nih.gov/articles/PMC6231700/"
+    "ACR Appropriateness Criteria: Low Back Pain. https://acsearch.acr.org/docs/69483/Narrative/",
+    "ACR Appropriateness Criteria: Thoracic Back Pain. J Am Coll Radiol. 2024. https://pubmed.ncbi.nlm.nih.gov/39488357/",
+    "George SZ, et al. Interventions for the Management of Acute and Chronic Low Back Pain: Revision 2021. https://doi.org/10.2519/jospt.2021.0304",
+    "Bussières A, et al. Non-Surgical Interventions for Lumbar Spinal Stenosis Leading To Neurogenic Claudication: A Clinical Practice Guideline. 2021. https://pubmed.ncbi.nlm.nih.gov/33857615/",
+    "Sekiguchi M. The Essence of Clinical Practice Guidelines for Lumbar Spinal Stenosis, 2021: Diagnosis and Evaluation. https://pubmed.ncbi.nlm.nih.gov/37636148/",
+    "Katz JN, et al. Diagnosis and Management of Lumbar Spinal Stenosis: A Review. JAMA. 2022. https://pubmed.ncbi.nlm.nih.gov/35503342/",
+    "Berbari EF, et al. IDSA Clinical Practice Guidelines for Native Vertebral Osteomyelitis in Adults. 2015. https://www.idsociety.org/practice-guideline/vertebral-osteomyelitis/",
+    "Nagasawa DT, et al. Isolated Transverse Process Fractures: A Systematic Analysis. 2017. https://pubmed.ncbi.nlm.nih.gov/28108423/",
+    "Arena JD, et al. Thoracolumbar Transverse Process Fractures Are More Frequently Associated with Nonspinal Injury. 2021. https://pubmed.ncbi.nlm.nih.gov/33271381/",
+    "Stuber K, et al. The diagnostic accuracy of the Kemp’s test: a systematic review. 2014. https://pmc.ncbi.nlm.nih.gov/articles/PMC4139762/",
+    "Tomkins-Lane CC, et al. A criterion measure of walking capacity in lumbar spinal stenosis and its comparison with a treadmill test. 2009. https://pubmed.ncbi.nlm.nih.gov/19829259/",
+    "Schneider MJ, et al. Comprehensive Nonsurgical Treatment Versus Self-directed Care to Improve Walking Ability in Lumbar Spinal Stenosis. 2019. https://pubmed.ncbi.nlm.nih.gov/29935152/"
   ],
   "validation": {
     "status": "passed",
@@ -399,5 +398,5 @@
       "ZIP CRC/extraction/path"
     ]
   },
-  "generated_at_utc": "2026-09-18T00:11:33.559422+00:00"
+  "generated_at_utc": "2026-09-19T00:06:45.908293+00:00"
 }
