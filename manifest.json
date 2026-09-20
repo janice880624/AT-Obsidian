@@ -1,11 +1,11 @@
 {
   "schema_version": 4,
-  "date": "2026-09-19",
-  "region": "胸腰椎第四輪",
+  "date": "2026-09-20",
+  "region": "骨盆與髖第四輪",
   "github": {
     "repository": "janice880624/AT-Obsidian",
     "branch": "main",
-    "commit": "ee8c3086c817a5ff341252a0f0fa42302cf5f389",
+    "commit": "c19ff9e683ddaa19b7d9b8ae683bd4a6be948776",
     "mode": "read-only"
   },
   "template_policy": {
@@ -80,11 +80,10 @@
     "used_templates": [
       "模板－主觀問診.md",
       "模板－傷害.md",
-      "模板－功能性測試.md",
       "模板－特殊檢查.md",
       "模板－神經.md",
       "模板－系統性評估.md",
-      "模板－肌肉.md",
+      "模板－肌腱.md",
       "模板－身體檢查.md",
       "模板－運動治療.md",
       "模板－韌帶.md",
@@ -104,122 +103,127 @@
     "related_notes": 10,
     "knowledge_notes": 15,
     "svg": 3,
-    "index_or_support_files": 11
+    "index_or_support_files": 10
   },
   "topic_candidates_skipped": [
-    "傷害－胸腰椎壓迫性骨折",
-    "傷害－腰椎神經根症候群",
-    "傷害－腰椎椎弓解離",
-    "傷害－腰椎椎間盤突出",
-    "傷害－腰椎滑脫",
-    "傷害－Scheuermann 胸椎後凸",
-    "傷害－非特異性下背痛",
-    "特殊檢查－Straight Leg Raise Test",
-    "特殊檢查－Slump Test",
-    "功能性測試－Back Performance Scale"
+    "傷害－急性髖關節脫臼",
+    "傷害－股骨頭骨骺滑脫",
+    "傷害－骨盆環高能量骨折",
+    "傷害－骨盆骨骺撕脫骨折",
+    "傷害－髖臼骨折",
+    "傷害－髖關節化膿性關節炎",
+    "傷害－內收肌相關腹股溝痛",
+    "傷害－股骨頭骨壞死",
+    "傷害－股骨頸骨應力傷",
+    "傷害－股骨髖臼夾擠症候群",
+    "傷害－薦髂關節相關疼痛",
+    "傷害－髂腰肌症候群與內彈響髖",
+    "傷害－髖臼唇損傷",
+    "特殊檢查－薦髂關節疼痛誘發測試組",
+    "功能性測試－Copenhagen 五秒內收擠壓測試"
   ],
   "notes": [
     {
-      "path": "03_傷害與疾病/過度使用/傷害－退化性腰椎管狹窄與神經性跛行.md",
-      "title": "傷害－退化性腰椎管狹窄與神經性跛行",
+      "path": "03_傷害與疾病/過度使用/傷害－大轉子疼痛症候群與臀肌肌腱病變.md",
+      "title": "傷害－大轉子疼痛症候群與臀肌肌腱病變",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－原生性脊椎骨髓炎與椎間盤炎.md",
-      "title": "傷害－原生性脊椎骨髓炎與椎間盤炎",
+      "path": "03_傷害與疾病/過度使用/傷害－近端腿後肌肌腱病變.md",
+      "title": "傷害－近端腿後肌肌腱病變",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－胸腰椎橫突骨折.md",
-      "title": "傷害－胸腰椎橫突骨折",
+      "path": "03_傷害與疾病/過度使用/傷害－薦骨壓力性損傷.md",
+      "title": "傷害－薦骨壓力性損傷",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－腰椎小面關節相關疼痛.md",
-      "title": "傷害－腰椎小面關節相關疼痛",
+      "path": "03_傷害與疾病/神經卡壓/傷害－深臀症候群.md",
+      "title": "傷害－深臀症候群",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－成人運動員持續性胸腰痛安全分流.md",
-      "title": "評估－成人運動員持續性胸腰痛安全分流",
+      "path": "04_臨床評估/系統性評估/評估－成人運動員外側與後側髖痛安全分流.md",
+      "title": "評估－成人運動員外側與後側髖痛安全分流",
       "role": "核心",
       "type": "系統性評估",
       "template": "模板－系統性評估.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－腰椎小面關節與椎間孔.md",
-      "title": "骨骼與關節－腰椎小面關節與椎間孔",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－大轉子與轉子周邊空間.md",
+      "title": "骨骼與關節－大轉子與轉子周邊空間",
       "role": "相關",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "01_基礎解剖/神經/神經－腰椎後支與內側支.md",
-      "title": "神經－腰椎後支與內側支",
+      "path": "01_基礎解剖/肌腱/肌腱－近端腿後肌肌腱複合體.md",
+      "title": "肌腱－近端腿後肌肌腱複合體",
+      "role": "相關",
+      "type": "肌腱",
+      "template": "模板－肌腱.md"
+    },
+    {
+      "path": "01_基礎解剖/神經/神經－後股皮神經.md",
+      "title": "神經－後股皮神經",
       "role": "相關",
       "type": "神經",
       "template": "模板－神經.md"
     },
     {
-      "path": "01_基礎解剖/肌肉/肌肉－腹橫肌與腹內斜肌.md",
-      "title": "肌肉－腹橫肌與腹內斜肌",
-      "role": "相關",
-      "type": "肌肉",
-      "template": "模板－肌肉.md"
-    },
-    {
-      "path": "01_基礎解剖/韌帶/韌帶－黃韌帶與腰椎管邊界.md",
-      "title": "韌帶－黃韌帶與腰椎管邊界",
+      "path": "01_基礎解剖/韌帶/韌帶－薦結節與薦棘韌帶.md",
+      "title": "韌帶－薦結節與薦棘韌帶",
       "role": "相關",
       "type": "韌帶",
       "template": "模板－韌帶.md"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－步行誘發腿部症狀問診.md",
-      "title": "評估－步行誘發腿部症狀問診",
+      "path": "04_臨床評估/主觀問診/評估－外側與後側髖痛主觀問診.md",
+      "title": "評估－外側與後側髖痛主觀問診",
       "role": "相關",
       "type": "主觀問診",
       "template": "模板－主觀問診.md"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－腰椎管狹窄與神經性跛行身體檢查.md",
-      "title": "評估－腰椎管狹窄與神經性跛行身體檢查",
+      "path": "04_臨床評估/身體檢查/評估－外側與後側髖部系統性身體檢查.md",
+      "title": "評估－外側與後側髖部系統性身體檢查",
       "role": "相關",
       "type": "身體檢查",
       "template": "模板－身體檢查.md"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Lumbar Quadrant Test.md",
-      "title": "特殊檢查－Lumbar Quadrant Test",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－Active Piriformis 與 Seated Piriformis Stretch 組合.md",
+      "title": "特殊檢查－Active Piriformis 與 Seated Piriformis Stretch 組合",
       "role": "相關",
       "type": "特殊檢查",
       "template": "模板－特殊檢查.md"
     },
     {
-      "path": "06_功能性測試/軀幹/功能性測試－Self-Paced Walking Test.md",
-      "title": "功能性測試－Self-Paced Walking Test",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－Modified Bent-Knee Stretch Test.md",
+      "title": "特殊檢查－Modified Bent-Knee Stretch Test",
       "role": "相關",
-      "type": "功能性測試",
-      "template": "模板－功能性測試.md"
+      "type": "特殊檢查",
+      "template": "模板－特殊檢查.md"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－腰椎管狹窄步行與耐力進展.md",
-      "title": "運動治療－腰椎管狹窄步行與耐力進展",
+      "path": "05_處置與復健/運動治療/運動治療－臀肌肌腱病變教育與漸進負荷.md",
+      "title": "運動治療－臀肌肌腱病變教育與漸進負荷",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－腰椎小面關節相關疼痛多方向負荷進展.md",
-      "title": "運動治療－腰椎小面關節相關疼痛多方向負荷進展",
+      "path": "05_處置與復健/運動治療/運動治療－近端腿後肌肌腱漸進負荷.md",
+      "title": "運動治療－近端腿後肌肌腱漸進負荷",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
@@ -227,7 +231,7 @@
   ],
   "per_note_validation": [
     {
-      "path": "03_傷害與疾病/過度使用/傷害－退化性腰椎管狹窄與神經性跛行.md",
+      "path": "03_傷害與疾病/過度使用/傷害－大轉子疼痛症候群與臀肌肌腱病變.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -236,7 +240,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－原生性脊椎骨髓炎與椎間盤炎.md",
+      "path": "03_傷害與疾病/過度使用/傷害－近端腿後肌肌腱病變.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -245,7 +249,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－胸腰椎橫突骨折.md",
+      "path": "03_傷害與疾病/過度使用/傷害－薦骨壓力性損傷.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -254,7 +258,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－腰椎小面關節相關疼痛.md",
+      "path": "03_傷害與疾病/神經卡壓/傷害－深臀症候群.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -263,7 +267,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－成人運動員持續性胸腰痛安全分流.md",
+      "path": "04_臨床評估/系統性評估/評估－成人運動員外側與後側髖痛安全分流.md",
       "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
@@ -272,7 +276,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－腰椎小面關節與椎間孔.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－大轉子與轉子周邊空間.md",
       "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
@@ -281,7 +285,16 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/神經/神經－腰椎後支與內側支.md",
+      "path": "01_基礎解剖/肌腱/肌腱－近端腿後肌肌腱複合體.md",
+      "template": "模板－肌腱.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "01_基礎解剖/神經/神經－後股皮神經.md",
       "template": "模板－神經.md",
       "yaml": "passed",
       "h1": "passed",
@@ -290,16 +303,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/肌肉/肌肉－腹橫肌與腹內斜肌.md",
-      "template": "模板－肌肉.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "01_基礎解剖/韌帶/韌帶－黃韌帶與腰椎管邊界.md",
+      "path": "01_基礎解剖/韌帶/韌帶－薦結節與薦棘韌帶.md",
       "template": "模板－韌帶.md",
       "yaml": "passed",
       "h1": "passed",
@@ -308,7 +312,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－步行誘發腿部症狀問診.md",
+      "path": "04_臨床評估/主觀問診/評估－外側與後側髖痛主觀問診.md",
       "template": "模板－主觀問診.md",
       "yaml": "passed",
       "h1": "passed",
@@ -317,7 +321,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－腰椎管狹窄與神經性跛行身體檢查.md",
+      "path": "04_臨床評估/身體檢查/評估－外側與後側髖部系統性身體檢查.md",
       "template": "模板－身體檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -326,7 +330,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Lumbar Quadrant Test.md",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－Active Piriformis 與 Seated Piriformis Stretch 組合.md",
       "template": "模板－特殊檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -335,8 +339,8 @@
       "links": "passed"
     },
     {
-      "path": "06_功能性測試/軀幹/功能性測試－Self-Paced Walking Test.md",
-      "template": "模板－功能性測試.md",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－Modified Bent-Knee Stretch Test.md",
+      "template": "模板－特殊檢查.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -344,7 +348,7 @@
       "links": "passed"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－腰椎管狹窄步行與耐力進展.md",
+      "path": "05_處置與復健/運動治療/運動治療－臀肌肌腱病變教育與漸進負荷.md",
       "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
@@ -353,7 +357,7 @@
       "links": "passed"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－腰椎小面關節相關疼痛多方向負荷進展.md",
+      "path": "05_處置與復健/運動治療/運動治療－近端腿後肌肌腱漸進負荷.md",
       "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
@@ -363,23 +367,21 @@
     }
   ],
   "assets": [
-    "assets/anatomy/胸腰椎第四輪腰椎管與後方結構示意圖.svg",
-    "assets/assessment/胸腰椎第四輪持續性疼痛分流圖.svg",
-    "assets/assessment/胸腰椎第四輪站走容量進展矩陣.svg"
+    "assets/anatomy/骨盆髖第四輪外側後側結構示意圖.svg",
+    "assets/assessment/骨盆髖第四輪外側後側髖痛分流圖.svg",
+    "assets/assessment/骨盆髖第四輪肌腱負荷進展矩陣.svg"
   ],
   "sources_checked": [
-    "ACR Appropriateness Criteria: Low Back Pain. https://acsearch.acr.org/docs/69483/Narrative/",
-    "ACR Appropriateness Criteria: Thoracic Back Pain. J Am Coll Radiol. 2024. https://pubmed.ncbi.nlm.nih.gov/39488357/",
-    "George SZ, et al. Interventions for the Management of Acute and Chronic Low Back Pain: Revision 2021. https://doi.org/10.2519/jospt.2021.0304",
-    "Bussières A, et al. Non-Surgical Interventions for Lumbar Spinal Stenosis Leading To Neurogenic Claudication: A Clinical Practice Guideline. 2021. https://pubmed.ncbi.nlm.nih.gov/33857615/",
-    "Sekiguchi M. The Essence of Clinical Practice Guidelines for Lumbar Spinal Stenosis, 2021: Diagnosis and Evaluation. https://pubmed.ncbi.nlm.nih.gov/37636148/",
-    "Katz JN, et al. Diagnosis and Management of Lumbar Spinal Stenosis: A Review. JAMA. 2022. https://pubmed.ncbi.nlm.nih.gov/35503342/",
-    "Berbari EF, et al. IDSA Clinical Practice Guidelines for Native Vertebral Osteomyelitis in Adults. 2015. https://www.idsociety.org/practice-guideline/vertebral-osteomyelitis/",
-    "Nagasawa DT, et al. Isolated Transverse Process Fractures: A Systematic Analysis. 2017. https://pubmed.ncbi.nlm.nih.gov/28108423/",
-    "Arena JD, et al. Thoracolumbar Transverse Process Fractures Are More Frequently Associated with Nonspinal Injury. 2021. https://pubmed.ncbi.nlm.nih.gov/33271381/",
-    "Stuber K, et al. The diagnostic accuracy of the Kemp’s test: a systematic review. 2014. https://pmc.ncbi.nlm.nih.gov/articles/PMC4139762/",
-    "Tomkins-Lane CC, et al. A criterion measure of walking capacity in lumbar spinal stenosis and its comparison with a treadmill test. 2009. https://pubmed.ncbi.nlm.nih.gov/19829259/",
-    "Schneider MJ, et al. Comprehensive Nonsurgical Treatment Versus Self-directed Care to Improve Walking Ability in Lumbar Spinal Stenosis. 2019. https://pubmed.ncbi.nlm.nih.gov/29935152/"
+    "ACR Appropriateness Criteria: Chronic Hip Pain. https://acsearch.acr.org/docs/69425/Narrative/",
+    "ACR Appropriateness Criteria: Acute Hip Pain. https://acsearch.acr.org/docs/3082587/Narrative/",
+    "Pianka MA, et al. Greater trochanteric pain syndrome: Evaluation and management of a wide spectrum of pathology. 2021. https://pmc.ncbi.nlm.nih.gov/articles/PMC8182177/",
+    "Mellor R, et al. Education plus exercise versus corticosteroid injection use versus wait and see for gluteal tendinopathy. BMJ. 2018. https://pubmed.ncbi.nlm.nih.gov/30385462/",
+    "Nasser AM, et al. Proximal Hamstring Tendinopathy: A Systematic Review of Interventions. 2021. https://pmc.ncbi.nlm.nih.gov/articles/PMC8016446/",
+    "Cacchio A, et al. Reliability and validity of three pain provocation tests for chronic proximal hamstring tendinopathy. 2012. https://pubmed.ncbi.nlm.nih.gov/22219215/",
+    "Beit Ner E, et al. Sacral stress fractures in athletes. Eur Spine J. 2022. https://pubmed.ncbi.nlm.nih.gov/34727235/",
+    "Shankar DS, et al. Clinical Presentation and Outcomes of Sacral Stress Fractures in Athletes. 2024. https://pubmed.ncbi.nlm.nih.gov/37542387/",
+    "Martin HD, et al. Diagnostic accuracy of clinical tests for sciatic nerve entrapment in the gluteal region. 2014. https://pubmed.ncbi.nlm.nih.gov/24217716/",
+    "Hopayian K, Danielyan A. Deep gluteal syndrome: an overlooked cause of sciatica. Br J Gen Pract. 2019. https://pmc.ncbi.nlm.nih.gov/articles/PMC6774708/"
   ],
   "validation": {
     "status": "passed",
@@ -398,5 +400,5 @@
       "ZIP CRC/extraction/path"
     ]
   },
-  "generated_at_utc": "2026-09-19T00:06:45.908293+00:00"
+  "generated_at_utc": "2026-09-20T00:13:19.907808+00:00"
 }
