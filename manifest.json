@@ -1,11 +1,11 @@
 {
   "schema_version": 4,
-  "date": "2026-09-20",
-  "region": "骨盆與髖第四輪",
+  "date": "2026-09-21",
+  "region": "膝部第四輪",
   "github": {
     "repository": "janice880624/AT-Obsidian",
     "branch": "main",
-    "commit": "c19ff9e683ddaa19b7d9b8ae683bd4a6be948776",
+    "commit": "5f2b91e54f5eed87773f6ee33a64ffbc6ef18c07",
     "mode": "read-only"
   },
   "template_policy": {
@@ -80,11 +80,9 @@
     "used_templates": [
       "模板－主觀問診.md",
       "模板－傷害.md",
+      "模板－功能性測試.md",
       "模板－特殊檢查.md",
-      "模板－神經.md",
       "模板－系統性評估.md",
-      "模板－肌腱.md",
-      "模板－身體檢查.md",
       "模板－運動治療.md",
       "模板－韌帶.md",
       "模板－骨骼或關節.md"
@@ -103,127 +101,131 @@
     "related_notes": 10,
     "knowledge_notes": 15,
     "svg": 3,
-    "index_or_support_files": 10
+    "index_or_support_files": 11
   },
   "topic_candidates_skipped": [
-    "傷害－急性髖關節脫臼",
-    "傷害－股骨頭骨骺滑脫",
-    "傷害－骨盆環高能量骨折",
-    "傷害－骨盆骨骺撕脫骨折",
-    "傷害－髖臼骨折",
-    "傷害－髖關節化膿性關節炎",
-    "傷害－內收肌相關腹股溝痛",
-    "傷害－股骨頭骨壞死",
-    "傷害－股骨頸骨應力傷",
-    "傷害－股骨髖臼夾擠症候群",
-    "傷害－薦髂關節相關疼痛",
-    "傷害－髂腰肌症候群與內彈響髖",
-    "傷害－髖臼唇損傷",
-    "特殊檢查－薦髂關節疼痛誘發測試組",
-    "功能性測試－Copenhagen 五秒內收擠壓測試"
+    "傷害－前十字韌帶損傷",
+    "傷害－後十字韌帶損傷",
+    "傷害－內側副韌帶損傷",
+    "傷害－後外側角損傷",
+    "傷害－急性半月板損傷",
+    "傷害－髕骨脫臼",
+    "傷害－脛骨平台骨折",
+    "傷害－脛骨粗隆撕脫骨折",
+    "傷害－伸膝機轉斷裂",
+    "傷害－骨軟骨損傷",
+    "傷害－Osgood-Schlatter 病",
+    "傷害－髕股疼痛症候群",
+    "傷害－髕腱病變",
+    "評估－膝關節脫臼與血管損傷緊急分流",
+    "特殊檢查－Lachman Test",
+    "特殊檢查－McMurray Test",
+    "特殊檢查－Patellar Apprehension Test",
+    "特殊檢查－Posterior Drawer Test",
+    "特殊檢查－Dial Test"
   ],
   "notes": [
     {
-      "path": "03_傷害與疾病/過度使用/傷害－大轉子疼痛症候群與臀肌肌腱病變.md",
-      "title": "傷害－大轉子疼痛症候群與臀肌肌腱病變",
+      "path": "03_傷害與疾病/急性傷害/傷害－脛骨髁間隆起撕脫骨折.md",
+      "title": "傷害－脛骨髁間隆起撕脫骨折",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－近端腿後肌肌腱病變.md",
-      "title": "傷害－近端腿後肌肌腱病變",
+      "path": "03_傷害與疾病/急性傷害/傷害－盤狀外側半月板.md",
+      "title": "傷害－盤狀外側半月板",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－薦骨壓力性損傷.md",
-      "title": "傷害－薦骨壓力性損傷",
+      "path": "03_傷害與疾病/急性傷害/傷害－半月板根部損傷.md",
+      "title": "傷害－半月板根部損傷",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－深臀症候群.md",
-      "title": "傷害－深臀症候群",
+      "path": "03_傷害與疾病/過度使用/傷害－髂脛束症候群.md",
+      "title": "傷害－髂脛束症候群",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－成人運動員外側與後側髖痛安全分流.md",
-      "title": "評估－成人運動員外側與後側髖痛安全分流",
+      "path": "03_傷害與疾病/過度使用/傷害－髕前滑囊炎.md",
+      "title": "傷害－髕前滑囊炎",
       "role": "核心",
-      "type": "系統性評估",
-      "template": "模板－系統性評估.md"
+      "type": "傷害",
+      "template": "模板－傷害.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－大轉子與轉子周邊空間.md",
-      "title": "骨骼與關節－大轉子與轉子周邊空間",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－脛骨髁間隆起與前十字韌帶附著區.md",
+      "title": "骨骼與關節－脛骨髁間隆起與前十字韌帶附著區",
       "role": "相關",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "01_基礎解剖/肌腱/肌腱－近端腿後肌肌腱複合體.md",
-      "title": "肌腱－近端腿後肌肌腱複合體",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－膝半月板與半月板根部.md",
+      "title": "骨骼與關節－膝半月板與半月板根部",
       "role": "相關",
-      "type": "肌腱",
-      "template": "模板－肌腱.md"
+      "type": "骨骼或關節",
+      "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "01_基礎解剖/神經/神經－後股皮神經.md",
-      "title": "神經－後股皮神經",
-      "role": "相關",
-      "type": "神經",
-      "template": "模板－神經.md"
-    },
-    {
-      "path": "01_基礎解剖/韌帶/韌帶－薦結節與薦棘韌帶.md",
-      "title": "韌帶－薦結節與薦棘韌帶",
+      "path": "01_基礎解剖/韌帶/韌帶－膝前外側韌帶與關節囊複合體.md",
+      "title": "韌帶－膝前外側韌帶與關節囊複合體",
       "role": "相關",
       "type": "韌帶",
       "template": "模板－韌帶.md"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－外側與後側髖痛主觀問診.md",
-      "title": "評估－外側與後側髖痛主觀問診",
+      "path": "04_臨床評估/主觀問診/評估－膝部卡住與反覆腫脹主觀問診.md",
+      "title": "評估－膝部卡住與反覆腫脹主觀問診",
       "role": "相關",
       "type": "主觀問診",
       "template": "模板－主觀問診.md"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－外側與後側髖部系統性身體檢查.md",
-      "title": "評估－外側與後側髖部系統性身體檢查",
+      "path": "04_臨床評估/系統性評估/評估－膝窩腫塊與深層靜脈血栓安全分流.md",
+      "title": "評估－膝窩腫塊與深層靜脈血栓安全分流",
       "role": "相關",
-      "type": "身體檢查",
-      "template": "模板－身體檢查.md"
+      "type": "系統性評估",
+      "template": "模板－系統性評估.md"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Active Piriformis 與 Seated Piriformis Stretch 組合.md",
-      "title": "特殊檢查－Active Piriformis 與 Seated Piriformis Stretch 組合",
-      "role": "相關",
-      "type": "特殊檢查",
-      "template": "模板－特殊檢查.md"
-    },
-    {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Modified Bent-Knee Stretch Test.md",
-      "title": "特殊檢查－Modified Bent-Knee Stretch Test",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－Noble Compression Test.md",
+      "title": "特殊檢查－Noble Compression Test",
       "role": "相關",
       "type": "特殊檢查",
       "template": "模板－特殊檢查.md"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－臀肌肌腱病變教育與漸進負荷.md",
-      "title": "運動治療－臀肌肌腱病變教育與漸進負荷",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－Apley Grind Test.md",
+      "title": "特殊檢查－Apley Grind Test",
+      "role": "相關",
+      "type": "特殊檢查",
+      "template": "模板－特殊檢查.md"
+    },
+    {
+      "path": "06_功能性測試/下肢/功能性測試－Lower Quarter Y-Balance Test.md",
+      "title": "功能性測試－Lower Quarter Y-Balance Test",
+      "role": "相關",
+      "type": "功能性測試",
+      "template": "模板－功能性測試.md"
+    },
+    {
+      "path": "05_處置與復健/運動治療/運動治療－髂脛束相關膝外側痛漸進跑步負荷.md",
+      "title": "運動治療－髂脛束相關膝外側痛漸進跑步負荷",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－近端腿後肌肌腱漸進負荷.md",
-      "title": "運動治療－近端腿後肌肌腱漸進負荷",
+      "path": "05_處置與復健/運動治療/運動治療－非手術半月板損傷力量與功能進展.md",
+      "title": "運動治療－非手術半月板損傷力量與功能進展",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
@@ -231,7 +233,7 @@
   ],
   "per_note_validation": [
     {
-      "path": "03_傷害與疾病/過度使用/傷害－大轉子疼痛症候群與臀肌肌腱病變.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－脛骨髁間隆起撕脫骨折.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -240,7 +242,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－近端腿後肌肌腱病變.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－盤狀外側半月板.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -249,7 +251,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－薦骨壓力性損傷.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－半月板根部損傷.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -258,7 +260,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－深臀症候群.md",
+      "path": "03_傷害與疾病/過度使用/傷害－髂脛束症候群.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -267,8 +269,8 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－成人運動員外側與後側髖痛安全分流.md",
-      "template": "模板－系統性評估.md",
+      "path": "03_傷害與疾病/過度使用/傷害－髕前滑囊炎.md",
+      "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -276,7 +278,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－大轉子與轉子周邊空間.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－脛骨髁間隆起與前十字韌帶附著區.md",
       "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
@@ -285,8 +287,8 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/肌腱/肌腱－近端腿後肌肌腱複合體.md",
-      "template": "模板－肌腱.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－膝半月板與半月板根部.md",
+      "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -294,16 +296,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/神經/神經－後股皮神經.md",
-      "template": "模板－神經.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "01_基礎解剖/韌帶/韌帶－薦結節與薦棘韌帶.md",
+      "path": "01_基礎解剖/韌帶/韌帶－膝前外側韌帶與關節囊複合體.md",
       "template": "模板－韌帶.md",
       "yaml": "passed",
       "h1": "passed",
@@ -312,7 +305,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－外側與後側髖痛主觀問診.md",
+      "path": "04_臨床評估/主觀問診/評估－膝部卡住與反覆腫脹主觀問診.md",
       "template": "模板－主觀問診.md",
       "yaml": "passed",
       "h1": "passed",
@@ -321,8 +314,8 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－外側與後側髖部系統性身體檢查.md",
-      "template": "模板－身體檢查.md",
+      "path": "04_臨床評估/系統性評估/評估－膝窩腫塊與深層靜脈血栓安全分流.md",
+      "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -330,7 +323,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Active Piriformis 與 Seated Piriformis Stretch 組合.md",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－Noble Compression Test.md",
       "template": "模板－特殊檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -339,7 +332,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Modified Bent-Knee Stretch Test.md",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－Apley Grind Test.md",
       "template": "模板－特殊檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -348,7 +341,16 @@
       "links": "passed"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－臀肌肌腱病變教育與漸進負荷.md",
+      "path": "06_功能性測試/下肢/功能性測試－Lower Quarter Y-Balance Test.md",
+      "template": "模板－功能性測試.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "05_處置與復健/運動治療/運動治療－髂脛束相關膝外側痛漸進跑步負荷.md",
       "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
@@ -357,7 +359,7 @@
       "links": "passed"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－近端腿後肌肌腱漸進負荷.md",
+      "path": "05_處置與復健/運動治療/運動治療－非手術半月板損傷力量與功能進展.md",
       "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
@@ -367,21 +369,26 @@
     }
   ],
   "assets": [
-    "assets/anatomy/骨盆髖第四輪外側後側結構示意圖.svg",
-    "assets/assessment/骨盆髖第四輪外側後側髖痛分流圖.svg",
-    "assets/assessment/骨盆髖第四輪肌腱負荷進展矩陣.svg"
+    "assets/anatomy/膝部第四輪半月板與髁間隆起示意圖.svg",
+    "assets/assessment/膝部第四輪卡住積液與膝窩腫塊分流圖.svg",
+    "assets/assessment/膝部第四輪跑步與動態平衡負荷矩陣.svg"
   ],
   "sources_checked": [
-    "ACR Appropriateness Criteria: Chronic Hip Pain. https://acsearch.acr.org/docs/69425/Narrative/",
-    "ACR Appropriateness Criteria: Acute Hip Pain. https://acsearch.acr.org/docs/3082587/Narrative/",
-    "Pianka MA, et al. Greater trochanteric pain syndrome: Evaluation and management of a wide spectrum of pathology. 2021. https://pmc.ncbi.nlm.nih.gov/articles/PMC8182177/",
-    "Mellor R, et al. Education plus exercise versus corticosteroid injection use versus wait and see for gluteal tendinopathy. BMJ. 2018. https://pubmed.ncbi.nlm.nih.gov/30385462/",
-    "Nasser AM, et al. Proximal Hamstring Tendinopathy: A Systematic Review of Interventions. 2021. https://pmc.ncbi.nlm.nih.gov/articles/PMC8016446/",
-    "Cacchio A, et al. Reliability and validity of three pain provocation tests for chronic proximal hamstring tendinopathy. 2012. https://pubmed.ncbi.nlm.nih.gov/22219215/",
-    "Beit Ner E, et al. Sacral stress fractures in athletes. Eur Spine J. 2022. https://pubmed.ncbi.nlm.nih.gov/34727235/",
-    "Shankar DS, et al. Clinical Presentation and Outcomes of Sacral Stress Fractures in Athletes. 2024. https://pubmed.ncbi.nlm.nih.gov/37542387/",
-    "Martin HD, et al. Diagnostic accuracy of clinical tests for sciatic nerve entrapment in the gluteal region. 2014. https://pubmed.ncbi.nlm.nih.gov/24217716/",
-    "Hopayian K, Danielyan A. Deep gluteal syndrome: an overlooked cause of sciatica. Br J Gen Pract. 2019. https://pmc.ncbi.nlm.nih.gov/articles/PMC6774708/"
+    "ACR Appropriateness Criteria: Acute Trauma to the Knee. https://acsearch.acr.org/docs/69419/Narrative/",
+    "AAOS. Management of Acute Isolated Meniscal Pathology Clinical Practice Guideline. 2024. https://www.aaos.org/aaos-home/newsroom/press-releases/aaos-updates-clinical-practice-guideline-for-management-of-acute-isolated-meniscal-pathology/",
+    "Tibial Spine Fractures in the Pediatric Population: A Systematic Review and Meta-analysis. 2023. https://pubmed.ncbi.nlm.nih.gov/37326248/",
+    "Tibial Spine Avulsion Fractures in Children: Current Concepts and Treatment. 2023. https://pubmed.ncbi.nlm.nih.gov/37321295/",
+    "Discoid lateral meniscus: importance, diagnosis, and treatment. 2023. https://pubmed.ncbi.nlm.nih.gov/36920747/",
+    "Discoid lateral meniscus in children: diagnosis and outcomes. 2017. https://pubmed.ncbi.nlm.nih.gov/29059110/",
+    "Pache S, et al. Meniscal Root Tears: Current Concepts Review. 2018. https://pmc.ncbi.nlm.nih.gov/articles/PMC6110430/",
+    "Blyth M, et al. Diagnostic accuracy of the Thessaly test and other clinical examination tests for meniscal tears. 2015. https://pubmed.ncbi.nlm.nih.gov/25420009/",
+    "Fredericson M, Weir A. Practical management of iliotibial band friction syndrome in runners. 2006. https://pubmed.ncbi.nlm.nih.gov/16778544/",
+    "Noble CA. The treatment of iliotibial band friction syndrome. Br J Sports Med. 1979. https://pmc.ncbi.nlm.nih.gov/articles/PMC1859860/",
+    "Cook C, et al. Clinical tests for the musculoskeletal system: common extra-articular knee tests. 2010. https://pmc.ncbi.nlm.nih.gov/articles/PMC2953323/",
+    "Merck Manual Professional. Bursitis. https://www.merckmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/bursa-muscle-and-tendon-disorders/bursitis",
+    "Baker Cyst. StatPearls. https://www.ncbi.nlm.nih.gov/books/NBK430774/",
+    "Plisky PJ, et al. The reliability of an instrumented device for measuring components of the Star Excursion Balance Test. 2009. https://pubmed.ncbi.nlm.nih.gov/19637203/",
+    "Kise NJ, et al. Exercise therapy versus arthroscopic partial meniscectomy for degenerative meniscal tear: five-year follow-up. 2020. https://pubmed.ncbi.nlm.nih.gov/32184135/"
   ],
   "validation": {
     "status": "passed",
@@ -400,5 +407,5 @@
       "ZIP CRC/extraction/path"
     ]
   },
-  "generated_at_utc": "2026-09-20T00:13:19.907808+00:00"
+  "generated_at_utc": "2026-09-21T00:13:10.104224+00:00"
 }
