@@ -1,11 +1,11 @@
 {
   "schema_version": 4,
-  "date": "2026-09-21",
-  "region": "膝部第四輪",
+  "date": "2026-09-22",
+  "region": "足踝第四輪",
   "github": {
     "repository": "janice880624/AT-Obsidian",
     "branch": "main",
-    "commit": "5f2b91e54f5eed87773f6ee33a64ffbc6ef18c07",
+    "commit": "0f2528e7c5160459d7ec4af51eb53d39d8868b86",
     "mode": "read-only"
   },
   "template_policy": {
@@ -82,9 +82,10 @@
       "模板－傷害.md",
       "模板－功能性測試.md",
       "模板－特殊檢查.md",
+      "模板－神經.md",
       "模板－系統性評估.md",
+      "模板－肌腱.md",
       "模板－運動治療.md",
-      "模板－韌帶.md",
       "模板－骨骼或關節.md"
     ],
     "validated_note_count": 15,
@@ -104,128 +105,131 @@
     "index_or_support_files": 11
   },
   "topic_candidates_skipped": [
-    "傷害－前十字韌帶損傷",
-    "傷害－後十字韌帶損傷",
-    "傷害－內側副韌帶損傷",
-    "傷害－後外側角損傷",
-    "傷害－急性半月板損傷",
-    "傷害－髕骨脫臼",
-    "傷害－脛骨平台骨折",
-    "傷害－脛骨粗隆撕脫骨折",
-    "傷害－伸膝機轉斷裂",
-    "傷害－骨軟骨損傷",
-    "傷害－Osgood-Schlatter 病",
-    "傷害－髕股疼痛症候群",
-    "傷害－髕腱病變",
-    "評估－膝關節脫臼與血管損傷緊急分流",
-    "特殊檢查－Lachman Test",
-    "特殊檢查－McMurray Test",
-    "特殊檢查－Patellar Apprehension Test",
-    "特殊檢查－Posterior Drawer Test",
-    "特殊檢查－Dial Test"
+    "急性外側踝扭傷",
+    "高位踝扭傷",
+    "慢性踝關節不穩定",
+    "Turf Toe",
+    "Lisfranc 中足損傷",
+    "距骨頸骨折",
+    "跟骨骨折",
+    "第五蹠骨近端骨折",
+    "阿基里斯腱斷裂",
+    "阿基里斯腱中段病變",
+    "足底足跟痛",
+    "距骨骨軟骨病灶",
+    "踝前抽屜測試",
+    "距骨傾斜測試",
+    "Ottawa Ankle Rules",
+    "Thompson Test",
+    "Squeeze Test",
+    "Windlass Test",
+    "足根管 Tinel Sign",
+    "Side Hop Test",
+    "單腳提踵耐力測試",
+    "Knee-to-Wall Test"
   ],
   "notes": [
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－脛骨髁間隆起撕脫骨折.md",
-      "title": "傷害－脛骨髁間隆起撕脫骨折",
+      "path": "03_傷害與疾病/過度使用/傷害－足舟狀骨壓力性骨折.md",
+      "title": "傷害－足舟狀骨壓力性骨折",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－盤狀外側半月板.md",
-      "title": "傷害－盤狀外側半月板",
+      "path": "03_傷害與疾病/過度使用/傷害－踵骨骨骺炎.md",
+      "title": "傷害－踵骨骨骺炎",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－半月板根部損傷.md",
-      "title": "傷害－半月板根部損傷",
+      "path": "03_傷害與疾病/過度使用/傷害－副舟骨症候群.md",
+      "title": "傷害－副舟骨症候群",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－髂脛束症候群.md",
-      "title": "傷害－髂脛束症候群",
+      "path": "03_傷害與疾病/神經卡壓/傷害－Morton 指間神經病變.md",
+      "title": "傷害－Morton 指間神經病變",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－髕前滑囊炎.md",
-      "title": "傷害－髕前滑囊炎",
+      "path": "03_傷害與疾病/過度使用/傷害－踝後夾擠症候群.md",
+      "title": "傷害－踝後夾擠症候群",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－脛骨髁間隆起與前十字韌帶附著區.md",
-      "title": "骨骼與關節－脛骨髁間隆起與前十字韌帶附著區",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－足舟狀骨與內側足弓.md",
+      "title": "骨骼與關節－足舟狀骨與內側足弓",
       "role": "相關",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－膝半月板與半月板根部.md",
-      "title": "骨骼與關節－膝半月板與半月板根部",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－距骨後突與三角骨.md",
+      "title": "骨骼與關節－距骨後突與三角骨",
       "role": "相關",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "01_基礎解剖/韌帶/韌帶－膝前外側韌帶與關節囊複合體.md",
-      "title": "韌帶－膝前外側韌帶與關節囊複合體",
+      "path": "01_基礎解剖/神經/神經－足底共同趾神經.md",
+      "title": "神經－足底共同趾神經",
       "role": "相關",
-      "type": "韌帶",
-      "template": "模板－韌帶.md"
+      "type": "神經",
+      "template": "模板－神經.md"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－膝部卡住與反覆腫脹主觀問診.md",
-      "title": "評估－膝部卡住與反覆腫脹主觀問診",
+      "path": "01_基礎解剖/肌腱/肌腱－屈拇長肌腱於踝後區.md",
+      "title": "肌腱－屈拇長肌腱於踝後區",
+      "role": "相關",
+      "type": "肌腱",
+      "template": "模板－肌腱.md"
+    },
+    {
+      "path": "04_臨床評估/主觀問診/評估－青少年足跟與內側中足痛主觀問診.md",
+      "title": "評估－青少年足跟與內側中足痛主觀問診",
       "role": "相關",
       "type": "主觀問診",
       "template": "模板－主觀問診.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－膝窩腫塊與深層靜脈血栓安全分流.md",
-      "title": "評估－膝窩腫塊與深層靜脈血栓安全分流",
+      "path": "04_臨床評估/系統性評估/評估－足部骨壓力性損傷安全分流.md",
+      "title": "評估－足部骨壓力性損傷安全分流",
       "role": "相關",
       "type": "系統性評估",
       "template": "模板－系統性評估.md"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Noble Compression Test.md",
-      "title": "特殊檢查－Noble Compression Test",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－Mulder Sign.md",
+      "title": "特殊檢查－Mulder Sign",
       "role": "相關",
       "type": "特殊檢查",
       "template": "模板－特殊檢查.md"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Apley Grind Test.md",
-      "title": "特殊檢查－Apley Grind Test",
-      "role": "相關",
-      "type": "特殊檢查",
-      "template": "模板－特殊檢查.md"
-    },
-    {
-      "path": "06_功能性測試/下肢/功能性測試－Lower Quarter Y-Balance Test.md",
-      "title": "功能性測試－Lower Quarter Y-Balance Test",
+      "path": "06_功能性測試/下肢/功能性測試－Figure-of-8 Hop Test.md",
+      "title": "功能性測試－Figure-of-8 Hop Test",
       "role": "相關",
       "type": "功能性測試",
       "template": "模板－功能性測試.md"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－髂脛束相關膝外側痛漸進跑步負荷.md",
-      "title": "運動治療－髂脛束相關膝外側痛漸進跑步負荷",
+      "path": "05_處置與復健/運動治療/運動治療－足舟狀骨壓力傷後回跑進展.md",
+      "title": "運動治療－足舟狀骨壓力傷後回跑進展",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－非手術半月板損傷力量與功能進展.md",
-      "title": "運動治療－非手術半月板損傷力量與功能進展",
+      "path": "05_處置與復健/運動治療/運動治療－踝後夾擠蹠屈負荷進展.md",
+      "title": "運動治療－踝後夾擠蹠屈負荷進展",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
@@ -233,7 +237,7 @@
   ],
   "per_note_validation": [
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－脛骨髁間隆起撕脫骨折.md",
+      "path": "03_傷害與疾病/過度使用/傷害－足舟狀骨壓力性骨折.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -242,7 +246,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－盤狀外側半月板.md",
+      "path": "03_傷害與疾病/過度使用/傷害－踵骨骨骺炎.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -251,7 +255,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－半月板根部損傷.md",
+      "path": "03_傷害與疾病/過度使用/傷害－副舟骨症候群.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -260,7 +264,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－髂脛束症候群.md",
+      "path": "03_傷害與疾病/神經卡壓/傷害－Morton 指間神經病變.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -269,7 +273,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－髕前滑囊炎.md",
+      "path": "03_傷害與疾病/過度使用/傷害－踝後夾擠症候群.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -278,7 +282,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－脛骨髁間隆起與前十字韌帶附著區.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－足舟狀骨與內側足弓.md",
       "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
@@ -287,7 +291,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－膝半月板與半月板根部.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－距骨後突與三角骨.md",
       "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
@@ -296,8 +300,8 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/韌帶/韌帶－膝前外側韌帶與關節囊複合體.md",
-      "template": "模板－韌帶.md",
+      "path": "01_基礎解剖/神經/神經－足底共同趾神經.md",
+      "template": "模板－神經.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -305,7 +309,16 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－膝部卡住與反覆腫脹主觀問診.md",
+      "path": "01_基礎解剖/肌腱/肌腱－屈拇長肌腱於踝後區.md",
+      "template": "模板－肌腱.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "04_臨床評估/主觀問診/評估－青少年足跟與內側中足痛主觀問診.md",
       "template": "模板－主觀問診.md",
       "yaml": "passed",
       "h1": "passed",
@@ -314,7 +327,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－膝窩腫塊與深層靜脈血栓安全分流.md",
+      "path": "04_臨床評估/系統性評估/評估－足部骨壓力性損傷安全分流.md",
       "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
@@ -323,7 +336,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Noble Compression Test.md",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－Mulder Sign.md",
       "template": "模板－特殊檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -332,16 +345,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Apley Grind Test.md",
-      "template": "模板－特殊檢查.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "06_功能性測試/下肢/功能性測試－Lower Quarter Y-Balance Test.md",
+      "path": "06_功能性測試/下肢/功能性測試－Figure-of-8 Hop Test.md",
       "template": "模板－功能性測試.md",
       "yaml": "passed",
       "h1": "passed",
@@ -350,7 +354,7 @@
       "links": "passed"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－髂脛束相關膝外側痛漸進跑步負荷.md",
+      "path": "05_處置與復健/運動治療/運動治療－足舟狀骨壓力傷後回跑進展.md",
       "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
@@ -359,7 +363,7 @@
       "links": "passed"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－非手術半月板損傷力量與功能進展.md",
+      "path": "05_處置與復健/運動治療/運動治療－踝後夾擠蹠屈負荷進展.md",
       "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
@@ -369,26 +373,23 @@
     }
   ],
   "assets": [
-    "assets/anatomy/膝部第四輪半月板與髁間隆起示意圖.svg",
-    "assets/assessment/膝部第四輪卡住積液與膝窩腫塊分流圖.svg",
-    "assets/assessment/膝部第四輪跑步與動態平衡負荷矩陣.svg"
+    "assets/anatomy/足踝第四輪舟狀骨與後踝結構示意圖.svg",
+    "assets/assessment/足踝第四輪骨壓力傷與青少年足跟痛分流圖.svg",
+    "assets/assessment/足踝第四輪回跑與跳躍負荷矩陣.svg"
   ],
   "sources_checked": [
-    "ACR Appropriateness Criteria: Acute Trauma to the Knee. https://acsearch.acr.org/docs/69419/Narrative/",
-    "AAOS. Management of Acute Isolated Meniscal Pathology Clinical Practice Guideline. 2024. https://www.aaos.org/aaos-home/newsroom/press-releases/aaos-updates-clinical-practice-guideline-for-management-of-acute-isolated-meniscal-pathology/",
-    "Tibial Spine Fractures in the Pediatric Population: A Systematic Review and Meta-analysis. 2023. https://pubmed.ncbi.nlm.nih.gov/37326248/",
-    "Tibial Spine Avulsion Fractures in Children: Current Concepts and Treatment. 2023. https://pubmed.ncbi.nlm.nih.gov/37321295/",
-    "Discoid lateral meniscus: importance, diagnosis, and treatment. 2023. https://pubmed.ncbi.nlm.nih.gov/36920747/",
-    "Discoid lateral meniscus in children: diagnosis and outcomes. 2017. https://pubmed.ncbi.nlm.nih.gov/29059110/",
-    "Pache S, et al. Meniscal Root Tears: Current Concepts Review. 2018. https://pmc.ncbi.nlm.nih.gov/articles/PMC6110430/",
-    "Blyth M, et al. Diagnostic accuracy of the Thessaly test and other clinical examination tests for meniscal tears. 2015. https://pubmed.ncbi.nlm.nih.gov/25420009/",
-    "Fredericson M, Weir A. Practical management of iliotibial band friction syndrome in runners. 2006. https://pubmed.ncbi.nlm.nih.gov/16778544/",
-    "Noble CA. The treatment of iliotibial band friction syndrome. Br J Sports Med. 1979. https://pmc.ncbi.nlm.nih.gov/articles/PMC1859860/",
-    "Cook C, et al. Clinical tests for the musculoskeletal system: common extra-articular knee tests. 2010. https://pmc.ncbi.nlm.nih.gov/articles/PMC2953323/",
-    "Merck Manual Professional. Bursitis. https://www.merckmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/bursa-muscle-and-tendon-disorders/bursitis",
-    "Baker Cyst. StatPearls. https://www.ncbi.nlm.nih.gov/books/NBK430774/",
-    "Plisky PJ, et al. The reliability of an instrumented device for measuring components of the Star Excursion Balance Test. 2009. https://pubmed.ncbi.nlm.nih.gov/19637203/",
-    "Kise NJ, et al. Exercise therapy versus arthroscopic partial meniscectomy for degenerative meniscal tear: five-year follow-up. 2020. https://pubmed.ncbi.nlm.nih.gov/32184135/"
+    "ACR Appropriateness Criteria: Stress (Fatigue/Insufficiency) Fracture, 2024 Update. https://acsearch.acr.org/docs/69435/narrative/",
+    "Shakked RJ, et al. Tarsal navicular stress fractures. 2017. https://pubmed.ncbi.nlm.nih.gov/28110392/",
+    "Torg JS, et al. Management of tarsal navicular stress fractures. 2010. https://pubmed.ncbi.nlm.nih.gov/20197494/",
+    "James AM, et al. Effectiveness of interventions for calcaneal apophysitis: systematic review. 2013. https://pmc.ncbi.nlm.nih.gov/articles/PMC3663667/",
+    "Wariach S, et al. Outcomes Associated with Accessory Navicular Bone Surgery: systematic review. 2022. https://pmc.ncbi.nlm.nih.gov/articles/PMC9463416/",
+    "Wynn M, et al. Effectiveness of Nonoperative Treatment of the Symptomatic Accessory Navicular in Pediatric Patients. 2019. https://pmc.ncbi.nlm.nih.gov/articles/PMC6604528/",
+    "Pitcher M, et al. Diagnostic Accuracy of Subjective Features and Physical Examination Tests for Morton Neuroma: systematic review. 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11574893/",
+    "Bignotti B, et al. Ultrasound versus magnetic resonance imaging for Morton neuroma: systematic review. 2015. https://pubmed.ncbi.nlm.nih.gov/25809742/",
+    "Yasui Y, et al. Posterior ankle impingement syndrome: a systematic four-stage approach. 2016. https://pmc.ncbi.nlm.nih.gov/articles/PMC5065672/",
+    "Kudaş S, et al. Posterior ankle impingement syndrome in football players. 2016. https://pmc.ncbi.nlm.nih.gov/articles/PMC6197591/",
+    "Sharma N, et al. Functional Performance Testing in Athletes with Functional Ankle Instability. 2011. https://pmc.ncbi.nlm.nih.gov/articles/PMC3289221/",
+    "Madsen LP, et al. Using Normative Data and Unilateral Hopping Tests to Reduce Ambiguity in Return-to-Play Decisions. 2020. https://pmc.ncbi.nlm.nih.gov/articles/PMC7384471/"
   ],
   "validation": {
     "status": "passed",
@@ -407,5 +408,5 @@
       "ZIP CRC/extraction/path"
     ]
   },
-  "generated_at_utc": "2026-09-21T00:13:10.104224+00:00"
+  "generated_at_utc": "2026-09-22T00:22:20.310752+00:00"
 }
