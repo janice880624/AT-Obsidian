@@ -1,11 +1,11 @@
 {
   "schema_version": 4,
-  "date": "2026-09-22",
-  "region": "足踝第四輪",
+  "date": "2026-09-23",
+  "region": "頭頸第五輪",
   "github": {
     "repository": "janice880624/AT-Obsidian",
     "branch": "main",
-    "commit": "0f2528e7c5160459d7ec4af51eb53d39d8868b86",
+    "commit": "2be1445ae06d88891b83505b940ff1d2f3ece2c6",
     "mode": "read-only"
   },
   "template_policy": {
@@ -84,7 +84,8 @@
       "模板－特殊檢查.md",
       "模板－神經.md",
       "模板－系統性評估.md",
-      "模板－肌腱.md",
+      "模板－肌肉.md",
+      "模板－身體檢查.md",
       "模板－運動治療.md",
       "模板－骨骼或關節.md"
     ],
@@ -102,134 +103,115 @@
     "related_notes": 10,
     "knowledge_notes": 15,
     "svg": 3,
-    "index_or_support_files": 11
+    "index_or_support_files": 10
   },
   "topic_candidates_skipped": [
-    "急性外側踝扭傷",
-    "高位踝扭傷",
-    "慢性踝關節不穩定",
-    "Turf Toe",
-    "Lisfranc 中足損傷",
-    "距骨頸骨折",
-    "跟骨骨折",
-    "第五蹠骨近端骨折",
-    "阿基里斯腱斷裂",
-    "阿基里斯腱中段病變",
-    "足底足跟痛",
-    "距骨骨軟骨病灶",
-    "踝前抽屜測試",
-    "距骨傾斜測試",
-    "Ottawa Ankle Rules",
-    "Thompson Test",
-    "Squeeze Test",
-    "Windlass Test",
-    "足根管 Tinel Sign",
-    "Side Hop Test",
-    "單腳提踵耐力測試",
-    "Knee-to-Wall Test"
+    "既有頭頸第一至第四輪主題",
+    "無專屬模板的筆記類型",
+    "任何需要建立新資料夾的候選主題"
   ],
   "notes": [
     {
-      "path": "03_傷害與疾病/過度使用/傷害－足舟狀骨壓力性骨折.md",
-      "title": "傷害－足舟狀骨壓力性骨折",
+      "path": "03_傷害與疾病/急性傷害/傷害－下顎骨骨折.md",
+      "title": "傷害－下顎骨骨折",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－踵骨骨骺炎.md",
-      "title": "傷害－踵骨骨骺炎",
+      "path": "03_傷害與疾病/急性傷害/傷害－眼眶骨折.md",
+      "title": "傷害－眼眶骨折",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－副舟骨症候群.md",
-      "title": "傷害－副舟骨症候群",
+      "path": "03_傷害與疾病/急性傷害/傷害－鼻骨骨折與鼻中隔血腫.md",
+      "title": "傷害－鼻骨骨折與鼻中隔血腫",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－Morton 指間神經病變.md",
-      "title": "傷害－Morton 指間神經病變",
+      "path": "03_傷害與疾病/急性傷害/傷害－耳廓血腫.md",
+      "title": "傷害－耳廓血腫",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－踝後夾擠症候群.md",
-      "title": "傷害－踝後夾擠症候群",
+      "path": "03_傷害與疾病/急性傷害/傷害－牙齒脫位與撕脫傷.md",
+      "title": "傷害－牙齒脫位與撕脫傷",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－足舟狀骨與內側足弓.md",
-      "title": "骨骼與關節－足舟狀骨與內側足弓",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－下顎骨與顳顎關節.md",
+      "title": "骨骼與關節－下顎骨與顳顎關節",
       "role": "相關",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－距骨後突與三角骨.md",
-      "title": "骨骼與關節－距骨後突與三角骨",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－眼眶與鼻骨複合體.md",
+      "title": "骨骼與關節－眼眶與鼻骨複合體",
       "role": "相關",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "01_基礎解剖/神經/神經－足底共同趾神經.md",
-      "title": "神經－足底共同趾神經",
+      "path": "01_基礎解剖/神經/神經－三叉神經與顏面感覺.md",
+      "title": "神經－三叉神經與顏面感覺",
       "role": "相關",
       "type": "神經",
       "template": "模板－神經.md"
     },
     {
-      "path": "01_基礎解剖/肌腱/肌腱－屈拇長肌腱於踝後區.md",
-      "title": "肌腱－屈拇長肌腱於踝後區",
+      "path": "01_基礎解剖/肌肉/肌肉－咀嚼肌群.md",
+      "title": "肌肉－咀嚼肌群",
       "role": "相關",
-      "type": "肌腱",
-      "template": "模板－肌腱.md"
+      "type": "肌肉",
+      "template": "模板－肌肉.md"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－青少年足跟與內側中足痛主觀問診.md",
-      "title": "評估－青少年足跟與內側中足痛主觀問診",
+      "path": "04_臨床評估/主觀問診/評估－運動員顏面外傷主觀問診.md",
+      "title": "評估－運動員顏面外傷主觀問診",
       "role": "相關",
       "type": "主觀問診",
       "template": "模板－主觀問診.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－足部骨壓力性損傷安全分流.md",
-      "title": "評估－足部骨壓力性損傷安全分流",
+      "path": "04_臨床評估/系統性評估/評估－顏面外傷眼眶與顱神經分流.md",
+      "title": "評估－顏面外傷眼眶與顱神經分流",
       "role": "相關",
       "type": "系統性評估",
       "template": "模板－系統性評估.md"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Mulder Sign.md",
-      "title": "特殊檢查－Mulder Sign",
+      "path": "04_臨床評估/身體檢查/評估－牙齒與口腔外傷檢查.md",
+      "title": "評估－牙齒與口腔外傷檢查",
+      "role": "相關",
+      "type": "身體檢查",
+      "template": "模板－身體檢查.md"
+    },
+    {
+      "path": "04_臨床評估/特殊檢查/特殊檢查－Tongue Blade Test.md",
+      "title": "特殊檢查－Tongue Blade Test",
       "role": "相關",
       "type": "特殊檢查",
       "template": "模板－特殊檢查.md"
     },
     {
-      "path": "06_功能性測試/下肢/功能性測試－Figure-of-8 Hop Test.md",
-      "title": "功能性測試－Figure-of-8 Hop Test",
+      "path": "06_功能性測試/軀幹/功能性測試－Jaw Functional Limitation Scale.md",
+      "title": "功能性測試－Jaw Functional Limitation Scale",
       "role": "相關",
       "type": "功能性測試",
       "template": "模板－功能性測試.md"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－足舟狀骨壓力傷後回跑進展.md",
-      "title": "運動治療－足舟狀骨壓力傷後回跑進展",
-      "role": "相關",
-      "type": "運動治療",
-      "template": "模板－運動治療.md"
-    },
-    {
-      "path": "05_處置與復健/運動治療/運動治療－踝後夾擠蹠屈負荷進展.md",
-      "title": "運動治療－踝後夾擠蹠屈負荷進展",
+      "path": "05_處置與復健/運動治療/運動治療－顳顎關節疼痛分級運動.md",
+      "title": "運動治療－顳顎關節疼痛分級運動",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
@@ -237,7 +219,7 @@
   ],
   "per_note_validation": [
     {
-      "path": "03_傷害與疾病/過度使用/傷害－足舟狀骨壓力性骨折.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－下顎骨骨折.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -246,7 +228,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－踵骨骨骺炎.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－眼眶骨折.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -255,7 +237,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－副舟骨症候群.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－鼻骨骨折與鼻中隔血腫.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -264,7 +246,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－Morton 指間神經病變.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－耳廓血腫.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -273,7 +255,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－踝後夾擠症候群.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－牙齒脫位與撕脫傷.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -282,7 +264,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－足舟狀骨與內側足弓.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－下顎骨與顳顎關節.md",
       "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
@@ -291,7 +273,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－距骨後突與三角骨.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－眼眶與鼻骨複合體.md",
       "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
@@ -300,7 +282,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/神經/神經－足底共同趾神經.md",
+      "path": "01_基礎解剖/神經/神經－三叉神經與顏面感覺.md",
       "template": "模板－神經.md",
       "yaml": "passed",
       "h1": "passed",
@@ -309,8 +291,8 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/肌腱/肌腱－屈拇長肌腱於踝後區.md",
-      "template": "模板－肌腱.md",
+      "path": "01_基礎解剖/肌肉/肌肉－咀嚼肌群.md",
+      "template": "模板－肌肉.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -318,7 +300,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－青少年足跟與內側中足痛主觀問診.md",
+      "path": "04_臨床評估/主觀問診/評估－運動員顏面外傷主觀問診.md",
       "template": "模板－主觀問診.md",
       "yaml": "passed",
       "h1": "passed",
@@ -327,7 +309,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－足部骨壓力性損傷安全分流.md",
+      "path": "04_臨床評估/系統性評估/評估－顏面外傷眼眶與顱神經分流.md",
       "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
@@ -336,7 +318,16 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Mulder Sign.md",
+      "path": "04_臨床評估/身體檢查/評估－牙齒與口腔外傷檢查.md",
+      "template": "模板－身體檢查.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "04_臨床評估/特殊檢查/特殊檢查－Tongue Blade Test.md",
       "template": "模板－特殊檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -345,7 +336,7 @@
       "links": "passed"
     },
     {
-      "path": "06_功能性測試/下肢/功能性測試－Figure-of-8 Hop Test.md",
+      "path": "06_功能性測試/軀幹/功能性測試－Jaw Functional Limitation Scale.md",
       "template": "模板－功能性測試.md",
       "yaml": "passed",
       "h1": "passed",
@@ -354,16 +345,7 @@
       "links": "passed"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－足舟狀骨壓力傷後回跑進展.md",
-      "template": "模板－運動治療.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "05_處置與復健/運動治療/運動治療－踝後夾擠蹠屈負荷進展.md",
+      "path": "05_處置與復健/運動治療/運動治療－顳顎關節疼痛分級運動.md",
       "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
@@ -373,23 +355,20 @@
     }
   ],
   "assets": [
-    "assets/anatomy/足踝第四輪舟狀骨與後踝結構示意圖.svg",
-    "assets/assessment/足踝第四輪骨壓力傷與青少年足跟痛分流圖.svg",
-    "assets/assessment/足踝第四輪回跑與跳躍負荷矩陣.svg"
+    "assets/anatomy/頭頸第五輪顏面骨與神經關聯圖.svg",
+    "assets/assessment/頭頸第五輪顏面外傷安全分流圖.svg",
+    "assets/assessment/頭頸第五輪顳顎功能與回場矩陣.svg"
   ],
   "sources_checked": [
-    "ACR Appropriateness Criteria: Stress (Fatigue/Insufficiency) Fracture, 2024 Update. https://acsearch.acr.org/docs/69435/narrative/",
-    "Shakked RJ, et al. Tarsal navicular stress fractures. 2017. https://pubmed.ncbi.nlm.nih.gov/28110392/",
-    "Torg JS, et al. Management of tarsal navicular stress fractures. 2010. https://pubmed.ncbi.nlm.nih.gov/20197494/",
-    "James AM, et al. Effectiveness of interventions for calcaneal apophysitis: systematic review. 2013. https://pmc.ncbi.nlm.nih.gov/articles/PMC3663667/",
-    "Wariach S, et al. Outcomes Associated with Accessory Navicular Bone Surgery: systematic review. 2022. https://pmc.ncbi.nlm.nih.gov/articles/PMC9463416/",
-    "Wynn M, et al. Effectiveness of Nonoperative Treatment of the Symptomatic Accessory Navicular in Pediatric Patients. 2019. https://pmc.ncbi.nlm.nih.gov/articles/PMC6604528/",
-    "Pitcher M, et al. Diagnostic Accuracy of Subjective Features and Physical Examination Tests for Morton Neuroma: systematic review. 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11574893/",
-    "Bignotti B, et al. Ultrasound versus magnetic resonance imaging for Morton neuroma: systematic review. 2015. https://pubmed.ncbi.nlm.nih.gov/25809742/",
-    "Yasui Y, et al. Posterior ankle impingement syndrome: a systematic four-stage approach. 2016. https://pmc.ncbi.nlm.nih.gov/articles/PMC5065672/",
-    "Kudaş S, et al. Posterior ankle impingement syndrome in football players. 2016. https://pmc.ncbi.nlm.nih.gov/articles/PMC6197591/",
-    "Sharma N, et al. Functional Performance Testing in Athletes with Functional Ankle Instability. 2011. https://pmc.ncbi.nlm.nih.gov/articles/PMC3289221/",
-    "Madsen LP, et al. Using Normative Data and Unilateral Hopping Tests to Reduce Ambiguity in Return-to-Play Decisions. 2020. https://pmc.ncbi.nlm.nih.gov/articles/PMC7384471/"
+    "ACR Appropriateness Criteria: Imaging of Facial Trauma Following Primary Survey. https://acsearch.acr.org/docs/3179912/Narrative/",
+    "Boyette JR, et al. Management of orbital fractures: challenges and solutions. Clin Ophthalmol. 2015. https://pmc.ncbi.nlm.nih.gov/articles/PMC4655944/",
+    "Royal Children’s Hospital Melbourne. Nasal fracture guideline; updated October 2025. https://www.rch.org.au/clinicalguide/guideline_index/Nasal_fracture/",
+    "Royal Children’s Hospital Melbourne. Dental trauma guideline; updated July 2024. https://www.rch.org.au/clinicalguide/guideline_index/Dental_trauma/",
+    "Fouad AF, et al. IADT guidelines: Avulsion of permanent teeth. Dent Traumatol. 2020. https://www.aapd.org/research/oral-health-policies--recommendations/guidelines-for-the-management-of-traumatic-dental-injuries-2-avulsion-of-permanent-teeth/",
+    "Neiner J, et al. Tongue Blade Bite Test Predicts Mandible Fractures. Craniomaxillofac Trauma Reconstr. 2016. https://pmc.ncbi.nlm.nih.gov/articles/PMC4858423/",
+    "Kuck JY, et al. Diagnostic accuracy of the tongue blade test combined with clinical signs. World J Emerg Med. 2023. https://pmc.ncbi.nlm.nih.gov/articles/PMC9999133/",
+    "Ohrbach R, et al. Preliminary development and validation of the Jaw Functional Limitation Scale. 2008. https://pubmed.ncbi.nlm.nih.gov/18474055/",
+    "NIDCR. TMD (Temporomandibular Disorders). https://www.nidcr.nih.gov/health-info/tmd"
   ],
   "validation": {
     "status": "passed",
@@ -408,5 +387,5 @@
       "ZIP CRC/extraction/path"
     ]
   },
-  "generated_at_utc": "2026-09-22T00:22:20.310752+00:00"
+  "generated_at_utc": "2026-09-23T00:19:14.700862+00:00"
 }
