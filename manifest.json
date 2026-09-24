@@ -1,11 +1,11 @@
 {
   "schema_version": 4,
-  "date": "2026-09-23",
-  "region": "頭頸第五輪",
+  "date": "2026-09-24",
+  "region": "肩部第五輪",
   "github": {
     "repository": "janice880624/AT-Obsidian",
     "branch": "main",
-    "commit": "2be1445ae06d88891b83505b940ff1d2f3ece2c6",
+    "commit": "e30d98028d761fac5b1f5f0919071be5fd2acb6c",
     "mode": "read-only"
   },
   "template_policy": {
@@ -103,115 +103,115 @@
     "related_notes": 10,
     "knowledge_notes": 15,
     "svg": 3,
-    "index_or_support_files": 10
+    "index_or_support_files": 11
   },
   "topic_candidates_skipped": [
-    "既有頭頸第一至第四輪主題",
+    "既有肩部第一至第四輪主題",
     "無專屬模板的筆記類型",
     "任何需要建立新資料夾的候選主題"
   ],
   "notes": [
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－下顎骨骨折.md",
-      "title": "傷害－下顎骨骨折",
+      "path": "03_傷害與疾病/過度使用/傷害－遠端鎖骨骨溶解症.md",
+      "title": "傷害－遠端鎖骨骨溶解症",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－眼眶骨折.md",
-      "title": "傷害－眼眶骨折",
+      "path": "03_傷害與疾病/過度使用/傷害－彈響肩胛與肩胛胸廓滑囊炎.md",
+      "title": "傷害－彈響肩胛與肩胛胸廓滑囊炎",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－鼻骨骨折與鼻中隔血腫.md",
-      "title": "傷害－鼻骨骨折與鼻中隔血腫",
+      "path": "03_傷害與疾病/過度使用/傷害－過頭運動員肩關節內部夾擠.md",
+      "title": "傷害－過頭運動員肩關節內部夾擠",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－耳廓血腫.md",
-      "title": "傷害－耳廓血腫",
+      "path": "03_傷害與疾病/神經卡壓/傷害－神經痛性肌萎縮（Parsonage-Turner Syndrome）.md",
+      "title": "傷害－神經痛性肌萎縮（Parsonage-Turner Syndrome）",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－牙齒脫位與撕脫傷.md",
-      "title": "傷害－牙齒脫位與撕脫傷",
+      "path": "03_傷害與疾病/神經卡壓/傷害－四邊孔症候群.md",
+      "title": "傷害－四邊孔症候群",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－下顎骨與顳顎關節.md",
-      "title": "骨骼與關節－下顎骨與顳顎關節",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－肩峰與肩胛胸廓滑動界面.md",
+      "title": "骨骼與關節－肩峰與肩胛胸廓滑動界面",
       "role": "相關",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－眼眶與鼻骨複合體.md",
-      "title": "骨骼與關節－眼眶與鼻骨複合體",
-      "role": "相關",
-      "type": "骨骼或關節",
-      "template": "模板－骨骼或關節.md"
-    },
-    {
-      "path": "01_基礎解剖/神經/神經－三叉神經與顏面感覺.md",
-      "title": "神經－三叉神經與顏面感覺",
+      "path": "01_基礎解剖/神經/神經－腋神經與後旋肱動脈.md",
+      "title": "神經－腋神經與後旋肱動脈",
       "role": "相關",
       "type": "神經",
       "template": "模板－神經.md"
     },
     {
-      "path": "01_基礎解剖/肌肉/肌肉－咀嚼肌群.md",
-      "title": "肌肉－咀嚼肌群",
+      "path": "01_基礎解剖/肌肉/肌肉－小圓肌與大圓肌.md",
+      "title": "肌肉－小圓肌與大圓肌",
       "role": "相關",
       "type": "肌肉",
       "template": "模板－肌肉.md"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－運動員顏面外傷主觀問診.md",
-      "title": "評估－運動員顏面外傷主觀問診",
+      "path": "04_臨床評估/主觀問診/評估－肩部後側疼痛與過頭負荷問診.md",
+      "title": "評估－肩部後側疼痛與過頭負荷問診",
       "role": "相關",
       "type": "主觀問診",
       "template": "模板－主觀問診.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－顏面外傷眼眶與顱神經分流.md",
-      "title": "評估－顏面外傷眼眶與顱神經分流",
+      "path": "04_臨床評估/系統性評估/評估－神經痛性肌萎縮與周邊神經分流.md",
+      "title": "評估－神經痛性肌萎縮與周邊神經分流",
       "role": "相關",
       "type": "系統性評估",
       "template": "模板－系統性評估.md"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－牙齒與口腔外傷檢查.md",
-      "title": "評估－牙齒與口腔外傷檢查",
+      "path": "04_臨床評估/身體檢查/評估－肩胛胸廓滑動與症狀檢查.md",
+      "title": "評估－肩胛胸廓滑動與症狀檢查",
       "role": "相關",
       "type": "身體檢查",
       "template": "模板－身體檢查.md"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Tongue Blade Test.md",
-      "title": "特殊檢查－Tongue Blade Test",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－Posterior Impingement Sign.md",
+      "title": "特殊檢查－Posterior Impingement Sign",
       "role": "相關",
       "type": "特殊檢查",
       "template": "模板－特殊檢查.md"
     },
     {
-      "path": "06_功能性測試/軀幹/功能性測試－Jaw Functional Limitation Scale.md",
-      "title": "功能性測試－Jaw Functional Limitation Scale",
+      "path": "06_功能性測試/上肢/功能性測試－Unilateral Seated Shot Put Test.md",
+      "title": "功能性測試－Unilateral Seated Shot Put Test",
       "role": "相關",
       "type": "功能性測試",
       "template": "模板－功能性測試.md"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－顳顎關節疼痛分級運動.md",
-      "title": "運動治療－顳顎關節疼痛分級運動",
+      "path": "05_處置與復健/運動治療/運動治療－過頭運動員後肩與動力鏈分級負荷.md",
+      "title": "運動治療－過頭運動員後肩與動力鏈分級負荷",
+      "role": "相關",
+      "type": "運動治療",
+      "template": "模板－運動治療.md"
+    },
+    {
+      "path": "05_處置與復健/運動治療/運動治療－肩胛胸廓滑囊症狀容量訓練.md",
+      "title": "運動治療－肩胛胸廓滑囊症狀容量訓練",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
@@ -219,7 +219,7 @@
   ],
   "per_note_validation": [
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－下顎骨骨折.md",
+      "path": "03_傷害與疾病/過度使用/傷害－遠端鎖骨骨溶解症.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -228,7 +228,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－眼眶骨折.md",
+      "path": "03_傷害與疾病/過度使用/傷害－彈響肩胛與肩胛胸廓滑囊炎.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -237,7 +237,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－鼻骨骨折與鼻中隔血腫.md",
+      "path": "03_傷害與疾病/過度使用/傷害－過頭運動員肩關節內部夾擠.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -246,7 +246,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－耳廓血腫.md",
+      "path": "03_傷害與疾病/神經卡壓/傷害－神經痛性肌萎縮（Parsonage-Turner Syndrome）.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -255,7 +255,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－牙齒脫位與撕脫傷.md",
+      "path": "03_傷害與疾病/神經卡壓/傷害－四邊孔症候群.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -264,7 +264,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－下顎骨與顳顎關節.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－肩峰與肩胛胸廓滑動界面.md",
       "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
@@ -273,16 +273,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－眼眶與鼻骨複合體.md",
-      "template": "模板－骨骼或關節.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "01_基礎解剖/神經/神經－三叉神經與顏面感覺.md",
+      "path": "01_基礎解剖/神經/神經－腋神經與後旋肱動脈.md",
       "template": "模板－神經.md",
       "yaml": "passed",
       "h1": "passed",
@@ -291,7 +282,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/肌肉/肌肉－咀嚼肌群.md",
+      "path": "01_基礎解剖/肌肉/肌肉－小圓肌與大圓肌.md",
       "template": "模板－肌肉.md",
       "yaml": "passed",
       "h1": "passed",
@@ -300,7 +291,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－運動員顏面外傷主觀問診.md",
+      "path": "04_臨床評估/主觀問診/評估－肩部後側疼痛與過頭負荷問診.md",
       "template": "模板－主觀問診.md",
       "yaml": "passed",
       "h1": "passed",
@@ -309,7 +300,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－顏面外傷眼眶與顱神經分流.md",
+      "path": "04_臨床評估/系統性評估/評估－神經痛性肌萎縮與周邊神經分流.md",
       "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
@@ -318,7 +309,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－牙齒與口腔外傷檢查.md",
+      "path": "04_臨床評估/身體檢查/評估－肩胛胸廓滑動與症狀檢查.md",
       "template": "模板－身體檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -327,7 +318,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Tongue Blade Test.md",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－Posterior Impingement Sign.md",
       "template": "模板－特殊檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -336,7 +327,7 @@
       "links": "passed"
     },
     {
-      "path": "06_功能性測試/軀幹/功能性測試－Jaw Functional Limitation Scale.md",
+      "path": "06_功能性測試/上肢/功能性測試－Unilateral Seated Shot Put Test.md",
       "template": "模板－功能性測試.md",
       "yaml": "passed",
       "h1": "passed",
@@ -345,7 +336,16 @@
       "links": "passed"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－顳顎關節疼痛分級運動.md",
+      "path": "05_處置與復健/運動治療/運動治療－過頭運動員後肩與動力鏈分級負荷.md",
+      "template": "模板－運動治療.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "05_處置與復健/運動治療/運動治療－肩胛胸廓滑囊症狀容量訓練.md",
       "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
@@ -355,20 +355,26 @@
     }
   ],
   "assets": [
-    "assets/anatomy/頭頸第五輪顏面骨與神經關聯圖.svg",
-    "assets/assessment/頭頸第五輪顏面外傷安全分流圖.svg",
-    "assets/assessment/頭頸第五輪顳顎功能與回場矩陣.svg"
+    "assets/anatomy/肩部第五輪四邊孔與肩胛胸廓關聯圖.svg",
+    "assets/assessment/肩部第五輪後側肩痛安全分流圖.svg",
+    "assets/assessment/肩部第五輪過頭運動回場矩陣.svg"
   ],
   "sources_checked": [
-    "ACR Appropriateness Criteria: Imaging of Facial Trauma Following Primary Survey. https://acsearch.acr.org/docs/3179912/Narrative/",
-    "Boyette JR, et al. Management of orbital fractures: challenges and solutions. Clin Ophthalmol. 2015. https://pmc.ncbi.nlm.nih.gov/articles/PMC4655944/",
-    "Royal Children’s Hospital Melbourne. Nasal fracture guideline; updated October 2025. https://www.rch.org.au/clinicalguide/guideline_index/Nasal_fracture/",
-    "Royal Children’s Hospital Melbourne. Dental trauma guideline; updated July 2024. https://www.rch.org.au/clinicalguide/guideline_index/Dental_trauma/",
-    "Fouad AF, et al. IADT guidelines: Avulsion of permanent teeth. Dent Traumatol. 2020. https://www.aapd.org/research/oral-health-policies--recommendations/guidelines-for-the-management-of-traumatic-dental-injuries-2-avulsion-of-permanent-teeth/",
-    "Neiner J, et al. Tongue Blade Bite Test Predicts Mandible Fractures. Craniomaxillofac Trauma Reconstr. 2016. https://pmc.ncbi.nlm.nih.gov/articles/PMC4858423/",
-    "Kuck JY, et al. Diagnostic accuracy of the tongue blade test combined with clinical signs. World J Emerg Med. 2023. https://pmc.ncbi.nlm.nih.gov/articles/PMC9999133/",
-    "Ohrbach R, et al. Preliminary development and validation of the Jaw Functional Limitation Scale. 2008. https://pubmed.ncbi.nlm.nih.gov/18474055/",
-    "NIDCR. TMD (Temporomandibular Disorders). https://www.nidcr.nih.gov/health-info/tmd"
+    "StatPearls. Distal Clavicular Osteolysis. Updated 2023. https://www.ncbi.nlm.nih.gov/books/NBK582148/",
+    "Yu A, et al. Diagnosis and Management of Distal Clavicle Osteolysis. Orthopedics. 2017. https://journals.healio.com/doi/10.3928/01477447-20161128-03",
+    "Merolla G, et al. Snapping scapula syndrome: current concepts review in conservative and surgical treatment. Muscles Ligaments Tendons J. 2013. https://pmc.ncbi.nlm.nih.gov/articles/PMC3711706/",
+    "Vetter M, et al. Diagnosis and Treatment of Snapping Scapula Syndrome: A Scoping Review. Sports Health. 2022. https://pmc.ncbi.nlm.nih.gov/articles/PMC9109590/",
+    "Feinberg JH, Radecki J. Parsonage-Turner Syndrome. HSS J. 2010. https://pmc.ncbi.nlm.nih.gov/articles/PMC2926354/",
+    "Neuralgic amyotrophy: an underrecognized entity. 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11632787/",
+    "Corpus KT, et al. Evaluation and treatment of internal impingement of the shoulder in overhead athletes. World J Orthop. 2016. https://pmc.ncbi.nlm.nih.gov/articles/PMC5155252/",
+    "Meister K, et al. The posterior impingement sign. Am J Orthop. 2004. https://pubmed.ncbi.nlm.nih.gov/15379239/",
+    "Cahill BR, Palmer RE. Quadrilateral space syndrome. J Hand Surg Am. 1983. https://pubmed.ncbi.nlm.nih.gov/6827057/",
+    "McAdams TR, et al. Surgical decompression of the quadrilateral space in overhead athletes. Am J Sports Med. 2008. https://pubmed.ncbi.nlm.nih.gov/18055916/",
+    "AAOS. Management of Rotator Cuff Injuries Clinical Practice Guideline. 2025. https://www.aaos.org/rotatorcuffcpg",
+    "Schwank A, et al. 2022 Bern Consensus Statement on Shoulder Injury Prevention, Rehabilitation, and Return to Sport for Athletes at All Participation Levels. J Orthop Sports Phys Ther. 2022. https://www.jospt.org/doi/10.2519/jospt.2022.10952",
+    "Pinheiro JS, et al. Seated Single-Arm Shot-Put Test in exercise practitioners with chronic shoulder pain. Int J Sports Phys Ther. 2020. https://pmc.ncbi.nlm.nih.gov/articles/PMC7750822/",
+    "Chmielewski TL, et al. Normalization considerations for the unilateral seated shot put test. J Orthop Sports Phys Ther. 2014. https://www.jospt.org/doi/10.2519/jospt.2014.5004",
+    "Tagliarini GO, et al. Performance, test-retest reliability, and measurement error of the upper limb seated shot-put test. Int J Sports Phys Ther. 2023. https://pmc.ncbi.nlm.nih.gov/articles/PMC10324283/"
   ],
   "validation": {
     "status": "passed",
@@ -387,5 +393,5 @@
       "ZIP CRC/extraction/path"
     ]
   },
-  "generated_at_utc": "2026-09-23T00:19:14.700862+00:00"
+  "generated_at_utc": "2026-09-24T00:14:53.807375+00:00"
 }
