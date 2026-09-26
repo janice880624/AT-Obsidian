@@ -1,11 +1,11 @@
 {
-  "schema_version": 5,
-  "date": "2026-09-25",
-  "region": "肘部第五輪",
+  "schema_version": 4,
+  "date": "2026-09-26",
+  "region": "手腕與手第五輪",
   "github": {
     "repository": "janice880624/AT-Obsidian",
     "branch": "main",
-    "commit": "a2b19a30cd4844d7e089584752ee59765a16ead3",
+    "commit": "8fd9eb85488d01c42b261d7ff71477a8ae6fbb5a",
     "mode": "read-only"
   },
   "template_policy": {
@@ -83,10 +83,9 @@
       "模板－功能性測試.md",
       "模板－特殊檢查.md",
       "模板－系統性評估.md",
-      "模板－肌肉.md",
+      "模板－肌腱.md",
       "模板－身體檢查.md",
       "模板－運動治療.md",
-      "模板－韌帶.md",
       "模板－骨骼或關節.md"
     ],
     "validated_note_count": 15,
@@ -106,125 +105,126 @@
     "index_or_support_files": 11
   },
   "topic_candidates_skipped": [
-    "傷害－橈骨頭骨折",
-    "傷害－遠端肱骨骨折",
-    "傷害－肘隧道症候群",
-    "傷害－鷹嘴應力性骨折",
-    "傷害－肘關節後外側旋轉不穩定",
-    "傷害－旋前圓肌症候群",
-    "傷害－肘部外翻伸展過負荷症候群",
-    "特殊檢查－Moving Valgus Stress Test"
+    "傷害－舟狀骨骨折",
+    "傷害－三角纖維軟骨複合體損傷",
+    "傷害－鉤骨鉤骨折",
+    "傷害－手指 PIP 關節掌側板損傷",
+    "傷害－尺神經 Guyon 管症候群",
+    "傷害－伸腕尺側肌腱不穩定",
+    "傷害－尺骨撞擊症候群",
+    "特殊檢查－ECU Synergy Test",
+    "特殊檢查－TFCC Fovea Sign"
   ],
   "notes": [
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－Monteggia 骨折脫臼.md",
-      "title": "傷害－Monteggia 骨折脫臼",
+      "path": "03_傷害與疾病/過度使用/傷害－Kienböck 月骨壞死.md",
+      "title": "傷害－Kienböck 月骨壞死",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－Essex-Lopresti 損傷.md",
-      "title": "傷害－Essex-Lopresti 損傷",
+      "path": "03_傷害與疾病/過度使用/傷害－橈側腕交叉症候群.md",
+      "title": "傷害－橈側腕交叉症候群",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－內側肘肌腱病變.md",
-      "title": "傷害－內側肘肌腱病變",
+      "path": "03_傷害與疾病/過度使用/傷害－拇指第一腕掌關節骨關節炎.md",
+      "title": "傷害－拇指第一腕掌關節骨關節炎",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－肘關節滑膜皺襞症候群.md",
-      "title": "傷害－肘關節滑膜皺襞症候群",
+      "path": "03_傷害與疾病/過度使用/傷害－扳機指與狹窄性屈肌腱鞘炎.md",
+      "title": "傷害－扳機指與狹窄性屈肌腱鞘炎",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－鷹嘴滑囊炎.md",
-      "title": "傷害－鷹嘴滑囊炎",
+      "path": "03_傷害與疾病/急性傷害/傷害－化膿性屈肌腱鞘炎.md",
+      "title": "傷害－化膿性屈肌腱鞘炎",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "01_基礎解剖/韌帶/韌帶－前臂骨間膜與中央帶.md",
-      "title": "韌帶－前臂骨間膜與中央帶",
-      "role": "相關",
-      "type": "韌帶",
-      "template": "模板－韌帶.md"
-    },
-    {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－前臂尺橈骨縱向穩定鏈.md",
-      "title": "骨骼與關節－前臂尺橈骨縱向穩定鏈",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－月骨血供與腕骨承重.md",
+      "title": "骨骼與關節－月骨血供與腕骨承重",
       "role": "相關",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－肘部創傷合併前臂與腕部症狀問診.md",
-      "title": "評估－肘部創傷合併前臂與腕部症狀問診",
+      "path": "01_基礎解剖/肌腱/肌腱－第一與第二背側伸肌腱室.md",
+      "title": "肌腱－第一與第二背側伸肌腱室",
+      "role": "相關",
+      "type": "肌腱",
+      "template": "模板－肌腱.md"
+    },
+    {
+      "path": "01_基礎解剖/肌腱/肌腱－手指屈肌腱鞘與 A1 滑車.md",
+      "title": "肌腱－手指屈肌腱鞘與 A1 滑車",
+      "role": "相關",
+      "type": "肌腱",
+      "template": "模板－肌腱.md"
+    },
+    {
+      "path": "04_臨床評估/主觀問診/評估－橈側腕與拇指基底疼痛問診.md",
+      "title": "評估－橈側腕與拇指基底疼痛問診",
       "role": "相關",
       "type": "主觀問診",
       "template": "模板－主觀問診.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－肘前臂高能量創傷與腕部連帶傷分流.md",
-      "title": "評估－肘前臂高能量創傷與腕部連帶傷分流",
+      "path": "04_臨床評估/系統性評估/評估－手腕與手第五輪感染與骨壞死分流.md",
+      "title": "評估－手腕與手第五輪感染與骨壞死分流",
       "role": "相關",
       "type": "系統性評估",
       "template": "模板－系統性評估.md"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－全前臂骨性對位與神經血管檢查.md",
-      "title": "評估－全前臂骨性對位與神經血管檢查",
+      "path": "04_臨床評估/身體檢查/評估－手指腫脹與屈肌腱鞘檢查.md",
+      "title": "評估－手指腫脹與屈肌腱鞘檢查",
       "role": "相關",
       "type": "身體檢查",
       "template": "模板－身體檢查.md"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Elbow Extension Test.md",
-      "title": "特殊檢查－Elbow Extension Test",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－Thumb CMC Grind Test.md",
+      "title": "特殊檢查－Thumb CMC Grind Test",
       "role": "相關",
       "type": "特殊檢查",
       "template": "模板－特殊檢查.md"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－內側肘肌腱負荷測試組.md",
-      "title": "特殊檢查－內側肘肌腱負荷測試組",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－Kanavel Signs.md",
+      "title": "特殊檢查－Kanavel Signs",
       "role": "相關",
       "type": "特殊檢查",
       "template": "模板－特殊檢查.md"
     },
     {
-      "path": "06_功能性測試/上肢/功能性測試－肘部推拉旋轉任務容量測試.md",
-      "title": "功能性測試－肘部推拉旋轉任務容量測試",
+      "path": "06_功能性測試/上肢/功能性測試－Sollerman Hand Function Test.md",
+      "title": "功能性測試－Sollerman Hand Function Test",
       "role": "相關",
       "type": "功能性測試",
       "template": "模板－功能性測試.md"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－內側肘肌腱漸進負荷.md",
-      "title": "運動治療－內側肘肌腱漸進負荷",
+      "path": "05_處置與復健/運動治療/運動治療－拇指與手指握捏漸進負荷.md",
+      "title": "運動治療－拇指與手指握捏漸進負荷",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
-    },
-    {
-      "path": "01_基礎解剖/肌肉/肌肉－肱肌與肘肌.md",
-      "title": "肌肉－肱肌與肘肌",
-      "role": "相關",
-      "type": "肌肉",
-      "template": "模板－肌肉.md"
     }
   ],
   "per_note_validation": [
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－Monteggia 骨折脫臼.md",
+      "path": "03_傷害與疾病/過度使用/傷害－Kienböck 月骨壞死.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -233,7 +233,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－Essex-Lopresti 損傷.md",
+      "path": "03_傷害與疾病/過度使用/傷害－橈側腕交叉症候群.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -242,7 +242,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－內側肘肌腱病變.md",
+      "path": "03_傷害與疾病/過度使用/傷害－拇指第一腕掌關節骨關節炎.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -251,7 +251,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－肘關節滑膜皺襞症候群.md",
+      "path": "03_傷害與疾病/過度使用/傷害－扳機指與狹窄性屈肌腱鞘炎.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -260,7 +260,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－鷹嘴滑囊炎.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－化膿性屈肌腱鞘炎.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -269,16 +269,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/韌帶/韌帶－前臂骨間膜與中央帶.md",
-      "template": "模板－韌帶.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－前臂尺橈骨縱向穩定鏈.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－月骨血供與腕骨承重.md",
       "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
@@ -287,7 +278,25 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－肘部創傷合併前臂與腕部症狀問診.md",
+      "path": "01_基礎解剖/肌腱/肌腱－第一與第二背側伸肌腱室.md",
+      "template": "模板－肌腱.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "01_基礎解剖/肌腱/肌腱－手指屈肌腱鞘與 A1 滑車.md",
+      "template": "模板－肌腱.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "04_臨床評估/主觀問診/評估－橈側腕與拇指基底疼痛問診.md",
       "template": "模板－主觀問診.md",
       "yaml": "passed",
       "h1": "passed",
@@ -296,7 +305,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－肘前臂高能量創傷與腕部連帶傷分流.md",
+      "path": "04_臨床評估/系統性評估/評估－手腕與手第五輪感染與骨壞死分流.md",
       "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
@@ -305,7 +314,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－全前臂骨性對位與神經血管檢查.md",
+      "path": "04_臨床評估/身體檢查/評估－手指腫脹與屈肌腱鞘檢查.md",
       "template": "模板－身體檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -314,7 +323,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Elbow Extension Test.md",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－Thumb CMC Grind Test.md",
       "template": "模板－特殊檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -323,7 +332,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－內側肘肌腱負荷測試組.md",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－Kanavel Signs.md",
       "template": "模板－特殊檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -332,7 +341,7 @@
       "links": "passed"
     },
     {
-      "path": "06_功能性測試/上肢/功能性測試－肘部推拉旋轉任務容量測試.md",
+      "path": "06_功能性測試/上肢/功能性測試－Sollerman Hand Function Test.md",
       "template": "模板－功能性測試.md",
       "yaml": "passed",
       "h1": "passed",
@@ -341,17 +350,8 @@
       "links": "passed"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－內側肘肌腱漸進負荷.md",
+      "path": "05_處置與復健/運動治療/運動治療－拇指與手指握捏漸進負荷.md",
       "template": "模板－運動治療.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "01_基礎解剖/肌肉/肌肉－肱肌與肘肌.md",
-      "template": "模板－肌肉.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -360,22 +360,25 @@
     }
   ],
   "assets": [
-    "assets/anatomy/肘部第五輪前臂縱向穩定鏈.svg",
-    "assets/assessment/肘部第五輪高能量創傷分流圖.svg",
-    "assets/assessment/肘部第五輪推拉旋轉容量矩陣.svg"
+    "assets/anatomy/手腕與手第五輪結構關聯圖.svg",
+    "assets/assessment/手腕與手第五輪安全分流圖.svg",
+    "assets/assessment/手腕與手第五輪握捏負荷矩陣.svg"
   ],
   "sources_checked": [
-    "ACR Appropriateness Criteria: Acute Elbow and Forearm Pain. https://acsearch.acr.org/docs/3195154/Narrative/",
-    "ACR Appropriateness Criteria: Chronic Elbow Pain. https://acsearch.acr.org/docs/69423/Narrative/",
-    "Laun R, et al. Management of Monteggia Injuries in the Adult. Hand Clin. 2020. https://pubmed.ncbi.nlm.nih.gov/32892976/",
-    "Fontana M, et al. Unstable lesions of the forearm: diagnosis and treatment of acute Essex-Lopresti injury. Injury. 2023. https://pubmed.ncbi.nlm.nih.gov/36549906/",
-    "Lubiatowski P, et al. Synovial plica of the elbow and its clinical relevance. EFORT Open Rev. 2020. https://pubmed.ncbi.nlm.nih.gov/33072407/",
-    "Kholinne E, et al. The elbow plica: a systematic review of terminology and treatment outcomes. J Shoulder Elbow Surg. 2021. https://pubmed.ncbi.nlm.nih.gov/33038495/",
-    "Blackwell JR, et al. Olecranon bursitis: a systematic overview. Shoulder Elbow. 2014. https://pmc.ncbi.nlm.nih.gov/articles/PMC4935058/",
-    "Sayegh ET, Strauch RJ. Treatment of olecranon bursitis: a systematic review. Arch Orthop Trauma Surg. 2014. https://pubmed.ncbi.nlm.nih.gov/25234151/",
-    "Amin NH, et al. Medial Epicondylitis: Evaluation and Management. J Am Acad Orthop Surg. 2015. https://pubmed.ncbi.nlm.nih.gov/25911617/",
-    "Appelboam A, et al. Elbow extension test to rule out elbow fracture: multicentre prospective validation. BMJ. 2008. https://www.bmj.com/content/337/bmj.a2428",
-    "Matson AP, Ruch DS. Management of the Essex-Lopresti Injury. J Wrist Surg. 2016. https://pmc.ncbi.nlm.nih.gov/articles/PMC4959902/"
+    "ACR Appropriateness Criteria: Acute Hand and Wrist Trauma. https://acsearch.acr.org/docs/69418/Narrative/",
+    "ACR Appropriateness Criteria: Chronic Hand and Wrist Pain. https://acsearch.acr.org/docs/69427/Narrative/",
+    "Lichtman DM, et al. Kienböck Disease: A New Algorithm for the 21st Century. J Wrist Surg. 2017. https://pubmed.ncbi.nlm.nih.gov/28119790/",
+    "Balakatounis K, et al. Synthesis of evidence for the treatment of intersection syndrome. World J Orthop. 2017. https://pmc.ncbi.nlm.nih.gov/articles/PMC5565493/",
+    "Montechiarello S, et al. The intersection syndrome: Ultrasound findings and treatment. J Ultrasound. 2010. https://pmc.ncbi.nlm.nih.gov/articles/PMC3552821/",
+    "Kloppenburg M, et al. 2018 update of the EULAR recommendations for the management of hand osteoarthritis. Ann Rheum Dis. 2019. https://pubmed.ncbi.nlm.nih.gov/30154087/",
+    "Merritt MM, et al. Diagnostic value of clinical grind test for carpometacarpal osteoarthritis of the thumb. J Hand Ther. 2010. https://pubmed.ncbi.nlm.nih.gov/20452743/",
+    "Model Z, et al. Evaluation of Physical Examination Tests for Thumb Basal Joint Osteoarthritis. Hand (N Y). 2016. https://pmc.ncbi.nlm.nih.gov/articles/PMC4920516/",
+    "Merry SP, et al. Trigger Finger? Just Shoot! J Prim Care Community Health. 2020. https://pubmed.ncbi.nlm.nih.gov/32686570/",
+    "Pathak SK, et al. Corticosteroid Injection for the Treatment of Trigger Finger: A Meta-Analysis of Randomised Control Trials. 2022. https://pubmed.ncbi.nlm.nih.gov/35135421/",
+    "Kennedy CD, et al. Differentiation Between Pyogenic Flexor Tenosynovitis and Other Finger Infections. Hand (N Y). 2017. https://pubmed.ncbi.nlm.nih.gov/28720000/",
+    "Chapman T, et al. Pyogenic Flexor Tenosynovitis: Evaluation and Treatment Strategies. J Hand Microsurg. 2019. https://pmc.ncbi.nlm.nih.gov/articles/PMC6894957/",
+    "Sollerman C, Ejeskär A. Sollerman hand function test: a standardised method and its use in tetraplegic patients. 1995. https://pubmed.ncbi.nlm.nih.gov/7569815/",
+    "Weng LY, et al. Excellent reliability of the Sollerman hand function test for patients with burned hands. 2010. https://pubmed.ncbi.nlm.nih.gov/20859214/"
   ],
   "validation": {
     "status": "passed",
@@ -391,8 +394,8 @@
       "SVG XML",
       "no new directories",
       "SHA-256",
-      "ZIP CRC/extraction/byte comparison/path safety"
+      "ZIP CRC/extraction/path"
     ]
   },
-  "generated_at_utc": "2026-09-25T00:09:37.555613+00:00"
+  "generated_at_utc": "2026-09-26T00:10:34.659203+00:00"
 }
