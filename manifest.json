@@ -1,11 +1,11 @@
 {
   "schema_version": 4,
-  "date": "2026-09-26",
-  "region": "手腕與手第五輪",
+  "date": "2026-09-27",
+  "region": "胸腰椎第五輪",
   "github": {
     "repository": "janice880624/AT-Obsidian",
     "branch": "main",
-    "commit": "8fd9eb85488d01c42b261d7ff71477a8ae6fbb5a",
+    "commit": "a10d535c4bb1cf12d3c333dc6ac6e41f7103935a",
     "mode": "read-only"
   },
   "template_policy": {
@@ -78,12 +78,14 @@
     },
     "template_count": 16,
     "used_templates": [
+      "模板－STTT理學檢查.md",
       "模板－主觀問診.md",
       "模板－傷害.md",
       "模板－功能性測試.md",
       "模板－特殊檢查.md",
+      "模板－神經.md",
       "模板－系統性評估.md",
-      "模板－肌腱.md",
+      "模板－肌肉.md",
       "模板－身體檢查.md",
       "模板－運動治療.md",
       "模板－骨骼或關節.md"
@@ -105,118 +107,117 @@
     "index_or_support_files": 11
   },
   "topic_candidates_skipped": [
-    "傷害－舟狀骨骨折",
-    "傷害－三角纖維軟骨複合體損傷",
-    "傷害－鉤骨鉤骨折",
-    "傷害－手指 PIP 關節掌側板損傷",
-    "傷害－尺神經 Guyon 管症候群",
-    "傷害－伸腕尺側肌腱不穩定",
-    "傷害－尺骨撞擊症候群",
-    "特殊檢查－ECU Synergy Test",
-    "特殊檢查－TFCC Fovea Sign"
+    "傷害－胸腰椎壓迫性骨折",
+    "傷害－腰椎神經根症候群",
+    "傷害－腰椎椎弓解離",
+    "傷害－胸腰椎爆裂性骨折",
+    "傷害－腰椎滑脫",
+    "傷害－非特異性下背痛",
+    "傷害－退化性腰椎管狹窄與神經性跛行",
+    "傷害－腰椎小面關節相關疼痛"
   ],
   "notes": [
     {
-      "path": "03_傷害與疾病/過度使用/傷害－Kienböck 月骨壞死.md",
-      "title": "傷害－Kienböck 月骨壞死",
+      "path": "03_傷害與疾病/過度使用/傷害－肋骨骨壓力性損傷.md",
+      "title": "傷害－肋骨骨壓力性損傷",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－橈側腕交叉症候群.md",
-      "title": "傷害－橈側腕交叉症候群",
+      "path": "03_傷害與疾病/過度使用/傷害－滑動肋骨症候群.md",
+      "title": "傷害－滑動肋骨症候群",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－拇指第一腕掌關節骨關節炎.md",
-      "title": "傷害－拇指第一腕掌關節骨關節炎",
+      "path": "03_傷害與疾病/過度使用/傷害－肋軟骨炎與 Tietze 症候群.md",
+      "title": "傷害－肋軟骨炎與 Tietze 症候群",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－扳機指與狹窄性屈肌腱鞘炎.md",
-      "title": "傷害－扳機指與狹窄性屈肌腱鞘炎",
+      "path": "03_傷害與疾病/急性傷害/傷害－運動員側腹肌拉傷.md",
+      "title": "傷害－運動員側腹肌拉傷",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－化膿性屈肌腱鞘炎.md",
-      "title": "傷害－化膿性屈肌腱鞘炎",
+      "path": "04_臨床評估/系統性評估/評估－運動員胸壁疼痛安全分流.md",
+      "title": "評估－運動員胸壁疼痛安全分流",
       "role": "核心",
-      "type": "傷害",
-      "template": "模板－傷害.md"
+      "type": "系統性評估",
+      "template": "模板－系統性評估.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－月骨血供與腕骨承重.md",
-      "title": "骨骼與關節－月骨血供與腕骨承重",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－肋骨肋軟骨與胸骨連接.md",
+      "title": "骨骼與關節－肋骨肋軟骨與胸骨連接",
       "role": "相關",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "01_基礎解剖/肌腱/肌腱－第一與第二背側伸肌腱室.md",
-      "title": "肌腱－第一與第二背側伸肌腱室",
+      "path": "01_基礎解剖/肌肉/肌肉－肋間肌與呼吸力學.md",
+      "title": "肌肉－肋間肌與呼吸力學",
       "role": "相關",
-      "type": "肌腱",
-      "template": "模板－肌腱.md"
+      "type": "肌肉",
+      "template": "模板－肌肉.md"
     },
     {
-      "path": "01_基礎解剖/肌腱/肌腱－手指屈肌腱鞘與 A1 滑車.md",
-      "title": "肌腱－手指屈肌腱鞘與 A1 滑車",
+      "path": "01_基礎解剖/神經/神經－肋間神經.md",
+      "title": "神經－肋間神經",
       "role": "相關",
-      "type": "肌腱",
-      "template": "模板－肌腱.md"
+      "type": "神經",
+      "template": "模板－神經.md"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－橈側腕與拇指基底疼痛問診.md",
-      "title": "評估－橈側腕與拇指基底疼痛問診",
+      "path": "04_臨床評估/主觀問診/評估－運動員胸壁疼痛與呼吸症狀問診.md",
+      "title": "評估－運動員胸壁疼痛與呼吸症狀問診",
       "role": "相關",
       "type": "主觀問診",
       "template": "模板－主觀問診.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－手腕與手第五輪感染與骨壞死分流.md",
-      "title": "評估－手腕與手第五輪感染與骨壞死分流",
-      "role": "相關",
-      "type": "系統性評估",
-      "template": "模板－系統性評估.md"
-    },
-    {
-      "path": "04_臨床評估/身體檢查/評估－手指腫脹與屈肌腱鞘檢查.md",
-      "title": "評估－手指腫脹與屈肌腱鞘檢查",
+      "path": "04_臨床評估/身體檢查/評估－肋骨與胸壁身體檢查.md",
+      "title": "評估－肋骨與胸壁身體檢查",
       "role": "相關",
       "type": "身體檢查",
       "template": "模板－身體檢查.md"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Thumb CMC Grind Test.md",
-      "title": "特殊檢查－Thumb CMC Grind Test",
+      "path": "04_臨床評估/系統性評估/評估－胸壁疼痛 STTT 組織判別.md",
+      "title": "評估－胸壁疼痛 STTT 組織判別",
+      "role": "相關",
+      "type": "STTT理學檢查",
+      "template": "模板－STTT理學檢查.md"
+    },
+    {
+      "path": "04_臨床評估/特殊檢查/特殊檢查－Hooking Maneuver.md",
+      "title": "特殊檢查－Hooking Maneuver",
       "role": "相關",
       "type": "特殊檢查",
       "template": "模板－特殊檢查.md"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Kanavel Signs.md",
-      "title": "特殊檢查－Kanavel Signs",
-      "role": "相關",
-      "type": "特殊檢查",
-      "template": "模板－特殊檢查.md"
-    },
-    {
-      "path": "06_功能性測試/上肢/功能性測試－Sollerman Hand Function Test.md",
-      "title": "功能性測試－Sollerman Hand Function Test",
+      "path": "06_功能性測試/軀幹/功能性測試－胸廓旋轉與呼吸負荷耐受測試.md",
+      "title": "功能性測試－胸廓旋轉與呼吸負荷耐受測試",
       "role": "相關",
       "type": "功能性測試",
       "template": "模板－功能性測試.md"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－拇指與手指握捏漸進負荷.md",
-      "title": "運動治療－拇指與手指握捏漸進負荷",
+      "path": "05_處置與復健/運動治療/運動治療－肋骨骨壓力性損傷分期回場.md",
+      "title": "運動治療－肋骨骨壓力性損傷分期回場",
+      "role": "相關",
+      "type": "運動治療",
+      "template": "模板－運動治療.md"
+    },
+    {
+      "path": "05_處置與復健/運動治療/運動治療－側腹肌拉傷旋轉負荷進展.md",
+      "title": "運動治療－側腹肌拉傷旋轉負荷進展",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
@@ -224,7 +225,7 @@
   ],
   "per_note_validation": [
     {
-      "path": "03_傷害與疾病/過度使用/傷害－Kienböck 月骨壞死.md",
+      "path": "03_傷害與疾病/過度使用/傷害－肋骨骨壓力性損傷.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -233,7 +234,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－橈側腕交叉症候群.md",
+      "path": "03_傷害與疾病/過度使用/傷害－滑動肋骨症候群.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -242,7 +243,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－拇指第一腕掌關節骨關節炎.md",
+      "path": "03_傷害與疾病/過度使用/傷害－肋軟骨炎與 Tietze 症候群.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -251,7 +252,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－扳機指與狹窄性屈肌腱鞘炎.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－運動員側腹肌拉傷.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -260,52 +261,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－化膿性屈肌腱鞘炎.md",
-      "template": "模板－傷害.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－月骨血供與腕骨承重.md",
-      "template": "模板－骨骼或關節.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "01_基礎解剖/肌腱/肌腱－第一與第二背側伸肌腱室.md",
-      "template": "模板－肌腱.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "01_基礎解剖/肌腱/肌腱－手指屈肌腱鞘與 A1 滑車.md",
-      "template": "模板－肌腱.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "04_臨床評估/主觀問診/評估－橈側腕與拇指基底疼痛問診.md",
-      "template": "模板－主觀問診.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "04_臨床評估/系統性評估/評估－手腕與手第五輪感染與骨壞死分流.md",
+      "path": "04_臨床評估/系統性評估/評估－運動員胸壁疼痛安全分流.md",
       "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
@@ -314,7 +270,43 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－手指腫脹與屈肌腱鞘檢查.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－肋骨肋軟骨與胸骨連接.md",
+      "template": "模板－骨骼或關節.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "01_基礎解剖/肌肉/肌肉－肋間肌與呼吸力學.md",
+      "template": "模板－肌肉.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "01_基礎解剖/神經/神經－肋間神經.md",
+      "template": "模板－神經.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "04_臨床評估/主觀問診/評估－運動員胸壁疼痛與呼吸症狀問診.md",
+      "template": "模板－主觀問診.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "04_臨床評估/身體檢查/評估－肋骨與胸壁身體檢查.md",
       "template": "模板－身體檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -323,7 +315,16 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Thumb CMC Grind Test.md",
+      "path": "04_臨床評估/系統性評估/評估－胸壁疼痛 STTT 組織判別.md",
+      "template": "模板－STTT理學檢查.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "04_臨床評估/特殊檢查/特殊檢查－Hooking Maneuver.md",
       "template": "模板－特殊檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -332,16 +333,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Kanavel Signs.md",
-      "template": "模板－特殊檢查.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "06_功能性測試/上肢/功能性測試－Sollerman Hand Function Test.md",
+      "path": "06_功能性測試/軀幹/功能性測試－胸廓旋轉與呼吸負荷耐受測試.md",
       "template": "模板－功能性測試.md",
       "yaml": "passed",
       "h1": "passed",
@@ -350,7 +342,16 @@
       "links": "passed"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－拇指與手指握捏漸進負荷.md",
+      "path": "05_處置與復健/運動治療/運動治療－肋骨骨壓力性損傷分期回場.md",
+      "template": "模板－運動治療.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "05_處置與復健/運動治療/運動治療－側腹肌拉傷旋轉負荷進展.md",
       "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
@@ -360,25 +361,23 @@
     }
   ],
   "assets": [
-    "assets/anatomy/手腕與手第五輪結構關聯圖.svg",
-    "assets/assessment/手腕與手第五輪安全分流圖.svg",
-    "assets/assessment/手腕與手第五輪握捏負荷矩陣.svg"
+    "assets/anatomy/胸腰椎第五輪胸壁結構圖.svg",
+    "assets/assessment/胸腰椎第五輪胸壁疼痛安全分流圖.svg",
+    "assets/assessment/胸腰椎第五輪旋轉呼吸負荷階梯.svg"
   ],
   "sources_checked": [
-    "ACR Appropriateness Criteria: Acute Hand and Wrist Trauma. https://acsearch.acr.org/docs/69418/Narrative/",
-    "ACR Appropriateness Criteria: Chronic Hand and Wrist Pain. https://acsearch.acr.org/docs/69427/Narrative/",
-    "Lichtman DM, et al. Kienböck Disease: A New Algorithm for the 21st Century. J Wrist Surg. 2017. https://pubmed.ncbi.nlm.nih.gov/28119790/",
-    "Balakatounis K, et al. Synthesis of evidence for the treatment of intersection syndrome. World J Orthop. 2017. https://pmc.ncbi.nlm.nih.gov/articles/PMC5565493/",
-    "Montechiarello S, et al. The intersection syndrome: Ultrasound findings and treatment. J Ultrasound. 2010. https://pmc.ncbi.nlm.nih.gov/articles/PMC3552821/",
-    "Kloppenburg M, et al. 2018 update of the EULAR recommendations for the management of hand osteoarthritis. Ann Rheum Dis. 2019. https://pubmed.ncbi.nlm.nih.gov/30154087/",
-    "Merritt MM, et al. Diagnostic value of clinical grind test for carpometacarpal osteoarthritis of the thumb. J Hand Ther. 2010. https://pubmed.ncbi.nlm.nih.gov/20452743/",
-    "Model Z, et al. Evaluation of Physical Examination Tests for Thumb Basal Joint Osteoarthritis. Hand (N Y). 2016. https://pmc.ncbi.nlm.nih.gov/articles/PMC4920516/",
-    "Merry SP, et al. Trigger Finger? Just Shoot! J Prim Care Community Health. 2020. https://pubmed.ncbi.nlm.nih.gov/32686570/",
-    "Pathak SK, et al. Corticosteroid Injection for the Treatment of Trigger Finger: A Meta-Analysis of Randomised Control Trials. 2022. https://pubmed.ncbi.nlm.nih.gov/35135421/",
-    "Kennedy CD, et al. Differentiation Between Pyogenic Flexor Tenosynovitis and Other Finger Infections. Hand (N Y). 2017. https://pubmed.ncbi.nlm.nih.gov/28720000/",
-    "Chapman T, et al. Pyogenic Flexor Tenosynovitis: Evaluation and Treatment Strategies. J Hand Microsurg. 2019. https://pmc.ncbi.nlm.nih.gov/articles/PMC6894957/",
-    "Sollerman C, Ejeskär A. Sollerman hand function test: a standardised method and its use in tetraplegic patients. 1995. https://pubmed.ncbi.nlm.nih.gov/7569815/",
-    "Weng LY, et al. Excellent reliability of the Sollerman hand function test for patients with burned hands. 2010. https://pubmed.ncbi.nlm.nih.gov/20859214/"
+    "American College of Radiology. ACR Appropriateness Criteria: Rib Fractures. https://acsearch.acr.org/docs/69450/Narrative/",
+    "American College of Radiology. ACR Appropriateness Criteria: Nontraumatic Chest Wall Pain. https://acsearch.acr.org/docs/3158176/Narrative/",
+    "Gulati M, et al. 2021 AHA/ACC Guideline for the Evaluation and Diagnosis of Chest Pain. https://pubmed.ncbi.nlm.nih.gov/34709879/",
+    "McDonnell LK, et al. Rib stress fractures among rowers: a systematic review. Sports Med. 2015. https://pubmed.ncbi.nlm.nih.gov/26173790/",
+    "Harris R, et al. Rib stress injuries in the 2012–2016 Olympiad. Br J Sports Med. 2020. https://pubmed.ncbi.nlm.nih.gov/31959675/",
+    "Schwanz KL, et al. Rib Bone Stress Injuries: A Narrative Review with Protocol for Rehabilitation and Prevention. 2025. https://pubmed.ncbi.nlm.nih.gov/40472154/",
+    "Van Tassel D, et al. Dynamic ultrasound in the evaluation of patients with suspected slipping rib syndrome. Skeletal Radiol. 2019. https://pubmed.ncbi.nlm.nih.gov/30612161/",
+    "Madeka I, et al. A Review of Slipping Rib Syndrome: Diagnostic and Treatment Updates. 2023. https://pmc.ncbi.nlm.nih.gov/articles/PMC10743651/",
+    "Mott T, et al. Costochondritis: Rapid Evidence Review. Am Fam Physician. 2021. https://www.aafp.org/pubs/afp/issues/2021/0700/p73.html",
+    "Connell DA, et al. Side strain: a tear of internal oblique musculature. AJR. 2003. https://pubmed.ncbi.nlm.nih.gov/14627566/",
+    "Komatsu S, et al. Characteristics of internal oblique muscle strain in professional baseball players. 2022. https://pmc.ncbi.nlm.nih.gov/articles/PMC9233777/",
+    "Kelsall JT, et al. Anatomy, Thorax, Intercostal Nerves. NCBI Bookshelf. https://www.ncbi.nlm.nih.gov/books/NBK538238/"
   ],
   "validation": {
     "status": "passed",
@@ -397,5 +396,5 @@
       "ZIP CRC/extraction/path"
     ]
   },
-  "generated_at_utc": "2026-09-26T00:10:34.659203+00:00"
+  "generated_at_utc": "2026-09-27T00:05:42.752642+00:00"
 }
