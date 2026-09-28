@@ -1,11 +1,11 @@
 {
-  "schema_version": 4,
-  "date": "2026-09-27",
-  "region": "胸腰椎第五輪",
+  "schema_version": 5,
+  "date": "2026-09-28",
+  "region": "骨盆與髖第五輪",
   "github": {
     "repository": "janice880624/AT-Obsidian",
     "branch": "main",
-    "commit": "a10d535c4bb1cf12d3c333dc6ac6e41f7103935a",
+    "commit": "898a8e08910f21b9ea64d8decd9b75e198f5eb7a",
     "mode": "read-only"
   },
   "template_policy": {
@@ -78,16 +78,14 @@
     },
     "template_count": 16,
     "used_templates": [
-      "模板－STTT理學檢查.md",
       "模板－主觀問診.md",
       "模板－傷害.md",
-      "模板－功能性測試.md",
       "模板－特殊檢查.md",
-      "模板－神經.md",
       "模板－系統性評估.md",
       "模板－肌肉.md",
       "模板－身體檢查.md",
       "模板－運動治療.md",
+      "模板－韌帶.md",
       "模板－骨骼或關節.md"
     ],
     "validated_note_count": 15,
@@ -103,121 +101,123 @@
     "core_notes": 5,
     "related_notes": 10,
     "knowledge_notes": 15,
-    "svg": 3,
-    "index_or_support_files": 11
+    "svg": 3
   },
   "topic_candidates_skipped": [
-    "傷害－胸腰椎壓迫性骨折",
-    "傷害－腰椎神經根症候群",
-    "傷害－腰椎椎弓解離",
-    "傷害－胸腰椎爆裂性骨折",
-    "傷害－腰椎滑脫",
-    "傷害－非特異性下背痛",
-    "傷害－退化性腰椎管狹窄與神經性跛行",
-    "傷害－腰椎小面關節相關疼痛"
+    "股骨髖臼夾擠症候群",
+    "髖臼唇損傷",
+    "股骨頸骨應力傷",
+    "股骨頭骨骺滑脫",
+    "股骨頭骨壞死",
+    "髂腰肌症候群與內彈響髖",
+    "薦髂關節相關疼痛",
+    "大轉子疼痛症候群與臀肌肌腱病變",
+    "近端腿後肌肌腱病變",
+    "薦骨壓力性損傷",
+    "深臀症候群"
   ],
   "notes": [
     {
-      "path": "03_傷害與疾病/過度使用/傷害－肋骨骨壓力性損傷.md",
-      "title": "傷害－肋骨骨壓力性損傷",
+      "path": "03_傷害與疾病/過度使用/傷害－運動員核心肌肉損傷與腹股溝管相關疼痛.md",
+      "title": "傷害－運動員核心肌肉損傷與腹股溝管相關疼痛",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－滑動肋骨症候群.md",
-      "title": "傷害－滑動肋骨症候群",
+      "path": "03_傷害與疾病/過度使用/傷害－恥骨炎與恥骨聯合應力反應.md",
+      "title": "傷害－恥骨炎與恥骨聯合應力反應",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－肋軟骨炎與 Tietze 症候群.md",
-      "title": "傷害－肋軟骨炎與 Tietze 症候群",
+      "path": "03_傷害與疾病/過度使用/傷害－恥骨支骨壓力性損傷.md",
+      "title": "傷害－恥骨支骨壓力性損傷",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－運動員側腹肌拉傷.md",
-      "title": "傷害－運動員側腹肌拉傷",
+      "path": "03_傷害與疾病/過度使用/傷害－坐骨股夾擠症候群.md",
+      "title": "傷害－坐骨股夾擠症候群",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－運動員胸壁疼痛安全分流.md",
-      "title": "評估－運動員胸壁疼痛安全分流",
+      "path": "03_傷害與疾病/神經卡壓/傷害－股外側皮神經卡壓與感覺異常.md",
+      "title": "傷害－股外側皮神經卡壓與感覺異常",
       "role": "核心",
-      "type": "系統性評估",
-      "template": "模板－系統性評估.md"
+      "type": "傷害",
+      "template": "模板－傷害.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－肋骨肋軟骨與胸骨連接.md",
-      "title": "骨骼與關節－肋骨肋軟骨與胸骨連接",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－恥骨聯合與前骨盆環.md",
+      "title": "骨骼與關節－恥骨聯合與前骨盆環",
       "role": "相關",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "01_基礎解剖/肌肉/肌肉－肋間肌與呼吸力學.md",
-      "title": "肌肉－肋間肌與呼吸力學",
+      "path": "01_基礎解剖/肌肉/肌肉－腹直肌內收肌腱膜複合體.md",
+      "title": "肌肉－腹直肌內收肌腱膜複合體",
       "role": "相關",
       "type": "肌肉",
       "template": "模板－肌肉.md"
     },
     {
-      "path": "01_基礎解剖/神經/神經－肋間神經.md",
-      "title": "神經－肋間神經",
+      "path": "01_基礎解剖/韌帶/韌帶－腹股溝韌帶與髂恥弓.md",
+      "title": "韌帶－腹股溝韌帶與髂恥弓",
       "role": "相關",
-      "type": "神經",
-      "template": "模板－神經.md"
+      "type": "韌帶",
+      "template": "模板－韌帶.md"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－運動員胸壁疼痛與呼吸症狀問診.md",
-      "title": "評估－運動員胸壁疼痛與呼吸症狀問診",
+      "path": "04_臨床評估/主觀問診/評估－前骨盆與腹股溝痛主觀問診.md",
+      "title": "評估－前骨盆與腹股溝痛主觀問診",
       "role": "相關",
       "type": "主觀問診",
       "template": "模板－主觀問診.md"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－肋骨與胸壁身體檢查.md",
-      "title": "評估－肋骨與胸壁身體檢查",
+      "path": "04_臨床評估/身體檢查/評估－前骨盆與腹股溝系統性身體檢查.md",
+      "title": "評估－前骨盆與腹股溝系統性身體檢查",
       "role": "相關",
       "type": "身體檢查",
       "template": "模板－身體檢查.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－胸壁疼痛 STTT 組織判別.md",
-      "title": "評估－胸壁疼痛 STTT 組織判別",
+      "path": "04_臨床評估/系統性評估/評估－前骨盆與腹股溝痛安全分流.md",
+      "title": "評估－前骨盆與腹股溝痛安全分流",
       "role": "相關",
-      "type": "STTT理學檢查",
-      "template": "模板－STTT理學檢查.md"
+      "type": "系統性評估",
+      "template": "模板－系統性評估.md"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Hooking Maneuver.md",
-      "title": "特殊檢查－Hooking Maneuver",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－腹壁阻力與咳嗽負荷測試.md",
+      "title": "特殊檢查－腹壁阻力與咳嗽負荷測試",
       "role": "相關",
       "type": "特殊檢查",
       "template": "模板－特殊檢查.md"
     },
     {
-      "path": "06_功能性測試/軀幹/功能性測試－胸廓旋轉與呼吸負荷耐受測試.md",
-      "title": "功能性測試－胸廓旋轉與呼吸負荷耐受測試",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－坐骨股夾擠與長跨步測試組.md",
+      "title": "特殊檢查－坐骨股夾擠與長跨步測試組",
       "role": "相關",
-      "type": "功能性測試",
-      "template": "模板－功能性測試.md"
+      "type": "特殊檢查",
+      "template": "模板－特殊檢查.md"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－肋骨骨壓力性損傷分期回場.md",
-      "title": "運動治療－肋骨骨壓力性損傷分期回場",
+      "path": "05_處置與復健/運動治療/運動治療－運動員核心肌肉損傷漸進負荷.md",
+      "title": "運動治療－運動員核心肌肉損傷漸進負荷",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－側腹肌拉傷旋轉負荷進展.md",
-      "title": "運動治療－側腹肌拉傷旋轉負荷進展",
+      "path": "05_處置與復健/運動治療/運動治療－前骨盆骨壓力性損傷回跑進展.md",
+      "title": "運動治療－前骨盆骨壓力性損傷回跑進展",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
@@ -225,7 +225,7 @@
   ],
   "per_note_validation": [
     {
-      "path": "03_傷害與疾病/過度使用/傷害－肋骨骨壓力性損傷.md",
+      "path": "03_傷害與疾病/過度使用/傷害－運動員核心肌肉損傷與腹股溝管相關疼痛.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -234,7 +234,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－滑動肋骨症候群.md",
+      "path": "03_傷害與疾病/過度使用/傷害－恥骨炎與恥骨聯合應力反應.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -243,7 +243,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－肋軟骨炎與 Tietze 症候群.md",
+      "path": "03_傷害與疾病/過度使用/傷害－恥骨支骨壓力性損傷.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -252,7 +252,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－運動員側腹肌拉傷.md",
+      "path": "03_傷害與疾病/過度使用/傷害－坐骨股夾擠症候群.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -261,8 +261,8 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－運動員胸壁疼痛安全分流.md",
-      "template": "模板－系統性評估.md",
+      "path": "03_傷害與疾病/神經卡壓/傷害－股外側皮神經卡壓與感覺異常.md",
+      "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -270,7 +270,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－肋骨肋軟骨與胸骨連接.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－恥骨聯合與前骨盆環.md",
       "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
@@ -279,7 +279,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/肌肉/肌肉－肋間肌與呼吸力學.md",
+      "path": "01_基礎解剖/肌肉/肌肉－腹直肌內收肌腱膜複合體.md",
       "template": "模板－肌肉.md",
       "yaml": "passed",
       "h1": "passed",
@@ -288,8 +288,8 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/神經/神經－肋間神經.md",
-      "template": "模板－神經.md",
+      "path": "01_基礎解剖/韌帶/韌帶－腹股溝韌帶與髂恥弓.md",
+      "template": "模板－韌帶.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -297,7 +297,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－運動員胸壁疼痛與呼吸症狀問診.md",
+      "path": "04_臨床評估/主觀問診/評估－前骨盆與腹股溝痛主觀問診.md",
       "template": "模板－主觀問診.md",
       "yaml": "passed",
       "h1": "passed",
@@ -306,7 +306,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－肋骨與胸壁身體檢查.md",
+      "path": "04_臨床評估/身體檢查/評估－前骨盆與腹股溝系統性身體檢查.md",
       "template": "模板－身體檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -315,8 +315,8 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－胸壁疼痛 STTT 組織判別.md",
-      "template": "模板－STTT理學檢查.md",
+      "path": "04_臨床評估/系統性評估/評估－前骨盆與腹股溝痛安全分流.md",
+      "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -324,7 +324,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Hooking Maneuver.md",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－腹壁阻力與咳嗽負荷測試.md",
       "template": "模板－特殊檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -333,8 +333,8 @@
       "links": "passed"
     },
     {
-      "path": "06_功能性測試/軀幹/功能性測試－胸廓旋轉與呼吸負荷耐受測試.md",
-      "template": "模板－功能性測試.md",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－坐骨股夾擠與長跨步測試組.md",
+      "template": "模板－特殊檢查.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -342,7 +342,7 @@
       "links": "passed"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－肋骨骨壓力性損傷分期回場.md",
+      "path": "05_處置與復健/運動治療/運動治療－運動員核心肌肉損傷漸進負荷.md",
       "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
@@ -351,7 +351,7 @@
       "links": "passed"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－側腹肌拉傷旋轉負荷進展.md",
+      "path": "05_處置與復健/運動治療/運動治療－前骨盆骨壓力性損傷回跑進展.md",
       "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
@@ -361,24 +361,35 @@
     }
   ],
   "assets": [
-    "assets/anatomy/胸腰椎第五輪胸壁結構圖.svg",
-    "assets/assessment/胸腰椎第五輪胸壁疼痛安全分流圖.svg",
-    "assets/assessment/胸腰椎第五輪旋轉呼吸負荷階梯.svg"
+    "assets/anatomy/骨盆髖第五輪前骨盆結構圖.svg",
+    "assets/assessment/骨盆髖第五輪前骨盆腹股溝分流圖.svg",
+    "assets/assessment/骨盆髖第五輪負荷進展矩陣.svg"
   ],
   "sources_checked": [
-    "American College of Radiology. ACR Appropriateness Criteria: Rib Fractures. https://acsearch.acr.org/docs/69450/Narrative/",
-    "American College of Radiology. ACR Appropriateness Criteria: Nontraumatic Chest Wall Pain. https://acsearch.acr.org/docs/3158176/Narrative/",
-    "Gulati M, et al. 2021 AHA/ACC Guideline for the Evaluation and Diagnosis of Chest Pain. https://pubmed.ncbi.nlm.nih.gov/34709879/",
-    "McDonnell LK, et al. Rib stress fractures among rowers: a systematic review. Sports Med. 2015. https://pubmed.ncbi.nlm.nih.gov/26173790/",
-    "Harris R, et al. Rib stress injuries in the 2012–2016 Olympiad. Br J Sports Med. 2020. https://pubmed.ncbi.nlm.nih.gov/31959675/",
-    "Schwanz KL, et al. Rib Bone Stress Injuries: A Narrative Review with Protocol for Rehabilitation and Prevention. 2025. https://pubmed.ncbi.nlm.nih.gov/40472154/",
-    "Van Tassel D, et al. Dynamic ultrasound in the evaluation of patients with suspected slipping rib syndrome. Skeletal Radiol. 2019. https://pubmed.ncbi.nlm.nih.gov/30612161/",
-    "Madeka I, et al. A Review of Slipping Rib Syndrome: Diagnostic and Treatment Updates. 2023. https://pmc.ncbi.nlm.nih.gov/articles/PMC10743651/",
-    "Mott T, et al. Costochondritis: Rapid Evidence Review. Am Fam Physician. 2021. https://www.aafp.org/pubs/afp/issues/2021/0700/p73.html",
-    "Connell DA, et al. Side strain: a tear of internal oblique musculature. AJR. 2003. https://pubmed.ncbi.nlm.nih.gov/14627566/",
-    "Komatsu S, et al. Characteristics of internal oblique muscle strain in professional baseball players. 2022. https://pmc.ncbi.nlm.nih.gov/articles/PMC9233777/",
-    "Kelsall JT, et al. Anatomy, Thorax, Intercostal Nerves. NCBI Bookshelf. https://www.ncbi.nlm.nih.gov/books/NBK538238/"
+    "ACR Appropriateness Criteria: Stress (Fatigue/Insufficiency) Fracture, Including Sacrum, Excluding Other Vertebrae. https://acsearch.acr.org/docs/69435/Narrative/",
+    "ACR Appropriateness Criteria: Chronic Hip Pain. https://acsearch.acr.org/docs/69425/Narrative/",
+    "Weir A, et al. Doha agreement meeting on terminology and definitions in groin pain in athletes. Br J Sports Med. 2015. https://pubmed.ncbi.nlm.nih.gov/26031643/",
+    "Kraeutler MJ, et al. A Systematic Review Shows High Variation in Terminology, Surgical Techniques, Preoperative Diagnostic Measures, and Geographic Differences in the Treatment of Athletic Pubalgia/Sports Hernia/Core Muscle Injury/Inguinal Disruption. Arthroscopy. 2021. https://pubmed.ncbi.nlm.nih.gov/33845134/",
+    "Zoland MP, et al. Core Muscle Injury: Evaluation and Treatment in the Athlete. Sports Med Arthrosc Rev. 2022. https://pubmed.ncbi.nlm.nih.gov/35234538/",
+    "Via AG, et al. Management of osteitis pubis in athletes: rehabilitation and return to training. Open Access J Sports Med. 2019. https://pubmed.ncbi.nlm.nih.gov/30613167/",
+    "Cheatham SW, et al. The Effectiveness of Nonoperative Rehabilitation Programs for Athletes Diagnosed With Osteitis Pubis. J Sport Rehabil. 2016. https://pubmed.ncbi.nlm.nih.gov/27632829/",
+    "Kahanov L, et al. Stress fractures of the pelvis and legs in athletes: a review. J Athl Train. 2015. https://pubmed.ncbi.nlm.nih.gov/24427386/",
+    "Miller TL, et al. Stress Fractures of the Hip and Pelvis. Clin Sports Med. 2021. https://pubmed.ncbi.nlm.nih.gov/33673892/",
+    "Torriani M, et al. Ischiofemoral Impingement Syndrome in 2024. Semin Musculoskelet Radiol. 2025. https://pubmed.ncbi.nlm.nih.gov/39515961/",
+    "Singer AD, et al. Ischiofemoral impingement syndrome: a meta-analysis. Skeletal Radiol. 2015. https://pubmed.ncbi.nlm.nih.gov/25672947/",
+    "Gómez-Hoyos J, et al. Accuracy of 2 Clinical Tests for Ischiofemoral Impingement in Patients With Posterior Hip Pain and Endoscopically Confirmed Diagnosis. Arthroscopy. 2016. https://pubmed.ncbi.nlm.nih.gov/27020393/",
+    "Ahmed MS, et al. The Diagnosis and Management of Meralgia Paresthetica: A Narrative Review. Pain Ther. 2024. https://pubmed.ncbi.nlm.nih.gov/39673032/",
+    "Chalk C, Namiranian D. Meralgia paresthetica. Handb Clin Neurol. 2024. https://pubmed.ncbi.nlm.nih.gov/38697741/"
   ],
+  "link_policy": {
+    "new_unresolved_links": 0,
+    "preexisting_home_placeholders_unchanged": [
+      "緊急處置流程",
+      "文獻索引",
+      "新個案評估",
+      "臨床問題清單"
+    ]
+  },
   "validation": {
     "status": "passed",
     "checks": [
@@ -390,11 +401,12 @@
       "no placeholders",
       "deduplication",
       "bidirectional indexes",
-      "SVG XML",
+      "new unresolved links = 0",
+      "SVG XML and render",
       "no new directories",
       "SHA-256",
       "ZIP CRC/extraction/path"
     ]
   },
-  "generated_at_utc": "2026-09-27T00:05:42.752642+00:00"
+  "generated_at_utc": "2026-09-28T00:07:07.739347+00:00"
 }
