@@ -1,11 +1,11 @@
 {
   "schema_version": 5,
-  "date": "2026-09-29",
-  "region": "膝部第五輪",
+  "date": "2026-09-30",
+  "region": "足踝第五輪",
   "github": {
     "repository": "janice880624/AT-Obsidian",
     "branch": "main",
-    "commit": "42c0db621fd5267fb479bc248b1aef8da87cebd7",
+    "commit": "aa6d51f9e95e9583417aae61f87962e41566f00d",
     "mode": "read-only"
   },
   "template_policy": {
@@ -79,12 +79,11 @@
     "template_count": 16,
     "used_templates": [
       "模板－傷害.md",
-      "模板－功能性測試.md",
       "模板－特殊檢查.md",
       "模板－系統性評估.md",
-      "模板－肌肉.md",
       "模板－身體檢查.md",
       "模板－運動治療.md",
+      "模板－韌帶.md",
       "模板－骨骼或關節.md"
     ],
     "validated_note_count": 15,
@@ -103,134 +102,131 @@
     "svg": 3
   },
   "topic_candidates_skipped": [
-    "前十字韌帶損傷",
-    "急性半月板損傷",
-    "髕股疼痛",
-    "髕腱病變",
-    "後十字韌帶損傷",
-    "膝後外側角損傷",
-    "急性髕骨外側脫位",
-    "膝關節骨軟骨損傷",
-    "脛骨平台骨折",
-    "膝伸肌機轉斷裂",
-    "脛骨粗隆撕脫骨折",
-    "Osgood-Schlatter 病",
-    "脛骨髁間隆起撕脫骨折",
-    "盤狀外側半月板",
-    "半月板根部損傷",
-    "髂脛束症候群",
-    "髕前滑囊炎"
+    "足踝複合體",
+    "急性外側踝扭傷",
+    "阿基里斯腱斷裂",
+    "Lisfranc損傷",
+    "距骨骨軟骨損傷",
+    "距骨頸骨折",
+    "跟骨骨折",
+    "Turf Toe",
+    "慢性踝關節不穩定",
+    "足舟狀骨壓力性骨折",
+    "踵骨骨骺炎",
+    "副舟骨症候群",
+    "Morton指間神經病變",
+    "踝後夾擠症候群"
   ],
   "notes": [
     {
-      "path": "03_傷害與疾病/過度使用/傷害－膝軟骨下不足性骨折.md",
-      "title": "傷害－膝軟骨下不足性骨折",
+      "path": "03_傷害與疾病/急性傷害/傷害－腓骨肌腱半脫位與撕裂.md",
+      "title": "傷害－腓骨肌腱半脫位與撕裂",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－膝滑膜皺襞症候群.md",
-      "title": "傷害－膝滑膜皺襞症候群",
+      "path": "03_傷害與疾病/過度使用/傷害－插入型跟腱病變.md",
+      "title": "傷害－插入型跟腱病變",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－髕下脂肪墊相關疼痛.md",
-      "title": "傷害－髕下脂肪墊相關疼痛",
+      "path": "03_傷害與疾病/急性傷害/傷害－第二蹠趾關節蹠板損傷.md",
+      "title": "傷害－第二蹠趾關節蹠板損傷",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－鵝足肌腱滑囊區疼痛.md",
-      "title": "傷害－鵝足肌腱滑囊區疼痛",
+      "path": "03_傷害與疾病/過度使用/傷害－第一蹠趾籽骨壓力性損傷.md",
+      "title": "傷害－第一蹠趾籽骨壓力性損傷",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－Baker 囊腫與膕窩囊腫.md",
-      "title": "傷害－Baker 囊腫與膕窩囊腫",
+      "path": "03_傷害與疾病/過度使用/傷害－跗骨聯合與僵硬性扁平足.md",
+      "title": "傷害－跗骨聯合與僵硬性扁平足",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－膝關節軟骨下骨與骨軟骨單元.md",
-      "title": "骨骼與關節－膝關節軟骨下骨與骨軟骨單元",
+      "path": "01_基礎解剖/韌帶/韌帶－上腓骨肌支持帶與腓骨溝.md",
+      "title": "韌帶－上腓骨肌支持帶與腓骨溝",
+      "role": "相關",
+      "type": "韌帶",
+      "template": "模板－韌帶.md"
+    },
+    {
+      "path": "01_基礎解剖/骨骼/骨骼與關節－跟骨後方與跟腱附著區.md",
+      "title": "骨骼與關節－跟骨後方與跟腱附著區",
       "role": "相關",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－髕下脂肪墊與膝滑膜皺襞.md",
-      "title": "骨骼與關節－髕下脂肪墊與膝滑膜皺襞",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－第二蹠趾關節與蹠板.md",
+      "title": "骨骼與關節－第二蹠趾關節與蹠板",
       "role": "相關",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "01_基礎解剖/肌肉/肌肉－鵝足肌腱群.md",
-      "title": "肌肉－鵝足肌腱群",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－距跟與跟舟跗骨聯合區.md",
+      "title": "骨骼與關節－距跟與跟舟跗骨聯合區",
       "role": "相關",
-      "type": "肌肉",
-      "template": "模板－肌肉.md"
+      "type": "骨骼或關節",
+      "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－非創傷性前內側膝痛系統性身體檢查.md",
-      "title": "評估－非創傷性前內側膝痛系統性身體檢查",
+      "path": "04_臨床評估/身體檢查/評估－足踝外側肌腱與彈響系統性身體檢查.md",
+      "title": "評估－足踝外側肌腱與彈響系統性身體檢查",
       "role": "相關",
       "type": "身體檢查",
       "template": "模板－身體檢查.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－急性非創傷性膝痛與負重惡化安全分流.md",
-      "title": "評估－急性非創傷性膝痛與負重惡化安全分流",
+      "path": "04_臨床評估/系統性評估/評估－持續性足部疼痛與陰性初始X光安全分流.md",
+      "title": "評估－持續性足部疼痛與陰性初始X光安全分流",
       "role": "相關",
       "type": "系統性評估",
       "template": "模板－系統性評估.md"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Medial Plica Test.md",
-      "title": "特殊檢查－Medial Plica Test",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－Lesser MTP Drawer Test.md",
+      "title": "特殊檢查－Lesser MTP Drawer Test",
       "role": "相關",
       "type": "特殊檢查",
       "template": "模板－特殊檢查.md"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－膝關節積液 Bulge Sign 與 Patellar Tap.md",
-      "title": "特殊檢查－膝關節積液 Bulge Sign 與 Patellar Tap",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－腓骨肌腱動態彈響誘發測試.md",
+      "title": "特殊檢查－腓骨肌腱動態彈響誘發測試",
       "role": "相關",
       "type": "特殊檢查",
       "template": "模板－特殊檢查.md"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－前膝軟組織症狀調節與漸進負荷.md",
-      "title": "運動治療－前膝軟組織症狀調節與漸進負荷",
+      "path": "05_處置與復健/運動治療/運動治療－插入型跟腱減壓小腿負荷進展.md",
+      "title": "運動治療－插入型跟腱減壓小腿負荷進展",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－膝軟骨下不足性骨折醫療協作回走進展.md",
-      "title": "運動治療－膝軟骨下不足性骨折醫療協作回走進展",
+      "path": "05_處置與復健/運動治療/運動治療－第二蹠趾蹠板症狀調節與前足負荷進展.md",
+      "title": "運動治療－第二蹠趾蹠板症狀調節與前足負荷進展",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
-    },
-    {
-      "path": "06_功能性測試/下肢/功能性測試－30 秒坐站測試.md",
-      "title": "功能性測試－30 秒坐站測試",
-      "role": "相關",
-      "type": "功能性測試",
-      "template": "模板－功能性測試.md"
     }
   ],
   "per_note_validation": [
     {
-      "path": "03_傷害與疾病/過度使用/傷害－膝軟骨下不足性骨折.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－腓骨肌腱半脫位與撕裂.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -239,7 +235,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－膝滑膜皺襞症候群.md",
+      "path": "03_傷害與疾病/過度使用/傷害－插入型跟腱病變.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -248,7 +244,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－髕下脂肪墊相關疼痛.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－第二蹠趾關節蹠板損傷.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -257,7 +253,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－鵝足肌腱滑囊區疼痛.md",
+      "path": "03_傷害與疾病/過度使用/傷害－第一蹠趾籽骨壓力性損傷.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -266,7 +262,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－Baker 囊腫與膕窩囊腫.md",
+      "path": "03_傷害與疾病/過度使用/傷害－跗骨聯合與僵硬性扁平足.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -275,7 +271,16 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－膝關節軟骨下骨與骨軟骨單元.md",
+      "path": "01_基礎解剖/韌帶/韌帶－上腓骨肌支持帶與腓骨溝.md",
+      "template": "模板－韌帶.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "01_基礎解剖/骨骼/骨骼與關節－跟骨後方與跟腱附著區.md",
       "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
@@ -284,7 +289,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－髕下脂肪墊與膝滑膜皺襞.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－第二蹠趾關節與蹠板.md",
       "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
@@ -293,8 +298,8 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/肌肉/肌肉－鵝足肌腱群.md",
-      "template": "模板－肌肉.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－距跟與跟舟跗骨聯合區.md",
+      "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -302,7 +307,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－非創傷性前內側膝痛系統性身體檢查.md",
+      "path": "04_臨床評估/身體檢查/評估－足踝外側肌腱與彈響系統性身體檢查.md",
       "template": "模板－身體檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -311,7 +316,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－急性非創傷性膝痛與負重惡化安全分流.md",
+      "path": "04_臨床評估/系統性評估/評估－持續性足部疼痛與陰性初始X光安全分流.md",
       "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
@@ -320,7 +325,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Medial Plica Test.md",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－Lesser MTP Drawer Test.md",
       "template": "模板－特殊檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -329,7 +334,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－膝關節積液 Bulge Sign 與 Patellar Tap.md",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－腓骨肌腱動態彈響誘發測試.md",
       "template": "模板－特殊檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -338,7 +343,7 @@
       "links": "passed"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－前膝軟組織症狀調節與漸進負荷.md",
+      "path": "05_處置與復健/運動治療/運動治療－插入型跟腱減壓小腿負荷進展.md",
       "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
@@ -347,17 +352,8 @@
       "links": "passed"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－膝軟骨下不足性骨折醫療協作回走進展.md",
+      "path": "05_處置與復健/運動治療/運動治療－第二蹠趾蹠板症狀調節與前足負荷進展.md",
       "template": "模板－運動治療.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "06_功能性測試/下肢/功能性測試－30 秒坐站測試.md",
-      "template": "模板－功能性測試.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -366,28 +362,25 @@
     }
   ],
   "assets": [
-    "assets/anatomy/膝部第五輪軟骨下骨與前膝軟組織圖.svg",
-    "assets/assessment/膝部第五輪非創傷性膝痛安全分流圖.svg",
-    "assets/assessment/膝部第五輪負荷進展矩陣.svg"
+    "assets/anatomy/足踝第五輪肌腱蹠板與跗骨聯合圖.svg",
+    "assets/assessment/足踝第五輪持續疼痛與影像分流圖.svg",
+    "assets/assessment/足踝第五輪前足與肌腱負荷進展矩陣.svg"
   ],
   "sources_checked": [
-    "ACR Appropriateness Criteria: Chronic Knee Pain. https://acsearch.acr.org/docs/69432/Narrative/",
+    "ACR Appropriateness Criteria: Chronic Foot Pain. https://acsearch.acr.org/docs/69424/Narrative/",
     "ACR Appropriateness Criteria: Stress (Fatigue/Insufficiency) Fracture. https://acsearch.acr.org/docs/69435/Narrative/",
-    "Musbahi O, et al. Subchondral Insufficiency Fractures of the Knee: A Clinical Narrative Review. JBJS Rev. 2023. https://pubmed.ncbi.nlm.nih.gov/37812676/",
-    "Ochi J, et al. Subchondral insufficiency fracture of the knee: review of current concepts and radiological differential diagnoses. Jpn J Radiol. 2022. https://pmc.ncbi.nlm.nih.gov/articles/PMC9068663/",
-    "Lee PYF, et al. Synovial Plica Syndrome of the Knee: A Commonly Overlooked Cause of Anterior Knee Pain. Surg J. 2017. https://pubmed.ncbi.nlm.nih.gov/28825013/",
-    "Stubbings N, Smith T. Diagnostic test accuracy of clinical and radiological assessments for medial patella plica syndrome: systematic review and meta-analysis. Knee. 2014. https://pubmed.ncbi.nlm.nih.gov/24280039/",
-    "Franco P, et al. Surgical and conservative management of medial plica syndrome: systematic review and meta-analysis. 2025. https://pubmed.ncbi.nlm.nih.gov/41189766/",
-    "Dragoo JL, et al. Evaluation and treatment of disorders of the infrapatellar fat pad. Sports Med Arthrosc Rev. 2012. https://pubmed.ncbi.nlm.nih.gov/22149697/",
-    "Verrier J, et al. Diagnosis and treatment of the infrapatellar fat pad disorders: a systematic review. 2025. https://pubmed.ncbi.nlm.nih.gov/41235534/",
-    "Kuwabara A, et al. Narrative Review of Anterior Knee Pain Differential Diagnosis. Curr Rev Musculoskelet Med. 2021. https://pmc.ncbi.nlm.nih.gov/articles/PMC8137785/",
-    "Helfenstein M Jr, Kuromoto J. Anserine syndrome. Rev Bras Reumatol. 2010. https://pubmed.ncbi.nlm.nih.gov/21125167/",
-    "Knee Bursae: A Comprehensive Review of Clinical Evaluation and Imaging Differentiation. 2025. https://pubmed.ncbi.nlm.nih.gov/41239892/",
-    "Frush TJ, Noyes FR. Baker’s Cyst: Diagnostic and Surgical Considerations. Sports Health. 2015. https://pmc.ncbi.nlm.nih.gov/articles/PMC4481672/",
-    "Herman AM, Marzo JM. Popliteal cysts: a current review. Orthopedics. 2014. https://pubmed.ncbi.nlm.nih.gov/25102502/",
-    "Meyer M, et al. Diagnostic Utility of Ultrasound Versus Physical Examination in Assessing Knee Effusions: systematic review and meta-analysis. J Ultrasound Med. 2022. https://pubmed.ncbi.nlm.nih.gov/33675099/",
-    "Maricar N, et al. Clinical assessment of effusion in knee osteoarthritis: systematic review. Semin Arthritis Rheum. 2016. https://pubmed.ncbi.nlm.nih.gov/26581486/",
-    "Jones CJ, et al. The 30-s chair-stand test as a measure of lower body strength. Res Q Exerc Sport. 1999. https://pubmed.ncbi.nlm.nih.gov/10380242/"
+    "van Dijk PA, et al. The ESSKA-AFAS international consensus statement on peroneal tendon pathologies. Knee Surg Sports Traumatol Arthrosc. 2018. https://doi.org/10.1007/s00167-018-4971-x",
+    "Melville DM, et al. Comparison of Ultrasound and MRI with Intraoperative Findings in the Diagnosis of Peroneal Tendinopathy, Tears, and Subluxation. J Clin Med. 2024. https://doi.org/10.3390/jcm13030740",
+    "Pringels L, et al. Effectiveness of reducing tendon compression in the rehabilitation of insertional Achilles tendinopathy: a randomised clinical trial. Br J Sports Med. 2025. https://pubmed.ncbi.nlm.nih.gov/40011018/",
+    "Dilger CP, Chimenti RL. Nonsurgical treatment options for insertional Achilles tendinopathy. Foot Ankle Clin. 2019. https://pmc.ncbi.nlm.nih.gov/articles/PMC7216975/",
+    "Park JJ, et al. Diagnosing Plantar Plate Injuries: A Narrative Review of Clinical and Imaging Approaches. Diagnostics. 2025. https://pmc.ncbi.nlm.nih.gov/articles/PMC12427879/",
+    "Duan X, et al. Role of magnetic resonance imaging versus ultrasound for detection of plantar plate tear. J Orthop Surg Res. 2017. https://pmc.ncbi.nlm.nih.gov/articles/PMC5251279/",
+    "Nery C, et al. How to classify plantar plate injuries: parameters from history and physical examination. Rev Bras Ortop. 2015. https://pmc.ncbi.nlm.nih.gov/articles/PMC4868080/",
+    "Lawrence DA, et al. Tarsal Coalitions: Radiographic, CT, and MR Imaging Findings. HSS J. 2014. https://pubmed.ncbi.nlm.nih.gov/25050099/",
+    "Marth AA, et al. How accurate is MRI for diagnosing tarsal coalitions? Eur Radiol. 2024. https://pubmed.ncbi.nlm.nih.gov/37855854/",
+    "AAOS OrthoInfo. Tarsal Coalition. https://orthoinfo.aaos.org/en/diseases--conditions/tarsal-coalition/",
+    "Patel R, et al. Hallux Sesamoid Stress Fractures. Orthopaedic Sports Medicine. 2024. https://doi.org/10.1007/978-3-030-65430-6_158-1",
+    "Mayer SW, et al. Stress fractures of the foot and ankle in athletes. Sports Health. 2014. https://pmc.ncbi.nlm.nih.gov/articles/PMC4212349/"
   ],
   "link_policy": {
     "new_unresolved_links": 0,
@@ -416,5 +409,5 @@
       "ZIP CRC/extraction/path"
     ]
   },
-  "generated_at_utc": "2026-09-29T00:09:50.172003+00:00"
+  "generated_at_utc": "2026-09-30T00:08:51.406850+00:00"
 }
