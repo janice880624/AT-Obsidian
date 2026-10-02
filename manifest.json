@@ -1,11 +1,11 @@
 {
-  "schema_version": 5,
-  "date": "2026-10-01",
-  "region": "頭頸第六輪",
+  "schema_version": 4,
+  "date": "2026-10-02",
+  "region": "肩部第六輪",
   "github": {
     "repository": "janice880624/AT-Obsidian",
     "branch": "main",
-    "commit": "77c9b900735a9035f6c46583820ae7fd0a0ba76f",
+    "commit": "5cad5fa7a35fe85eb719b1bc9d55ad69c7917c15",
     "mode": "read-only"
   },
   "template_policy": {
@@ -82,10 +82,11 @@
       "模板－傷害.md",
       "模板－功能性測試.md",
       "模板－特殊檢查.md",
-      "模板－神經.md",
       "模板－系統性評估.md",
-      "模板－肌肉.md",
+      "模板－肌腱.md",
       "模板－身體檢查.md",
+      "模板－運動治療.md",
+      "模板－韌帶.md",
       "模板－骨骼或關節.md"
     ],
     "validated_note_count": 15,
@@ -101,132 +102,125 @@
     "core_notes": 5,
     "related_notes": 10,
     "knowledge_notes": 15,
-    "svg": 3
+    "svg": 3,
+    "index_or_support_files": 10
   },
   "topic_candidates_skipped": [
-    "頸椎扭傷與拉傷",
-    "揮鞭式損傷",
-    "頸部神經根病變",
-    "腦震盪",
-    "退化性頸髓病變",
-    "Stinger／Burner",
-    "齒突骨折",
-    "下顎骨骨折",
-    "眼眶骨折",
-    "鼻骨骨折與鼻中隔血腫",
-    "耳廓血腫",
-    "牙齒脫位與撕脫傷"
+    "既有肩部第一至第五輪主題",
+    "既有泛稱肩關節唇損傷，改以方向性不穩定分類避免重複",
+    "無專屬模板的筆記類型",
+    "任何需要建立新資料夾的候選主題"
   ],
   "notes": [
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－急性硬膜外血腫.md",
-      "title": "傷害－急性硬膜外血腫",
+      "path": "03_傷害與疾病/過度使用/傷害－後向肩關節不穩定.md",
+      "title": "傷害－後向肩關節不穩定",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－急性硬膜下血腫.md",
-      "title": "傷害－急性硬膜下血腫",
+      "path": "03_傷害與疾病/急性傷害/傷害－肱骨側盂肱韌帶撕脫（HAGL）.md",
+      "title": "傷害－肱骨側盂肱韌帶撕脫（HAGL）",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－顱骨骨折與基底顱骨徵象.md",
-      "title": "傷害－顱骨骨折與基底顱骨徵象",
+      "path": "03_傷害與疾病/過度使用/傷害－肱二頭肌滑車病灶與長頭肌腱不穩定.md",
+      "title": "傷害－肱二頭肌滑車病灶與長頭肌腱不穩定",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－開放性眼球傷.md",
-      "title": "傷害－開放性眼球傷",
+      "path": "03_傷害與疾病/過度使用/傷害－症狀性肩峰骨未癒合（Os Acromiale）.md",
+      "title": "傷害－症狀性肩峰骨未癒合（Os Acromiale）",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－鈍性喉部外傷與喉骨折.md",
-      "title": "傷害－鈍性喉部外傷與喉骨折",
+      "path": "03_傷害與疾病/過度使用/傷害－喙突下夾擠與肩胛下肌負荷症候群.md",
+      "title": "傷害－喙突下夾擠與肩胛下肌負荷症候群",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－創傷性視神經病變.md",
-      "title": "傷害－創傷性視神經病變",
-      "role": "相關",
-      "type": "傷害",
-      "template": "模板－傷害.md"
-    },
-    {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－顳骨翼點與顱內膜層.md",
-      "title": "骨骼與關節－顳骨翼點與顱內膜層",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－後盂與盂肱後向穩定結構.md",
+      "title": "骨骼與關節－後盂與盂肱後向穩定結構",
       "role": "相關",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "01_基礎解剖/神經/神經－視神經與瞳孔傳入路徑.md",
-      "title": "神經－視神經與瞳孔傳入路徑",
+      "path": "01_基礎解剖/韌帶/韌帶－旋轉間隙與喙肱韌帶.md",
+      "title": "韌帶－旋轉間隙與喙肱韌帶",
       "role": "相關",
-      "type": "神經",
-      "template": "模板－神經.md"
+      "type": "韌帶",
+      "template": "模板－韌帶.md"
     },
     {
-      "path": "01_基礎解剖/肌肉/肌肉－喉內在肌群.md",
-      "title": "肌肉－喉內在肌群",
+      "path": "01_基礎解剖/肌腱/肌腱－肩胛下肌腱.md",
+      "title": "肌腱－肩胛下肌腱",
       "role": "相關",
-      "type": "肌肉",
-      "template": "模板－肌肉.md"
+      "type": "肌腱",
+      "template": "模板－肌腱.md"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－頭部撞擊後意識失常與失憶問診.md",
-      "title": "評估－頭部撞擊後意識失常與失憶問診",
+      "path": "04_臨床評估/主觀問診/評估－隱匿性不穩定與前上肩症狀問診.md",
+      "title": "評估－隱匿性不穩定與前上肩症狀問診",
       "role": "相關",
       "type": "主觀問診",
       "template": "模板－主觀問診.md"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－頭部外傷 GCS 與瞳孔神經監測.md",
-      "title": "評估－頭部外傷 GCS 與瞳孔神經監測",
-      "role": "相關",
-      "type": "身體檢查",
-      "template": "模板－身體檢查.md"
-    },
-    {
-      "path": "04_臨床評估/身體檢查/評估－急性眼外傷系統性身體檢查.md",
-      "title": "評估－急性眼外傷系統性身體檢查",
-      "role": "相關",
-      "type": "身體檢查",
-      "template": "模板－身體檢查.md"
-    },
-    {
-      "path": "04_臨床評估/系統性評估/評估－頸前撞擊與氣道喉部安全分流.md",
-      "title": "評估－頸前撞擊與氣道喉部安全分流",
+      "path": "04_臨床評估/系統性評估/評估－盂肱不穩定骨性與軟組織分流.md",
+      "title": "評估－盂肱不穩定骨性與軟組織分流",
       "role": "相關",
       "type": "系統性評估",
       "template": "模板－系統性評估.md"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Swinging Flashlight Test.md",
-      "title": "特殊檢查－Swinging Flashlight Test",
+      "path": "04_臨床評估/身體檢查/評估－前上肩疼痛與隱匿性不穩定身體檢查.md",
+      "title": "評估－前上肩疼痛與隱匿性不穩定身體檢查",
+      "role": "相關",
+      "type": "身體檢查",
+      "template": "模板－身體檢查.md"
+    },
+    {
+      "path": "04_臨床評估/特殊檢查/特殊檢查－Kim 與 Jerk Tests.md",
+      "title": "特殊檢查－Kim 與 Jerk Tests",
       "role": "相關",
       "type": "特殊檢查",
       "template": "模板－特殊檢查.md"
     },
     {
-      "path": "06_功能性測試/軀幹/功能性測試－King-Devick 快速數字命名測試.md",
-      "title": "功能性測試－King-Devick 快速數字命名測試",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－Bear Hug 與 Belly Press Tests.md",
+      "title": "特殊檢查－Bear Hug 與 Belly Press Tests",
+      "role": "相關",
+      "type": "特殊檢查",
+      "template": "模板－特殊檢查.md"
+    },
+    {
+      "path": "06_功能性測試/上肢/功能性測試－Posterior Shoulder Endurance Test.md",
+      "title": "功能性測試－Posterior Shoulder Endurance Test",
       "role": "相關",
       "type": "功能性測試",
       "template": "模板－功能性測試.md"
+    },
+    {
+      "path": "05_處置與復健/運動治療/運動治療－後向肩關節不穩定分級負荷.md",
+      "title": "運動治療－後向肩關節不穩定分級負荷",
+      "role": "相關",
+      "type": "運動治療",
+      "template": "模板－運動治療.md"
     }
   ],
   "per_note_validation": [
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－急性硬膜外血腫.md",
+      "path": "03_傷害與疾病/過度使用/傷害－後向肩關節不穩定.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -235,7 +229,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－急性硬膜下血腫.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－肱骨側盂肱韌帶撕脫（HAGL）.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -244,7 +238,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－顱骨骨折與基底顱骨徵象.md",
+      "path": "03_傷害與疾病/過度使用/傷害－肱二頭肌滑車病灶與長頭肌腱不穩定.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -253,7 +247,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－開放性眼球傷.md",
+      "path": "03_傷害與疾病/過度使用/傷害－症狀性肩峰骨未癒合（Os Acromiale）.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -262,7 +256,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－鈍性喉部外傷與喉骨折.md",
+      "path": "03_傷害與疾病/過度使用/傷害－喙突下夾擠與肩胛下肌負荷症候群.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -271,16 +265,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－創傷性視神經病變.md",
-      "template": "模板－傷害.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－顳骨翼點與顱內膜層.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－後盂與盂肱後向穩定結構.md",
       "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
@@ -289,8 +274,8 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/神經/神經－視神經與瞳孔傳入路徑.md",
-      "template": "模板－神經.md",
+      "path": "01_基礎解剖/韌帶/韌帶－旋轉間隙與喙肱韌帶.md",
+      "template": "模板－韌帶.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -298,8 +283,8 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/肌肉/肌肉－喉內在肌群.md",
-      "template": "模板－肌肉.md",
+      "path": "01_基礎解剖/肌腱/肌腱－肩胛下肌腱.md",
+      "template": "模板－肌腱.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -307,7 +292,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－頭部撞擊後意識失常與失憶問診.md",
+      "path": "04_臨床評估/主觀問診/評估－隱匿性不穩定與前上肩症狀問診.md",
       "template": "模板－主觀問診.md",
       "yaml": "passed",
       "h1": "passed",
@@ -316,25 +301,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－頭部外傷 GCS 與瞳孔神經監測.md",
-      "template": "模板－身體檢查.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "04_臨床評估/身體檢查/評估－急性眼外傷系統性身體檢查.md",
-      "template": "模板－身體檢查.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "04_臨床評估/系統性評估/評估－頸前撞擊與氣道喉部安全分流.md",
+      "path": "04_臨床評估/系統性評估/評估－盂肱不穩定骨性與軟組織分流.md",
       "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
@@ -343,7 +310,16 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Swinging Flashlight Test.md",
+      "path": "04_臨床評估/身體檢查/評估－前上肩疼痛與隱匿性不穩定身體檢查.md",
+      "template": "模板－身體檢查.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "04_臨床評估/特殊檢查/特殊檢查－Kim 與 Jerk Tests.md",
       "template": "模板－特殊檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -352,8 +328,26 @@
       "links": "passed"
     },
     {
-      "path": "06_功能性測試/軀幹/功能性測試－King-Devick 快速數字命名測試.md",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－Bear Hug 與 Belly Press Tests.md",
+      "template": "模板－特殊檢查.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "06_功能性測試/上肢/功能性測試－Posterior Shoulder Endurance Test.md",
       "template": "模板－功能性測試.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "05_處置與復健/運動治療/運動治療－後向肩關節不穩定分級負荷.md",
+      "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -362,33 +356,26 @@
     }
   ],
   "assets": [
-    "assets/anatomy/頭頸第六輪顱內膜層與眼喉關聯圖.svg",
-    "assets/assessment/頭頸第六輪頭眼喉安全分流圖.svg",
-    "assets/assessment/頭頸第六輪連續神經監測表.svg"
+    "assets/anatomy/肩部第六輪穩定結構與旋轉間隙圖.svg",
+    "assets/assessment/肩部第六輪隱匿性不穩定安全分流圖.svg",
+    "assets/assessment/肩部第六輪回場能力矩陣.svg"
   ],
   "sources_checked": [
-    "NICE. Head injury: assessment and early management (NG232). 2023. https://www.nice.org.uk/guidance/ng232/chapter/recommendations",
-    "Brain Trauma Foundation. Guidelines for the Surgical Management of TBI. https://braintrauma.org/coma/guidelines/surgical",
-    "Galvagno SM Jr, et al. Acute Management of Traumatic Brain Injury. Crit Care Clin. 2017. https://pmc.ncbi.nlm.nih.gov/articles/PMC5747306/",
-    "Wintermark M, et al. Imaging for the Diagnosis and Management of Traumatic Brain Injury. Neurotherapeutics. 2011. https://pmc.ncbi.nlm.nih.gov/articles/PMC3026928/",
-    "Zhou Y, et al. Open Globe Injuries: Review of Evaluation, Management, and Surgical Pearls. Clin Ophthalmol. 2022. https://pubmed.ncbi.nlm.nih.gov/35983163/",
-    "Blanch RJ, et al. Management of open globe injury: a narrative review. Eye. 2024. https://pubmed.ncbi.nlm.nih.gov/39085596/",
-    "Petzold A, et al. Traumatic optic neuropathy management: a systematic review. Eye. 2024. https://pubmed.ncbi.nlm.nih.gov/38862644/",
-    "Malvi A, et al. Laryngeal Trauma, Its Types, and Management. Cureus. 2022. https://pmc.ncbi.nlm.nih.gov/articles/PMC9629857/",
-    "Kim JD, et al. Traumatic Laryngeal Fracture in a Collegiate Basketball Player. Sports Health. 2013. https://pmc.ncbi.nlm.nih.gov/articles/PMC3658405/",
-    "Broadway DC. How to test for a relative afferent pupillary defect (RAPD). Community Eye Health. 2012. https://pmc.ncbi.nlm.nih.gov/articles/PMC3588138/",
-    "Walsh L, et al. Performance of current tools used for on-the-day assessment and diagnosis of mild traumatic brain injury in sport: a systematic review. Br J Sports Med. 2025. https://pubmed.ncbi.nlm.nih.gov/39931638/",
-    "Galetto NP, et al. Diagnostic accuracy and reliability of sideline concussion evaluation. Br J Sports Med. 2021. https://pubmed.ncbi.nlm.nih.gov/33883170/"
+    "Antosh IJ, et al. Evaluation and Management of Posterior Shoulder Instability. Sports Health. 2012. https://pmc.ncbi.nlm.nih.gov/articles/PMC3445168/",
+    "Hurley ET, et al. Posterior Shoulder Instability, Part II—Rehabilitation and Return to Play: International Expert Delphi Consensus. Arthroscopy. 2025. https://pubmed.ncbi.nlm.nih.gov/38735411/",
+    "Evidence-Based Review of Clinical Diagnostic Tests and Predictive Clinical Tests That Evaluate Response to Conservative Rehabilitation for Posterior Glenohumeral Instability. Sports Health. 2018. https://pmc.ncbi.nlm.nih.gov/articles/PMC5857733/",
+    "Longo UG, et al. Indications, management, and outcomes of humeral avulsions of the glenohumeral ligaments: a systematic review. Orthop J Sports Med. 2022. https://pmc.ncbi.nlm.nih.gov/articles/PMC9468979/",
+    "Bozzo A, et al. Humeral Avulsion of the Glenohumeral Ligament: Indications for Surgical Treatment and Outcomes. Arthroscopy Techniques. 2017. https://pmc.ncbi.nlm.nih.gov/articles/PMC5560515/",
+    "Martetschläger F, et al. Lesions of the biceps pulley: a prospective study and classification update. JSES Int. 2020. https://pmc.ncbi.nlm.nih.gov/articles/PMC7256895/",
+    "Schoch C, et al. Assessment of Acute Lesions of the Biceps Pulley in Patients with Traumatic Shoulder Dislocation. Diagnostics. 2022. https://pmc.ncbi.nlm.nih.gov/articles/PMC9600602/",
+    "Spiegl UJ, et al. Optimal management of symptomatic os acromiale: current perspectives. Orthop Res Rev. 2018. https://pmc.ncbi.nlm.nih.gov/articles/PMC6208990/",
+    "Dines DM, et al. Coracoid impingement syndrome: a literature review. Curr Rev Musculoskelet Med. 2009. https://pmc.ncbi.nlm.nih.gov/articles/PMC2684954/",
+    "ACR Appropriateness Criteria: Chronic Shoulder Pain, 2022 Update. https://acsearch.acr.org/docs/3101482/narrative/",
+    "Barth JRH, et al. The bear-hug test: a new and sensitive test for diagnosing a subscapularis tear. Arthroscopy. 2006. https://pubmed.ncbi.nlm.nih.gov/17027405/",
+    "Yoon JP, et al. Bear Hug Test Improves Sensitivity Compared With Belly Press, but Both Miss Most Partial Tears. Arthrosc Sports Med Rehabil. 2023. https://pmc.ncbi.nlm.nih.gov/articles/PMC10698570/",
+    "Edouard P, et al. Reproducibility and discriminant validity of the Posterior Shoulder Endurance Test. Phys Ther Sport. 2021. https://pubmed.ncbi.nlm.nih.gov/33197875/",
+    "Schwank A, et al. 2022 Bern Consensus Statement on Shoulder Injury Prevention, Rehabilitation, and Return to Sport. JOSPT. 2022. https://pubmed.ncbi.nlm.nih.gov/34972489/"
   ],
-  "link_policy": {
-    "new_unresolved_links": 0,
-    "preexisting_home_placeholders_unchanged": [
-      "緊急處置流程",
-      "文獻索引",
-      "新個案評估",
-      "臨床問題清單"
-    ]
-  },
   "validation": {
     "status": "passed",
     "checks": [
@@ -400,12 +387,11 @@
       "no placeholders",
       "deduplication",
       "bidirectional indexes",
-      "new unresolved links = 0",
       "SVG XML and render",
       "no new directories",
       "SHA-256",
-      "ZIP CRC/extraction/path"
+      "ZIP CRC/extraction/bit comparison/path"
     ]
   },
-  "generated_at_utc": "2026-10-01T00:02:52.261959+00:00"
+  "generated_at_utc": "2026-10-02T00:10:20.300155+00:00"
 }
