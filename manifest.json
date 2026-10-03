@@ -1,11 +1,11 @@
 {
-  "schema_version": 4,
-  "date": "2026-10-02",
-  "region": "肩部第六輪",
+  "schema_version": 6,
+  "date": "2026-10-03",
+  "region": "肘部第六輪",
   "github": {
     "repository": "janice880624/AT-Obsidian",
     "branch": "main",
-    "commit": "5cad5fa7a35fe85eb719b1bc9d55ad69c7917c15",
+    "commit": "4d156d28086f9ea45da38a14791fe3d7ed892ba6",
     "mode": "read-only"
   },
   "template_policy": {
@@ -82,11 +82,11 @@
       "模板－傷害.md",
       "模板－功能性測試.md",
       "模板－特殊檢查.md",
+      "模板－神經.md",
       "模板－系統性評估.md",
-      "模板－肌腱.md",
+      "模板－肌肉.md",
       "模板－身體檢查.md",
       "模板－運動治療.md",
-      "模板－韌帶.md",
       "模板－骨骼或關節.md"
     ],
     "validated_note_count": 15,
@@ -103,116 +103,117 @@
     "related_notes": 10,
     "knowledge_notes": 15,
     "svg": 3,
-    "index_or_support_files": 10
+    "index_or_support_files": 11
   },
   "topic_candidates_skipped": [
-    "既有肩部第一至第五輪主題",
-    "既有泛稱肩關節唇損傷，改以方向性不穩定分類避免重複",
+    "肘部第一至第五輪所有既有主題",
+    "既有神經－正中神經與前骨間神經，改選內側前臂皮神經避免重複",
+    "既有肌腱－遠端肱二頭肌腱，改選肌肉－肱二頭肌與旋後肌",
     "無專屬模板的筆記類型",
     "任何需要建立新資料夾的候選主題"
   ],
   "notes": [
     {
-      "path": "03_傷害與疾病/過度使用/傷害－後向肩關節不穩定.md",
-      "title": "傷害－後向肩關節不穩定",
+      "path": "03_傷害與疾病/神經卡壓/傷害－尺神經不穩定與彈響肱三頭肌.md",
+      "title": "傷害－尺神經不穩定與彈響肱三頭肌",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－肱骨側盂肱韌帶撕脫（HAGL）.md",
-      "title": "傷害－肱骨側盂肱韌帶撕脫（HAGL）",
+      "path": "03_傷害與疾病/過度使用/傷害－遠端肱二頭肌部分撕裂與肌腱病變.md",
+      "title": "傷害－遠端肱二頭肌部分撕裂與肌腱病變",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－肱二頭肌滑車病灶與長頭肌腱不穩定.md",
-      "title": "傷害－肱二頭肌滑車病灶與長頭肌腱不穩定",
+      "path": "03_傷害與疾病/神經卡壓/傷害－前骨間神經症候群.md",
+      "title": "傷害－前骨間神經症候群",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－症狀性肩峰骨未癒合（Os Acromiale）.md",
-      "title": "傷害－症狀性肩峰骨未癒合（Os Acromiale）",
+      "path": "03_傷害與疾病/過度使用/傷害－Panner 病（肱骨小頭骨軟骨病）.md",
+      "title": "傷害－Panner 病（肱骨小頭骨軟骨病）",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－喙突下夾擠與肩胛下肌負荷症候群.md",
-      "title": "傷害－喙突下夾擠與肩胛下肌負荷症候群",
+      "path": "03_傷害與疾病/急性傷害/傷害－肘關節異位骨化與骨化性肌炎.md",
+      "title": "傷害－肘關節異位骨化與骨化性肌炎",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－後盂與盂肱後向穩定結構.md",
-      "title": "骨骼與關節－後盂與盂肱後向穩定結構",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－兒童肘部骨化中心與肱骨小頭.md",
+      "title": "骨骼與關節－兒童肘部骨化中心與肱骨小頭",
       "role": "相關",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "01_基礎解剖/韌帶/韌帶－旋轉間隙與喙肱韌帶.md",
-      "title": "韌帶－旋轉間隙與喙肱韌帶",
+      "path": "01_基礎解剖/肌肉/肌肉－肱二頭肌與旋後肌.md",
+      "title": "肌肉－肱二頭肌與旋後肌",
       "role": "相關",
-      "type": "韌帶",
-      "template": "模板－韌帶.md"
+      "type": "肌肉",
+      "template": "模板－肌肉.md"
     },
     {
-      "path": "01_基礎解剖/肌腱/肌腱－肩胛下肌腱.md",
-      "title": "肌腱－肩胛下肌腱",
+      "path": "01_基礎解剖/神經/神經－內側前臂皮神經於肘部.md",
+      "title": "神經－內側前臂皮神經於肘部",
       "role": "相關",
-      "type": "肌腱",
-      "template": "模板－肌腱.md"
+      "type": "神經",
+      "template": "模板－神經.md"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－隱匿性不穩定與前上肩症狀問診.md",
-      "title": "評估－隱匿性不穩定與前上肩症狀問診",
+      "path": "04_臨床評估/主觀問診/評估－兒童外側肘痛與骨化中心問診.md",
+      "title": "評估－兒童外側肘痛與骨化中心問診",
       "role": "相關",
       "type": "主觀問診",
       "template": "模板－主觀問診.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－盂肱不穩定骨性與軟組織分流.md",
-      "title": "評估－盂肱不穩定骨性與軟組織分流",
+      "path": "04_臨床評估/系統性評估/評估－動態彈響內側肘與神經安全分流.md",
+      "title": "評估－動態彈響內側肘與神經安全分流",
       "role": "相關",
       "type": "系統性評估",
       "template": "模板－系統性評估.md"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－前上肩疼痛與隱匿性不穩定身體檢查.md",
-      "title": "評估－前上肩疼痛與隱匿性不穩定身體檢查",
+      "path": "04_臨床評估/身體檢查/評估－前骨間神經純運動身體檢查.md",
+      "title": "評估－前骨間神經純運動身體檢查",
       "role": "相關",
       "type": "身體檢查",
       "template": "模板－身體檢查.md"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Kim 與 Jerk Tests.md",
-      "title": "特殊檢查－Kim 與 Jerk Tests",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－Distal Biceps Provocation Test.md",
+      "title": "特殊檢查－Distal Biceps Provocation Test",
       "role": "相關",
       "type": "特殊檢查",
       "template": "模板－特殊檢查.md"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Bear Hug 與 Belly Press Tests.md",
-      "title": "特殊檢查－Bear Hug 與 Belly Press Tests",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－肘部動態尺神經半脫位檢查.md",
+      "title": "特殊檢查－肘部動態尺神經半脫位檢查",
       "role": "相關",
       "type": "特殊檢查",
       "template": "模板－特殊檢查.md"
     },
     {
-      "path": "06_功能性測試/上肢/功能性測試－Posterior Shoulder Endurance Test.md",
-      "title": "功能性測試－Posterior Shoulder Endurance Test",
+      "path": "06_功能性測試/上肢/功能性測試－肘屈旋後持續耐力測試.md",
+      "title": "功能性測試－肘屈旋後持續耐力測試",
       "role": "相關",
       "type": "功能性測試",
       "template": "模板－功能性測試.md"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－後向肩關節不穩定分級負荷.md",
-      "title": "運動治療－後向肩關節不穩定分級負荷",
+      "path": "05_處置與復健/運動治療/運動治療－遠端肱二頭肌部分損傷分級負荷.md",
+      "title": "運動治療－遠端肱二頭肌部分損傷分級負荷",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
@@ -220,7 +221,7 @@
   ],
   "per_note_validation": [
     {
-      "path": "03_傷害與疾病/過度使用/傷害－後向肩關節不穩定.md",
+      "path": "03_傷害與疾病/神經卡壓/傷害－尺神經不穩定與彈響肱三頭肌.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -229,7 +230,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－肱骨側盂肱韌帶撕脫（HAGL）.md",
+      "path": "03_傷害與疾病/過度使用/傷害－遠端肱二頭肌部分撕裂與肌腱病變.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -238,7 +239,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－肱二頭肌滑車病灶與長頭肌腱不穩定.md",
+      "path": "03_傷害與疾病/神經卡壓/傷害－前骨間神經症候群.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -247,7 +248,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－症狀性肩峰骨未癒合（Os Acromiale）.md",
+      "path": "03_傷害與疾病/過度使用/傷害－Panner 病（肱骨小頭骨軟骨病）.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -256,7 +257,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－喙突下夾擠與肩胛下肌負荷症候群.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－肘關節異位骨化與骨化性肌炎.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -265,7 +266,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－後盂與盂肱後向穩定結構.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－兒童肘部骨化中心與肱骨小頭.md",
       "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
@@ -274,8 +275,8 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/韌帶/韌帶－旋轉間隙與喙肱韌帶.md",
-      "template": "模板－韌帶.md",
+      "path": "01_基礎解剖/肌肉/肌肉－肱二頭肌與旋後肌.md",
+      "template": "模板－肌肉.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -283,8 +284,8 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/肌腱/肌腱－肩胛下肌腱.md",
-      "template": "模板－肌腱.md",
+      "path": "01_基礎解剖/神經/神經－內側前臂皮神經於肘部.md",
+      "template": "模板－神經.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -292,7 +293,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－隱匿性不穩定與前上肩症狀問診.md",
+      "path": "04_臨床評估/主觀問診/評估－兒童外側肘痛與骨化中心問診.md",
       "template": "模板－主觀問診.md",
       "yaml": "passed",
       "h1": "passed",
@@ -301,7 +302,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－盂肱不穩定骨性與軟組織分流.md",
+      "path": "04_臨床評估/系統性評估/評估－動態彈響內側肘與神經安全分流.md",
       "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
@@ -310,7 +311,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－前上肩疼痛與隱匿性不穩定身體檢查.md",
+      "path": "04_臨床評估/身體檢查/評估－前骨間神經純運動身體檢查.md",
       "template": "模板－身體檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -319,7 +320,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Kim 與 Jerk Tests.md",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－Distal Biceps Provocation Test.md",
       "template": "模板－特殊檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -328,7 +329,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Bear Hug 與 Belly Press Tests.md",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－肘部動態尺神經半脫位檢查.md",
       "template": "模板－特殊檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -337,7 +338,7 @@
       "links": "passed"
     },
     {
-      "path": "06_功能性測試/上肢/功能性測試－Posterior Shoulder Endurance Test.md",
+      "path": "06_功能性測試/上肢/功能性測試－肘屈旋後持續耐力測試.md",
       "template": "模板－功能性測試.md",
       "yaml": "passed",
       "h1": "passed",
@@ -346,7 +347,7 @@
       "links": "passed"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－後向肩關節不穩定分級負荷.md",
+      "path": "05_處置與復健/運動治療/運動治療－遠端肱二頭肌部分損傷分級負荷.md",
       "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
@@ -356,25 +357,25 @@
     }
   ],
   "assets": [
-    "assets/anatomy/肩部第六輪穩定結構與旋轉間隙圖.svg",
-    "assets/assessment/肩部第六輪隱匿性不穩定安全分流圖.svg",
-    "assets/assessment/肩部第六輪回場能力矩陣.svg"
+    "assets/anatomy/肘部第六輪兒童骨化中心與內側動態結構.svg",
+    "assets/special-tests/肘部第六輪遠端肱二頭肌誘發測試.svg",
+    "assets/assessment/肘部第六輪神經肌腱安全分流圖.svg"
   ],
   "sources_checked": [
-    "Antosh IJ, et al. Evaluation and Management of Posterior Shoulder Instability. Sports Health. 2012. https://pmc.ncbi.nlm.nih.gov/articles/PMC3445168/",
-    "Hurley ET, et al. Posterior Shoulder Instability, Part II—Rehabilitation and Return to Play: International Expert Delphi Consensus. Arthroscopy. 2025. https://pubmed.ncbi.nlm.nih.gov/38735411/",
-    "Evidence-Based Review of Clinical Diagnostic Tests and Predictive Clinical Tests That Evaluate Response to Conservative Rehabilitation for Posterior Glenohumeral Instability. Sports Health. 2018. https://pmc.ncbi.nlm.nih.gov/articles/PMC5857733/",
-    "Longo UG, et al. Indications, management, and outcomes of humeral avulsions of the glenohumeral ligaments: a systematic review. Orthop J Sports Med. 2022. https://pmc.ncbi.nlm.nih.gov/articles/PMC9468979/",
-    "Bozzo A, et al. Humeral Avulsion of the Glenohumeral Ligament: Indications for Surgical Treatment and Outcomes. Arthroscopy Techniques. 2017. https://pmc.ncbi.nlm.nih.gov/articles/PMC5560515/",
-    "Martetschläger F, et al. Lesions of the biceps pulley: a prospective study and classification update. JSES Int. 2020. https://pmc.ncbi.nlm.nih.gov/articles/PMC7256895/",
-    "Schoch C, et al. Assessment of Acute Lesions of the Biceps Pulley in Patients with Traumatic Shoulder Dislocation. Diagnostics. 2022. https://pmc.ncbi.nlm.nih.gov/articles/PMC9600602/",
-    "Spiegl UJ, et al. Optimal management of symptomatic os acromiale: current perspectives. Orthop Res Rev. 2018. https://pmc.ncbi.nlm.nih.gov/articles/PMC6208990/",
-    "Dines DM, et al. Coracoid impingement syndrome: a literature review. Curr Rev Musculoskelet Med. 2009. https://pmc.ncbi.nlm.nih.gov/articles/PMC2684954/",
-    "ACR Appropriateness Criteria: Chronic Shoulder Pain, 2022 Update. https://acsearch.acr.org/docs/3101482/narrative/",
-    "Barth JRH, et al. The bear-hug test: a new and sensitive test for diagnosing a subscapularis tear. Arthroscopy. 2006. https://pubmed.ncbi.nlm.nih.gov/17027405/",
-    "Yoon JP, et al. Bear Hug Test Improves Sensitivity Compared With Belly Press, but Both Miss Most Partial Tears. Arthrosc Sports Med Rehabil. 2023. https://pmc.ncbi.nlm.nih.gov/articles/PMC10698570/",
-    "Edouard P, et al. Reproducibility and discriminant validity of the Posterior Shoulder Endurance Test. Phys Ther Sport. 2021. https://pubmed.ncbi.nlm.nih.gov/33197875/",
-    "Schwank A, et al. 2022 Bern Consensus Statement on Shoulder Injury Prevention, Rehabilitation, and Return to Sport. JOSPT. 2022. https://pubmed.ncbi.nlm.nih.gov/34972489/"
+    "ACR Appropriateness Criteria: Acute Elbow and Forearm Pain. https://acsearch.acr.org/docs/3195154/Narrative/",
+    "ACR Appropriateness Criteria: Chronic Elbow Pain. https://acsearch.acr.org/docs/69423/Narrative/",
+    "Koh KH, et al. Snapping triceps syndrome: a review of the literature and proposed operative treatment algorithm. JSES Rev Rep Tech. 2025. https://pmc.ncbi.nlm.nih.gov/articles/PMC12553053/",
+    "Guillin R, et al. Hearing and Seeing Nerve/Tendon Snapping: A Systematic Review on Dynamic Ultrasound Examination. Diagnostics. 2023. https://pmc.ncbi.nlm.nih.gov/articles/PMC10422582/",
+    "MacLean S, et al. Current concepts in the aetiology, assessment and management of partial distal biceps tendon tears. Shoulder Elbow. 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11562466/",
+    "Caekebeke P, et al. Distal Biceps Provocation Test. J Shoulder Elbow Surg. 2021. https://pubmed.ncbi.nlm.nih.gov/33757665/",
+    "Caekebeke P, et al. Evaluation of clinical tests for partial distal biceps tendon ruptures and tendinitis. J Shoulder Elbow Surg. 2022. https://pubmed.ncbi.nlm.nih.gov/34774776/",
+    "Li N, et al. Anterior Interosseous Nerve Syndrome. Orthop Rev. 2022. https://pmc.ncbi.nlm.nih.gov/articles/PMC9547755/",
+    "Sneag DB, et al. Anterior Interosseous Nerve Syndrome Reconsidered: A Critical Analysis Review. JBJS Rev. 2020. https://pubmed.ncbi.nlm.nih.gov/32890049/",
+    "Claessen FMAP, et al. Panner disease: literature review and treatment recommendations. J Child Orthop. 2015. https://pmc.ncbi.nlm.nih.gov/articles/PMC4340849/",
+    "Sheikh H, et al. Ossification of the Pediatric Elbow with a Focus on Radial Head Ossification Patterns. Curr Rev Musculoskelet Med. 2026. https://pmc.ncbi.nlm.nih.gov/articles/PMC13287200/",
+    "Kontogeorgakos VA, et al. Heterotopic Ossification around the Elbow Revisited. Medicina. 2023. https://pmc.ncbi.nlm.nih.gov/articles/PMC10744911/",
+    "Henstenburg JM, et al. Comparing Options for Heterotopic Ossification Prophylaxis following Elbow Trauma: A Systematic Review and Meta-Analysis. J Hand Microsurg. 2021. https://pmc.ncbi.nlm.nih.gov/articles/PMC8426039/",
+    "Schmidt CC, et al. Elbow flexion and forearm supination strength in a healthy population. J Shoulder Elbow Surg. 2017. https://pubmed.ncbi.nlm.nih.gov/28734715/"
   ],
   "validation": {
     "status": "passed",
@@ -390,8 +391,8 @@
       "SVG XML and render",
       "no new directories",
       "SHA-256",
-      "ZIP CRC/extraction/bit comparison/path"
+      "ZIP CRC/extraction/byte comparison/path safety"
     ]
   },
-  "generated_at_utc": "2026-10-02T00:10:20.300155+00:00"
+  "generated_at_utc": "2026-10-03T00:16:52.782999+00:00"
 }
