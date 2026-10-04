@@ -1,11 +1,11 @@
 {
-  "schema_version": 6,
-  "date": "2026-10-03",
-  "region": "肘部第六輪",
+  "schema_version": 4,
+  "date": "2026-10-04",
+  "region": "手腕與手第六輪",
   "github": {
     "repository": "janice880624/AT-Obsidian",
     "branch": "main",
-    "commit": "4d156d28086f9ea45da38a14791fe3d7ed892ba6",
+    "commit": "46e81228950eb37789231872dd8c5b21e46a20a8",
     "mode": "read-only"
   },
   "template_policy": {
@@ -78,11 +78,10 @@
     },
     "template_count": 16,
     "used_templates": [
+      "模板－STTT理學檢查.md",
       "模板－主觀問診.md",
       "模板－傷害.md",
-      "模板－功能性測試.md",
       "模板－特殊檢查.md",
-      "模板－神經.md",
       "模板－系統性評估.md",
       "模板－肌肉.md",
       "模板－身體檢查.md",
@@ -103,117 +102,119 @@
     "related_notes": 10,
     "knowledge_notes": 15,
     "svg": 3,
-    "index_or_support_files": 11
+    "index_or_support_files": 10
   },
   "topic_candidates_skipped": [
-    "肘部第一至第五輪所有既有主題",
-    "既有神經－正中神經與前骨間神經，改選內側前臂皮神經避免重複",
-    "既有肌腱－遠端肱二頭肌腱，改選肌肉－肱二頭肌與旋後肌",
-    "無專屬模板的筆記類型",
-    "任何需要建立新資料夾的候選主題"
+    "傷害－鉤骨鉤骨折",
+    "傷害－伸拇長肌腱斷裂",
+    "傷害－橈神經淺支卡壓",
+    "傷害－舟狀骨骨折",
+    "傷害－三角纖維軟骨複合體損傷",
+    "傷害－尺神經 Guyon 管症候群",
+    "功能性測試－手腕承重耐受測試"
   ],
   "notes": [
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－尺神經不穩定與彈響肱三頭肌.md",
-      "title": "傷害－尺神經不穩定與彈響肱三頭肌",
+      "path": "03_傷害與疾病/過度使用/傷害－Preiser 舟狀骨缺血性壞死.md",
+      "title": "傷害－Preiser 舟狀骨缺血性壞死",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－遠端肱二頭肌部分撕裂與肌腱病變.md",
-      "title": "傷害－遠端肱二頭肌部分撕裂與肌腱病變",
+      "path": "03_傷害與疾病/過度使用/傷害－體操選手腕與遠端橈骨骨骺壓力傷.md",
+      "title": "傷害－體操選手腕與遠端橈骨骨骺壓力傷",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－前骨間神經症候群.md",
-      "title": "傷害－前骨間神經症候群",
+      "path": "03_傷害與疾病/過度使用/傷害－腕背骨隆症候群.md",
+      "title": "傷害－腕背骨隆症候群",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－Panner 病（肱骨小頭骨軟骨病）.md",
-      "title": "傷害－Panner 病（肱骨小頭骨軟骨病）",
+      "path": "03_傷害與疾病/過度使用/傷害－腕背腱鞘囊腫.md",
+      "title": "傷害－腕背腱鞘囊腫",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－肘關節異位骨化與骨化性肌炎.md",
-      "title": "傷害－肘關節異位骨化與骨化性肌炎",
+      "path": "03_傷害與疾病/急性傷害/傷害－小魚際槌擊症候群.md",
+      "title": "傷害－小魚際槌擊症候群",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－兒童肘部骨化中心與肱骨小頭.md",
-      "title": "骨骼與關節－兒童肘部骨化中心與肱骨小頭",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－舟狀骨血供與近端極.md",
+      "title": "骨骼與關節－舟狀骨血供與近端極",
       "role": "相關",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "01_基礎解剖/肌肉/肌肉－肱二頭肌與旋後肌.md",
-      "title": "肌肉－肱二頭肌與旋後肌",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－遠端橈骨骨骺與腕部負荷.md",
+      "title": "骨骼與關節－遠端橈骨骨骺與腕部負荷",
+      "role": "相關",
+      "type": "骨骼或關節",
+      "template": "模板－骨骼或關節.md"
+    },
+    {
+      "path": "01_基礎解剖/骨骼/骨骼與關節－第二第三腕掌關節與腕背骨隆.md",
+      "title": "骨骼與關節－第二第三腕掌關節與腕背骨隆",
+      "role": "相關",
+      "type": "骨骼或關節",
+      "template": "模板－骨骼或關節.md"
+    },
+    {
+      "path": "01_基礎解剖/肌肉/肌肉－小魚際肌群與尺側掌部.md",
+      "title": "肌肉－小魚際肌群與尺側掌部",
       "role": "相關",
       "type": "肌肉",
       "template": "模板－肌肉.md"
     },
     {
-      "path": "01_基礎解剖/神經/神經－內側前臂皮神經於肘部.md",
-      "title": "神經－內側前臂皮神經於肘部",
-      "role": "相關",
-      "type": "神經",
-      "template": "模板－神經.md"
-    },
-    {
-      "path": "04_臨床評估/主觀問診/評估－兒童外側肘痛與骨化中心問診.md",
-      "title": "評估－兒童外側肘痛與骨化中心問診",
+      "path": "04_臨床評估/主觀問診/評估－手腕背側承重與腫塊問診.md",
+      "title": "評估－手腕背側承重與腫塊問診",
       "role": "相關",
       "type": "主觀問診",
       "template": "模板－主觀問診.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－動態彈響內側肘與神經安全分流.md",
-      "title": "評估－動態彈響內側肘與神經安全分流",
+      "path": "04_臨床評估/系統性評估/評估－手部缺血與尺動脈損傷安全分流.md",
+      "title": "評估－手部缺血與尺動脈損傷安全分流",
       "role": "相關",
       "type": "系統性評估",
       "template": "模板－系統性評估.md"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－前骨間神經純運動身體檢查.md",
-      "title": "評估－前骨間神經純運動身體檢查",
+      "path": "04_臨床評估/身體檢查/評估－腕背腫塊與手部灌流檢查.md",
+      "title": "評估－腕背腫塊與手部灌流檢查",
       "role": "相關",
       "type": "身體檢查",
       "template": "模板－身體檢查.md"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Distal Biceps Provocation Test.md",
-      "title": "特殊檢查－Distal Biceps Provocation Test",
+      "path": "04_臨床評估/系統性評估/評估－手腕背側承重痛 STTT 組織判別.md",
+      "title": "評估－手腕背側承重痛 STTT 組織判別",
+      "role": "相關",
+      "type": "STTT理學檢查",
+      "template": "模板－STTT理學檢查.md"
+    },
+    {
+      "path": "04_臨床評估/特殊檢查/特殊檢查－Allen Test.md",
+      "title": "特殊檢查－Allen Test",
       "role": "相關",
       "type": "特殊檢查",
       "template": "模板－特殊檢查.md"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－肘部動態尺神經半脫位檢查.md",
-      "title": "特殊檢查－肘部動態尺神經半脫位檢查",
-      "role": "相關",
-      "type": "特殊檢查",
-      "template": "模板－特殊檢查.md"
-    },
-    {
-      "path": "06_功能性測試/上肢/功能性測試－肘屈旋後持續耐力測試.md",
-      "title": "功能性測試－肘屈旋後持續耐力測試",
-      "role": "相關",
-      "type": "功能性測試",
-      "template": "模板－功能性測試.md"
-    },
-    {
-      "path": "05_處置與復健/運動治療/運動治療－遠端肱二頭肌部分損傷分級負荷.md",
-      "title": "運動治療－遠端肱二頭肌部分損傷分級負荷",
+      "path": "05_處置與復健/運動治療/運動治療－體操腕部承重分級進展.md",
+      "title": "運動治療－體操腕部承重分級進展",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
@@ -221,7 +222,7 @@
   ],
   "per_note_validation": [
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－尺神經不穩定與彈響肱三頭肌.md",
+      "path": "03_傷害與疾病/過度使用/傷害－Preiser 舟狀骨缺血性壞死.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -230,7 +231,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－遠端肱二頭肌部分撕裂與肌腱病變.md",
+      "path": "03_傷害與疾病/過度使用/傷害－體操選手腕與遠端橈骨骨骺壓力傷.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -239,7 +240,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－前骨間神經症候群.md",
+      "path": "03_傷害與疾病/過度使用/傷害－腕背骨隆症候群.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -248,7 +249,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－Panner 病（肱骨小頭骨軟骨病）.md",
+      "path": "03_傷害與疾病/過度使用/傷害－腕背腱鞘囊腫.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -257,7 +258,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－肘關節異位骨化與骨化性肌炎.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－小魚際槌擊症候群.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -266,7 +267,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－兒童肘部骨化中心與肱骨小頭.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－舟狀骨血供與近端極.md",
       "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
@@ -275,7 +276,25 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/肌肉/肌肉－肱二頭肌與旋後肌.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－遠端橈骨骨骺與腕部負荷.md",
+      "template": "模板－骨骼或關節.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "01_基礎解剖/骨骼/骨骼與關節－第二第三腕掌關節與腕背骨隆.md",
+      "template": "模板－骨骼或關節.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "01_基礎解剖/肌肉/肌肉－小魚際肌群與尺側掌部.md",
       "template": "模板－肌肉.md",
       "yaml": "passed",
       "h1": "passed",
@@ -284,16 +303,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/神經/神經－內側前臂皮神經於肘部.md",
-      "template": "模板－神經.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "04_臨床評估/主觀問診/評估－兒童外側肘痛與骨化中心問診.md",
+      "path": "04_臨床評估/主觀問診/評估－手腕背側承重與腫塊問診.md",
       "template": "模板－主觀問診.md",
       "yaml": "passed",
       "h1": "passed",
@@ -302,7 +312,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－動態彈響內側肘與神經安全分流.md",
+      "path": "04_臨床評估/系統性評估/評估－手部缺血與尺動脈損傷安全分流.md",
       "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
@@ -311,7 +321,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－前骨間神經純運動身體檢查.md",
+      "path": "04_臨床評估/身體檢查/評估－腕背腫塊與手部灌流檢查.md",
       "template": "模板－身體檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -320,7 +330,16 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Distal Biceps Provocation Test.md",
+      "path": "04_臨床評估/系統性評估/評估－手腕背側承重痛 STTT 組織判別.md",
+      "template": "模板－STTT理學檢查.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "04_臨床評估/特殊檢查/特殊檢查－Allen Test.md",
       "template": "模板－特殊檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -329,25 +348,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－肘部動態尺神經半脫位檢查.md",
-      "template": "模板－特殊檢查.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "06_功能性測試/上肢/功能性測試－肘屈旋後持續耐力測試.md",
-      "template": "模板－功能性測試.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "05_處置與復健/運動治療/運動治療－遠端肱二頭肌部分損傷分級負荷.md",
+      "path": "05_處置與復健/運動治療/運動治療－體操腕部承重分級進展.md",
       "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
@@ -357,25 +358,22 @@
     }
   ],
   "assets": [
-    "assets/anatomy/肘部第六輪兒童骨化中心與內側動態結構.svg",
-    "assets/special-tests/肘部第六輪遠端肱二頭肌誘發測試.svg",
-    "assets/assessment/肘部第六輪神經肌腱安全分流圖.svg"
+    "assets/anatomy/手腕與手第六輪結構關聯圖.svg",
+    "assets/assessment/手腕與手第六輪安全分流圖.svg",
+    "assets/assessment/手腕與手第六輪承重進展矩陣.svg"
   ],
   "sources_checked": [
-    "ACR Appropriateness Criteria: Acute Elbow and Forearm Pain. https://acsearch.acr.org/docs/3195154/Narrative/",
-    "ACR Appropriateness Criteria: Chronic Elbow Pain. https://acsearch.acr.org/docs/69423/Narrative/",
-    "Koh KH, et al. Snapping triceps syndrome: a review of the literature and proposed operative treatment algorithm. JSES Rev Rep Tech. 2025. https://pmc.ncbi.nlm.nih.gov/articles/PMC12553053/",
-    "Guillin R, et al. Hearing and Seeing Nerve/Tendon Snapping: A Systematic Review on Dynamic Ultrasound Examination. Diagnostics. 2023. https://pmc.ncbi.nlm.nih.gov/articles/PMC10422582/",
-    "MacLean S, et al. Current concepts in the aetiology, assessment and management of partial distal biceps tendon tears. Shoulder Elbow. 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11562466/",
-    "Caekebeke P, et al. Distal Biceps Provocation Test. J Shoulder Elbow Surg. 2021. https://pubmed.ncbi.nlm.nih.gov/33757665/",
-    "Caekebeke P, et al. Evaluation of clinical tests for partial distal biceps tendon ruptures and tendinitis. J Shoulder Elbow Surg. 2022. https://pubmed.ncbi.nlm.nih.gov/34774776/",
-    "Li N, et al. Anterior Interosseous Nerve Syndrome. Orthop Rev. 2022. https://pmc.ncbi.nlm.nih.gov/articles/PMC9547755/",
-    "Sneag DB, et al. Anterior Interosseous Nerve Syndrome Reconsidered: A Critical Analysis Review. JBJS Rev. 2020. https://pubmed.ncbi.nlm.nih.gov/32890049/",
-    "Claessen FMAP, et al. Panner disease: literature review and treatment recommendations. J Child Orthop. 2015. https://pmc.ncbi.nlm.nih.gov/articles/PMC4340849/",
-    "Sheikh H, et al. Ossification of the Pediatric Elbow with a Focus on Radial Head Ossification Patterns. Curr Rev Musculoskelet Med. 2026. https://pmc.ncbi.nlm.nih.gov/articles/PMC13287200/",
-    "Kontogeorgakos VA, et al. Heterotopic Ossification around the Elbow Revisited. Medicina. 2023. https://pmc.ncbi.nlm.nih.gov/articles/PMC10744911/",
-    "Henstenburg JM, et al. Comparing Options for Heterotopic Ossification Prophylaxis following Elbow Trauma: A Systematic Review and Meta-Analysis. J Hand Microsurg. 2021. https://pmc.ncbi.nlm.nih.gov/articles/PMC8426039/",
-    "Schmidt CC, et al. Elbow flexion and forearm supination strength in a healthy population. J Shoulder Elbow Surg. 2017. https://pubmed.ncbi.nlm.nih.gov/28734715/"
+    "ACR Appropriateness Criteria: Acute Hand and Wrist Trauma. https://acsearch.acr.org/docs/69418/Narrative/",
+    "ACR Appropriateness Criteria: Chronic Hand and Wrist Pain. https://acsearch.acr.org/docs/69427/Narrative/",
+    "Claessen FMAP, et al. Avascular Necrosis of the Scaphoid Preiser Disease. Arch Bone Jt Surg. 2020. https://pmc.ncbi.nlm.nih.gov/articles/PMC7007709/",
+    "Hart E, et al. Common upper extremity gymnastics injuries and gymnastic specific return to play protocols. 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC12088353/",
+    "Heyworth BE, et al. Gymnast's wrist: a retrospective analysis of descriptive epidemiology, clinical and radiologic features, and treatment outcomes. 2019. https://pmc.ncbi.nlm.nih.gov/articles/PMC6446364/",
+    "Vieweg H, et al. Diagnosis and Treatment of Symptomatic Carpal Bossing. J Clin Diagn Res. 2015. https://pmc.ncbi.nlm.nih.gov/articles/PMC4625297/",
+    "Mespreuve M, et al. Imaging Findings at the Quadrangular Joint in Carpal Boss. J Belg Soc Radiol. 2017. https://pmc.ncbi.nlm.nih.gov/articles/PMC5854333/",
+    "Horvath A, et al. Treatment of Primary Dorsal Wrist Ganglion—A Systematic Review. J Wrist Surg. 2022. https://pmc.ncbi.nlm.nih.gov/articles/PMC10010899/",
+    "Giardina J, et al. Dorsal Wrist Pain in the Extended Wrist-Loading Position: An MRI Study. J Wrist Surg. 2017. https://pmc.ncbi.nlm.nih.gov/articles/PMC5658215/",
+    "Ablett CT, Hackett LA. Hypothenar Hammer Syndrome: Case Reports and Brief Review. Clin Med Res. 2008. https://pmc.ncbi.nlm.nih.gov/articles/PMC2442026/",
+    "Bhat AK, et al. Hypothenar hammer syndrome: Case report and literature review. Int J Surg Case Rep. 2019. https://pmc.ncbi.nlm.nih.gov/articles/PMC6517613/"
   ],
   "validation": {
     "status": "passed",
@@ -388,11 +386,12 @@
       "no placeholders",
       "deduplication",
       "bidirectional indexes",
+      "new unresolved links = 0",
       "SVG XML and render",
       "no new directories",
       "SHA-256",
       "ZIP CRC/extraction/byte comparison/path safety"
     ]
   },
-  "generated_at_utc": "2026-10-03T00:16:52.782999+00:00"
+  "generated_at_utc": "2026-10-04T00:17:00.346504+00:00"
 }
