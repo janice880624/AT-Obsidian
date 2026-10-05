@@ -1,11 +1,11 @@
 {
   "schema_version": 4,
-  "date": "2026-10-04",
-  "region": "手腕與手第六輪",
+  "date": "2026-10-05",
+  "region": "胸腰椎第六輪",
   "github": {
     "repository": "janice880624/AT-Obsidian",
     "branch": "main",
-    "commit": "46e81228950eb37789231872dd8c5b21e46a20a8",
+    "commit": "45328b2aa2b99a11b61b67427b6323747574a5fc",
     "mode": "read-only"
   },
   "template_policy": {
@@ -78,12 +78,12 @@
     },
     "template_count": 16,
     "used_templates": [
-      "模板－STTT理學檢查.md",
       "模板－主觀問診.md",
       "模板－傷害.md",
+      "模板－功能性測試.md",
       "模板－特殊檢查.md",
+      "模板－神經.md",
       "模板－系統性評估.md",
-      "模板－肌肉.md",
       "模板－身體檢查.md",
       "模板－運動治療.md",
       "模板－骨骼或關節.md"
@@ -102,119 +102,120 @@
     "related_notes": 10,
     "knowledge_notes": 15,
     "svg": 3,
-    "index_or_support_files": 10
+    "index_or_support_files": 11
   },
   "topic_candidates_skipped": [
-    "傷害－鉤骨鉤骨折",
-    "傷害－伸拇長肌腱斷裂",
-    "傷害－橈神經淺支卡壓",
-    "傷害－舟狀骨骨折",
-    "傷害－三角纖維軟骨複合體損傷",
-    "傷害－尺神經 Guyon 管症候群",
-    "功能性測試－手腕承重耐受測試"
+    "傷害－胸腰椎壓迫性骨折",
+    "傷害－腰椎椎弓解離",
+    "傷害－胸椎椎間盤突出與脊髓病變",
+    "傷害－軸性脊椎關節炎早期辨識",
+    "傷害－原生性脊椎骨髓炎與椎間盤炎",
+    "傷害－腎臟與內臟轉移性胸腰痛",
+    "評估－成人運動員持續性胸腰痛安全分流",
+    "傷害－肋骨骨壓力性損傷"
   ],
   "notes": [
     {
-      "path": "03_傷害與疾病/過度使用/傷害－Preiser 舟狀骨缺血性壞死.md",
-      "title": "傷害－Preiser 舟狀骨缺血性壞死",
+      "path": "03_傷害與疾病/急性傷害/傷害－脊椎硬膜外膿瘍.md",
+      "title": "傷害－脊椎硬膜外膿瘍",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－體操選手腕與遠端橈骨骨骺壓力傷.md",
-      "title": "傷害－體操選手腕與遠端橈骨骨骺壓力傷",
+      "path": "03_傷害與疾病/過度使用/傷害－腰薦移行椎與 Bertolotti 症候群.md",
+      "title": "傷害－腰薦移行椎與 Bertolotti 症候群",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－腕背骨隆症候群.md",
-      "title": "傷害－腕背骨隆症候群",
+      "path": "03_傷害與疾病/神經卡壓/傷害－胸椎神經根病變.md",
+      "title": "傷害－胸椎神經根病變",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－腕背腱鞘囊腫.md",
-      "title": "傷害－腕背腱鞘囊腫",
+      "path": "03_傷害與疾病/過度使用/傷害－脊椎腫瘤與轉移性脊髓壓迫.md",
+      "title": "傷害－脊椎腫瘤與轉移性脊髓壓迫",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－小魚際槌擊症候群.md",
-      "title": "傷害－小魚際槌擊症候群",
+      "path": "04_臨床評估/系統性評估/評估－胸腰椎重大病因安全分流.md",
+      "title": "評估－胸腰椎重大病因安全分流",
       "role": "核心",
-      "type": "傷害",
-      "template": "模板－傷害.md"
+      "type": "系統性評估",
+      "template": "模板－系統性評估.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－舟狀骨血供與近端極.md",
-      "title": "骨骼與關節－舟狀骨血供與近端極",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－腰薦移行椎與假關節.md",
+      "title": "骨骼與關節－腰薦移行椎與假關節",
       "role": "相關",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－遠端橈骨骨骺與腕部負荷.md",
-      "title": "骨骼與關節－遠端橈骨骨骺與腕部負荷",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－脊椎硬膜外空間與椎體靜脈叢.md",
+      "title": "骨骼與關節－脊椎硬膜外空間與椎體靜脈叢",
       "role": "相關",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－第二第三腕掌關節與腕背骨隆.md",
-      "title": "骨骼與關節－第二第三腕掌關節與腕背骨隆",
+      "path": "01_基礎解剖/神經/神經－胸神經根與皮節.md",
+      "title": "神經－胸神經根與皮節",
       "role": "相關",
-      "type": "骨骼或關節",
-      "template": "模板－骨骼或關節.md"
+      "type": "神經",
+      "template": "模板－神經.md"
     },
     {
-      "path": "01_基礎解剖/肌肉/肌肉－小魚際肌群與尺側掌部.md",
-      "title": "肌肉－小魚際肌群與尺側掌部",
-      "role": "相關",
-      "type": "肌肉",
-      "template": "模板－肌肉.md"
-    },
-    {
-      "path": "04_臨床評估/主觀問診/評估－手腕背側承重與腫塊問診.md",
-      "title": "評估－手腕背側承重與腫塊問診",
+      "path": "04_臨床評估/主觀問診/評估－系統性背痛與全身風險問診.md",
+      "title": "評估－系統性背痛與全身風險問診",
       "role": "相關",
       "type": "主觀問診",
       "template": "模板－主觀問診.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－手部缺血與尺動脈損傷安全分流.md",
-      "title": "評估－手部缺血與尺動脈損傷安全分流",
+      "path": "04_臨床評估/主觀問診/評估－感染腫瘤與脊髓壓迫問診.md",
+      "title": "評估－感染腫瘤與脊髓壓迫問診",
       "role": "相關",
-      "type": "系統性評估",
-      "template": "模板－系統性評估.md"
+      "type": "主觀問診",
+      "template": "模板－主觀問診.md"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－腕背腫塊與手部灌流檢查.md",
-      "title": "評估－腕背腫塊與手部灌流檢查",
+      "path": "04_臨床評估/身體檢查/評估－胸髓與上運動神經元身體檢查.md",
+      "title": "評估－胸髓與上運動神經元身體檢查",
       "role": "相關",
       "type": "身體檢查",
       "template": "模板－身體檢查.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－手腕背側承重痛 STTT 組織判別.md",
-      "title": "評估－手腕背側承重痛 STTT 組織判別",
+      "path": "04_臨床評估/系統性評估/評估－急性主動脈症候群背痛分流.md",
+      "title": "評估－急性主動脈症候群背痛分流",
       "role": "相關",
-      "type": "STTT理學檢查",
-      "template": "模板－STTT理學檢查.md"
+      "type": "系統性評估",
+      "template": "模板－系統性評估.md"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Allen Test.md",
-      "title": "特殊檢查－Allen Test",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－Modified Schober Test.md",
+      "title": "特殊檢查－Modified Schober Test",
       "role": "相關",
       "type": "特殊檢查",
       "template": "模板－特殊檢查.md"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－體操腕部承重分級進展.md",
-      "title": "運動治療－體操腕部承重分級進展",
+      "path": "06_功能性測試/軀幹/功能性測試－6 分鐘步行測試.md",
+      "title": "功能性測試－6 分鐘步行測試",
+      "role": "相關",
+      "type": "功能性測試",
+      "template": "模板－功能性測試.md"
+    },
+    {
+      "path": "05_處置與復健/運動治療/運動治療－低風險胸腰痛分級活動進展.md",
+      "title": "運動治療－低風險胸腰痛分級活動進展",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
@@ -222,7 +223,7 @@
   ],
   "per_note_validation": [
     {
-      "path": "03_傷害與疾病/過度使用/傷害－Preiser 舟狀骨缺血性壞死.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－脊椎硬膜外膿瘍.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -231,7 +232,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－體操選手腕與遠端橈骨骨骺壓力傷.md",
+      "path": "03_傷害與疾病/過度使用/傷害－腰薦移行椎與 Bertolotti 症候群.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -240,7 +241,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－腕背骨隆症候群.md",
+      "path": "03_傷害與疾病/神經卡壓/傷害－胸椎神經根病變.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -249,7 +250,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－腕背腱鞘囊腫.md",
+      "path": "03_傷害與疾病/過度使用/傷害－脊椎腫瘤與轉移性脊髓壓迫.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -258,61 +259,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－小魚際槌擊症候群.md",
-      "template": "模板－傷害.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－舟狀骨血供與近端極.md",
-      "template": "模板－骨骼或關節.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－遠端橈骨骨骺與腕部負荷.md",
-      "template": "模板－骨骼或關節.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－第二第三腕掌關節與腕背骨隆.md",
-      "template": "模板－骨骼或關節.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "01_基礎解剖/肌肉/肌肉－小魚際肌群與尺側掌部.md",
-      "template": "模板－肌肉.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "04_臨床評估/主觀問診/評估－手腕背側承重與腫塊問診.md",
-      "template": "模板－主觀問診.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "04_臨床評估/系統性評估/評估－手部缺血與尺動脈損傷安全分流.md",
+      "path": "04_臨床評估/系統性評估/評估－胸腰椎重大病因安全分流.md",
       "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
@@ -321,7 +268,52 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－腕背腫塊與手部灌流檢查.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－腰薦移行椎與假關節.md",
+      "template": "模板－骨骼或關節.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "01_基礎解剖/骨骼/骨骼與關節－脊椎硬膜外空間與椎體靜脈叢.md",
+      "template": "模板－骨骼或關節.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "01_基礎解剖/神經/神經－胸神經根與皮節.md",
+      "template": "模板－神經.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "04_臨床評估/主觀問診/評估－系統性背痛與全身風險問診.md",
+      "template": "模板－主觀問診.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "04_臨床評估/主觀問診/評估－感染腫瘤與脊髓壓迫問診.md",
+      "template": "模板－主觀問診.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "04_臨床評估/身體檢查/評估－胸髓與上運動神經元身體檢查.md",
       "template": "模板－身體檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -330,8 +322,8 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－手腕背側承重痛 STTT 組織判別.md",
-      "template": "模板－STTT理學檢查.md",
+      "path": "04_臨床評估/系統性評估/評估－急性主動脈症候群背痛分流.md",
+      "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -339,7 +331,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Allen Test.md",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－Modified Schober Test.md",
       "template": "模板－特殊檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -348,7 +340,16 @@
       "links": "passed"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－體操腕部承重分級進展.md",
+      "path": "06_功能性測試/軀幹/功能性測試－6 分鐘步行測試.md",
+      "template": "模板－功能性測試.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "05_處置與復健/運動治療/運動治療－低風險胸腰痛分級活動進展.md",
       "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
@@ -358,22 +359,25 @@
     }
   ],
   "assets": [
-    "assets/anatomy/手腕與手第六輪結構關聯圖.svg",
-    "assets/assessment/手腕與手第六輪安全分流圖.svg",
-    "assets/assessment/手腕與手第六輪承重進展矩陣.svg"
+    "assets/anatomy/胸腰椎第六輪硬膜外與腰薦移行椎圖.svg",
+    "assets/assessment/胸腰椎第六輪重大病因安全分流圖.svg",
+    "assets/assessment/胸腰椎第六輪安全活動階梯.svg"
   ],
   "sources_checked": [
-    "ACR Appropriateness Criteria: Acute Hand and Wrist Trauma. https://acsearch.acr.org/docs/69418/Narrative/",
-    "ACR Appropriateness Criteria: Chronic Hand and Wrist Pain. https://acsearch.acr.org/docs/69427/Narrative/",
-    "Claessen FMAP, et al. Avascular Necrosis of the Scaphoid Preiser Disease. Arch Bone Jt Surg. 2020. https://pmc.ncbi.nlm.nih.gov/articles/PMC7007709/",
-    "Hart E, et al. Common upper extremity gymnastics injuries and gymnastic specific return to play protocols. 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC12088353/",
-    "Heyworth BE, et al. Gymnast's wrist: a retrospective analysis of descriptive epidemiology, clinical and radiologic features, and treatment outcomes. 2019. https://pmc.ncbi.nlm.nih.gov/articles/PMC6446364/",
-    "Vieweg H, et al. Diagnosis and Treatment of Symptomatic Carpal Bossing. J Clin Diagn Res. 2015. https://pmc.ncbi.nlm.nih.gov/articles/PMC4625297/",
-    "Mespreuve M, et al. Imaging Findings at the Quadrangular Joint in Carpal Boss. J Belg Soc Radiol. 2017. https://pmc.ncbi.nlm.nih.gov/articles/PMC5854333/",
-    "Horvath A, et al. Treatment of Primary Dorsal Wrist Ganglion—A Systematic Review. J Wrist Surg. 2022. https://pmc.ncbi.nlm.nih.gov/articles/PMC10010899/",
-    "Giardina J, et al. Dorsal Wrist Pain in the Extended Wrist-Loading Position: An MRI Study. J Wrist Surg. 2017. https://pmc.ncbi.nlm.nih.gov/articles/PMC5658215/",
-    "Ablett CT, Hackett LA. Hypothenar Hammer Syndrome: Case Reports and Brief Review. Clin Med Res. 2008. https://pmc.ncbi.nlm.nih.gov/articles/PMC2442026/",
-    "Bhat AK, et al. Hypothenar hammer syndrome: Case report and literature review. Int J Surg Case Rep. 2019. https://pmc.ncbi.nlm.nih.gov/articles/PMC6517613/"
+    "American College of Radiology. ACR Appropriateness Criteria: Thoracic Back Pain. 2024. https://acsearch.acr.org/docs/3195158/Narrative/",
+    "American College of Radiology. ACR Appropriateness Criteria: Low Back Pain. https://acsearch.acr.org/docs/69483/Narrative/",
+    "American College of Radiology. ACR Appropriateness Criteria: Suspected Acute Aortic Syndrome. https://pubmed.ncbi.nlm.nih.gov/34794601/",
+    "Arko L, et al. Medical and surgical management of spinal epidural abscess: a systematic review. Neurosurg Focus. 2014. https://pubmed.ncbi.nlm.nih.gov/25081964/",
+    "Tetsuka S, et al. Spinal Epidural Abscess: A Review Highlighting Early Diagnosis and Management. JMA J. 2020. https://pubmed.ncbi.nlm.nih.gov/33324773/",
+    "Jancuska JM, et al. A Review of Symptomatic Lumbosacral Transitional Vertebrae: Bertolotti's Syndrome. Int J Spine Surg. 2015. https://pubmed.ncbi.nlm.nih.gov/26484005/",
+    "Crane J, et al. A Comprehensive Update of the Treatment and Management of Bertolotti's Syndrome. Orthop Rev. 2021. https://pubmed.ncbi.nlm.nih.gov/34745474/",
+    "Wilbourn AJ, Aminoff MJ. Thoracic radiculopathy. Neurol Clin. 2002. https://pubmed.ncbi.nlm.nih.gov/12380552/",
+    "Mostert K, et al. Physical Therapy for Symptomatic Thoracic Radiculopathy: Systematic Review. 2024. https://pubmed.ncbi.nlm.nih.gov/38589206/",
+    "NICE. Spinal metastases and metastatic spinal cord compression (NG234). Published 2023-09-06. https://www.nice.org.uk/guidance/ng234/chapter/recommendations",
+    "Isselbacher EM, et al. 2022 ACC/AHA Guideline for the Diagnosis and Management of Aortic Disease. https://pubmed.ncbi.nlm.nih.gov/36322642/",
+    "Viitanen JV, et al. Clinical assessment of ankylosing spondylitis: observer variation in spinal measurements. Br J Rheumatol. 1991. https://pubmed.ncbi.nlm.nih.gov/1991213/",
+    "Castro MP, et al. Criterion-concurrent validity of spinal mobility tests in ankylosing spondylitis: systematic review. J Rheumatol. 2015. https://pubmed.ncbi.nlm.nih.gov/25399387/",
+    "American Thoracic Society. ATS statement: guidelines for the six-minute walk test. 2002. https://pubmed.ncbi.nlm.nih.gov/12091180/"
   ],
   "validation": {
     "status": "passed",
@@ -386,12 +390,12 @@
       "no placeholders",
       "deduplication",
       "bidirectional indexes",
-      "new unresolved links = 0",
+      "resolved new wikilinks",
       "SVG XML and render",
       "no new directories",
       "SHA-256",
-      "ZIP CRC/extraction/byte comparison/path safety"
+      "ZIP CRC/extraction/path"
     ]
   },
-  "generated_at_utc": "2026-10-04T00:17:00.346504+00:00"
+  "generated_at_utc": "2026-10-05T00:12:15.278617+00:00"
 }
