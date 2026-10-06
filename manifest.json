@@ -1,11 +1,11 @@
 {
-  "schema_version": 4,
-  "date": "2026-10-05",
-  "region": "胸腰椎第六輪",
+  "schema_version": 6,
+  "date": "2026-10-06",
+  "region": "骨盆與髖第六輪",
   "github": {
     "repository": "janice880624/AT-Obsidian",
     "branch": "main",
-    "commit": "45328b2aa2b99a11b61b67427b6323747574a5fc",
+    "commit": "5d237a890cf3f4b8617ec8785f24927c783f0209",
     "mode": "read-only"
   },
   "template_policy": {
@@ -80,12 +80,13 @@
     "used_templates": [
       "模板－主觀問診.md",
       "模板－傷害.md",
-      "模板－功能性測試.md",
       "模板－特殊檢查.md",
-      "模板－神經.md",
       "模板－系統性評估.md",
+      "模板－肌肉.md",
+      "模板－肌腱.md",
       "模板－身體檢查.md",
       "模板－運動治療.md",
+      "模板－韌帶.md",
       "模板－骨骼或關節.md"
     ],
     "validated_note_count": 15,
@@ -101,121 +102,130 @@
     "core_notes": 5,
     "related_notes": 10,
     "knowledge_notes": 15,
-    "svg": 3,
-    "index_or_support_files": 11
+    "svg": 3
   },
   "topic_candidates_skipped": [
-    "傷害－胸腰椎壓迫性骨折",
-    "傷害－腰椎椎弓解離",
-    "傷害－胸椎椎間盤突出與脊髓病變",
-    "傷害－軸性脊椎關節炎早期辨識",
-    "傷害－原生性脊椎骨髓炎與椎間盤炎",
-    "傷害－腎臟與內臟轉移性胸腰痛",
-    "評估－成人運動員持續性胸腰痛安全分流",
-    "傷害－肋骨骨壓力性損傷"
+    "股骨頸骨應力傷",
+    "股骨髖臼夾擠症候群",
+    "髖臼唇損傷",
+    "急性髖關節脫臼",
+    "髖關節化膿性關節炎",
+    "股骨頭骨骺滑脫",
+    "股骨頭骨壞死",
+    "髂腰肌症候群與內彈響髖",
+    "薦髂關節相關疼痛",
+    "大轉子疼痛症候群與臀肌肌腱病變",
+    "近端腿後肌肌腱病變",
+    "薦骨壓力性損傷",
+    "深臀症候群",
+    "運動員核心肌肉損傷與腹股溝管相關疼痛",
+    "恥骨炎與恥骨聯合應力反應",
+    "恥骨支骨壓力性損傷",
+    "坐骨股夾擠症候群",
+    "股外側皮神經卡壓"
   ],
   "notes": [
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－脊椎硬膜外膿瘍.md",
-      "title": "傷害－脊椎硬膜外膿瘍",
+      "path": "03_傷害與疾病/過度使用/傷害－髖臼發育不良與結構性不穩定.md",
+      "title": "傷害－髖臼發育不良與結構性不穩定",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－腰薦移行椎與 Bertolotti 症候群.md",
-      "title": "傷害－腰薦移行椎與 Bertolotti 症候群",
+      "path": "03_傷害與疾病/過度使用/傷害－髖微不穩定.md",
+      "title": "傷害－髖微不穩定",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－胸椎神經根病變.md",
-      "title": "傷害－胸椎神經根病變",
+      "path": "03_傷害與疾病/急性傷害/傷害－Morel-Lavallée 閉合性脫套傷.md",
+      "title": "傷害－Morel-Lavallée 閉合性脫套傷",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－脊椎腫瘤與轉移性脊髓壓迫.md",
-      "title": "傷害－脊椎腫瘤與轉移性脊髓壓迫",
+      "path": "03_傷害與疾病/急性傷害/傷害－近端股直肌損傷.md",
+      "title": "傷害－近端股直肌損傷",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－胸腰椎重大病因安全分流.md",
-      "title": "評估－胸腰椎重大病因安全分流",
+      "path": "03_傷害與疾病/神經卡壓/傷害－閉孔神經病變與運動相關腹股溝痛.md",
+      "title": "傷害－閉孔神經病變與運動相關腹股溝痛",
       "role": "核心",
-      "type": "系統性評估",
-      "template": "模板－系統性評估.md"
+      "type": "傷害",
+      "template": "模板－傷害.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－腰薦移行椎與假關節.md",
-      "title": "骨骼與關節－腰薦移行椎與假關節",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－髖臼覆蓋與股骨頭穩定.md",
+      "title": "骨骼與關節－髖臼覆蓋與股骨頭穩定",
       "role": "相關",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－脊椎硬膜外空間與椎體靜脈叢.md",
-      "title": "骨骼與關節－脊椎硬膜外空間與椎體靜脈叢",
+      "path": "01_基礎解剖/韌帶/韌帶－髖關節圓韌帶.md",
+      "title": "韌帶－髖關節圓韌帶",
       "role": "相關",
-      "type": "骨骼或關節",
-      "template": "模板－骨骼或關節.md"
+      "type": "韌帶",
+      "template": "模板－韌帶.md"
     },
     {
-      "path": "01_基礎解剖/神經/神經－胸神經根與皮節.md",
-      "title": "神經－胸神經根與皮節",
+      "path": "01_基礎解剖/肌肉/肌肉－股直肌近端複合體.md",
+      "title": "肌肉－股直肌近端複合體",
       "role": "相關",
-      "type": "神經",
-      "template": "模板－神經.md"
+      "type": "肌肉",
+      "template": "模板－肌肉.md"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－系統性背痛與全身風險問診.md",
-      "title": "評估－系統性背痛與全身風險問診",
+      "path": "01_基礎解剖/肌腱/肌腱－近端股直肌腱與中央肌腱膜.md",
+      "title": "肌腱－近端股直肌腱與中央肌腱膜",
+      "role": "相關",
+      "type": "肌腱",
+      "template": "模板－肌腱.md"
+    },
+    {
+      "path": "04_臨床評估/主觀問診/評估－髖周剪力傷與軟組織腫脹問診.md",
+      "title": "評估－髖周剪力傷與軟組織腫脹問診",
       "role": "相關",
       "type": "主觀問診",
       "template": "模板－主觀問診.md"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－感染腫瘤與脊髓壓迫問診.md",
-      "title": "評估－感染腫瘤與脊髓壓迫問診",
-      "role": "相關",
-      "type": "主觀問診",
-      "template": "模板－主觀問診.md"
-    },
-    {
-      "path": "04_臨床評估/身體檢查/評估－胸髓與上運動神經元身體檢查.md",
-      "title": "評估－胸髓與上運動神經元身體檢查",
+      "path": "04_臨床評估/身體檢查/評估－髖微不穩定系統性身體檢查.md",
+      "title": "評估－髖微不穩定系統性身體檢查",
       "role": "相關",
       "type": "身體檢查",
       "template": "模板－身體檢查.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－急性主動脈症候群背痛分流.md",
-      "title": "評估－急性主動脈症候群背痛分流",
-      "role": "相關",
-      "type": "系統性評估",
-      "template": "模板－系統性評估.md"
-    },
-    {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Modified Schober Test.md",
-      "title": "特殊檢查－Modified Schober Test",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－AB-HEER、HEER 與俯臥不穩定測試組.md",
+      "title": "特殊檢查－AB-HEER、HEER 與俯臥不穩定測試組",
       "role": "相關",
       "type": "特殊檢查",
       "template": "模板－特殊檢查.md"
     },
     {
-      "path": "06_功能性測試/軀幹/功能性測試－6 分鐘步行測試.md",
-      "title": "功能性測試－6 分鐘步行測試",
+      "path": "04_臨床評估/系統性評估/評估－非關節炎性前髖痛與不穩定安全分流.md",
+      "title": "評估－非關節炎性前髖痛與不穩定安全分流",
       "role": "相關",
-      "type": "功能性測試",
-      "template": "模板－功能性測試.md"
+      "type": "系統性評估",
+      "template": "模板－系統性評估.md"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－低風險胸腰痛分級活動進展.md",
-      "title": "運動治療－低風險胸腰痛分級活動進展",
+      "path": "05_處置與復健/運動治療/運動治療－髖臼發育不良與微不穩定漸進負荷.md",
+      "title": "運動治療－髖臼發育不良與微不穩定漸進負荷",
+      "role": "相關",
+      "type": "運動治療",
+      "template": "模板－運動治療.md"
+    },
+    {
+      "path": "05_處置與復健/運動治療/運動治療－近端股直肌分期負荷與回場.md",
+      "title": "運動治療－近端股直肌分期負荷與回場",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
@@ -223,7 +233,7 @@
   ],
   "per_note_validation": [
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－脊椎硬膜外膿瘍.md",
+      "path": "03_傷害與疾病/過度使用/傷害－髖臼發育不良與結構性不穩定.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -232,7 +242,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－腰薦移行椎與 Bertolotti 症候群.md",
+      "path": "03_傷害與疾病/過度使用/傷害－髖微不穩定.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -241,7 +251,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－胸椎神經根病變.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－Morel-Lavallée 閉合性脫套傷.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -250,7 +260,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－脊椎腫瘤與轉移性脊髓壓迫.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－近端股直肌損傷.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -259,8 +269,8 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－胸腰椎重大病因安全分流.md",
-      "template": "模板－系統性評估.md",
+      "path": "03_傷害與疾病/神經卡壓/傷害－閉孔神經病變與運動相關腹股溝痛.md",
+      "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -268,7 +278,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－腰薦移行椎與假關節.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－髖臼覆蓋與股骨頭穩定.md",
       "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
@@ -277,8 +287,8 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－脊椎硬膜外空間與椎體靜脈叢.md",
-      "template": "模板－骨骼或關節.md",
+      "path": "01_基礎解剖/韌帶/韌帶－髖關節圓韌帶.md",
+      "template": "模板－韌帶.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -286,8 +296,8 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/神經/神經－胸神經根與皮節.md",
-      "template": "模板－神經.md",
+      "path": "01_基礎解剖/肌肉/肌肉－股直肌近端複合體.md",
+      "template": "模板－肌肉.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -295,7 +305,16 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－系統性背痛與全身風險問診.md",
+      "path": "01_基礎解剖/肌腱/肌腱－近端股直肌腱與中央肌腱膜.md",
+      "template": "模板－肌腱.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "04_臨床評估/主觀問診/評估－髖周剪力傷與軟組織腫脹問診.md",
       "template": "模板－主觀問診.md",
       "yaml": "passed",
       "h1": "passed",
@@ -304,16 +323,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－感染腫瘤與脊髓壓迫問診.md",
-      "template": "模板－主觀問診.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "04_臨床評估/身體檢查/評估－胸髓與上運動神經元身體檢查.md",
+      "path": "04_臨床評估/身體檢查/評估－髖微不穩定系統性身體檢查.md",
       "template": "模板－身體檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -322,16 +332,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－急性主動脈症候群背痛分流.md",
-      "template": "模板－系統性評估.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Modified Schober Test.md",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－AB-HEER、HEER 與俯臥不穩定測試組.md",
       "template": "模板－特殊檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -340,8 +341,8 @@
       "links": "passed"
     },
     {
-      "path": "06_功能性測試/軀幹/功能性測試－6 分鐘步行測試.md",
-      "template": "模板－功能性測試.md",
+      "path": "04_臨床評估/系統性評估/評估－非關節炎性前髖痛與不穩定安全分流.md",
+      "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -349,7 +350,16 @@
       "links": "passed"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－低風險胸腰痛分級活動進展.md",
+      "path": "05_處置與復健/運動治療/運動治療－髖臼發育不良與微不穩定漸進負荷.md",
+      "template": "模板－運動治療.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "05_處置與復健/運動治療/運動治療－近端股直肌分期負荷與回場.md",
       "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
@@ -359,26 +369,36 @@
     }
   ],
   "assets": [
-    "assets/anatomy/胸腰椎第六輪硬膜外與腰薦移行椎圖.svg",
-    "assets/assessment/胸腰椎第六輪重大病因安全分流圖.svg",
-    "assets/assessment/胸腰椎第六輪安全活動階梯.svg"
+    "assets/anatomy/骨盆髖第六輪穩定結構圖.svg",
+    "assets/assessment/骨盆髖第六輪不穩定評估流程.svg",
+    "assets/assessment/骨盆髖第六輪負荷決策矩陣.svg"
   ],
   "sources_checked": [
-    "American College of Radiology. ACR Appropriateness Criteria: Thoracic Back Pain. 2024. https://acsearch.acr.org/docs/3195158/Narrative/",
-    "American College of Radiology. ACR Appropriateness Criteria: Low Back Pain. https://acsearch.acr.org/docs/69483/Narrative/",
-    "American College of Radiology. ACR Appropriateness Criteria: Suspected Acute Aortic Syndrome. https://pubmed.ncbi.nlm.nih.gov/34794601/",
-    "Arko L, et al. Medical and surgical management of spinal epidural abscess: a systematic review. Neurosurg Focus. 2014. https://pubmed.ncbi.nlm.nih.gov/25081964/",
-    "Tetsuka S, et al. Spinal Epidural Abscess: A Review Highlighting Early Diagnosis and Management. JMA J. 2020. https://pubmed.ncbi.nlm.nih.gov/33324773/",
-    "Jancuska JM, et al. A Review of Symptomatic Lumbosacral Transitional Vertebrae: Bertolotti's Syndrome. Int J Spine Surg. 2015. https://pubmed.ncbi.nlm.nih.gov/26484005/",
-    "Crane J, et al. A Comprehensive Update of the Treatment and Management of Bertolotti's Syndrome. Orthop Rev. 2021. https://pubmed.ncbi.nlm.nih.gov/34745474/",
-    "Wilbourn AJ, Aminoff MJ. Thoracic radiculopathy. Neurol Clin. 2002. https://pubmed.ncbi.nlm.nih.gov/12380552/",
-    "Mostert K, et al. Physical Therapy for Symptomatic Thoracic Radiculopathy: Systematic Review. 2024. https://pubmed.ncbi.nlm.nih.gov/38589206/",
-    "NICE. Spinal metastases and metastatic spinal cord compression (NG234). Published 2023-09-06. https://www.nice.org.uk/guidance/ng234/chapter/recommendations",
-    "Isselbacher EM, et al. 2022 ACC/AHA Guideline for the Diagnosis and Management of Aortic Disease. https://pubmed.ncbi.nlm.nih.gov/36322642/",
-    "Viitanen JV, et al. Clinical assessment of ankylosing spondylitis: observer variation in spinal measurements. Br J Rheumatol. 1991. https://pubmed.ncbi.nlm.nih.gov/1991213/",
-    "Castro MP, et al. Criterion-concurrent validity of spinal mobility tests in ankylosing spondylitis: systematic review. J Rheumatol. 2015. https://pubmed.ncbi.nlm.nih.gov/25399387/",
-    "American Thoracic Society. ATS statement: guidelines for the six-minute walk test. 2002. https://pubmed.ncbi.nlm.nih.gov/12091180/"
+    "ACR Appropriateness Criteria: Chronic Hip Pain. https://acsearch.acr.org/docs/69425/Narrative/",
+    "Reiman MP, et al. Consensus recommendations on classification, definition and diagnostic criteria of hip-related pain in young and middle-aged active adults. Br J Sports Med. 2020. https://pubmed.ncbi.nlm.nih.gov/31959678/",
+    "Khanduja V, et al. Diagnosing Hip Microinstability: an international consensus study using the Delphi methodology. KSSTA. 2023. https://pubmed.ncbi.nlm.nih.gov/35499620/",
+    "How Should Hip Instability Be Clinically Diagnosed? International multidisciplinary Delphi consensus. Arthroscopy. 2026. https://pubmed.ncbi.nlm.nih.gov/41911001/",
+    "Hoppe DJ, et al. Diagnostic Accuracy of 3 Physical Examination Tests in the Assessment of Hip Microinstability. Orthop J Sports Med. 2017. https://pubmed.ncbi.nlm.nih.gov/29226163/",
+    "Disantis AE, et al. Non-Operative Rehabilitation Principles for Use in Individuals with Acetabular Dysplasia: A North American Based Delphi Study. IJSPT. 2023. https://pubmed.ncbi.nlm.nih.gov/38050551/",
+    "Nepple JJ, et al. A Contemporary Definition of Hip Dysplasia and Structural Instability. JBJS. 2017. https://pubmed.ncbi.nlm.nih.gov/28389135/",
+    "Yang Y, Tang TT. The Morel-Lavallée Lesion: Review and Update on Diagnosis and Management. Orthop Surg. 2023. https://pubmed.ncbi.nlm.nih.gov/37526135/",
+    "Characteristics, Patterns and Optimal Treatment Strategies of Morel-Lavallee Lesions: A Systematic Review. J Orthop Trauma. 2025. https://pubmed.ncbi.nlm.nih.gov/40333732/",
+    "Kayani B, et al. The management of proximal rectus femoris avulsion injuries. EFORT Open Rev. 2020. https://pubmed.ncbi.nlm.nih.gov/33312709/",
+    "Isolated, Full-Thickness Proximal Rectus Femoris Injury in Competitive Athletes: A Systematic Review. 2023. https://pubmed.ncbi.nlm.nih.gov/36743725/",
+    "Imaging and Clinical Factors Associated With Return to Play and Recurrence After Quadriceps Muscle Strain Injury. Am J Sports Med. 2026. https://pubmed.ncbi.nlm.nih.gov/42661294/",
+    "Bradshaw C, et al. Obturator nerve entrapment: a cause of groin pain in athletes. Am J Sports Med. 1997. https://pubmed.ncbi.nlm.nih.gov/9167824/",
+    "Tipton JS. Obturator neuropathy. Curr Rev Musculoskelet Med. 2008. https://pubmed.ncbi.nlm.nih.gov/19468309/",
+    "Haviv B, O’Donnell J. Clinical relevance of the ligamentum teres: a literature review. Int J Sports Phys Ther. 2019. https://pubmed.ncbi.nlm.nih.gov/31681504/"
   ],
+  "link_policy": {
+    "new_unresolved_links": 0,
+    "preexisting_home_placeholders_unchanged": [
+      "緊急處置流程",
+      "文獻索引",
+      "新個案評估",
+      "臨床問題清單"
+    ]
+  },
   "validation": {
     "status": "passed",
     "checks": [
@@ -390,12 +410,12 @@
       "no placeholders",
       "deduplication",
       "bidirectional indexes",
-      "resolved new wikilinks",
+      "new unresolved links = 0",
       "SVG XML and render",
       "no new directories",
       "SHA-256",
-      "ZIP CRC/extraction/path"
+      "ZIP CRC/extraction/path/byte compare"
     ]
   },
-  "generated_at_utc": "2026-10-05T00:12:15.278617+00:00"
+  "generated_at_utc": "2026-10-06T00:13:41.583642+00:00"
 }
