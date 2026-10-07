@@ -1,11 +1,11 @@
 {
   "schema_version": 6,
-  "date": "2026-10-06",
-  "region": "骨盆與髖第六輪",
+  "date": "2026-10-07",
+  "region": "膝部第六輪",
   "github": {
     "repository": "janice880624/AT-Obsidian",
     "branch": "main",
-    "commit": "5d237a890cf3f4b8617ec8785f24927c783f0209",
+    "commit": "de56a956cf3a0174339a6bbbaeb5af201c2cde81",
     "mode": "read-only"
   },
   "template_policy": {
@@ -82,8 +82,6 @@
       "模板－傷害.md",
       "模板－特殊檢查.md",
       "模板－系統性評估.md",
-      "模板－肌肉.md",
-      "模板－肌腱.md",
       "模板－身體檢查.md",
       "模板－運動治療.md",
       "模板－韌帶.md",
@@ -105,127 +103,131 @@
     "svg": 3
   },
   "topic_candidates_skipped": [
-    "股骨頸骨應力傷",
-    "股骨髖臼夾擠症候群",
-    "髖臼唇損傷",
-    "急性髖關節脫臼",
-    "髖關節化膿性關節炎",
-    "股骨頭骨骺滑脫",
-    "股骨頭骨壞死",
-    "髂腰肌症候群與內彈響髖",
-    "薦髂關節相關疼痛",
-    "大轉子疼痛症候群與臀肌肌腱病變",
-    "近端腿後肌肌腱病變",
-    "薦骨壓力性損傷",
-    "深臀症候群",
-    "運動員核心肌肉損傷與腹股溝管相關疼痛",
-    "恥骨炎與恥骨聯合應力反應",
-    "恥骨支骨壓力性損傷",
-    "坐骨股夾擠症候群",
-    "股外側皮神經卡壓"
+    "前十字韌帶損傷",
+    "急性半月板損傷",
+    "髕股疼痛",
+    "髕腱病變",
+    "後十字韌帶損傷",
+    "膝後外側角損傷",
+    "急性髕骨外側脫位",
+    "膝關節骨軟骨損傷",
+    "脛骨平台骨折",
+    "膝伸肌機轉斷裂",
+    "脛骨粗隆撕脫骨折",
+    "Osgood-Schlatter 病",
+    "脛骨髁間隆起撕脫骨折",
+    "盤狀外側半月板",
+    "半月板根部損傷",
+    "髂脛束症候群",
+    "髕前滑囊炎",
+    "膝軟骨下不足性骨折",
+    "膝滑膜皺襞症候群",
+    "髕下脂肪墊相關疼痛",
+    "鵝足肌腱滑囊區疼痛",
+    "Baker 囊腫與膕窩囊腫"
   ],
   "notes": [
     {
-      "path": "03_傷害與疾病/過度使用/傷害－髖臼發育不良與結構性不穩定.md",
-      "title": "傷害－髖臼發育不良與結構性不穩定",
+      "path": "03_傷害與疾病/過度使用/傷害－膝部剝離性骨軟骨炎.md",
+      "title": "傷害－膝部剝離性骨軟骨炎",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－髖微不穩定.md",
-      "title": "傷害－髖微不穩定",
+      "path": "03_傷害與疾病/急性傷害/傷害－髕骨套袖骨折.md",
+      "title": "傷害－髕骨套袖骨折",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－Morel-Lavallée 閉合性脫套傷.md",
-      "title": "傷害－Morel-Lavallée 閉合性脫套傷",
+      "path": "03_傷害與疾病/過度使用/傷害－Sinding-Larsen-Johansson 病.md",
+      "title": "傷害－Sinding-Larsen-Johansson 病",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－近端股直肌損傷.md",
-      "title": "傷害－近端股直肌損傷",
+      "path": "03_傷害與疾病/急性傷害/傷害－近端脛腓關節不穩定.md",
+      "title": "傷害－近端脛腓關節不穩定",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－閉孔神經病變與運動相關腹股溝痛.md",
-      "title": "傷害－閉孔神經病變與運動相關腹股溝痛",
+      "path": "03_傷害與疾病/神經卡壓/傷害－腓總神經病變與腓骨頸卡壓.md",
+      "title": "傷害－腓總神經病變與腓骨頸卡壓",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－髖臼覆蓋與股骨頭穩定.md",
-      "title": "骨骼與關節－髖臼覆蓋與股骨頭穩定",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－兒童髕骨下極與伸膝附著單元.md",
+      "title": "骨骼與關節－兒童髕骨下極與伸膝附著單元",
       "role": "相關",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "01_基礎解剖/韌帶/韌帶－髖關節圓韌帶.md",
-      "title": "韌帶－髖關節圓韌帶",
+      "path": "01_基礎解剖/韌帶/韌帶－近端脛腓關節囊韌帶複合體.md",
+      "title": "韌帶－近端脛腓關節囊韌帶複合體",
       "role": "相關",
       "type": "韌帶",
       "template": "模板－韌帶.md"
     },
     {
-      "path": "01_基礎解剖/肌肉/肌肉－股直肌近端複合體.md",
-      "title": "肌肉－股直肌近端複合體",
-      "role": "相關",
-      "type": "肌肉",
-      "template": "模板－肌肉.md"
-    },
-    {
-      "path": "01_基礎解剖/肌腱/肌腱－近端股直肌腱與中央肌腱膜.md",
-      "title": "肌腱－近端股直肌腱與中央肌腱膜",
-      "role": "相關",
-      "type": "肌腱",
-      "template": "模板－肌腱.md"
-    },
-    {
-      "path": "04_臨床評估/主觀問診/評估－髖周剪力傷與軟組織腫脹問診.md",
-      "title": "評估－髖周剪力傷與軟組織腫脹問診",
+      "path": "04_臨床評估/主觀問診/評估－青少年膝前痛與生長期負荷問診.md",
+      "title": "評估－青少年膝前痛與生長期負荷問診",
       "role": "相關",
       "type": "主觀問診",
       "template": "模板－主觀問診.md"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－髖微不穩定系統性身體檢查.md",
-      "title": "評估－髖微不穩定系統性身體檢查",
-      "role": "相關",
-      "type": "身體檢查",
-      "template": "模板－身體檢查.md"
-    },
-    {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－AB-HEER、HEER 與俯臥不穩定測試組.md",
-      "title": "特殊檢查－AB-HEER、HEER 與俯臥不穩定測試組",
-      "role": "相關",
-      "type": "特殊檢查",
-      "template": "模板－特殊檢查.md"
-    },
-    {
-      "path": "04_臨床評估/系統性評估/評估－非關節炎性前髖痛與不穩定安全分流.md",
-      "title": "評估－非關節炎性前髖痛與不穩定安全分流",
+      "path": "04_臨床評估/系統性評估/評估－兒童急性伸膝失能與髕骨下極安全分流.md",
+      "title": "評估－兒童急性伸膝失能與髕骨下極安全分流",
       "role": "相關",
       "type": "系統性評估",
       "template": "模板－系統性評估.md"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－髖臼發育不良與微不穩定漸進負荷.md",
-      "title": "運動治療－髖臼發育不良與微不穩定漸進負荷",
+      "path": "04_臨床評估/系統性評估/評估－足下垂與膝外側麻木神經定位分流.md",
+      "title": "評估－足下垂與膝外側麻木神經定位分流",
+      "role": "相關",
+      "type": "系統性評估",
+      "template": "模板－系統性評估.md"
+    },
+    {
+      "path": "04_臨床評估/身體檢查/評估－近端脛腓關節與腓總神經身體檢查.md",
+      "title": "評估－近端脛腓關節與腓總神經身體檢查",
+      "role": "相關",
+      "type": "身體檢查",
+      "template": "模板－身體檢查.md"
+    },
+    {
+      "path": "04_臨床評估/特殊檢查/特殊檢查－Wilson Sign.md",
+      "title": "特殊檢查－Wilson Sign",
+      "role": "相關",
+      "type": "特殊檢查",
+      "template": "模板－特殊檢查.md"
+    },
+    {
+      "path": "04_臨床評估/特殊檢查/特殊檢查－近端脛腓關節前後向移動比較.md",
+      "title": "特殊檢查－近端脛腓關節前後向移動比較",
+      "role": "相關",
+      "type": "特殊檢查",
+      "template": "模板－特殊檢查.md"
+    },
+    {
+      "path": "05_處置與復健/運動治療/運動治療－SLJ 症狀導向負荷進展.md",
+      "title": "運動治療－SLJ 症狀導向負荷進展",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－近端股直肌分期負荷與回場.md",
-      "title": "運動治療－近端股直肌分期負荷與回場",
+      "path": "05_處置與復健/運動治療/運動治療－膝部 OCD 非手術保護與負荷進展.md",
+      "title": "運動治療－膝部 OCD 非手術保護與負荷進展",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
@@ -233,7 +235,7 @@
   ],
   "per_note_validation": [
     {
-      "path": "03_傷害與疾病/過度使用/傷害－髖臼發育不良與結構性不穩定.md",
+      "path": "03_傷害與疾病/過度使用/傷害－膝部剝離性骨軟骨炎.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -242,7 +244,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－髖微不穩定.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－髕骨套袖骨折.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -251,7 +253,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－Morel-Lavallée 閉合性脫套傷.md",
+      "path": "03_傷害與疾病/過度使用/傷害－Sinding-Larsen-Johansson 病.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -260,7 +262,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－近端股直肌損傷.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－近端脛腓關節不穩定.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -269,7 +271,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－閉孔神經病變與運動相關腹股溝痛.md",
+      "path": "03_傷害與疾病/神經卡壓/傷害－腓總神經病變與腓骨頸卡壓.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -278,7 +280,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－髖臼覆蓋與股骨頭穩定.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－兒童髕骨下極與伸膝附著單元.md",
       "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
@@ -287,7 +289,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/韌帶/韌帶－髖關節圓韌帶.md",
+      "path": "01_基礎解剖/韌帶/韌帶－近端脛腓關節囊韌帶複合體.md",
       "template": "模板－韌帶.md",
       "yaml": "passed",
       "h1": "passed",
@@ -296,25 +298,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/肌肉/肌肉－股直肌近端複合體.md",
-      "template": "模板－肌肉.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "01_基礎解剖/肌腱/肌腱－近端股直肌腱與中央肌腱膜.md",
-      "template": "模板－肌腱.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "04_臨床評估/主觀問診/評估－髖周剪力傷與軟組織腫脹問診.md",
+      "path": "04_臨床評估/主觀問診/評估－青少年膝前痛與生長期負荷問診.md",
       "template": "模板－主觀問診.md",
       "yaml": "passed",
       "h1": "passed",
@@ -323,25 +307,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－髖微不穩定系統性身體檢查.md",
-      "template": "模板－身體檢查.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－AB-HEER、HEER 與俯臥不穩定測試組.md",
-      "template": "模板－特殊檢查.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "04_臨床評估/系統性評估/評估－非關節炎性前髖痛與不穩定安全分流.md",
+      "path": "04_臨床評估/系統性評估/評估－兒童急性伸膝失能與髕骨下極安全分流.md",
       "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
@@ -350,7 +316,43 @@
       "links": "passed"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－髖臼發育不良與微不穩定漸進負荷.md",
+      "path": "04_臨床評估/系統性評估/評估－足下垂與膝外側麻木神經定位分流.md",
+      "template": "模板－系統性評估.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "04_臨床評估/身體檢查/評估－近端脛腓關節與腓總神經身體檢查.md",
+      "template": "模板－身體檢查.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "04_臨床評估/特殊檢查/特殊檢查－Wilson Sign.md",
+      "template": "模板－特殊檢查.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "04_臨床評估/特殊檢查/特殊檢查－近端脛腓關節前後向移動比較.md",
+      "template": "模板－特殊檢查.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "05_處置與復健/運動治療/運動治療－SLJ 症狀導向負荷進展.md",
       "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
@@ -359,7 +361,7 @@
       "links": "passed"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－近端股直肌分期負荷與回場.md",
+      "path": "05_處置與復健/運動治療/運動治療－膝部 OCD 非手術保護與負荷進展.md",
       "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
@@ -369,26 +371,27 @@
     }
   ],
   "assets": [
-    "assets/anatomy/骨盆髖第六輪穩定結構圖.svg",
-    "assets/assessment/骨盆髖第六輪不穩定評估流程.svg",
-    "assets/assessment/骨盆髖第六輪負荷決策矩陣.svg"
+    "assets/anatomy/膝部第六輪兒童髕骨與外側膝結構圖.svg",
+    "assets/assessment/膝部第六輪兒童伸膝失能安全分流圖.svg",
+    "assets/assessment/膝部第六輪負荷與神經監測矩陣.svg"
   ],
   "sources_checked": [
-    "ACR Appropriateness Criteria: Chronic Hip Pain. https://acsearch.acr.org/docs/69425/Narrative/",
-    "Reiman MP, et al. Consensus recommendations on classification, definition and diagnostic criteria of hip-related pain in young and middle-aged active adults. Br J Sports Med. 2020. https://pubmed.ncbi.nlm.nih.gov/31959678/",
-    "Khanduja V, et al. Diagnosing Hip Microinstability: an international consensus study using the Delphi methodology. KSSTA. 2023. https://pubmed.ncbi.nlm.nih.gov/35499620/",
-    "How Should Hip Instability Be Clinically Diagnosed? International multidisciplinary Delphi consensus. Arthroscopy. 2026. https://pubmed.ncbi.nlm.nih.gov/41911001/",
-    "Hoppe DJ, et al. Diagnostic Accuracy of 3 Physical Examination Tests in the Assessment of Hip Microinstability. Orthop J Sports Med. 2017. https://pubmed.ncbi.nlm.nih.gov/29226163/",
-    "Disantis AE, et al. Non-Operative Rehabilitation Principles for Use in Individuals with Acetabular Dysplasia: A North American Based Delphi Study. IJSPT. 2023. https://pubmed.ncbi.nlm.nih.gov/38050551/",
-    "Nepple JJ, et al. A Contemporary Definition of Hip Dysplasia and Structural Instability. JBJS. 2017. https://pubmed.ncbi.nlm.nih.gov/28389135/",
-    "Yang Y, Tang TT. The Morel-Lavallée Lesion: Review and Update on Diagnosis and Management. Orthop Surg. 2023. https://pubmed.ncbi.nlm.nih.gov/37526135/",
-    "Characteristics, Patterns and Optimal Treatment Strategies of Morel-Lavallee Lesions: A Systematic Review. J Orthop Trauma. 2025. https://pubmed.ncbi.nlm.nih.gov/40333732/",
-    "Kayani B, et al. The management of proximal rectus femoris avulsion injuries. EFORT Open Rev. 2020. https://pubmed.ncbi.nlm.nih.gov/33312709/",
-    "Isolated, Full-Thickness Proximal Rectus Femoris Injury in Competitive Athletes: A Systematic Review. 2023. https://pubmed.ncbi.nlm.nih.gov/36743725/",
-    "Imaging and Clinical Factors Associated With Return to Play and Recurrence After Quadriceps Muscle Strain Injury. Am J Sports Med. 2026. https://pubmed.ncbi.nlm.nih.gov/42661294/",
-    "Bradshaw C, et al. Obturator nerve entrapment: a cause of groin pain in athletes. Am J Sports Med. 1997. https://pubmed.ncbi.nlm.nih.gov/9167824/",
-    "Tipton JS. Obturator neuropathy. Curr Rev Musculoskelet Med. 2008. https://pubmed.ncbi.nlm.nih.gov/19468309/",
-    "Haviv B, O’Donnell J. Clinical relevance of the ligamentum teres: a literature review. Int J Sports Phys Ther. 2019. https://pubmed.ncbi.nlm.nih.gov/31681504/"
+    "American Academy of Orthopaedic Surgeons. Diagnosis and Treatment of Osteochondritis Dissecans Clinical Practice Guideline. 2023. https://www.aaos.org/quality/quality-programs/osteochondritis-dissecans/",
+    "ACR Appropriateness Criteria: Acute Trauma to the Knee. https://acsearch.acr.org/docs/69419/Narrative/",
+    "ACR Appropriateness Criteria: Chronic Knee Pain. https://acsearch.acr.org/docs/69432/Narrative/",
+    "Bruns J, et al. Osteochondritis Dissecans: Etiology, Pathology, and Imaging with a Special Focus on the Knee Joint. Cartilage. 2018. https://pubmed.ncbi.nlm.nih.gov/28639852/",
+    "Andriolo L, et al. Osteochondritis Dissecans of the Knee - Conservative Treatment Strategies: A Systematic Review. Cartilage. 2019. https://pubmed.ncbi.nlm.nih.gov/29468901/",
+    "Hunt DM, Somashekar N. A review of sleeve fractures of the patella in children. Knee. 2005. https://pubmed.ncbi.nlm.nih.gov/15664870/",
+    "Bates DG, et al. Management and subsequent outcomes of patellar sleeve injuries: a retrospective case series of 90 pediatric and adolescent patients. J Child Orthop. 2024. https://pubmed.ncbi.nlm.nih.gov/38567045/",
+    "Devana SK, et al. Clinical and Radiographic Differentiation of Pediatric Patellar Sleeve Fractures and Other Inferior Pole Pathologies. Am J Sports Med. 2022. https://pubmed.ncbi.nlm.nih.gov/35142232/",
+    "Wilczyński B, et al. Sinding-Larsen-Johansson disease: clinical features, imaging findings, conservative treatments and research perspectives: a scoping review. PeerJ. 2024. https://pubmed.ncbi.nlm.nih.gov/39346060/",
+    "Zaffagnini S, et al. Sinding-Larsen-Johansson syndrome with minimally displaced patellar sleeve avulsion fracture: a case report with multimodality approach and literature review. 2022. https://pubmed.ncbi.nlm.nih.gov/36396893/",
+    "Kruckeberg BM, et al. Proximal Tibiofibular Joint Instability and Treatment Approaches: A Systematic Review. Arthroscopy. 2017. https://pubmed.ncbi.nlm.nih.gov/28865578/",
+    "Milton M, et al. Traumatic Dislocation of the Proximal Tibiofibular Joint: A Systematic Review and 10-year Experience. J Am Acad Orthop Surg Glob Res Rev. 2022. https://pubmed.ncbi.nlm.nih.gov/35503776/",
+    "Ogden JA. Review of Common Clinical Conditions of the Proximal Tibiofibular Joint. J Am Acad Orthop Surg. 2019. https://pubmed.ncbi.nlm.nih.gov/30650174/",
+    "Poage C, et al. Peroneal Nerve Palsy: Evaluation and Management. J Am Acad Orthop Surg. 2016. https://pubmed.ncbi.nlm.nih.gov/26700629/",
+    "Fortier LM, et al. An Update on Peroneal Nerve Entrapment and Neuropathy. Orthop Rev. 2021. https://pubmed.ncbi.nlm.nih.gov/34745471/",
+    "Oosterbos C, et al. Evidence in peroneal nerve entrapment: a scoping review. Eur J Neurol. 2022. https://pubmed.ncbi.nlm.nih.gov/34662481/"
   ],
   "link_policy": {
     "new_unresolved_links": 0,
@@ -414,8 +417,8 @@
       "SVG XML and render",
       "no new directories",
       "SHA-256",
-      "ZIP CRC/extraction/path/byte compare"
+      "ZIP CRC/extraction/path/byte comparison"
     ]
   },
-  "generated_at_utc": "2026-10-06T00:13:41.583642+00:00"
+  "generated_at_utc": "2026-10-07T00:05:02.990038+00:00"
 }
