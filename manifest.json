@@ -1,11 +1,11 @@
 {
   "schema_version": 6,
-  "date": "2026-10-07",
-  "region": "膝部第六輪",
+  "date": "2026-10-08",
+  "region": "足踝第六輪",
   "github": {
     "repository": "janice880624/AT-Obsidian",
     "branch": "main",
-    "commit": "de56a956cf3a0174339a6bbbaeb5af201c2cde81",
+    "commit": "aceb728eca607811c40ae3a7164603846792501c",
     "mode": "read-only"
   },
   "template_policy": {
@@ -81,10 +81,10 @@
       "模板－主觀問診.md",
       "模板－傷害.md",
       "模板－特殊檢查.md",
+      "模板－神經.md",
       "模板－系統性評估.md",
       "模板－身體檢查.md",
       "模板－運動治療.md",
-      "模板－韌帶.md",
       "模板－骨骼或關節.md"
     ],
     "validated_note_count": 15,
@@ -103,131 +103,128 @@
     "svg": 3
   },
   "topic_candidates_skipped": [
-    "前十字韌帶損傷",
-    "急性半月板損傷",
-    "髕股疼痛",
-    "髕腱病變",
-    "後十字韌帶損傷",
-    "膝後外側角損傷",
-    "急性髕骨外側脫位",
-    "膝關節骨軟骨損傷",
-    "脛骨平台骨折",
-    "膝伸肌機轉斷裂",
-    "脛骨粗隆撕脫骨折",
-    "Osgood-Schlatter 病",
-    "脛骨髁間隆起撕脫骨折",
-    "盤狀外側半月板",
-    "半月板根部損傷",
-    "髂脛束症候群",
-    "髕前滑囊炎",
-    "膝軟骨下不足性骨折",
-    "膝滑膜皺襞症候群",
-    "髕下脂肪墊相關疼痛",
-    "鵝足肌腱滑囊區疼痛",
-    "Baker 囊腫與膕窩囊腫"
+    "急性外側踝扭傷",
+    "高位踝扭傷",
+    "Lisfranc中足損傷",
+    "距骨骨軟骨病灶",
+    "第五蹠骨近端骨折",
+    "距骨頸骨折",
+    "跟骨骨折",
+    "Turf Toe",
+    "慢性踝關節不穩定",
+    "足舟狀骨壓力性骨折",
+    "踵骨骨骺炎",
+    "副舟骨症候群",
+    "Morton指間神經病變",
+    "踝後夾擠症候群",
+    "腓骨肌腱半脫位",
+    "插入型跟腱病變",
+    "第二蹠趾蹠板損傷",
+    "第一蹠趾籽骨壓力性損傷",
+    "跗骨聯合"
   ],
   "notes": [
     {
-      "path": "03_傷害與疾病/過度使用/傷害－膝部剝離性骨軟骨炎.md",
-      "title": "傷害－膝部剝離性骨軟骨炎",
+      "path": "03_傷害與疾病/急性傷害/傷害－距骨外側突骨折.md",
+      "title": "傷害－距骨外側突骨折",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－髕骨套袖骨折.md",
-      "title": "傷害－髕骨套袖骨折",
+      "path": "03_傷害與疾病/過度使用/傷害－前踝夾擠症候群.md",
+      "title": "傷害－前踝夾擠症候群",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－Sinding-Larsen-Johansson 病.md",
-      "title": "傷害－Sinding-Larsen-Johansson 病",
+      "path": "03_傷害與疾病/過度使用/傷害－Freiberg 蹠骨頭骨軟骨病變.md",
+      "title": "傷害－Freiberg 蹠骨頭骨軟骨病變",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－近端脛腓關節不穩定.md",
-      "title": "傷害－近端脛腓關節不穩定",
+      "path": "03_傷害與疾病/過度使用/傷害－Iselin 第五蹠骨骨骺炎.md",
+      "title": "傷害－Iselin 第五蹠骨骨骺炎",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－腓總神經病變與腓骨頸卡壓.md",
-      "title": "傷害－腓總神經病變與腓骨頸卡壓",
+      "path": "03_傷害與疾病/神經卡壓/傷害－前跗管症候群.md",
+      "title": "傷害－前跗管症候群",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－兒童髕骨下極與伸膝附著單元.md",
-      "title": "骨骼與關節－兒童髕骨下極與伸膝附著單元",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－距骨外側突與後距下關節.md",
+      "title": "骨骼與關節－距骨外側突與後距下關節",
       "role": "相關",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "01_基礎解剖/韌帶/韌帶－近端脛腓關節囊韌帶複合體.md",
-      "title": "韌帶－近端脛腓關節囊韌帶複合體",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－第五蹠骨基底骨骺.md",
+      "title": "骨骼與關節－第五蹠骨基底骨骺",
       "role": "相關",
-      "type": "韌帶",
-      "template": "模板－韌帶.md"
+      "type": "骨骼或關節",
+      "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－青少年膝前痛與生長期負荷問診.md",
-      "title": "評估－青少年膝前痛與生長期負荷問診",
+      "path": "01_基礎解剖/神經/神經－腓深神經於踝足背.md",
+      "title": "神經－腓深神經於踝足背",
+      "role": "相關",
+      "type": "神經",
+      "template": "模板－神經.md"
+    },
+    {
+      "path": "04_臨床評估/主觀問診/評估－外踝前下方持續痛與漏診骨折主觀問診.md",
+      "title": "評估－外踝前下方持續痛與漏診骨折主觀問診",
       "role": "相關",
       "type": "主觀問診",
       "template": "模板－主觀問診.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－兒童急性伸膝失能與髕骨下極安全分流.md",
-      "title": "評估－兒童急性伸膝失能與髕骨下極安全分流",
+      "path": "04_臨床評估/系統性評估/評估－青少年外側足痛系統性評估.md",
+      "title": "評估－青少年外側足痛系統性評估",
       "role": "相關",
       "type": "系統性評估",
       "template": "模板－系統性評估.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－足下垂與膝外側麻木神經定位分流.md",
-      "title": "評估－足下垂與膝外側麻木神經定位分流",
-      "role": "相關",
-      "type": "系統性評估",
-      "template": "模板－系統性評估.md"
-    },
-    {
-      "path": "04_臨床評估/身體檢查/評估－近端脛腓關節與腓總神經身體檢查.md",
-      "title": "評估－近端脛腓關節與腓總神經身體檢查",
+      "path": "04_臨床評估/身體檢查/評估－足背麻木與第一趾蹼區神經定位身體檢查.md",
+      "title": "評估－足背麻木與第一趾蹼區神經定位身體檢查",
       "role": "相關",
       "type": "身體檢查",
       "template": "模板－身體檢查.md"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Wilson Sign.md",
-      "title": "特殊檢查－Wilson Sign",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－強制背屈踝前夾擠誘發測試.md",
+      "title": "特殊檢查－強制背屈踝前夾擠誘發測試",
       "role": "相關",
       "type": "特殊檢查",
       "template": "模板－特殊檢查.md"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－近端脛腓關節前後向移動比較.md",
-      "title": "特殊檢查－近端脛腓關節前後向移動比較",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－前跗管 Tinel Test.md",
+      "title": "特殊檢查－前跗管 Tinel Test",
       "role": "相關",
       "type": "特殊檢查",
       "template": "模板－特殊檢查.md"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－SLJ 症狀導向負荷進展.md",
-      "title": "運動治療－SLJ 症狀導向負荷進展",
+      "path": "05_處置與復健/運動治療/運動治療－Freiberg 前足卸載與回跑進展.md",
+      "title": "運動治療－Freiberg 前足卸載與回跑進展",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－膝部 OCD 非手術保護與負荷進展.md",
-      "title": "運動治療－膝部 OCD 非手術保護與負荷進展",
+      "path": "05_處置與復健/運動治療/運動治療－Iselin 第五蹠骨骨骺負荷回場.md",
+      "title": "運動治療－Iselin 第五蹠骨骨骺負荷回場",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
@@ -235,7 +232,7 @@
   ],
   "per_note_validation": [
     {
-      "path": "03_傷害與疾病/過度使用/傷害－膝部剝離性骨軟骨炎.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－距骨外側突骨折.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -244,7 +241,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－髕骨套袖骨折.md",
+      "path": "03_傷害與疾病/過度使用/傷害－前踝夾擠症候群.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -253,7 +250,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－Sinding-Larsen-Johansson 病.md",
+      "path": "03_傷害與疾病/過度使用/傷害－Freiberg 蹠骨頭骨軟骨病變.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -262,7 +259,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－近端脛腓關節不穩定.md",
+      "path": "03_傷害與疾病/過度使用/傷害－Iselin 第五蹠骨骨骺炎.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -271,7 +268,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－腓總神經病變與腓骨頸卡壓.md",
+      "path": "03_傷害與疾病/神經卡壓/傷害－前跗管症候群.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -280,7 +277,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－兒童髕骨下極與伸膝附著單元.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－距骨外側突與後距下關節.md",
       "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
@@ -289,8 +286,8 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/韌帶/韌帶－近端脛腓關節囊韌帶複合體.md",
-      "template": "模板－韌帶.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－第五蹠骨基底骨骺.md",
+      "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -298,7 +295,16 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－青少年膝前痛與生長期負荷問診.md",
+      "path": "01_基礎解剖/神經/神經－腓深神經於踝足背.md",
+      "template": "模板－神經.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "04_臨床評估/主觀問診/評估－外踝前下方持續痛與漏診骨折主觀問診.md",
       "template": "模板－主觀問診.md",
       "yaml": "passed",
       "h1": "passed",
@@ -307,7 +313,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－兒童急性伸膝失能與髕骨下極安全分流.md",
+      "path": "04_臨床評估/系統性評估/評估－青少年外側足痛系統性評估.md",
       "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
@@ -316,16 +322,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－足下垂與膝外側麻木神經定位分流.md",
-      "template": "模板－系統性評估.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "04_臨床評估/身體檢查/評估－近端脛腓關節與腓總神經身體檢查.md",
+      "path": "04_臨床評估/身體檢查/評估－足背麻木與第一趾蹼區神經定位身體檢查.md",
       "template": "模板－身體檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -334,7 +331,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Wilson Sign.md",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－強制背屈踝前夾擠誘發測試.md",
       "template": "模板－特殊檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -343,7 +340,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－近端脛腓關節前後向移動比較.md",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－前跗管 Tinel Test.md",
       "template": "模板－特殊檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -352,7 +349,7 @@
       "links": "passed"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－SLJ 症狀導向負荷進展.md",
+      "path": "05_處置與復健/運動治療/運動治療－Freiberg 前足卸載與回跑進展.md",
       "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
@@ -361,7 +358,7 @@
       "links": "passed"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－膝部 OCD 非手術保護與負荷進展.md",
+      "path": "05_處置與復健/運動治療/運動治療－Iselin 第五蹠骨骨骺負荷回場.md",
       "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
@@ -371,27 +368,20 @@
     }
   ],
   "assets": [
-    "assets/anatomy/膝部第六輪兒童髕骨與外側膝結構圖.svg",
-    "assets/assessment/膝部第六輪兒童伸膝失能安全分流圖.svg",
-    "assets/assessment/膝部第六輪負荷與神經監測矩陣.svg"
+    "assets/anatomy/足踝第六輪距骨前踝與足背結構圖.svg",
+    "assets/assessment/足踝第六輪外側足與前足疼痛分流圖.svg",
+    "assets/assessment/足踝第六輪前足與神經負荷進展矩陣.svg"
   ],
   "sources_checked": [
-    "American Academy of Orthopaedic Surgeons. Diagnosis and Treatment of Osteochondritis Dissecans Clinical Practice Guideline. 2023. https://www.aaos.org/quality/quality-programs/osteochondritis-dissecans/",
-    "ACR Appropriateness Criteria: Acute Trauma to the Knee. https://acsearch.acr.org/docs/69419/Narrative/",
-    "ACR Appropriateness Criteria: Chronic Knee Pain. https://acsearch.acr.org/docs/69432/Narrative/",
-    "Bruns J, et al. Osteochondritis Dissecans: Etiology, Pathology, and Imaging with a Special Focus on the Knee Joint. Cartilage. 2018. https://pubmed.ncbi.nlm.nih.gov/28639852/",
-    "Andriolo L, et al. Osteochondritis Dissecans of the Knee - Conservative Treatment Strategies: A Systematic Review. Cartilage. 2019. https://pubmed.ncbi.nlm.nih.gov/29468901/",
-    "Hunt DM, Somashekar N. A review of sleeve fractures of the patella in children. Knee. 2005. https://pubmed.ncbi.nlm.nih.gov/15664870/",
-    "Bates DG, et al. Management and subsequent outcomes of patellar sleeve injuries: a retrospective case series of 90 pediatric and adolescent patients. J Child Orthop. 2024. https://pubmed.ncbi.nlm.nih.gov/38567045/",
-    "Devana SK, et al. Clinical and Radiographic Differentiation of Pediatric Patellar Sleeve Fractures and Other Inferior Pole Pathologies. Am J Sports Med. 2022. https://pubmed.ncbi.nlm.nih.gov/35142232/",
-    "Wilczyński B, et al. Sinding-Larsen-Johansson disease: clinical features, imaging findings, conservative treatments and research perspectives: a scoping review. PeerJ. 2024. https://pubmed.ncbi.nlm.nih.gov/39346060/",
-    "Zaffagnini S, et al. Sinding-Larsen-Johansson syndrome with minimally displaced patellar sleeve avulsion fracture: a case report with multimodality approach and literature review. 2022. https://pubmed.ncbi.nlm.nih.gov/36396893/",
-    "Kruckeberg BM, et al. Proximal Tibiofibular Joint Instability and Treatment Approaches: A Systematic Review. Arthroscopy. 2017. https://pubmed.ncbi.nlm.nih.gov/28865578/",
-    "Milton M, et al. Traumatic Dislocation of the Proximal Tibiofibular Joint: A Systematic Review and 10-year Experience. J Am Acad Orthop Surg Glob Res Rev. 2022. https://pubmed.ncbi.nlm.nih.gov/35503776/",
-    "Ogden JA. Review of Common Clinical Conditions of the Proximal Tibiofibular Joint. J Am Acad Orthop Surg. 2019. https://pubmed.ncbi.nlm.nih.gov/30650174/",
-    "Poage C, et al. Peroneal Nerve Palsy: Evaluation and Management. J Am Acad Orthop Surg. 2016. https://pubmed.ncbi.nlm.nih.gov/26700629/",
-    "Fortier LM, et al. An Update on Peroneal Nerve Entrapment and Neuropathy. Orthop Rev. 2021. https://pubmed.ncbi.nlm.nih.gov/34745471/",
-    "Oosterbos C, et al. Evidence in peroneal nerve entrapment: a scoping review. Eur J Neurol. 2022. https://pubmed.ncbi.nlm.nih.gov/34662481/"
+    "ACR Appropriateness Criteria: Chronic Ankle Pain (revised 2026). https://acsearch.acr.org/docs/69422/Narrative/",
+    "ACR Appropriateness Criteria: Chronic Foot Pain (revised 2025). https://acsearch.acr.org/docs/69424/Narrative/",
+    "ACR Appropriateness Criteria: Acute Trauma to the Foot. https://acsearch.acr.org/docs/70546/Narrative/",
+    "Wang CQ, et al. Management and classification of the fracture of lateral process of talus: an overview and literature update. World J Clin Cases. 2024. https://pubmed.ncbi.nlm.nih.gov/38817221/",
+    "Leiber-Wackenheim F. Anterior ankle impingement. Orthop Traumatol Surg Res. 2025. https://pubmed.ncbi.nlm.nih.gov/39581495/",
+    "Rehm A, et al. Freiberg's disease: variation of surgeries, outcomes, and first population-based incidence. J Pediatr Orthop B. 2025. https://pubmed.ncbi.nlm.nih.gov/40014303/",
+    "Gupta N, et al. Fifth metatarsal apophysitis (Iselin disease) and its MRI features. Transl Pediatr. 2017. https://pubmed.ncbi.nlm.nih.gov/28503415/",
+    "Logullo F, et al. Anterior tarsal tunnel syndrome: a misunderstood and a misleading entrapment neuropathy. Neurol Sci. 2014. https://pubmed.ncbi.nlm.nih.gov/24337947/",
+    "Yan Y, et al. MRI Findings of Bilateral Anterior Tarsal Tunnel Syndrome. Can Assoc Radiol J. 2024. https://pubmed.ncbi.nlm.nih.gov/39616513/"
   ],
   "link_policy": {
     "new_unresolved_links": 0,
@@ -417,8 +407,8 @@
       "SVG XML and render",
       "no new directories",
       "SHA-256",
-      "ZIP CRC/extraction/path/byte comparison"
+      "ZIP CRC/extraction/path"
     ]
   },
-  "generated_at_utc": "2026-10-07T00:05:02.990038+00:00"
+  "generated_at_utc": "2026-10-08T00:10:43.292758+00:00"
 }
