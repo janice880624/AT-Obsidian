@@ -1,11 +1,11 @@
 {
-  "schema_version": 5,
-  "date": "2026-10-09",
-  "region": "頭頸第七輪",
+  "schema_version": 4,
+  "date": "2026-10-10",
+  "region": "肩部第七輪",
   "github": {
     "repository": "janice880624/AT-Obsidian",
     "branch": "main",
-    "commit": "75cdd9f592c2217fc2e5c0054aad1adcb5e25d05",
+    "commit": "a5a498dc32647d100ef88928be939a3de89a156c",
     "mode": "read-only"
   },
   "template_policy": {
@@ -84,6 +84,7 @@
       "模板－特殊檢查.md",
       "模板－神經.md",
       "模板－系統性評估.md",
+      "模板－肌肉.md",
       "模板－身體檢查.md",
       "模板－運動治療.md",
       "模板－骨骼或關節.md"
@@ -101,128 +102,125 @@
     "core_notes": 5,
     "related_notes": 10,
     "knowledge_notes": 15,
-    "svg": 3
+    "svg": 3,
+    "index_or_support_files": 10
   },
   "topic_candidates_skipped": [
-    "運動相關腦震盪",
-    "頸椎扭傷與拉傷",
-    "顳顎關節相關疼痛",
-    "耳廓血腫",
-    "顱骨骨折與基底顱骨徵象",
-    "創傷性視神經病變",
-    "開放性眼球傷",
-    "鈍性喉部外傷與喉骨折"
+    "肩部第一至第六輪既有主題",
+    "泛稱旋轉肌袖、盂唇與肩關節不穩定等重複候選",
+    "無專屬模板的筆記類型",
+    "任何需要建立新資料夾的候選主題"
   ],
   "notes": [
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－外傷性鼓膜穿孔.md",
-      "title": "傷害－外傷性鼓膜穿孔",
+      "path": "03_傷害與疾病/過度使用/傷害－旋轉肌袖鈣化性肌腱病變.md",
+      "title": "傷害－旋轉肌袖鈣化性肌腱病變",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－耳氣壓傷.md",
-      "title": "傷害－耳氣壓傷",
+      "path": "03_傷害與疾病/過度使用/傷害－盂肱骨關節炎.md",
+      "title": "傷害－盂肱骨關節炎",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－頭部外傷後迷路震盪.md",
-      "title": "傷害－頭部外傷後迷路震盪",
+      "path": "03_傷害與疾病/急性傷害/傷害－原生盂肱關節感染性關節炎.md",
+      "title": "傷害－原生盂肱關節感染性關節炎",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－創傷後良性陣發性姿勢性眩暈.md",
-      "title": "傷害－創傷後良性陣發性姿勢性眩暈",
+      "path": "03_傷害與疾病/急性傷害/傷害－兒少遠端鎖骨骨骺損傷與肩鎖假性脫臼.md",
+      "title": "傷害－兒少遠端鎖骨骨骺損傷與肩鎖假性脫臼",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－突發性感音神經性聽力損失.md",
-      "title": "傷害－突發性感音神經性聽力損失",
+      "path": "03_傷害與疾病/神經卡壓/傷害－副神經損傷與斜方肌麻痺.md",
+      "title": "傷害－副神經損傷與斜方肌麻痺",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－外耳中耳與顳骨氣腔.md",
-      "title": "骨骼與關節－外耳中耳與顳骨氣腔",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－盂肱關節軟骨與退化結構.md",
+      "title": "骨骼與關節－盂肱關節軟骨與退化結構",
       "role": "相關",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "01_基礎解剖/神經/神經－前庭蝸牛神經與內耳迷路.md",
-      "title": "神經－前庭蝸牛神經與內耳迷路",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－遠端鎖骨骨骺與骨膜袖.md",
+      "title": "骨骼與關節－遠端鎖骨骨骺與骨膜袖",
+      "role": "相關",
+      "type": "骨骼或關節",
+      "template": "模板－骨骼或關節.md"
+    },
+    {
+      "path": "01_基礎解剖/神經/神經－副神經與斜方肌支配.md",
+      "title": "神經－副神經與斜方肌支配",
       "role": "相關",
       "type": "神經",
       "template": "模板－神經.md"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－耳痛耳鳴與急性聽力改變問診.md",
-      "title": "評估－耳痛耳鳴與急性聽力改變問診",
+      "path": "01_基礎解剖/肌肉/肌肉－斜方肌.md",
+      "title": "肌肉－斜方肌",
+      "role": "相關",
+      "type": "肌肉",
+      "template": "模板－肌肉.md"
+    },
+    {
+      "path": "04_臨床評估/主觀問診/評估－疼痛僵硬肩與全身紅旗問診.md",
+      "title": "評估－疼痛僵硬肩與全身紅旗問診",
       "role": "相關",
       "type": "主觀問診",
       "template": "模板－主觀問診.md"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－急性耳外傷與聽力改變身體檢查.md",
-      "title": "評估－急性耳外傷與聽力改變身體檢查",
+      "path": "04_臨床評估/身體檢查/評估－疼痛僵硬肩身體檢查.md",
+      "title": "評估－疼痛僵硬肩身體檢查",
       "role": "相關",
       "type": "身體檢查",
       "template": "模板－身體檢查.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－急性眩暈與神經紅旗分流.md",
-      "title": "評估－急性眩暈與神經紅旗分流",
+      "path": "04_臨床評估/系統性評估/評估－疑似感染性肩關節炎安全分流.md",
+      "title": "評估－疑似感染性肩關節炎安全分流",
       "role": "相關",
       "type": "系統性評估",
       "template": "模板－系統性評估.md"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Rinne Test.md",
-      "title": "特殊檢查－Rinne Test",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－Arm Squeeze Test.md",
+      "title": "特殊檢查－Arm Squeeze Test",
       "role": "相關",
       "type": "特殊檢查",
       "template": "模板－特殊檢查.md"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Weber Test.md",
-      "title": "特殊檢查－Weber Test",
-      "role": "相關",
-      "type": "特殊檢查",
-      "template": "模板－特殊檢查.md"
-    },
-    {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Dix-Hallpike Test.md",
-      "title": "特殊檢查－Dix-Hallpike Test",
-      "role": "相關",
-      "type": "特殊檢查",
-      "template": "模板－特殊檢查.md"
-    },
-    {
-      "path": "05_處置與復健/運動治療/運動治療－周邊前庭低功能凝視穩定與平衡進展.md",
-      "title": "運動治療－周邊前庭低功能凝視穩定與平衡進展",
-      "role": "相關",
-      "type": "運動治療",
-      "template": "模板－運動治療.md"
-    },
-    {
-      "path": "06_功能性測試/軀幹/功能性測試－Functional Gait Assessment.md",
-      "title": "功能性測試－Functional Gait Assessment",
+      "path": "06_功能性測試/上肢/功能性測試－Upper Limb Rotation Test.md",
+      "title": "功能性測試－Upper Limb Rotation Test",
       "role": "相關",
       "type": "功能性測試",
       "template": "模板－功能性測試.md"
+    },
+    {
+      "path": "05_處置與復健/運動治療/運動治療－盂肱退化與鈣化性肩痛分級活動.md",
+      "title": "運動治療－盂肱退化與鈣化性肩痛分級活動",
+      "role": "相關",
+      "type": "運動治療",
+      "template": "模板－運動治療.md"
     }
   ],
   "per_note_validation": [
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－外傷性鼓膜穿孔.md",
+      "path": "03_傷害與疾病/過度使用/傷害－旋轉肌袖鈣化性肌腱病變.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -231,7 +229,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－耳氣壓傷.md",
+      "path": "03_傷害與疾病/過度使用/傷害－盂肱骨關節炎.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -240,7 +238,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－頭部外傷後迷路震盪.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－原生盂肱關節感染性關節炎.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -249,7 +247,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－創傷後良性陣發性姿勢性眩暈.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－兒少遠端鎖骨骨骺損傷與肩鎖假性脫臼.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -258,7 +256,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－突發性感音神經性聽力損失.md",
+      "path": "03_傷害與疾病/神經卡壓/傷害－副神經損傷與斜方肌麻痺.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -267,7 +265,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－外耳中耳與顳骨氣腔.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－盂肱關節軟骨與退化結構.md",
       "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
@@ -276,7 +274,16 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/神經/神經－前庭蝸牛神經與內耳迷路.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－遠端鎖骨骨骺與骨膜袖.md",
+      "template": "模板－骨骼或關節.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "01_基礎解剖/神經/神經－副神經與斜方肌支配.md",
       "template": "模板－神經.md",
       "yaml": "passed",
       "h1": "passed",
@@ -285,7 +292,16 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－耳痛耳鳴與急性聽力改變問診.md",
+      "path": "01_基礎解剖/肌肉/肌肉－斜方肌.md",
+      "template": "模板－肌肉.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "04_臨床評估/主觀問診/評估－疼痛僵硬肩與全身紅旗問診.md",
       "template": "模板－主觀問診.md",
       "yaml": "passed",
       "h1": "passed",
@@ -294,7 +310,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－急性耳外傷與聽力改變身體檢查.md",
+      "path": "04_臨床評估/身體檢查/評估－疼痛僵硬肩身體檢查.md",
       "template": "模板－身體檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -303,7 +319,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－急性眩暈與神經紅旗分流.md",
+      "path": "04_臨床評估/系統性評估/評估－疑似感染性肩關節炎安全分流.md",
       "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
@@ -312,7 +328,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Rinne Test.md",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－Arm Squeeze Test.md",
       "template": "模板－特殊檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -321,35 +337,17 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Weber Test.md",
-      "template": "模板－特殊檢查.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Dix-Hallpike Test.md",
-      "template": "模板－特殊檢查.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "05_處置與復健/運動治療/運動治療－周邊前庭低功能凝視穩定與平衡進展.md",
-      "template": "模板－運動治療.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "06_功能性測試/軀幹/功能性測試－Functional Gait Assessment.md",
+      "path": "06_功能性測試/上肢/功能性測試－Upper Limb Rotation Test.md",
       "template": "模板－功能性測試.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "05_處置與復健/運動治療/運動治療－盂肱退化與鈣化性肩痛分級活動.md",
+      "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -358,35 +356,26 @@
     }
   ],
   "assets": [
-    "assets/anatomy/頭頸第七輪外中內耳與傳導路徑圖.svg",
-    "assets/assessment/頭頸第七輪急性聽力與眩暈分流圖.svg",
-    "assets/special-tests/頭頸第七輪耳部與前庭測試判讀矩陣.svg"
+    "assets/anatomy/肩部第七輪退化骨骺與副神經關聯圖.svg",
+    "assets/assessment/肩部第七輪疼痛僵硬肩安全分流圖.svg",
+    "assets/assessment/肩部第七輪功能測試與負荷矩陣.svg"
   ],
   "sources_checked": [
-    "Chandrasekhar SS, et al. Clinical Practice Guideline: Sudden Hearing Loss (Update). Otolaryngol Head Neck Surg. 2019. https://pubmed.ncbi.nlm.nih.gov/31369359/",
-    "Bhattacharyya N, et al. Clinical Practice Guideline: Benign Paroxysmal Positional Vertigo (Update). Otolaryngol Head Neck Surg. 2017. https://pubmed.ncbi.nlm.nih.gov/28248609/",
-    "Edlow JA, et al. GRACE-3: Acute dizziness and vertigo in the emergency department. Acad Emerg Med. 2023. https://pubmed.ncbi.nlm.nih.gov/37166022/",
-    "Tachibana T, et al. Spontaneous closure of traumatic tympanic membrane perforation following long-term observation. Acta Otolaryngol. 2019. https://pubmed.ncbi.nlm.nih.gov/30957610/",
-    "Kristensen S. Spontaneous healing of traumatic tympanic membrane perforations in man. Clin Otolaryngol Allied Sci. 1992. https://pubmed.ncbi.nlm.nih.gov/1487657/",
-    "Lindfors OH, et al. Middle ear barotrauma in diving. Diving Hyperb Med. 2021. https://pubmed.ncbi.nlm.nih.gov/33761540/",
-    "Livingstone DM, et al. Scuba diving and otology: a systematic review with recommendations on diagnosis, treatment and post-operative care. Diving Hyperb Med. 2017. https://pmc.ncbi.nlm.nih.gov/articles/PMC6147252/",
-    "Tepe V, et al. Mild Traumatic Brain Injury and the Auditory System: Mechanisms, Presentations, and Diagnostic Modalities. J Neurotrauma. 2023. https://pubmed.ncbi.nlm.nih.gov/37742111/",
-    "Gianoli GJ. Post-concussive Dizziness: A Review and Clinical Approach to the Patient. Front Neurol. 2022. https://pubmed.ncbi.nlm.nih.gov/35058868/",
-    "Kelly EA, et al. Diagnostic Accuracy of Tuning Fork Tests for Hearing Loss: A Systematic Review. Otolaryngol Head Neck Surg. 2018. https://pubmed.ncbi.nlm.nih.gov/29661046/",
-    "Ungar OJ, et al. Weber test accuracy in sudden sensorineural hearing loss: which frequency is best? Acta Otolaryngol. 2021. https://pubmed.ncbi.nlm.nih.gov/33586603/",
-    "Gordon CR, et al. The risk of benign paroxysmal positional vertigo after head trauma. Laryngoscope. 2022. https://pubmed.ncbi.nlm.nih.gov/34487348/",
-    "Hall CD, et al. Vestibular Rehabilitation for Peripheral Vestibular Hypofunction: Updated Clinical Practice Guideline. J Neurol Phys Ther. 2022. https://pubmed.ncbi.nlm.nih.gov/34864777/",
-    "Wrisley DM, et al. Reliability, internal consistency, and validity of data obtained with the Functional Gait Assessment. Phys Ther. 2004. https://pubmed.ncbi.nlm.nih.gov/15449976/"
+    "ACR Appropriateness Criteria: Chronic Shoulder Pain, 2022 Update. https://acsearch.acr.org/docs/3101482/Narrative/",
+    "Moosmayer S, et al. Ultrasound guided lavage with corticosteroid injection versus sham treatment for calcific tendinopathy of the shoulder. BMJ. 2023;383:e076447. https://pubmed.ncbi.nlm.nih.gov/37821122/",
+    "Albano D, et al. Ultrasound-guided percutaneous lavage for rotator cuff calcific tendinopathy: systematic review and meta-analysis. Eur J Phys Rehabil Med. 2024. https://pubmed.ncbi.nlm.nih.gov/39382530/",
+    "Michener LA, et al. Physical Therapist Management of Glenohumeral Joint Osteoarthritis: A Clinical Practice Guideline from APTA. Phys Ther. 2023;103:pzad041. https://pubmed.ncbi.nlm.nih.gov/37115808/",
+    "AAOS. Management of Glenohumeral Joint Osteoarthritis Evidence-Based Clinical Practice Guideline. 2020. https://www.aaos.org/globalassets/quality-and-practice-resources/glenohumeral/glenohumeral-joint-osteoarthritis-3-18-20.pdf",
+    "Ravn C, et al. Guideline for management of septic arthritis in native joints (SANJO). J Bone Jt Infect. 2023;8:29-37. https://pubmed.ncbi.nlm.nih.gov/36756304/",
+    "Salomonsson B, et al. Joint aspiration and serum markers—do they matter in the diagnosis of native shoulder sepsis? A systematic review. BMC Musculoskelet Disord. 2022. https://pubmed.ncbi.nlm.nih.gov/35590311/",
+    "Al-Yassari G, et al. Acromioclavicular Joint Lesions in Adolescents—A Systematic Review and Treatment Guidelines. J Clin Med. 2023. https://pmc.ncbi.nlm.nih.gov/articles/PMC10488848/",
+    "Lee JT, et al. Physeal injuries of the clavicle: pediatric counterparts to adult AC and SC separations. Skeletal Radiol. 2023. https://pubmed.ncbi.nlm.nih.gov/36935435/",
+    "Khan LA, et al. Paralysis of the trapezius muscle: evaluation and surgical management. JSES Rev Rep Tech. 2024. https://pubmed.ncbi.nlm.nih.gov/39157246/",
+    "Wiater JM, et al. Diagnosis of unilateral trapezius muscle palsy: 54 cases. Orthop Traumatol Surg Res. 2017. https://pubmed.ncbi.nlm.nih.gov/27864983/",
+    "Gumina S, et al. Arm Squeeze Test: a new clinical test to distinguish neck from shoulder pain. Eur Spine J. 2013. https://pubmed.ncbi.nlm.nih.gov/23604976/",
+    "Gorman PP, et al. The Upper Limb Rotation Test: reliability and validity study. Musculoskelet Sci Pract. 2020. https://pubmed.ncbi.nlm.nih.gov/31982796/",
+    "Afonso J, et al. Measurement properties of upper extremity physical performance tests in athletes: a systematic review. Sports Med Open. 2024. https://pubmed.ncbi.nlm.nih.gov/38232688/"
   ],
-  "link_policy": {
-    "new_unresolved_links": 0,
-    "preexisting_home_placeholders_unchanged": [
-      "緊急處置流程",
-      "文獻索引",
-      "新個案評估",
-      "臨床問題清單"
-    ]
-  },
   "validation": {
     "status": "passed",
     "checks": [
@@ -398,12 +387,12 @@
       "no placeholders",
       "deduplication",
       "bidirectional indexes",
-      "new unresolved links = 0",
-      "SVG XML and actual Inkscape render",
+      "SVG XML and render",
       "no new directories",
+      "unresolved new links zero",
       "SHA-256",
-      "ZIP CRC/extraction/path"
+      "ZIP CRC/extraction/bit comparison/path"
     ]
   },
-  "generated_at_utc": "2026-10-09T00:05:09.818702+00:00"
+  "generated_at_utc": "2026-10-10T00:06:33.107567+00:00"
 }
