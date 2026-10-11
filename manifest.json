@@ -1,11 +1,11 @@
 {
-  "schema_version": 4,
-  "date": "2026-10-10",
-  "region": "肩部第七輪",
+  "schema_version": 7,
+  "date": "2026-10-11",
+  "region": "肘部第七輪",
   "github": {
     "repository": "janice880624/AT-Obsidian",
     "branch": "main",
-    "commit": "a5a498dc32647d100ef88928be939a3de89a156c",
+    "commit": "dd229e46eb96c82bd812cb56153665780ad51e0c",
     "mode": "read-only"
   },
   "template_policy": {
@@ -82,9 +82,7 @@
       "模板－傷害.md",
       "模板－功能性測試.md",
       "模板－特殊檢查.md",
-      "模板－神經.md",
       "模板－系統性評估.md",
-      "模板－肌肉.md",
       "模板－身體檢查.md",
       "模板－運動治療.md",
       "模板－骨骼或關節.md"
@@ -106,113 +104,113 @@
     "index_or_support_files": 10
   },
   "topic_candidates_skipped": [
-    "肩部第一至第六輪既有主題",
-    "泛稱旋轉肌袖、盂唇與肩關節不穩定等重複候選",
+    "肘部第一至第六輪所有既有主題",
+    "泛稱肌腱病變、尺神經卡壓與 UCL 等重複候選",
     "無專屬模板的筆記類型",
     "任何需要建立新資料夾的候選主題"
   ],
   "notes": [
     {
-      "path": "03_傷害與疾病/過度使用/傷害－旋轉肌袖鈣化性肌腱病變.md",
-      "title": "傷害－旋轉肌袖鈣化性肌腱病變",
+      "path": "03_傷害與疾病/急性傷害/傷害－肱骨小頭與滑車冠狀面剪力骨折.md",
+      "title": "傷害－肱骨小頭與滑車冠狀面剪力骨折",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－盂肱骨關節炎.md",
-      "title": "傷害－盂肱骨關節炎",
+      "path": "03_傷害與疾病/急性傷害/傷害－兒少肱骨內上髁撕脫骨折.md",
+      "title": "傷害－兒少肱骨內上髁撕脫骨折",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－原生盂肱關節感染性關節炎.md",
-      "title": "傷害－原生盂肱關節感染性關節炎",
+      "path": "03_傷害與疾病/急性傷害/傷害－兒童橈骨頸骨折.md",
+      "title": "傷害－兒童橈骨頸骨折",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－兒少遠端鎖骨骨骺損傷與肩鎖假性脫臼.md",
-      "title": "傷害－兒少遠端鎖骨骨骺損傷與肩鎖假性脫臼",
+      "path": "03_傷害與疾病/急性傷害/傷害－肘關節感染性關節炎.md",
+      "title": "傷害－肘關節感染性關節炎",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－副神經損傷與斜方肌麻痺.md",
-      "title": "傷害－副神經損傷與斜方肌麻痺",
+      "path": "03_傷害與疾病/過度使用/傷害－肱二頭肌橈骨滑囊炎.md",
+      "title": "傷害－肱二頭肌橈骨滑囊炎",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－盂肱關節軟骨與退化結構.md",
-      "title": "骨骼與關節－盂肱關節軟骨與退化結構",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－肱骨小頭與滑車關節面.md",
+      "title": "骨骼與關節－肱骨小頭與滑車關節面",
       "role": "相關",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－遠端鎖骨骨骺與骨膜袖.md",
-      "title": "骨骼與關節－遠端鎖骨骨骺與骨膜袖",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－兒童橈骨頸與近端橈骨生長區.md",
+      "title": "骨骼與關節－兒童橈骨頸與近端橈骨生長區",
       "role": "相關",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "01_基礎解剖/神經/神經－副神經與斜方肌支配.md",
-      "title": "神經－副神經與斜方肌支配",
-      "role": "相關",
-      "type": "神經",
-      "template": "模板－神經.md"
-    },
-    {
-      "path": "01_基礎解剖/肌肉/肌肉－斜方肌.md",
-      "title": "肌肉－斜方肌",
-      "role": "相關",
-      "type": "肌肉",
-      "template": "模板－肌肉.md"
-    },
-    {
-      "path": "04_臨床評估/主觀問診/評估－疼痛僵硬肩與全身紅旗問診.md",
-      "title": "評估－疼痛僵硬肩與全身紅旗問診",
+      "path": "04_臨床評估/主觀問診/評估－兒少急性肘部骨骺與關節面問診.md",
+      "title": "評估－兒少急性肘部骨骺與關節面問診",
       "role": "相關",
       "type": "主觀問診",
       "template": "模板－主觀問診.md"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－疼痛僵硬肩身體檢查.md",
-      "title": "評估－疼痛僵硬肩身體檢查",
+      "path": "04_臨床評估/主觀問診/評估－肘部紅熱腫脹與感染風險問診.md",
+      "title": "評估－肘部紅熱腫脹與感染風險問診",
+      "role": "相關",
+      "type": "主觀問診",
+      "template": "模板－主觀問診.md"
+    },
+    {
+      "path": "04_臨床評估/身體檢查/評估－兒少與成人肘部骨性創傷身體檢查.md",
+      "title": "評估－兒少與成人肘部骨性創傷身體檢查",
       "role": "相關",
       "type": "身體檢查",
       "template": "模板－身體檢查.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－疑似感染性肩關節炎安全分流.md",
-      "title": "評估－疑似感染性肩關節炎安全分流",
+      "path": "04_臨床評估/系統性評估/評估－急性紅熱腫脹肘安全分流.md",
+      "title": "評估－急性紅熱腫脹肘安全分流",
       "role": "相關",
       "type": "系統性評估",
       "template": "模板－系統性評估.md"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Arm Squeeze Test.md",
-      "title": "特殊檢查－Arm Squeeze Test",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－Biceps Crease Interval.md",
+      "title": "特殊檢查－Biceps Crease Interval",
       "role": "相關",
       "type": "特殊檢查",
       "template": "模板－特殊檢查.md"
     },
     {
-      "path": "06_功能性測試/上肢/功能性測試－Upper Limb Rotation Test.md",
-      "title": "功能性測試－Upper Limb Rotation Test",
+      "path": "06_功能性測試/上肢/功能性測試－Functional Throwing Performance Index.md",
+      "title": "功能性測試－Functional Throwing Performance Index",
       "role": "相關",
       "type": "功能性測試",
       "template": "模板－功能性測試.md"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－盂肱退化與鈣化性肩痛分級活動.md",
-      "title": "運動治療－盂肱退化與鈣化性肩痛分級活動",
+      "path": "05_處置與復健/運動治療/運動治療－兒少肘部骨折後活動與負荷進展.md",
+      "title": "運動治療－兒少肘部骨折後活動與負荷進展",
+      "role": "相關",
+      "type": "運動治療",
+      "template": "模板－運動治療.md"
+    },
+    {
+      "path": "05_處置與復健/運動治療/運動治療－肘前旋轉負荷與遠端肱二頭肌周邊恢復.md",
+      "title": "運動治療－肘前旋轉負荷與遠端肱二頭肌周邊恢復",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
@@ -220,7 +218,7 @@
   ],
   "per_note_validation": [
     {
-      "path": "03_傷害與疾病/過度使用/傷害－旋轉肌袖鈣化性肌腱病變.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－肱骨小頭與滑車冠狀面剪力骨折.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -229,7 +227,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－盂肱骨關節炎.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－兒少肱骨內上髁撕脫骨折.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -238,7 +236,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－原生盂肱關節感染性關節炎.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－兒童橈骨頸骨折.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -247,7 +245,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－兒少遠端鎖骨骨骺損傷與肩鎖假性脫臼.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－肘關節感染性關節炎.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -256,7 +254,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－副神經損傷與斜方肌麻痺.md",
+      "path": "03_傷害與疾病/過度使用/傷害－肱二頭肌橈骨滑囊炎.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -265,7 +263,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－盂肱關節軟骨與退化結構.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－肱骨小頭與滑車關節面.md",
       "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
@@ -274,7 +272,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－遠端鎖骨骨骺與骨膜袖.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－兒童橈骨頸與近端橈骨生長區.md",
       "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
@@ -283,25 +281,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/神經/神經－副神經與斜方肌支配.md",
-      "template": "模板－神經.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "01_基礎解剖/肌肉/肌肉－斜方肌.md",
-      "template": "模板－肌肉.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "04_臨床評估/主觀問診/評估－疼痛僵硬肩與全身紅旗問診.md",
+      "path": "04_臨床評估/主觀問診/評估－兒少急性肘部骨骺與關節面問診.md",
       "template": "模板－主觀問診.md",
       "yaml": "passed",
       "h1": "passed",
@@ -310,7 +290,16 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－疼痛僵硬肩身體檢查.md",
+      "path": "04_臨床評估/主觀問診/評估－肘部紅熱腫脹與感染風險問診.md",
+      "template": "模板－主觀問診.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "04_臨床評估/身體檢查/評估－兒少與成人肘部骨性創傷身體檢查.md",
       "template": "模板－身體檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -319,7 +308,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－疑似感染性肩關節炎安全分流.md",
+      "path": "04_臨床評估/系統性評估/評估－急性紅熱腫脹肘安全分流.md",
       "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
@@ -328,7 +317,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Arm Squeeze Test.md",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－Biceps Crease Interval.md",
       "template": "模板－特殊檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -337,7 +326,7 @@
       "links": "passed"
     },
     {
-      "path": "06_功能性測試/上肢/功能性測試－Upper Limb Rotation Test.md",
+      "path": "06_功能性測試/上肢/功能性測試－Functional Throwing Performance Index.md",
       "template": "模板－功能性測試.md",
       "yaml": "passed",
       "h1": "passed",
@@ -346,7 +335,16 @@
       "links": "passed"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－盂肱退化與鈣化性肩痛分級活動.md",
+      "path": "05_處置與復健/運動治療/運動治療－兒少肘部骨折後活動與負荷進展.md",
+      "template": "模板－運動治療.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "05_處置與復健/運動治療/運動治療－肘前旋轉負荷與遠端肱二頭肌周邊恢復.md",
       "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
@@ -356,25 +354,25 @@
     }
   ],
   "assets": [
-    "assets/anatomy/肩部第七輪退化骨骺與副神經關聯圖.svg",
-    "assets/assessment/肩部第七輪疼痛僵硬肩安全分流圖.svg",
-    "assets/assessment/肩部第七輪功能測試與負荷矩陣.svg"
+    "assets/anatomy/肘部第七輪關節面骨骺與滑囊關聯圖.svg",
+    "assets/assessment/肘部第七輪骨折感染與肘前腫塊分流圖.svg",
+    "assets/special-tests/肘部第七輪 Biceps Crease Interval.svg"
   ],
   "sources_checked": [
-    "ACR Appropriateness Criteria: Chronic Shoulder Pain, 2022 Update. https://acsearch.acr.org/docs/3101482/Narrative/",
-    "Moosmayer S, et al. Ultrasound guided lavage with corticosteroid injection versus sham treatment for calcific tendinopathy of the shoulder. BMJ. 2023;383:e076447. https://pubmed.ncbi.nlm.nih.gov/37821122/",
-    "Albano D, et al. Ultrasound-guided percutaneous lavage for rotator cuff calcific tendinopathy: systematic review and meta-analysis. Eur J Phys Rehabil Med. 2024. https://pubmed.ncbi.nlm.nih.gov/39382530/",
-    "Michener LA, et al. Physical Therapist Management of Glenohumeral Joint Osteoarthritis: A Clinical Practice Guideline from APTA. Phys Ther. 2023;103:pzad041. https://pubmed.ncbi.nlm.nih.gov/37115808/",
-    "AAOS. Management of Glenohumeral Joint Osteoarthritis Evidence-Based Clinical Practice Guideline. 2020. https://www.aaos.org/globalassets/quality-and-practice-resources/glenohumeral/glenohumeral-joint-osteoarthritis-3-18-20.pdf",
-    "Ravn C, et al. Guideline for management of septic arthritis in native joints (SANJO). J Bone Jt Infect. 2023;8:29-37. https://pubmed.ncbi.nlm.nih.gov/36756304/",
-    "Salomonsson B, et al. Joint aspiration and serum markers—do they matter in the diagnosis of native shoulder sepsis? A systematic review. BMC Musculoskelet Disord. 2022. https://pubmed.ncbi.nlm.nih.gov/35590311/",
-    "Al-Yassari G, et al. Acromioclavicular Joint Lesions in Adolescents—A Systematic Review and Treatment Guidelines. J Clin Med. 2023. https://pmc.ncbi.nlm.nih.gov/articles/PMC10488848/",
-    "Lee JT, et al. Physeal injuries of the clavicle: pediatric counterparts to adult AC and SC separations. Skeletal Radiol. 2023. https://pubmed.ncbi.nlm.nih.gov/36935435/",
-    "Khan LA, et al. Paralysis of the trapezius muscle: evaluation and surgical management. JSES Rev Rep Tech. 2024. https://pubmed.ncbi.nlm.nih.gov/39157246/",
-    "Wiater JM, et al. Diagnosis of unilateral trapezius muscle palsy: 54 cases. Orthop Traumatol Surg Res. 2017. https://pubmed.ncbi.nlm.nih.gov/27864983/",
-    "Gumina S, et al. Arm Squeeze Test: a new clinical test to distinguish neck from shoulder pain. Eur Spine J. 2013. https://pubmed.ncbi.nlm.nih.gov/23604976/",
-    "Gorman PP, et al. The Upper Limb Rotation Test: reliability and validity study. Musculoskelet Sci Pract. 2020. https://pubmed.ncbi.nlm.nih.gov/31982796/",
-    "Afonso J, et al. Measurement properties of upper extremity physical performance tests in athletes: a systematic review. Sports Med Open. 2024. https://pubmed.ncbi.nlm.nih.gov/38232688/"
+    "American College of Radiology. ACR Appropriateness Criteria: Acute Elbow and Forearm Pain. 2024. https://acsearch.acr.org/docs/3195154/Narrative/",
+    "Stavrakakis IM, et al. Capitellum and trochlea fractures: a systematic review. J Clin Orthop Trauma. 2022. https://pubmed.ncbi.nlm.nih.gov/35789821/",
+    "Royal Children’s Hospital Melbourne. Medial epicondyle fracture of the humerus—Emergency Department. https://www.rch.org.au/clinicalguide/guideline_index/fractures/Medial_epicondyle_emerg/",
+    "Pezzutti D, et al. Pediatric Medial Epicondyle Fracture Management: A Systematic Review. J Pediatr Orthop. 2020. https://pubmed.ncbi.nlm.nih.gov/32080057/",
+    "Royal Children’s Hospital Melbourne. Radial neck fractures—Emergency Department. https://www.rch.org.au/clinicalguide/guideline_index/fractures/radial_neck_fractures_emergency_department_setting/",
+    "Langenberg LC, et al. Pediatric Radial Neck Fractures: A Systematic Review. Children. 2022. https://pubmed.ncbi.nlm.nih.gov/35884033/",
+    "Ravn C, et al. Guideline for management of septic arthritis in native joints (SANJO). J Bone Joint Infect. 2023. https://jbji.copernicus.org/articles/8/29/2023/",
+    "Karpman RR, et al. Septic elbow arthritis in children: Epidemiology and outcome. J Pediatr Orthop. 2019. https://pubmed.ncbi.nlm.nih.gov/30554847/",
+    "Draghi F, et al. Sonography of the bicipitoradial bursa: a short pictorial essay. J Ultrasound. 2012. https://pubmed.ncbi.nlm.nih.gov/23396577/",
+    "Slouma M, et al. Bicipitoradial bursitis: A diagnosis challenge. Clin Case Rep. 2020. https://pubmed.ncbi.nlm.nih.gov/33235773/",
+    "ElMaraghy A, et al. The biceps crease interval for diagnosing complete distal biceps tendon ruptures. Clin Orthop Relat Res. 2008. https://pubmed.ncbi.nlm.nih.gov/18551349/",
+    "Zwerus EL, et al. Distal Biceps Tendon Ruptures: Diagnostic Strategy Through Physical Examination. Am J Sports Med. 2022. https://pubmed.ncbi.nlm.nih.gov/36349931/",
+    "Riemann BL, et al. Reliability and measurement error of tests used for the assessment of throwing performance in overhead athletes: a systematic review. Phys Ther Sport. 2023. https://pubmed.ncbi.nlm.nih.gov/37330783/",
+    "Pontillo M, et al. Upper Extremity Return to Sport Functional Testing: A Systematic Review. Sports Health. 2026. https://pubmed.ncbi.nlm.nih.gov/41724878/"
   ],
   "validation": {
     "status": "passed",
@@ -394,5 +392,5 @@
       "ZIP CRC/extraction/bit comparison/path"
     ]
   },
-  "generated_at_utc": "2026-10-10T00:06:33.107567+00:00"
+  "generated_at_utc": "2026-10-11T00:04:29.878266+00:00"
 }
