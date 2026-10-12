@@ -1,11 +1,11 @@
 {
   "schema_version": 7,
-  "date": "2026-10-11",
-  "region": "肘部第七輪",
+  "date": "2026-10-12",
+  "region": "手腕與手第七輪",
   "github": {
     "repository": "janice880624/AT-Obsidian",
     "branch": "main",
-    "commit": "dd229e46eb96c82bd812cb56153665780ad51e0c",
+    "commit": "8625eb37d82d933c5d350be9a3e56657542b131c",
     "mode": "read-only"
   },
   "template_policy": {
@@ -85,6 +85,7 @@
       "模板－系統性評估.md",
       "模板－身體檢查.md",
       "模板－運動治療.md",
+      "模板－韌帶.md",
       "模板－骨骼或關節.md"
     ],
     "validated_note_count": 15,
@@ -104,113 +105,113 @@
     "index_or_support_files": 10
   },
   "topic_candidates_skipped": [
-    "肘部第一至第六輪所有既有主題",
-    "泛稱肌腱病變、尺神經卡壓與 UCL 等重複候選",
+    "手腕與手第一至第六輪所有既有主題",
+    "舟狀骨骨折、TFCC、Guyon 管、ECU 與體操腕等重複候選",
     "無專屬模板的筆記類型",
     "任何需要建立新資料夾的候選主題"
   ],
   "notes": [
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－肱骨小頭與滑車冠狀面剪力骨折.md",
-      "title": "傷害－肱骨小頭與滑車冠狀面剪力骨折",
+      "path": "03_傷害與疾病/急性傷害/傷害－三角骨骨折.md",
+      "title": "傷害－三角骨骨折",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－兒少肱骨內上髁撕脫骨折.md",
-      "title": "傷害－兒少肱骨內上髁撕脫骨折",
+      "path": "03_傷害與疾病/急性傷害/傷害－大多角骨骨折.md",
+      "title": "傷害－大多角骨骨折",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－兒童橈骨頸骨折.md",
-      "title": "傷害－兒童橈骨頸骨折",
+      "path": "03_傷害與疾病/急性傷害/傷害－有頭骨骨折.md",
+      "title": "傷害－有頭骨骨折",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－肘關節感染性關節炎.md",
-      "title": "傷害－肘關節感染性關節炎",
+      "path": "03_傷害與疾病/急性傷害/傷害－拇指橈側副韌帶損傷.md",
+      "title": "傷害－拇指橈側副韌帶損傷",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－肱二頭肌橈骨滑囊炎.md",
-      "title": "傷害－肱二頭肌橈骨滑囊炎",
+      "path": "03_傷害與疾病/過度使用/傷害－舟狀骨不癒合與 SNAC 手腕.md",
+      "title": "傷害－舟狀骨不癒合與 SNAC 手腕",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－肱骨小頭與滑車關節面.md",
-      "title": "骨骼與關節－肱骨小頭與滑車關節面",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－三角骨與豆三角關節.md",
+      "title": "骨骼與關節－三角骨與豆三角關節",
       "role": "相關",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－兒童橈骨頸與近端橈骨生長區.md",
-      "title": "骨骼與關節－兒童橈骨頸與近端橈骨生長區",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－橈側腕骨柱與拇指腕掌關節.md",
+      "title": "骨骼與關節－橈側腕骨柱與拇指腕掌關節",
       "role": "相關",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－兒少急性肘部骨骺與關節面問診.md",
-      "title": "評估－兒少急性肘部骨骺與關節面問診",
+      "path": "01_基礎解剖/韌帶/韌帶－拇指掌指關節橈側副韌帶.md",
+      "title": "韌帶－拇指掌指關節橈側副韌帶",
+      "role": "相關",
+      "type": "韌帶",
+      "template": "模板－韌帶.md"
+    },
+    {
+      "path": "04_臨床評估/主觀問診/評估－隱匿性腕骨骨折問診.md",
+      "title": "評估－隱匿性腕骨骨折問診",
       "role": "相關",
       "type": "主觀問診",
       "template": "模板－主觀問診.md"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－肘部紅熱腫脹與感染風險問診.md",
-      "title": "評估－肘部紅熱腫脹與感染風險問診",
-      "role": "相關",
-      "type": "主觀問診",
-      "template": "模板－主觀問診.md"
-    },
-    {
-      "path": "04_臨床評估/身體檢查/評估－兒少與成人肘部骨性創傷身體檢查.md",
-      "title": "評估－兒少與成人肘部骨性創傷身體檢查",
+      "path": "04_臨床評估/身體檢查/評估－橈側腕與拇指創傷身體檢查.md",
+      "title": "評估－橈側腕與拇指創傷身體檢查",
       "role": "相關",
       "type": "身體檢查",
       "template": "模板－身體檢查.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－急性紅熱腫脹肘安全分流.md",
-      "title": "評估－急性紅熱腫脹肘安全分流",
+      "path": "04_臨床評估/系統性評估/評估－隱匿性腕骨骨折安全分流.md",
+      "title": "評估－隱匿性腕骨骨折安全分流",
       "role": "相關",
       "type": "系統性評估",
       "template": "模板－系統性評估.md"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Biceps Crease Interval.md",
-      "title": "特殊檢查－Biceps Crease Interval",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－拇指 MCP 橈尺偏壓力測試.md",
+      "title": "特殊檢查－拇指 MCP 橈尺偏壓力測試",
       "role": "相關",
       "type": "特殊檢查",
       "template": "模板－特殊檢查.md"
     },
     {
-      "path": "06_功能性測試/上肢/功能性測試－Functional Throwing Performance Index.md",
-      "title": "功能性測試－Functional Throwing Performance Index",
+      "path": "06_功能性測試/上肢/功能性測試－Purdue Pegboard Test.md",
+      "title": "功能性測試－Purdue Pegboard Test",
       "role": "相關",
       "type": "功能性測試",
       "template": "模板－功能性測試.md"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－兒少肘部骨折後活動與負荷進展.md",
-      "title": "運動治療－兒少肘部骨折後活動與負荷進展",
+      "path": "05_處置與復健/運動治療/運動治療－腕骨骨折後活動與承重進展.md",
+      "title": "運動治療－腕骨骨折後活動與承重進展",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－肘前旋轉負荷與遠端肱二頭肌周邊恢復.md",
-      "title": "運動治療－肘前旋轉負荷與遠端肱二頭肌周邊恢復",
+      "path": "05_處置與復健/運動治療/運動治療－拇指 MCP 穩定與捏力進展.md",
+      "title": "運動治療－拇指 MCP 穩定與捏力進展",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
@@ -218,7 +219,7 @@
   ],
   "per_note_validation": [
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－肱骨小頭與滑車冠狀面剪力骨折.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－三角骨骨折.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -227,7 +228,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－兒少肱骨內上髁撕脫骨折.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－大多角骨骨折.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -236,7 +237,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－兒童橈骨頸骨折.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－有頭骨骨折.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -245,7 +246,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－肘關節感染性關節炎.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－拇指橈側副韌帶損傷.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -254,7 +255,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－肱二頭肌橈骨滑囊炎.md",
+      "path": "03_傷害與疾病/過度使用/傷害－舟狀骨不癒合與 SNAC 手腕.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -263,7 +264,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－肱骨小頭與滑車關節面.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－三角骨與豆三角關節.md",
       "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
@@ -272,7 +273,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－兒童橈骨頸與近端橈骨生長區.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－橈側腕骨柱與拇指腕掌關節.md",
       "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
@@ -281,7 +282,16 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－兒少急性肘部骨骺與關節面問診.md",
+      "path": "01_基礎解剖/韌帶/韌帶－拇指掌指關節橈側副韌帶.md",
+      "template": "模板－韌帶.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "04_臨床評估/主觀問診/評估－隱匿性腕骨骨折問診.md",
       "template": "模板－主觀問診.md",
       "yaml": "passed",
       "h1": "passed",
@@ -290,16 +300,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－肘部紅熱腫脹與感染風險問診.md",
-      "template": "模板－主觀問診.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "04_臨床評估/身體檢查/評估－兒少與成人肘部骨性創傷身體檢查.md",
+      "path": "04_臨床評估/身體檢查/評估－橈側腕與拇指創傷身體檢查.md",
       "template": "模板－身體檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -308,7 +309,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－急性紅熱腫脹肘安全分流.md",
+      "path": "04_臨床評估/系統性評估/評估－隱匿性腕骨骨折安全分流.md",
       "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
@@ -317,7 +318,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Biceps Crease Interval.md",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－拇指 MCP 橈尺偏壓力測試.md",
       "template": "模板－特殊檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -326,7 +327,7 @@
       "links": "passed"
     },
     {
-      "path": "06_功能性測試/上肢/功能性測試－Functional Throwing Performance Index.md",
+      "path": "06_功能性測試/上肢/功能性測試－Purdue Pegboard Test.md",
       "template": "模板－功能性測試.md",
       "yaml": "passed",
       "h1": "passed",
@@ -335,7 +336,7 @@
       "links": "passed"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－兒少肘部骨折後活動與負荷進展.md",
+      "path": "05_處置與復健/運動治療/運動治療－腕骨骨折後活動與承重進展.md",
       "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
@@ -344,7 +345,7 @@
       "links": "passed"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－肘前旋轉負荷與遠端肱二頭肌周邊恢復.md",
+      "path": "05_處置與復健/運動治療/運動治療－拇指 MCP 穩定與捏力進展.md",
       "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
@@ -354,25 +355,20 @@
     }
   ],
   "assets": [
-    "assets/anatomy/肘部第七輪關節面骨骺與滑囊關聯圖.svg",
-    "assets/assessment/肘部第七輪骨折感染與肘前腫塊分流圖.svg",
-    "assets/special-tests/肘部第七輪 Biceps Crease Interval.svg"
+    "assets/anatomy/手腕與手第七輪腕骨與拇指韌帶圖.svg",
+    "assets/assessment/手腕與手第七輪隱匿骨折分流圖.svg",
+    "assets/special-tests/手腕與手第七輪拇指 MCP 壓力測試.svg"
   ],
   "sources_checked": [
-    "American College of Radiology. ACR Appropriateness Criteria: Acute Elbow and Forearm Pain. 2024. https://acsearch.acr.org/docs/3195154/Narrative/",
-    "Stavrakakis IM, et al. Capitellum and trochlea fractures: a systematic review. J Clin Orthop Trauma. 2022. https://pubmed.ncbi.nlm.nih.gov/35789821/",
-    "Royal Children’s Hospital Melbourne. Medial epicondyle fracture of the humerus—Emergency Department. https://www.rch.org.au/clinicalguide/guideline_index/fractures/Medial_epicondyle_emerg/",
-    "Pezzutti D, et al. Pediatric Medial Epicondyle Fracture Management: A Systematic Review. J Pediatr Orthop. 2020. https://pubmed.ncbi.nlm.nih.gov/32080057/",
-    "Royal Children’s Hospital Melbourne. Radial neck fractures—Emergency Department. https://www.rch.org.au/clinicalguide/guideline_index/fractures/radial_neck_fractures_emergency_department_setting/",
-    "Langenberg LC, et al. Pediatric Radial Neck Fractures: A Systematic Review. Children. 2022. https://pubmed.ncbi.nlm.nih.gov/35884033/",
-    "Ravn C, et al. Guideline for management of septic arthritis in native joints (SANJO). J Bone Joint Infect. 2023. https://jbji.copernicus.org/articles/8/29/2023/",
-    "Karpman RR, et al. Septic elbow arthritis in children: Epidemiology and outcome. J Pediatr Orthop. 2019. https://pubmed.ncbi.nlm.nih.gov/30554847/",
-    "Draghi F, et al. Sonography of the bicipitoradial bursa: a short pictorial essay. J Ultrasound. 2012. https://pubmed.ncbi.nlm.nih.gov/23396577/",
-    "Slouma M, et al. Bicipitoradial bursitis: A diagnosis challenge. Clin Case Rep. 2020. https://pubmed.ncbi.nlm.nih.gov/33235773/",
-    "ElMaraghy A, et al. The biceps crease interval for diagnosing complete distal biceps tendon ruptures. Clin Orthop Relat Res. 2008. https://pubmed.ncbi.nlm.nih.gov/18551349/",
-    "Zwerus EL, et al. Distal Biceps Tendon Ruptures: Diagnostic Strategy Through Physical Examination. Am J Sports Med. 2022. https://pubmed.ncbi.nlm.nih.gov/36349931/",
-    "Riemann BL, et al. Reliability and measurement error of tests used for the assessment of throwing performance in overhead athletes: a systematic review. Phys Ther Sport. 2023. https://pubmed.ncbi.nlm.nih.gov/37330783/",
-    "Pontillo M, et al. Upper Extremity Return to Sport Functional Testing: A Systematic Review. Sports Health. 2026. https://pubmed.ncbi.nlm.nih.gov/41724878/"
+    "American College of Radiology. ACR Appropriateness Criteria: Acute Hand and Wrist Trauma. https://acsearch.acr.org/docs/69418/Narrative/",
+    "Kußmaul AC, et al. The Conservative and Operative Treatment of Carpal Fractures. Dtsch Arztebl Int. 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11661489/",
+    "Guo RC, et al. Triquetral Fractures Overview. Curr Rev Musculoskelet Med. 2021. https://pmc.ncbi.nlm.nih.gov/articles/PMC7991068/",
+    "Sharpe FE, et al. Trapezial Fractures and Associated Fractures of the Ulnar Carpus. J Wrist Surg. 2023. https://pmc.ncbi.nlm.nih.gov/articles/PMC10082304/",
+    "Arabzadeh A, et al. Capitate Fracture: Diagnostic Challenges, Treatment and Complications. 2025. https://pubmed.ncbi.nlm.nih.gov/40845185/",
+    "Mitchell TW, et al. Radial Collateral Ligament Injuries of the Thumb Metacarpophalangeal Joint. Curr Rev Musculoskelet Med. 2022. https://pmc.ncbi.nlm.nih.gov/articles/PMC9789250/",
+    "Maris S, et al. Scapholunate Advanced Collapse and Scaphoid Nonunion Advanced Collapse. Cureus. 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11127752/",
+    "Sigirtmac IC, et al. Determination of cutoff values and validity of the Purdue Pegboard Test in patients with hand injury. Br J Occup Ther. 2022. https://doi.org/10.1177/03080226211008046",
+    "Shahar RB, et al. Validity of the Purdue Pegboard Test in assessing patients after traumatic hand injury. Work. 1998. https://pubmed.ncbi.nlm.nih.gov/24441602/"
   ],
   "validation": {
     "status": "passed",
@@ -392,5 +388,5 @@
       "ZIP CRC/extraction/bit comparison/path"
     ]
   },
-  "generated_at_utc": "2026-10-11T00:04:29.878266+00:00"
+  "generated_at_utc": "2026-10-12T00:06:15.470304+00:00"
 }
