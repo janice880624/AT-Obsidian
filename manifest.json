@@ -1,11 +1,11 @@
 {
   "schema_version": 7,
-  "date": "2026-10-13",
-  "region": "胸腰椎第七輪",
+  "date": "2026-10-14",
+  "region": "骨盆與髖第七輪",
   "github": {
     "repository": "janice880624/AT-Obsidian",
     "branch": "main",
-    "commit": "3f56fce9560423f2d749bb257323604178028c3c",
+    "commit": "1944b1d2598208e30a126619bb81fe8f380a777a",
     "mode": "read-only"
   },
   "template_policy": {
@@ -82,14 +82,12 @@
       "模板－傷害.md",
       "模板－功能性測試.md",
       "模板－特殊檢查.md",
-      "模板－神經.md",
       "模板－系統性評估.md",
-      "模板－身體檢查.md",
+      "模板－肌肉.md",
       "模板－運動治療.md",
       "模板－骨骼或關節.md"
     ],
     "validated_note_count": 15,
-    "unsupported_new_note_types": [],
     "exact_yaml_h1_h2_and_subfields": true
   },
   "folder_policy": {
@@ -101,117 +99,116 @@
     "core_notes": 5,
     "related_notes": 10,
     "knowledge_notes": 15,
-    "svg": 3,
-    "index_or_support_files": 9
+    "svg": 3
   },
   "topic_candidates_skipped": [
-    "胸腰椎第一至第六輪所有既有主題",
-    "壓迫性骨折、椎間盤、狹窄、感染、腫瘤與胸壁等重複候選",
+    "骨盆與髖第一至第六輪既有主題",
+    "通用骨盆骨骺撕脫筆記保留且不重複",
     "無專屬模板的筆記類型",
-    "任何需要建立新資料夾的候選主題"
+    "任何需要新資料夾的候選"
   ],
   "notes": [
     {
-      "path": "03_傷害與疾病/過度使用/傷害－青少年特發性脊柱側彎.md",
-      "title": "傷害－青少年特發性脊柱側彎",
+      "path": "03_傷害與疾病/過度使用/傷害－Legg-Calvé-Perthes 病.md",
+      "title": "傷害－Legg-Calvé-Perthes 病",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－僵直脊柱胸腰椎骨折.md",
-      "title": "傷害－僵直脊柱胸腰椎骨折",
+      "path": "03_傷害與疾病/急性傷害/傷害－兒童暫時性髖滑膜炎.md",
+      "title": "傷害－兒童暫時性髖滑膜炎",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－胸椎黃韌帶骨化與胸髓病變.md",
-      "title": "傷害－胸椎黃韌帶骨化與胸髓病變",
+      "path": "03_傷害與疾病/過度使用/傷害－外彈響髖症候群.md",
+      "title": "傷害－外彈響髖症候群",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－腰椎小面關節滑膜囊腫.md",
-      "title": "傷害－腰椎小面關節滑膜囊腫",
+      "path": "03_傷害與疾病/急性傷害/傷害－坐骨結節骨骺撕脫與延遲癒合.md",
+      "title": "傷害－坐骨結節骨骺撕脫與延遲癒合",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－脊椎硬膜外脂肪增生症.md",
-      "title": "傷害－脊椎硬膜外脂肪增生症",
+      "path": "03_傷害與疾病/過度使用/傷害－髖關節滑膜軟骨瘤病.md",
+      "title": "傷害－髖關節滑膜軟骨瘤病",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－成長期脊柱三維排列.md",
-      "title": "骨骼與關節－成長期脊柱三維排列",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－兒童股骨頭骨骺與髖臼相合.md",
+      "title": "骨骼與關節－兒童股骨頭骨骺與髖臼相合",
       "role": "相關",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－僵直脊柱長槓桿生物力學.md",
-      "title": "骨骼與關節－僵直脊柱長槓桿生物力學",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－坐骨結節骨骺與腿後肌起點.md",
+      "title": "骨骼與關節－坐骨結節骨骺與腿後肌起點",
       "role": "相關",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "01_基礎解剖/神經/神經－胸腰髓節與脊柱水平差異.md",
-      "title": "神經－胸腰髓節與脊柱水平差異",
+      "path": "01_基礎解剖/肌肉/肌肉－臀大肌外側束與闊筋膜張肌.md",
+      "title": "肌肉－臀大肌外側束與闊筋膜張肌",
       "role": "相關",
-      "type": "神經",
-      "template": "模板－神經.md"
+      "type": "肌肉",
+      "template": "模板－肌肉.md"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－漸進性腿部症狀與用藥風險問診.md",
-      "title": "評估－漸進性腿部症狀與用藥風險問診",
+      "path": "04_臨床評估/主觀問診/評估－兒童跛行與髖痛問診.md",
+      "title": "評估－兒童跛行與髖痛問診",
       "role": "相關",
       "type": "主觀問診",
       "template": "模板－主觀問診.md"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－青少年脊柱側彎身體檢查.md",
-      "title": "評估－青少年脊柱側彎身體檢查",
-      "role": "相關",
-      "type": "身體檢查",
-      "template": "模板－身體檢查.md"
-    },
-    {
-      "path": "04_臨床評估/系統性評估/評估－胸髓病變神經學安全分流.md",
-      "title": "評估－胸髓病變神經學安全分流",
+      "path": "04_臨床評估/系統性評估/評估－兒童跛行與髖痛安全分流.md",
+      "title": "評估－兒童跛行與髖痛安全分流",
       "role": "相關",
       "type": "系統性評估",
       "template": "模板－系統性評估.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－僵直脊柱創傷安全分流.md",
-      "title": "評估－僵直脊柱創傷安全分流",
+      "path": "04_臨床評估/系統性評估/評估－兒童急性髖痛感染與滑膜炎分流.md",
+      "title": "評估－兒童急性髖痛感染與滑膜炎分流",
       "role": "相關",
       "type": "系統性評估",
       "template": "模板－系統性評估.md"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Adam Forward Bend Test.md",
-      "title": "特殊檢查－Adam Forward Bend Test",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－外彈響髖動態誘發檢查.md",
+      "title": "特殊檢查－外彈響髖動態誘發檢查",
       "role": "相關",
       "type": "特殊檢查",
       "template": "模板－特殊檢查.md"
     },
     {
-      "path": "06_功能性測試/軀幹/功能性測試－脊髓病變步態與階梯負荷觀察.md",
-      "title": "功能性測試－脊髓病變步態與階梯負荷觀察",
+      "path": "06_功能性測試/下肢/功能性測試－兒童髖部步態與階梯觀察.md",
+      "title": "功能性測試－兒童髖部步態與階梯觀察",
       "role": "相關",
       "type": "功能性測試",
       "template": "模板－功能性測試.md"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－脊柱側彎專項運動基礎.md",
-      "title": "運動治療－脊柱側彎專項運動基礎",
+      "path": "05_處置與復健/運動治療/運動治療－外彈響髖負荷與控制進展.md",
+      "title": "運動治療－外彈響髖負荷與控制進展",
+      "role": "相關",
+      "type": "運動治療",
+      "template": "模板－運動治療.md"
+    },
+    {
+      "path": "05_處置與復健/運動治療/運動治療－Perthes 病安全活動與髖活動維持.md",
+      "title": "運動治療－Perthes 病安全活動與髖活動維持",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
@@ -219,7 +216,7 @@
   ],
   "per_note_validation": [
     {
-      "path": "03_傷害與疾病/過度使用/傷害－青少年特發性脊柱側彎.md",
+      "path": "03_傷害與疾病/過度使用/傷害－Legg-Calvé-Perthes 病.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -228,7 +225,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－僵直脊柱胸腰椎骨折.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－兒童暫時性髖滑膜炎.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -237,7 +234,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－胸椎黃韌帶骨化與胸髓病變.md",
+      "path": "03_傷害與疾病/過度使用/傷害－外彈響髖症候群.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -246,7 +243,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－腰椎小面關節滑膜囊腫.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－坐骨結節骨骺撕脫與延遲癒合.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -255,7 +252,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－脊椎硬膜外脂肪增生症.md",
+      "path": "03_傷害與疾病/過度使用/傷害－髖關節滑膜軟骨瘤病.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -264,7 +261,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－成長期脊柱三維排列.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－兒童股骨頭骨骺與髖臼相合.md",
       "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
@@ -273,7 +270,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－僵直脊柱長槓桿生物力學.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－坐骨結節骨骺與腿後肌起點.md",
       "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
@@ -282,8 +279,8 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/神經/神經－胸腰髓節與脊柱水平差異.md",
-      "template": "模板－神經.md",
+      "path": "01_基礎解剖/肌肉/肌肉－臀大肌外側束與闊筋膜張肌.md",
+      "template": "模板－肌肉.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -291,7 +288,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－漸進性腿部症狀與用藥風險問診.md",
+      "path": "04_臨床評估/主觀問診/評估－兒童跛行與髖痛問診.md",
       "template": "模板－主觀問診.md",
       "yaml": "passed",
       "h1": "passed",
@@ -300,16 +297,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－青少年脊柱側彎身體檢查.md",
-      "template": "模板－身體檢查.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "04_臨床評估/系統性評估/評估－胸髓病變神經學安全分流.md",
+      "path": "04_臨床評估/系統性評估/評估－兒童跛行與髖痛安全分流.md",
       "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
@@ -318,7 +306,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－僵直脊柱創傷安全分流.md",
+      "path": "04_臨床評估/系統性評估/評估－兒童急性髖痛感染與滑膜炎分流.md",
       "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
@@ -327,7 +315,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Adam Forward Bend Test.md",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－外彈響髖動態誘發檢查.md",
       "template": "模板－特殊檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -336,7 +324,7 @@
       "links": "passed"
     },
     {
-      "path": "06_功能性測試/軀幹/功能性測試－脊髓病變步態與階梯負荷觀察.md",
+      "path": "06_功能性測試/下肢/功能性測試－兒童髖部步態與階梯觀察.md",
       "template": "模板－功能性測試.md",
       "yaml": "passed",
       "h1": "passed",
@@ -345,7 +333,16 @@
       "links": "passed"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－脊柱側彎專項運動基礎.md",
+      "path": "05_處置與復健/運動治療/運動治療－外彈響髖負荷與控制進展.md",
+      "template": "模板－運動治療.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "05_處置與復健/運動治療/運動治療－Perthes 病安全活動與髖活動維持.md",
       "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
@@ -355,20 +352,22 @@
     }
   ],
   "assets": [
-    "assets/anatomy/胸腰椎第七輪結構與風險圖.svg",
-    "assets/assessment/胸腰椎第七輪神經安全分流圖.svg",
-    "assets/special-tests/胸腰椎第七輪 Adam 前彎測試圖.svg"
+    "assets/anatomy/骨盆髖第七輪兒童與外側結構圖.svg",
+    "assets/assessment/骨盆髖第七輪兒童跛行分流圖.svg",
+    "assets/special-tests/骨盆髖第七輪外彈響誘發圖.svg"
   ],
   "sources_checked": [
-    "Negrini S, et al. 2016 SOSORT guidelines: orthopaedic and rehabilitation treatment of idiopathic scoliosis during growth. 2018. https://pmc.ncbi.nlm.nih.gov/articles/PMC5795289/",
-    "Reinhold M, et al. Spine Fractures in Ankylosing Diseases: Recommendations of the DGOU. 2018. https://pmc.ncbi.nlm.nih.gov/articles/PMC6130102/",
-    "Hirabayashi S. Ossification of the ligamentum flavum. 2017. https://pmc.ncbi.nlm.nih.gov/articles/PMC6698571/",
-    "Zhang C, et al. Pathogenesis of thoracic ossification of the ligamentum flavum. 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11560781/",
-    "Ganga A, et al. Optimizing surgical management of facet cysts of the lumbar spine: systematic review and meta-analysis. 2023. https://pubmed.ncbi.nlm.nih.gov/37728373/",
-    "Boviatsis EJ, et al. Spinal synovial cysts: pathogenesis, diagnosis and surgical treatment. 2008. https://pmc.ncbi.nlm.nih.gov/articles/PMC2518989/",
-    "Walker PB, et al. Spinal Epidural Lipomatosis: A Comprehensive Review. 2021. https://pmc.ncbi.nlm.nih.gov/articles/PMC8567763/",
-    "American College of Radiology. ACR Appropriateness Criteria: Thoracic Back Pain. 2024. https://pubmed.ncbi.nlm.nih.gov/39488357/",
-    "American College of Radiology. ACR Appropriateness Criteria: Low Back Pain. https://acsearch.acr.org/docs/69483/Narrative/"
+    "Royal Children’s Hospital Melbourne. Perthes Disease. https://www.rch.org.au/ortho/for_health_professionals/Perthes_Disease/",
+    "Davies SC, et al. Clinical consensus recommendations for non-surgical treatment of children with Perthes disease. 2024. https://pubmed.ncbi.nlm.nih.gov/38688522/",
+    "Royal Children’s Hospital Melbourne. Clinical Practice Guideline: The limping or non-weight bearing child. https://www.rch.org.au/clinicalguide/guideline_index/Child_with_limp/",
+    "PIDS/IDSA. 2023 Guideline on Diagnosis and Management of Acute Bacterial Arthritis in Pediatrics. https://www.idsociety.org/practice-guideline/acute-bacterial-arthritis-in-pediatrics2/",
+    "Pediatric Orthopaedic Society of North America. Transient Synovitis of the Hip. https://posna.org/physician-education/study-guide/transient-synovitis-of-the-hip",
+    "Walker P, et al. Snapping Hip Syndrome: A Comprehensive Update. 2021. https://pmc.ncbi.nlm.nih.gov/articles/PMC8567760/",
+    "Eberbach H, et al. Operative versus conservative treatment of pelvic apophyseal avulsion fractures: systematic review and meta-analysis. 2017. https://pmc.ncbi.nlm.nih.gov/articles/PMC5395880/",
+    "Calderazzi F, et al. Apophyseal avulsion fractures of the pelvis: a review. 2018. https://pmc.ncbi.nlm.nih.gov/articles/PMC6502104/",
+    "Marchie A, et al. Primary synovial chondromatosis of the hip: cohort analysis and review. 2022. https://pmc.ncbi.nlm.nih.gov/articles/PMC9676389/",
+    "Synovial Chondromatosis: current evidence on diagnosis and management. 2026. https://pmc.ncbi.nlm.nih.gov/articles/PMC13414048/",
+    "American College of Radiology. ACR Appropriateness Criteria: Chronic Hip Pain. https://acsearch.acr.org/docs/69425/Narrative/"
   ],
   "validation": {
     "status": "passed",
@@ -378,15 +377,14 @@
       "H1 filename",
       "exact H2 order",
       "required subfields",
-      "no placeholders",
       "deduplication",
       "bidirectional indexes",
       "SVG XML and render",
       "no new directories",
-      "unresolved new links zero",
+      "unresolved links zero",
       "SHA-256",
       "ZIP CRC/extraction/bit comparison/path"
     ]
   },
-  "generated_at_utc": "2026-10-13T00:06:09.409304+00:00"
+  "generated_at_utc": "2026-10-14T00:08:08.662171+00:00"
 }
