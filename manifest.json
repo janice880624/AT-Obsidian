@@ -1,11 +1,11 @@
 {
   "schema_version": 7,
-  "date": "2026-10-15",
-  "region": "膝部第七輪",
+  "date": "2026-10-16",
+  "region": "足踝第七輪",
   "github": {
     "repository": "janice880624/AT-Obsidian",
     "branch": "main",
-    "commit": "559a02d643ec4fbd7028eaecbf4d5369ca1df15e",
+    "commit": "ab20f72dae1d11d000898722552415c1f80ff5d4",
     "mode": "read-only"
   },
   "template_policy": {
@@ -82,8 +82,8 @@
       "模板－傷害.md",
       "模板－功能性測試.md",
       "模板－特殊檢查.md",
-      "模板－神經.md",
       "模板－系統性評估.md",
+      "模板－肌腱.md",
       "模板－身體檢查.md",
       "模板－運動治療.md",
       "模板－骨骼或關節.md"
@@ -100,115 +100,115 @@
     "core_notes": 5,
     "related_notes": 10,
     "knowledge_notes": 15,
-    "svg": 3
+    "svg": 4
   },
   "topic_candidates_skipped": [
-    "膝部第一至第六輪既有主題",
+    "足踝第一至第六輪既有主題",
     "無專屬模板的筆記類型",
     "任何需要新資料夾的候選"
   ],
   "notes": [
     {
-      "path": "03_傷害與疾病/過度使用/傷害－髕骨壓力性骨折.md",
-      "title": "傷害－髕骨壓力性骨折",
+      "path": "03_傷害與疾病/過度使用/傷害－內踝壓力性骨折.md",
+      "title": "傷害－內踝壓力性骨折",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－症狀性二分髕骨.md",
-      "title": "傷害－症狀性二分髕骨",
+      "path": "03_傷害與疾病/急性傷害/傷害－跟骨前突骨折.md",
+      "title": "傷害－跟骨前突骨折",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－膝關節滑膜軟骨瘤病.md",
-      "title": "傷害－膝關節滑膜軟骨瘤病",
+      "path": "03_傷害與疾病/過度使用/傷害－進行性塌陷足變形.md",
+      "title": "傷害－進行性塌陷足變形",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－膕動脈陷迫症候群.md",
-      "title": "傷害－膕動脈陷迫症候群",
+      "path": "03_傷害與疾病/過度使用/傷害－屈拇長肌腱鞘炎.md",
+      "title": "傷害－屈拇長肌腱鞘炎",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－隱神經髕下支卡壓與神經痛.md",
-      "title": "傷害－隱神經髕下支卡壓與神經痛",
+      "path": "03_傷害與疾病/過度使用/傷害－踝關節骨關節炎.md",
+      "title": "傷害－踝關節骨關節炎",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－髕骨骨化中心與二分髕骨.md",
-      "title": "骨骼與關節－髕骨骨化中心與二分髕骨",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－內踝與遠端脛骨關節面.md",
+      "title": "骨骼與關節－內踝與遠端脛骨關節面",
       "role": "相關",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－膝關節滑膜與關節內游離體.md",
-      "title": "骨骼與關節－膝關節滑膜與關節內游離體",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－跟骨前突與跟骰關節.md",
+      "title": "骨骼與關節－跟骨前突與跟骰關節",
       "role": "相關",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "01_基礎解剖/神經/神經－隱神經與髕下支.md",
-      "title": "神經－隱神經與髕下支",
+      "path": "01_基礎解剖/肌腱/肌腱－脛後肌腱與彈簧韌帶功能單元.md",
+      "title": "肌腱－脛後肌腱與彈簧韌帶功能單元",
       "role": "相關",
-      "type": "神經",
-      "template": "模板－神經.md"
+      "type": "肌腱",
+      "template": "模板－肌腱.md"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－持續性前膝痛與骨壓力傷問診.md",
-      "title": "評估－持續性前膝痛與骨壓力傷問診",
+      "path": "04_臨床評估/主觀問診/評估－內踝負荷痛與骨壓力傷主觀問診.md",
+      "title": "評估－內踝負荷痛與骨壓力傷主觀問診",
       "role": "相關",
       "type": "主觀問診",
       "template": "模板－主觀問診.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－運動誘發小腿痛與脈搏變化安全分流.md",
-      "title": "評估－運動誘發小腿痛與脈搏變化安全分流",
+      "path": "04_臨床評估/系統性評估/評估－持續性外踝前下痛與 Chopart 損傷分流.md",
+      "title": "評估－持續性外踝前下痛與 Chopart 損傷分流",
       "role": "相關",
       "type": "系統性評估",
       "template": "模板－系統性評估.md"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－內側與前膝神經性疼痛身體檢查.md",
-      "title": "評估－內側與前膝神經性疼痛身體檢查",
+      "path": "04_臨床評估/身體檢查/評估－進行性足弓塌陷與單腳提踵身體檢查.md",
+      "title": "評估－進行性足弓塌陷與單腳提踵身體檢查",
       "role": "相關",
       "type": "身體檢查",
       "template": "模板－身體檢查.md"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－膕動脈動態脈搏誘發檢查.md",
-      "title": "特殊檢查－膕動脈動態脈搏誘發檢查",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－FHL 伸展與主動拇趾蹠屈誘發檢查.md",
+      "title": "特殊檢查－FHL 伸展與主動拇趾蹠屈誘發檢查",
       "role": "相關",
       "type": "特殊檢查",
       "template": "模板－特殊檢查.md"
     },
     {
-      "path": "06_功能性測試/下肢/功能性測試－單腳階梯與反覆蹲起症狀監測.md",
-      "title": "功能性測試－單腳階梯與反覆蹲起症狀監測",
+      "path": "06_功能性測試/下肢/功能性測試－星狀平衡測試.md",
+      "title": "功能性測試－星狀平衡測試",
       "role": "相關",
       "type": "功能性測試",
       "template": "模板－功能性測試.md"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－髕骨壓力性骨折醫療協作回跑進展.md",
-      "title": "運動治療－髕骨壓力性骨折醫療協作回跑進展",
+      "path": "05_處置與復健/運動治療/運動治療－進行性塌陷足負荷與鞋具協作.md",
+      "title": "運動治療－進行性塌陷足負荷與鞋具協作",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－症狀性二分髕骨保守負荷進展.md",
-      "title": "運動治療－症狀性二分髕骨保守負荷進展",
+      "path": "05_處置與復健/運動治療/運動治療－踝關節骨關節炎活動與容量進展.md",
+      "title": "運動治療－踝關節骨關節炎活動與容量進展",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
@@ -216,7 +216,7 @@
   ],
   "per_note_validation": [
     {
-      "path": "03_傷害與疾病/過度使用/傷害－髕骨壓力性骨折.md",
+      "path": "03_傷害與疾病/過度使用/傷害－內踝壓力性骨折.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -225,7 +225,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－症狀性二分髕骨.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－跟骨前突骨折.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -234,7 +234,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－膝關節滑膜軟骨瘤病.md",
+      "path": "03_傷害與疾病/過度使用/傷害－進行性塌陷足變形.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -243,7 +243,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－膕動脈陷迫症候群.md",
+      "path": "03_傷害與疾病/過度使用/傷害－屈拇長肌腱鞘炎.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -252,7 +252,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－隱神經髕下支卡壓與神經痛.md",
+      "path": "03_傷害與疾病/過度使用/傷害－踝關節骨關節炎.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -261,7 +261,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－髕骨骨化中心與二分髕骨.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－內踝與遠端脛骨關節面.md",
       "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
@@ -270,7 +270,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－膝關節滑膜與關節內游離體.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－跟骨前突與跟骰關節.md",
       "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
@@ -279,8 +279,8 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/神經/神經－隱神經與髕下支.md",
-      "template": "模板－神經.md",
+      "path": "01_基礎解剖/肌腱/肌腱－脛後肌腱與彈簧韌帶功能單元.md",
+      "template": "模板－肌腱.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -288,7 +288,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－持續性前膝痛與骨壓力傷問診.md",
+      "path": "04_臨床評估/主觀問診/評估－內踝負荷痛與骨壓力傷主觀問診.md",
       "template": "模板－主觀問診.md",
       "yaml": "passed",
       "h1": "passed",
@@ -297,7 +297,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－運動誘發小腿痛與脈搏變化安全分流.md",
+      "path": "04_臨床評估/系統性評估/評估－持續性外踝前下痛與 Chopart 損傷分流.md",
       "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
@@ -306,7 +306,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－內側與前膝神經性疼痛身體檢查.md",
+      "path": "04_臨床評估/身體檢查/評估－進行性足弓塌陷與單腳提踵身體檢查.md",
       "template": "模板－身體檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -315,7 +315,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－膕動脈動態脈搏誘發檢查.md",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－FHL 伸展與主動拇趾蹠屈誘發檢查.md",
       "template": "模板－特殊檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -324,7 +324,7 @@
       "links": "passed"
     },
     {
-      "path": "06_功能性測試/下肢/功能性測試－單腳階梯與反覆蹲起症狀監測.md",
+      "path": "06_功能性測試/下肢/功能性測試－星狀平衡測試.md",
       "template": "模板－功能性測試.md",
       "yaml": "passed",
       "h1": "passed",
@@ -333,7 +333,7 @@
       "links": "passed"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－髕骨壓力性骨折醫療協作回跑進展.md",
+      "path": "05_處置與復健/運動治療/運動治療－進行性塌陷足負荷與鞋具協作.md",
       "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
@@ -342,7 +342,7 @@
       "links": "passed"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－症狀性二分髕骨保守負荷進展.md",
+      "path": "05_處置與復健/運動治療/運動治療－踝關節骨關節炎活動與容量進展.md",
       "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
@@ -352,25 +352,30 @@
     }
   ],
   "assets": [
-    "assets/anatomy/膝部第七輪髕骨滑膜與神經血管圖.svg",
-    "assets/assessment/膝部第七輪運動誘發小腿痛分流圖.svg",
-    "assets/special-tests/膝部第七輪膕動脈動態脈搏檢查.svg"
+    "assets/anatomy/足踝第七輪內外側結構與足弓圖.svg",
+    "assets/assessment/足踝第七輪外側中足漏診骨折分流圖.svg",
+    "assets/special-tests/足踝第七輪FHL誘發檢查示意圖.svg",
+    "assets/assessment/足踝第七輪負荷進展矩陣.svg"
   ],
   "sources_checked": [
-    "American College of Radiology. ACR Appropriateness Criteria: Chronic Knee Pain, Update 2026. https://acsearch.acr.org/docs/69432/Narrative/",
+    "American College of Radiology. ACR Appropriateness Criteria: Chronic Ankle Pain, Update 2025. J Am Coll Radiol. 2026. https://pubmed.ncbi.nlm.nih.gov/41817475/",
+    "American College of Radiology. ACR Appropriateness Criteria: Chronic Foot Pain, revised 2025. https://acsearch.acr.org/docs/69424/Narrative/",
     "American College of Radiology. ACR Appropriateness Criteria: Stress (Fatigue/Insufficiency) Fracture. https://acsearch.acr.org/docs/69435/Narrative/",
-    "Keeley A, et al. Diagnosis and treatment of stress fracture of the patella in athletes. Knee Surg Sports Traumatol Arthrosc. 1996. https://pubmed.ncbi.nlm.nih.gov/9046504/",
-    "McInnis KC, Ramey LN. High-Risk Stress Fractures: Diagnosis and Management. PM R. 2016. https://pubmed.ncbi.nlm.nih.gov/26972260/",
-    "Tanaka M, et al. Serial Radiographs Showing Progression of a Patellar Stress Fracture. Knee Surg Relat Res. 2018. https://pubmed.ncbi.nlm.nih.gov/29482309/",
-    "Hines KE, et al. Treatment of symptomatic bipartite patella in patients younger than 21 years: a systematic review and treatment algorithm. 2025. https://pubmed.ncbi.nlm.nih.gov/39726688/",
-    "Matic GT, et al. Return to activity among athletes with a symptomatic bipartite patella: a systematic review. Knee. 2015. https://pubmed.ncbi.nlm.nih.gov/26014341/",
-    "Davis RI, et al. Primary synovial chondromatosis: a clinicopathologic review and assessment of malignant potential. Hum Pathol. 1998. https://pubmed.ncbi.nlm.nih.gov/9670824/",
-    "Coolican MR, Dandy DJ. Arthroscopic management of synovial chondromatosis of the knee: findings and results in 18 cases. J Bone Joint Surg Br. 1989. https://pubmed.ncbi.nlm.nih.gov/2722947/",
-    "Clinical Outcomes of Arthroscopic Loose-Body Removal and Synovectomy for Knee Synovial Chondromatosis. 2025. https://pubmed.ncbi.nlm.nih.gov/41368014/",
-    "Shahi N, et al. Functional Popliteal Artery Entrapment Syndrome: A Review of Diagnosis and Management. Ann Vasc Surg. 2019. https://pubmed.ncbi.nlm.nih.gov/31028851/",
-    "Levien LJ, Veller MG. Popliteal artery entrapment syndrome: more common than previously recognized. J Vasc Surg. 1999. https://pubmed.ncbi.nlm.nih.gov/10514198/",
-    "Romanoff ME, et al. Entrapment neuropathy of the infrapatellar branch of the saphenous nerve. Clin Orthop Relat Res. 1979. https://pubmed.ncbi.nlm.nih.gov/907036/",
-    "Yang SR, et al. Diagnostics of infrapatellar saphenous neuralgia: ultrasound and diagnostic nerve block. Eur Radiol. 2022. https://pubmed.ncbi.nlm.nih.gov/34342695/"
+    "Ramasamy A, et al. Medial Malleolar Stress Fracture Treatment and Return to Activity: A Systematic Review. 2024. https://pubmed.ncbi.nlm.nih.gov/39679074/",
+    "Irion V, et al. The treatment and outcomes of medial malleolar stress fractures: a systematic review. Sports Health. 2014. https://pubmed.ncbi.nlm.nih.gov/25364485/",
+    "Massen FK, et al. Fractures of the anterior process of the calcaneus—frequently overlooked injuries following ankle sprains. 2018. https://pubmed.ncbi.nlm.nih.gov/29845370/",
+    "Dhinsa BS, et al. Fractures of the anterior process of the calcaneum: a review and proposed treatment algorithm. Foot Ankle Surg. 2019. https://pubmed.ncbi.nlm.nih.gov/30321973/",
+    "Hirschmann A, et al. Acute Fracture of the Anterior Process of Calcaneus: Does It Herald a More Advanced Injury to Chopart Joint? AJR. 2018. https://pubmed.ncbi.nlm.nih.gov/29570372/",
+    "Myerson MS, et al. Classification and Nomenclature: Progressive Collapsing Foot Deformity. Foot Ankle Int. 2020. https://pubmed.ncbi.nlm.nih.gov/32856474/",
+    "Progressive collapsing foot deformity: an instructional review. 2026. https://pubmed.ncbi.nlm.nih.gov/42257901/",
+    "Progressive Collapsing Foot Deformity. StatPearls. 2024. https://pubmed.ncbi.nlm.nih.gov/31194335/",
+    "Michelson J, Dunn L. Tenosynovitis of the flexor hallucis longus: spectrum of presentation and treatment. Foot Ankle Int. 2005. https://pubmed.ncbi.nlm.nih.gov/15829213/",
+    "Russell JA, et al. Results of Treatment of Posterior Ankle Impingement Syndrome and Flexor Hallucis Longus Tendinopathy in Dancers: A Systematic Review. 2018. https://pubmed.ncbi.nlm.nih.gov/29510786/",
+    "Ankle Osteoarthritis. Orthop Clin North Am. 2024. https://pubmed.ncbi.nlm.nih.gov/38810230/",
+    "Herrera-Pérez M, et al. Ankle osteoarthritis: comprehensive review and treatment algorithm proposal. EFORT Open Rev. 2022. https://pubmed.ncbi.nlm.nih.gov/35900210/",
+    "Smith MD, et al. Education plus exercise versus general advice for ankle osteoarthritis: feasibility randomized trial. 2024. https://pubmed.ncbi.nlm.nih.gov/39241692/",
+    "Powden CJ, et al. Reliability of the Star Excursion Balance Test and Lower Quarter Y-Balance Test: systematic review. 2019. https://pubmed.ncbi.nlm.nih.gov/31598406/",
+    "Systematic review of motor control and somatosensation assessment tests for the ankle. 2020. https://pubmed.ncbi.nlm.nih.gov/32655878/"
   ],
   "validation": {
     "status": "passed",
@@ -389,5 +394,5 @@
       "ZIP CRC/extraction/bit comparison/path"
     ]
   },
-  "generated_at_utc": "2026-10-15T00:03:59.591437+00:00"
+  "generated_at_utc": "2026-10-16T00:01:53.751889+00:00"
 }
