@@ -1,11 +1,11 @@
 {
-  "schema_version": 7,
-  "date": "2026-10-16",
-  "region": "足踝第七輪",
+  "schema_version": 5,
+  "date": "2026-10-17",
+  "region": "頭頸第八輪",
   "github": {
     "repository": "janice880624/AT-Obsidian",
     "branch": "main",
-    "commit": "ab20f72dae1d11d000898722552415c1f80ff5d4",
+    "commit": "b3503eb9728c2c69d568adfacdcfe19aed2a1d5c",
     "mode": "read-only"
   },
   "template_policy": {
@@ -82,13 +82,13 @@
       "模板－傷害.md",
       "模板－功能性測試.md",
       "模板－特殊檢查.md",
+      "模板－神經.md",
       "模板－系統性評估.md",
-      "模板－肌腱.md",
-      "模板－身體檢查.md",
-      "模板－運動治療.md",
-      "模板－骨骼或關節.md"
+      "模板－肌肉.md",
+      "模板－身體檢查.md"
     ],
     "validated_note_count": 15,
+    "unsupported_new_note_types": [],
     "exact_yaml_h1_h2_and_subfields": true
   },
   "folder_policy": {
@@ -100,123 +100,126 @@
     "core_notes": 5,
     "related_notes": 10,
     "knowledge_notes": 15,
-    "svg": 4
+    "svg": 3
   },
   "topic_candidates_skipped": [
-    "足踝第一至第六輪既有主題",
-    "無專屬模板的筆記類型",
-    "任何需要新資料夾的候選"
+    "開放性眼球傷",
+    "創傷性視神經病變",
+    "眼眶骨折",
+    "Swinging Flashlight Test",
+    "King-Devick 快速數字命名測試",
+    "運動相關腦震盪"
   ],
   "notes": [
     {
-      "path": "03_傷害與疾病/過度使用/傷害－內踝壓力性骨折.md",
-      "title": "傷害－內踝壓力性骨折",
+      "path": "03_傷害與疾病/急性傷害/傷害－角膜擦傷與表淺異物.md",
+      "title": "傷害－角膜擦傷與表淺異物",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－跟骨前突骨折.md",
-      "title": "傷害－跟骨前突骨折",
+      "path": "03_傷害與疾病/急性傷害/傷害－外傷性前房積血.md",
+      "title": "傷害－外傷性前房積血",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－進行性塌陷足變形.md",
-      "title": "傷害－進行性塌陷足變形",
+      "path": "03_傷害與疾病/急性傷害/傷害－眼眶腔室症候群與球後血腫.md",
+      "title": "傷害－眼眶腔室症候群與球後血腫",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－屈拇長肌腱鞘炎.md",
-      "title": "傷害－屈拇長肌腱鞘炎",
+      "path": "03_傷害與疾病/急性傷害/傷害－視網膜震盪.md",
+      "title": "傷害－視網膜震盪",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－踝關節骨關節炎.md",
-      "title": "傷害－踝關節骨關節炎",
+      "path": "03_傷害與疾病/急性傷害/傷害－外傷性視網膜裂孔與剝離.md",
+      "title": "傷害－外傷性視網膜裂孔與剝離",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－內踝與遠端脛骨關節面.md",
-      "title": "骨骼與關節－內踝與遠端脛骨關節面",
+      "path": "01_基礎解剖/神經/神經－視網膜與黃斑視覺處理.md",
+      "title": "神經－視網膜與黃斑視覺處理",
       "role": "相關",
-      "type": "骨骼或關節",
-      "template": "模板－骨骼或關節.md"
+      "type": "神經",
+      "template": "模板－神經.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－跟骨前突與跟骰關節.md",
-      "title": "骨骼與關節－跟骨前突與跟骰關節",
+      "path": "01_基礎解剖/神經/神經－動眼滑車外旋神經與眼球運動.md",
+      "title": "神經－動眼滑車外旋神經與眼球運動",
       "role": "相關",
-      "type": "骨骼或關節",
-      "template": "模板－骨骼或關節.md"
+      "type": "神經",
+      "template": "模板－神經.md"
     },
     {
-      "path": "01_基礎解剖/肌腱/肌腱－脛後肌腱與彈簧韌帶功能單元.md",
-      "title": "肌腱－脛後肌腱與彈簧韌帶功能單元",
+      "path": "01_基礎解剖/肌肉/肌肉－眼外肌群.md",
+      "title": "肌肉－眼外肌群",
       "role": "相關",
-      "type": "肌腱",
-      "template": "模板－肌腱.md"
+      "type": "肌肉",
+      "template": "模板－肌肉.md"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－內踝負荷痛與骨壓力傷主觀問診.md",
-      "title": "評估－內踝負荷痛與骨壓力傷主觀問診",
+      "path": "04_臨床評估/主觀問診/評估－急性眼痛與視覺改變問診.md",
+      "title": "評估－急性眼痛與視覺改變問診",
       "role": "相關",
       "type": "主觀問診",
       "template": "模板－主觀問診.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－持續性外踝前下痛與 Chopart 損傷分流.md",
-      "title": "評估－持續性外踝前下痛與 Chopart 損傷分流",
-      "role": "相關",
-      "type": "系統性評估",
-      "template": "模板－系統性評估.md"
-    },
-    {
-      "path": "04_臨床評估/身體檢查/評估－進行性足弓塌陷與單腳提踵身體檢查.md",
-      "title": "評估－進行性足弓塌陷與單腳提踵身體檢查",
+      "path": "04_臨床評估/身體檢查/評估－運動場邊逐眼視力瞳孔與眼球運動檢查.md",
+      "title": "評估－運動場邊逐眼視力瞳孔與眼球運動檢查",
       "role": "相關",
       "type": "身體檢查",
       "template": "模板－身體檢查.md"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－FHL 伸展與主動拇趾蹠屈誘發檢查.md",
-      "title": "特殊檢查－FHL 伸展與主動拇趾蹠屈誘發檢查",
+      "path": "04_臨床評估/系統性評估/評估－閉合性眼外傷系統性分流.md",
+      "title": "評估－閉合性眼外傷系統性分流",
+      "role": "相關",
+      "type": "系統性評估",
+      "template": "模板－系統性評估.md"
+    },
+    {
+      "path": "04_臨床評估/特殊檢查/特殊檢查－遠距視力表逐眼測試.md",
+      "title": "特殊檢查－遠距視力表逐眼測試",
       "role": "相關",
       "type": "特殊檢查",
       "template": "模板－特殊檢查.md"
     },
     {
-      "path": "06_功能性測試/下肢/功能性測試－星狀平衡測試.md",
-      "title": "功能性測試－星狀平衡測試",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－螢光染色與 Seidel Test.md",
+      "title": "特殊檢查－螢光染色與 Seidel Test",
+      "role": "相關",
+      "type": "特殊檢查",
+      "template": "模板－特殊檢查.md"
+    },
+    {
+      "path": "04_臨床評估/特殊檢查/特殊檢查－九方位眼球運動檢查.md",
+      "title": "特殊檢查－九方位眼球運動檢查",
+      "role": "相關",
+      "type": "特殊檢查",
+      "template": "模板－特殊檢查.md"
+    },
+    {
+      "path": "06_功能性測試/軀幹/功能性測試－近點聚合測試.md",
+      "title": "功能性測試－近點聚合測試",
       "role": "相關",
       "type": "功能性測試",
       "template": "模板－功能性測試.md"
-    },
-    {
-      "path": "05_處置與復健/運動治療/運動治療－進行性塌陷足負荷與鞋具協作.md",
-      "title": "運動治療－進行性塌陷足負荷與鞋具協作",
-      "role": "相關",
-      "type": "運動治療",
-      "template": "模板－運動治療.md"
-    },
-    {
-      "path": "05_處置與復健/運動治療/運動治療－踝關節骨關節炎活動與容量進展.md",
-      "title": "運動治療－踝關節骨關節炎活動與容量進展",
-      "role": "相關",
-      "type": "運動治療",
-      "template": "模板－運動治療.md"
     }
   ],
   "per_note_validation": [
     {
-      "path": "03_傷害與疾病/過度使用/傷害－內踝壓力性骨折.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－角膜擦傷與表淺異物.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -225,7 +228,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－跟骨前突骨折.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－外傷性前房積血.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -234,7 +237,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－進行性塌陷足變形.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－眼眶腔室症候群與球後血腫.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -243,7 +246,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－屈拇長肌腱鞘炎.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－視網膜震盪.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -252,7 +255,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－踝關節骨關節炎.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－外傷性視網膜裂孔與剝離.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -261,8 +264,8 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－內踝與遠端脛骨關節面.md",
-      "template": "模板－骨骼或關節.md",
+      "path": "01_基礎解剖/神經/神經－視網膜與黃斑視覺處理.md",
+      "template": "模板－神經.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -270,8 +273,8 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－跟骨前突與跟骰關節.md",
-      "template": "模板－骨骼或關節.md",
+      "path": "01_基礎解剖/神經/神經－動眼滑車外旋神經與眼球運動.md",
+      "template": "模板－神經.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -279,8 +282,8 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/肌腱/肌腱－脛後肌腱與彈簧韌帶功能單元.md",
-      "template": "模板－肌腱.md",
+      "path": "01_基礎解剖/肌肉/肌肉－眼外肌群.md",
+      "template": "模板－肌肉.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -288,7 +291,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－內踝負荷痛與骨壓力傷主觀問診.md",
+      "path": "04_臨床評估/主觀問診/評估－急性眼痛與視覺改變問診.md",
       "template": "模板－主觀問診.md",
       "yaml": "passed",
       "h1": "passed",
@@ -297,16 +300,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－持續性外踝前下痛與 Chopart 損傷分流.md",
-      "template": "模板－系統性評估.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "04_臨床評估/身體檢查/評估－進行性足弓塌陷與單腳提踵身體檢查.md",
+      "path": "04_臨床評估/身體檢查/評估－運動場邊逐眼視力瞳孔與眼球運動檢查.md",
       "template": "模板－身體檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -315,7 +309,16 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－FHL 伸展與主動拇趾蹠屈誘發檢查.md",
+      "path": "04_臨床評估/系統性評估/評估－閉合性眼外傷系統性分流.md",
+      "template": "模板－系統性評估.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "04_臨床評估/特殊檢查/特殊檢查－遠距視力表逐眼測試.md",
       "template": "模板－特殊檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -324,26 +327,26 @@
       "links": "passed"
     },
     {
-      "path": "06_功能性測試/下肢/功能性測試－星狀平衡測試.md",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－螢光染色與 Seidel Test.md",
+      "template": "模板－特殊檢查.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "04_臨床評估/特殊檢查/特殊檢查－九方位眼球運動檢查.md",
+      "template": "模板－特殊檢查.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "06_功能性測試/軀幹/功能性測試－近點聚合測試.md",
       "template": "模板－功能性測試.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "05_處置與復健/運動治療/運動治療－進行性塌陷足負荷與鞋具協作.md",
-      "template": "模板－運動治療.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "05_處置與復健/運動治療/運動治療－踝關節骨關節炎活動與容量進展.md",
-      "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -352,31 +355,38 @@
     }
   ],
   "assets": [
-    "assets/anatomy/足踝第七輪內外側結構與足弓圖.svg",
-    "assets/assessment/足踝第七輪外側中足漏診骨折分流圖.svg",
-    "assets/special-tests/足踝第七輪FHL誘發檢查示意圖.svg",
-    "assets/assessment/足踝第七輪負荷進展矩陣.svg"
+    "assets/anatomy/頭頸第八輪眼前後節與視覺路徑圖.svg",
+    "assets/assessment/頭頸第八輪眼外傷安全分流圖.svg",
+    "assets/special-tests/頭頸第八輪眼部檢查適用性矩陣.svg"
   ],
   "sources_checked": [
-    "American College of Radiology. ACR Appropriateness Criteria: Chronic Ankle Pain, Update 2025. J Am Coll Radiol. 2026. https://pubmed.ncbi.nlm.nih.gov/41817475/",
-    "American College of Radiology. ACR Appropriateness Criteria: Chronic Foot Pain, revised 2025. https://acsearch.acr.org/docs/69424/Narrative/",
-    "American College of Radiology. ACR Appropriateness Criteria: Stress (Fatigue/Insufficiency) Fracture. https://acsearch.acr.org/docs/69435/Narrative/",
-    "Ramasamy A, et al. Medial Malleolar Stress Fracture Treatment and Return to Activity: A Systematic Review. 2024. https://pubmed.ncbi.nlm.nih.gov/39679074/",
-    "Irion V, et al. The treatment and outcomes of medial malleolar stress fractures: a systematic review. Sports Health. 2014. https://pubmed.ncbi.nlm.nih.gov/25364485/",
-    "Massen FK, et al. Fractures of the anterior process of the calcaneus—frequently overlooked injuries following ankle sprains. 2018. https://pubmed.ncbi.nlm.nih.gov/29845370/",
-    "Dhinsa BS, et al. Fractures of the anterior process of the calcaneum: a review and proposed treatment algorithm. Foot Ankle Surg. 2019. https://pubmed.ncbi.nlm.nih.gov/30321973/",
-    "Hirschmann A, et al. Acute Fracture of the Anterior Process of Calcaneus: Does It Herald a More Advanced Injury to Chopart Joint? AJR. 2018. https://pubmed.ncbi.nlm.nih.gov/29570372/",
-    "Myerson MS, et al. Classification and Nomenclature: Progressive Collapsing Foot Deformity. Foot Ankle Int. 2020. https://pubmed.ncbi.nlm.nih.gov/32856474/",
-    "Progressive collapsing foot deformity: an instructional review. 2026. https://pubmed.ncbi.nlm.nih.gov/42257901/",
-    "Progressive Collapsing Foot Deformity. StatPearls. 2024. https://pubmed.ncbi.nlm.nih.gov/31194335/",
-    "Michelson J, Dunn L. Tenosynovitis of the flexor hallucis longus: spectrum of presentation and treatment. Foot Ankle Int. 2005. https://pubmed.ncbi.nlm.nih.gov/15829213/",
-    "Russell JA, et al. Results of Treatment of Posterior Ankle Impingement Syndrome and Flexor Hallucis Longus Tendinopathy in Dancers: A Systematic Review. 2018. https://pubmed.ncbi.nlm.nih.gov/29510786/",
-    "Ankle Osteoarthritis. Orthop Clin North Am. 2024. https://pubmed.ncbi.nlm.nih.gov/38810230/",
-    "Herrera-Pérez M, et al. Ankle osteoarthritis: comprehensive review and treatment algorithm proposal. EFORT Open Rev. 2022. https://pubmed.ncbi.nlm.nih.gov/35900210/",
-    "Smith MD, et al. Education plus exercise versus general advice for ankle osteoarthritis: feasibility randomized trial. 2024. https://pubmed.ncbi.nlm.nih.gov/39241692/",
-    "Powden CJ, et al. Reliability of the Star Excursion Balance Test and Lower Quarter Y-Balance Test: systematic review. 2019. https://pubmed.ncbi.nlm.nih.gov/31598406/",
-    "Systematic review of motor control and somatosensation assessment tests for the ankle. 2020. https://pubmed.ncbi.nlm.nih.gov/32655878/"
+    "International Olympic Committee consensus paper on sports-related ophthalmology issues in elite sports. Br J Sports Med. 2023. https://pubmed.ncbi.nlm.nih.gov/37485004/",
+    "Ohana O, et al. Ocular related sports injuries. J Clin Med. 2021. https://pmc.ncbi.nlm.nih.gov/articles/PMC8192440/",
+    "Miller SC, et al. Ocular injuries: emergency department strategies. Emerg Med Pract. 2023. https://pubmed.ncbi.nlm.nih.gov/37768702/",
+    "American Academy of Ophthalmology EyeWiki. Anterior Segment Trauma: Evaluation, Considerations and Initial Management. https://eyewiki.aao.org/Anterior_Segment_Trauma:_Evaluation,_Considerations_and_Initial_Management",
+    "American Academy of Ophthalmology EyeWiki. Pre-Ophthalmologist Management of Eye Trauma. https://eyewiki.aao.org/Pre-Ophthalmologist_Management_of_Eye_Trauma",
+    "Campbell TD, Gnugnoli DM. Seidel Test. StatPearls. Updated 2026. https://pubmed.ncbi.nlm.nih.gov/31082063/",
+    "Woreta FA, et al. Medical interventions for traumatic hyphema. Cochrane Database Syst Rev. 2023. https://pubmed.ncbi.nlm.nih.gov/36912744/",
+    "Ulagantheran V, et al. Hyphema due to blunt injury: a review of 118 patients. Int J Ophthalmol. 2010. https://pmc.ncbi.nlm.nih.gov/articles/PMC3340623/",
+    "McCallum E, et al. Orbital Compartment Syndrome: An Update With Review Of The Literature. Clin Ophthalmol. 2019. https://pubmed.ncbi.nlm.nih.gov/31806931/",
+    "Murali S, et al. Orbital compartment syndrome: Pearls and pitfalls for the emergency physician. JACEP Open. 2021. https://pubmed.ncbi.nlm.nih.gov/33733246/",
+    "Blanch RJ, et al. Visual outcomes after blunt ocular trauma. Ophthalmology. 2013. https://pubmed.ncbi.nlm.nih.gov/23618228/",
+    "Song Y, et al. Optical coherence tomography patterns and outcomes of contusion maculopathy caused by impact of sporting equipment. Retina. 2018. https://pubmed.ncbi.nlm.nih.gov/30012105/",
+    "Bajaj MS, et al. Traumatic retinal detachment: A contemporary update. Surv Ophthalmol. 2024. https://pubmed.ncbi.nlm.nih.gov/39222801/",
+    "Rohowetz LJ, et al. Vitreoretinal Injury Associated with Sports Ball Ocular Trauma. 2025. https://pmc.ncbi.nlm.nih.gov/articles/PMC12204862/",
+    "Storey EP, et al. Near Point of Convergence After a Sport-Related Concussion: Measurement Reliability and Relationship to Neurocognitive Impairment and Symptoms. Am J Sports Med. 2015. https://pubmed.ncbi.nlm.nih.gov/26453625/",
+    "Del Rossi G. Examination of Near Point of Convergence Scores in High-School Athletes. Clin J Sport Med. 2022. https://pubmed.ncbi.nlm.nih.gov/36083330/",
+    "Kuhn F, et al. The Ocular Trauma Score. Ophthalmol Clin North Am. 2002; validation overview: https://pubmed.ncbi.nlm.nih.gov/19359910/"
   ],
+  "link_policy": {
+    "new_unresolved_links": 0,
+    "preexisting_home_placeholders_unchanged": [
+      "緊急處置流程",
+      "文獻索引",
+      "新個案評估",
+      "臨床問題清單"
+    ]
+  },
   "validation": {
     "status": "passed",
     "checks": [
@@ -385,14 +395,15 @@
       "H1 filename",
       "exact H2 order",
       "required subfields",
+      "no placeholders",
       "deduplication",
       "bidirectional indexes",
-      "SVG XML and render",
+      "new unresolved links = 0",
+      "SVG XML and actual Inkscape render",
       "no new directories",
-      "unresolved links zero",
       "SHA-256",
-      "ZIP CRC/extraction/bit comparison/path"
+      "ZIP CRC/extraction/path"
     ]
   },
-  "generated_at_utc": "2026-10-16T00:01:53.751889+00:00"
+  "generated_at_utc": "2026-10-17T00:07:23.690676+00:00"
 }
