@@ -1,11 +1,11 @@
 {
   "schema_version": 5,
-  "date": "2026-10-17",
-  "region": "頭頸第八輪",
+  "date": "2026-10-18",
+  "region": "肩部第八輪",
   "github": {
     "repository": "janice880624/AT-Obsidian",
     "branch": "main",
-    "commit": "b3503eb9728c2c69d568adfacdcfe19aed2a1d5c",
+    "commit": "42f3d71d0e28094739403949e67e89266652b505",
     "mode": "read-only"
   },
   "template_policy": {
@@ -84,8 +84,9 @@
       "模板－特殊檢查.md",
       "模板－神經.md",
       "模板－系統性評估.md",
-      "模板－肌肉.md",
-      "模板－身體檢查.md"
+      "模板－身體檢查.md",
+      "模板－運動治療.md",
+      "模板－骨骼或關節.md"
     ],
     "validated_note_count": 15,
     "unsupported_new_note_types": [],
@@ -103,123 +104,123 @@
     "svg": 3
   },
   "topic_candidates_skipped": [
-    "開放性眼球傷",
-    "創傷性視神經病變",
-    "眼眶骨折",
-    "Swinging Flashlight Test",
-    "King-Devick 快速數字命名測試",
-    "運動相關腦震盪"
+    "急性外傷後肩關節脫臼",
+    "旋轉肌袖相關肩痛",
+    "肱二頭肌滑車病灶與長頭肌腱不穩定",
+    "原生盂肱關節感染性關節炎",
+    "External Rotation Lag Sign",
+    "單臂閉鎖鏈上肢穩定測試"
   ],
   "notes": [
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－角膜擦傷與表淺異物.md",
-      "title": "傷害－角膜擦傷與表淺異物",
+      "path": "03_傷害與疾病/急性傷害/傷害－急性外傷性旋轉肌袖全層撕裂與假性麻痺.md",
+      "title": "傷害－急性外傷性旋轉肌袖全層撕裂與假性麻痺",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－外傷性前房積血.md",
-      "title": "傷害－外傷性前房積血",
+      "path": "03_傷害與疾病/急性傷害/傷害－肱二頭肌長頭近端斷裂.md",
+      "title": "傷害－肱二頭肌長頭近端斷裂",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－眼眶腔室症候群與球後血腫.md",
-      "title": "傷害－眼眶腔室症候群與球後血腫",
+      "path": "03_傷害與疾病/過度使用/傷害－肱骨頭骨壞死.md",
+      "title": "傷害－肱骨頭骨壞死",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－視網膜震盪.md",
-      "title": "傷害－視網膜震盪",
+      "path": "03_傷害與疾病/急性傷害/傷害－胸鎖關節感染性關節炎.md",
+      "title": "傷害－胸鎖關節感染性關節炎",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－外傷性視網膜裂孔與剝離.md",
-      "title": "傷害－外傷性視網膜裂孔與剝離",
+      "path": "03_傷害與疾病/急性傷害/傷害－肩胛胸廓分離.md",
+      "title": "傷害－肩胛胸廓分離",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "01_基礎解剖/神經/神經－視網膜與黃斑視覺處理.md",
-      "title": "神經－視網膜與黃斑視覺處理",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－肱骨頭血供與骨壞死分期.md",
+      "title": "骨骼與關節－肱骨頭血供與骨壞死分期",
+      "role": "相關",
+      "type": "骨骼或關節",
+      "template": "模板－骨骼或關節.md"
+    },
+    {
+      "path": "01_基礎解剖/神經/神經－臂叢神經與肩帶牽拉損傷.md",
+      "title": "神經－臂叢神經與肩帶牽拉損傷",
       "role": "相關",
       "type": "神經",
       "template": "模板－神經.md"
     },
     {
-      "path": "01_基礎解剖/神經/神經－動眼滑車外旋神經與眼球運動.md",
-      "title": "神經－動眼滑車外旋神經與眼球運動",
-      "role": "相關",
-      "type": "神經",
-      "template": "模板－神經.md"
-    },
-    {
-      "path": "01_基礎解剖/肌肉/肌肉－眼外肌群.md",
-      "title": "肌肉－眼外肌群",
-      "role": "相關",
-      "type": "肌肉",
-      "template": "模板－肌肉.md"
-    },
-    {
-      "path": "04_臨床評估/主觀問診/評估－急性眼痛與視覺改變問診.md",
-      "title": "評估－急性眼痛與視覺改變問診",
+      "path": "04_臨床評估/主觀問診/評估－急性肩部主動抬舉缺失問診.md",
+      "title": "評估－急性肩部主動抬舉缺失問診",
       "role": "相關",
       "type": "主觀問診",
       "template": "模板－主觀問診.md"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－運動場邊逐眼視力瞳孔與眼球運動檢查.md",
-      "title": "評估－運動場邊逐眼視力瞳孔與眼球運動檢查",
+      "path": "04_臨床評估/身體檢查/評估－急性無力肩身體檢查.md",
+      "title": "評估－急性無力肩身體檢查",
       "role": "相關",
       "type": "身體檢查",
       "template": "模板－身體檢查.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－閉合性眼外傷系統性分流.md",
-      "title": "評估－閉合性眼外傷系統性分流",
+      "path": "04_臨床評估/系統性評估/評估－肩帶高能量創傷神經血管分流.md",
+      "title": "評估－肩帶高能量創傷神經血管分流",
       "role": "相關",
       "type": "系統性評估",
       "template": "模板－系統性評估.md"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－遠距視力表逐眼測試.md",
-      "title": "特殊檢查－遠距視力表逐眼測試",
+      "path": "04_臨床評估/系統性評估/評估－非機械性肩痛與感染壞死紅旗分流.md",
+      "title": "評估－非機械性肩痛與感染壞死紅旗分流",
+      "role": "相關",
+      "type": "系統性評估",
+      "template": "模板－系統性評估.md"
+    },
+    {
+      "path": "04_臨床評估/特殊檢查/特殊檢查－Drop Arm Test.md",
+      "title": "特殊檢查－Drop Arm Test",
       "role": "相關",
       "type": "特殊檢查",
       "template": "模板－特殊檢查.md"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－螢光染色與 Seidel Test.md",
-      "title": "特殊檢查－螢光染色與 Seidel Test",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－Hornblower Sign.md",
+      "title": "特殊檢查－Hornblower Sign",
       "role": "相關",
       "type": "特殊檢查",
       "template": "模板－特殊檢查.md"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－九方位眼球運動檢查.md",
-      "title": "特殊檢查－九方位眼球運動檢查",
-      "role": "相關",
-      "type": "特殊檢查",
-      "template": "模板－特殊檢查.md"
-    },
-    {
-      "path": "06_功能性測試/軀幹/功能性測試－近點聚合測試.md",
-      "title": "功能性測試－近點聚合測試",
+      "path": "06_功能性測試/上肢/功能性測試－單臂跳躍測試.md",
+      "title": "功能性測試－單臂跳躍測試",
       "role": "相關",
       "type": "功能性測試",
       "template": "模板－功能性測試.md"
+    },
+    {
+      "path": "05_處置與復健/運動治療/運動治療－外傷性旋轉肌袖修復後分級保護與回場.md",
+      "title": "運動治療－外傷性旋轉肌袖修復後分級保護與回場",
+      "role": "相關",
+      "type": "運動治療",
+      "template": "模板－運動治療.md"
     }
   ],
   "per_note_validation": [
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－角膜擦傷與表淺異物.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－急性外傷性旋轉肌袖全層撕裂與假性麻痺.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -228,7 +229,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－外傷性前房積血.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－肱二頭肌長頭近端斷裂.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -237,7 +238,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－眼眶腔室症候群與球後血腫.md",
+      "path": "03_傷害與疾病/過度使用/傷害－肱骨頭骨壞死.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -246,7 +247,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－視網膜震盪.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－胸鎖關節感染性關節炎.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -255,7 +256,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－外傷性視網膜裂孔與剝離.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－肩胛胸廓分離.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -264,7 +265,16 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/神經/神經－視網膜與黃斑視覺處理.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－肱骨頭血供與骨壞死分期.md",
+      "template": "模板－骨骼或關節.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "01_基礎解剖/神經/神經－臂叢神經與肩帶牽拉損傷.md",
       "template": "模板－神經.md",
       "yaml": "passed",
       "h1": "passed",
@@ -273,25 +283,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/神經/神經－動眼滑車外旋神經與眼球運動.md",
-      "template": "模板－神經.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "01_基礎解剖/肌肉/肌肉－眼外肌群.md",
-      "template": "模板－肌肉.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "04_臨床評估/主觀問診/評估－急性眼痛與視覺改變問診.md",
+      "path": "04_臨床評估/主觀問診/評估－急性肩部主動抬舉缺失問診.md",
       "template": "模板－主觀問診.md",
       "yaml": "passed",
       "h1": "passed",
@@ -300,7 +292,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－運動場邊逐眼視力瞳孔與眼球運動檢查.md",
+      "path": "04_臨床評估/身體檢查/評估－急性無力肩身體檢查.md",
       "template": "模板－身體檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -309,7 +301,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－閉合性眼外傷系統性分流.md",
+      "path": "04_臨床評估/系統性評估/評估－肩帶高能量創傷神經血管分流.md",
       "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
@@ -318,7 +310,16 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－遠距視力表逐眼測試.md",
+      "path": "04_臨床評估/系統性評估/評估－非機械性肩痛與感染壞死紅旗分流.md",
+      "template": "模板－系統性評估.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "04_臨床評估/特殊檢查/特殊檢查－Drop Arm Test.md",
       "template": "模板－特殊檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -327,7 +328,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－螢光染色與 Seidel Test.md",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－Hornblower Sign.md",
       "template": "模板－特殊檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -336,17 +337,17 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－九方位眼球運動檢查.md",
-      "template": "模板－特殊檢查.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "06_功能性測試/軀幹/功能性測試－近點聚合測試.md",
+      "path": "06_功能性測試/上肢/功能性測試－單臂跳躍測試.md",
       "template": "模板－功能性測試.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "05_處置與復健/運動治療/運動治療－外傷性旋轉肌袖修復後分級保護與回場.md",
+      "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -355,28 +356,29 @@
     }
   ],
   "assets": [
-    "assets/anatomy/頭頸第八輪眼前後節與視覺路徑圖.svg",
-    "assets/assessment/頭頸第八輪眼外傷安全分流圖.svg",
-    "assets/special-tests/頭頸第八輪眼部檢查適用性矩陣.svg"
+    "assets/anatomy/肩部第八輪肱骨頭血供與骨壞死進展示意圖.svg",
+    "assets/assessment/肩部第八輪高能量肩帶創傷分流圖.svg",
+    "assets/special-tests/肩部第八輪旋轉肌袖檢查組合矩陣.svg"
   ],
   "sources_checked": [
-    "International Olympic Committee consensus paper on sports-related ophthalmology issues in elite sports. Br J Sports Med. 2023. https://pubmed.ncbi.nlm.nih.gov/37485004/",
-    "Ohana O, et al. Ocular related sports injuries. J Clin Med. 2021. https://pmc.ncbi.nlm.nih.gov/articles/PMC8192440/",
-    "Miller SC, et al. Ocular injuries: emergency department strategies. Emerg Med Pract. 2023. https://pubmed.ncbi.nlm.nih.gov/37768702/",
-    "American Academy of Ophthalmology EyeWiki. Anterior Segment Trauma: Evaluation, Considerations and Initial Management. https://eyewiki.aao.org/Anterior_Segment_Trauma:_Evaluation,_Considerations_and_Initial_Management",
-    "American Academy of Ophthalmology EyeWiki. Pre-Ophthalmologist Management of Eye Trauma. https://eyewiki.aao.org/Pre-Ophthalmologist_Management_of_Eye_Trauma",
-    "Campbell TD, Gnugnoli DM. Seidel Test. StatPearls. Updated 2026. https://pubmed.ncbi.nlm.nih.gov/31082063/",
-    "Woreta FA, et al. Medical interventions for traumatic hyphema. Cochrane Database Syst Rev. 2023. https://pubmed.ncbi.nlm.nih.gov/36912744/",
-    "Ulagantheran V, et al. Hyphema due to blunt injury: a review of 118 patients. Int J Ophthalmol. 2010. https://pmc.ncbi.nlm.nih.gov/articles/PMC3340623/",
-    "McCallum E, et al. Orbital Compartment Syndrome: An Update With Review Of The Literature. Clin Ophthalmol. 2019. https://pubmed.ncbi.nlm.nih.gov/31806931/",
-    "Murali S, et al. Orbital compartment syndrome: Pearls and pitfalls for the emergency physician. JACEP Open. 2021. https://pubmed.ncbi.nlm.nih.gov/33733246/",
-    "Blanch RJ, et al. Visual outcomes after blunt ocular trauma. Ophthalmology. 2013. https://pubmed.ncbi.nlm.nih.gov/23618228/",
-    "Song Y, et al. Optical coherence tomography patterns and outcomes of contusion maculopathy caused by impact of sporting equipment. Retina. 2018. https://pubmed.ncbi.nlm.nih.gov/30012105/",
-    "Bajaj MS, et al. Traumatic retinal detachment: A contemporary update. Surv Ophthalmol. 2024. https://pubmed.ncbi.nlm.nih.gov/39222801/",
-    "Rohowetz LJ, et al. Vitreoretinal Injury Associated with Sports Ball Ocular Trauma. 2025. https://pmc.ncbi.nlm.nih.gov/articles/PMC12204862/",
-    "Storey EP, et al. Near Point of Convergence After a Sport-Related Concussion: Measurement Reliability and Relationship to Neurocognitive Impairment and Symptoms. Am J Sports Med. 2015. https://pubmed.ncbi.nlm.nih.gov/26453625/",
-    "Del Rossi G. Examination of Near Point of Convergence Scores in High-School Athletes. Clin J Sport Med. 2022. https://pubmed.ncbi.nlm.nih.gov/36083330/",
-    "Kuhn F, et al. The Ocular Trauma Score. Ophthalmol Clin North Am. 2002; validation overview: https://pubmed.ncbi.nlm.nih.gov/19359910/"
+    "American Academy of Orthopaedic Surgeons. Management of Rotator Cuff Injuries Evidence-Based Clinical Practice Guideline. 2025. https://www.aaos.org/rccpg2025",
+    "ACR Appropriateness Criteria Acute Shoulder Pain: 2024 Update. https://pubmed.ncbi.nlm.nih.gov/40409888/",
+    "Time to surgery in acute rotator cuff tear: A systematic review. https://pubmed.ncbi.nlm.nih.gov/36791718/",
+    "Pseudoparalysis: a systematic review of term definitions, treatment approaches, and outcomes. https://pubmed.ncbi.nlm.nih.gov/28526423/",
+    "Biceps Tendon Rupture: Contemporary Evidence, Evolving Techniques, and a Practical Treatment Framework. https://pubmed.ncbi.nlm.nih.gov/41458715/",
+    "Biceps brachii tendon ruptures: a review of diagnosis and treatment of proximal and distal biceps tendon ruptures. https://pubmed.ncbi.nlm.nih.gov/20631471/",
+    "Humeral head avascular necrosis: etiology, diagnosis, and management. https://pmc.ncbi.nlm.nih.gov/articles/PMC12698347/",
+    "Humeral Head Avascular Necrosis: Pathophysiology, Work-up, and Treatment Options. https://pubmed.ncbi.nlm.nih.gov/37368960/",
+    "Ross JJ, Shamsuddin H. Sternoclavicular septic arthritis: review of 180 cases. Medicine. 2004. https://pubmed.ncbi.nlm.nih.gov/15118542/",
+    "Sternoclavicular Joint Infection. StatPearls. https://www.ncbi.nlm.nih.gov/books/NBK551721/",
+    "Scapulothoracic Dissociation: Evaluation and Management. https://pubmed.ncbi.nlm.nih.gov/28406877/",
+    "Scapulothoracic Dissociation: A Review of an Orthopedic Emergency. https://pubmed.ncbi.nlm.nih.gov/34799025/",
+    "The Diagnostic Accuracy of Special Tests for Rotator Cuff Tear: The ROW Cohort Study. https://pubmed.ncbi.nlm.nih.gov/27386812/",
+    "Walch G, et al. The dropping and hornblower signs in evaluation of rotator-cuff tears. https://pubmed.ncbi.nlm.nih.gov/9699824/",
+    "Falsone SA, et al. One-arm hop test: reliability and effects of arm dominance. https://pubmed.ncbi.nlm.nih.gov/12168743/",
+    "Measurement properties of upper extremity physical performance tests in athletes: a systematic review. https://pubmed.ncbi.nlm.nih.gov/38232688/",
+    "Effectiveness of early versus delayed rehabilitation following rotator cuff repair: systematic review and meta-analyses. https://pubmed.ncbi.nlm.nih.gov/34048450/",
+    "Return to Sport After Shoulder Stabilization Procedures: A Criteria-Based Testing Continuum. https://pmc.ncbi.nlm.nih.gov/articles/PMC8811525/"
   ],
   "link_policy": {
     "new_unresolved_links": 0,
@@ -405,5 +407,5 @@
       "ZIP CRC/extraction/path"
     ]
   },
-  "generated_at_utc": "2026-10-17T00:07:23.690676+00:00"
+  "generated_at_utc": "2026-10-18T00:03:46.562811+00:00"
 }
