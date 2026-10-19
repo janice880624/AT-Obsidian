@@ -1,11 +1,11 @@
 {
-  "schema_version": 5,
-  "date": "2026-10-18",
-  "region": "肩部第八輪",
+  "schema_version": 8,
+  "date": "2026-10-19",
+  "region": "肘部第八輪",
   "github": {
     "repository": "janice880624/AT-Obsidian",
     "branch": "main",
-    "commit": "42f3d71d0e28094739403949e67e89266652b505",
+    "commit": "90fdf7ea56e7989b5a951a4fad2ff57e63dbe319",
     "mode": "read-only"
   },
   "template_policy": {
@@ -80,9 +80,7 @@
     "used_templates": [
       "模板－主觀問診.md",
       "模板－傷害.md",
-      "模板－功能性測試.md",
       "模板－特殊檢查.md",
-      "模板－神經.md",
       "模板－系統性評估.md",
       "模板－身體檢查.md",
       "模板－運動治療.md",
@@ -101,118 +99,117 @@
     "core_notes": 5,
     "related_notes": 10,
     "knowledge_notes": 15,
-    "svg": 3
+    "svg": 3,
+    "index_or_support_files": 9
   },
   "topic_candidates_skipped": [
-    "急性外傷後肩關節脫臼",
-    "旋轉肌袖相關肩痛",
-    "肱二頭肌滑車病灶與長頭肌腱不穩定",
-    "原生盂肱關節感染性關節炎",
-    "External Rotation Lag Sign",
-    "單臂閉鎖鏈上肢穩定測試"
+    "肘部前七輪所有既有主題",
+    "Moving Valgus Stress Test 等既有檢查",
+    "無專屬模板的筆記類型",
+    "任何需要建立新資料夾的候選主題"
   ],
   "notes": [
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－急性外傷性旋轉肌袖全層撕裂與假性麻痺.md",
-      "title": "傷害－急性外傷性旋轉肌袖全層撕裂與假性麻痺",
+      "path": "03_傷害與疾病/急性傷害/傷害－幼兒橈骨頭半脫位（牽拉肘）.md",
+      "title": "傷害－幼兒橈骨頭半脫位（牽拉肘）",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－肱二頭肌長頭近端斷裂.md",
-      "title": "傷害－肱二頭肌長頭近端斷裂",
+      "path": "03_傷害與疾病/急性傷害/傷害－兒童肱骨外側髁骨折.md",
+      "title": "傷害－兒童肱骨外側髁骨折",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－肱骨頭骨壞死.md",
-      "title": "傷害－肱骨頭骨壞死",
+      "path": "03_傷害與疾病/急性傷害/傷害－幼兒遠端肱骨骨骺分離.md",
+      "title": "傷害－幼兒遠端肱骨骨骺分離",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－胸鎖關節感染性關節炎.md",
-      "title": "傷害－胸鎖關節感染性關節炎",
+      "path": "03_傷害與疾病/過度使用/傷害－肘關節骨關節炎.md",
+      "title": "傷害－肘關節骨關節炎",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－肩胛胸廓分離.md",
-      "title": "傷害－肩胛胸廓分離",
+      "path": "03_傷害與疾病/過度使用/傷害－肘關節滑膜軟骨瘤病.md",
+      "title": "傷害－肘關節滑膜軟骨瘤病",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－肱骨頭血供與骨壞死分期.md",
-      "title": "骨骼與關節－肱骨頭血供與骨壞死分期",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－兒童遠端肱骨外側柱與關節面.md",
+      "title": "骨骼與關節－兒童遠端肱骨外側柱與關節面",
       "role": "相關",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "01_基礎解剖/神經/神經－臂叢神經與肩帶牽拉損傷.md",
-      "title": "神經－臂叢神經與肩帶牽拉損傷",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－幼兒遠端肱骨骨骺與橈肱對位.md",
+      "title": "骨骼與關節－幼兒遠端肱骨骨骺與橈肱對位",
       "role": "相關",
-      "type": "神經",
-      "template": "模板－神經.md"
+      "type": "骨骼或關節",
+      "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－急性肩部主動抬舉缺失問診.md",
-      "title": "評估－急性肩部主動抬舉缺失問診",
+      "path": "04_臨床評估/主觀問診/評估－幼兒拒用上肢與牽拉傷問診.md",
+      "title": "評估－幼兒拒用上肢與牽拉傷問診",
       "role": "相關",
       "type": "主觀問診",
       "template": "模板－主觀問診.md"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－急性無力肩身體檢查.md",
-      "title": "評估－急性無力肩身體檢查",
+      "path": "04_臨床評估/身體檢查/評估－兒童急性外側肘痛身體檢查.md",
+      "title": "評估－兒童急性外側肘痛身體檢查",
       "role": "相關",
       "type": "身體檢查",
       "template": "模板－身體檢查.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－肩帶高能量創傷神經血管分流.md",
-      "title": "評估－肩帶高能量創傷神經血管分流",
+      "path": "04_臨床評估/系統性評估/評估－幼兒肘部隱匿骨折脫位與感染安全分流.md",
+      "title": "評估－幼兒肘部隱匿骨折脫位與感染安全分流",
       "role": "相關",
       "type": "系統性評估",
       "template": "模板－系統性評估.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－非機械性肩痛與感染壞死紅旗分流.md",
-      "title": "評估－非機械性肩痛與感染壞死紅旗分流",
+      "path": "04_臨床評估/系統性評估/評估－成人肘部退化與機械症狀評估.md",
+      "title": "評估－成人肘部退化與機械症狀評估",
       "role": "相關",
       "type": "系統性評估",
       "template": "模板－系統性評估.md"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Drop Arm Test.md",
-      "title": "特殊檢查－Drop Arm Test",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－肘部外翻壓力測試（固定角度）.md",
+      "title": "特殊檢查－肘部外翻壓力測試（固定角度）",
       "role": "相關",
       "type": "特殊檢查",
       "template": "模板－特殊檢查.md"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Hornblower Sign.md",
-      "title": "特殊檢查－Hornblower Sign",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－肘窩 Pucker Sign.md",
+      "title": "特殊檢查－肘窩 Pucker Sign",
       "role": "相關",
       "type": "特殊檢查",
       "template": "模板－特殊檢查.md"
     },
     {
-      "path": "06_功能性測試/上肢/功能性測試－單臂跳躍測試.md",
-      "title": "功能性測試－單臂跳躍測試",
+      "path": "03_傷害與疾病/急性傷害/傷害－兒童肱骨髁上骨折合併肱動脈損傷與粉紅無脈手.md",
+      "title": "傷害－兒童肱骨髁上骨折合併肱動脈損傷與粉紅無脈手",
       "role": "相關",
-      "type": "功能性測試",
-      "template": "模板－功能性測試.md"
+      "type": "傷害",
+      "template": "模板－傷害.md"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－外傷性旋轉肌袖修復後分級保護與回場.md",
-      "title": "運動治療－外傷性旋轉肌袖修復後分級保護與回場",
+      "path": "05_處置與復健/運動治療/運動治療－肘關節骨關節炎活動與容量進展.md",
+      "title": "運動治療－肘關節骨關節炎活動與容量進展",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
@@ -220,7 +217,7 @@
   ],
   "per_note_validation": [
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－急性外傷性旋轉肌袖全層撕裂與假性麻痺.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－幼兒橈骨頭半脫位（牽拉肘）.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -229,7 +226,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－肱二頭肌長頭近端斷裂.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－兒童肱骨外側髁骨折.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -238,7 +235,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－肱骨頭骨壞死.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－幼兒遠端肱骨骨骺分離.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -247,7 +244,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－胸鎖關節感染性關節炎.md",
+      "path": "03_傷害與疾病/過度使用/傷害－肘關節骨關節炎.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -256,7 +253,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－肩胛胸廓分離.md",
+      "path": "03_傷害與疾病/過度使用/傷害－肘關節滑膜軟骨瘤病.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -265,7 +262,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－肱骨頭血供與骨壞死分期.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－兒童遠端肱骨外側柱與關節面.md",
       "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
@@ -274,8 +271,8 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/神經/神經－臂叢神經與肩帶牽拉損傷.md",
-      "template": "模板－神經.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－幼兒遠端肱骨骨骺與橈肱對位.md",
+      "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -283,7 +280,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－急性肩部主動抬舉缺失問診.md",
+      "path": "04_臨床評估/主觀問診/評估－幼兒拒用上肢與牽拉傷問診.md",
       "template": "模板－主觀問診.md",
       "yaml": "passed",
       "h1": "passed",
@@ -292,7 +289,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－急性無力肩身體檢查.md",
+      "path": "04_臨床評估/身體檢查/評估－兒童急性外側肘痛身體檢查.md",
       "template": "模板－身體檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -301,7 +298,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－肩帶高能量創傷神經血管分流.md",
+      "path": "04_臨床評估/系統性評估/評估－幼兒肘部隱匿骨折脫位與感染安全分流.md",
       "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
@@ -310,7 +307,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－非機械性肩痛與感染壞死紅旗分流.md",
+      "path": "04_臨床評估/系統性評估/評估－成人肘部退化與機械症狀評估.md",
       "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
@@ -319,7 +316,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Drop Arm Test.md",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－肘部外翻壓力測試（固定角度）.md",
       "template": "模板－特殊檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -328,7 +325,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Hornblower Sign.md",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－肘窩 Pucker Sign.md",
       "template": "模板－特殊檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -337,8 +334,8 @@
       "links": "passed"
     },
     {
-      "path": "06_功能性測試/上肢/功能性測試－單臂跳躍測試.md",
-      "template": "模板－功能性測試.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－兒童肱骨髁上骨折合併肱動脈損傷與粉紅無脈手.md",
+      "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -346,7 +343,7 @@
       "links": "passed"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－外傷性旋轉肌袖修復後分級保護與回場.md",
+      "path": "05_處置與復健/運動治療/運動治療－肘關節骨關節炎活動與容量進展.md",
       "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
@@ -356,39 +353,28 @@
     }
   ],
   "assets": [
-    "assets/anatomy/肩部第八輪肱骨頭血供與骨壞死進展示意圖.svg",
-    "assets/assessment/肩部第八輪高能量肩帶創傷分流圖.svg",
-    "assets/special-tests/肩部第八輪旋轉肌袖檢查組合矩陣.svg"
+    "assets/anatomy/肘部第八輪幼兒骨骺與外側柱解剖圖.svg",
+    "assets/assessment/肘部第八輪幼兒拒用上肢安全分流圖.svg",
+    "assets/special-tests/肘部第八輪機械症狀與神經血管矩陣.svg"
   ],
   "sources_checked": [
-    "American Academy of Orthopaedic Surgeons. Management of Rotator Cuff Injuries Evidence-Based Clinical Practice Guideline. 2025. https://www.aaos.org/rccpg2025",
-    "ACR Appropriateness Criteria Acute Shoulder Pain: 2024 Update. https://pubmed.ncbi.nlm.nih.gov/40409888/",
-    "Time to surgery in acute rotator cuff tear: A systematic review. https://pubmed.ncbi.nlm.nih.gov/36791718/",
-    "Pseudoparalysis: a systematic review of term definitions, treatment approaches, and outcomes. https://pubmed.ncbi.nlm.nih.gov/28526423/",
-    "Biceps Tendon Rupture: Contemporary Evidence, Evolving Techniques, and a Practical Treatment Framework. https://pubmed.ncbi.nlm.nih.gov/41458715/",
-    "Biceps brachii tendon ruptures: a review of diagnosis and treatment of proximal and distal biceps tendon ruptures. https://pubmed.ncbi.nlm.nih.gov/20631471/",
-    "Humeral head avascular necrosis: etiology, diagnosis, and management. https://pmc.ncbi.nlm.nih.gov/articles/PMC12698347/",
-    "Humeral Head Avascular Necrosis: Pathophysiology, Work-up, and Treatment Options. https://pubmed.ncbi.nlm.nih.gov/37368960/",
-    "Ross JJ, Shamsuddin H. Sternoclavicular septic arthritis: review of 180 cases. Medicine. 2004. https://pubmed.ncbi.nlm.nih.gov/15118542/",
-    "Sternoclavicular Joint Infection. StatPearls. https://www.ncbi.nlm.nih.gov/books/NBK551721/",
-    "Scapulothoracic Dissociation: Evaluation and Management. https://pubmed.ncbi.nlm.nih.gov/28406877/",
-    "Scapulothoracic Dissociation: A Review of an Orthopedic Emergency. https://pubmed.ncbi.nlm.nih.gov/34799025/",
-    "The Diagnostic Accuracy of Special Tests for Rotator Cuff Tear: The ROW Cohort Study. https://pubmed.ncbi.nlm.nih.gov/27386812/",
-    "Walch G, et al. The dropping and hornblower signs in evaluation of rotator-cuff tears. https://pubmed.ncbi.nlm.nih.gov/9699824/",
-    "Falsone SA, et al. One-arm hop test: reliability and effects of arm dominance. https://pubmed.ncbi.nlm.nih.gov/12168743/",
-    "Measurement properties of upper extremity physical performance tests in athletes: a systematic review. https://pubmed.ncbi.nlm.nih.gov/38232688/",
-    "Effectiveness of early versus delayed rehabilitation following rotator cuff repair: systematic review and meta-analyses. https://pubmed.ncbi.nlm.nih.gov/34048450/",
-    "Return to Sport After Shoulder Stabilization Procedures: A Criteria-Based Testing Continuum. https://pmc.ncbi.nlm.nih.gov/articles/PMC8811525/"
+    "Royal Children’s Hospital Melbourne. Clinical Practice Guidelines: Pulled elbow. https://www.rch.org.au/clinicalguide/guideline_index/Pulled_elbow/",
+    "Royal Children’s Hospital Melbourne. Clinical Practice Guidelines: Upper limb non-use. https://www.rch.org.au/clinicalguide/guideline_index/Upper_Limb_NonUse/",
+    "Royal Children’s Hospital Melbourne. Lateral condyle fracture of the humerus—Emergency Department. https://www.rch.org.au/clinicalguide/guideline_index/fractures/Lateral_condyle_fracture_of_the_humerus_Emergency_Department/",
+    "Pediatric Orthopaedic Society of North America. Lateral Condyle Fractures Study Guide. https://posna.org/physician-education/study-guide/lateral-condyle-fractures",
+    "Distal humerus physeal separation: a systematic review. 2025. https://pubmed.ncbi.nlm.nih.gov/40142845/",
+    "Radiographic findings of distal humerus physeal separation in infants and toddlers. 2026. https://pubmed.ncbi.nlm.nih.gov/42799760/",
+    "Often-missed distal humeral epiphyseal separation diagnosed with ultrasound. https://pubmed.ncbi.nlm.nih.gov/25615780/",
+    "Primary Elbow Osteoarthritis: Evaluation and Management. 2021. https://pubmed.ncbi.nlm.nih.gov/34099969/",
+    "Arthroscopic and open debridement for primary elbow osteoarthritis: systematic review. https://pubmed.ncbi.nlm.nih.gov/32955877/",
+    "Synovial chondromatosis: a narrative review. 2026. https://pubmed.ncbi.nlm.nih.gov/42512930/",
+    "Synovial chondromatosis of the elbow with mechanical block: case and review. https://pmc.ncbi.nlm.nih.gov/articles/PMC4935158/",
+    "Management of the pediatric pink pulseless hand after supracondylar fracture: systematic review. 2024. https://pubmed.ncbi.nlm.nih.gov/38189745/",
+    "Management of the pink pulseless hand in supracondylar humerus fracture: systematic review and meta-analysis. 2026. https://pubmed.ncbi.nlm.nih.gov/42378950/",
+    "Pediatric Orthopaedic Society of North America. Supracondylar Humerus Fractures Study Guide. https://posna.org/physician-education/study-guide/supracondylar-humerus-fractures",
+    "O’Driscoll SW, et al. The moving valgus stress test for medial collateral ligament tears of the elbow. 2005. https://pubmed.ncbi.nlm.nih.gov/15701609/",
+    "Diagnostic imaging of ulnar collateral ligament injury: a systematic review. 2020. https://pubmed.ncbi.nlm.nih.gov/32735456/"
   ],
-  "link_policy": {
-    "new_unresolved_links": 0,
-    "preexisting_home_placeholders_unchanged": [
-      "緊急處置流程",
-      "文獻索引",
-      "新個案評估",
-      "臨床問題清單"
-    ]
-  },
   "validation": {
     "status": "passed",
     "checks": [
@@ -400,12 +386,12 @@
       "no placeholders",
       "deduplication",
       "bidirectional indexes",
-      "new unresolved links = 0",
-      "SVG XML and actual Inkscape render",
+      "SVG XML and render",
       "no new directories",
+      "unresolved new links zero",
       "SHA-256",
-      "ZIP CRC/extraction/path"
+      "ZIP CRC/extraction/bit comparison/path"
     ]
   },
-  "generated_at_utc": "2026-10-18T00:03:46.562811+00:00"
+  "generated_at_utc": "2026-10-19T00:03:57.979952+00:00"
 }
