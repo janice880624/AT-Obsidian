@@ -1,11 +1,11 @@
 {
   "schema_version": 8,
-  "date": "2026-10-19",
-  "region": "肘部第八輪",
+  "date": "2026-10-20",
+  "region": "手腕與手第八輪",
   "github": {
     "repository": "janice880624/AT-Obsidian",
     "branch": "main",
-    "commit": "90fdf7ea56e7989b5a951a4fad2ff57e63dbe319",
+    "commit": "3658959722f8fe345e29b355f9b6d819c6302ffb",
     "mode": "read-only"
   },
   "template_policy": {
@@ -80,8 +80,10 @@
     "used_templates": [
       "模板－主觀問診.md",
       "模板－傷害.md",
+      "模板－功能性測試.md",
       "模板－特殊檢查.md",
       "模板－系統性評估.md",
+      "模板－肌腱.md",
       "模板－身體檢查.md",
       "模板－運動治療.md",
       "模板－骨骼或關節.md"
@@ -100,116 +102,116 @@
     "related_notes": 10,
     "knowledge_notes": 15,
     "svg": 3,
-    "index_or_support_files": 9
+    "index_or_support_files": 10
   },
   "topic_candidates_skipped": [
-    "肘部前七輪所有既有主題",
-    "Moving Valgus Stress Test 等既有檢查",
+    "手腕與手前七輪所有既有主題",
+    "已存在的急性舟狀骨骨折、TFCC、ECU、尺骨撞擊等主題",
     "無專屬模板的筆記類型",
     "任何需要建立新資料夾的候選主題"
   ],
   "notes": [
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－幼兒橈骨頭半脫位（牽拉肘）.md",
-      "title": "傷害－幼兒橈骨頭半脫位（牽拉肘）",
+      "path": "03_傷害與疾病/急性傷害/傷害－豆狀骨骨折.md",
+      "title": "傷害－豆狀骨骨折",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－兒童肱骨外側髁骨折.md",
-      "title": "傷害－兒童肱骨外側髁骨折",
+      "path": "03_傷害與疾病/急性傷害/傷害－尺側腕掌關節骨折脫臼.md",
+      "title": "傷害－尺側腕掌關節骨折脫臼",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－幼兒遠端肱骨骨骺分離.md",
-      "title": "傷害－幼兒遠端肱骨骨骺分離",
+      "path": "03_傷害與疾病/急性傷害/傷害－Seymour 骨折與甲床開放傷.md",
+      "title": "傷害－Seymour 骨折與甲床開放傷",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－肘關節骨關節炎.md",
-      "title": "傷害－肘關節骨關節炎",
+      "path": "03_傷害與疾病/過度使用/傷害－舟狀骨壓力性骨折.md",
+      "title": "傷害－舟狀骨壓力性骨折",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－肘關節滑膜軟骨瘤病.md",
-      "title": "傷害－肘關節滑膜軟骨瘤病",
+      "path": "03_傷害與疾病/過度使用/傷害－手腕與手複雜性區域疼痛症候群.md",
+      "title": "傷害－手腕與手複雜性區域疼痛症候群",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－兒童遠端肱骨外側柱與關節面.md",
-      "title": "骨骼與關節－兒童遠端肱骨外側柱與關節面",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－豆狀骨與尺側腕屈肌力鏈.md",
+      "title": "骨骼與關節－豆狀骨與尺側腕屈肌力鏈",
       "role": "相關",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－幼兒遠端肱骨骨骺與橈肱對位.md",
-      "title": "骨骼與關節－幼兒遠端肱骨骨骺與橈肱對位",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－第四第五腕掌關節與鉤骨體.md",
+      "title": "骨骼與關節－第四第五腕掌關節與鉤骨體",
       "role": "相關",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－幼兒拒用上肢與牽拉傷問診.md",
-      "title": "評估－幼兒拒用上肢與牽拉傷問診",
+      "path": "01_基礎解剖/肌腱/肌腱－尺側腕屈肌腱與豆狀骨附著.md",
+      "title": "肌腱－尺側腕屈肌腱與豆狀骨附著",
+      "role": "相關",
+      "type": "肌腱",
+      "template": "模板－肌腱.md"
+    },
+    {
+      "path": "04_臨床評估/主觀問診/評估－反覆腕承重與骨壓力傷問診.md",
+      "title": "評估－反覆腕承重與骨壓力傷問診",
       "role": "相關",
       "type": "主觀問診",
       "template": "模板－主觀問診.md"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－兒童急性外側肘痛身體檢查.md",
-      "title": "評估－兒童急性外側肘痛身體檢查",
+      "path": "04_臨床評估/身體檢查/評估－尺掌側腕痛與豆狀骨檢查.md",
+      "title": "評估－尺掌側腕痛與豆狀骨檢查",
       "role": "相關",
       "type": "身體檢查",
       "template": "模板－身體檢查.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－幼兒肘部隱匿骨折脫位與感染安全分流.md",
-      "title": "評估－幼兒肘部隱匿骨折脫位與感染安全分流",
+      "path": "04_臨床評估/系統性評估/評估－兒童甲床損傷與隱匿開放骨折分流.md",
+      "title": "評估－兒童甲床損傷與隱匿開放骨折分流",
       "role": "相關",
       "type": "系統性評估",
       "template": "模板－系統性評估.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－成人肘部退化與機械症狀評估.md",
-      "title": "評估－成人肘部退化與機械症狀評估",
+      "path": "04_臨床評估/系統性評估/評估－手腕手部持續疼痛與 CRPS 鑑別.md",
+      "title": "評估－手腕手部持續疼痛與 CRPS 鑑別",
       "role": "相關",
       "type": "系統性評估",
       "template": "模板－系統性評估.md"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－肘部外翻壓力測試（固定角度）.md",
-      "title": "特殊檢查－肘部外翻壓力測試（固定角度）",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－尺側腕掌關節軸向壓縮與剪移檢查.md",
+      "title": "特殊檢查－尺側腕掌關節軸向壓縮與剪移檢查",
       "role": "相關",
       "type": "特殊檢查",
       "template": "模板－特殊檢查.md"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－肘窩 Pucker Sign.md",
-      "title": "特殊檢查－肘窩 Pucker Sign",
+      "path": "06_功能性測試/上肢/功能性測試－Box and Block Test.md",
+      "title": "功能性測試－Box and Block Test",
       "role": "相關",
-      "type": "特殊檢查",
-      "template": "模板－特殊檢查.md"
+      "type": "功能性測試",
+      "template": "模板－功能性測試.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－兒童肱骨髁上骨折合併肱動脈損傷與粉紅無脈手.md",
-      "title": "傷害－兒童肱骨髁上骨折合併肱動脈損傷與粉紅無脈手",
-      "role": "相關",
-      "type": "傷害",
-      "template": "模板－傷害.md"
-    },
-    {
-      "path": "05_處置與復健/運動治療/運動治療－肘關節骨關節炎活動與容量進展.md",
-      "title": "運動治療－肘關節骨關節炎活動與容量進展",
+      "path": "05_處置與復健/運動治療/運動治療－手腕與手感覺動作分級恢復.md",
+      "title": "運動治療－手腕與手感覺動作分級恢復",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
@@ -217,7 +219,7 @@
   ],
   "per_note_validation": [
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－幼兒橈骨頭半脫位（牽拉肘）.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－豆狀骨骨折.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -226,7 +228,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－兒童肱骨外側髁骨折.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－尺側腕掌關節骨折脫臼.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -235,7 +237,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－幼兒遠端肱骨骨骺分離.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－Seymour 骨折與甲床開放傷.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -244,7 +246,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－肘關節骨關節炎.md",
+      "path": "03_傷害與疾病/過度使用/傷害－舟狀骨壓力性骨折.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -253,7 +255,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－肘關節滑膜軟骨瘤病.md",
+      "path": "03_傷害與疾病/過度使用/傷害－手腕與手複雜性區域疼痛症候群.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -262,7 +264,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－兒童遠端肱骨外側柱與關節面.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－豆狀骨與尺側腕屈肌力鏈.md",
       "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
@@ -271,7 +273,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－幼兒遠端肱骨骨骺與橈肱對位.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－第四第五腕掌關節與鉤骨體.md",
       "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
@@ -280,7 +282,16 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－幼兒拒用上肢與牽拉傷問診.md",
+      "path": "01_基礎解剖/肌腱/肌腱－尺側腕屈肌腱與豆狀骨附著.md",
+      "template": "模板－肌腱.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "04_臨床評估/主觀問診/評估－反覆腕承重與骨壓力傷問診.md",
       "template": "模板－主觀問診.md",
       "yaml": "passed",
       "h1": "passed",
@@ -289,7 +300,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－兒童急性外側肘痛身體檢查.md",
+      "path": "04_臨床評估/身體檢查/評估－尺掌側腕痛與豆狀骨檢查.md",
       "template": "模板－身體檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -298,7 +309,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－幼兒肘部隱匿骨折脫位與感染安全分流.md",
+      "path": "04_臨床評估/系統性評估/評估－兒童甲床損傷與隱匿開放骨折分流.md",
       "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
@@ -307,7 +318,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－成人肘部退化與機械症狀評估.md",
+      "path": "04_臨床評估/系統性評估/評估－手腕手部持續疼痛與 CRPS 鑑別.md",
       "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
@@ -316,7 +327,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－肘部外翻壓力測試（固定角度）.md",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－尺側腕掌關節軸向壓縮與剪移檢查.md",
       "template": "模板－特殊檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -325,8 +336,8 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－肘窩 Pucker Sign.md",
-      "template": "模板－特殊檢查.md",
+      "path": "06_功能性測試/上肢/功能性測試－Box and Block Test.md",
+      "template": "模板－功能性測試.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -334,16 +345,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－兒童肱骨髁上骨折合併肱動脈損傷與粉紅無脈手.md",
-      "template": "模板－傷害.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "05_處置與復健/運動治療/運動治療－肘關節骨關節炎活動與容量進展.md",
+      "path": "05_處置與復健/運動治療/運動治療－手腕與手感覺動作分級恢復.md",
       "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
@@ -353,27 +355,29 @@
     }
   ],
   "assets": [
-    "assets/anatomy/肘部第八輪幼兒骨骺與外側柱解剖圖.svg",
-    "assets/assessment/肘部第八輪幼兒拒用上肢安全分流圖.svg",
-    "assets/special-tests/肘部第八輪機械症狀與神經血管矩陣.svg"
+    "assets/anatomy/手腕與手第八輪尺掌側骨性與肌腱關係圖.svg",
+    "assets/assessment/手腕與手第八輪隱匿骨折與開放傷分流圖.svg",
+    "assets/special-tests/手腕與手第八輪CRPS多系統評估矩陣.svg"
   ],
   "sources_checked": [
-    "Royal Children’s Hospital Melbourne. Clinical Practice Guidelines: Pulled elbow. https://www.rch.org.au/clinicalguide/guideline_index/Pulled_elbow/",
-    "Royal Children’s Hospital Melbourne. Clinical Practice Guidelines: Upper limb non-use. https://www.rch.org.au/clinicalguide/guideline_index/Upper_Limb_NonUse/",
-    "Royal Children’s Hospital Melbourne. Lateral condyle fracture of the humerus—Emergency Department. https://www.rch.org.au/clinicalguide/guideline_index/fractures/Lateral_condyle_fracture_of_the_humerus_Emergency_Department/",
-    "Pediatric Orthopaedic Society of North America. Lateral Condyle Fractures Study Guide. https://posna.org/physician-education/study-guide/lateral-condyle-fractures",
-    "Distal humerus physeal separation: a systematic review. 2025. https://pubmed.ncbi.nlm.nih.gov/40142845/",
-    "Radiographic findings of distal humerus physeal separation in infants and toddlers. 2026. https://pubmed.ncbi.nlm.nih.gov/42799760/",
-    "Often-missed distal humeral epiphyseal separation diagnosed with ultrasound. https://pubmed.ncbi.nlm.nih.gov/25615780/",
-    "Primary Elbow Osteoarthritis: Evaluation and Management. 2021. https://pubmed.ncbi.nlm.nih.gov/34099969/",
-    "Arthroscopic and open debridement for primary elbow osteoarthritis: systematic review. https://pubmed.ncbi.nlm.nih.gov/32955877/",
-    "Synovial chondromatosis: a narrative review. 2026. https://pubmed.ncbi.nlm.nih.gov/42512930/",
-    "Synovial chondromatosis of the elbow with mechanical block: case and review. https://pmc.ncbi.nlm.nih.gov/articles/PMC4935158/",
-    "Management of the pediatric pink pulseless hand after supracondylar fracture: systematic review. 2024. https://pubmed.ncbi.nlm.nih.gov/38189745/",
-    "Management of the pink pulseless hand in supracondylar humerus fracture: systematic review and meta-analysis. 2026. https://pubmed.ncbi.nlm.nih.gov/42378950/",
-    "Pediatric Orthopaedic Society of North America. Supracondylar Humerus Fractures Study Guide. https://posna.org/physician-education/study-guide/supracondylar-humerus-fractures",
-    "O’Driscoll SW, et al. The moving valgus stress test for medial collateral ligament tears of the elbow. 2005. https://pubmed.ncbi.nlm.nih.gov/15701609/",
-    "Diagnostic imaging of ulnar collateral ligament injury: a systematic review. 2020. https://pubmed.ncbi.nlm.nih.gov/32735456/"
+    "Contemporary Analysis of Pisiform Fractures at a Level 1 Trauma Center. 2026. https://pubmed.ncbi.nlm.nih.gov/41889010/",
+    "Fractures of the hamate and pisiform: a review. 2013. https://pubmed.ncbi.nlm.nih.gov/22883867/",
+    "Pisiform and hamulus fractures: easily missed wrist fractures diagnosed on a reverse oblique radiograph. https://pubmed.ncbi.nlm.nih.gov/9610976/",
+    "Acute ulnar nerve compression associated with pisiform fracture. 2020. https://pubmed.ncbi.nlm.nih.gov/32550255/",
+    "Surgical Management of Ulnar Metacarpal Base Fracture-Dislocations: A Systematic Review. 2022. https://pubmed.ncbi.nlm.nih.gov/32772579/",
+    "Carpometacarpal Joint Dislocations of the Index to Small Finger: A Review. 2025. https://pubmed.ncbi.nlm.nih.gov/41082653/",
+    "Carpometacarpal Fracture-Dislocations: A Retrospective Review. 2021. https://pubmed.ncbi.nlm.nih.gov/31185745/",
+    "Seymour fractures: systematic review and meta-analysis of infection and treatment. 2022. https://pubmed.ncbi.nlm.nih.gov/34810026/",
+    "Seymour Fracture: Better Do Not Underestimate It. 2021. https://pubmed.ncbi.nlm.nih.gov/32149995/",
+    "Delayed presentation of Seymour fractures: infection and treatment outcomes. 2015. https://pubmed.ncbi.nlm.nih.gov/26327401/",
+    "Stress fractures of the hand and wrist in athletes: a systematic review. 2024. https://pubmed.ncbi.nlm.nih.gov/38007972/",
+    "Scaphoid Stress Fractures in Athletes and Return to Sport: A Systematic Review. 2026. https://pubmed.ncbi.nlm.nih.gov/42829518/",
+    "Scaphoid stress fracture in a female shot-putter. 2016. https://pubmed.ncbi.nlm.nih.gov/27563477/",
+    "Complex Regional Pain Syndrome: Practical Diagnostic and Treatment Guidelines, 5th Edition. 2022. https://pubmed.ncbi.nlm.nih.gov/35687369/",
+    "Validation of proposed diagnostic criteria (the Budapest Criteria) for Complex Regional Pain Syndrome. 2010. https://pubmed.ncbi.nlm.nih.gov/20493633/",
+    "European Pain Federation standards for the diagnosis and management of complex regional pain syndrome. 2019. https://pubmed.ncbi.nlm.nih.gov/30620109/",
+    "The standardized Box and Block Test: norms, reliability, and validity in multiple centres. 2005. https://pubmed.ncbi.nlm.nih.gov/15929509/",
+    "Clinical utility of the Box and Block Test, Nine-Hole Peg Test and Sollerman Hand Function Test. 2016. https://pubmed.ncbi.nlm.nih.gov/26972364/"
   ],
   "validation": {
     "status": "passed",
@@ -393,5 +397,5 @@
       "ZIP CRC/extraction/bit comparison/path"
     ]
   },
-  "generated_at_utc": "2026-10-19T00:03:57.979952+00:00"
+  "generated_at_utc": "2026-10-20T00:04:32.836261+00:00"
 }
