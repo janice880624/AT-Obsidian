@@ -1,11 +1,11 @@
 {
   "schema_version": 8,
-  "date": "2026-10-20",
-  "region": "手腕與手第八輪",
+  "date": "2026-10-21",
+  "region": "胸腰椎第八輪",
   "github": {
     "repository": "janice880624/AT-Obsidian",
     "branch": "main",
-    "commit": "3658959722f8fe345e29b355f9b6d819c6302ffb",
+    "commit": "5d5d77d8c51e014582b8b57c509fb8eb593107bf",
     "mode": "read-only"
   },
   "template_policy": {
@@ -82,8 +82,8 @@
       "模板－傷害.md",
       "模板－功能性測試.md",
       "模板－特殊檢查.md",
+      "模板－神經.md",
       "模板－系統性評估.md",
-      "模板－肌腱.md",
       "模板－身體檢查.md",
       "模板－運動治療.md",
       "模板－骨骼或關節.md"
@@ -102,116 +102,116 @@
     "related_notes": 10,
     "knowledge_notes": 15,
     "svg": 3,
-    "index_or_support_files": 10
+    "index_or_support_files": 9
   },
   "topic_candidates_skipped": [
-    "手腕與手前七輪所有既有主題",
-    "已存在的急性舟狀骨骨折、TFCC、ECU、尺骨撞擊等主題",
+    "胸腰椎第一至第七輪所有既有主題",
+    "已存在的骨折、椎間盤、狹窄、感染、腫瘤、胸壁與側彎候選",
     "無專屬模板的筆記類型",
     "任何需要建立新資料夾的候選主題"
   ],
   "notes": [
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－豆狀骨骨折.md",
-      "title": "傷害－豆狀骨骨折",
+      "path": "03_傷害與疾病/神經卡壓/傷害－脊髓硬膜動靜脈瘻.md",
+      "title": "傷害－脊髓硬膜動靜脈瘻",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－尺側腕掌關節骨折脫臼.md",
-      "title": "傷害－尺側腕掌關節骨折脫臼",
+      "path": "03_傷害與疾病/急性傷害/傷害－脊髓梗塞與急性非壓迫性脊髓症候群.md",
+      "title": "傷害－脊髓梗塞與急性非壓迫性脊髓症候群",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－Seymour 骨折與甲床開放傷.md",
-      "title": "傷害－Seymour 骨折與甲床開放傷",
+      "path": "03_傷害與疾病/神經卡壓/傷害－胸椎背側蛛網膜網.md",
+      "title": "傷害－胸椎背側蛛網膜網",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－舟狀骨壓力性骨折.md",
-      "title": "傷害－舟狀骨壓力性骨折",
+      "path": "03_傷害與疾病/過度使用/傷害－Baastrup 病與棘間滑囊炎.md",
+      "title": "傷害－Baastrup 病與棘間滑囊炎",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－手腕與手複雜性區域疼痛症候群.md",
-      "title": "傷害－手腕與手複雜性區域疼痛症候群",
+      "path": "03_傷害與疾病/神經卡壓/傷害－上臀皮神經卡壓.md",
+      "title": "傷害－上臀皮神經卡壓",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－豆狀骨與尺側腕屈肌力鏈.md",
-      "title": "骨骼與關節－豆狀骨與尺側腕屈肌力鏈",
+      "path": "01_基礎解剖/神經/神經－脊髓動脈供應與髓周靜脈系統.md",
+      "title": "神經－脊髓動脈供應與髓周靜脈系統",
+      "role": "相關",
+      "type": "神經",
+      "template": "模板－神經.md"
+    },
+    {
+      "path": "01_基礎解剖/骨骼/骨骼與關節－脊髓膜與胸椎蛛網膜下腔.md",
+      "title": "骨骼與關節－脊髓膜與胸椎蛛網膜下腔",
       "role": "相關",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－第四第五腕掌關節與鉤骨體.md",
-      "title": "骨骼與關節－第四第五腕掌關節與鉤骨體",
+      "path": "01_基礎解剖/神經/神經－上臀皮神經與後髂嵴穿出點.md",
+      "title": "神經－上臀皮神經與後髂嵴穿出點",
       "role": "相關",
-      "type": "骨骼或關節",
-      "template": "模板－骨骼或關節.md"
+      "type": "神經",
+      "template": "模板－神經.md"
     },
     {
-      "path": "01_基礎解剖/肌腱/肌腱－尺側腕屈肌腱與豆狀骨附著.md",
-      "title": "肌腱－尺側腕屈肌腱與豆狀骨附著",
-      "role": "相關",
-      "type": "肌腱",
-      "template": "模板－肌腱.md"
-    },
-    {
-      "path": "04_臨床評估/主觀問診/評估－反覆腕承重與骨壓力傷問診.md",
-      "title": "評估－反覆腕承重與骨壓力傷問診",
+      "path": "04_臨床評估/主觀問診/評估－急性背痛合併神經缺損問診.md",
+      "title": "評估－急性背痛合併神經缺損問診",
       "role": "相關",
       "type": "主觀問診",
       "template": "模板－主觀問診.md"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－尺掌側腕痛與豆狀骨檢查.md",
-      "title": "評估－尺掌側腕痛與豆狀骨檢查",
+      "path": "04_臨床評估/身體檢查/評估－急性脊髓症候群神經學身體檢查.md",
+      "title": "評估－急性脊髓症候群神經學身體檢查",
       "role": "相關",
       "type": "身體檢查",
       "template": "模板－身體檢查.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－兒童甲床損傷與隱匿開放骨折分流.md",
-      "title": "評估－兒童甲床損傷與隱匿開放骨折分流",
+      "path": "04_臨床評估/系統性評估/評估－進行性胸髓病變與血管性病灶安全分流.md",
+      "title": "評估－進行性胸髓病變與血管性病灶安全分流",
       "role": "相關",
       "type": "系統性評估",
       "template": "模板－系統性評估.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－手腕手部持續疼痛與 CRPS 鑑別.md",
-      "title": "評估－手腕手部持續疼痛與 CRPS 鑑別",
+      "path": "04_臨床評估/系統性評估/評估－局部中線腰痛與髂嵴疼痛整合評估.md",
+      "title": "評估－局部中線腰痛與髂嵴疼痛整合評估",
       "role": "相關",
       "type": "系統性評估",
       "template": "模板－系統性評估.md"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－尺側腕掌關節軸向壓縮與剪移檢查.md",
-      "title": "特殊檢查－尺側腕掌關節軸向壓縮與剪移檢查",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－上臀皮神經髂嵴壓痛與 Tinel 樣徵象.md",
+      "title": "特殊檢查－上臀皮神經髂嵴壓痛與 Tinel 樣徵象",
       "role": "相關",
       "type": "特殊檢查",
       "template": "模板－特殊檢查.md"
     },
     {
-      "path": "06_功能性測試/上肢/功能性測試－Box and Block Test.md",
-      "title": "功能性測試－Box and Block Test",
+      "path": "06_功能性測試/軀幹/功能性測試－10 公尺步行測試.md",
+      "title": "功能性測試－10 公尺步行測試",
       "role": "相關",
       "type": "功能性測試",
       "template": "模板－功能性測試.md"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－手腕與手感覺動作分級恢復.md",
-      "title": "運動治療－手腕與手感覺動作分級恢復",
+      "path": "05_處置與復健/運動治療/運動治療－胸腰椎步行與軀幹容量分級恢復.md",
+      "title": "運動治療－胸腰椎步行與軀幹容量分級恢復",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
@@ -219,7 +219,7 @@
   ],
   "per_note_validation": [
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－豆狀骨骨折.md",
+      "path": "03_傷害與疾病/神經卡壓/傷害－脊髓硬膜動靜脈瘻.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -228,7 +228,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－尺側腕掌關節骨折脫臼.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－脊髓梗塞與急性非壓迫性脊髓症候群.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -237,7 +237,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－Seymour 骨折與甲床開放傷.md",
+      "path": "03_傷害與疾病/神經卡壓/傷害－胸椎背側蛛網膜網.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -246,7 +246,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－舟狀骨壓力性骨折.md",
+      "path": "03_傷害與疾病/過度使用/傷害－Baastrup 病與棘間滑囊炎.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -255,7 +255,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－手腕與手複雜性區域疼痛症候群.md",
+      "path": "03_傷害與疾病/神經卡壓/傷害－上臀皮神經卡壓.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -264,7 +264,16 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－豆狀骨與尺側腕屈肌力鏈.md",
+      "path": "01_基礎解剖/神經/神經－脊髓動脈供應與髓周靜脈系統.md",
+      "template": "模板－神經.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "01_基礎解剖/骨骼/骨骼與關節－脊髓膜與胸椎蛛網膜下腔.md",
       "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
@@ -273,8 +282,8 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－第四第五腕掌關節與鉤骨體.md",
-      "template": "模板－骨骼或關節.md",
+      "path": "01_基礎解剖/神經/神經－上臀皮神經與後髂嵴穿出點.md",
+      "template": "模板－神經.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -282,16 +291,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/肌腱/肌腱－尺側腕屈肌腱與豆狀骨附著.md",
-      "template": "模板－肌腱.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "04_臨床評估/主觀問診/評估－反覆腕承重與骨壓力傷問診.md",
+      "path": "04_臨床評估/主觀問診/評估－急性背痛合併神經缺損問診.md",
       "template": "模板－主觀問診.md",
       "yaml": "passed",
       "h1": "passed",
@@ -300,7 +300,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－尺掌側腕痛與豆狀骨檢查.md",
+      "path": "04_臨床評估/身體檢查/評估－急性脊髓症候群神經學身體檢查.md",
       "template": "模板－身體檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -309,7 +309,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－兒童甲床損傷與隱匿開放骨折分流.md",
+      "path": "04_臨床評估/系統性評估/評估－進行性胸髓病變與血管性病灶安全分流.md",
       "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
@@ -318,7 +318,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－手腕手部持續疼痛與 CRPS 鑑別.md",
+      "path": "04_臨床評估/系統性評估/評估－局部中線腰痛與髂嵴疼痛整合評估.md",
       "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
@@ -327,7 +327,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－尺側腕掌關節軸向壓縮與剪移檢查.md",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－上臀皮神經髂嵴壓痛與 Tinel 樣徵象.md",
       "template": "模板－特殊檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -336,7 +336,7 @@
       "links": "passed"
     },
     {
-      "path": "06_功能性測試/上肢/功能性測試－Box and Block Test.md",
+      "path": "06_功能性測試/軀幹/功能性測試－10 公尺步行測試.md",
       "template": "模板－功能性測試.md",
       "yaml": "passed",
       "h1": "passed",
@@ -345,7 +345,7 @@
       "links": "passed"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－手腕與手感覺動作分級恢復.md",
+      "path": "05_處置與復健/運動治療/運動治療－胸腰椎步行與軀幹容量分級恢復.md",
       "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
@@ -355,29 +355,28 @@
     }
   ],
   "assets": [
-    "assets/anatomy/手腕與手第八輪尺掌側骨性與肌腱關係圖.svg",
-    "assets/assessment/手腕與手第八輪隱匿骨折與開放傷分流圖.svg",
-    "assets/special-tests/手腕與手第八輪CRPS多系統評估矩陣.svg"
+    "assets/anatomy/胸腰椎第八輪脊髓血管與蛛網膜示意圖.svg",
+    "assets/assessment/胸腰椎第八輪急慢性脊髓症候群分流圖.svg",
+    "assets/special-tests/胸腰椎第八輪上臀皮神經低力定位圖.svg"
   ],
   "sources_checked": [
-    "Contemporary Analysis of Pisiform Fractures at a Level 1 Trauma Center. 2026. https://pubmed.ncbi.nlm.nih.gov/41889010/",
-    "Fractures of the hamate and pisiform: a review. 2013. https://pubmed.ncbi.nlm.nih.gov/22883867/",
-    "Pisiform and hamulus fractures: easily missed wrist fractures diagnosed on a reverse oblique radiograph. https://pubmed.ncbi.nlm.nih.gov/9610976/",
-    "Acute ulnar nerve compression associated with pisiform fracture. 2020. https://pubmed.ncbi.nlm.nih.gov/32550255/",
-    "Surgical Management of Ulnar Metacarpal Base Fracture-Dislocations: A Systematic Review. 2022. https://pubmed.ncbi.nlm.nih.gov/32772579/",
-    "Carpometacarpal Joint Dislocations of the Index to Small Finger: A Review. 2025. https://pubmed.ncbi.nlm.nih.gov/41082653/",
-    "Carpometacarpal Fracture-Dislocations: A Retrospective Review. 2021. https://pubmed.ncbi.nlm.nih.gov/31185745/",
-    "Seymour fractures: systematic review and meta-analysis of infection and treatment. 2022. https://pubmed.ncbi.nlm.nih.gov/34810026/",
-    "Seymour Fracture: Better Do Not Underestimate It. 2021. https://pubmed.ncbi.nlm.nih.gov/32149995/",
-    "Delayed presentation of Seymour fractures: infection and treatment outcomes. 2015. https://pubmed.ncbi.nlm.nih.gov/26327401/",
-    "Stress fractures of the hand and wrist in athletes: a systematic review. 2024. https://pubmed.ncbi.nlm.nih.gov/38007972/",
-    "Scaphoid Stress Fractures in Athletes and Return to Sport: A Systematic Review. 2026. https://pubmed.ncbi.nlm.nih.gov/42829518/",
-    "Scaphoid stress fracture in a female shot-putter. 2016. https://pubmed.ncbi.nlm.nih.gov/27563477/",
-    "Complex Regional Pain Syndrome: Practical Diagnostic and Treatment Guidelines, 5th Edition. 2022. https://pubmed.ncbi.nlm.nih.gov/35687369/",
-    "Validation of proposed diagnostic criteria (the Budapest Criteria) for Complex Regional Pain Syndrome. 2010. https://pubmed.ncbi.nlm.nih.gov/20493633/",
-    "European Pain Federation standards for the diagnosis and management of complex regional pain syndrome. 2019. https://pubmed.ncbi.nlm.nih.gov/30620109/",
-    "The standardized Box and Block Test: norms, reliability, and validity in multiple centres. 2005. https://pubmed.ncbi.nlm.nih.gov/15929509/",
-    "Clinical utility of the Box and Block Test, Nine-Hole Peg Test and Sollerman Hand Function Test. 2016. https://pubmed.ncbi.nlm.nih.gov/26972364/"
+    "Spinal dural arteriovenous fistula: review of clinical presentation, prognosis and imaging findings. 2025. https://pubmed.ncbi.nlm.nih.gov/40014186/",
+    "Diagnostic Accuracy of 4D-MRA for Spinal Dural Arteriovenous Fistulas: systematic review and meta-analysis. 2024. https://pubmed.ncbi.nlm.nih.gov/39481844/",
+    "The diagnosis of spinal dural arteriovenous fistulas: analysis of 326 patients. 2013. https://pubmed.ncbi.nlm.nih.gov/23380827/",
+    "Spontaneous spinal cord infarction: a systematic review. 2024. https://pubmed.ncbi.nlm.nih.gov/38818241/",
+    "Spinal cord infarction: systematic review and meta-analysis of characteristics, diagnosis, management and outcome. 2024. https://pubmed.ncbi.nlm.nih.gov/39372971/",
+    "Characteristics of Spontaneous Spinal Cord Infarction and Proposed Diagnostic Criteria. 2019. https://pubmed.ncbi.nlm.nih.gov/30264146/",
+    "Spinal arachnoid webs in adults: clinical and imaging features in 85 patients. 2023. https://pubmed.ncbi.nlm.nih.gov/36670521/",
+    "Clinical Characteristics, Outcomes, and Pathology Analysis of Dorsal Arachnoid Webs. 2022. https://pubmed.ncbi.nlm.nih.gov/35290255/",
+    "Differentiating Spinal Cord Herniation From Arachnoid Web. 2026. https://pubmed.ncbi.nlm.nih.gov/40778773/",
+    "Epidemiology, diagnosis and management of Baastrup disease: a systematic review. 2022. https://pubmed.ncbi.nlm.nih.gov/34342202/",
+    "Cluneal nerve entrapment decompression: a systematic review of 236 surgical cases. 2025. https://pubmed.ncbi.nlm.nih.gov/41207967/",
+    "Superior and Middle Cluneal Nerve Entrapment: A Cause of Low Back and Radicular Pain. 2022. https://pubmed.ncbi.nlm.nih.gov/35793175/",
+    "Ultrasonographic Imaging and Guided Intervention for the Superior Cluneal Nerve. 2022. https://pubmed.ncbi.nlm.nih.gov/35793190/",
+    "Assessing walking ability in spinal cord injury: validity and reliability of timed walking tests. 2005. https://pubmed.ncbi.nlm.nih.gov/15706542/",
+    "Validity and reliability of the 10-m walk test in spinal cord injury. 2011. https://pubmed.ncbi.nlm.nih.gov/21221120/",
+    "American College of Radiology. ACR Appropriateness Criteria: Thoracic Back Pain. 2024. https://pubmed.ncbi.nlm.nih.gov/39488357/",
+    "American College of Radiology. ACR Appropriateness Criteria: Low Back Pain. https://acsearch.acr.org/docs/69483/Narrative/"
   ],
   "validation": {
     "status": "passed",
@@ -397,5 +396,5 @@
       "ZIP CRC/extraction/bit comparison/path"
     ]
   },
-  "generated_at_utc": "2026-10-20T00:04:32.836261+00:00"
+  "generated_at_utc": "2026-10-21T00:09:58.474838+00:00"
 }
