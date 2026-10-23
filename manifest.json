@@ -1,11 +1,11 @@
 {
   "schema_version": 8,
-  "date": "2026-10-22",
-  "region": "骨盆與髖第八輪",
+  "date": "2026-10-23",
+  "region": "膝部第八輪",
   "github": {
     "repository": "janice880624/AT-Obsidian",
     "branch": "main",
-    "commit": "9256411de93168b7ff9fdf51331fbdf4fa535f57",
+    "commit": "ca6c6a24bf42a7ed727faae286bbc6c79896a278",
     "mode": "read-only"
   },
   "template_policy": {
@@ -104,114 +104,113 @@
     "index_or_support_files": 11
   },
   "topic_candidates_skipped": [
-    "骨盆與髖第一至第七輪所有既有主題",
-    "已存在的骨折、脫臼、肌腱、神經、兒童與腹股溝候選",
-    "髖關節滑膜軟骨瘤病（已存在，僅作鑑別連結）",
+    "膝部第一至第七輪全部既有主題",
+    "已存在的韌帶、半月板、髕股、骨折、滑囊、神經與兒童候選",
     "無專屬模板的筆記類型",
     "任何需要建立新資料夾的候選主題"
   ],
   "notes": [
     {
-      "path": "03_傷害與疾病/過度使用/傷害－髖關節骨關節炎.md",
-      "title": "傷害－髖關節骨關節炎",
+      "path": "03_傷害與疾病/過度使用/傷害－膝關節骨關節炎.md",
+      "title": "傷害－膝關節骨關節炎",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－股骨頭軟骨下不全骨折.md",
-      "title": "傷害－股骨頭軟骨下不全骨折",
+      "path": "03_傷害與疾病/急性傷害/傷害－膝關節感染性關節炎.md",
+      "title": "傷害－膝關節感染性關節炎",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－髖部暫時性骨質疏鬆與骨髓水腫症候群.md",
-      "title": "傷害－髖部暫時性骨質疏鬆與骨髓水腫症候群",
+      "path": "03_傷害與疾病/急性傷害/傷害－內側半月板 Ramp Lesion.md",
+      "title": "傷害－內側半月板 Ramp Lesion",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－感染性薦髂關節炎.md",
-      "title": "傷害－感染性薦髂關節炎",
+      "path": "03_傷害與疾病/過度使用/傷害－膝關節纖維化與 Cyclops 症候群.md",
+      "title": "傷害－膝關節纖維化與 Cyclops 症候群",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－髖關節腱鞘巨細胞瘤.md",
-      "title": "傷害－髖關節腱鞘巨細胞瘤",
+      "path": "03_傷害與疾病/過度使用/傷害－膝關節結晶性關節炎.md",
+      "title": "傷害－膝關節結晶性關節炎",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－股骨頭軟骨下骨與承重圓頂.md",
-      "title": "骨骼與關節－股骨頭軟骨下骨與承重圓頂",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－膝關節軟骨與滑膜.md",
+      "title": "骨骼與關節－膝關節軟骨與滑膜",
       "role": "相關",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－髖關節軟骨與滑膜.md",
-      "title": "骨骼與關節－髖關節軟骨與滑膜",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－內側半月板後角與 Ramp 區域.md",
+      "title": "骨骼與關節－內側半月板後角與 Ramp 區域",
       "role": "相關",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－成人非外傷性髖痛與骨健康問診.md",
-      "title": "評估－成人非外傷性髖痛與骨健康問診",
+      "path": "04_臨床評估/主觀問診/評估－非創傷性膝腫脹與晨僵問診.md",
+      "title": "評估－非創傷性膝腫脹與晨僵問診",
       "role": "相關",
       "type": "主觀問診",
       "template": "模板－主觀問診.md"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－成人跛行與髖關節負荷身體檢查.md",
-      "title": "評估－成人跛行與髖關節負荷身體檢查",
+      "path": "04_臨床評估/身體檢查/評估－膝關節骨關節炎活動度與功能身體檢查.md",
+      "title": "評估－膝關節骨關節炎活動度與功能身體檢查",
       "role": "相關",
       "type": "身體檢查",
       "template": "模板－身體檢查.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－非外傷性髖痛骨髓與軟骨下病灶安全分流.md",
-      "title": "評估－非外傷性髖痛骨髓與軟骨下病灶安全分流",
+      "path": "04_臨床評估/系統性評估/評估－急性膝關節熱腫與感染安全分流.md",
+      "title": "評估－急性膝關節熱腫與感染安全分流",
       "role": "相關",
       "type": "系統性評估",
       "template": "模板－系統性評估.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－發燒合併臀部與薦髂痛感染分流.md",
-      "title": "評估－發燒合併臀部與薦髂痛感染分流",
+      "path": "04_臨床評估/系統性評估/評估－術後膝伸直受限與機械性鎖住分流.md",
+      "title": "評估－術後膝伸直受限與機械性鎖住分流",
       "role": "相關",
       "type": "系統性評估",
       "template": "模板－系統性評估.md"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－髖關節內旋活動度測試.md",
-      "title": "特殊檢查－髖關節內旋活動度測試",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－足跟高度差膝伸直測量.md",
+      "title": "特殊檢查－足跟高度差膝伸直測量",
       "role": "相關",
       "type": "特殊檢查",
       "template": "模板－特殊檢查.md"
     },
     {
-      "path": "06_功能性測試/下肢/功能性測試－30 秒椅子站立測試.md",
-      "title": "功能性測試－30 秒椅子站立測試",
+      "path": "06_功能性測試/下肢/功能性測試－40 公尺快速步行測試.md",
+      "title": "功能性測試－40 公尺快速步行測試",
       "role": "相關",
       "type": "功能性測試",
       "template": "模板－功能性測試.md"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－髖關節骨關節炎教育與漸進肌力.md",
-      "title": "運動治療－髖關節骨關節炎教育與漸進肌力",
+      "path": "05_處置與復健/運動治療/運動治療－膝關節骨關節炎教育與漸進肌力.md",
+      "title": "運動治療－膝關節骨關節炎教育與漸進肌力",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－髖部骨髓水腫與軟骨下骨負荷恢復.md",
-      "title": "運動治療－髖部骨髓水腫與軟骨下骨負荷恢復",
+      "path": "05_處置與復健/運動治療/運動治療－膝關節纖維化伸直恢復與負荷監測.md",
+      "title": "運動治療－膝關節纖維化伸直恢復與負荷監測",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
@@ -219,7 +218,7 @@
   ],
   "per_note_validation": [
     {
-      "path": "03_傷害與疾病/過度使用/傷害－髖關節骨關節炎.md",
+      "path": "03_傷害與疾病/過度使用/傷害－膝關節骨關節炎.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -228,7 +227,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－股骨頭軟骨下不全骨折.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－膝關節感染性關節炎.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -237,7 +236,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－髖部暫時性骨質疏鬆與骨髓水腫症候群.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－內側半月板 Ramp Lesion.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -246,7 +245,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－感染性薦髂關節炎.md",
+      "path": "03_傷害與疾病/過度使用/傷害－膝關節纖維化與 Cyclops 症候群.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -255,7 +254,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－髖關節腱鞘巨細胞瘤.md",
+      "path": "03_傷害與疾病/過度使用/傷害－膝關節結晶性關節炎.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -264,7 +263,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－股骨頭軟骨下骨與承重圓頂.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－膝關節軟骨與滑膜.md",
       "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
@@ -273,7 +272,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－髖關節軟骨與滑膜.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－內側半月板後角與 Ramp 區域.md",
       "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
@@ -282,7 +281,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－成人非外傷性髖痛與骨健康問診.md",
+      "path": "04_臨床評估/主觀問診/評估－非創傷性膝腫脹與晨僵問診.md",
       "template": "模板－主觀問診.md",
       "yaml": "passed",
       "h1": "passed",
@@ -291,7 +290,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－成人跛行與髖關節負荷身體檢查.md",
+      "path": "04_臨床評估/身體檢查/評估－膝關節骨關節炎活動度與功能身體檢查.md",
       "template": "模板－身體檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -300,7 +299,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－非外傷性髖痛骨髓與軟骨下病灶安全分流.md",
+      "path": "04_臨床評估/系統性評估/評估－急性膝關節熱腫與感染安全分流.md",
       "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
@@ -309,7 +308,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－發燒合併臀部與薦髂痛感染分流.md",
+      "path": "04_臨床評估/系統性評估/評估－術後膝伸直受限與機械性鎖住分流.md",
       "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
@@ -318,7 +317,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－髖關節內旋活動度測試.md",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－足跟高度差膝伸直測量.md",
       "template": "模板－特殊檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -327,7 +326,7 @@
       "links": "passed"
     },
     {
-      "path": "06_功能性測試/下肢/功能性測試－30 秒椅子站立測試.md",
+      "path": "06_功能性測試/下肢/功能性測試－40 公尺快速步行測試.md",
       "template": "模板－功能性測試.md",
       "yaml": "passed",
       "h1": "passed",
@@ -336,7 +335,7 @@
       "links": "passed"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－髖關節骨關節炎教育與漸進肌力.md",
+      "path": "05_處置與復健/運動治療/運動治療－膝關節骨關節炎教育與漸進肌力.md",
       "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
@@ -345,7 +344,7 @@
       "links": "passed"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－髖部骨髓水腫與軟骨下骨負荷恢復.md",
+      "path": "05_處置與復健/運動治療/運動治療－膝關節纖維化伸直恢復與負荷監測.md",
       "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
@@ -355,23 +354,23 @@
     }
   ],
   "assets": [
-    "assets/anatomy/骨盆髖第八輪股骨頭軟骨下骨與滑膜圖.svg",
-    "assets/assessment/骨盆髖第八輪非外傷性髖痛分流圖.svg",
-    "assets/special-tests/骨盆髖第八輪內旋與椅子站立量測圖.svg"
+    "assets/anatomy/膝部第八輪軟骨滑膜與 Ramp 區域圖.svg",
+    "assets/assessment/膝部第八輪急性熱腫安全分流圖.svg",
+    "assets/special-tests/膝部第八輪伸直與快速步行量測圖.svg"
   ],
   "sources_checked": [
-    "Koc TA Jr, et al. Hip Pain and Mobility Deficits—Hip Osteoarthritis: Revision 2025. J Orthop Sports Phys Ther. 2025. https://pubmed.ncbi.nlm.nih.gov/41165671/",
-    "Bannuru RR, et al. OARSI guidelines for the non-surgical management of knee, hip, and polyarticular osteoarthritis. 2019. https://pubmed.ncbi.nlm.nih.gov/31278997/",
+    "American Academy of Orthopaedic Surgeons. Management of Osteoarthritis of the Knee (Non-Arthroplasty), 3rd ed. 2021. https://www.aaos.org/oak3cpg",
+    "American College of Radiology. ACR Appropriateness Criteria: Chronic Knee Pain. https://acsearch.acr.org/docs/69432/Narrative/",
+    "Ravn C, et al. Guideline for management of septic arthritis in native joints (SANJO). J Bone Jt Infect. 2023. https://pmc.ncbi.nlm.nih.gov/articles/PMC9901514/",
+    "Kim SH, et al. Diagnostic accuracy of MRI for ramp lesions: systematic review and meta-analysis. 2024. https://pubmed.ncbi.nlm.nih.gov/38582392/",
+    "Thaunat M, et al. Ramp lesions of the medial meniscus: anatomy, diagnosis and treatment. https://pmc.ncbi.nlm.nih.gov/articles/PMC7519018/",
+    "Usher KM, et al. Arthrofibrosis Nightmares—Prevention and Management Strategies. Sports Med Arthrosc Rev. 2022. https://pmc.ncbi.nlm.nih.gov/articles/PMC8830598/",
+    "Kambhampati SBS, et al. Cyclops lesions of the knee: a narrative review. Orthop J Sports Med. 2020. https://pmc.ncbi.nlm.nih.gov/articles/PMC7457408/",
+    "FitzGerald JD, et al. 2020 American College of Rheumatology Guideline for the Management of Gout. https://pmc.ncbi.nlm.nih.gov/articles/PMC10563586/",
+    "Cipolletta E, et al. 2023 EULAR recommendations on imaging in crystal-induced arthropathies. https://ard.bmj.com/content/83/6/752",
+    "Sachs RA, et al. Patellofemoral problems after anterior cruciate ligament reconstruction. Am J Sports Med. 1989. https://pubmed.ncbi.nlm.nih.gov/2624287/",
     "Dobson F, et al. OARSI recommended performance-based tests to assess physical function in people diagnosed with hip or knee osteoarthritis. 2013. https://pubmed.ncbi.nlm.nih.gov/23680877/",
-    "Zanetti M, et al. Magnetic resonance imaging of subchondral insufficiency fractures of the lower limb. 2024. https://pubmed.ncbi.nlm.nih.gov/38249451/",
-    "Yamamoto T. Subchondral insufficiency fractures of the femoral head. 2012. https://pmc.ncbi.nlm.nih.gov/articles/PMC3425646/",
-    "Transient osteoporosis and bone marrow edema syndromes: a scoping review of terminology and concepts. 2024. https://pubmed.ncbi.nlm.nih.gov/38358275/",
-    "Mirghasemi SA, et al. Transient osteoporosis of the hip: review of the literature. 2017. https://pmc.ncbi.nlm.nih.gov/articles/PMC5418730/",
-    "Infectious sacroiliitis: a retrospective multicentre study of 39 adults. 2012. https://pmc.ncbi.nlm.nih.gov/articles/PMC3519695/",
-    "Magnetic resonance imaging predictors of infectious and inflammatory sacroiliitis. 2024. https://pubmed.ncbi.nlm.nih.gov/38939926/",
-    "Outcomes of arthroscopic management of pigmented villonodular synovitis of the hip: a systematic review. 2024. https://pubmed.ncbi.nlm.nih.gov/39060589/",
-    "Hip tenosynovial giant cell tumour: systematic review and meta-analysis. 2026. https://pubmed.ncbi.nlm.nih.gov/42256642/",
-    "American College of Radiology. ACR Appropriateness Criteria: Chronic Hip Pain, revised 2022. https://acsearch.acr.org/docs/69425/Narrative/"
+    "Master H, et al. Measurement properties of fixed-distance walk tests up to 40 metres in knee osteoarthritis: a systematic review. 2021. https://pubmed.ncbi.nlm.nih.gov/33476723/"
   ],
   "validation": {
     "status": "passed",
@@ -391,5 +390,5 @@
       "ZIP CRC/extraction/bit comparison/path"
     ]
   },
-  "generated_at_utc": "2026-10-22T00:09:13.521389+00:00"
+  "generated_at_utc": "2026-10-23T00:08:55.473092+00:00"
 }
