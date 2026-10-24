@@ -1,11 +1,11 @@
 {
   "schema_version": 8,
-  "date": "2026-10-23",
-  "region": "膝部第八輪",
+  "date": "2026-10-24",
+  "region": "足踝第八輪",
   "github": {
     "repository": "janice880624/AT-Obsidian",
     "branch": "main",
-    "commit": "ca6c6a24bf42a7ed727faae286bbc6c79896a278",
+    "commit": "466d19b544abf5b636c219c95cb77457b109068f",
     "mode": "read-only"
   },
   "template_policy": {
@@ -85,6 +85,7 @@
       "模板－系統性評估.md",
       "模板－身體檢查.md",
       "模板－運動治療.md",
+      "模板－韌帶.md",
       "模板－骨骼或關節.md"
     ],
     "validated_note_count": 15,
@@ -104,113 +105,113 @@
     "index_or_support_files": 11
   },
   "topic_candidates_skipped": [
-    "膝部第一至第七輪全部既有主題",
-    "已存在的韌帶、半月板、髕股、骨折、滑囊、神經與兒童候選",
+    "足踝第一至第七輪全部既有主題",
+    "已存在的踝扭傷、跟腱、骨折、壓力傷、夾擠、神經、兒童與退化候選",
     "無專屬模板的筆記類型",
     "任何需要建立新資料夾的候選主題"
   ],
   "notes": [
     {
-      "path": "03_傷害與疾病/過度使用/傷害－膝關節骨關節炎.md",
-      "title": "傷害－膝關節骨關節炎",
+      "path": "03_傷害與疾病/急性傷害/傷害－急性 Charcot 神經骨關節病.md",
+      "title": "傷害－急性 Charcot 神經骨關節病",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－膝關節感染性關節炎.md",
-      "title": "傷害－膝關節感染性關節炎",
+      "path": "03_傷害與疾病/急性傷害/傷害－距下關節脫臼.md",
+      "title": "傷害－距下關節脫臼",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－內側半月板 Ramp Lesion.md",
-      "title": "傷害－內側半月板 Ramp Lesion",
+      "path": "03_傷害與疾病/急性傷害/傷害－Chopart 關節損傷與脫臼.md",
+      "title": "傷害－Chopart 關節損傷與脫臼",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－膝關節纖維化與 Cyclops 症候群.md",
-      "title": "傷害－膝關節纖維化與 Cyclops 症候群",
+      "path": "03_傷害與疾病/過度使用/傷害－拇趾外翻.md",
+      "title": "傷害－拇趾外翻",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－膝關節結晶性關節炎.md",
-      "title": "傷害－膝關節結晶性關節炎",
+      "path": "03_傷害與疾病/過度使用/傷害－第一蹠趾關節骨關節炎與拇趾僵硬.md",
+      "title": "傷害－第一蹠趾關節骨關節炎與拇趾僵硬",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－膝關節軟骨與滑膜.md",
-      "title": "骨骼與關節－膝關節軟骨與滑膜",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－距舟關節與足內側柱.md",
+      "title": "骨骼與關節－距舟關節與足內側柱",
       "role": "相關",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－內側半月板後角與 Ramp 區域.md",
-      "title": "骨骼與關節－內側半月板後角與 Ramp 區域",
+      "path": "01_基礎解剖/韌帶/韌帶－Chopart 關節複合穩定韌帶.md",
+      "title": "韌帶－Chopart 關節複合穩定韌帶",
       "role": "相關",
-      "type": "骨骼或關節",
-      "template": "模板－骨骼或關節.md"
+      "type": "韌帶",
+      "template": "模板－韌帶.md"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－非創傷性膝腫脹與晨僵問診.md",
-      "title": "評估－非創傷性膝腫脹與晨僵問診",
+      "path": "04_臨床評估/主觀問診/評估－熱紅腫神經病變足主觀問診.md",
+      "title": "評估－熱紅腫神經病變足主觀問診",
       "role": "相關",
       "type": "主觀問診",
       "template": "模板－主觀問診.md"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－膝關節骨關節炎活動度與功能身體檢查.md",
-      "title": "評估－膝關節骨關節炎活動度與功能身體檢查",
+      "path": "04_臨床評估/身體檢查/評估－第一蹠趾關節外翻與背屈身體檢查.md",
+      "title": "評估－第一蹠趾關節外翻與背屈身體檢查",
       "role": "相關",
       "type": "身體檢查",
       "template": "模板－身體檢查.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－急性膝關節熱腫與感染安全分流.md",
-      "title": "評估－急性膝關節熱腫與感染安全分流",
+      "path": "04_臨床評估/系統性評估/評估－熱腫神經病變足 Charcot 與感染安全分流.md",
+      "title": "評估－熱腫神經病變足 Charcot 與感染安全分流",
       "role": "相關",
       "type": "系統性評估",
       "template": "模板－系統性評估.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－術後膝伸直受限與機械性鎖住分流.md",
-      "title": "評估－術後膝伸直受限與機械性鎖住分流",
+      "path": "04_臨床評估/系統性評估/評估－中後足高能量畸形與脫臼安全分流.md",
+      "title": "評估－中後足高能量畸形與脫臼安全分流",
       "role": "相關",
       "type": "系統性評估",
       "template": "模板－系統性評估.md"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－足跟高度差膝伸直測量.md",
-      "title": "特殊檢查－足跟高度差膝伸直測量",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－第一蹠趾關節被動背屈與 Grind Test.md",
+      "title": "特殊檢查－第一蹠趾關節被動背屈與 Grind Test",
       "role": "相關",
       "type": "特殊檢查",
       "template": "模板－特殊檢查.md"
     },
     {
-      "path": "06_功能性測試/下肢/功能性測試－40 公尺快速步行測試.md",
-      "title": "功能性測試－40 公尺快速步行測試",
+      "path": "06_功能性測試/下肢/功能性測試－六分鐘步行測試.md",
+      "title": "功能性測試－六分鐘步行測試",
       "role": "相關",
       "type": "功能性測試",
       "template": "模板－功能性測試.md"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－膝關節骨關節炎教育與漸進肌力.md",
-      "title": "運動治療－膝關節骨關節炎教育與漸進肌力",
+      "path": "05_處置與復健/運動治療/運動治療－拇趾外翻鞋具與足趾力量管理.md",
+      "title": "運動治療－拇趾外翻鞋具與足趾力量管理",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－膝關節纖維化伸直恢復與負荷監測.md",
-      "title": "運動治療－膝關節纖維化伸直恢復與負荷監測",
+      "path": "05_處置與復健/運動治療/運動治療－拇趾僵硬推蹬負荷進展.md",
+      "title": "運動治療－拇趾僵硬推蹬負荷進展",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
@@ -218,7 +219,7 @@
   ],
   "per_note_validation": [
     {
-      "path": "03_傷害與疾病/過度使用/傷害－膝關節骨關節炎.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－急性 Charcot 神經骨關節病.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -227,7 +228,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－膝關節感染性關節炎.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－距下關節脫臼.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -236,7 +237,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－內側半月板 Ramp Lesion.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－Chopart 關節損傷與脫臼.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -245,7 +246,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－膝關節纖維化與 Cyclops 症候群.md",
+      "path": "03_傷害與疾病/過度使用/傷害－拇趾外翻.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -254,7 +255,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－膝關節結晶性關節炎.md",
+      "path": "03_傷害與疾病/過度使用/傷害－第一蹠趾關節骨關節炎與拇趾僵硬.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -263,7 +264,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－膝關節軟骨與滑膜.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－距舟關節與足內側柱.md",
       "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
@@ -272,8 +273,8 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－內側半月板後角與 Ramp 區域.md",
-      "template": "模板－骨骼或關節.md",
+      "path": "01_基礎解剖/韌帶/韌帶－Chopart 關節複合穩定韌帶.md",
+      "template": "模板－韌帶.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -281,7 +282,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－非創傷性膝腫脹與晨僵問診.md",
+      "path": "04_臨床評估/主觀問診/評估－熱紅腫神經病變足主觀問診.md",
       "template": "模板－主觀問診.md",
       "yaml": "passed",
       "h1": "passed",
@@ -290,7 +291,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－膝關節骨關節炎活動度與功能身體檢查.md",
+      "path": "04_臨床評估/身體檢查/評估－第一蹠趾關節外翻與背屈身體檢查.md",
       "template": "模板－身體檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -299,7 +300,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－急性膝關節熱腫與感染安全分流.md",
+      "path": "04_臨床評估/系統性評估/評估－熱腫神經病變足 Charcot 與感染安全分流.md",
       "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
@@ -308,7 +309,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－術後膝伸直受限與機械性鎖住分流.md",
+      "path": "04_臨床評估/系統性評估/評估－中後足高能量畸形與脫臼安全分流.md",
       "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
@@ -317,7 +318,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－足跟高度差膝伸直測量.md",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－第一蹠趾關節被動背屈與 Grind Test.md",
       "template": "模板－特殊檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -326,7 +327,7 @@
       "links": "passed"
     },
     {
-      "path": "06_功能性測試/下肢/功能性測試－40 公尺快速步行測試.md",
+      "path": "06_功能性測試/下肢/功能性測試－六分鐘步行測試.md",
       "template": "模板－功能性測試.md",
       "yaml": "passed",
       "h1": "passed",
@@ -335,7 +336,7 @@
       "links": "passed"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－膝關節骨關節炎教育與漸進肌力.md",
+      "path": "05_處置與復健/運動治療/運動治療－拇趾外翻鞋具與足趾力量管理.md",
       "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
@@ -344,7 +345,7 @@
       "links": "passed"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－膝關節纖維化伸直恢復與負荷監測.md",
+      "path": "05_處置與復健/運動治療/運動治療－拇趾僵硬推蹬負荷進展.md",
       "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
@@ -354,23 +355,23 @@
     }
   ],
   "assets": [
-    "assets/anatomy/膝部第八輪軟骨滑膜與 Ramp 區域圖.svg",
-    "assets/assessment/膝部第八輪急性熱腫安全分流圖.svg",
-    "assets/special-tests/膝部第八輪伸直與快速步行量測圖.svg"
+    "assets/anatomy/足踝第八輪中後足與第一蹠趾結構圖.svg",
+    "assets/assessment/足踝第八輪熱紅腫足安全分流圖.svg",
+    "assets/special-tests/足踝第八輪第一蹠趾與步行量測圖.svg"
   ],
   "sources_checked": [
-    "American Academy of Orthopaedic Surgeons. Management of Osteoarthritis of the Knee (Non-Arthroplasty), 3rd ed. 2021. https://www.aaos.org/oak3cpg",
-    "American College of Radiology. ACR Appropriateness Criteria: Chronic Knee Pain. https://acsearch.acr.org/docs/69432/Narrative/",
-    "Ravn C, et al. Guideline for management of septic arthritis in native joints (SANJO). J Bone Jt Infect. 2023. https://pmc.ncbi.nlm.nih.gov/articles/PMC9901514/",
-    "Kim SH, et al. Diagnostic accuracy of MRI for ramp lesions: systematic review and meta-analysis. 2024. https://pubmed.ncbi.nlm.nih.gov/38582392/",
-    "Thaunat M, et al. Ramp lesions of the medial meniscus: anatomy, diagnosis and treatment. https://pmc.ncbi.nlm.nih.gov/articles/PMC7519018/",
-    "Usher KM, et al. Arthrofibrosis Nightmares—Prevention and Management Strategies. Sports Med Arthrosc Rev. 2022. https://pmc.ncbi.nlm.nih.gov/articles/PMC8830598/",
-    "Kambhampati SBS, et al. Cyclops lesions of the knee: a narrative review. Orthop J Sports Med. 2020. https://pmc.ncbi.nlm.nih.gov/articles/PMC7457408/",
-    "FitzGerald JD, et al. 2020 American College of Rheumatology Guideline for the Management of Gout. https://pmc.ncbi.nlm.nih.gov/articles/PMC10563586/",
-    "Cipolletta E, et al. 2023 EULAR recommendations on imaging in crystal-induced arthropathies. https://ard.bmj.com/content/83/6/752",
-    "Sachs RA, et al. Patellofemoral problems after anterior cruciate ligament reconstruction. Am J Sports Med. 1989. https://pubmed.ncbi.nlm.nih.gov/2624287/",
-    "Dobson F, et al. OARSI recommended performance-based tests to assess physical function in people diagnosed with hip or knee osteoarthritis. 2013. https://pubmed.ncbi.nlm.nih.gov/23680877/",
-    "Master H, et al. Measurement properties of fixed-distance walk tests up to 40 metres in knee osteoarthritis: a systematic review. 2021. https://pubmed.ncbi.nlm.nih.gov/33476723/"
+    "Wukich DK, et al. IWGDF 2023 Guidelines on the diagnosis and treatment of active Charcot neuro-osteoarthropathy in persons with diabetes mellitus. 2024. https://iwgdfguidelines.org/wp-content/uploads/2023/07/IWGDF-2023-08-Charcot-Guideline.pdf",
+    "Senneville É, et al. IWGDF/IDSA Guidelines on the Diagnosis and Treatment of Diabetes-related Foot Infections. 2023. https://doi.org/10.1093/cid/ciad527",
+    "Troiano E, et al. Treatment and rehabilitation of subtalar dislocations. Injury. 2024. https://pubmed.ncbi.nlm.nih.gov/39542576/",
+    "Lugani G, et al. Subtalar dislocation: a narrative review. 2022. https://pmc.ncbi.nlm.nih.gov/articles/PMC9617962/",
+    "Metcalfe TSN, et al. Chopart dislocations: a review of diagnosis, treatment and outcomes. 2023. https://pmc.ncbi.nlm.nih.gov/articles/PMC10774188/",
+    "Klaue K, et al. Injuries to the Chopart joint complex: a current review. 2017. https://pubmed.ncbi.nlm.nih.gov/28417204/",
+    "German Society for Orthopaedics and Trauma. S2e Guideline Hallux Valgus 2025. https://register.awmf.org/assets/guidelines/187_Orthop%C3%A4die_und_Unfallchirurgie/187-051eng_S2e_Hallux-Valgus_2025-06.pdf",
+    "Ying J, et al. Effectiveness of Non-Surgical Interventions for Hallux Valgus: Systematic Review and Network Meta-Analysis. 2021. https://pmc.ncbi.nlm.nih.gov/articles/PMC8038851/",
+    "Roukis TS, et al. ACFAS Clinical Consensus Statements: Hallux Rigidus. J Foot Ankle Surg. 2024. https://pubmed.ncbi.nlm.nih.gov/39094959/",
+    "Assessment and Management of Atraumatic First Metatarsophalangeal Joint Pain. J Am Acad Orthop Surg. 2023. https://pubmed.ncbi.nlm.nih.gov/37126849/",
+    "Vulcano E, et al. Accurate Measurement of First Metatarsophalangeal Range of Motion. 2016. https://pubmed.ncbi.nlm.nih.gov/26660863/",
+    "ATS Committee. ATS Statement: Guidelines for the Six-Minute Walk Test. 2002. https://pubmed.ncbi.nlm.nih.gov/12091180/"
   ],
   "validation": {
     "status": "passed",
@@ -390,5 +391,5 @@
       "ZIP CRC/extraction/bit comparison/path"
     ]
   },
-  "generated_at_utc": "2026-10-23T00:08:55.473092+00:00"
+  "generated_at_utc": "2026-10-24T00:02:19.656403+00:00"
 }
