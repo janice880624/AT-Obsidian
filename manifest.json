@@ -1,11 +1,11 @@
 {
   "schema_version": 8,
-  "date": "2026-10-24",
-  "region": "足踝第八輪",
+  "date": "2026-10-25",
+  "region": "頭頸第九輪",
   "github": {
     "repository": "janice880624/AT-Obsidian",
     "branch": "main",
-    "commit": "466d19b544abf5b636c219c95cb77457b109068f",
+    "commit": "abf48c120eba257082a9b7ba4e252f32cfa7b285",
     "mode": "read-only"
   },
   "template_policy": {
@@ -82,10 +82,11 @@
       "模板－傷害.md",
       "模板－功能性測試.md",
       "模板－特殊檢查.md",
+      "模板－神經.md",
       "模板－系統性評估.md",
+      "模板－肌肉.md",
       "模板－身體檢查.md",
       "模板－運動治療.md",
-      "模板－韌帶.md",
       "模板－骨骼或關節.md"
     ],
     "validated_note_count": 15,
@@ -105,113 +106,113 @@
     "index_or_support_files": 11
   },
   "topic_candidates_skipped": [
-    "足踝第一至第七輪全部既有主題",
-    "已存在的踝扭傷、跟腱、骨折、壓力傷、夾擠、神經、兒童與退化候選",
+    "頭頸第一至第八輪全部既有主題",
+    "既有頸椎、腦震盪、顱內、顏面基礎、耳部與眼部創傷候選",
     "無專屬模板的筆記類型",
     "任何需要建立新資料夾的候選主題"
   ],
   "notes": [
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－急性 Charcot 神經骨關節病.md",
-      "title": "傷害－急性 Charcot 神經骨關節病",
+      "path": "03_傷害與疾病/急性傷害/傷害－顴上顎複合體骨折.md",
+      "title": "傷害－顴上顎複合體骨折",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－距下關節脫臼.md",
-      "title": "傷害－距下關節脫臼",
+      "path": "03_傷害與疾病/急性傷害/傷害－Le Fort 中顏面骨折.md",
+      "title": "傷害－Le Fort 中顏面骨折",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－Chopart 關節損傷與脫臼.md",
-      "title": "傷害－Chopart 關節損傷與脫臼",
+      "path": "03_傷害與疾病/急性傷害/傷害－鼻眶篩骨複合體骨折.md",
+      "title": "傷害－鼻眶篩骨複合體骨折",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－拇趾外翻.md",
-      "title": "傷害－拇趾外翻",
+      "path": "03_傷害與疾病/急性傷害/傷害－額竇骨折.md",
+      "title": "傷害－額竇骨折",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－第一蹠趾關節骨關節炎與拇趾僵硬.md",
-      "title": "傷害－第一蹠趾關節骨關節炎與拇趾僵硬",
+      "path": "03_傷害與疾病/急性傷害/傷害－急性顳顎關節脫臼.md",
+      "title": "傷害－急性顳顎關節脫臼",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－距舟關節與足內側柱.md",
-      "title": "骨骼與關節－距舟關節與足內側柱",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－中顏面支柱與 Le Fort 骨折平面.md",
+      "title": "骨骼與關節－中顏面支柱與 Le Fort 骨折平面",
       "role": "相關",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "01_基礎解剖/韌帶/韌帶－Chopart 關節複合穩定韌帶.md",
-      "title": "韌帶－Chopart 關節複合穩定韌帶",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－額竇與鼻額流出道.md",
+      "title": "骨骼與關節－額竇與鼻額流出道",
       "role": "相關",
-      "type": "韌帶",
-      "template": "模板－韌帶.md"
+      "type": "骨骼或關節",
+      "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－熱紅腫神經病變足主觀問診.md",
-      "title": "評估－熱紅腫神經病變足主觀問診",
+      "path": "01_基礎解剖/神經/神經－眶下神經與上顎神經感覺.md",
+      "title": "神經－眶下神經與上顎神經感覺",
+      "role": "相關",
+      "type": "神經",
+      "template": "模板－神經.md"
+    },
+    {
+      "path": "01_基礎解剖/肌肉/肌肉－外翼肌與顳顎關節前向運動.md",
+      "title": "肌肉－外翼肌與顳顎關節前向運動",
+      "role": "相關",
+      "type": "肌肉",
+      "template": "模板－肌肉.md"
+    },
+    {
+      "path": "04_臨床評估/主觀問診/評估－中顏面高能量外傷主觀問診.md",
+      "title": "評估－中顏面高能量外傷主觀問診",
       "role": "相關",
       "type": "主觀問診",
       "template": "模板－主觀問診.md"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－第一蹠趾關節外翻與背屈身體檢查.md",
-      "title": "評估－第一蹠趾關節外翻與背屈身體檢查",
+      "path": "04_臨床評估/身體檢查/評估－中顏面對稱咬合與顱神經身體檢查.md",
+      "title": "評估－中顏面對稱咬合與顱神經身體檢查",
       "role": "相關",
       "type": "身體檢查",
       "template": "模板－身體檢查.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－熱腫神經病變足 Charcot 與感染安全分流.md",
-      "title": "評估－熱腫神經病變足 Charcot 與感染安全分流",
+      "path": "04_臨床評估/系統性評估/評估－中顏面外傷氣道視覺顱底與頸椎分流.md",
+      "title": "評估－中顏面外傷氣道視覺顱底與頸椎分流",
       "role": "相關",
       "type": "系統性評估",
       "template": "模板－系統性評估.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－中後足高能量畸形與脫臼安全分流.md",
-      "title": "評估－中後足高能量畸形與脫臼安全分流",
-      "role": "相關",
-      "type": "系統性評估",
-      "template": "模板－系統性評估.md"
-    },
-    {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－第一蹠趾關節被動背屈與 Grind Test.md",
-      "title": "特殊檢查－第一蹠趾關節被動背屈與 Grind Test",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－上顎活動度與咬合快速檢查.md",
+      "title": "特殊檢查－上顎活動度與咬合快速檢查",
       "role": "相關",
       "type": "特殊檢查",
       "template": "模板－特殊檢查.md"
     },
     {
-      "path": "06_功能性測試/下肢/功能性測試－六分鐘步行測試.md",
-      "title": "功能性測試－六分鐘步行測試",
+      "path": "06_功能性測試/軀幹/功能性測試－最大張口與下顎側移測試.md",
+      "title": "功能性測試－最大張口與下顎側移測試",
       "role": "相關",
       "type": "功能性測試",
       "template": "模板－功能性測試.md"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－拇趾外翻鞋具與足趾力量管理.md",
-      "title": "運動治療－拇趾外翻鞋具與足趾力量管理",
-      "role": "相關",
-      "type": "運動治療",
-      "template": "模板－運動治療.md"
-    },
-    {
-      "path": "05_處置與復健/運動治療/運動治療－拇趾僵硬推蹬負荷進展.md",
-      "title": "運動治療－拇趾僵硬推蹬負荷進展",
+      "path": "05_處置與復健/運動治療/運動治療－顳顎關節脫臼後控制性張口進展.md",
+      "title": "運動治療－顳顎關節脫臼後控制性張口進展",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
@@ -219,7 +220,7 @@
   ],
   "per_note_validation": [
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－急性 Charcot 神經骨關節病.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－顴上顎複合體骨折.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -228,7 +229,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－距下關節脫臼.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－Le Fort 中顏面骨折.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -237,7 +238,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－Chopart 關節損傷與脫臼.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－鼻眶篩骨複合體骨折.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -246,7 +247,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－拇趾外翻.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－額竇骨折.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -255,7 +256,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－第一蹠趾關節骨關節炎與拇趾僵硬.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－急性顳顎關節脫臼.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -264,7 +265,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－距舟關節與足內側柱.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－中顏面支柱與 Le Fort 骨折平面.md",
       "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
@@ -273,8 +274,8 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/韌帶/韌帶－Chopart 關節複合穩定韌帶.md",
-      "template": "模板－韌帶.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－額竇與鼻額流出道.md",
+      "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -282,7 +283,25 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－熱紅腫神經病變足主觀問診.md",
+      "path": "01_基礎解剖/神經/神經－眶下神經與上顎神經感覺.md",
+      "template": "模板－神經.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "01_基礎解剖/肌肉/肌肉－外翼肌與顳顎關節前向運動.md",
+      "template": "模板－肌肉.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "04_臨床評估/主觀問診/評估－中顏面高能量外傷主觀問診.md",
       "template": "模板－主觀問診.md",
       "yaml": "passed",
       "h1": "passed",
@@ -291,7 +310,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－第一蹠趾關節外翻與背屈身體檢查.md",
+      "path": "04_臨床評估/身體檢查/評估－中顏面對稱咬合與顱神經身體檢查.md",
       "template": "模板－身體檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -300,7 +319,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－熱腫神經病變足 Charcot 與感染安全分流.md",
+      "path": "04_臨床評估/系統性評估/評估－中顏面外傷氣道視覺顱底與頸椎分流.md",
       "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
@@ -309,16 +328,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－中後足高能量畸形與脫臼安全分流.md",
-      "template": "模板－系統性評估.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－第一蹠趾關節被動背屈與 Grind Test.md",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－上顎活動度與咬合快速檢查.md",
       "template": "模板－特殊檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -327,7 +337,7 @@
       "links": "passed"
     },
     {
-      "path": "06_功能性測試/下肢/功能性測試－六分鐘步行測試.md",
+      "path": "06_功能性測試/軀幹/功能性測試－最大張口與下顎側移測試.md",
       "template": "模板－功能性測試.md",
       "yaml": "passed",
       "h1": "passed",
@@ -336,16 +346,7 @@
       "links": "passed"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－拇趾外翻鞋具與足趾力量管理.md",
-      "template": "模板－運動治療.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "05_處置與復健/運動治療/運動治療－拇趾僵硬推蹬負荷進展.md",
+      "path": "05_處置與復健/運動治療/運動治療－顳顎關節脫臼後控制性張口進展.md",
       "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
@@ -355,23 +356,25 @@
     }
   ],
   "assets": [
-    "assets/anatomy/足踝第八輪中後足與第一蹠趾結構圖.svg",
-    "assets/assessment/足踝第八輪熱紅腫足安全分流圖.svg",
-    "assets/special-tests/足踝第八輪第一蹠趾與步行量測圖.svg"
+    "assets/anatomy/頭頸第九輪中顏面支柱額竇與顳顎圖.svg",
+    "assets/assessment/頭頸第九輪中顏面外傷安全分流圖.svg",
+    "assets/special-tests/頭頸第九輪咬合與張口量測圖.svg"
   ],
   "sources_checked": [
-    "Wukich DK, et al. IWGDF 2023 Guidelines on the diagnosis and treatment of active Charcot neuro-osteoarthropathy in persons with diabetes mellitus. 2024. https://iwgdfguidelines.org/wp-content/uploads/2023/07/IWGDF-2023-08-Charcot-Guideline.pdf",
-    "Senneville É, et al. IWGDF/IDSA Guidelines on the Diagnosis and Treatment of Diabetes-related Foot Infections. 2023. https://doi.org/10.1093/cid/ciad527",
-    "Troiano E, et al. Treatment and rehabilitation of subtalar dislocations. Injury. 2024. https://pubmed.ncbi.nlm.nih.gov/39542576/",
-    "Lugani G, et al. Subtalar dislocation: a narrative review. 2022. https://pmc.ncbi.nlm.nih.gov/articles/PMC9617962/",
-    "Metcalfe TSN, et al. Chopart dislocations: a review of diagnosis, treatment and outcomes. 2023. https://pmc.ncbi.nlm.nih.gov/articles/PMC10774188/",
-    "Klaue K, et al. Injuries to the Chopart joint complex: a current review. 2017. https://pubmed.ncbi.nlm.nih.gov/28417204/",
-    "German Society for Orthopaedics and Trauma. S2e Guideline Hallux Valgus 2025. https://register.awmf.org/assets/guidelines/187_Orthop%C3%A4die_und_Unfallchirurgie/187-051eng_S2e_Hallux-Valgus_2025-06.pdf",
-    "Ying J, et al. Effectiveness of Non-Surgical Interventions for Hallux Valgus: Systematic Review and Network Meta-Analysis. 2021. https://pmc.ncbi.nlm.nih.gov/articles/PMC8038851/",
-    "Roukis TS, et al. ACFAS Clinical Consensus Statements: Hallux Rigidus. J Foot Ankle Surg. 2024. https://pubmed.ncbi.nlm.nih.gov/39094959/",
-    "Assessment and Management of Atraumatic First Metatarsophalangeal Joint Pain. J Am Acad Orthop Surg. 2023. https://pubmed.ncbi.nlm.nih.gov/37126849/",
-    "Vulcano E, et al. Accurate Measurement of First Metatarsophalangeal Range of Motion. 2016. https://pubmed.ncbi.nlm.nih.gov/26660863/",
-    "ATS Committee. ATS Statement: Guidelines for the Six-Minute Walk Test. 2002. https://pubmed.ncbi.nlm.nih.gov/12091180/"
+    "American College of Radiology. ACR Appropriateness Criteria: Imaging of Facial Trauma Following Primary Survey. 2022. https://acsearch.acr.org/docs/3179912/Narrative/",
+    "Piccini GB, et al. Modern management of maxillofacial trauma in the emergency department. 2026. https://pmc.ncbi.nlm.nih.gov/articles/PMC12856085/",
+    "Massenburg BB, et al. Management of Panfacial Trauma: Sequencing and Pitfalls. 2021. https://pmc.ncbi.nlm.nih.gov/articles/PMC8604617/",
+    "Phillips BJ, et al. Le Fort Fractures: A Collective Review. 2017. https://pmc.ncbi.nlm.nih.gov/articles/PMC5694594/",
+    "Roselló EG, et al. Facial fractures: classification and highlights for a useful report. 2020. https://pmc.ncbi.nlm.nih.gov/articles/PMC7082488/",
+    "Evaluating infra-orbital nerve injury in zygomaticomaxillary complex fractures: a systematic review and meta-analysis. 2025. https://pubmed.ncbi.nlm.nih.gov/41424658/",
+    "Surgical treatment of fractures of the zygomaticomaxillary complex: effect of fixation on repositioning and stability. A systematic review. 2022. https://pubmed.ncbi.nlm.nih.gov/35272868/",
+    "Nasal and Naso-orbito-ethmoid Fractures. Semin Plast Surg. 2021. https://pmc.ncbi.nlm.nih.gov/articles/PMC8604621/",
+    "Current Concepts in Frontal Sinus Fracture Management. 2025. https://pmc.ncbi.nlm.nih.gov/articles/PMC13108220/",
+    "Frontal Sinus Fractures. Semin Plast Surg. 2021. https://pmc.ncbi.nlm.nih.gov/articles/PMC8604625/",
+    "Prechel U, et al. The Treatment of Temporomandibular Joint Dislocation. Dtsch Arztebl Int. 2018. https://pubmed.ncbi.nlm.nih.gov/29439762/",
+    "Liu M, et al. Clinical Trial of Manual Reduction of Temporomandibular Joint Dislocation After Inhalation of Nitrous Oxide. 2019. https://pubmed.ncbi.nlm.nih.gov/31403507/",
+    "The reliability and minimal detectable change of common tests and measures for temporomandibular disorders. 2024. https://pubmed.ncbi.nlm.nih.gov/38979709/",
+    "Kropmans TJB, et al. Maximum mandibular mobility in patients with temporomandibular disorders. 2020. https://pubmed.ncbi.nlm.nih.gov/32869964/"
   ],
   "validation": {
     "status": "passed",
@@ -391,5 +394,5 @@
       "ZIP CRC/extraction/bit comparison/path"
     ]
   },
-  "generated_at_utc": "2026-10-24T00:02:19.656403+00:00"
+  "generated_at_utc": "2026-10-25T00:05:45.607552+00:00"
 }
