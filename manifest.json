@@ -1,11 +1,11 @@
 {
   "schema_version": 8,
-  "date": "2026-10-25",
-  "region": "頭頸第九輪",
+  "date": "2026-10-26",
+  "region": "肩部第九輪",
   "github": {
     "repository": "janice880624/AT-Obsidian",
     "branch": "main",
-    "commit": "abf48c120eba257082a9b7ba4e252f32cfa7b285",
+    "commit": "32b8cf35c4101e3407f0240798ed0e0fc9ac49b1",
     "mode": "read-only"
   },
   "template_policy": {
@@ -84,9 +84,9 @@
       "模板－特殊檢查.md",
       "模板－神經.md",
       "模板－系統性評估.md",
-      "模板－肌肉.md",
       "模板－身體檢查.md",
       "模板－運動治療.md",
+      "模板－韌帶.md",
       "模板－骨骼或關節.md"
     ],
     "validated_note_count": 15,
@@ -106,113 +106,113 @@
     "index_or_support_files": 11
   },
   "topic_candidates_skipped": [
-    "頭頸第一至第八輪全部既有主題",
-    "既有頸椎、腦震盪、顱內、顏面基礎、耳部與眼部創傷候選",
+    "肩部第一至第八輪全部既有主題",
+    "已存在的旋轉肌袖、盂唇、不穩定、骨折、感染、神經與退化候選",
     "無專屬模板的筆記類型",
     "任何需要建立新資料夾的候選主題"
   ],
   "notes": [
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－顴上顎複合體骨折.md",
-      "title": "傷害－顴上顎複合體骨折",
+      "path": "03_傷害與疾病/神經卡壓/傷害－神經性胸廓出口症候群.md",
+      "title": "傷害－神經性胸廓出口症候群",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－Le Fort 中顏面骨折.md",
-      "title": "傷害－Le Fort 中顏面骨折",
+      "path": "03_傷害與疾病/急性傷害/傷害－靜脈性胸廓出口症候群與 Paget–Schroetter 症候群.md",
+      "title": "傷害－靜脈性胸廓出口症候群與 Paget–Schroetter 症候群",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－鼻眶篩骨複合體骨折.md",
-      "title": "傷害－鼻眶篩骨複合體骨折",
+      "path": "03_傷害與疾病/急性傷害/傷害－動脈性胸廓出口症候群.md",
+      "title": "傷害－動脈性胸廓出口症候群",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－額竇骨折.md",
-      "title": "傷害－額竇骨折",
+      "path": "03_傷害與疾病/神經卡壓/傷害－胸小肌症候群.md",
+      "title": "傷害－胸小肌症候群",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－急性顳顎關節脫臼.md",
-      "title": "傷害－急性顳顎關節脫臼",
+      "path": "03_傷害與疾病/過度使用/傷害－第一肋骨壓力性骨折.md",
+      "title": "傷害－第一肋骨壓力性骨折",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－中顏面支柱與 Le Fort 骨折平面.md",
-      "title": "骨骼與關節－中顏面支柱與 Le Fort 骨折平面",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－胸廓出口與第一肋骨.md",
+      "title": "骨骼與關節－胸廓出口與第一肋骨",
       "role": "相關",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－額竇與鼻額流出道.md",
-      "title": "骨骼與關節－額竇與鼻額流出道",
-      "role": "相關",
-      "type": "骨骼或關節",
-      "template": "模板－骨骼或關節.md"
-    },
-    {
-      "path": "01_基礎解剖/神經/神經－眶下神經與上顎神經感覺.md",
-      "title": "神經－眶下神經與上顎神經感覺",
+      "path": "01_基礎解剖/神經/神經－下臂叢與胸廓出口動態負荷.md",
+      "title": "神經－下臂叢與胸廓出口動態負荷",
       "role": "相關",
       "type": "神經",
       "template": "模板－神經.md"
     },
     {
-      "path": "01_基礎解剖/肌肉/肌肉－外翼肌與顳顎關節前向運動.md",
-      "title": "肌肉－外翼肌與顳顎關節前向運動",
+      "path": "01_基礎解剖/韌帶/韌帶－肋鎖韌帶與肋鎖間隙.md",
+      "title": "韌帶－肋鎖韌帶與肋鎖間隙",
       "role": "相關",
-      "type": "肌肉",
-      "template": "模板－肌肉.md"
+      "type": "韌帶",
+      "template": "模板－韌帶.md"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－中顏面高能量外傷主觀問診.md",
-      "title": "評估－中顏面高能量外傷主觀問診",
+      "path": "04_臨床評估/主觀問診/評估－過頭運動員手臂麻腫與負荷問診.md",
+      "title": "評估－過頭運動員手臂麻腫與負荷問診",
       "role": "相關",
       "type": "主觀問診",
       "template": "模板－主觀問診.md"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－中顏面對稱咬合與顱神經身體檢查.md",
-      "title": "評估－中顏面對稱咬合與顱神經身體檢查",
+      "path": "04_臨床評估/身體檢查/評估－胸廓出口神經血管身體檢查.md",
+      "title": "評估－胸廓出口神經血管身體檢查",
       "role": "相關",
       "type": "身體檢查",
       "template": "模板－身體檢查.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－中顏面外傷氣道視覺顱底與頸椎分流.md",
-      "title": "評估－中顏面外傷氣道視覺顱底與頸椎分流",
+      "path": "04_臨床評估/系統性評估/評估－單側上肢腫脹冰冷與缺血安全分流.md",
+      "title": "評估－單側上肢腫脹冰冷與缺血安全分流",
       "role": "相關",
       "type": "系統性評估",
       "template": "模板－系統性評估.md"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－上顎活動度與咬合快速檢查.md",
-      "title": "特殊檢查－上顎活動度與咬合快速檢查",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－標準化 EAST 抬臂壓力測試.md",
+      "title": "特殊檢查－標準化 EAST 抬臂壓力測試",
       "role": "相關",
       "type": "特殊檢查",
       "template": "模板－特殊檢查.md"
     },
     {
-      "path": "06_功能性測試/軀幹/功能性測試－最大張口與下顎側移測試.md",
-      "title": "功能性測試－最大張口與下顎側移測試",
+      "path": "06_功能性測試/上肢/功能性測試－QuickDASH 上肢功能量表.md",
+      "title": "功能性測試－QuickDASH 上肢功能量表",
       "role": "相關",
       "type": "功能性測試",
       "template": "模板－功能性測試.md"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－顳顎關節脫臼後控制性張口進展.md",
-      "title": "運動治療－顳顎關節脫臼後控制性張口進展",
+      "path": "05_處置與復健/運動治療/運動治療－胸廓出口肩胛呼吸與過頭負荷進展.md",
+      "title": "運動治療－胸廓出口肩胛呼吸與過頭負荷進展",
+      "role": "相關",
+      "type": "運動治療",
+      "template": "模板－運動治療.md"
+    },
+    {
+      "path": "05_處置與復健/運動治療/運動治療－第一肋骨壓力傷後過頭回場進展.md",
+      "title": "運動治療－第一肋骨壓力傷後過頭回場進展",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
@@ -220,7 +220,7 @@
   ],
   "per_note_validation": [
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－顴上顎複合體骨折.md",
+      "path": "03_傷害與疾病/神經卡壓/傷害－神經性胸廓出口症候群.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -229,7 +229,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－Le Fort 中顏面骨折.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－靜脈性胸廓出口症候群與 Paget–Schroetter 症候群.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -238,7 +238,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－鼻眶篩骨複合體骨折.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－動脈性胸廓出口症候群.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -247,7 +247,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－額竇骨折.md",
+      "path": "03_傷害與疾病/神經卡壓/傷害－胸小肌症候群.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -256,7 +256,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－急性顳顎關節脫臼.md",
+      "path": "03_傷害與疾病/過度使用/傷害－第一肋骨壓力性骨折.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -265,7 +265,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－中顏面支柱與 Le Fort 骨折平面.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－胸廓出口與第一肋骨.md",
       "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
@@ -274,16 +274,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－額竇與鼻額流出道.md",
-      "template": "模板－骨骼或關節.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "01_基礎解剖/神經/神經－眶下神經與上顎神經感覺.md",
+      "path": "01_基礎解剖/神經/神經－下臂叢與胸廓出口動態負荷.md",
       "template": "模板－神經.md",
       "yaml": "passed",
       "h1": "passed",
@@ -292,8 +283,8 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/肌肉/肌肉－外翼肌與顳顎關節前向運動.md",
-      "template": "模板－肌肉.md",
+      "path": "01_基礎解剖/韌帶/韌帶－肋鎖韌帶與肋鎖間隙.md",
+      "template": "模板－韌帶.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -301,7 +292,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－中顏面高能量外傷主觀問診.md",
+      "path": "04_臨床評估/主觀問診/評估－過頭運動員手臂麻腫與負荷問診.md",
       "template": "模板－主觀問診.md",
       "yaml": "passed",
       "h1": "passed",
@@ -310,7 +301,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－中顏面對稱咬合與顱神經身體檢查.md",
+      "path": "04_臨床評估/身體檢查/評估－胸廓出口神經血管身體檢查.md",
       "template": "模板－身體檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -319,7 +310,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－中顏面外傷氣道視覺顱底與頸椎分流.md",
+      "path": "04_臨床評估/系統性評估/評估－單側上肢腫脹冰冷與缺血安全分流.md",
       "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
@@ -328,7 +319,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－上顎活動度與咬合快速檢查.md",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－標準化 EAST 抬臂壓力測試.md",
       "template": "模板－特殊檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -337,7 +328,7 @@
       "links": "passed"
     },
     {
-      "path": "06_功能性測試/軀幹/功能性測試－最大張口與下顎側移測試.md",
+      "path": "06_功能性測試/上肢/功能性測試－QuickDASH 上肢功能量表.md",
       "template": "模板－功能性測試.md",
       "yaml": "passed",
       "h1": "passed",
@@ -346,7 +337,16 @@
       "links": "passed"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－顳顎關節脫臼後控制性張口進展.md",
+      "path": "05_處置與復健/運動治療/運動治療－胸廓出口肩胛呼吸與過頭負荷進展.md",
+      "template": "模板－運動治療.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "05_處置與復健/運動治療/運動治療－第一肋骨壓力傷後過頭回場進展.md",
       "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
@@ -356,25 +356,26 @@
     }
   ],
   "assets": [
-    "assets/anatomy/頭頸第九輪中顏面支柱額竇與顳顎圖.svg",
-    "assets/assessment/頭頸第九輪中顏面外傷安全分流圖.svg",
-    "assets/special-tests/頭頸第九輪咬合與張口量測圖.svg"
+    "assets/anatomy/肩部第九輪胸廓出口神經血管通道圖.svg",
+    "assets/assessment/肩部第九輪上肢神經血管安全分流圖.svg",
+    "assets/special-tests/肩部第九輪EAST與功能追蹤圖.svg"
   ],
   "sources_checked": [
-    "American College of Radiology. ACR Appropriateness Criteria: Imaging of Facial Trauma Following Primary Survey. 2022. https://acsearch.acr.org/docs/3179912/Narrative/",
-    "Piccini GB, et al. Modern management of maxillofacial trauma in the emergency department. 2026. https://pmc.ncbi.nlm.nih.gov/articles/PMC12856085/",
-    "Massenburg BB, et al. Management of Panfacial Trauma: Sequencing and Pitfalls. 2021. https://pmc.ncbi.nlm.nih.gov/articles/PMC8604617/",
-    "Phillips BJ, et al. Le Fort Fractures: A Collective Review. 2017. https://pmc.ncbi.nlm.nih.gov/articles/PMC5694594/",
-    "Roselló EG, et al. Facial fractures: classification and highlights for a useful report. 2020. https://pmc.ncbi.nlm.nih.gov/articles/PMC7082488/",
-    "Evaluating infra-orbital nerve injury in zygomaticomaxillary complex fractures: a systematic review and meta-analysis. 2025. https://pubmed.ncbi.nlm.nih.gov/41424658/",
-    "Surgical treatment of fractures of the zygomaticomaxillary complex: effect of fixation on repositioning and stability. A systematic review. 2022. https://pubmed.ncbi.nlm.nih.gov/35272868/",
-    "Nasal and Naso-orbito-ethmoid Fractures. Semin Plast Surg. 2021. https://pmc.ncbi.nlm.nih.gov/articles/PMC8604621/",
-    "Current Concepts in Frontal Sinus Fracture Management. 2025. https://pmc.ncbi.nlm.nih.gov/articles/PMC13108220/",
-    "Frontal Sinus Fractures. Semin Plast Surg. 2021. https://pmc.ncbi.nlm.nih.gov/articles/PMC8604625/",
-    "Prechel U, et al. The Treatment of Temporomandibular Joint Dislocation. Dtsch Arztebl Int. 2018. https://pubmed.ncbi.nlm.nih.gov/29439762/",
-    "Liu M, et al. Clinical Trial of Manual Reduction of Temporomandibular Joint Dislocation After Inhalation of Nitrous Oxide. 2019. https://pubmed.ncbi.nlm.nih.gov/31403507/",
-    "The reliability and minimal detectable change of common tests and measures for temporomandibular disorders. 2024. https://pubmed.ncbi.nlm.nih.gov/38979709/",
-    "Kropmans TJB, et al. Maximum mandibular mobility in patients with temporomandibular disorders. 2020. https://pubmed.ncbi.nlm.nih.gov/32869964/"
+    "Chim H, et al. Consensus Recommendations for Neurogenic Thoracic Outlet Syndrome from the INTOS Workgroup. 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11357692/",
+    "American College of Radiology. ACR Appropriateness Criteria: Thoracic Outlet Syndrome. https://acsearch.acr.org/docs/3083061/Narrative/",
+    "Society for Vascular Surgery. Thoracic Outlet Syndrome. https://vascular.org/pmg/vascular-conditions/thoracic-outlet-syndrome",
+    "Ohman JW, Thompson RW. Thoracic Outlet Syndrome in the Overhead Athlete: Diagnosis and Treatment Recommendations. 2020. https://pmc.ncbi.nlm.nih.gov/articles/PMC7340704/",
+    "Thoracic Outlet Syndrome in Sport: A Systematic Review. 2022. https://pmc.ncbi.nlm.nih.gov/articles/PMC9214221/",
+    "Kolber MK, et al. Endovascular management of acute and subacute venous thoracic outlet syndrome. 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC10909919/",
+    "Management of Paget-Schroetter Syndrome: a Systematic Review and Meta-Analysis. 2023. https://pubmed.ncbi.nlm.nih.gov/37678659/",
+    "Gupta PC, et al. Contemporary management of arterial thoracic outlet syndrome. 2025. https://www.jvsvi.org/article/S2949-9127(24)00125-9/fulltext",
+    "Ahmed AS, et al. Pectoralis minor syndrome: review of pathoanatomy, diagnosis, and management. 2022. https://pmc.ncbi.nlm.nih.gov/articles/PMC10426640/",
+    "Upper Extremity Stress Fractures. Sports Med Open. 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11427649/",
+    "Rib Bone Stress Injuries: A Narrative Review with Protocol for Rehabilitation and Prevention. 2025. https://pubmed.ncbi.nlm.nih.gov/40472154/",
+    "Reliability and validity of the standardized elevated arm stress test in neurogenic thoracic outlet syndrome. 2022. https://pubmed.ncbi.nlm.nih.gov/35561941/",
+    "Diagnostic Accuracy of Clinical Tests for Neurogenic and Vascular Thoracic Outlet Syndrome: A Systematic Review. 2019. https://pubmed.ncbi.nlm.nih.gov/30871714/",
+    "Evaluation of functions after surgical treatment in arterial thoracic outlet syndrome using QuickDASH. 2021. https://pmc.ncbi.nlm.nih.gov/articles/PMC7970072/",
+    "Current Clinical Concepts: Rehabilitation of Thoracic Outlet Syndrome. 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277273/"
   ],
   "validation": {
     "status": "passed",
@@ -394,5 +395,5 @@
       "ZIP CRC/extraction/bit comparison/path"
     ]
   },
-  "generated_at_utc": "2026-10-25T00:05:45.607552+00:00"
+  "generated_at_utc": "2026-10-26T00:07:31.765261+00:00"
 }
