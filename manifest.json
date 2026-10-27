@@ -1,11 +1,11 @@
 {
   "schema_version": 8,
-  "date": "2026-10-26",
-  "region": "肩部第九輪",
+  "date": "2026-10-27",
+  "region": "肘部第九輪",
   "github": {
     "repository": "janice880624/AT-Obsidian",
     "branch": "main",
-    "commit": "32b8cf35c4101e3407f0240798ed0e0fc9ac49b1",
+    "commit": "5e7d54b6fedbb7644f7eb50ea620b07493343068",
     "mode": "read-only"
   },
   "template_policy": {
@@ -82,11 +82,11 @@
       "模板－傷害.md",
       "模板－功能性測試.md",
       "模板－特殊檢查.md",
-      "模板－神經.md",
       "模板－系統性評估.md",
+      "模板－肌肉.md",
+      "模板－肌腱.md",
       "模板－身體檢查.md",
       "模板－運動治療.md",
-      "模板－韌帶.md",
       "模板－骨骼或關節.md"
     ],
     "validated_note_count": 15,
@@ -103,116 +103,116 @@
     "related_notes": 10,
     "knowledge_notes": 15,
     "svg": 3,
-    "index_or_support_files": 11
+    "index_or_support_files": 10
   },
   "topic_candidates_skipped": [
-    "肩部第一至第八輪全部既有主題",
-    "已存在的旋轉肌袖、盂唇、不穩定、骨折、感染、神經與退化候選",
+    "肘部第一至第八輪全部既有主題",
+    "肘隧道、PLRI、UCL、遠端肱二頭肌與肱三頭肌斷裂等既有或近義主題",
     "無專屬模板的筆記類型",
     "任何需要建立新資料夾的候選主題"
   ],
   "notes": [
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－神經性胸廓出口症候群.md",
-      "title": "傷害－神經性胸廓出口症候群",
+      "path": "03_傷害與疾病/急性傷害/傷害－經鷹嘴骨折脫臼.md",
+      "title": "傷害－經鷹嘴骨折脫臼",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－靜脈性胸廓出口症候群與 Paget–Schroetter 症候群.md",
-      "title": "傷害－靜脈性胸廓出口症候群與 Paget–Schroetter 症候群",
+      "path": "03_傷害與疾病/急性傷害/傷害－肘關節內翻後內側旋轉不穩定.md",
+      "title": "傷害－肘關節內翻後內側旋轉不穩定",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－動脈性胸廓出口症候群.md",
-      "title": "傷害－動脈性胸廓出口症候群",
+      "path": "03_傷害與疾病/過度使用/傷害－遠端肱三頭肌腱病變.md",
+      "title": "傷害－遠端肱三頭肌腱病變",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－胸小肌症候群.md",
-      "title": "傷害－胸小肌症候群",
+      "path": "03_傷害與疾病/過度使用/傷害－類風濕性肘關節炎.md",
+      "title": "傷害－類風濕性肘關節炎",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－第一肋骨壓力性骨折.md",
-      "title": "傷害－第一肋骨壓力性骨折",
+      "path": "03_傷害與疾病/神經卡壓/傷害－肘內翻外翻畸形與遲發性尺神經麻痺.md",
+      "title": "傷害－肘內翻外翻畸形與遲發性尺神經麻痺",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－胸廓出口與第一肋骨.md",
-      "title": "骨骼與關節－胸廓出口與第一肋骨",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－冠狀突前內側面與滑車切跡.md",
+      "title": "骨骼與關節－冠狀突前內側面與滑車切跡",
       "role": "相關",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "01_基礎解剖/神經/神經－下臂叢與胸廓出口動態負荷.md",
-      "title": "神經－下臂叢與胸廓出口動態負荷",
+      "path": "01_基礎解剖/肌肉/肌肉－肱三頭肌與後肘伸展鏈.md",
+      "title": "肌肉－肱三頭肌與後肘伸展鏈",
       "role": "相關",
-      "type": "神經",
-      "template": "模板－神經.md"
+      "type": "肌肉",
+      "template": "模板－肌肉.md"
     },
     {
-      "path": "01_基礎解剖/韌帶/韌帶－肋鎖韌帶與肋鎖間隙.md",
-      "title": "韌帶－肋鎖韌帶與肋鎖間隙",
+      "path": "01_基礎解剖/肌腱/肌腱－遠端肱三頭肌腱止點與後肘負荷.md",
+      "title": "肌腱－遠端肱三頭肌腱止點與後肘負荷",
       "role": "相關",
-      "type": "韌帶",
-      "template": "模板－韌帶.md"
+      "type": "肌腱",
+      "template": "模板－肌腱.md"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－過頭運動員手臂麻腫與負荷問診.md",
-      "title": "評估－過頭運動員手臂麻腫與負荷問診",
+      "path": "04_臨床評估/主觀問診/評估－肘部發炎性關節病與感染鑑別問診.md",
+      "title": "評估－肘部發炎性關節病與感染鑑別問診",
       "role": "相關",
       "type": "主觀問診",
       "template": "模板－主觀問診.md"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－胸廓出口神經血管身體檢查.md",
-      "title": "評估－胸廓出口神經血管身體檢查",
+      "path": "04_臨床評估/身體檢查/評估－肘內翻外翻對位與尺神經身體檢查.md",
+      "title": "評估－肘內翻外翻對位與尺神經身體檢查",
       "role": "相關",
       "type": "身體檢查",
       "template": "模板－身體檢查.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－單側上肢腫脹冰冷與缺血安全分流.md",
-      "title": "評估－單側上肢腫脹冰冷與缺血安全分流",
+      "path": "04_臨床評估/系統性評估/評估－急性複雜肘骨折脫臼安全分流.md",
+      "title": "評估－急性複雜肘骨折脫臼安全分流",
       "role": "相關",
       "type": "系統性評估",
       "template": "模板－系統性評估.md"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－標準化 EAST 抬臂壓力測試.md",
-      "title": "特殊檢查－標準化 EAST 抬臂壓力測試",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－肘關節內翻應力測試.md",
+      "title": "特殊檢查－肘關節內翻應力測試",
       "role": "相關",
       "type": "特殊檢查",
       "template": "模板－特殊檢查.md"
     },
     {
-      "path": "06_功能性測試/上肢/功能性測試－QuickDASH 上肢功能量表.md",
-      "title": "功能性測試－QuickDASH 上肢功能量表",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－肱三頭肌主動伸肘與缺損檢查.md",
+      "title": "特殊檢查－肱三頭肌主動伸肘與缺損檢查",
+      "role": "相關",
+      "type": "特殊檢查",
+      "template": "模板－特殊檢查.md"
+    },
+    {
+      "path": "06_功能性測試/上肢/功能性測試－Oxford Elbow Score.md",
+      "title": "功能性測試－Oxford Elbow Score",
       "role": "相關",
       "type": "功能性測試",
       "template": "模板－功能性測試.md"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－胸廓出口肩胛呼吸與過頭負荷進展.md",
-      "title": "運動治療－胸廓出口肩胛呼吸與過頭負荷進展",
-      "role": "相關",
-      "type": "運動治療",
-      "template": "模板－運動治療.md"
-    },
-    {
-      "path": "05_處置與復健/運動治療/運動治療－第一肋骨壓力傷後過頭回場進展.md",
-      "title": "運動治療－第一肋骨壓力傷後過頭回場進展",
+      "path": "05_處置與復健/運動治療/運動治療－遠端肱三頭肌腱漸進負荷與推撐回場.md",
+      "title": "運動治療－遠端肱三頭肌腱漸進負荷與推撐回場",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
@@ -220,7 +220,7 @@
   ],
   "per_note_validation": [
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－神經性胸廓出口症候群.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－經鷹嘴骨折脫臼.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -229,7 +229,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－靜脈性胸廓出口症候群與 Paget–Schroetter 症候群.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－肘關節內翻後內側旋轉不穩定.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -238,7 +238,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－動脈性胸廓出口症候群.md",
+      "path": "03_傷害與疾病/過度使用/傷害－遠端肱三頭肌腱病變.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -247,7 +247,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－胸小肌症候群.md",
+      "path": "03_傷害與疾病/過度使用/傷害－類風濕性肘關節炎.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -256,7 +256,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－第一肋骨壓力性骨折.md",
+      "path": "03_傷害與疾病/神經卡壓/傷害－肘內翻外翻畸形與遲發性尺神經麻痺.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -265,7 +265,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－胸廓出口與第一肋骨.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－冠狀突前內側面與滑車切跡.md",
       "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
@@ -274,8 +274,8 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/神經/神經－下臂叢與胸廓出口動態負荷.md",
-      "template": "模板－神經.md",
+      "path": "01_基礎解剖/肌肉/肌肉－肱三頭肌與後肘伸展鏈.md",
+      "template": "模板－肌肉.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -283,8 +283,8 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/韌帶/韌帶－肋鎖韌帶與肋鎖間隙.md",
-      "template": "模板－韌帶.md",
+      "path": "01_基礎解剖/肌腱/肌腱－遠端肱三頭肌腱止點與後肘負荷.md",
+      "template": "模板－肌腱.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -292,7 +292,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－過頭運動員手臂麻腫與負荷問診.md",
+      "path": "04_臨床評估/主觀問診/評估－肘部發炎性關節病與感染鑑別問診.md",
       "template": "模板－主觀問診.md",
       "yaml": "passed",
       "h1": "passed",
@@ -301,7 +301,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－胸廓出口神經血管身體檢查.md",
+      "path": "04_臨床評估/身體檢查/評估－肘內翻外翻對位與尺神經身體檢查.md",
       "template": "模板－身體檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -310,7 +310,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－單側上肢腫脹冰冷與缺血安全分流.md",
+      "path": "04_臨床評估/系統性評估/評估－急性複雜肘骨折脫臼安全分流.md",
       "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
@@ -319,7 +319,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－標準化 EAST 抬臂壓力測試.md",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－肘關節內翻應力測試.md",
       "template": "模板－特殊檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -328,7 +328,16 @@
       "links": "passed"
     },
     {
-      "path": "06_功能性測試/上肢/功能性測試－QuickDASH 上肢功能量表.md",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－肱三頭肌主動伸肘與缺損檢查.md",
+      "template": "模板－特殊檢查.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "06_功能性測試/上肢/功能性測試－Oxford Elbow Score.md",
       "template": "模板－功能性測試.md",
       "yaml": "passed",
       "h1": "passed",
@@ -337,16 +346,7 @@
       "links": "passed"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－胸廓出口肩胛呼吸與過頭負荷進展.md",
-      "template": "模板－運動治療.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "05_處置與復健/運動治療/運動治療－第一肋骨壓力傷後過頭回場進展.md",
+      "path": "05_處置與復健/運動治療/運動治療－遠端肱三頭肌腱漸進負荷與推撐回場.md",
       "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
@@ -356,26 +356,29 @@
     }
   ],
   "assets": [
-    "assets/anatomy/肩部第九輪胸廓出口神經血管通道圖.svg",
-    "assets/assessment/肩部第九輪上肢神經血管安全分流圖.svg",
-    "assets/special-tests/肩部第九輪EAST與功能追蹤圖.svg"
+    "assets/anatomy/肘部第九輪冠狀突與滑車切跡穩定圖.svg",
+    "assets/assessment/肘部第九輪複雜骨折脫臼安全分流圖.svg",
+    "assets/special-tests/肘部第九輪內翻與伸肘檢查限制圖.svg"
   ],
   "sources_checked": [
-    "Chim H, et al. Consensus Recommendations for Neurogenic Thoracic Outlet Syndrome from the INTOS Workgroup. 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11357692/",
-    "American College of Radiology. ACR Appropriateness Criteria: Thoracic Outlet Syndrome. https://acsearch.acr.org/docs/3083061/Narrative/",
-    "Society for Vascular Surgery. Thoracic Outlet Syndrome. https://vascular.org/pmg/vascular-conditions/thoracic-outlet-syndrome",
-    "Ohman JW, Thompson RW. Thoracic Outlet Syndrome in the Overhead Athlete: Diagnosis and Treatment Recommendations. 2020. https://pmc.ncbi.nlm.nih.gov/articles/PMC7340704/",
-    "Thoracic Outlet Syndrome in Sport: A Systematic Review. 2022. https://pmc.ncbi.nlm.nih.gov/articles/PMC9214221/",
-    "Kolber MK, et al. Endovascular management of acute and subacute venous thoracic outlet syndrome. 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC10909919/",
-    "Management of Paget-Schroetter Syndrome: a Systematic Review and Meta-Analysis. 2023. https://pubmed.ncbi.nlm.nih.gov/37678659/",
-    "Gupta PC, et al. Contemporary management of arterial thoracic outlet syndrome. 2025. https://www.jvsvi.org/article/S2949-9127(24)00125-9/fulltext",
-    "Ahmed AS, et al. Pectoralis minor syndrome: review of pathoanatomy, diagnosis, and management. 2022. https://pmc.ncbi.nlm.nih.gov/articles/PMC10426640/",
-    "Upper Extremity Stress Fractures. Sports Med Open. 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11427649/",
-    "Rib Bone Stress Injuries: A Narrative Review with Protocol for Rehabilitation and Prevention. 2025. https://pubmed.ncbi.nlm.nih.gov/40472154/",
-    "Reliability and validity of the standardized elevated arm stress test in neurogenic thoracic outlet syndrome. 2022. https://pubmed.ncbi.nlm.nih.gov/35561941/",
-    "Diagnostic Accuracy of Clinical Tests for Neurogenic and Vascular Thoracic Outlet Syndrome: A Systematic Review. 2019. https://pubmed.ncbi.nlm.nih.gov/30871714/",
-    "Evaluation of functions after surgical treatment in arterial thoracic outlet syndrome using QuickDASH. 2021. https://pmc.ncbi.nlm.nih.gov/articles/PMC7970072/",
-    "Current Clinical Concepts: Rehabilitation of Thoracic Outlet Syndrome. 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277273/"
+    "Trans-Olecranon Fracture-Dislocations of the Elbow: A Systematic Review. 2021. https://pubmed.ncbi.nlm.nih.gov/33291269/",
+    "Trans-ulnar fracture dislocations of the elbow: a systematic review and clarification of classification systems. 2024. https://pubmed.ncbi.nlm.nih.gov/38036255/",
+    "Transolecranon fracture dislocation and transolecranon basal coronoid fracture dislocation: results of standardized treatment. 2025. https://pubmed.ncbi.nlm.nih.gov/40486785/",
+    "Research status of diagnosis and treatment of varus-posteromedial rotatory instability of the elbow joint. 2025. https://pmc.ncbi.nlm.nih.gov/articles/PMC12804368/",
+    "Surgical Treatment of Coronoid Fracture With Elbow Varus Posteromedial Rotatory Instability: An Instructional Review. 2025. https://pmc.ncbi.nlm.nih.gov/articles/PMC11872376/",
+    "Elbow Instability: Anatomy, Biomechanics, Diagnostic Maneuvers, and Testing. 2018. https://pmc.ncbi.nlm.nih.gov/articles/PMC5821063/",
+    "Triceps Tendon Injuries. 2020. https://pubmed.ncbi.nlm.nih.gov/32925376/",
+    "Distal triceps injuries including snapping triceps: a systematic review. 2017. https://pubmed.ncbi.nlm.nih.gov/28660143/",
+    "Common tendinopathies around the elbow: what does current evidence say? 2021. https://pubmed.ncbi.nlm.nih.gov/34150494/",
+    "Surgical treatment of rheumatoid arthritis of the elbow. 2025. https://pubmed.ncbi.nlm.nih.gov/40995039/",
+    "Elbow Arthritis. 2023. https://pubmed.ncbi.nlm.nih.gov/36759236/",
+    "Rheumatoid Arthritis. StatPearls. Updated 2023. https://pubmed.ncbi.nlm.nih.gov/28723028/",
+    "Tardy Ulnar Nerve Palsy. 2019. https://pubmed.ncbi.nlm.nih.gov/30939566/",
+    "Cubitus Varus. StatPearls. Updated 2025. https://pubmed.ncbi.nlm.nih.gov/32809529/",
+    "Management of cubitus varus and valgus. 2005. https://pubmed.ncbi.nlm.nih.gov/15805206/",
+    "Physical examination of the elbow, what is the evidence? A systematic review. 2017. https://pubmed.ncbi.nlm.nih.gov/28249855/",
+    "Minimal important difference and longitudinal validity of Oxford Elbow Score and QuickDASH. 2023. https://doi.org/10.1186/s12874-023-01934-4",
+    "ACR Appropriateness Criteria Acute Elbow and Forearm Pain. 2024. https://pubmed.ncbi.nlm.nih.gov/39488347/"
   ],
   "validation": {
     "status": "passed",
@@ -395,5 +398,5 @@
       "ZIP CRC/extraction/bit comparison/path"
     ]
   },
-  "generated_at_utc": "2026-10-26T00:07:31.765261+00:00"
+  "generated_at_utc": "2026-10-27T00:06:52.763406+00:00"
 }
