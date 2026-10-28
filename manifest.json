@@ -1,11 +1,11 @@
 {
-  "schema_version": 8,
-  "date": "2026-10-27",
-  "region": "肘部第九輪",
+  "schema_version": 9,
+  "date": "2026-10-28",
+  "region": "手腕與手第九輪",
   "github": {
     "repository": "janice880624/AT-Obsidian",
     "branch": "main",
-    "commit": "5e7d54b6fedbb7644f7eb50ea620b07493343068",
+    "commit": "3f4d131dd019fa553cfd50da03d5d03f64c2367c",
     "mode": "read-only"
   },
   "template_policy": {
@@ -83,10 +83,9 @@
       "模板－功能性測試.md",
       "模板－特殊檢查.md",
       "模板－系統性評估.md",
-      "模板－肌肉.md",
-      "模板－肌腱.md",
       "模板－身體檢查.md",
       "模板－運動治療.md",
+      "模板－韌帶.md",
       "模板－骨骼或關節.md"
     ],
     "validated_note_count": 15,
@@ -106,113 +105,113 @@
     "index_or_support_files": 10
   },
   "topic_candidates_skipped": [
-    "肘部第一至第八輪全部既有主題",
-    "肘隧道、PLRI、UCL、遠端肱二頭肌與肱三頭肌斷裂等既有或近義主題",
+    "手腕與手前八輪所有既有主題",
+    "已存在的舟狀骨、TFCC、月骨周圍、CMC、肌腱與神經主題",
     "無專屬模板的筆記類型",
     "任何需要建立新資料夾的候選主題"
   ],
   "notes": [
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－經鷹嘴骨折脫臼.md",
-      "title": "傷害－經鷹嘴骨折脫臼",
+      "path": "03_傷害與疾病/急性傷害/傷害－小多角骨骨折.md",
+      "title": "傷害－小多角骨骨折",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－肘關節內翻後內側旋轉不穩定.md",
-      "title": "傷害－肘關節內翻後內側旋轉不穩定",
+      "path": "03_傷害與疾病/急性傷害/傷害－鉤骨體骨折.md",
+      "title": "傷害－鉤骨體骨折",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－遠端肱三頭肌腱病變.md",
-      "title": "傷害－遠端肱三頭肌腱病變",
+      "path": "03_傷害與疾病/急性傷害/傷害－月三角韌帶損傷.md",
+      "title": "傷害－月三角韌帶損傷",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－類風濕性肘關節炎.md",
-      "title": "傷害－類風濕性肘關節炎",
+      "path": "03_傷害與疾病/過度使用/傷害－掌側腕中關節不穩定.md",
+      "title": "傷害－掌側腕中關節不穩定",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－肘內翻外翻畸形與遲發性尺神經麻痺.md",
-      "title": "傷害－肘內翻外翻畸形與遲發性尺神經麻痺",
+      "path": "03_傷害與疾病/急性傷害/傷害－手部急性筋膜室症候群.md",
+      "title": "傷害－手部急性筋膜室症候群",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－冠狀突前內側面與滑車切跡.md",
-      "title": "骨骼與關節－冠狀突前內側面與滑車切跡",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－小多角骨與第二腕掌關節.md",
+      "title": "骨骼與關節－小多角骨與第二腕掌關節",
       "role": "相關",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "01_基礎解剖/肌肉/肌肉－肱三頭肌與後肘伸展鏈.md",
-      "title": "肌肉－肱三頭肌與後肘伸展鏈",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－鉤骨體與尺側腕掌關節.md",
+      "title": "骨骼與關節－鉤骨體與尺側腕掌關節",
       "role": "相關",
-      "type": "肌肉",
-      "template": "模板－肌肉.md"
+      "type": "骨骼或關節",
+      "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "01_基礎解剖/肌腱/肌腱－遠端肱三頭肌腱止點與後肘負荷.md",
-      "title": "肌腱－遠端肱三頭肌腱止點與後肘負荷",
+      "path": "01_基礎解剖/韌帶/韌帶－月三角韌帶複合體.md",
+      "title": "韌帶－月三角韌帶複合體",
       "role": "相關",
-      "type": "肌腱",
-      "template": "模板－肌腱.md"
+      "type": "韌帶",
+      "template": "模板－韌帶.md"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－肘部發炎性關節病與感染鑑別問診.md",
-      "title": "評估－肘部發炎性關節病與感染鑑別問診",
+      "path": "04_臨床評估/主觀問診/評估－腕背尺側疼痛與卡響問診.md",
+      "title": "評估－腕背尺側疼痛與卡響問診",
       "role": "相關",
       "type": "主觀問診",
       "template": "模板－主觀問診.md"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－肘內翻外翻對位與尺神經身體檢查.md",
-      "title": "評估－肘內翻外翻對位與尺神經身體檢查",
+      "path": "04_臨床評估/身體檢查/評估－腕中與月三角不穩定身體檢查.md",
+      "title": "評估－腕中與月三角不穩定身體檢查",
       "role": "相關",
       "type": "身體檢查",
       "template": "模板－身體檢查.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－急性複雜肘骨折脫臼安全分流.md",
-      "title": "評估－急性複雜肘骨折脫臼安全分流",
+      "path": "04_臨床評估/系統性評估/評估－手部擠壓腫脹與筋膜室症候群分流.md",
+      "title": "評估－手部擠壓腫脹與筋膜室症候群分流",
       "role": "相關",
       "type": "系統性評估",
       "template": "模板－系統性評估.md"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－肘關節內翻應力測試.md",
-      "title": "特殊檢查－肘關節內翻應力測試",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－月三角 Ballottement Test.md",
+      "title": "特殊檢查－月三角 Ballottement Test",
       "role": "相關",
       "type": "特殊檢查",
       "template": "模板－特殊檢查.md"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－肱三頭肌主動伸肘與缺損檢查.md",
-      "title": "特殊檢查－肱三頭肌主動伸肘與缺損檢查",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－Midcarpal Shift Test.md",
+      "title": "特殊檢查－Midcarpal Shift Test",
       "role": "相關",
       "type": "特殊檢查",
       "template": "模板－特殊檢查.md"
     },
     {
-      "path": "06_功能性測試/上肢/功能性測試－Oxford Elbow Score.md",
-      "title": "功能性測試－Oxford Elbow Score",
+      "path": "06_功能性測試/上肢/功能性測試－Moberg Pick-Up Test.md",
+      "title": "功能性測試－Moberg Pick-Up Test",
       "role": "相關",
       "type": "功能性測試",
       "template": "模板－功能性測試.md"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－遠端肱三頭肌腱漸進負荷與推撐回場.md",
-      "title": "運動治療－遠端肱三頭肌腱漸進負荷與推撐回場",
+      "path": "05_處置與復健/運動治療/運動治療－腕中關節本體覺與動態穩定訓練.md",
+      "title": "運動治療－腕中關節本體覺與動態穩定訓練",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
@@ -220,7 +219,7 @@
   ],
   "per_note_validation": [
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－經鷹嘴骨折脫臼.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－小多角骨骨折.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -229,7 +228,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－肘關節內翻後內側旋轉不穩定.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－鉤骨體骨折.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -238,7 +237,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－遠端肱三頭肌腱病變.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－月三角韌帶損傷.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -247,7 +246,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－類風濕性肘關節炎.md",
+      "path": "03_傷害與疾病/過度使用/傷害－掌側腕中關節不穩定.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -256,7 +255,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－肘內翻外翻畸形與遲發性尺神經麻痺.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－手部急性筋膜室症候群.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -265,7 +264,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－冠狀突前內側面與滑車切跡.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－小多角骨與第二腕掌關節.md",
       "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
@@ -274,8 +273,8 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/肌肉/肌肉－肱三頭肌與後肘伸展鏈.md",
-      "template": "模板－肌肉.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－鉤骨體與尺側腕掌關節.md",
+      "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -283,8 +282,8 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/肌腱/肌腱－遠端肱三頭肌腱止點與後肘負荷.md",
-      "template": "模板－肌腱.md",
+      "path": "01_基礎解剖/韌帶/韌帶－月三角韌帶複合體.md",
+      "template": "模板－韌帶.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -292,7 +291,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－肘部發炎性關節病與感染鑑別問診.md",
+      "path": "04_臨床評估/主觀問診/評估－腕背尺側疼痛與卡響問診.md",
       "template": "模板－主觀問診.md",
       "yaml": "passed",
       "h1": "passed",
@@ -301,7 +300,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－肘內翻外翻對位與尺神經身體檢查.md",
+      "path": "04_臨床評估/身體檢查/評估－腕中與月三角不穩定身體檢查.md",
       "template": "模板－身體檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -310,7 +309,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－急性複雜肘骨折脫臼安全分流.md",
+      "path": "04_臨床評估/系統性評估/評估－手部擠壓腫脹與筋膜室症候群分流.md",
       "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
@@ -319,7 +318,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－肘關節內翻應力測試.md",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－月三角 Ballottement Test.md",
       "template": "模板－特殊檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -328,7 +327,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－肱三頭肌主動伸肘與缺損檢查.md",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－Midcarpal Shift Test.md",
       "template": "模板－特殊檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -337,7 +336,7 @@
       "links": "passed"
     },
     {
-      "path": "06_功能性測試/上肢/功能性測試－Oxford Elbow Score.md",
+      "path": "06_功能性測試/上肢/功能性測試－Moberg Pick-Up Test.md",
       "template": "模板－功能性測試.md",
       "yaml": "passed",
       "h1": "passed",
@@ -346,7 +345,7 @@
       "links": "passed"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－遠端肱三頭肌腱漸進負荷與推撐回場.md",
+      "path": "05_處置與復健/運動治療/運動治療－腕中關節本體覺與動態穩定訓練.md",
       "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
@@ -356,29 +355,32 @@
     }
   ],
   "assets": [
-    "assets/anatomy/肘部第九輪冠狀突與滑車切跡穩定圖.svg",
-    "assets/assessment/肘部第九輪複雜骨折脫臼安全分流圖.svg",
-    "assets/special-tests/肘部第九輪內翻與伸肘檢查限制圖.svg"
+    "assets/anatomy/手腕與手第九輪腕骨與韌帶關聯圖.svg",
+    "assets/assessment/手腕與手第九輪急性腫脹安全分流圖.svg",
+    "assets/special-tests/手腕與手第九輪腕骨不穩定測試限制圖.svg"
   ],
   "sources_checked": [
-    "Trans-Olecranon Fracture-Dislocations of the Elbow: A Systematic Review. 2021. https://pubmed.ncbi.nlm.nih.gov/33291269/",
-    "Trans-ulnar fracture dislocations of the elbow: a systematic review and clarification of classification systems. 2024. https://pubmed.ncbi.nlm.nih.gov/38036255/",
-    "Transolecranon fracture dislocation and transolecranon basal coronoid fracture dislocation: results of standardized treatment. 2025. https://pubmed.ncbi.nlm.nih.gov/40486785/",
-    "Research status of diagnosis and treatment of varus-posteromedial rotatory instability of the elbow joint. 2025. https://pmc.ncbi.nlm.nih.gov/articles/PMC12804368/",
-    "Surgical Treatment of Coronoid Fracture With Elbow Varus Posteromedial Rotatory Instability: An Instructional Review. 2025. https://pmc.ncbi.nlm.nih.gov/articles/PMC11872376/",
-    "Elbow Instability: Anatomy, Biomechanics, Diagnostic Maneuvers, and Testing. 2018. https://pmc.ncbi.nlm.nih.gov/articles/PMC5821063/",
-    "Triceps Tendon Injuries. 2020. https://pubmed.ncbi.nlm.nih.gov/32925376/",
-    "Distal triceps injuries including snapping triceps: a systematic review. 2017. https://pubmed.ncbi.nlm.nih.gov/28660143/",
-    "Common tendinopathies around the elbow: what does current evidence say? 2021. https://pubmed.ncbi.nlm.nih.gov/34150494/",
-    "Surgical treatment of rheumatoid arthritis of the elbow. 2025. https://pubmed.ncbi.nlm.nih.gov/40995039/",
-    "Elbow Arthritis. 2023. https://pubmed.ncbi.nlm.nih.gov/36759236/",
-    "Rheumatoid Arthritis. StatPearls. Updated 2023. https://pubmed.ncbi.nlm.nih.gov/28723028/",
-    "Tardy Ulnar Nerve Palsy. 2019. https://pubmed.ncbi.nlm.nih.gov/30939566/",
-    "Cubitus Varus. StatPearls. Updated 2025. https://pubmed.ncbi.nlm.nih.gov/32809529/",
-    "Management of cubitus varus and valgus. 2005. https://pubmed.ncbi.nlm.nih.gov/15805206/",
-    "Physical examination of the elbow, what is the evidence? A systematic review. 2017. https://pubmed.ncbi.nlm.nih.gov/28249855/",
-    "Minimal important difference and longitudinal validity of Oxford Elbow Score and QuickDASH. 2023. https://doi.org/10.1186/s12874-023-01934-4",
-    "ACR Appropriateness Criteria Acute Elbow and Forearm Pain. 2024. https://pubmed.ncbi.nlm.nih.gov/39488347/"
+    "ACR Appropriateness Criteria: Acute Hand and Wrist Trauma. https://acsearch.acr.org/docs/69418/narrative/",
+    "ACR Appropriateness Criteria: Chronic Hand and Wrist Pain (Revised 2023). https://acsearch.acr.org/docs/69427/Narrative/",
+    "Safran T, et al. Trapezoidal fractures: overview and a diagnostic classification. 2020. https://pubmed.ncbi.nlm.nih.gov/32917569/",
+    "Kain N, Heras-Palou C. Trapezoid fractures: report of 11 cases. 2012. https://pubmed.ncbi.nlm.nih.gov/22522106/",
+    "Isolated Trapezoid Fracture in Adolescent Goalkeepers: scoping review and two cases. 2024. https://pubmed.ncbi.nlm.nih.gov/38313604/",
+    "Welling RD, et al. MDCT and radiography of wrist fractures. 2008. https://pubmed.ncbi.nlm.nih.gov/18094287/",
+    "Price MB, et al. Hamate Body Fractures: a Comprehensive Review. 2021. https://pubmed.ncbi.nlm.nih.gov/34932201/",
+    "Lee SH, et al. Coronal hamate body fractures with dorsal fourth and fifth CMC instability. 2026. https://pubmed.ncbi.nlm.nih.gov/42258007/",
+    "Ruchelsman DE, et al. Diagnosis and Treatment of Acute Lunotriquetral Ligament Injuries. 2015. https://pubmed.ncbi.nlm.nih.gov/26205708/",
+    "Wilson MS. Diagnosis and Management of Lunotriquetral Ligament Injuries. 2023. https://pubmed.ncbi.nlm.nih.gov/36689137/",
+    "LaStayo P, Howell J. Clinical provocative tests used in evaluating wrist pain. 1995. https://pubmed.ncbi.nlm.nih.gov/7742888/",
+    "Ulnar-Sided Wrist Pain: A Diagnostic Evaluation Guide From 30-Plus Years of Experience. 2024. https://pubmed.ncbi.nlm.nih.gov/38435942/",
+    "Lichtman DM, et al. Ulnar midcarpal instability: clinical and laboratory analysis. 1981. https://pubmed.ncbi.nlm.nih.gov/7276484/",
+    "Feinstein WK, et al. Quantitative assessment of the midcarpal shift test. 1999. https://pubmed.ncbi.nlm.nih.gov/10509276/",
+    "Midcarpal Instability. 2023. https://pubmed.ncbi.nlm.nih.gov/37105177/",
+    "Haverkamp S, et al. Outcomes of an exercise program in patients with dorsal or volar midcarpal laxity. 2023. https://pubmed.ncbi.nlm.nih.gov/37154580/",
+    "Etiology of Trauma-Related Acute Compartment Syndrome of the Hand: A Systematic Review. 2023. https://pubmed.ncbi.nlm.nih.gov/37252461/",
+    "Acute Compartment Syndrome of the Upper Extremity. 2025. https://pubmed.ncbi.nlm.nih.gov/40853300/",
+    "Accuracy of measurement of hand compartment pressures: a cadaveric study. 2015. https://pubmed.ncbi.nlm.nih.gov/25648783/",
+    "Ng CL, Ho DD. The Moberg pickup test: results of testing with a standard protocol. 1999. https://pubmed.ncbi.nlm.nih.gov/10622197/",
+    "Discriminative validity and test-retest reliability of the Dellon-modified Moberg pick-up test. 2011. https://pubmed.ncbi.nlm.nih.gov/21504503/"
   ],
   "validation": {
     "status": "passed",
@@ -398,5 +400,5 @@
       "ZIP CRC/extraction/bit comparison/path"
     ]
   },
-  "generated_at_utc": "2026-10-27T00:06:52.763406+00:00"
+  "generated_at_utc": "2026-10-28T00:06:22.679529+00:00"
 }
