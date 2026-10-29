@@ -1,11 +1,11 @@
 {
   "schema_version": 9,
-  "date": "2026-10-28",
-  "region": "手腕與手第九輪",
+  "date": "2026-10-29",
+  "region": "胸腰椎第九輪",
   "github": {
     "repository": "janice880624/AT-Obsidian",
     "branch": "main",
-    "commit": "3f4d131dd019fa553cfd50da03d5d03f64c2367c",
+    "commit": "256f4a99de36fe5e24fcbf9fd21b165d6fe69f70",
     "mode": "read-only"
   },
   "template_policy": {
@@ -81,11 +81,10 @@
       "模板－主觀問診.md",
       "模板－傷害.md",
       "模板－功能性測試.md",
-      "模板－特殊檢查.md",
+      "模板－神經.md",
       "模板－系統性評估.md",
       "模板－身體檢查.md",
       "模板－運動治療.md",
-      "模板－韌帶.md",
       "模板－骨骼或關節.md"
     ],
     "validated_note_count": 15,
@@ -102,116 +101,116 @@
     "related_notes": 10,
     "knowledge_notes": 15,
     "svg": 3,
-    "index_or_support_files": 10
+    "index_or_support_files": 8
   },
   "topic_candidates_skipped": [
-    "手腕與手前八輪所有既有主題",
-    "已存在的舟狀骨、TFCC、月骨周圍、CMC、肌腱與神經主題",
-    "無專屬模板的筆記類型",
+    "胸腰椎第一至第八輪全部既有主題",
+    "脊椎硬膜外血腫、蛛網膜網、脊髓梗塞與硬膜動靜脈瘻等已存在主題",
+    "缺少專屬模板的筆記類型",
     "任何需要建立新資料夾的候選主題"
   ],
   "notes": [
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－小多角骨骨折.md",
-      "title": "傷害－小多角骨骨折",
+      "path": "03_傷害與疾病/神經卡壓/傷害－特發性腹側脊髓疝.md",
+      "title": "傷害－特發性腹側脊髓疝",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－鉤骨體骨折.md",
-      "title": "傷害－鉤骨體骨折",
+      "path": "03_傷害與疾病/神經卡壓/傷害－脊髓蛛網膜囊腫.md",
+      "title": "傷害－脊髓蛛網膜囊腫",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－月三角韌帶損傷.md",
-      "title": "傷害－月三角韌帶損傷",
+      "path": "03_傷害與疾病/神經卡壓/傷害－脊髓海綿狀血管畸形.md",
+      "title": "傷害－脊髓海綿狀血管畸形",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－掌側腕中關節不穩定.md",
-      "title": "傷害－掌側腕中關節不穩定",
+      "path": "03_傷害與疾病/神經卡壓/傷害－Tarlov 神經周圍囊腫.md",
+      "title": "傷害－Tarlov 神經周圍囊腫",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－手部急性筋膜室症候群.md",
-      "title": "傷害－手部急性筋膜室症候群",
+      "path": "03_傷害與疾病/神經卡壓/傷害－成人牽繫脊髓症候群.md",
+      "title": "傷害－成人牽繫脊髓症候群",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－小多角骨與第二腕掌關節.md",
-      "title": "骨骼與關節－小多角骨與第二腕掌關節",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－胸椎腹側硬膜與脊髓介面.md",
+      "title": "骨骼與關節－胸椎腹側硬膜與脊髓介面",
       "role": "相關",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－鉤骨體與尺側腕掌關節.md",
-      "title": "骨骼與關節－鉤骨體與尺側腕掌關節",
+      "path": "01_基礎解剖/神經/神經－終絲圓錐與脊髓牽繫.md",
+      "title": "神經－終絲圓錐與脊髓牽繫",
       "role": "相關",
-      "type": "骨骼或關節",
-      "template": "模板－骨骼或關節.md"
+      "type": "神經",
+      "template": "模板－神經.md"
     },
     {
-      "path": "01_基礎解剖/韌帶/韌帶－月三角韌帶複合體.md",
-      "title": "韌帶－月三角韌帶複合體",
+      "path": "01_基礎解剖/神經/神經－薦神經根袖與神經周圍囊腫.md",
+      "title": "神經－薦神經根袖與神經周圍囊腫",
       "role": "相關",
-      "type": "韌帶",
-      "template": "模板－韌帶.md"
+      "type": "神經",
+      "template": "模板－神經.md"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－腕背尺側疼痛與卡響問診.md",
-      "title": "評估－腕背尺側疼痛與卡響問診",
+      "path": "04_臨床評估/主觀問診/評估－漸進性胸髓與薦神經症狀問診.md",
+      "title": "評估－漸進性胸髓與薦神經症狀問診",
       "role": "相關",
       "type": "主觀問診",
       "template": "模板－主觀問診.md"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－腕中與月三角不穩定身體檢查.md",
-      "title": "評估－腕中與月三角不穩定身體檢查",
+      "path": "04_臨床評估/身體檢查/評估－不完全脊髓症候群神經學檢查.md",
+      "title": "評估－不完全脊髓症候群神經學檢查",
       "role": "相關",
       "type": "身體檢查",
       "template": "模板－身體檢查.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－手部擠壓腫脹與筋膜室症候群分流.md",
-      "title": "評估－手部擠壓腫脹與筋膜室症候群分流",
+      "path": "04_臨床評估/系統性評估/評估－胸髓硬膜與髓內病灶安全分流.md",
+      "title": "評估－胸髓硬膜與髓內病灶安全分流",
       "role": "相關",
       "type": "系統性評估",
       "template": "模板－系統性評估.md"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－月三角 Ballottement Test.md",
-      "title": "特殊檢查－月三角 Ballottement Test",
+      "path": "04_臨床評估/系統性評估/評估－成人牽繫脊髓與薦神經病灶安全分流.md",
+      "title": "評估－成人牽繫脊髓與薦神經病灶安全分流",
       "role": "相關",
-      "type": "特殊檢查",
-      "template": "模板－特殊檢查.md"
+      "type": "系統性評估",
+      "template": "模板－系統性評估.md"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Midcarpal Shift Test.md",
-      "title": "特殊檢查－Midcarpal Shift Test",
-      "role": "相關",
-      "type": "特殊檢查",
-      "template": "模板－特殊檢查.md"
-    },
-    {
-      "path": "06_功能性測試/上肢/功能性測試－Moberg Pick-Up Test.md",
-      "title": "功能性測試－Moberg Pick-Up Test",
+      "path": "06_功能性測試/軀幹/功能性測試－2 分鐘步行測試.md",
+      "title": "功能性測試－2 分鐘步行測試",
       "role": "相關",
       "type": "功能性測試",
       "template": "模板－功能性測試.md"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－腕中關節本體覺與動態穩定訓練.md",
-      "title": "運動治療－腕中關節本體覺與動態穩定訓練",
+      "path": "05_處置與復健/運動治療/運動治療－胸髓病灶處置後步行平衡進展.md",
+      "title": "運動治療－胸髓病灶處置後步行平衡進展",
+      "role": "相關",
+      "type": "運動治療",
+      "template": "模板－運動治療.md"
+    },
+    {
+      "path": "05_處置與復健/運動治療/運動治療－成人牽繫脊髓與薦神經症狀分級活動.md",
+      "title": "運動治療－成人牽繫脊髓與薦神經症狀分級活動",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
@@ -219,7 +218,7 @@
   ],
   "per_note_validation": [
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－小多角骨骨折.md",
+      "path": "03_傷害與疾病/神經卡壓/傷害－特發性腹側脊髓疝.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -228,7 +227,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－鉤骨體骨折.md",
+      "path": "03_傷害與疾病/神經卡壓/傷害－脊髓蛛網膜囊腫.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -237,7 +236,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－月三角韌帶損傷.md",
+      "path": "03_傷害與疾病/神經卡壓/傷害－脊髓海綿狀血管畸形.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -246,7 +245,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－掌側腕中關節不穩定.md",
+      "path": "03_傷害與疾病/神經卡壓/傷害－Tarlov 神經周圍囊腫.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -255,7 +254,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－手部急性筋膜室症候群.md",
+      "path": "03_傷害與疾病/神經卡壓/傷害－成人牽繫脊髓症候群.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -264,7 +263,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－小多角骨與第二腕掌關節.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－胸椎腹側硬膜與脊髓介面.md",
       "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
@@ -273,8 +272,8 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－鉤骨體與尺側腕掌關節.md",
-      "template": "模板－骨骼或關節.md",
+      "path": "01_基礎解剖/神經/神經－終絲圓錐與脊髓牽繫.md",
+      "template": "模板－神經.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -282,8 +281,8 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/韌帶/韌帶－月三角韌帶複合體.md",
-      "template": "模板－韌帶.md",
+      "path": "01_基礎解剖/神經/神經－薦神經根袖與神經周圍囊腫.md",
+      "template": "模板－神經.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -291,7 +290,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－腕背尺側疼痛與卡響問診.md",
+      "path": "04_臨床評估/主觀問診/評估－漸進性胸髓與薦神經症狀問診.md",
       "template": "模板－主觀問診.md",
       "yaml": "passed",
       "h1": "passed",
@@ -300,7 +299,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－腕中與月三角不穩定身體檢查.md",
+      "path": "04_臨床評估/身體檢查/評估－不完全脊髓症候群神經學檢查.md",
       "template": "模板－身體檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -309,7 +308,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－手部擠壓腫脹與筋膜室症候群分流.md",
+      "path": "04_臨床評估/系統性評估/評估－胸髓硬膜與髓內病灶安全分流.md",
       "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
@@ -318,8 +317,8 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－月三角 Ballottement Test.md",
-      "template": "模板－特殊檢查.md",
+      "path": "04_臨床評估/系統性評估/評估－成人牽繫脊髓與薦神經病灶安全分流.md",
+      "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -327,16 +326,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Midcarpal Shift Test.md",
-      "template": "模板－特殊檢查.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "06_功能性測試/上肢/功能性測試－Moberg Pick-Up Test.md",
+      "path": "06_功能性測試/軀幹/功能性測試－2 分鐘步行測試.md",
       "template": "模板－功能性測試.md",
       "yaml": "passed",
       "h1": "passed",
@@ -345,7 +335,16 @@
       "links": "passed"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－腕中關節本體覺與動態穩定訓練.md",
+      "path": "05_處置與復健/運動治療/運動治療－胸髓病灶處置後步行平衡進展.md",
+      "template": "模板－運動治療.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "05_處置與復健/運動治療/運動治療－成人牽繫脊髓與薦神經症狀分級活動.md",
       "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
@@ -355,32 +354,23 @@
     }
   ],
   "assets": [
-    "assets/anatomy/手腕與手第九輪腕骨與韌帶關聯圖.svg",
-    "assets/assessment/手腕與手第九輪急性腫脹安全分流圖.svg",
-    "assets/special-tests/手腕與手第九輪腕骨不穩定測試限制圖.svg"
+    "assets/anatomy/胸腰椎第九輪硬膜脊髓與薦神經結構圖.svg",
+    "assets/assessment/胸腰椎第九輪脊髓與薦神經安全分流圖.svg",
+    "assets/assessment/胸腰椎第九輪神經穩定後活動階梯.svg"
   ],
   "sources_checked": [
-    "ACR Appropriateness Criteria: Acute Hand and Wrist Trauma. https://acsearch.acr.org/docs/69418/narrative/",
-    "ACR Appropriateness Criteria: Chronic Hand and Wrist Pain (Revised 2023). https://acsearch.acr.org/docs/69427/Narrative/",
-    "Safran T, et al. Trapezoidal fractures: overview and a diagnostic classification. 2020. https://pubmed.ncbi.nlm.nih.gov/32917569/",
-    "Kain N, Heras-Palou C. Trapezoid fractures: report of 11 cases. 2012. https://pubmed.ncbi.nlm.nih.gov/22522106/",
-    "Isolated Trapezoid Fracture in Adolescent Goalkeepers: scoping review and two cases. 2024. https://pubmed.ncbi.nlm.nih.gov/38313604/",
-    "Welling RD, et al. MDCT and radiography of wrist fractures. 2008. https://pubmed.ncbi.nlm.nih.gov/18094287/",
-    "Price MB, et al. Hamate Body Fractures: a Comprehensive Review. 2021. https://pubmed.ncbi.nlm.nih.gov/34932201/",
-    "Lee SH, et al. Coronal hamate body fractures with dorsal fourth and fifth CMC instability. 2026. https://pubmed.ncbi.nlm.nih.gov/42258007/",
-    "Ruchelsman DE, et al. Diagnosis and Treatment of Acute Lunotriquetral Ligament Injuries. 2015. https://pubmed.ncbi.nlm.nih.gov/26205708/",
-    "Wilson MS. Diagnosis and Management of Lunotriquetral Ligament Injuries. 2023. https://pubmed.ncbi.nlm.nih.gov/36689137/",
-    "LaStayo P, Howell J. Clinical provocative tests used in evaluating wrist pain. 1995. https://pubmed.ncbi.nlm.nih.gov/7742888/",
-    "Ulnar-Sided Wrist Pain: A Diagnostic Evaluation Guide From 30-Plus Years of Experience. 2024. https://pubmed.ncbi.nlm.nih.gov/38435942/",
-    "Lichtman DM, et al. Ulnar midcarpal instability: clinical and laboratory analysis. 1981. https://pubmed.ncbi.nlm.nih.gov/7276484/",
-    "Feinstein WK, et al. Quantitative assessment of the midcarpal shift test. 1999. https://pubmed.ncbi.nlm.nih.gov/10509276/",
-    "Midcarpal Instability. 2023. https://pubmed.ncbi.nlm.nih.gov/37105177/",
-    "Haverkamp S, et al. Outcomes of an exercise program in patients with dorsal or volar midcarpal laxity. 2023. https://pubmed.ncbi.nlm.nih.gov/37154580/",
-    "Etiology of Trauma-Related Acute Compartment Syndrome of the Hand: A Systematic Review. 2023. https://pubmed.ncbi.nlm.nih.gov/37252461/",
-    "Acute Compartment Syndrome of the Upper Extremity. 2025. https://pubmed.ncbi.nlm.nih.gov/40853300/",
-    "Accuracy of measurement of hand compartment pressures: a cadaveric study. 2015. https://pubmed.ncbi.nlm.nih.gov/25648783/",
-    "Ng CL, Ho DD. The Moberg pickup test: results of testing with a standard protocol. 1999. https://pubmed.ncbi.nlm.nih.gov/10622197/",
-    "Discriminative validity and test-retest reliability of the Dellon-modified Moberg pick-up test. 2011. https://pubmed.ncbi.nlm.nih.gov/21504503/"
+    "Unveiling the Current Understanding of Idiopathic Spinal Cord Herniation: A Systematic Review. 2024. https://pubmed.ncbi.nlm.nih.gov/38868787/",
+    "Idiopathic Ventral Spinal Cord Herniation: systematic review. 2020. https://pubmed.ncbi.nlm.nih.gov/32376383/",
+    "Systematic Review of Surgical Management of Spinal Intradural Arachnoid Cysts. 2022. https://pubmed.ncbi.nlm.nih.gov/34728397/",
+    "Symptomatic secondary spinal arachnoid cysts: a systematic review. 2023. https://pubmed.ncbi.nlm.nih.gov/36924909/",
+    "Surgical versus conservative management of spinal cord cavernous malformations: systematic review and meta-analysis. 2025. https://pubmed.ncbi.nlm.nih.gov/39889295/",
+    "Treatment of patients with spinal cavernous malformations: a systematic review. 2026. https://pubmed.ncbi.nlm.nih.gov/41952954/",
+    "Sacral Tarlov perineurial cysts: a systematic review of treatment options. 2024. https://pubmed.ncbi.nlm.nih.gov/38100766/",
+    "Tethered cord syndrome from pediatric and adult perspectives: a systematic review of 6135 cases. 2024. https://pubmed.ncbi.nlm.nih.gov/38823051/",
+    "Surgical Treatment of Tethered Cord Syndrome in Adults: systematic review and meta-analysis. 2020. https://pubmed.ncbi.nlm.nih.gov/32001403/",
+    "ACR Appropriateness Criteria Myelopathy: 2026 Update. https://pubmed.ncbi.nlm.nih.gov/42340276/",
+    "Diagnosis and Management of Thoracic Myelopathy. 2024. https://pubmed.ncbi.nlm.nih.gov/38739870/",
+    "Validity and reliability of the 2-minute walk test in individuals with spinal cord injury. 2022. https://pubmed.ncbi.nlm.nih.gov/35999254/"
   ],
   "validation": {
     "status": "passed",
@@ -400,5 +390,5 @@
       "ZIP CRC/extraction/bit comparison/path"
     ]
   },
-  "generated_at_utc": "2026-10-28T00:06:22.679529+00:00"
+  "generated_at_utc": "2026-10-29T00:07:14.566724+00:00"
 }
