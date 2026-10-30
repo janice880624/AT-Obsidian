@@ -1,11 +1,11 @@
 {
   "schema_version": 9,
-  "date": "2026-10-29",
-  "region": "胸腰椎第九輪",
+  "date": "2026-10-30",
+  "region": "骨盆與髖第九輪",
   "github": {
     "repository": "janice880624/AT-Obsidian",
     "branch": "main",
-    "commit": "256f4a99de36fe5e24fcbf9fd21b165d6fe69f70",
+    "commit": "0d2ea1d009187a4be22f2d47c9db8247610e46ac",
     "mode": "read-only"
   },
   "template_policy": {
@@ -84,8 +84,7 @@
       "模板－神經.md",
       "模板－系統性評估.md",
       "模板－身體檢查.md",
-      "模板－運動治療.md",
-      "模板－骨骼或關節.md"
+      "模板－運動治療.md"
     ],
     "validated_note_count": 15,
     "unsupported_new_note_types": [],
@@ -104,113 +103,113 @@
     "index_or_support_files": 8
   },
   "topic_candidates_skipped": [
-    "胸腰椎第一至第八輪全部既有主題",
-    "脊椎硬膜外血腫、蛛網膜網、脊髓梗塞與硬膜動靜脈瘻等已存在主題",
+    "骨盆與髖第一至第八輪全部既有主題",
+    "已存在的神經、血管、髖關節與骨腫瘤相關主題",
     "缺少專屬模板的筆記類型",
     "任何需要建立新資料夾的候選主題"
   ],
   "notes": [
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－特發性腹側脊髓疝.md",
-      "title": "傷害－特發性腹側脊髓疝",
+      "path": "03_傷害與疾病/神經卡壓/傷害－陰部神經痛與陰部神經卡壓.md",
+      "title": "傷害－陰部神經痛與陰部神經卡壓",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－脊髓蛛網膜囊腫.md",
-      "title": "傷害－脊髓蛛網膜囊腫",
+      "path": "03_傷害與疾病/急性傷害/傷害－髂肌血腫與股神經麻痺.md",
+      "title": "傷害－髂肌血腫與股神經麻痺",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－脊髓海綿狀血管畸形.md",
-      "title": "傷害－脊髓海綿狀血管畸形",
+      "path": "03_傷害與疾病/急性傷害/傷害－臀肌筋膜室症候群.md",
+      "title": "傷害－臀肌筋膜室症候群",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－Tarlov 神經周圍囊腫.md",
-      "title": "傷害－Tarlov 神經周圍囊腫",
+      "path": "03_傷害與疾病/神經卡壓/傷害－髖關節盂唇旁囊腫與神經血管壓迫.md",
+      "title": "傷害－髖關節盂唇旁囊腫與神經血管壓迫",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－成人牽繫脊髓症候群.md",
-      "title": "傷害－成人牽繫脊髓症候群",
+      "path": "03_傷害與疾病/過度使用/傷害－髖部類骨骨瘤.md",
+      "title": "傷害－髖部類骨骨瘤",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－胸椎腹側硬膜與脊髓介面.md",
-      "title": "骨骼與關節－胸椎腹側硬膜與脊髓介面",
-      "role": "相關",
-      "type": "骨骼或關節",
-      "template": "模板－骨骼或關節.md"
-    },
-    {
-      "path": "01_基礎解剖/神經/神經－終絲圓錐與脊髓牽繫.md",
-      "title": "神經－終絲圓錐與脊髓牽繫",
+      "path": "01_基礎解剖/神經/神經－陰部神經與 Alcock 管.md",
+      "title": "神經－陰部神經與 Alcock 管",
       "role": "相關",
       "type": "神經",
       "template": "模板－神經.md"
     },
     {
-      "path": "01_基礎解剖/神經/神經－薦神經根袖與神經周圍囊腫.md",
-      "title": "神經－薦神經根袖與神經周圍囊腫",
+      "path": "01_基礎解剖/神經/神經－股神經與髂肌筋膜室.md",
+      "title": "神經－股神經與髂肌筋膜室",
       "role": "相關",
       "type": "神經",
       "template": "模板－神經.md"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－漸進性胸髓與薦神經症狀問診.md",
-      "title": "評估－漸進性胸髓與薦神經症狀問診",
+      "path": "01_基礎解剖/神經/神經－臀區筋膜室與坐骨神經關係.md",
+      "title": "神經－臀區筋膜室與坐骨神經關係",
+      "role": "相關",
+      "type": "神經",
+      "template": "模板－神經.md"
+    },
+    {
+      "path": "04_臨床評估/主觀問診/評估－會陰痛腹股溝痛與夜間髖痛問診.md",
+      "title": "評估－會陰痛腹股溝痛與夜間髖痛問診",
       "role": "相關",
       "type": "主觀問診",
       "template": "模板－主觀問診.md"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－不完全脊髓症候群神經學檢查.md",
-      "title": "評估－不完全脊髓症候群神經學檢查",
+      "path": "04_臨床評估/身體檢查/評估－骨盆與髖周神經學身體檢查.md",
+      "title": "評估－骨盆與髖周神經學身體檢查",
       "role": "相關",
       "type": "身體檢查",
       "template": "模板－身體檢查.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－胸髓硬膜與髓內病灶安全分流.md",
-      "title": "評估－胸髓硬膜與髓內病灶安全分流",
+      "path": "04_臨床評估/系統性評估/評估－急性臀部腫脹無力與橫紋肌溶解安全分流.md",
+      "title": "評估－急性臀部腫脹無力與橫紋肌溶解安全分流",
       "role": "相關",
       "type": "系統性評估",
       "template": "模板－系統性評估.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－成人牽繫脊髓與薦神經病灶安全分流.md",
-      "title": "評估－成人牽繫脊髓與薦神經病灶安全分流",
+      "path": "04_臨床評估/系統性評估/評估－持續性髖痛與腫瘤樣病灶安全分流.md",
+      "title": "評估－持續性髖痛與腫瘤樣病灶安全分流",
       "role": "相關",
       "type": "系統性評估",
       "template": "模板－系統性評估.md"
     },
     {
-      "path": "06_功能性測試/軀幹/功能性測試－2 分鐘步行測試.md",
-      "title": "功能性測試－2 分鐘步行測試",
+      "path": "06_功能性測試/下肢/功能性測試－5 次坐站測試.md",
+      "title": "功能性測試－5 次坐站測試",
       "role": "相關",
       "type": "功能性測試",
       "template": "模板－功能性測試.md"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－胸髓病灶處置後步行平衡進展.md",
-      "title": "運動治療－胸髓病灶處置後步行平衡進展",
+      "path": "05_處置與復健/運動治療/運動治療－骨盆神經症狀坐姿與活動分級.md",
+      "title": "運動治療－骨盆神經症狀坐姿與活動分級",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－成人牽繫脊髓與薦神經症狀分級活動.md",
-      "title": "運動治療－成人牽繫脊髓與薦神經症狀分級活動",
+      "path": "05_處置與復健/運動治療/運動治療－髖周神經與筋膜室病灶處置後功能恢復.md",
+      "title": "運動治療－髖周神經與筋膜室病灶處置後功能恢復",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
@@ -218,7 +217,7 @@
   ],
   "per_note_validation": [
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－特發性腹側脊髓疝.md",
+      "path": "03_傷害與疾病/神經卡壓/傷害－陰部神經痛與陰部神經卡壓.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -227,7 +226,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－脊髓蛛網膜囊腫.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－髂肌血腫與股神經麻痺.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -236,7 +235,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－脊髓海綿狀血管畸形.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－臀肌筋膜室症候群.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -245,7 +244,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－Tarlov 神經周圍囊腫.md",
+      "path": "03_傷害與疾病/神經卡壓/傷害－髖關節盂唇旁囊腫與神經血管壓迫.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -254,7 +253,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－成人牽繫脊髓症候群.md",
+      "path": "03_傷害與疾病/過度使用/傷害－髖部類骨骨瘤.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -263,16 +262,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－胸椎腹側硬膜與脊髓介面.md",
-      "template": "模板－骨骼或關節.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "01_基礎解剖/神經/神經－終絲圓錐與脊髓牽繫.md",
+      "path": "01_基礎解剖/神經/神經－陰部神經與 Alcock 管.md",
       "template": "模板－神經.md",
       "yaml": "passed",
       "h1": "passed",
@@ -281,7 +271,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/神經/神經－薦神經根袖與神經周圍囊腫.md",
+      "path": "01_基礎解剖/神經/神經－股神經與髂肌筋膜室.md",
       "template": "模板－神經.md",
       "yaml": "passed",
       "h1": "passed",
@@ -290,7 +280,16 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－漸進性胸髓與薦神經症狀問診.md",
+      "path": "01_基礎解剖/神經/神經－臀區筋膜室與坐骨神經關係.md",
+      "template": "模板－神經.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "04_臨床評估/主觀問診/評估－會陰痛腹股溝痛與夜間髖痛問診.md",
       "template": "模板－主觀問診.md",
       "yaml": "passed",
       "h1": "passed",
@@ -299,7 +298,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－不完全脊髓症候群神經學檢查.md",
+      "path": "04_臨床評估/身體檢查/評估－骨盆與髖周神經學身體檢查.md",
       "template": "模板－身體檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -308,7 +307,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－胸髓硬膜與髓內病灶安全分流.md",
+      "path": "04_臨床評估/系統性評估/評估－急性臀部腫脹無力與橫紋肌溶解安全分流.md",
       "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
@@ -317,7 +316,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－成人牽繫脊髓與薦神經病灶安全分流.md",
+      "path": "04_臨床評估/系統性評估/評估－持續性髖痛與腫瘤樣病灶安全分流.md",
       "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
@@ -326,7 +325,7 @@
       "links": "passed"
     },
     {
-      "path": "06_功能性測試/軀幹/功能性測試－2 分鐘步行測試.md",
+      "path": "06_功能性測試/下肢/功能性測試－5 次坐站測試.md",
       "template": "模板－功能性測試.md",
       "yaml": "passed",
       "h1": "passed",
@@ -335,7 +334,7 @@
       "links": "passed"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－胸髓病灶處置後步行平衡進展.md",
+      "path": "05_處置與復健/運動治療/運動治療－骨盆神經症狀坐姿與活動分級.md",
       "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
@@ -344,7 +343,7 @@
       "links": "passed"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－成人牽繫脊髓與薦神經症狀分級活動.md",
+      "path": "05_處置與復健/運動治療/運動治療－髖周神經與筋膜室病灶處置後功能恢復.md",
       "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
@@ -354,23 +353,26 @@
     }
   ],
   "assets": [
-    "assets/anatomy/胸腰椎第九輪硬膜脊髓與薦神經結構圖.svg",
-    "assets/assessment/胸腰椎第九輪脊髓與薦神經安全分流圖.svg",
-    "assets/assessment/胸腰椎第九輪神經穩定後活動階梯.svg"
+    "assets/anatomy/骨盆髖第九輪神經筋膜室與囊腫關係圖.svg",
+    "assets/assessment/骨盆髖第九輪神經急症與夜間痛分流圖.svg",
+    "assets/assessment/骨盆髖第九輪坐站與活動恢復階梯.svg"
   ],
   "sources_checked": [
-    "Unveiling the Current Understanding of Idiopathic Spinal Cord Herniation: A Systematic Review. 2024. https://pubmed.ncbi.nlm.nih.gov/38868787/",
-    "Idiopathic Ventral Spinal Cord Herniation: systematic review. 2020. https://pubmed.ncbi.nlm.nih.gov/32376383/",
-    "Systematic Review of Surgical Management of Spinal Intradural Arachnoid Cysts. 2022. https://pubmed.ncbi.nlm.nih.gov/34728397/",
-    "Symptomatic secondary spinal arachnoid cysts: a systematic review. 2023. https://pubmed.ncbi.nlm.nih.gov/36924909/",
-    "Surgical versus conservative management of spinal cord cavernous malformations: systematic review and meta-analysis. 2025. https://pubmed.ncbi.nlm.nih.gov/39889295/",
-    "Treatment of patients with spinal cavernous malformations: a systematic review. 2026. https://pubmed.ncbi.nlm.nih.gov/41952954/",
-    "Sacral Tarlov perineurial cysts: a systematic review of treatment options. 2024. https://pubmed.ncbi.nlm.nih.gov/38100766/",
-    "Tethered cord syndrome from pediatric and adult perspectives: a systematic review of 6135 cases. 2024. https://pubmed.ncbi.nlm.nih.gov/38823051/",
-    "Surgical Treatment of Tethered Cord Syndrome in Adults: systematic review and meta-analysis. 2020. https://pubmed.ncbi.nlm.nih.gov/32001403/",
-    "ACR Appropriateness Criteria Myelopathy: 2026 Update. https://pubmed.ncbi.nlm.nih.gov/42340276/",
-    "Diagnosis and Management of Thoracic Myelopathy. 2024. https://pubmed.ncbi.nlm.nih.gov/38739870/",
-    "Validity and reliability of the 2-minute walk test in individuals with spinal cord injury. 2022. https://pubmed.ncbi.nlm.nih.gov/35999254/"
+    "Labat JJ, et al. Diagnostic criteria for pudendal neuralgia by pudendal nerve entrapment (Nantes criteria). 2008. https://pubmed.ncbi.nlm.nih.gov/17828787/",
+    "The Diagnosis and Management of Pudendal Neuralgia: systematic review. 2025. https://pubmed.ncbi.nlm.nih.gov/41389120/",
+    "Pudendal nerve entrapment in Alcock canal: systematic review. 2026. https://pubmed.ncbi.nlm.nih.gov/42605488/",
+    "Clinical commentary on nerve entrapment in the hip region. 2017. https://pubmed.ncbi.nlm.nih.gov/29234567/",
+    "Iliopsoas hematoma with femoral nerve palsy: systematic review of 174 cases. 2023. https://pubmed.ncbi.nlm.nih.gov/36586813/",
+    "Femoral nerve palsy secondary to iliacus hematoma: systematic review. 2020. https://pubmed.ncbi.nlm.nih.gov/32487330/",
+    "Gluteal compartment syndrome: systematic review and meta-analysis. 2022. https://pubmed.ncbi.nlm.nih.gov/34602242/",
+    "Cystic lesions around the hip joint. 2015. https://pubmed.ncbi.nlm.nih.gov/26495246/",
+    "Hip paralabral cyst causing deep venous thrombosis: case report. 2024. https://pubmed.ncbi.nlm.nih.gov/38265245/",
+    "Minimally invasive treatment of hip osteoid osteoma: systematic review and meta-analysis. 2021. https://pubmed.ncbi.nlm.nih.gov/33563522/",
+    "Delayed diagnosis of intra-articular hip osteoid osteoma in young patients. 2025. https://pubmed.ncbi.nlm.nih.gov/40783996/",
+    "Intra-articular osteoid osteoma of the hip: imaging mimics. 2024. https://pubmed.ncbi.nlm.nih.gov/38843097/",
+    "ACR Appropriateness Criteria: Chronic Hip Pain. https://acsearch.acr.org/docs/69425/Narrative/",
+    "Five-times sit-to-stand test: systematic review and meta-analysis of measurement properties. 2022. https://pubmed.ncbi.nlm.nih.gov/34207604/",
+    "Reliability and validity of five-times sit-to-stand in older adults after total hip arthroplasty. 2021. https://pubmed.ncbi.nlm.nih.gov/33157185/"
   ],
   "validation": {
     "status": "passed",
@@ -390,5 +392,5 @@
       "ZIP CRC/extraction/bit comparison/path"
     ]
   },
-  "generated_at_utc": "2026-10-29T00:07:14.566724+00:00"
+  "generated_at_utc": "2026-10-30T00:07:47.686818+00:00"
 }
