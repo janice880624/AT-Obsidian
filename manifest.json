@@ -1,11 +1,11 @@
 {
   "schema_version": 9,
-  "date": "2026-10-30",
-  "region": "骨盆與髖第九輪",
+  "date": "2026-10-31",
+  "region": "膝部第九輪",
   "github": {
     "repository": "janice880624/AT-Obsidian",
     "branch": "main",
-    "commit": "0d2ea1d009187a4be22f2d47c9db8247610e46ac",
+    "commit": "d34f1113f27437a2d74e143996e6f18abe24e76c",
     "mode": "read-only"
   },
   "template_policy": {
@@ -84,7 +84,8 @@
       "模板－神經.md",
       "模板－系統性評估.md",
       "模板－身體檢查.md",
-      "模板－運動治療.md"
+      "模板－運動治療.md",
+      "模板－骨骼或關節.md"
     ],
     "validated_note_count": 15,
     "unsupported_new_note_types": [],
@@ -103,113 +104,113 @@
     "index_or_support_files": 8
   },
   "topic_candidates_skipped": [
-    "骨盆與髖第一至第八輪全部既有主題",
-    "已存在的神經、血管、髖關節與骨腫瘤相關主題",
+    "膝部第一至第八輪全部既有主題",
+    "既有 ACL、半月板、骨折、神經與滑膜主題",
     "缺少專屬模板的筆記類型",
     "任何需要建立新資料夾的候選主題"
   ],
   "notes": [
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－陰部神經痛與陰部神經卡壓.md",
-      "title": "傷害－陰部神經痛與陰部神經卡壓",
+      "path": "03_傷害與疾病/急性傷害/傷害－Hoffa 股骨髁冠狀面骨折.md",
+      "title": "傷害－Hoffa 股骨髁冠狀面骨折",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－髂肌血腫與股神經麻痺.md",
-      "title": "傷害－髂肌血腫與股神經麻痺",
+      "path": "03_傷害與疾病/急性傷害/傷害－Segond 撕脫骨折.md",
+      "title": "傷害－Segond 撕脫骨折",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－臀肌筋膜室症候群.md",
-      "title": "傷害－臀肌筋膜室症候群",
+      "path": "03_傷害與疾病/過度使用/傷害－旁半月板囊腫.md",
+      "title": "傷害－旁半月板囊腫",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－髖關節盂唇旁囊腫與神經血管壓迫.md",
-      "title": "傷害－髖關節盂唇旁囊腫與神經血管壓迫",
+      "path": "03_傷害與疾病/神經卡壓/傷害－近端脛腓關節神經節囊腫與腓總神經壓迫.md",
+      "title": "傷害－近端脛腓關節神經節囊腫與腓總神經壓迫",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－髖部類骨骨瘤.md",
-      "title": "傷害－髖部類骨骨瘤",
+      "path": "03_傷害與疾病/過度使用/傷害－膝關節腱鞘巨細胞瘤.md",
+      "title": "傷害－膝關節腱鞘巨細胞瘤",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "01_基礎解剖/神經/神經－陰部神經與 Alcock 管.md",
-      "title": "神經－陰部神經與 Alcock 管",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－股骨髁冠狀面與 Hoffa 骨折區.md",
+      "title": "骨骼與關節－股骨髁冠狀面與 Hoffa 骨折區",
+      "role": "相關",
+      "type": "骨骼或關節",
+      "template": "模板－骨骼或關節.md"
+    },
+    {
+      "path": "01_基礎解剖/骨骼/骨骼與關節－脛骨外側平台與 Segond 附著區.md",
+      "title": "骨骼與關節－脛骨外側平台與 Segond 附著區",
+      "role": "相關",
+      "type": "骨骼或關節",
+      "template": "模板－骨骼或關節.md"
+    },
+    {
+      "path": "01_基礎解剖/骨骼/骨骼與關節－半月板囊腫與半月板關節囊界面.md",
+      "title": "骨骼與關節－半月板囊腫與半月板關節囊界面",
+      "role": "相關",
+      "type": "骨骼或關節",
+      "template": "模板－骨骼或關節.md"
+    },
+    {
+      "path": "01_基礎解剖/神經/神經－近端脛腓關節囊腫與腓總神經.md",
+      "title": "神經－近端脛腓關節囊腫與腓總神經",
       "role": "相關",
       "type": "神經",
       "template": "模板－神經.md"
     },
     {
-      "path": "01_基礎解剖/神經/神經－股神經與髂肌筋膜室.md",
-      "title": "神經－股神經與髂肌筋膜室",
-      "role": "相關",
-      "type": "神經",
-      "template": "模板－神經.md"
-    },
-    {
-      "path": "01_基礎解剖/神經/神經－臀區筋膜室與坐骨神經關係.md",
-      "title": "神經－臀區筋膜室與坐骨神經關係",
-      "role": "相關",
-      "type": "神經",
-      "template": "模板－神經.md"
-    },
-    {
-      "path": "04_臨床評估/主觀問診/評估－會陰痛腹股溝痛與夜間髖痛問診.md",
-      "title": "評估－會陰痛腹股溝痛與夜間髖痛問診",
+      "path": "04_臨床評估/主觀問診/評估－膝外側腫塊鎖住與反覆血腫問診.md",
+      "title": "評估－膝外側腫塊鎖住與反覆血腫問診",
       "role": "相關",
       "type": "主觀問診",
       "template": "模板－主觀問診.md"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－骨盆與髖周神經學身體檢查.md",
-      "title": "評估－骨盆與髖周神經學身體檢查",
+      "path": "04_臨床評估/身體檢查/評估－膝外側腫塊與腓總神經身體檢查.md",
+      "title": "評估－膝外側腫塊與腓總神經身體檢查",
       "role": "相關",
       "type": "身體檢查",
       "template": "模板－身體檢查.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－急性臀部腫脹無力與橫紋肌溶解安全分流.md",
-      "title": "評估－急性臀部腫脹無力與橫紋肌溶解安全分流",
+      "path": "04_臨床評估/系統性評估/評估－隱匿遠端股骨骨折與內部損傷影像分流.md",
+      "title": "評估－隱匿遠端股骨骨折與內部損傷影像分流",
       "role": "相關",
       "type": "系統性評估",
       "template": "模板－系統性評估.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－持續性髖痛與腫瘤樣病灶安全分流.md",
-      "title": "評估－持續性髖痛與腫瘤樣病灶安全分流",
+      "path": "04_臨床評估/系統性評估/評估－反覆非創傷性膝血腫與腫瘤樣病灶分流.md",
+      "title": "評估－反覆非創傷性膝血腫與腫瘤樣病灶分流",
       "role": "相關",
       "type": "系統性評估",
       "template": "模板－系統性評估.md"
     },
     {
-      "path": "06_功能性測試/下肢/功能性測試－5 次坐站測試.md",
-      "title": "功能性測試－5 次坐站測試",
+      "path": "06_功能性測試/下肢/功能性測試－Timed Up and Go 測試.md",
+      "title": "功能性測試－Timed Up and Go 測試",
       "role": "相關",
       "type": "功能性測試",
       "template": "模板－功能性測試.md"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－骨盆神經症狀坐姿與活動分級.md",
-      "title": "運動治療－骨盆神經症狀坐姿與活動分級",
-      "role": "相關",
-      "type": "運動治療",
-      "template": "模板－運動治療.md"
-    },
-    {
-      "path": "05_處置與復健/運動治療/運動治療－髖周神經與筋膜室病灶處置後功能恢復.md",
-      "title": "運動治療－髖周神經與筋膜室病灶處置後功能恢復",
+      "path": "05_處置與復健/運動治療/運動治療－膝部骨折與腫瘤樣病灶處置後功能恢復.md",
+      "title": "運動治療－膝部骨折與腫瘤樣病灶處置後功能恢復",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
@@ -217,7 +218,7 @@
   ],
   "per_note_validation": [
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－陰部神經痛與陰部神經卡壓.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－Hoffa 股骨髁冠狀面骨折.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -226,7 +227,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－髂肌血腫與股神經麻痺.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－Segond 撕脫骨折.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -235,7 +236,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－臀肌筋膜室症候群.md",
+      "path": "03_傷害與疾病/過度使用/傷害－旁半月板囊腫.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -244,7 +245,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－髖關節盂唇旁囊腫與神經血管壓迫.md",
+      "path": "03_傷害與疾病/神經卡壓/傷害－近端脛腓關節神經節囊腫與腓總神經壓迫.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -253,7 +254,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－髖部類骨骨瘤.md",
+      "path": "03_傷害與疾病/過度使用/傷害－膝關節腱鞘巨細胞瘤.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -262,7 +263,34 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/神經/神經－陰部神經與 Alcock 管.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－股骨髁冠狀面與 Hoffa 骨折區.md",
+      "template": "模板－骨骼或關節.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "01_基礎解剖/骨骼/骨骼與關節－脛骨外側平台與 Segond 附著區.md",
+      "template": "模板－骨骼或關節.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "01_基礎解剖/骨骼/骨骼與關節－半月板囊腫與半月板關節囊界面.md",
+      "template": "模板－骨骼或關節.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "01_基礎解剖/神經/神經－近端脛腓關節囊腫與腓總神經.md",
       "template": "模板－神經.md",
       "yaml": "passed",
       "h1": "passed",
@@ -271,25 +299,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/神經/神經－股神經與髂肌筋膜室.md",
-      "template": "模板－神經.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "01_基礎解剖/神經/神經－臀區筋膜室與坐骨神經關係.md",
-      "template": "模板－神經.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "04_臨床評估/主觀問診/評估－會陰痛腹股溝痛與夜間髖痛問診.md",
+      "path": "04_臨床評估/主觀問診/評估－膝外側腫塊鎖住與反覆血腫問診.md",
       "template": "模板－主觀問診.md",
       "yaml": "passed",
       "h1": "passed",
@@ -298,7 +308,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－骨盆與髖周神經學身體檢查.md",
+      "path": "04_臨床評估/身體檢查/評估－膝外側腫塊與腓總神經身體檢查.md",
       "template": "模板－身體檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -307,7 +317,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－急性臀部腫脹無力與橫紋肌溶解安全分流.md",
+      "path": "04_臨床評估/系統性評估/評估－隱匿遠端股骨骨折與內部損傷影像分流.md",
       "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
@@ -316,7 +326,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－持續性髖痛與腫瘤樣病灶安全分流.md",
+      "path": "04_臨床評估/系統性評估/評估－反覆非創傷性膝血腫與腫瘤樣病灶分流.md",
       "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
@@ -325,7 +335,7 @@
       "links": "passed"
     },
     {
-      "path": "06_功能性測試/下肢/功能性測試－5 次坐站測試.md",
+      "path": "06_功能性測試/下肢/功能性測試－Timed Up and Go 測試.md",
       "template": "模板－功能性測試.md",
       "yaml": "passed",
       "h1": "passed",
@@ -334,16 +344,7 @@
       "links": "passed"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－骨盆神經症狀坐姿與活動分級.md",
-      "template": "模板－運動治療.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "05_處置與復健/運動治療/運動治療－髖周神經與筋膜室病灶處置後功能恢復.md",
+      "path": "05_處置與復健/運動治療/運動治療－膝部骨折與腫瘤樣病灶處置後功能恢復.md",
       "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
@@ -353,26 +354,24 @@
     }
   ],
   "assets": [
-    "assets/anatomy/骨盆髖第九輪神經筋膜室與囊腫關係圖.svg",
-    "assets/assessment/骨盆髖第九輪神經急症與夜間痛分流圖.svg",
-    "assets/assessment/骨盆髖第九輪坐站與活動恢復階梯.svg"
+    "assets/anatomy/膝部第九輪隱匿骨折囊腫與滑膜病灶圖.svg",
+    "assets/assessment/膝部第九輪創傷與腫塊安全分流圖.svg",
+    "assets/assessment/膝部第九輪TUG與負荷恢復階梯.svg"
   ],
   "sources_checked": [
-    "Labat JJ, et al. Diagnostic criteria for pudendal neuralgia by pudendal nerve entrapment (Nantes criteria). 2008. https://pubmed.ncbi.nlm.nih.gov/17828787/",
-    "The Diagnosis and Management of Pudendal Neuralgia: systematic review. 2025. https://pubmed.ncbi.nlm.nih.gov/41389120/",
-    "Pudendal nerve entrapment in Alcock canal: systematic review. 2026. https://pubmed.ncbi.nlm.nih.gov/42605488/",
-    "Clinical commentary on nerve entrapment in the hip region. 2017. https://pubmed.ncbi.nlm.nih.gov/29234567/",
-    "Iliopsoas hematoma with femoral nerve palsy: systematic review of 174 cases. 2023. https://pubmed.ncbi.nlm.nih.gov/36586813/",
-    "Femoral nerve palsy secondary to iliacus hematoma: systematic review. 2020. https://pubmed.ncbi.nlm.nih.gov/32487330/",
-    "Gluteal compartment syndrome: systematic review and meta-analysis. 2022. https://pubmed.ncbi.nlm.nih.gov/34602242/",
-    "Cystic lesions around the hip joint. 2015. https://pubmed.ncbi.nlm.nih.gov/26495246/",
-    "Hip paralabral cyst causing deep venous thrombosis: case report. 2024. https://pubmed.ncbi.nlm.nih.gov/38265245/",
-    "Minimally invasive treatment of hip osteoid osteoma: systematic review and meta-analysis. 2021. https://pubmed.ncbi.nlm.nih.gov/33563522/",
-    "Delayed diagnosis of intra-articular hip osteoid osteoma in young patients. 2025. https://pubmed.ncbi.nlm.nih.gov/40783996/",
-    "Intra-articular osteoid osteoma of the hip: imaging mimics. 2024. https://pubmed.ncbi.nlm.nih.gov/38843097/",
-    "ACR Appropriateness Criteria: Chronic Hip Pain. https://acsearch.acr.org/docs/69425/Narrative/",
-    "Five-times sit-to-stand test: systematic review and meta-analysis of measurement properties. 2022. https://pubmed.ncbi.nlm.nih.gov/34207604/",
-    "Reliability and validity of five-times sit-to-stand in older adults after total hip arthroplasty. 2021. https://pubmed.ncbi.nlm.nih.gov/33157185/"
+    "Hoffa fracture of the femoral condyle: systematic review. 2019. https://pubmed.ncbi.nlm.nih.gov/30813201/",
+    "Busch-Hoffa fracture: a systematic review. 2023. https://pubmed.ncbi.nlm.nih.gov/38050206/",
+    "The Segond fracture: anatomy, biomechanics and clinical implications. 2023. https://pubmed.ncbi.nlm.nih.gov/36860993/",
+    "Clinical outcomes after ACL reconstruction with concomitant Segond fracture: systematic review. 2022. https://pubmed.ncbi.nlm.nih.gov/34668790/",
+    "Arthroscopic management of meniscal cysts: systematic review. 2021. https://pubmed.ncbi.nlm.nih.gov/34557043/",
+    "Meniscal repair versus meniscectomy for meniscal cyst: systematic review. 2024. https://pubmed.ncbi.nlm.nih.gov/38529257/",
+    "Management and outcomes of proximal tibiofibular joint ganglion cysts: systematic review. 2022. https://pubmed.ncbi.nlm.nih.gov/35696835/",
+    "Comprehensive analysis of knee cysts: diagnosis and treatment. 2025. https://pubmed.ncbi.nlm.nih.gov/40369692/",
+    "Diagnosis and treatment options in pigmented villonodular synovitis of the knee. 2025. https://pubmed.ncbi.nlm.nih.gov/40869683/",
+    "MRI of diffuse-type tenosynovial giant cell tumour in the knee. 2023. https://pubmed.ncbi.nlm.nih.gov/36725759/",
+    "ACR Appropriateness Criteria: Acute Trauma to the Knee. https://acsearch.acr.org/docs/69419/narrative/",
+    "Timed Up and Go reliability and minimal detectable change in knee osteoarthritis. 2015. https://pubmed.ncbi.nlm.nih.gov/26223312/",
+    "Reliability and measurement error of OARSI-recommended performance tests. 2017. https://pubmed.ncbi.nlm.nih.gov/28647467/"
   ],
   "validation": {
     "status": "passed",
@@ -392,5 +391,5 @@
       "ZIP CRC/extraction/bit comparison/path"
     ]
   },
-  "generated_at_utc": "2026-10-30T00:07:47.686818+00:00"
+  "generated_at_utc": "2026-10-31T00:06:02.695369+00:00"
 }
