@@ -1,11 +1,11 @@
 {
-  "schema_version": 9,
-  "date": "2026-11-01",
-  "region": "足踝第九輪",
+  "schema_version": 8,
+  "date": "2026-11-02",
+  "region": "頭頸第十輪",
   "github": {
     "repository": "janice880624/AT-Obsidian",
     "branch": "main",
-    "commit": "fb94d1092338a5ac7cbbf5600c4f8c800c8b22d1",
+    "commit": "451995e6acd9cc4e3b408e0123e63fcdea9c94dd",
     "mode": "read-only"
   },
   "template_policy": {
@@ -85,6 +85,7 @@
       "模板－系統性評估.md",
       "模板－身體檢查.md",
       "模板－運動治療.md",
+      "模板－韌帶.md",
       "模板－骨骼或關節.md"
     ],
     "validated_note_count": 15,
@@ -101,116 +102,117 @@
     "related_notes": 10,
     "knowledge_notes": 15,
     "svg": 3,
-    "index_or_support_files": 8
+    "index_or_support_files": 10
   },
   "topic_candidates_skipped": [
-    "足踝第一至第八輪全部既有主題",
-    "既有骨折、扭傷、肌腱、夾擠、神經與退化主題",
-    "缺少專屬模板的筆記類型",
+    "頭頸第一至第九輪全部既有主題",
+    "既有顱骨骨折、鈍性血管損傷、喉部外傷、耳前庭、眼外傷與中顏面候選",
+    "Functional Gait Assessment 已存在，改用未收錄的 Neck Disability Index",
+    "無專屬模板的筆記類型",
     "任何需要建立新資料夾的候選主題"
   ],
   "notes": [
     {
-      "path": "03_傷害與疾病/過度使用/傷害－跟骨壓力性骨折.md",
-      "title": "傷害－跟骨壓力性骨折",
+      "path": "03_傷害與疾病/急性傷害/傷害－枕骨髁骨折.md",
+      "title": "傷害－枕骨髁骨折",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－足根管症候群.md",
-      "title": "傷害－足根管症候群",
+      "path": "03_傷害與疾病/急性傷害/傷害－寰椎爆裂骨折（Jefferson 骨折）.md",
+      "title": "傷害－寰椎爆裂骨折（Jefferson 骨折）",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－Baxter 神經卡壓.md",
-      "title": "傷害－Baxter 神經卡壓",
+      "path": "03_傷害與疾病/急性傷害/傷害－創傷性樞椎滑脫（Hangman 骨折）.md",
+      "title": "傷害－創傷性樞椎滑脫（Hangman 骨折）",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－距下竇症候群.md",
-      "title": "傷害－距下竇症候群",
+      "path": "03_傷害與疾病/急性傷害/傷害－創傷性寰枕關節脫位.md",
+      "title": "傷害－創傷性寰枕關節脫位",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－足底纖維瘤病.md",
-      "title": "傷害－足底纖維瘤病",
+      "path": "03_傷害與疾病/急性傷害/傷害－頸椎小面關節脫臼.md",
+      "title": "傷害－頸椎小面關節脫臼",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－跟骨體與骨壓力分布.md",
-      "title": "骨骼與關節－跟骨體與骨壓力分布",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－枕寰關節與顱頸交界對位.md",
+      "title": "骨骼與關節－枕寰關節與顱頸交界對位",
       "role": "相關",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－距下竇與距跟骨間韌帶.md",
-      "title": "骨骼與關節－距下竇與距跟骨間韌帶",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－寰椎環與樞椎椎弓峽部.md",
+      "title": "骨骼與關節－寰椎環與樞椎椎弓峽部",
       "role": "相關",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "01_基礎解剖/神經/神經－Baxter 神經與第一外側足底神經分支.md",
-      "title": "神經－Baxter 神經與第一外側足底神經分支",
+      "path": "01_基礎解剖/韌帶/韌帶－覆膜與顱頸交界穩定韌帶.md",
+      "title": "韌帶－覆膜與顱頸交界穩定韌帶",
+      "role": "相關",
+      "type": "韌帶",
+      "template": "模板－韌帶.md"
+    },
+    {
+      "path": "01_基礎解剖/神經/神經－下位顱神經與枕骨髁區.md",
+      "title": "神經－下位顱神經與枕骨髁區",
       "role": "相關",
       "type": "神經",
       "template": "模板－神經.md"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－足跟與後足負荷痛麻木及腫塊主觀問診.md",
-      "title": "評估－足跟與後足負荷痛麻木及腫塊主觀問診",
+      "path": "04_臨床評估/主觀問診/評估－頭頂軸向受力與高位頸痛主觀問診.md",
+      "title": "評估－頭頂軸向受力與高位頸痛主觀問診",
       "role": "相關",
       "type": "主觀問診",
       "template": "模板－主觀問診.md"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－足跟與後足神經骨性及軟組織身體檢查.md",
-      "title": "評估－足跟與後足神經骨性及軟組織身體檢查",
+      "path": "04_臨床評估/身體檢查/評估－疑似高位頸椎創傷安全身體檢查.md",
+      "title": "評估－疑似高位頸椎創傷安全身體檢查",
       "role": "相關",
       "type": "身體檢查",
       "template": "模板－身體檢查.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－足跟痛神經骨壓力與軟組織腫塊分流.md",
-      "title": "評估－足跟痛神經骨壓力與軟組織腫塊分流",
+      "path": "04_臨床評估/系統性評估/評估－顱頸交界創傷影像與轉介分流.md",
+      "title": "評估－顱頸交界創傷影像與轉介分流",
       "role": "相關",
       "type": "系統性評估",
       "template": "模板－系統性評估.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－足底腫塊與進展神經症狀安全分流.md",
-      "title": "評估－足底腫塊與進展神經症狀安全分流",
+      "path": "04_臨床評估/系統性評估/評估－頸椎小面脫臼與脊髓風險分流.md",
+      "title": "評估－頸椎小面脫臼與脊髓風險分流",
       "role": "相關",
       "type": "系統性評估",
       "template": "模板－系統性評估.md"
     },
     {
-      "path": "06_功能性測試/下肢/功能性測試－十公尺步行測試.md",
-      "title": "功能性測試－十公尺步行測試",
+      "path": "06_功能性測試/軀幹/功能性測試－Neck Disability Index 頸部失能指數.md",
+      "title": "功能性測試－Neck Disability Index 頸部失能指數",
       "role": "相關",
       "type": "功能性測試",
       "template": "模板－功能性測試.md"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－足跟神經與骨壓力傷後步行進展.md",
-      "title": "運動治療－足跟神經與骨壓力傷後步行進展",
-      "role": "相關",
-      "type": "運動治療",
-      "template": "模板－運動治療.md"
-    },
-    {
-      "path": "05_處置與復健/運動治療/運動治療－距下竇症狀平衡與多方向負荷進展.md",
-      "title": "運動治療－距下竇症狀平衡與多方向負荷進展",
+      "path": "05_處置與復健/運動治療/運動治療－高位頸椎骨折固定後分階段恢復.md",
+      "title": "運動治療－高位頸椎骨折固定後分階段恢復",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
@@ -218,7 +220,7 @@
   ],
   "per_note_validation": [
     {
-      "path": "03_傷害與疾病/過度使用/傷害－跟骨壓力性骨折.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－枕骨髁骨折.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -227,7 +229,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－足根管症候群.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－寰椎爆裂骨折（Jefferson 骨折）.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -236,7 +238,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－Baxter 神經卡壓.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－創傷性樞椎滑脫（Hangman 骨折）.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -245,7 +247,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－距下竇症候群.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－創傷性寰枕關節脫位.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -254,7 +256,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－足底纖維瘤病.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－頸椎小面關節脫臼.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -263,7 +265,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－跟骨體與骨壓力分布.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－枕寰關節與顱頸交界對位.md",
       "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
@@ -272,7 +274,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－距下竇與距跟骨間韌帶.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－寰椎環與樞椎椎弓峽部.md",
       "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
@@ -281,7 +283,16 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/神經/神經－Baxter 神經與第一外側足底神經分支.md",
+      "path": "01_基礎解剖/韌帶/韌帶－覆膜與顱頸交界穩定韌帶.md",
+      "template": "模板－韌帶.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "01_基礎解剖/神經/神經－下位顱神經與枕骨髁區.md",
       "template": "模板－神經.md",
       "yaml": "passed",
       "h1": "passed",
@@ -290,7 +301,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－足跟與後足負荷痛麻木及腫塊主觀問診.md",
+      "path": "04_臨床評估/主觀問診/評估－頭頂軸向受力與高位頸痛主觀問診.md",
       "template": "模板－主觀問診.md",
       "yaml": "passed",
       "h1": "passed",
@@ -299,7 +310,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－足跟與後足神經骨性及軟組織身體檢查.md",
+      "path": "04_臨床評估/身體檢查/評估－疑似高位頸椎創傷安全身體檢查.md",
       "template": "模板－身體檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -308,7 +319,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－足跟痛神經骨壓力與軟組織腫塊分流.md",
+      "path": "04_臨床評估/系統性評估/評估－顱頸交界創傷影像與轉介分流.md",
       "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
@@ -317,7 +328,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－足底腫塊與進展神經症狀安全分流.md",
+      "path": "04_臨床評估/系統性評估/評估－頸椎小面脫臼與脊髓風險分流.md",
       "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
@@ -326,7 +337,7 @@
       "links": "passed"
     },
     {
-      "path": "06_功能性測試/下肢/功能性測試－十公尺步行測試.md",
+      "path": "06_功能性測試/軀幹/功能性測試－Neck Disability Index 頸部失能指數.md",
       "template": "模板－功能性測試.md",
       "yaml": "passed",
       "h1": "passed",
@@ -335,16 +346,7 @@
       "links": "passed"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－足跟神經與骨壓力傷後步行進展.md",
-      "template": "模板－運動治療.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "05_處置與復健/運動治療/運動治療－距下竇症狀平衡與多方向負荷進展.md",
+      "path": "05_處置與復健/運動治療/運動治療－高位頸椎骨折固定後分階段恢復.md",
       "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
@@ -354,25 +356,24 @@
     }
   ],
   "assets": [
-    "assets/anatomy/足踝第九輪足跟骨神經與軟組織圖.svg",
-    "assets/assessment/足踝第九輪足跟痛與腫塊安全分流圖.svg",
-    "assets/assessment/足踝第九輪十公尺步行與負荷階梯圖.svg"
+    "assets/anatomy/頭頸第十輪顱頸交界骨韌帶圖.svg",
+    "assets/assessment/頭頸第十輪高位頸椎創傷安全分流圖.svg",
+    "assets/assessment/頭頸第十輪穩定後功能恢復矩陣.svg"
   ],
   "sources_checked": [
-    "Diagnosis and Management of Calcaneal Stress Fractures. 2021. https://pubmed.ncbi.nlm.nih.gov/34728579/",
-    "Stress injuries of the calcaneus detected with MRI in military recruits. 2006. https://pubmed.ncbi.nlm.nih.gov/17015602/",
-    "ACR Appropriateness Criteria: Stress (Fatigue/Insufficiency) Fracture. https://acsearch.acr.org/docs/69435/narrative/",
-    "Differences in Diagnosing Tarsal Tunnel Syndrome Across the Literature: systematic review. 2026. https://pubmed.ncbi.nlm.nih.gov/41662474/",
-    "The management of tarsal tunnel syndrome: a scoping review. 2024. https://pubmed.ncbi.nlm.nih.gov/39101044/",
-    "Baxter's nerve: the hidden culprit of chronic heel pain. 2025. https://pubmed.ncbi.nlm.nih.gov/40418415/",
-    "Plantar and medial heel pain: diagnosis and management. 2014. https://pubmed.ncbi.nlm.nih.gov/24860133/",
-    "Current concepts in sinus tarsi syndrome: a scoping review. 2020. https://pubmed.ncbi.nlm.nih.gov/32978087/",
-    "The Evolution of Sinus Tarsi Syndrome: critical review. 2023. https://pubmed.ncbi.nlm.nih.gov/37959343/",
-    "Sinus tarsi and sinus tarsi syndrome: an imaging review. 2023. https://pubmed.ncbi.nlm.nih.gov/36773427/",
-    "The etiology, evaluation, and management of plantar fibromatosis. 2019. https://pubmed.ncbi.nlm.nih.gov/30774465/",
-    "MRI characteristics of plantar fibromas: a large consecutive series. 2025. https://pubmed.ncbi.nlm.nih.gov/40958075/",
-    "Imaging of plantar fascia disorders: radiography, ultrasound and MRI. 2017. https://pubmed.ncbi.nlm.nih.gov/27957702/",
-    "Reliability of 4-meter and 10-meter walk tests after lower extremity surgery. 2017. https://pubmed.ncbi.nlm.nih.gov/27728985/"
+    "American College of Radiology. ACR Appropriateness Criteria: Acute Spinal Trauma. Revised 2024. https://acsearch.acr.org/docs/69359/Narrative/",
+    "Theologis AA, et al. Upper Cervical Spine Trauma: WFNS Spine Committee Recommendations. 2021. https://pmc.ncbi.nlm.nih.gov/articles/PMC7788417/",
+    "Tomaszewski KA, et al. Injuries of the upper cervical spine—how can instability be identified? 2020. https://pubmed.ncbi.nlm.nih.gov/32451654/",
+    "Musbahi O, et al. Immobilisation in occipital condyle fractures: a systematic review. 2018. https://pubmed.ncbi.nlm.nih.gov/30125835/",
+    "Tuli S, et al. Occipital condyle fractures: clinical decision rule and delayed cranial nerve deficits. 1997. https://pubmed.ncbi.nlm.nih.gov/9257304/",
+    "Chan KS, et al. Diagnosis and management of isolated C1 fractures: a systematic review. 2022. https://pubmed.ncbi.nlm.nih.gov/36263346/",
+    "Radcliff KE, et al. C1 lateral mass displacement and transverse atlantal ligament failure in Jefferson fracture: a biomechanical study. 2017. https://pubmed.ncbi.nlm.nih.gov/28431136/",
+    "Li XF, et al. Management of Hangman fractures: a systematic review. 2017. https://pubmed.ncbi.nlm.nih.gov/28816880/",
+    "Surgical versus conservative management of Hangman fractures: a meta-analysis. 2026. https://pubmed.ncbi.nlm.nih.gov/41793500/",
+    "Tavolaro C, et al. Factors affecting outcomes of traumatic atlanto-occipital dislocations in adults: a systematic review. 2022. https://pubmed.ncbi.nlm.nih.gov/35307587/",
+    "Atlanto-occipital Dissociation: epidemiology, recognition, diagnosis and management. 2024. https://pubmed.ncbi.nlm.nih.gov/39356168/",
+    "Predictive factors for failure of closed reduction in traumatic cervical facet dislocations: systematic review of 631 patients. 2025. https://pmc.ncbi.nlm.nih.gov/articles/PMC12698454/",
+    "Vernon H, Mior S. The Neck Disability Index: a study of reliability and validity. 1991. https://pubmed.ncbi.nlm.nih.gov/1834753/"
   ],
   "validation": {
     "status": "passed",
@@ -392,5 +393,5 @@
       "ZIP CRC/extraction/bit comparison/path"
     ]
   },
-  "generated_at_utc": "2026-11-01T00:08:25.660492+00:00"
+  "generated_at_utc": "2026-11-02T00:10:53.356729+00:00"
 }
