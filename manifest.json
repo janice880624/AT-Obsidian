@@ -1,11 +1,11 @@
 {
   "schema_version": 8,
-  "date": "2026-11-02",
-  "region": "頭頸第十輪",
+  "date": "2026-11-03",
+  "region": "肩部第十輪",
   "github": {
     "repository": "janice880624/AT-Obsidian",
     "branch": "main",
-    "commit": "451995e6acd9cc4e3b408e0123e63fcdea9c94dd",
+    "commit": "89fbf99d95ff1da7494f08f35a36eb608c43d677",
     "mode": "read-only"
   },
   "template_policy": {
@@ -81,7 +81,6 @@
       "模板－主觀問診.md",
       "模板－傷害.md",
       "模板－功能性測試.md",
-      "模板－神經.md",
       "模板－系統性評估.md",
       "模板－身體檢查.md",
       "模板－運動治療.md",
@@ -105,114 +104,114 @@
     "index_or_support_files": 10
   },
   "topic_candidates_skipped": [
-    "頭頸第一至第九輪全部既有主題",
-    "既有顱骨骨折、鈍性血管損傷、喉部外傷、耳前庭、眼外傷與中顏面候選",
-    "Functional Gait Assessment 已存在，改用未收錄的 Neck Disability Index",
+    "肩部第一至第九輪全部既有主題",
+    "已存在的肩胛骨骨折總論、鎖骨骨折、胸鎖與肩鎖損傷候選",
+    "已存在的旋轉肌袖、盂唇、不穩定、感染、神經與胸廓出口候選",
     "無專屬模板的筆記類型",
     "任何需要建立新資料夾的候選主題"
   ],
   "notes": [
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－枕骨髁骨折.md",
-      "title": "傷害－枕骨髁骨折",
+      "path": "03_傷害與疾病/急性傷害/傷害－肩盂骨折.md",
+      "title": "傷害－肩盂骨折",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－寰椎爆裂骨折（Jefferson 骨折）.md",
-      "title": "傷害－寰椎爆裂骨折（Jefferson 骨折）",
+      "path": "03_傷害與疾病/急性傷害/傷害－肱骨大結節骨折與肩脫臼.md",
+      "title": "傷害－肱骨大結節骨折與肩脫臼",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－創傷性樞椎滑脫（Hangman 骨折）.md",
-      "title": "傷害－創傷性樞椎滑脫（Hangman 骨折）",
+      "path": "03_傷害與疾病/急性傷害/傷害－喙突骨折.md",
+      "title": "傷害－喙突骨折",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－創傷性寰枕關節脫位.md",
-      "title": "傷害－創傷性寰枕關節脫位",
+      "path": "03_傷害與疾病/急性傷害/傷害－肩峰與肩胛棘骨折.md",
+      "title": "傷害－肩峰與肩胛棘骨折",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－頸椎小面關節脫臼.md",
-      "title": "傷害－頸椎小面關節脫臼",
+      "path": "03_傷害與疾病/急性傷害/傷害－浮動肩與肩胛帶雙重斷裂.md",
+      "title": "傷害－浮動肩與肩胛帶雙重斷裂",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－枕寰關節與顱頸交界對位.md",
-      "title": "骨骼與關節－枕寰關節與顱頸交界對位",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－肩盂關節面與肩胛頸.md",
+      "title": "骨骼與關節－肩盂關節面與肩胛頸",
       "role": "相關",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－寰椎環與樞椎椎弓峽部.md",
-      "title": "骨骼與關節－寰椎環與樞椎椎弓峽部",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－肱骨大結節與旋轉肌袖足印.md",
+      "title": "骨骼與關節－肱骨大結節與旋轉肌袖足印",
       "role": "相關",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "01_基礎解剖/韌帶/韌帶－覆膜與顱頸交界穩定韌帶.md",
-      "title": "韌帶－覆膜與顱頸交界穩定韌帶",
+      "path": "01_基礎解剖/韌帶/韌帶－上肩懸吊複合體.md",
+      "title": "韌帶－上肩懸吊複合體",
       "role": "相關",
       "type": "韌帶",
       "template": "模板－韌帶.md"
     },
     {
-      "path": "01_基礎解剖/神經/神經－下位顱神經與枕骨髁區.md",
-      "title": "神經－下位顱神經與枕骨髁區",
-      "role": "相關",
-      "type": "神經",
-      "template": "模板－神經.md"
-    },
-    {
-      "path": "04_臨床評估/主觀問診/評估－頭頂軸向受力與高位頸痛主觀問診.md",
-      "title": "評估－頭頂軸向受力與高位頸痛主觀問診",
+      "path": "04_臨床評估/主觀問診/評估－高能量肩胛帶創傷主觀問診.md",
+      "title": "評估－高能量肩胛帶創傷主觀問診",
       "role": "相關",
       "type": "主觀問診",
       "template": "模板－主觀問診.md"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－疑似高位頸椎創傷安全身體檢查.md",
-      "title": "評估－疑似高位頸椎創傷安全身體檢查",
+      "path": "04_臨床評估/身體檢查/評估－肩胛帶骨性創傷身體檢查.md",
+      "title": "評估－肩胛帶骨性創傷身體檢查",
       "role": "相關",
       "type": "身體檢查",
       "template": "模板－身體檢查.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－顱頸交界創傷影像與轉介分流.md",
-      "title": "評估－顱頸交界創傷影像與轉介分流",
+      "path": "04_臨床評估/系統性評估/評估－肩盂與肩胛骨折影像及轉介分流.md",
+      "title": "評估－肩盂與肩胛骨折影像及轉介分流",
       "role": "相關",
       "type": "系統性評估",
       "template": "模板－系統性評估.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－頸椎小面脫臼與脊髓風險分流.md",
-      "title": "評估－頸椎小面脫臼與脊髓風險分流",
+      "path": "04_臨床評估/系統性評估/評估－大結節骨折脫臼神經血管與再位移追蹤.md",
+      "title": "評估－大結節骨折脫臼神經血管與再位移追蹤",
       "role": "相關",
       "type": "系統性評估",
       "template": "模板－系統性評估.md"
     },
     {
-      "path": "06_功能性測試/軀幹/功能性測試－Neck Disability Index 頸部失能指數.md",
-      "title": "功能性測試－Neck Disability Index 頸部失能指數",
+      "path": "06_功能性測試/上肢/功能性測試－SPADI 肩痛與失能指數.md",
+      "title": "功能性測試－SPADI 肩痛與失能指數",
       "role": "相關",
       "type": "功能性測試",
       "template": "模板－功能性測試.md"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－高位頸椎骨折固定後分階段恢復.md",
-      "title": "運動治療－高位頸椎骨折固定後分階段恢復",
+      "path": "05_處置與復健/運動治療/運動治療－肩胛帶骨折固定後活動與負荷進展.md",
+      "title": "運動治療－肩胛帶骨折固定後活動與負荷進展",
+      "role": "相關",
+      "type": "運動治療",
+      "template": "模板－運動治療.md"
+    },
+    {
+      "path": "05_處置與復健/運動治療/運動治療－大結節骨折後旋轉肌袖分階段恢復.md",
+      "title": "運動治療－大結節骨折後旋轉肌袖分階段恢復",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
@@ -220,7 +219,7 @@
   ],
   "per_note_validation": [
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－枕骨髁骨折.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－肩盂骨折.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -229,7 +228,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－寰椎爆裂骨折（Jefferson 骨折）.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－肱骨大結節骨折與肩脫臼.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -238,7 +237,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－創傷性樞椎滑脫（Hangman 骨折）.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－喙突骨折.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -247,7 +246,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－創傷性寰枕關節脫位.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－肩峰與肩胛棘骨折.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -256,7 +255,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－頸椎小面關節脫臼.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－浮動肩與肩胛帶雙重斷裂.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -265,7 +264,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－枕寰關節與顱頸交界對位.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－肩盂關節面與肩胛頸.md",
       "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
@@ -274,7 +273,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－寰椎環與樞椎椎弓峽部.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－肱骨大結節與旋轉肌袖足印.md",
       "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
@@ -283,7 +282,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/韌帶/韌帶－覆膜與顱頸交界穩定韌帶.md",
+      "path": "01_基礎解剖/韌帶/韌帶－上肩懸吊複合體.md",
       "template": "模板－韌帶.md",
       "yaml": "passed",
       "h1": "passed",
@@ -292,16 +291,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/神經/神經－下位顱神經與枕骨髁區.md",
-      "template": "模板－神經.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "04_臨床評估/主觀問診/評估－頭頂軸向受力與高位頸痛主觀問診.md",
+      "path": "04_臨床評估/主觀問診/評估－高能量肩胛帶創傷主觀問診.md",
       "template": "模板－主觀問診.md",
       "yaml": "passed",
       "h1": "passed",
@@ -310,7 +300,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－疑似高位頸椎創傷安全身體檢查.md",
+      "path": "04_臨床評估/身體檢查/評估－肩胛帶骨性創傷身體檢查.md",
       "template": "模板－身體檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -319,7 +309,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－顱頸交界創傷影像與轉介分流.md",
+      "path": "04_臨床評估/系統性評估/評估－肩盂與肩胛骨折影像及轉介分流.md",
       "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
@@ -328,7 +318,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－頸椎小面脫臼與脊髓風險分流.md",
+      "path": "04_臨床評估/系統性評估/評估－大結節骨折脫臼神經血管與再位移追蹤.md",
       "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
@@ -337,7 +327,7 @@
       "links": "passed"
     },
     {
-      "path": "06_功能性測試/軀幹/功能性測試－Neck Disability Index 頸部失能指數.md",
+      "path": "06_功能性測試/上肢/功能性測試－SPADI 肩痛與失能指數.md",
       "template": "模板－功能性測試.md",
       "yaml": "passed",
       "h1": "passed",
@@ -346,7 +336,16 @@
       "links": "passed"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－高位頸椎骨折固定後分階段恢復.md",
+      "path": "05_處置與復健/運動治療/運動治療－肩胛帶骨折固定後活動與負荷進展.md",
+      "template": "模板－運動治療.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "05_處置與復健/運動治療/運動治療－大結節骨折後旋轉肌袖分階段恢復.md",
       "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
@@ -356,24 +355,29 @@
     }
   ],
   "assets": [
-    "assets/anatomy/頭頸第十輪顱頸交界骨韌帶圖.svg",
-    "assets/assessment/頭頸第十輪高位頸椎創傷安全分流圖.svg",
-    "assets/assessment/頭頸第十輪穩定後功能恢復矩陣.svg"
+    "assets/anatomy/肩部第十輪肩胛帶骨性與懸吊環圖.svg",
+    "assets/assessment/肩部第十輪複雜肩胛帶創傷安全分流圖.svg",
+    "assets/assessment/肩部第十輪骨癒合後活動與負荷進展矩陣.svg"
   ],
   "sources_checked": [
-    "American College of Radiology. ACR Appropriateness Criteria: Acute Spinal Trauma. Revised 2024. https://acsearch.acr.org/docs/69359/Narrative/",
-    "Theologis AA, et al. Upper Cervical Spine Trauma: WFNS Spine Committee Recommendations. 2021. https://pmc.ncbi.nlm.nih.gov/articles/PMC7788417/",
-    "Tomaszewski KA, et al. Injuries of the upper cervical spine—how can instability be identified? 2020. https://pubmed.ncbi.nlm.nih.gov/32451654/",
-    "Musbahi O, et al. Immobilisation in occipital condyle fractures: a systematic review. 2018. https://pubmed.ncbi.nlm.nih.gov/30125835/",
-    "Tuli S, et al. Occipital condyle fractures: clinical decision rule and delayed cranial nerve deficits. 1997. https://pubmed.ncbi.nlm.nih.gov/9257304/",
-    "Chan KS, et al. Diagnosis and management of isolated C1 fractures: a systematic review. 2022. https://pubmed.ncbi.nlm.nih.gov/36263346/",
-    "Radcliff KE, et al. C1 lateral mass displacement and transverse atlantal ligament failure in Jefferson fracture: a biomechanical study. 2017. https://pubmed.ncbi.nlm.nih.gov/28431136/",
-    "Li XF, et al. Management of Hangman fractures: a systematic review. 2017. https://pubmed.ncbi.nlm.nih.gov/28816880/",
-    "Surgical versus conservative management of Hangman fractures: a meta-analysis. 2026. https://pubmed.ncbi.nlm.nih.gov/41793500/",
-    "Tavolaro C, et al. Factors affecting outcomes of traumatic atlanto-occipital dislocations in adults: a systematic review. 2022. https://pubmed.ncbi.nlm.nih.gov/35307587/",
-    "Atlanto-occipital Dissociation: epidemiology, recognition, diagnosis and management. 2024. https://pubmed.ncbi.nlm.nih.gov/39356168/",
-    "Predictive factors for failure of closed reduction in traumatic cervical facet dislocations: systematic review of 631 patients. 2025. https://pmc.ncbi.nlm.nih.gov/articles/PMC12698454/",
-    "Vernon H, Mior S. The Neck Disability Index: a study of reliability and validity. 1991. https://pubmed.ncbi.nlm.nih.gov/1834753/"
+    "American College of Radiology. ACR Appropriateness Criteria: Acute Shoulder Pain. Revised 2024. https://acsearch.acr.org/docs/69433/Narrative/",
+    "Frich LH, Larsen MS. How to deal with a glenoid fracture. 2017. https://pmc.ncbi.nlm.nih.gov/articles/PMC5467683/",
+    "Glenoid fractures: a review of pathology, classification, treatment and results. 2014. https://pubmed.ncbi.nlm.nih.gov/24873091/",
+    "Articular and extra-articular scapula fracture. 2025. https://pubmed.ncbi.nlm.nih.gov/40998115/",
+    "Sling and forget it? A systematic review of operative versus nonoperative outcomes for scapula fractures. 2024. https://pubmed.ncbi.nlm.nih.gov/39048030/",
+    "Management of greater tuberosity fracture dislocations of the shoulder. 2024. https://pubmed.ncbi.nlm.nih.gov/39157260/",
+    "Treatment of isolated greater tuberosity fractures: a scoping review. 2025. https://pubmed.ncbi.nlm.nih.gov/41567234/",
+    "Secondary Displacement of Nonsurgically Managed Greater Tuberosity Fractures. 2025. https://pubmed.ncbi.nlm.nih.gov/40549939/",
+    "Fractures of the coracoid process: a systematic review. 2021. https://pubmed.ncbi.nlm.nih.gov/37588963/",
+    "Treatment of coracoid process fractures: a systematic review. 2021. https://pubmed.ncbi.nlm.nih.gov/32507949/",
+    "Nonunion of the so-called acromion: a systematic review with consideration of the terminology. 2023. https://pubmed.ncbi.nlm.nih.gov/37314525/",
+    "Extra-articular Fractures of the Scapula. 2025. https://pubmed.ncbi.nlm.nih.gov/42109501/",
+    "Clinical outcomes following conservative and surgical management of floating shoulder injuries: a systematic review. 2020. https://pubmed.ncbi.nlm.nih.gov/31812589/",
+    "Surgical vs. nonsurgical treatment of extra-articular scapula fractures: a systematic review and meta-analysis. 2025. https://pubmed.ncbi.nlm.nih.gov/41809069/",
+    "Superior shoulder suspensory complex disruptions: from injury pattern recognition to treatment decision-making. 2026. https://pubmed.ncbi.nlm.nih.gov/42472303/",
+    "Roach KE, et al. Development of a shoulder pain and disability index. 1991. https://pubmed.ncbi.nlm.nih.gov/11188601/",
+    "Heald SL, et al. The Shoulder Pain and Disability Index: construct validity and responsiveness. 1997. https://pubmed.ncbi.nlm.nih.gov/9327822/",
+    "Scapular Body Fracture in the Athlete: A Systematic Review. 2018. https://pmc.ncbi.nlm.nih.gov/articles/PMC6148589/"
   ],
   "validation": {
     "status": "passed",
@@ -393,5 +397,5 @@
       "ZIP CRC/extraction/bit comparison/path"
     ]
   },
-  "generated_at_utc": "2026-11-02T00:10:53.356729+00:00"
+  "generated_at_utc": "2026-11-03T00:09:26.141271+00:00"
 }
