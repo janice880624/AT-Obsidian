@@ -1,11 +1,11 @@
 {
   "schema_version": 8,
-  "date": "2026-11-03",
-  "region": "肩部第十輪",
+  "date": "2026-11-04",
+  "region": "肘部第十輪",
   "github": {
     "repository": "janice880624/AT-Obsidian",
     "branch": "main",
-    "commit": "89fbf99d95ff1da7494f08f35a36eb608c43d677",
+    "commit": "352bfa40aade8fb6f52f07af37d5373e3767a318",
     "mode": "read-only"
   },
   "template_policy": {
@@ -81,10 +81,12 @@
       "模板－主觀問診.md",
       "模板－傷害.md",
       "模板－功能性測試.md",
+      "模板－特殊檢查.md",
+      "模板－神經.md",
       "模板－系統性評估.md",
+      "模板－肌肉.md",
       "模板－身體檢查.md",
       "模板－運動治療.md",
-      "模板－韌帶.md",
       "模板－骨骼或關節.md"
     ],
     "validated_note_count": 15,
@@ -104,114 +106,113 @@
     "index_or_support_files": 10
   },
   "topic_candidates_skipped": [
-    "肩部第一至第九輪全部既有主題",
-    "已存在的肩胛骨骨折總論、鎖骨骨折、胸鎖與肩鎖損傷候選",
-    "已存在的旋轉肌袖、盂唇、不穩定、感染、神經與胸廓出口候選",
+    "肘部第一至第九輪全部既有主題與近義題",
+    "肘關節滑膜軟骨瘤病、肘部異位骨化、肘隧道症候群等既有題",
     "無專屬模板的筆記類型",
     "任何需要建立新資料夾的候選主題"
   ],
   "notes": [
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－肩盂骨折.md",
-      "title": "傷害－肩盂骨折",
+      "path": "03_傷害與疾病/神經卡壓/傷害－肱骨髁上突症候群.md",
+      "title": "傷害－肱骨髁上突症候群",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－肱骨大結節骨折與肩脫臼.md",
-      "title": "傷害－肱骨大結節骨折與肩脫臼",
+      "path": "03_傷害與疾病/神經卡壓/傷害－副肘肌相關尺神經卡壓.md",
+      "title": "傷害－副肘肌相關尺神經卡壓",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－喙突骨折.md",
-      "title": "傷害－喙突骨折",
+      "path": "03_傷害與疾病/過度使用/傷害－肘部類骨骨瘤.md",
+      "title": "傷害－肘部類骨骨瘤",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－肩峰與肩胛棘骨折.md",
-      "title": "傷害－肩峰與肩胛棘骨折",
+      "path": "03_傷害與疾病/過度使用/傷害－肘關節腱鞘巨細胞瘤.md",
+      "title": "傷害－肘關節腱鞘巨細胞瘤",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－浮動肩與肩胛帶雙重斷裂.md",
-      "title": "傷害－浮動肩與肩胛帶雙重斷裂",
+      "path": "03_傷害與疾病/過度使用/傷害－血友病性肘關節病變.md",
+      "title": "傷害－血友病性肘關節病變",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－肩盂關節面與肩胛頸.md",
-      "title": "骨骼與關節－肩盂關節面與肩胛頸",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－肱骨髁上突與 Struthers 韌帶.md",
+      "title": "骨骼與關節－肱骨髁上突與 Struthers 韌帶",
       "role": "相關",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－肱骨大結節與旋轉肌袖足印.md",
-      "title": "骨骼與關節－肱骨大結節與旋轉肌袖足印",
+      "path": "01_基礎解剖/肌肉/肌肉－副肘肌與肘隧道頂.md",
+      "title": "肌肉－副肘肌與肘隧道頂",
       "role": "相關",
-      "type": "骨骼或關節",
-      "template": "模板－骨骼或關節.md"
+      "type": "肌肉",
+      "template": "模板－肌肉.md"
     },
     {
-      "path": "01_基礎解剖/韌帶/韌帶－上肩懸吊複合體.md",
-      "title": "韌帶－上肩懸吊複合體",
+      "path": "01_基礎解剖/神經/神經－正中神經於遠端臂髁上突通道.md",
+      "title": "神經－正中神經於遠端臂髁上突通道",
       "role": "相關",
-      "type": "韌帶",
-      "template": "模板－韌帶.md"
+      "type": "神經",
+      "template": "模板－神經.md"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－高能量肩胛帶創傷主觀問診.md",
-      "title": "評估－高能量肩胛帶創傷主觀問診",
+      "path": "04_臨床評估/主觀問診/評估－非典型夜間肘痛腫塊與反覆關節血腫問診.md",
+      "title": "評估－非典型夜間肘痛腫塊與反覆關節血腫問診",
       "role": "相關",
       "type": "主觀問診",
       "template": "模板－主觀問診.md"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－肩胛帶骨性創傷身體檢查.md",
-      "title": "評估－肩胛帶骨性創傷身體檢查",
+      "path": "04_臨床評估/身體檢查/評估－肘部腫塊滑膜與神經血管身體檢查.md",
+      "title": "評估－肘部腫塊滑膜與神經血管身體檢查",
       "role": "相關",
       "type": "身體檢查",
       "template": "模板－身體檢查.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－肩盂與肩胛骨折影像及轉介分流.md",
-      "title": "評估－肩盂與肩胛骨折影像及轉介分流",
+      "path": "04_臨床評估/系統性評估/評估－持續性非典型肘痛與腫瘤樣病灶安全分流.md",
+      "title": "評估－持續性非典型肘痛與腫瘤樣病灶安全分流",
       "role": "相關",
       "type": "系統性評估",
       "template": "模板－系統性評估.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－大結節骨折脫臼神經血管與再位移追蹤.md",
-      "title": "評估－大結節骨折脫臼神經血管與再位移追蹤",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－髁上突正中神經與灌流誘發檢查.md",
+      "title": "特殊檢查－髁上突正中神經與灌流誘發檢查",
       "role": "相關",
-      "type": "系統性評估",
-      "template": "模板－系統性評估.md"
+      "type": "特殊檢查",
+      "template": "模板－特殊檢查.md"
     },
     {
-      "path": "06_功能性測試/上肢/功能性測試－SPADI 肩痛與失能指數.md",
-      "title": "功能性測試－SPADI 肩痛與失能指數",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－副肘肌動態尺神經症狀檢查.md",
+      "title": "特殊檢查－副肘肌動態尺神經症狀檢查",
+      "role": "相關",
+      "type": "特殊檢查",
+      "template": "模板－特殊檢查.md"
+    },
+    {
+      "path": "06_功能性測試/上肢/功能性測試－Mayo Elbow Performance Score.md",
+      "title": "功能性測試－Mayo Elbow Performance Score",
       "role": "相關",
       "type": "功能性測試",
       "template": "模板－功能性測試.md"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－肩胛帶骨折固定後活動與負荷進展.md",
-      "title": "運動治療－肩胛帶骨折固定後活動與負荷進展",
-      "role": "相關",
-      "type": "運動治療",
-      "template": "模板－運動治療.md"
-    },
-    {
-      "path": "05_處置與復健/運動治療/運動治療－大結節骨折後旋轉肌袖分階段恢復.md",
-      "title": "運動治療－大結節骨折後旋轉肌袖分階段恢復",
+      "path": "05_處置與復健/運動治療/運動治療－肘部滑膜病灶處置後活動與容量恢復.md",
+      "title": "運動治療－肘部滑膜病灶處置後活動與容量恢復",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
@@ -219,7 +220,7 @@
   ],
   "per_note_validation": [
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－肩盂骨折.md",
+      "path": "03_傷害與疾病/神經卡壓/傷害－肱骨髁上突症候群.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -228,7 +229,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－肱骨大結節骨折與肩脫臼.md",
+      "path": "03_傷害與疾病/神經卡壓/傷害－副肘肌相關尺神經卡壓.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -237,7 +238,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－喙突骨折.md",
+      "path": "03_傷害與疾病/過度使用/傷害－肘部類骨骨瘤.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -246,7 +247,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－肩峰與肩胛棘骨折.md",
+      "path": "03_傷害與疾病/過度使用/傷害－肘關節腱鞘巨細胞瘤.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -255,7 +256,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－浮動肩與肩胛帶雙重斷裂.md",
+      "path": "03_傷害與疾病/過度使用/傷害－血友病性肘關節病變.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -264,7 +265,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－肩盂關節面與肩胛頸.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－肱骨髁上突與 Struthers 韌帶.md",
       "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
@@ -273,8 +274,8 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－肱骨大結節與旋轉肌袖足印.md",
-      "template": "模板－骨骼或關節.md",
+      "path": "01_基礎解剖/肌肉/肌肉－副肘肌與肘隧道頂.md",
+      "template": "模板－肌肉.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -282,8 +283,8 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/韌帶/韌帶－上肩懸吊複合體.md",
-      "template": "模板－韌帶.md",
+      "path": "01_基礎解剖/神經/神經－正中神經於遠端臂髁上突通道.md",
+      "template": "模板－神經.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -291,7 +292,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－高能量肩胛帶創傷主觀問診.md",
+      "path": "04_臨床評估/主觀問診/評估－非典型夜間肘痛腫塊與反覆關節血腫問診.md",
       "template": "模板－主觀問診.md",
       "yaml": "passed",
       "h1": "passed",
@@ -300,7 +301,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－肩胛帶骨性創傷身體檢查.md",
+      "path": "04_臨床評估/身體檢查/評估－肘部腫塊滑膜與神經血管身體檢查.md",
       "template": "模板－身體檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -309,7 +310,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－肩盂與肩胛骨折影像及轉介分流.md",
+      "path": "04_臨床評估/系統性評估/評估－持續性非典型肘痛與腫瘤樣病灶安全分流.md",
       "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
@@ -318,8 +319,8 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－大結節骨折脫臼神經血管與再位移追蹤.md",
-      "template": "模板－系統性評估.md",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－髁上突正中神經與灌流誘發檢查.md",
+      "template": "模板－特殊檢查.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -327,7 +328,16 @@
       "links": "passed"
     },
     {
-      "path": "06_功能性測試/上肢/功能性測試－SPADI 肩痛與失能指數.md",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－副肘肌動態尺神經症狀檢查.md",
+      "template": "模板－特殊檢查.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "06_功能性測試/上肢/功能性測試－Mayo Elbow Performance Score.md",
       "template": "模板－功能性測試.md",
       "yaml": "passed",
       "h1": "passed",
@@ -336,16 +346,7 @@
       "links": "passed"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－肩胛帶骨折固定後活動與負荷進展.md",
-      "template": "模板－運動治療.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "05_處置與復健/運動治療/運動治療－大結節骨折後旋轉肌袖分階段恢復.md",
+      "path": "05_處置與復健/運動治療/運動治療－肘部滑膜病灶處置後活動與容量恢復.md",
       "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
@@ -355,29 +356,29 @@
     }
   ],
   "assets": [
-    "assets/anatomy/肩部第十輪肩胛帶骨性與懸吊環圖.svg",
-    "assets/assessment/肩部第十輪複雜肩胛帶創傷安全分流圖.svg",
-    "assets/assessment/肩部第十輪骨癒合後活動與負荷進展矩陣.svg"
+    "assets/anatomy/肘部第十輪髁上突與副肘肌神經通道圖.svg",
+    "assets/assessment/肘部第十輪非典型疼痛與腫塊安全分流圖.svg",
+    "assets/special-tests/肘部第十輪神經誘發檢查限制圖.svg"
   ],
   "sources_checked": [
-    "American College of Radiology. ACR Appropriateness Criteria: Acute Shoulder Pain. Revised 2024. https://acsearch.acr.org/docs/69433/Narrative/",
-    "Frich LH, Larsen MS. How to deal with a glenoid fracture. 2017. https://pmc.ncbi.nlm.nih.gov/articles/PMC5467683/",
-    "Glenoid fractures: a review of pathology, classification, treatment and results. 2014. https://pubmed.ncbi.nlm.nih.gov/24873091/",
-    "Articular and extra-articular scapula fracture. 2025. https://pubmed.ncbi.nlm.nih.gov/40998115/",
-    "Sling and forget it? A systematic review of operative versus nonoperative outcomes for scapula fractures. 2024. https://pubmed.ncbi.nlm.nih.gov/39048030/",
-    "Management of greater tuberosity fracture dislocations of the shoulder. 2024. https://pubmed.ncbi.nlm.nih.gov/39157260/",
-    "Treatment of isolated greater tuberosity fractures: a scoping review. 2025. https://pubmed.ncbi.nlm.nih.gov/41567234/",
-    "Secondary Displacement of Nonsurgically Managed Greater Tuberosity Fractures. 2025. https://pubmed.ncbi.nlm.nih.gov/40549939/",
-    "Fractures of the coracoid process: a systematic review. 2021. https://pubmed.ncbi.nlm.nih.gov/37588963/",
-    "Treatment of coracoid process fractures: a systematic review. 2021. https://pubmed.ncbi.nlm.nih.gov/32507949/",
-    "Nonunion of the so-called acromion: a systematic review with consideration of the terminology. 2023. https://pubmed.ncbi.nlm.nih.gov/37314525/",
-    "Extra-articular Fractures of the Scapula. 2025. https://pubmed.ncbi.nlm.nih.gov/42109501/",
-    "Clinical outcomes following conservative and surgical management of floating shoulder injuries: a systematic review. 2020. https://pubmed.ncbi.nlm.nih.gov/31812589/",
-    "Surgical vs. nonsurgical treatment of extra-articular scapula fractures: a systematic review and meta-analysis. 2025. https://pubmed.ncbi.nlm.nih.gov/41809069/",
-    "Superior shoulder suspensory complex disruptions: from injury pattern recognition to treatment decision-making. 2026. https://pubmed.ncbi.nlm.nih.gov/42472303/",
-    "Roach KE, et al. Development of a shoulder pain and disability index. 1991. https://pubmed.ncbi.nlm.nih.gov/11188601/",
-    "Heald SL, et al. The Shoulder Pain and Disability Index: construct validity and responsiveness. 1997. https://pubmed.ncbi.nlm.nih.gov/9327822/",
-    "Scapular Body Fracture in the Athlete: A Systematic Review. 2018. https://pmc.ncbi.nlm.nih.gov/articles/PMC6148589/"
+    "ACR Appropriateness Criteria Chronic Elbow Pain. 2022. https://acsearch.acr.org/docs/69423/Narrative/",
+    "Imaging of elbow entrapment neuropathies. 2025. https://doi.org/10.1186/s13244-025-01901-1",
+    "Supracondylar process syndrome: case report and literature review. 2014. https://pubmed.ncbi.nlm.nih.gov/24862112/",
+    "An anatomical investigation of rare upper limb neuropathies due to the Struthers' ligament or arcade: a meta-analysis. 2020. https://pubmed.ncbi.nlm.nih.gov/32394418/",
+    "The prevalence of anconeus epitrochlearis muscle and Osborne's ligament: meta-analysis. 2021. https://pubmed.ncbi.nlm.nih.gov/33551294/",
+    "Dynamic compression of the ulnar nerve associated with the anconeus epitrochlearis muscle. 2023. https://pubmed.ncbi.nlm.nih.gov/37521541/",
+    "Ultrasound parameters for cubital tunnel syndrome: systematic review and meta-analysis. 2019. https://pubmed.ncbi.nlm.nih.gov/30055161/",
+    "Arthroscopy versus radiofrequency ablation for intra- and juxta-articular elbow osteoid osteoma. 2022. https://pubmed.ncbi.nlm.nih.gov/35337326/",
+    "Intra-articular osteoid osteomas: imaging manifestations and mimics. 2024. https://pubmed.ncbi.nlm.nih.gov/38843097/",
+    "CT-guided radiofrequency ablation for osteoid osteomas: systematic review. 2021. https://pmc.ncbi.nlm.nih.gov/articles/PMC8193458/",
+    "Surgical outcome and recurrence rate of tenosynovial giant cell tumor in the elbow: literature review. 2019. https://pubmed.ncbi.nlm.nih.gov/31447124/",
+    "Soft tissue tumours of the elbow: current concepts. 2020. https://pmc.ncbi.nlm.nih.gov/articles/PMC6986393/",
+    "Current treatment strategies for diffuse tenosynovial giant cell tumor. 2025. https://pmc.ncbi.nlm.nih.gov/articles/PMC12783994/",
+    "WFH Guidelines for the Management of Hemophilia, 3rd edition. 2020. https://doi.org/10.1111/hae.14046",
+    "Haemophilic arthropathy: diagnosis, management, and aging patient considerations. 2024. https://pubmed.ncbi.nlm.nih.gov/38578694/",
+    "Haemophilic elbow arthropathy: mechanisms, management and future perspectives. 2025. https://pubmed.ncbi.nlm.nih.gov/41358666/",
+    "Accuracy and reliability of the Mayo Elbow Performance Score. 2014. https://pubmed.ncbi.nlm.nih.gov/24656392/",
+    "Elbow-specific clinical rating systems: validity, reliability, and responsiveness. 2013. https://pubmed.ncbi.nlm.nih.gov/23790677/"
   ],
   "validation": {
     "status": "passed",
@@ -397,5 +398,5 @@
       "ZIP CRC/extraction/bit comparison/path"
     ]
   },
-  "generated_at_utc": "2026-11-03T00:09:26.141271+00:00"
+  "generated_at_utc": "2026-11-04T00:13:12.583949+00:00"
 }
