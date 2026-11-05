@@ -2,7 +2,7 @@
 類型: 功能性測試
 區域: 手腕與手
 更新日期: "2026-11-05"
-tags: [手腕與手]
+tags: [手腕與手, 評估, 功能性測試]
 ---
 
 # 功能性測試－Michigan Hand Outcomes Questionnaire
