@@ -1,11 +1,11 @@
 {
   "schema_version": 10,
-  "date": "2026-11-05",
-  "region": "手腕與手第十輪",
+  "date": "2026-11-06",
+  "region": "胸腰椎第十輪",
   "github": {
     "repository": "janice880624/AT-Obsidian",
     "branch": "main",
-    "commit": "1811f75984392ad05305ab6edd592f29c277edf4",
+    "commit": "a5e67bda2c01baf7f1040cd49da5d3e763c533c8",
     "mode": "read-only"
   },
   "template_policy": {
@@ -81,9 +81,8 @@
       "模板－主觀問診.md",
       "模板－傷害.md",
       "模板－功能性測試.md",
-      "模板－特殊檢查.md",
+      "模板－神經.md",
       "模板－系統性評估.md",
-      "模板－肌腱.md",
       "模板－身體檢查.md",
       "模板－運動治療.md",
       "模板－骨骼或關節.md"
@@ -102,116 +101,116 @@
     "related_notes": 10,
     "knowledge_notes": 15,
     "svg": 3,
-    "index_or_support_files": 10
+    "index_or_support_files": 8
   },
   "topic_candidates_skipped": [
-    "手腕與手前九輪全部既有主題",
-    "已存在的正中神經解剖、Phalen Test、扳機指與腱鞘囊腫",
-    "無專屬模板的筆記類型",
+    "胸腰椎第一至第九輪全部既有主題",
+    "脊髓硬膜動靜脈瘻、海綿狀血管畸形、蛛網膜囊腫、蛛網膜網與牽繫脊髓等已存在主題",
+    "缺少專屬模板的筆記類型",
     "任何需要建立新資料夾的候選主題"
   ],
   "notes": [
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－腕隧道症候群.md",
-      "title": "傷害－腕隧道症候群",
+      "path": "03_傷害與疾病/神經卡壓/傷害－脊髓腦膜瘤.md",
+      "title": "傷害－脊髓腦膜瘤",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－Dupuytren 病.md",
-      "title": "傷害－Dupuytren 病",
+      "path": "03_傷害與疾病/神經卡壓/傷害－脊髓許旺細胞瘤.md",
+      "title": "傷害－脊髓許旺細胞瘤",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－手部腱鞘巨細胞瘤.md",
-      "title": "傷害－手部腱鞘巨細胞瘤",
+      "path": "03_傷害與疾病/神經卡壓/傷害－脊髓室管膜瘤.md",
+      "title": "傷害－脊髓室管膜瘤",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－甲下血管球瘤.md",
-      "title": "傷害－甲下血管球瘤",
+      "path": "03_傷害與疾病/過度使用/傷害－侵襲性椎體血管瘤.md",
+      "title": "傷害－侵襲性椎體血管瘤",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－手部內生軟骨瘤.md",
-      "title": "傷害－手部內生軟骨瘤",
+      "path": "03_傷害與疾病/神經卡壓/傷害－脊髓黏連性蛛網膜病變.md",
+      "title": "傷害－脊髓黏連性蛛網膜病變",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "01_基礎解剖/肌腱/肌腱－掌腱膜與指屈肌腱鞘.md",
-      "title": "肌腱－掌腱膜與指屈肌腱鞘",
-      "role": "相關",
-      "type": "肌腱",
-      "template": "模板－肌腱.md"
-    },
-    {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－手部短管骨與髓腔.md",
-      "title": "骨骼與關節－手部短管骨與髓腔",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－脊髓硬膜內髓外與髓內空間.md",
+      "title": "骨骼與關節－脊髓硬膜內髓外與髓內空間",
       "role": "相關",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－末節指骨與甲下單位.md",
-      "title": "骨骼與關節－末節指骨與甲下單位",
+      "path": "01_基礎解剖/神經/神經－脊髓中央管與室管膜細胞.md",
+      "title": "神經－脊髓中央管與室管膜細胞",
+      "role": "相關",
+      "type": "神經",
+      "template": "模板－神經.md"
+    },
+    {
+      "path": "01_基礎解剖/骨骼/骨骼與關節－椎體血管網與硬膜外延伸.md",
+      "title": "骨骼與關節－椎體血管網與硬膜外延伸",
       "role": "相關",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－慢性手麻掌部結節與甲下痛問診.md",
-      "title": "評估－慢性手麻掌部結節與甲下痛問診",
+      "path": "04_臨床評估/主觀問診/評估－漸進性脊髓腫瘤與非機械性背痛問診.md",
+      "title": "評估－漸進性脊髓腫瘤與非機械性背痛問診",
       "role": "相關",
       "type": "主觀問診",
       "template": "模板－主觀問診.md"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－手部腫塊甲下與神經血管身體檢查.md",
-      "title": "評估－手部腫塊甲下與神經血管身體檢查",
+      "path": "04_臨床評估/身體檢查/評估－脊髓腫瘤神經學身體檢查.md",
+      "title": "評估－脊髓腫瘤神經學身體檢查",
       "role": "相關",
       "type": "身體檢查",
       "template": "模板－身體檢查.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－慢性手麻與手部腫塊安全分流.md",
-      "title": "評估－慢性手麻與手部腫塊安全分流",
+      "path": "04_臨床評估/系統性評估/評估－硬膜內與椎體占位病灶安全分流.md",
+      "title": "評估－硬膜內與椎體占位病灶安全分流",
       "role": "相關",
       "type": "系統性評估",
       "template": "模板－系統性評估.md"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Durkan 腕隧道壓迫測試.md",
-      "title": "特殊檢查－Durkan 腕隧道壓迫測試",
+      "path": "04_臨床評估/系統性評估/評估－椎體血管瘤偶發發現與侵襲表現分流.md",
+      "title": "評估－椎體血管瘤偶發發現與侵襲表現分流",
       "role": "相關",
-      "type": "特殊檢查",
-      "template": "模板－特殊檢查.md"
+      "type": "系統性評估",
+      "template": "模板－系統性評估.md"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－甲下點壓與冷敏感檢查.md",
-      "title": "特殊檢查－甲下點壓與冷敏感檢查",
-      "role": "相關",
-      "type": "特殊檢查",
-      "template": "模板－特殊檢查.md"
-    },
-    {
-      "path": "06_功能性測試/上肢/功能性測試－Michigan Hand Outcomes Questionnaire.md",
-      "title": "功能性測試－Michigan Hand Outcomes Questionnaire",
+      "path": "06_功能性測試/軀幹/功能性測試－Modified McCormick Scale.md",
+      "title": "功能性測試－Modified McCormick Scale",
       "role": "相關",
       "type": "功能性測試",
       "template": "模板－功能性測試.md"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－手部神經與腫塊處置後功能恢復.md",
-      "title": "運動治療－手部神經與腫塊處置後功能恢復",
+      "path": "05_處置與復健/運動治療/運動治療－脊髓腫瘤處置後轉位步行進展.md",
+      "title": "運動治療－脊髓腫瘤處置後轉位步行進展",
+      "role": "相關",
+      "type": "運動治療",
+      "template": "模板－運動治療.md"
+    },
+    {
+      "path": "05_處置與復健/運動治療/運動治療－脊髓病灶穩定後疲勞與活動節奏管理.md",
+      "title": "運動治療－脊髓病灶穩定後疲勞與活動節奏管理",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
@@ -219,7 +218,7 @@
   ],
   "per_note_validation": [
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－腕隧道症候群.md",
+      "path": "03_傷害與疾病/神經卡壓/傷害－脊髓腦膜瘤.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -228,7 +227,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－Dupuytren 病.md",
+      "path": "03_傷害與疾病/神經卡壓/傷害－脊髓許旺細胞瘤.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -237,7 +236,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－手部腱鞘巨細胞瘤.md",
+      "path": "03_傷害與疾病/神經卡壓/傷害－脊髓室管膜瘤.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -246,7 +245,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－甲下血管球瘤.md",
+      "path": "03_傷害與疾病/過度使用/傷害－侵襲性椎體血管瘤.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -255,7 +254,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－手部內生軟骨瘤.md",
+      "path": "03_傷害與疾病/神經卡壓/傷害－脊髓黏連性蛛網膜病變.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -264,16 +263,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/肌腱/肌腱－掌腱膜與指屈肌腱鞘.md",
-      "template": "模板－肌腱.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－手部短管骨與髓腔.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－脊髓硬膜內髓外與髓內空間.md",
       "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
@@ -282,7 +272,16 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－末節指骨與甲下單位.md",
+      "path": "01_基礎解剖/神經/神經－脊髓中央管與室管膜細胞.md",
+      "template": "模板－神經.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "01_基礎解剖/骨骼/骨骼與關節－椎體血管網與硬膜外延伸.md",
       "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
@@ -291,7 +290,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－慢性手麻掌部結節與甲下痛問診.md",
+      "path": "04_臨床評估/主觀問診/評估－漸進性脊髓腫瘤與非機械性背痛問診.md",
       "template": "模板－主觀問診.md",
       "yaml": "passed",
       "h1": "passed",
@@ -300,7 +299,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－手部腫塊甲下與神經血管身體檢查.md",
+      "path": "04_臨床評估/身體檢查/評估－脊髓腫瘤神經學身體檢查.md",
       "template": "模板－身體檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -309,7 +308,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－慢性手麻與手部腫塊安全分流.md",
+      "path": "04_臨床評估/系統性評估/評估－硬膜內與椎體占位病灶安全分流.md",
       "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
@@ -318,8 +317,8 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－Durkan 腕隧道壓迫測試.md",
-      "template": "模板－特殊檢查.md",
+      "path": "04_臨床評估/系統性評估/評估－椎體血管瘤偶發發現與侵襲表現分流.md",
+      "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -327,16 +326,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/特殊檢查/特殊檢查－甲下點壓與冷敏感檢查.md",
-      "template": "模板－特殊檢查.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "06_功能性測試/上肢/功能性測試－Michigan Hand Outcomes Questionnaire.md",
+      "path": "06_功能性測試/軀幹/功能性測試－Modified McCormick Scale.md",
       "template": "模板－功能性測試.md",
       "yaml": "passed",
       "h1": "passed",
@@ -345,7 +335,16 @@
       "links": "passed"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－手部神經與腫塊處置後功能恢復.md",
+      "path": "05_處置與復健/運動治療/運動治療－脊髓腫瘤處置後轉位步行進展.md",
+      "template": "模板－運動治療.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "05_處置與復健/運動治療/運動治療－脊髓病灶穩定後疲勞與活動節奏管理.md",
       "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
@@ -355,26 +354,24 @@
     }
   ],
   "assets": [
-    "assets/anatomy/手腕與手第十輪掌部腫塊與通道圖.svg",
-    "assets/assessment/手腕與手第十輪慢性手麻與腫塊安全分流圖.svg",
-    "assets/special-tests/手腕與手第十輪特殊檢查限制圖.svg"
+    "assets/anatomy/胸腰椎第十輪硬膜內髓外髓內與椎體病灶圖.svg",
+    "assets/assessment/胸腰椎第十輪進展神經症狀安全分流圖.svg",
+    "assets/assessment/胸腰椎第十輪神經穩定後功能追蹤圖.svg"
   ],
   "sources_checked": [
-    "AAOS Management of Carpal Tunnel Syndrome CPG, 2024-05-17. https://www.aaos.org/cts2cpg",
-    "APTA Carpal Tunnel Syndrome CPG Revision 2026. https://doi.org/10.2519/jospt.2026.0301",
-    "CTS provocative maneuvers systematic review, 2023. https://pubmed.ncbi.nlm.nih.gov/37366626/",
-    "Dutch Multidisciplinary Guideline on Dupuytren Disease, 2023. https://pubmed.ncbi.nlm.nih.gov/36974283/",
-    "Dupuytren treatments systematic review, 2024. https://pubmed.ncbi.nlm.nih.gov/39451139/",
-    "Giant cell tumor of tendon sheath critical review, 2025. https://doi.org/10.25259/JMSR_246_2024",
-    "Diffuse TGCT treatment review, 2026. https://pubmed.ncbi.nlm.nih.gov/41523664/",
-    "Subungual glomus tumor review, 2023. https://pubmed.ncbi.nlm.nih.gov/37866479/",
-    "Musculoskeletal glomus tumor 218-lesion review, 2024. https://pubmed.ncbi.nlm.nih.gov/39078477/",
-    "Glomus tumour of the hand diagnostic tests, 2002. https://pubmed.ncbi.nlm.nih.gov/12074607/",
-    "Enchondroma of the Hand evaluation and management. https://pubmed.ncbi.nlm.nih.gov/27454024/",
-    "Long-term follow-up of hand enchondromas, 2025. https://pubmed.ncbi.nlm.nih.gov/40386008/",
-    "Michigan Hand Outcomes Questionnaire validation. https://pubmed.ncbi.nlm.nih.gov/9708370/",
-    "MHQ measurement properties systematic review, 2022. https://pubmed.ncbi.nlm.nih.gov/35995419/",
-    "Short algorithm-based MHQ validation, 2026. https://pubmed.ncbi.nlm.nih.gov/41934315/"
+    "Spinal Meningiomas: comprehensive review and update. 2024. https://pubmed.ncbi.nlm.nih.gov/38611105/",
+    "Resection vs coagulation of dural attachment in spinal meningioma: systematic review and meta-analysis. 2024. https://pubmed.ncbi.nlm.nih.gov/39167255/",
+    "Clinical characteristics and surgical outcomes of 2542 patients with spinal schwannomas: systematic review and meta-analysis. 2024. https://pubmed.ncbi.nlm.nih.gov/38006933/",
+    "Clinical characteristics, management, and outcomes of intramedullary spinal cord ependymomas: systematic review and meta-analysis. 2025. https://pubmed.ncbi.nlm.nih.gov/41988002/",
+    "National Cancer Institute. Ependymoma: Diagnosis and Treatment. https://www.cancer.gov/rare-brain-spine-tumor/tumors/ependymoma",
+    "Outcomes following different treatment modalities of aggressive vertebral hemangiomas: systematic review and patient-level meta-analysis. 2026. https://pubmed.ncbi.nlm.nih.gov/40815171/",
+    "Vertebral hemangiomas: a review on diagnosis and management. 2024. https://pubmed.ncbi.nlm.nih.gov/38789994/",
+    "Spinal adhesive arachnoidopathy: a comprehensive systematic review of 510 cases. 2024. https://pubmed.ncbi.nlm.nih.gov/39435986/",
+    "ACR Appropriateness Criteria Myelopathy: 2026 Update. https://pubmed.ncbi.nlm.nih.gov/42340276/",
+    "Assessment of outcome after intradural spinal tumor surgery using COMI and modified McCormick Scale. 2015. https://pubmed.ncbi.nlm.nih.gov/26235018/",
+    "Factors determining rehabilitation needs after intradural spinal tumor surgery: prospective study. 2025. https://pubmed.ncbi.nlm.nih.gov/39851419/",
+    "Role of Rehabilitation in Spine Tumors. 2024. https://pubmed.ncbi.nlm.nih.gov/38364027/",
+    "The effect of timing on rehabilitation results in tumor-related spinal cord injuries. 2026. https://pubmed.ncbi.nlm.nih.gov/42306010/"
   ],
   "validation": {
     "status": "passed",
@@ -394,5 +391,5 @@
       "ZIP CRC/extraction/bit comparison/path"
     ]
   },
-  "generated_at_utc": "2026-11-05T00:17:18.636905+00:00"
+  "generated_at_utc": "2026-11-06T00:08:00.250339+00:00"
 }
