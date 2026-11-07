@@ -1,11 +1,11 @@
 {
   "schema_version": 10,
-  "date": "2026-11-06",
-  "region": "胸腰椎第十輪",
+  "date": "2026-11-07",
+  "region": "骨盆與髖第十輪",
   "github": {
     "repository": "janice880624/AT-Obsidian",
     "branch": "main",
-    "commit": "a5e67bda2c01baf7f1040cd49da5d3e763c533c8",
+    "commit": "559af21751955d3d57a1d5d384bfae02a4f3c8d7",
     "mode": "read-only"
   },
   "template_policy": {
@@ -80,8 +80,6 @@
     "used_templates": [
       "模板－主觀問診.md",
       "模板－傷害.md",
-      "模板－功能性測試.md",
-      "模板－神經.md",
       "模板－系統性評估.md",
       "模板－身體檢查.md",
       "模板－運動治療.md",
@@ -101,116 +99,116 @@
     "related_notes": 10,
     "knowledge_notes": 15,
     "svg": 3,
-    "index_or_support_files": 8
+    "index_or_support_files": 7
   },
   "topic_candidates_skipped": [
-    "胸腰椎第一至第九輪全部既有主題",
-    "脊髓硬膜動靜脈瘻、海綿狀血管畸形、蛛網膜囊腫、蛛網膜網與牽繫脊髓等已存在主題",
+    "骨盆與髖第一至第九輪全部既有主題",
+    "髖關節感染、感染性薦髂關節炎、髖部類骨骨瘤、腱鞘巨細胞瘤等已存在主題",
     "缺少專屬模板的筆記類型",
     "任何需要建立新資料夾的候選主題"
   ],
   "notes": [
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－脊髓腦膜瘤.md",
-      "title": "傷害－脊髓腦膜瘤",
+      "path": "03_傷害與疾病/急性傷害/傷害－髂腰肌膿瘍.md",
+      "title": "傷害－髂腰肌膿瘍",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－脊髓許旺細胞瘤.md",
-      "title": "傷害－脊髓許旺細胞瘤",
+      "path": "03_傷害與疾病/急性傷害/傷害－骨盆感染性骨髓炎.md",
+      "title": "傷害－骨盆感染性骨髓炎",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－脊髓室管膜瘤.md",
-      "title": "傷害－脊髓室管膜瘤",
+      "path": "03_傷害與疾病/急性傷害/傷害－恥骨聯合感染性關節炎與骨髓炎.md",
+      "title": "傷害－恥骨聯合感染性關節炎與骨髓炎",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－侵襲性椎體血管瘤.md",
-      "title": "傷害－侵襲性椎體血管瘤",
+      "path": "03_傷害與疾病/過度使用/傷害－近端股骨軟骨母細胞瘤.md",
+      "title": "傷害－近端股骨軟骨母細胞瘤",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－脊髓黏連性蛛網膜病變.md",
-      "title": "傷害－脊髓黏連性蛛網膜病變",
+      "path": "03_傷害與疾病/過度使用/傷害－髂前下棘下撞擊症候群.md",
+      "title": "傷害－髂前下棘下撞擊症候群",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－脊髓硬膜內髓外與髓內空間.md",
-      "title": "骨骼與關節－脊髓硬膜內髓外與髓內空間",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－髂前下棘與髖臼前上緣.md",
+      "title": "骨骼與關節－髂前下棘與髖臼前上緣",
       "role": "相關",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "01_基礎解剖/神經/神經－脊髓中央管與室管膜細胞.md",
-      "title": "神經－脊髓中央管與室管膜細胞",
-      "role": "相關",
-      "type": "神經",
-      "template": "模板－神經.md"
-    },
-    {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－椎體血管網與硬膜外延伸.md",
-      "title": "骨骼與關節－椎體血管網與硬膜外延伸",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－骨盆骨髓腔與髂腰肌筋膜間隙.md",
+      "title": "骨骼與關節－骨盆骨髓腔與髂腰肌筋膜間隙",
       "role": "相關",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－漸進性脊髓腫瘤與非機械性背痛問診.md",
-      "title": "評估－漸進性脊髓腫瘤與非機械性背痛問診",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－近端股骨骨骺與良性骨腫瘤區.md",
+      "title": "骨骼與關節－近端股骨骨骺與良性骨腫瘤區",
+      "role": "相關",
+      "type": "骨骼或關節",
+      "template": "模板－骨骼或關節.md"
+    },
+    {
+      "path": "04_臨床評估/主觀問診/評估－發燒合併深部腹股溝與恥骨痛問診.md",
+      "title": "評估－發燒合併深部腹股溝與恥骨痛問診",
       "role": "相關",
       "type": "主觀問診",
       "template": "模板－主觀問診.md"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－脊髓腫瘤神經學身體檢查.md",
-      "title": "評估－脊髓腫瘤神經學身體檢查",
+      "path": "04_臨床評估/身體檢查/評估－骨盆感染與髂腰肌深部病灶身體檢查.md",
+      "title": "評估－骨盆感染與髂腰肌深部病灶身體檢查",
       "role": "相關",
       "type": "身體檢查",
       "template": "模板－身體檢查.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－硬膜內與椎體占位病灶安全分流.md",
-      "title": "評估－硬膜內與椎體占位病灶安全分流",
+      "path": "04_臨床評估/系統性評估/評估－兒童青少年骨盆骨髓炎與髖痛分流.md",
+      "title": "評估－兒童青少年骨盆骨髓炎與髖痛分流",
       "role": "相關",
       "type": "系統性評估",
       "template": "模板－系統性評估.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－椎體血管瘤偶發發現與侵襲表現分流.md",
-      "title": "評估－椎體血管瘤偶發發現與侵襲表現分流",
+      "path": "04_臨床評估/系統性評估/評估－恥骨聯合感染與運動性恥骨痛分流.md",
+      "title": "評估－恥骨聯合感染與運動性恥骨痛分流",
       "role": "相關",
       "type": "系統性評估",
       "template": "模板－系統性評估.md"
     },
     {
-      "path": "06_功能性測試/軀幹/功能性測試－Modified McCormick Scale.md",
-      "title": "功能性測試－Modified McCormick Scale",
+      "path": "04_臨床評估/系統性評估/評估－青少年近端股骨良性骨腫瘤安全分流.md",
+      "title": "評估－青少年近端股骨良性骨腫瘤安全分流",
       "role": "相關",
-      "type": "功能性測試",
-      "template": "模板－功能性測試.md"
+      "type": "系統性評估",
+      "template": "模板－系統性評估.md"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－脊髓腫瘤處置後轉位步行進展.md",
-      "title": "運動治療－脊髓腫瘤處置後轉位步行進展",
+      "path": "04_臨床評估/系統性評估/評估－髂前下棘下撞擊與前髖痛評估.md",
+      "title": "評估－髂前下棘下撞擊與前髖痛評估",
       "role": "相關",
-      "type": "運動治療",
-      "template": "模板－運動治療.md"
+      "type": "系統性評估",
+      "template": "模板－系統性評估.md"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－脊髓病灶穩定後疲勞與活動節奏管理.md",
-      "title": "運動治療－脊髓病灶穩定後疲勞與活動節奏管理",
+      "path": "05_處置與復健/運動治療/運動治療－骨盆感染處置後步態與髖功能恢復.md",
+      "title": "運動治療－骨盆感染處置後步態與髖功能恢復",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
@@ -218,7 +216,7 @@
   ],
   "per_note_validation": [
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－脊髓腦膜瘤.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－髂腰肌膿瘍.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -227,7 +225,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－脊髓許旺細胞瘤.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－骨盆感染性骨髓炎.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -236,7 +234,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－脊髓室管膜瘤.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－恥骨聯合感染性關節炎與骨髓炎.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -245,7 +243,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－侵襲性椎體血管瘤.md",
+      "path": "03_傷害與疾病/過度使用/傷害－近端股骨軟骨母細胞瘤.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -254,7 +252,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－脊髓黏連性蛛網膜病變.md",
+      "path": "03_傷害與疾病/過度使用/傷害－髂前下棘下撞擊症候群.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -263,7 +261,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－脊髓硬膜內髓外與髓內空間.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－髂前下棘與髖臼前上緣.md",
       "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
@@ -272,16 +270,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/神經/神經－脊髓中央管與室管膜細胞.md",
-      "template": "模板－神經.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－椎體血管網與硬膜外延伸.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－骨盆骨髓腔與髂腰肌筋膜間隙.md",
       "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
@@ -290,7 +279,16 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－漸進性脊髓腫瘤與非機械性背痛問診.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－近端股骨骨骺與良性骨腫瘤區.md",
+      "template": "模板－骨骼或關節.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "04_臨床評估/主觀問診/評估－發燒合併深部腹股溝與恥骨痛問診.md",
       "template": "模板－主觀問診.md",
       "yaml": "passed",
       "h1": "passed",
@@ -299,7 +297,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－脊髓腫瘤神經學身體檢查.md",
+      "path": "04_臨床評估/身體檢查/評估－骨盆感染與髂腰肌深部病灶身體檢查.md",
       "template": "模板－身體檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -308,7 +306,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－硬膜內與椎體占位病灶安全分流.md",
+      "path": "04_臨床評估/系統性評估/評估－兒童青少年骨盆骨髓炎與髖痛分流.md",
       "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
@@ -317,7 +315,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－椎體血管瘤偶發發現與侵襲表現分流.md",
+      "path": "04_臨床評估/系統性評估/評估－恥骨聯合感染與運動性恥骨痛分流.md",
       "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
@@ -326,8 +324,8 @@
       "links": "passed"
     },
     {
-      "path": "06_功能性測試/軀幹/功能性測試－Modified McCormick Scale.md",
-      "template": "模板－功能性測試.md",
+      "path": "04_臨床評估/系統性評估/評估－青少年近端股骨良性骨腫瘤安全分流.md",
+      "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -335,8 +333,8 @@
       "links": "passed"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－脊髓腫瘤處置後轉位步行進展.md",
-      "template": "模板－運動治療.md",
+      "path": "04_臨床評估/系統性評估/評估－髂前下棘下撞擊與前髖痛評估.md",
+      "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -344,7 +342,7 @@
       "links": "passed"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－脊髓病灶穩定後疲勞與活動節奏管理.md",
+      "path": "05_處置與復健/運動治療/運動治療－骨盆感染處置後步態與髖功能恢復.md",
       "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
@@ -354,24 +352,28 @@
     }
   ],
   "assets": [
-    "assets/anatomy/胸腰椎第十輪硬膜內髓外髓內與椎體病灶圖.svg",
-    "assets/assessment/胸腰椎第十輪進展神經症狀安全分流圖.svg",
-    "assets/assessment/胸腰椎第十輪神經穩定後功能追蹤圖.svg"
+    "assets/anatomy/骨盆髖第十輪感染骨腫瘤與關節外撞擊圖.svg",
+    "assets/assessment/骨盆髖第十輪感染與骨病灶安全分流圖.svg",
+    "assets/assessment/骨盆髖第十輪醫療穩定後負重進展圖.svg"
   ],
   "sources_checked": [
-    "Spinal Meningiomas: comprehensive review and update. 2024. https://pubmed.ncbi.nlm.nih.gov/38611105/",
-    "Resection vs coagulation of dural attachment in spinal meningioma: systematic review and meta-analysis. 2024. https://pubmed.ncbi.nlm.nih.gov/39167255/",
-    "Clinical characteristics and surgical outcomes of 2542 patients with spinal schwannomas: systematic review and meta-analysis. 2024. https://pubmed.ncbi.nlm.nih.gov/38006933/",
-    "Clinical characteristics, management, and outcomes of intramedullary spinal cord ependymomas: systematic review and meta-analysis. 2025. https://pubmed.ncbi.nlm.nih.gov/41988002/",
-    "National Cancer Institute. Ependymoma: Diagnosis and Treatment. https://www.cancer.gov/rare-brain-spine-tumor/tumors/ependymoma",
-    "Outcomes following different treatment modalities of aggressive vertebral hemangiomas: systematic review and patient-level meta-analysis. 2026. https://pubmed.ncbi.nlm.nih.gov/40815171/",
-    "Vertebral hemangiomas: a review on diagnosis and management. 2024. https://pubmed.ncbi.nlm.nih.gov/38789994/",
-    "Spinal adhesive arachnoidopathy: a comprehensive systematic review of 510 cases. 2024. https://pubmed.ncbi.nlm.nih.gov/39435986/",
-    "ACR Appropriateness Criteria Myelopathy: 2026 Update. https://pubmed.ncbi.nlm.nih.gov/42340276/",
-    "Assessment of outcome after intradural spinal tumor surgery using COMI and modified McCormick Scale. 2015. https://pubmed.ncbi.nlm.nih.gov/26235018/",
-    "Factors determining rehabilitation needs after intradural spinal tumor surgery: prospective study. 2025. https://pubmed.ncbi.nlm.nih.gov/39851419/",
-    "Role of Rehabilitation in Spine Tumors. 2024. https://pubmed.ncbi.nlm.nih.gov/38364027/",
-    "The effect of timing on rehabilitation results in tumor-related spinal cord injuries. 2026. https://pubmed.ncbi.nlm.nih.gov/42306010/"
+    "Therapeutic strategies for and clinical outcomes in iliopsoas muscle abscess: systematic review and meta-analysis. 2026. https://pubmed.ncbi.nlm.nih.gov/42575815/",
+    "Evaluating Imaging Techniques for Diagnosing and Drainage Guidance of Psoas Muscle Abscess: systematic review. 2024. https://pubmed.ncbi.nlm.nih.gov/38892910/",
+    "Iliopsoas Abscess: a narrative review. 2026. https://pubmed.ncbi.nlm.nih.gov/41482633/",
+    "A systematic review of pelvic infective osteomyelitis in children. 2024. https://pubmed.ncbi.nlm.nih.gov/39424291/",
+    "Pelvic Osteomyelitis. 2025. https://pubmed.ncbi.nlm.nih.gov/40148196/",
+    "PIDS/IDSA Guideline on Diagnosis and Management of Acute Hematogenous Osteomyelitis in Pediatrics. 2021. https://pubmed.ncbi.nlm.nih.gov/34350458/",
+    "Treatment of osteitis pubis and osteomyelitis of the pubic symphysis in athletes: systematic review. 2011. https://pubmed.ncbi.nlm.nih.gov/18812419/",
+    "Septic arthritis and osteomyelitis of the pubic symphysis: retrospective study of 26 patients. 2022. https://pubmed.ncbi.nlm.nih.gov/35251903/",
+    "Septic arthritis of the pubic symphysis: review of 100 cases. 2003. https://pubmed.ncbi.nlm.nih.gov/14530783/",
+    "Surgical treatment of benign osteolytic lesions in the femoral head and neck: systematic review. 2021. https://pubmed.ncbi.nlm.nih.gov/34134687/",
+    "Chondroblastoma of the femoral head: current and future therapeutic options. 2025. https://pubmed.ncbi.nlm.nih.gov/40606223/",
+    "Direct anterior approach with surgical hip dislocation for juvenile femoral head chondroblastoma: case series and systematic review. 2025. https://pubmed.ncbi.nlm.nih.gov/41648051/",
+    "Imaging diagnosis, prevalence, and clinical outcomes for AIIS impingement: systematic review and meta-analysis. 2022. https://pubmed.ncbi.nlm.nih.gov/36389619/",
+    "Arthroscopic subspine decompression in heterogeneous populations: systematic review. 2022. https://pubmed.ncbi.nlm.nih.gov/35157962/",
+    "Extra-articular hip impingement: subspine, iliopsoas, and ischiofemoral impingement. 2025. https://pubmed.ncbi.nlm.nih.gov/41031635/",
+    "ACR Appropriateness Criteria Chronic Hip Pain: 2022 Update. https://pubmed.ncbi.nlm.nih.gov/37236751/",
+    "ACR Appropriateness Criteria Suspected Primary Bone Tumors: 2024 Update. https://pubmed.ncbi.nlm.nih.gov/40409893/"
   ],
   "validation": {
     "status": "passed",
@@ -391,5 +393,5 @@
       "ZIP CRC/extraction/bit comparison/path"
     ]
   },
-  "generated_at_utc": "2026-11-06T00:08:00.250339+00:00"
+  "generated_at_utc": "2026-11-07T00:05:48.672419+00:00"
 }
