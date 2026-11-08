@@ -1,11 +1,11 @@
 {
   "schema_version": 10,
-  "date": "2026-11-07",
-  "region": "骨盆與髖第十輪",
+  "date": "2026-11-08",
+  "region": "膝部第十輪",
   "github": {
     "repository": "janice880624/AT-Obsidian",
     "branch": "main",
-    "commit": "559af21751955d3d57a1d5d384bfae02a4f3c8d7",
+    "commit": "c4705c743ead3143730c1cfabce32a5d02a6dd5f",
     "mode": "read-only"
   },
   "template_policy": {
@@ -80,6 +80,7 @@
     "used_templates": [
       "模板－主觀問診.md",
       "模板－傷害.md",
+      "模板－功能性測試.md",
       "模板－系統性評估.md",
       "模板－身體檢查.md",
       "模板－運動治療.md",
@@ -99,116 +100,116 @@
     "related_notes": 10,
     "knowledge_notes": 15,
     "svg": 3,
-    "index_or_support_files": 7
+    "index_or_support_files": 8
   },
   "topic_candidates_skipped": [
-    "骨盆與髖第一至第九輪全部既有主題",
-    "髖關節感染、感染性薦髂關節炎、髖部類骨骨瘤、腱鞘巨細胞瘤等已存在主題",
+    "膝部第一至第九輪全部既有主題",
+    "既有感染、囊腫、韌帶、半月板、骨折與滑膜病灶",
     "缺少專屬模板的筆記類型",
     "任何需要建立新資料夾的候選主題"
   ],
   "notes": [
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－髂腰肌膿瘍.md",
-      "title": "傷害－髂腰肌膿瘍",
+      "path": "03_傷害與疾病/過度使用/傷害－膝周骨肉瘤.md",
+      "title": "傷害－膝周骨肉瘤",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－骨盆感染性骨髓炎.md",
-      "title": "傷害－骨盆感染性骨髓炎",
+      "path": "03_傷害與疾病/過度使用/傷害－膝周骨巨細胞瘤.md",
+      "title": "傷害－膝周骨巨細胞瘤",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－恥骨聯合感染性關節炎與骨髓炎.md",
-      "title": "傷害－恥骨聯合感染性關節炎與骨髓炎",
+      "path": "03_傷害與疾病/過度使用/傷害－膝周滑膜肉瘤.md",
+      "title": "傷害－膝周滑膜肉瘤",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－近端股骨軟骨母細胞瘤.md",
-      "title": "傷害－近端股骨軟骨母細胞瘤",
+      "path": "03_傷害與疾病/過度使用/傷害－膕動脈卡壓症候群.md",
+      "title": "傷害－膕動脈卡壓症候群",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－髂前下棘下撞擊症候群.md",
-      "title": "傷害－髂前下棘下撞擊症候群",
+      "path": "03_傷害與疾病/過度使用/傷害－腓腸肌籽骨症候群.md",
+      "title": "傷害－腓腸肌籽骨症候群",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－髂前下棘與髖臼前上緣.md",
-      "title": "骨骼與關節－髂前下棘與髖臼前上緣",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－膝周骨腫瘤好發區與骨膜反應.md",
+      "title": "骨骼與關節－膝周骨腫瘤好發區與骨膜反應",
       "role": "相關",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－骨盆骨髓腔與髂腰肌筋膜間隙.md",
-      "title": "骨骼與關節－骨盆骨髓腔與髂腰肌筋膜間隙",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－膕窩與膕動脈動態卡壓關係.md",
+      "title": "骨骼與關節－膕窩與膕動脈動態卡壓關係",
       "role": "相關",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－近端股骨骨骺與良性骨腫瘤區.md",
-      "title": "骨骼與關節－近端股骨骨骺與良性骨腫瘤區",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－腓腸肌籽骨與膝後外側結構.md",
+      "title": "骨骼與關節－腓腸肌籽骨與膝後外側結構",
       "role": "相關",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－發燒合併深部腹股溝與恥骨痛問診.md",
-      "title": "評估－發燒合併深部腹股溝與恥骨痛問診",
+      "path": "04_臨床評估/主觀問診/評估－持續膝周骨痛與腫塊主觀問診.md",
+      "title": "評估－持續膝周骨痛與腫塊主觀問診",
       "role": "相關",
       "type": "主觀問診",
       "template": "模板－主觀問診.md"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－骨盆感染與髂腰肌深部病灶身體檢查.md",
-      "title": "評估－骨盆感染與髂腰肌深部病灶身體檢查",
+      "path": "04_臨床評估/身體檢查/評估－膝周腫塊與神經血管身體檢查.md",
+      "title": "評估－膝周腫塊與神經血管身體檢查",
       "role": "相關",
       "type": "身體檢查",
       "template": "模板－身體檢查.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－兒童青少年骨盆骨髓炎與髖痛分流.md",
-      "title": "評估－兒童青少年骨盆骨髓炎與髖痛分流",
+      "path": "04_臨床評估/系統性評估/評估－疑似膝周骨腫瘤影像與轉介流程.md",
+      "title": "評估－疑似膝周骨腫瘤影像與轉介流程",
       "role": "相關",
       "type": "系統性評估",
       "template": "模板－系統性評估.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－恥骨聯合感染與運動性恥骨痛分流.md",
-      "title": "評估－恥骨聯合感染與運動性恥骨痛分流",
+      "path": "04_臨床評估/系統性評估/評估－膝周軟組織腫塊肉瘤紅旗分流.md",
+      "title": "評估－膝周軟組織腫塊肉瘤紅旗分流",
       "role": "相關",
       "type": "系統性評估",
       "template": "模板－系統性評估.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－青少年近端股骨良性骨腫瘤安全分流.md",
-      "title": "評估－青少年近端股骨良性骨腫瘤安全分流",
+      "path": "04_臨床評估/系統性評估/評估－運動誘發小腿痛與膕動脈安全分流.md",
+      "title": "評估－運動誘發小腿痛與膕動脈安全分流",
       "role": "相關",
       "type": "系統性評估",
       "template": "模板－系統性評估.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－髂前下棘下撞擊與前髖痛評估.md",
-      "title": "評估－髂前下棘下撞擊與前髖痛評估",
+      "path": "06_功能性測試/下肢/功能性測試－MSTS 下肢功能評分.md",
+      "title": "功能性測試－MSTS 下肢功能評分",
       "role": "相關",
-      "type": "系統性評估",
-      "template": "模板－系統性評估.md"
+      "type": "功能性測試",
+      "template": "模板－功能性測試.md"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－骨盆感染處置後步態與髖功能恢復.md",
-      "title": "運動治療－骨盆感染處置後步態與髖功能恢復",
+      "path": "05_處置與復健/運動治療/運動治療－膝周腫瘤與血管處置後分期功能恢復.md",
+      "title": "運動治療－膝周腫瘤與血管處置後分期功能恢復",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
@@ -216,7 +217,7 @@
   ],
   "per_note_validation": [
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－髂腰肌膿瘍.md",
+      "path": "03_傷害與疾病/過度使用/傷害－膝周骨肉瘤.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -225,7 +226,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－骨盆感染性骨髓炎.md",
+      "path": "03_傷害與疾病/過度使用/傷害－膝周骨巨細胞瘤.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -234,7 +235,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－恥骨聯合感染性關節炎與骨髓炎.md",
+      "path": "03_傷害與疾病/過度使用/傷害－膝周滑膜肉瘤.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -243,7 +244,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－近端股骨軟骨母細胞瘤.md",
+      "path": "03_傷害與疾病/過度使用/傷害－膕動脈卡壓症候群.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -252,7 +253,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－髂前下棘下撞擊症候群.md",
+      "path": "03_傷害與疾病/過度使用/傷害－腓腸肌籽骨症候群.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -261,7 +262,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－髂前下棘與髖臼前上緣.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－膝周骨腫瘤好發區與骨膜反應.md",
       "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
@@ -270,7 +271,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－骨盆骨髓腔與髂腰肌筋膜間隙.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－膕窩與膕動脈動態卡壓關係.md",
       "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
@@ -279,7 +280,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－近端股骨骨骺與良性骨腫瘤區.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－腓腸肌籽骨與膝後外側結構.md",
       "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
@@ -288,7 +289,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－發燒合併深部腹股溝與恥骨痛問診.md",
+      "path": "04_臨床評估/主觀問診/評估－持續膝周骨痛與腫塊主觀問診.md",
       "template": "模板－主觀問診.md",
       "yaml": "passed",
       "h1": "passed",
@@ -297,7 +298,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－骨盆感染與髂腰肌深部病灶身體檢查.md",
+      "path": "04_臨床評估/身體檢查/評估－膝周腫塊與神經血管身體檢查.md",
       "template": "模板－身體檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -306,7 +307,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－兒童青少年骨盆骨髓炎與髖痛分流.md",
+      "path": "04_臨床評估/系統性評估/評估－疑似膝周骨腫瘤影像與轉介流程.md",
       "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
@@ -315,7 +316,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－恥骨聯合感染與運動性恥骨痛分流.md",
+      "path": "04_臨床評估/系統性評估/評估－膝周軟組織腫塊肉瘤紅旗分流.md",
       "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
@@ -324,7 +325,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－青少年近端股骨良性骨腫瘤安全分流.md",
+      "path": "04_臨床評估/系統性評估/評估－運動誘發小腿痛與膕動脈安全分流.md",
       "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
@@ -333,8 +334,8 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－髂前下棘下撞擊與前髖痛評估.md",
-      "template": "模板－系統性評估.md",
+      "path": "06_功能性測試/下肢/功能性測試－MSTS 下肢功能評分.md",
+      "template": "模板－功能性測試.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -342,7 +343,7 @@
       "links": "passed"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－骨盆感染處置後步態與髖功能恢復.md",
+      "path": "05_處置與復健/運動治療/運動治療－膝周腫瘤與血管處置後分期功能恢復.md",
       "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
@@ -352,28 +353,24 @@
     }
   ],
   "assets": [
-    "assets/anatomy/骨盆髖第十輪感染骨腫瘤與關節外撞擊圖.svg",
-    "assets/assessment/骨盆髖第十輪感染與骨病灶安全分流圖.svg",
-    "assets/assessment/骨盆髖第十輪醫療穩定後負重進展圖.svg"
+    "assets/anatomy/膝部第十輪骨腫瘤軟組織與血管紅旗圖.svg",
+    "assets/assessment/膝部第十輪腫瘤影像與活檢安全流程圖.svg",
+    "assets/assessment/膝部第十輪運動誘發缺血與回場進展圖.svg"
   ],
   "sources_checked": [
-    "Therapeutic strategies for and clinical outcomes in iliopsoas muscle abscess: systematic review and meta-analysis. 2026. https://pubmed.ncbi.nlm.nih.gov/42575815/",
-    "Evaluating Imaging Techniques for Diagnosing and Drainage Guidance of Psoas Muscle Abscess: systematic review. 2024. https://pubmed.ncbi.nlm.nih.gov/38892910/",
-    "Iliopsoas Abscess: a narrative review. 2026. https://pubmed.ncbi.nlm.nih.gov/41482633/",
-    "A systematic review of pelvic infective osteomyelitis in children. 2024. https://pubmed.ncbi.nlm.nih.gov/39424291/",
-    "Pelvic Osteomyelitis. 2025. https://pubmed.ncbi.nlm.nih.gov/40148196/",
-    "PIDS/IDSA Guideline on Diagnosis and Management of Acute Hematogenous Osteomyelitis in Pediatrics. 2021. https://pubmed.ncbi.nlm.nih.gov/34350458/",
-    "Treatment of osteitis pubis and osteomyelitis of the pubic symphysis in athletes: systematic review. 2011. https://pubmed.ncbi.nlm.nih.gov/18812419/",
-    "Septic arthritis and osteomyelitis of the pubic symphysis: retrospective study of 26 patients. 2022. https://pubmed.ncbi.nlm.nih.gov/35251903/",
-    "Septic arthritis of the pubic symphysis: review of 100 cases. 2003. https://pubmed.ncbi.nlm.nih.gov/14530783/",
-    "Surgical treatment of benign osteolytic lesions in the femoral head and neck: systematic review. 2021. https://pubmed.ncbi.nlm.nih.gov/34134687/",
-    "Chondroblastoma of the femoral head: current and future therapeutic options. 2025. https://pubmed.ncbi.nlm.nih.gov/40606223/",
-    "Direct anterior approach with surgical hip dislocation for juvenile femoral head chondroblastoma: case series and systematic review. 2025. https://pubmed.ncbi.nlm.nih.gov/41648051/",
-    "Imaging diagnosis, prevalence, and clinical outcomes for AIIS impingement: systematic review and meta-analysis. 2022. https://pubmed.ncbi.nlm.nih.gov/36389619/",
-    "Arthroscopic subspine decompression in heterogeneous populations: systematic review. 2022. https://pubmed.ncbi.nlm.nih.gov/35157962/",
-    "Extra-articular hip impingement: subspine, iliopsoas, and ischiofemoral impingement. 2025. https://pubmed.ncbi.nlm.nih.gov/41031635/",
-    "ACR Appropriateness Criteria Chronic Hip Pain: 2022 Update. https://pubmed.ncbi.nlm.nih.gov/37236751/",
-    "ACR Appropriateness Criteria Suspected Primary Bone Tumors: 2024 Update. https://pubmed.ncbi.nlm.nih.gov/40409893/"
+    "UK guidelines for the management of bone sarcomas. 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11723950/",
+    "ACR Appropriateness Criteria: Suspected Primary Bone Tumors, 2024 Update. https://pubmed.ncbi.nlm.nih.gov/40409893/",
+    "Giant cell tumour of bone around the knee: a systematic review. 2021. https://pubmed.ncbi.nlm.nih.gov/34532071/",
+    "Bone grafting versus cement in giant cell tumor of bone: systematic review and meta-analysis. 2024. https://pubmed.ncbi.nlm.nih.gov/39236154/",
+    "Synovial sarcoma: the misdiagnosed sarcoma. 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC10958242/",
+    "SEOM-GEIS clinical guidelines for soft-tissue sarcomas. 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC12000159/",
+    "ACR Appropriateness Criteria: Soft Tissue Masses, 2022 Update. https://pubmed.ncbi.nlm.nih.gov/37236746/",
+    "Popliteal Artery Entrapment Syndrome: Updates for Evaluation, Diagnosis, and Treatment. 2024. https://pubmed.ncbi.nlm.nih.gov/39248400/",
+    "Popliteal artery entrapment syndrome: systematic review of contemporary management. 2026. https://pubmed.ncbi.nlm.nih.gov/42047358/",
+    "Fabella Syndrome: Anatomy, Diagnosis, Treatment, and Outcomes. 2024. https://www.mdpi.com/2813-0545/3/4/19",
+    "Common fibular nerve palsy due to the fabella: a review. 2024. https://pubmed.ncbi.nlm.nih.gov/37377050/",
+    "Validation of a functional evaluation system in patients with musculoskeletal tumors. 2003. https://pubmed.ncbi.nlm.nih.gov/12782878/",
+    "Functional mobility in survivors of lower-extremity sarcoma: reliability and validity. 2006. https://pubmed.ncbi.nlm.nih.gov/16779807/"
   ],
   "validation": {
     "status": "passed",
@@ -393,5 +390,5 @@
       "ZIP CRC/extraction/bit comparison/path"
     ]
   },
-  "generated_at_utc": "2026-11-07T00:05:48.672419+00:00"
+  "generated_at_utc": "2026-11-08T00:12:23.395573+00:00"
 }
