@@ -1,11 +1,11 @@
 {
-  "schema_version": 10,
-  "date": "2026-11-09",
-  "region": "足踝第十輪",
+  "schema_version": 8,
+  "date": "2026-11-10",
+  "region": "頭頸第十一輪",
   "github": {
     "repository": "janice880624/AT-Obsidian",
     "branch": "main",
-    "commit": "53a6e3ed7c0593ba26c2693472b8c618d99c255c",
+    "commit": "fe65ce3d46a307cbb654737db89847925584a6ad",
     "mode": "read-only"
   },
   "template_policy": {
@@ -80,6 +80,7 @@
     "used_templates": [
       "模板－主觀問診.md",
       "模板－傷害.md",
+      "模板－神經.md",
       "模板－系統性評估.md",
       "模板－身體檢查.md",
       "模板－運動治療.md",
@@ -99,116 +100,116 @@
     "related_notes": 10,
     "knowledge_notes": 15,
     "svg": 3,
-    "index_or_support_files": 7
+    "index_or_support_files": 9
   },
   "topic_candidates_skipped": [
-    "足踝第一至第九輪全部既有主題",
-    "既有骨折、扭傷、肌腱、神經卡壓、腫塊與退化主題",
-    "缺少專屬模板的筆記類型",
+    "頭頸第一至第十輪全部既有主題",
+    "既有顱頸骨折、腦外傷、眼耳顏面外傷與退化性脊髓病變",
+    "無專屬模板的筆記類型",
     "任何需要建立新資料夾的候選主題"
   ],
   "notes": [
     {
-      "path": "03_傷害與疾病/過度使用/傷害－Müller-Weiss 病.md",
-      "title": "傷害－Müller-Weiss 病",
+      "path": "03_傷害與疾病/急性傷害/傷害－自發性頸動脈與椎動脈剝離.md",
+      "title": "傷害－自發性頸動脈與椎動脈剝離",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－Köhler 足舟狀骨骨軟骨病.md",
-      "title": "傷害－Köhler 足舟狀骨骨軟骨病",
+      "path": "03_傷害與疾病/急性傷害/傷害－頸椎感染性脊椎炎與椎間盤炎.md",
+      "title": "傷害－頸椎感染性脊椎炎與椎間盤炎",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－距骨骨樣骨瘤.md",
-      "title": "傷害－距骨骨樣骨瘤",
+      "path": "03_傷害與疾病/急性傷害/傷害－頸椎硬膜外膿瘍.md",
+      "title": "傷害－頸椎硬膜外膿瘍",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－足踝滑膜肉瘤.md",
-      "title": "傷害－足踝滑膜肉瘤",
+      "path": "03_傷害與疾病/急性傷害/傷害－自發性頸椎硬膜外血腫.md",
+      "title": "傷害－自發性頸椎硬膜外血腫",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－足底靜脈血栓.md",
-      "title": "傷害－足底靜脈血栓",
+      "path": "03_傷害與疾病/急性傷害/傷害－兒童寰樞椎旋轉性固定.md",
+      "title": "傷害－兒童寰樞椎旋轉性固定",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－成人足舟狀骨塌陷與距舟排列.md",
-      "title": "骨骼與關節－成人足舟狀骨塌陷與距舟排列",
+      "path": "01_基礎解剖/神經/神經－頸內動脈交感神經叢與部分 Horner 徵.md",
+      "title": "神經－頸內動脈交感神經叢與部分 Horner 徵",
+      "role": "相關",
+      "type": "神經",
+      "template": "模板－神經.md"
+    },
+    {
+      "path": "01_基礎解剖/骨骼/骨骼與關節－頸椎終板椎間盤與硬膜外空間.md",
+      "title": "骨骼與關節－頸椎終板椎間盤與硬膜外空間",
       "role": "相關",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－兒童足舟狀骨骨化與負荷.md",
-      "title": "骨骼與關節－兒童足舟狀骨骨化與負荷",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－兒童寰樞旋轉對位與齒突樞軸.md",
+      "title": "骨骼與關節－兒童寰樞旋轉對位與齒突樞軸",
       "role": "相關",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－距骨關節內骨樣骨瘤影像定位.md",
-      "title": "骨骼與關節－距骨關節內骨樣骨瘤影像定位",
-      "role": "相關",
-      "type": "骨骼或關節",
-      "template": "模板－骨骼或關節.md"
-    },
-    {
-      "path": "04_臨床評估/主觀問診/評估－成人中足塌陷夜痛腫塊與血管症狀主觀問診.md",
-      "title": "評估－成人中足塌陷夜痛腫塊與血管症狀主觀問診",
+      "path": "04_臨床評估/主觀問診/評估－新發頸痛頭痛發燒與斜頸主觀問診.md",
+      "title": "評估－新發頸痛頭痛發燒與斜頸主觀問診",
       "role": "相關",
       "type": "主觀問診",
       "template": "模板－主觀問診.md"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－足踝中足骨性腫塊與血管身體檢查.md",
-      "title": "評估－足踝中足骨性腫塊與血管身體檢查",
+      "path": "04_臨床評估/身體檢查/評估－頭頸血管感染與脊髓紅旗身體檢查.md",
+      "title": "評估－頭頸血管感染與脊髓紅旗身體檢查",
       "role": "相關",
       "type": "身體檢查",
       "template": "模板－身體檢查.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－兒童內側中足痛感染與骨軟骨病安全分流.md",
-      "title": "評估－兒童內側中足痛感染與骨軟骨病安全分流",
+      "path": "04_臨床評估/系統性評估/評估－新發頭頸痛與頸動脈剝離安全分流.md",
+      "title": "評估－新發頭頸痛與頸動脈剝離安全分流",
       "role": "相關",
       "type": "系統性評估",
       "template": "模板－系統性評估.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－持續足踝夜痛骨病灶與軟組織腫塊安全分流.md",
-      "title": "評估－持續足踝夜痛骨病灶與軟組織腫塊安全分流",
+      "path": "04_臨床評估/系統性評估/評估－發燒頸痛與脊椎感染硬膜外病灶分流.md",
+      "title": "評估－發燒頸痛與脊椎感染硬膜外病灶分流",
       "role": "相關",
       "type": "系統性評估",
       "template": "模板－系統性評估.md"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－成人中足塌陷鞋具協作與負荷管理.md",
-      "title": "運動治療－成人中足塌陷鞋具協作與負荷管理",
+      "path": "05_處置與復健/運動治療/運動治療－頸動脈剝離醫療穩定後活動恢復.md",
+      "title": "運動治療－頸動脈剝離醫療穩定後活動恢復",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－兒童足舟狀骨症狀後步行遊戲進展.md",
-      "title": "運動治療－兒童足舟狀骨症狀後步行遊戲進展",
+      "path": "05_處置與復健/運動治療/運動治療－頸椎感染處置後活動與耐力恢復.md",
+      "title": "運動治療－頸椎感染處置後活動與耐力恢復",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－足踝骨樣骨瘤處置後分期負荷恢復.md",
-      "title": "運動治療－足踝骨樣骨瘤處置後分期負荷恢復",
+      "path": "05_處置與復健/運動治療/運動治療－兒童寰樞旋轉固定處置後活動恢復.md",
+      "title": "運動治療－兒童寰樞旋轉固定處置後活動恢復",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
@@ -216,7 +217,7 @@
   ],
   "per_note_validation": [
     {
-      "path": "03_傷害與疾病/過度使用/傷害－Müller-Weiss 病.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－自發性頸動脈與椎動脈剝離.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -225,7 +226,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－Köhler 足舟狀骨骨軟骨病.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－頸椎感染性脊椎炎與椎間盤炎.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -234,7 +235,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－距骨骨樣骨瘤.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－頸椎硬膜外膿瘍.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -243,7 +244,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－足踝滑膜肉瘤.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－自發性頸椎硬膜外血腫.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -252,7 +253,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－足底靜脈血栓.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－兒童寰樞椎旋轉性固定.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -261,7 +262,16 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－成人足舟狀骨塌陷與距舟排列.md",
+      "path": "01_基礎解剖/神經/神經－頸內動脈交感神經叢與部分 Horner 徵.md",
+      "template": "模板－神經.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "01_基礎解剖/骨骼/骨骼與關節－頸椎終板椎間盤與硬膜外空間.md",
       "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
@@ -270,7 +280,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－兒童足舟狀骨骨化與負荷.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－兒童寰樞旋轉對位與齒突樞軸.md",
       "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
@@ -279,16 +289,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－距骨關節內骨樣骨瘤影像定位.md",
-      "template": "模板－骨骼或關節.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "04_臨床評估/主觀問診/評估－成人中足塌陷夜痛腫塊與血管症狀主觀問診.md",
+      "path": "04_臨床評估/主觀問診/評估－新發頸痛頭痛發燒與斜頸主觀問診.md",
       "template": "模板－主觀問診.md",
       "yaml": "passed",
       "h1": "passed",
@@ -297,7 +298,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－足踝中足骨性腫塊與血管身體檢查.md",
+      "path": "04_臨床評估/身體檢查/評估－頭頸血管感染與脊髓紅旗身體檢查.md",
       "template": "模板－身體檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -306,7 +307,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－兒童內側中足痛感染與骨軟骨病安全分流.md",
+      "path": "04_臨床評估/系統性評估/評估－新發頭頸痛與頸動脈剝離安全分流.md",
       "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
@@ -315,7 +316,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－持續足踝夜痛骨病灶與軟組織腫塊安全分流.md",
+      "path": "04_臨床評估/系統性評估/評估－發燒頸痛與脊椎感染硬膜外病灶分流.md",
       "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
@@ -324,7 +325,7 @@
       "links": "passed"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－成人中足塌陷鞋具協作與負荷管理.md",
+      "path": "05_處置與復健/運動治療/運動治療－頸動脈剝離醫療穩定後活動恢復.md",
       "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
@@ -333,7 +334,7 @@
       "links": "passed"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－兒童足舟狀骨症狀後步行遊戲進展.md",
+      "path": "05_處置與復健/運動治療/運動治療－頸椎感染處置後活動與耐力恢復.md",
       "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
@@ -342,7 +343,7 @@
       "links": "passed"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－足踝骨樣骨瘤處置後分期負荷恢復.md",
+      "path": "05_處置與復健/運動治療/運動治療－兒童寰樞旋轉固定處置後活動恢復.md",
       "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
@@ -352,24 +353,23 @@
     }
   ],
   "assets": [
-    "assets/anatomy/足踝第十輪舟狀骨距骨與足底靜脈圖.svg",
-    "assets/assessment/足踝第十輪夜痛腫塊與血管安全分流圖.svg",
-    "assets/assessment/足踝第十輪兒童成人舟狀骨與處置後負荷矩陣.svg"
+    "assets/anatomy/頭頸第十一輪血管椎間盤與硬膜外空間圖.svg",
+    "assets/assessment/頭頸第十一輪急性頭頸痛血管感染出血分流圖.svg",
+    "assets/assessment/頭頸第十一輪醫療穩定後活動恢復矩陣.svg"
   ],
   "sources_checked": [
-    "Hermena S, Francis M. Clinical Presentation, Imaging Features, and Management of Müller-Weiss Disease. 2021. https://pubmed.ncbi.nlm.nih.gov/34786245/",
-    "Imaging of Müller-Weiss Disease. 2023. https://pubmed.ncbi.nlm.nih.gov/37230129/",
-    "How to treat Müller-Weiss disease: a systematic review. 2025. https://pubmed.ncbi.nlm.nih.gov/41274636/",
-    "Köhler Disease: Avascular Necrosis in the Child. 2019. https://pubmed.ncbi.nlm.nih.gov/30685015/",
-    "Köhler's disease of the tarsal navicular: long-term follow-up. 1984. https://pubmed.ncbi.nlm.nih.gov/6432840/",
-    "Osteoid osteoma of the foot and ankle: a systematic review. 2016. https://pubmed.ncbi.nlm.nih.gov/26564722/",
-    "Short- and Long-Term Outcomes after Radiofrequency Ablation of Osteoid Osteomas. 2024. https://pubmed.ncbi.nlm.nih.gov/38673028/",
-    "ACR Appropriateness Criteria: Soft Tissue Masses, 2022 update. https://pubmed.ncbi.nlm.nih.gov/37236746/",
-    "Presurgical Perspective and Posttreatment Evaluation of Soft Tissue Tumors of the Ankle and Foot. 2023. https://pubmed.ncbi.nlm.nih.gov/36791741/",
-    "Soft tissue tumors of the lower leg, foot and ankle: 376 cases. 2024. https://pubmed.ncbi.nlm.nih.gov/39369951/",
-    "Imaging Features of Plantar Vein Thrombosis. 2024. https://pubmed.ncbi.nlm.nih.gov/38248003/",
-    "Plantar vein thrombosis: 17-year longitudinal study. 2024. https://pubmed.ncbi.nlm.nih.gov/38694839/",
-    "ACR Appropriateness Criteria: Chronic Foot Pain, 2025 update. https://pubmed.ncbi.nlm.nih.gov/41701128/"
+    "Yaghi S, et al. Treatment and Outcomes of Cervical Artery Dissection in Adults: A Scientific Statement From the American Heart Association. Stroke. 2024. https://pubmed.ncbi.nlm.nih.gov/38299330/",
+    "Engelter ST, et al. Cervical Artery Dissection and Sports. Front Neurol. 2021. https://pubmed.ncbi.nlm.nih.gov/34135851/",
+    "Safety of Physical Activity After Cervical Artery Dissection. 2026. https://pubmed.ncbi.nlm.nih.gov/41738685/",
+    "Infectious Diseases Society of America. Clinical Practice Guidelines for Native Vertebral Osteomyelitis in Adults. 2015. https://www.idsociety.org/practice-guideline/vertebral-osteomyelitis/",
+    "Spinal Epidural Abscess: A Review of Presentation, Management, and Medicolegal Implications. 2024. https://pubmed.ncbi.nlm.nih.gov/39290490/",
+    "Arko L, et al. Medical and surgical management of spinal epidural abscess: a systematic review. 2019. https://pubmed.ncbi.nlm.nih.gov/30589647/",
+    "Spontaneous spinal epidural hematoma: imaging and clinical review. 2023. https://pubmed.ncbi.nlm.nih.gov/36908230/",
+    "Spontaneous cervical epidural hematoma: a 20-patient case series. 2024. https://pubmed.ncbi.nlm.nih.gov/39196426/",
+    "Spontaneous cervical epidural hematoma mimicking stroke: systematic review. 2023. https://pubmed.ncbi.nlm.nih.gov/36516738/",
+    "Powell EC, et al. Atlantoaxial rotatory fixation in children. Pediatr Emerg Care. 2015. https://pubmed.ncbi.nlm.nih.gov/26001430/",
+    "Pediatric atlantoaxial rotatory fixation: management and outcomes. 2021. https://pubmed.ncbi.nlm.nih.gov/33036001/",
+    "Atlantoaxial rotatory subluxation in children: current concepts and dynamic CT. 2025. https://pubmed.ncbi.nlm.nih.gov/41036723/"
   ],
   "validation": {
     "status": "passed",
@@ -389,5 +389,5 @@
       "ZIP CRC/extraction/bit comparison/path"
     ]
   },
-  "generated_at_utc": "2026-11-09T00:12:36.082623+00:00"
+  "generated_at_utc": "2026-11-10T00:09:40.123247+00:00"
 }
