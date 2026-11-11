@@ -1,11 +1,11 @@
 {
   "schema_version": 8,
-  "date": "2026-11-10",
-  "region": "頭頸第十一輪",
+  "date": "2026-11-11",
+  "region": "肩部第十一輪",
   "github": {
     "repository": "janice880624/AT-Obsidian",
     "branch": "main",
-    "commit": "fe65ce3d46a307cbb654737db89847925584a6ad",
+    "commit": "1d3e69fbdce80e70b1243b2df0b9161ba1ac1ee9",
     "mode": "read-only"
   },
   "template_policy": {
@@ -103,113 +103,113 @@
     "index_or_support_files": 9
   },
   "topic_candidates_skipped": [
-    "頭頸第一至第十輪全部既有主題",
-    "既有顱頸骨折、腦外傷、眼耳顏面外傷與退化性脊髓病變",
+    "肩部第一至第十輪全部既有主題",
+    "既有骨折、不穩定、旋轉肌袖、胸廓出口與常見感染主題",
     "無專屬模板的筆記類型",
     "任何需要建立新資料夾的候選主題"
   ],
   "notes": [
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－自發性頸動脈與椎動脈剝離.md",
-      "title": "傷害－自發性頸動脈與椎動脈剝離",
+      "path": "03_傷害與疾病/過度使用/傷害－肩關節滑膜軟骨瘤病.md",
+      "title": "傷害－肩關節滑膜軟骨瘤病",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－頸椎感染性脊椎炎與椎間盤炎.md",
-      "title": "傷害－頸椎感染性脊椎炎與椎間盤炎",
+      "path": "03_傷害與疾病/過度使用/傷害－肩關節腱鞘巨細胞瘤.md",
+      "title": "傷害－肩關節腱鞘巨細胞瘤",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－頸椎硬膜外膿瘍.md",
-      "title": "傷害－頸椎硬膜外膿瘍",
+      "path": "03_傷害與疾病/過度使用/傷害－Milwaukee 肩症候群.md",
+      "title": "傷害－Milwaukee 肩症候群",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－自發性頸椎硬膜外血腫.md",
-      "title": "傷害－自發性頸椎硬膜外血腫",
+      "path": "03_傷害與疾病/神經卡壓/傷害－肩關節神經性關節病變.md",
+      "title": "傷害－肩關節神經性關節病變",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－兒童寰樞椎旋轉性固定.md",
-      "title": "傷害－兒童寰樞椎旋轉性固定",
+      "path": "03_傷害與疾病/急性傷害/傷害－肩峰下三角肌下滑囊感染.md",
+      "title": "傷害－肩峰下三角肌下滑囊感染",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "01_基礎解剖/神經/神經－頸內動脈交感神經叢與部分 Horner 徵.md",
-      "title": "神經－頸內動脈交感神經叢與部分 Horner 徵",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－肩關節滑膜囊與肱二頭肌腱鞘.md",
+      "title": "骨骼與關節－肩關節滑膜囊與肱二頭肌腱鞘",
+      "role": "相關",
+      "type": "骨骼或關節",
+      "template": "模板－骨骼或關節.md"
+    },
+    {
+      "path": "01_基礎解剖/骨骼/骨骼與關節－肩峰下三角肌下滑囊與旋轉肌袖間隙.md",
+      "title": "骨骼與關節－肩峰下三角肌下滑囊與旋轉肌袖間隙",
+      "role": "相關",
+      "type": "骨骼或關節",
+      "template": "模板－骨骼或關節.md"
+    },
+    {
+      "path": "01_基礎解剖/神經/神經－脊髓空洞症與肩部痛溫覺路徑.md",
+      "title": "神經－脊髓空洞症與肩部痛溫覺路徑",
       "role": "相關",
       "type": "神經",
       "template": "模板－神經.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－頸椎終板椎間盤與硬膜外空間.md",
-      "title": "骨骼與關節－頸椎終板椎間盤與硬膜外空間",
-      "role": "相關",
-      "type": "骨骼或關節",
-      "template": "模板－骨骼或關節.md"
-    },
-    {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－兒童寰樞旋轉對位與齒突樞軸.md",
-      "title": "骨骼與關節－兒童寰樞旋轉對位與齒突樞軸",
-      "role": "相關",
-      "type": "骨骼或關節",
-      "template": "模板－骨骼或關節.md"
-    },
-    {
-      "path": "04_臨床評估/主觀問診/評估－新發頸痛頭痛發燒與斜頸主觀問診.md",
-      "title": "評估－新發頸痛頭痛發燒與斜頸主觀問診",
+      "path": "04_臨床評估/主觀問診/評估－持續腫脹快速破壞與非典型肩痛主觀問診.md",
+      "title": "評估－持續腫脹快速破壞與非典型肩痛主觀問診",
       "role": "相關",
       "type": "主觀問診",
       "template": "模板－主觀問診.md"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－頭頸血管感染與脊髓紅旗身體檢查.md",
-      "title": "評估－頭頸血管感染與脊髓紅旗身體檢查",
+      "path": "04_臨床評估/身體檢查/評估－肩部腫脹積液神經感覺與全身紅旗身體檢查.md",
+      "title": "評估－肩部腫脹積液神經感覺與全身紅旗身體檢查",
       "role": "相關",
       "type": "身體檢查",
       "template": "模板－身體檢查.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－新發頭頸痛與頸動脈剝離安全分流.md",
-      "title": "評估－新發頭頸痛與頸動脈剝離安全分流",
+      "path": "04_臨床評估/系統性評估/評估－肩關節滑膜增生游離體與腫瘤安全分流.md",
+      "title": "評估－肩關節滑膜增生游離體與腫瘤安全分流",
       "role": "相關",
       "type": "系統性評估",
       "template": "模板－系統性評估.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－發燒頸痛與脊椎感染硬膜外病灶分流.md",
-      "title": "評估－發燒頸痛與脊椎感染硬膜外病灶分流",
+      "path": "04_臨床評估/系統性評估/評估－快速破壞肩與神經性關節病變分流.md",
+      "title": "評估－快速破壞肩與神經性關節病變分流",
       "role": "相關",
       "type": "系統性評估",
       "template": "模板－系統性評估.md"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－頸動脈剝離醫療穩定後活動恢復.md",
-      "title": "運動治療－頸動脈剝離醫療穩定後活動恢復",
+      "path": "05_處置與復健/運動治療/運動治療－滑膜病灶處置後肩部活動與負荷恢復.md",
+      "title": "運動治療－滑膜病灶處置後肩部活動與負荷恢復",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－頸椎感染處置後活動與耐力恢復.md",
-      "title": "運動治療－頸椎感染處置後活動與耐力恢復",
+      "path": "05_處置與復健/運動治療/運動治療－神經性肩關節病變保護與功能訓練.md",
+      "title": "運動治療－神經性肩關節病變保護與功能訓練",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－兒童寰樞旋轉固定處置後活動恢復.md",
-      "title": "運動治療－兒童寰樞旋轉固定處置後活動恢復",
+      "path": "05_處置與復健/運動治療/運動治療－肩部感染控制後活動與耐力恢復.md",
+      "title": "運動治療－肩部感染控制後活動與耐力恢復",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
@@ -217,7 +217,7 @@
   ],
   "per_note_validation": [
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－自發性頸動脈與椎動脈剝離.md",
+      "path": "03_傷害與疾病/過度使用/傷害－肩關節滑膜軟骨瘤病.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -226,7 +226,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－頸椎感染性脊椎炎與椎間盤炎.md",
+      "path": "03_傷害與疾病/過度使用/傷害－肩關節腱鞘巨細胞瘤.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -235,7 +235,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－頸椎硬膜外膿瘍.md",
+      "path": "03_傷害與疾病/過度使用/傷害－Milwaukee 肩症候群.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -244,7 +244,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－自發性頸椎硬膜外血腫.md",
+      "path": "03_傷害與疾病/神經卡壓/傷害－肩關節神經性關節病變.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -253,7 +253,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－兒童寰樞椎旋轉性固定.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－肩峰下三角肌下滑囊感染.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -262,7 +262,25 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/神經/神經－頸內動脈交感神經叢與部分 Horner 徵.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－肩關節滑膜囊與肱二頭肌腱鞘.md",
+      "template": "模板－骨骼或關節.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "01_基礎解剖/骨骼/骨骼與關節－肩峰下三角肌下滑囊與旋轉肌袖間隙.md",
+      "template": "模板－骨骼或關節.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "01_基礎解剖/神經/神經－脊髓空洞症與肩部痛溫覺路徑.md",
       "template": "模板－神經.md",
       "yaml": "passed",
       "h1": "passed",
@@ -271,25 +289,7 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－頸椎終板椎間盤與硬膜外空間.md",
-      "template": "模板－骨骼或關節.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－兒童寰樞旋轉對位與齒突樞軸.md",
-      "template": "模板－骨骼或關節.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "04_臨床評估/主觀問診/評估－新發頸痛頭痛發燒與斜頸主觀問診.md",
+      "path": "04_臨床評估/主觀問診/評估－持續腫脹快速破壞與非典型肩痛主觀問診.md",
       "template": "模板－主觀問診.md",
       "yaml": "passed",
       "h1": "passed",
@@ -298,7 +298,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－頭頸血管感染與脊髓紅旗身體檢查.md",
+      "path": "04_臨床評估/身體檢查/評估－肩部腫脹積液神經感覺與全身紅旗身體檢查.md",
       "template": "模板－身體檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -307,7 +307,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－新發頭頸痛與頸動脈剝離安全分流.md",
+      "path": "04_臨床評估/系統性評估/評估－肩關節滑膜增生游離體與腫瘤安全分流.md",
       "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
@@ -316,7 +316,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－發燒頸痛與脊椎感染硬膜外病灶分流.md",
+      "path": "04_臨床評估/系統性評估/評估－快速破壞肩與神經性關節病變分流.md",
       "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
@@ -325,7 +325,7 @@
       "links": "passed"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－頸動脈剝離醫療穩定後活動恢復.md",
+      "path": "05_處置與復健/運動治療/運動治療－滑膜病灶處置後肩部活動與負荷恢復.md",
       "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
@@ -334,7 +334,7 @@
       "links": "passed"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－頸椎感染處置後活動與耐力恢復.md",
+      "path": "05_處置與復健/運動治療/運動治療－神經性肩關節病變保護與功能訓練.md",
       "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
@@ -343,7 +343,7 @@
       "links": "passed"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－兒童寰樞旋轉固定處置後活動恢復.md",
+      "path": "05_處置與復健/運動治療/運動治療－肩部感染控制後活動與耐力恢復.md",
       "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
@@ -353,23 +353,22 @@
     }
   ],
   "assets": [
-    "assets/anatomy/頭頸第十一輪血管椎間盤與硬膜外空間圖.svg",
-    "assets/assessment/頭頸第十一輪急性頭頸痛血管感染出血分流圖.svg",
-    "assets/assessment/頭頸第十一輪醫療穩定後活動恢復矩陣.svg"
+    "assets/anatomy/肩部第十一輪滑膜滑囊與神經關節圖.svg",
+    "assets/assessment/肩部第十一輪腫脹積液與快速破壞安全分流圖.svg",
+    "assets/assessment/肩部第十一輪醫療穩定後活動恢復矩陣.svg"
   ],
   "sources_checked": [
-    "Yaghi S, et al. Treatment and Outcomes of Cervical Artery Dissection in Adults: A Scientific Statement From the American Heart Association. Stroke. 2024. https://pubmed.ncbi.nlm.nih.gov/38299330/",
-    "Engelter ST, et al. Cervical Artery Dissection and Sports. Front Neurol. 2021. https://pubmed.ncbi.nlm.nih.gov/34135851/",
-    "Safety of Physical Activity After Cervical Artery Dissection. 2026. https://pubmed.ncbi.nlm.nih.gov/41738685/",
-    "Infectious Diseases Society of America. Clinical Practice Guidelines for Native Vertebral Osteomyelitis in Adults. 2015. https://www.idsociety.org/practice-guideline/vertebral-osteomyelitis/",
-    "Spinal Epidural Abscess: A Review of Presentation, Management, and Medicolegal Implications. 2024. https://pubmed.ncbi.nlm.nih.gov/39290490/",
-    "Arko L, et al. Medical and surgical management of spinal epidural abscess: a systematic review. 2019. https://pubmed.ncbi.nlm.nih.gov/30589647/",
-    "Spontaneous spinal epidural hematoma: imaging and clinical review. 2023. https://pubmed.ncbi.nlm.nih.gov/36908230/",
-    "Spontaneous cervical epidural hematoma: a 20-patient case series. 2024. https://pubmed.ncbi.nlm.nih.gov/39196426/",
-    "Spontaneous cervical epidural hematoma mimicking stroke: systematic review. 2023. https://pubmed.ncbi.nlm.nih.gov/36516738/",
-    "Powell EC, et al. Atlantoaxial rotatory fixation in children. Pediatr Emerg Care. 2015. https://pubmed.ncbi.nlm.nih.gov/26001430/",
-    "Pediatric atlantoaxial rotatory fixation: management and outcomes. 2021. https://pubmed.ncbi.nlm.nih.gov/33036001/",
-    "Atlantoaxial rotatory subluxation in children: current concepts and dynamic CT. 2025. https://pubmed.ncbi.nlm.nih.gov/41036723/"
+    "Sayegh ET, et al. Synovial chondromatosis of the shoulder: a systematic review. 2022. https://pubmed.ncbi.nlm.nih.gov/35845621/",
+    "Tenosynovial giant cell tumor in the shoulder: case series and literature review. 2026. https://pmc.ncbi.nlm.nih.gov/articles/PMC12971862/",
+    "Stacchiotti S, et al. Best clinical management of tenosynovial giant cell tumour: systematic review. 2020. https://pubmed.ncbi.nlm.nih.gov/33156160/",
+    "Milwaukee Shoulder Syndrome: a systematic review. 2026. https://pubmed.ncbi.nlm.nih.gov/42986443/",
+    "Basic calcium phosphate crystal-associated musculoskeletal syndromes: an update. 2018. https://pubmed.ncbi.nlm.nih.gov/29227355/",
+    "Neuropathic shoulder arthropathy: a systematic review. 2019. https://pubmed.ncbi.nlm.nih.gov/31663919/",
+    "Shoulder arthropathy secondary to syringomyelia: systematic review. 2023. https://pubmed.ncbi.nlm.nih.gov/36705617/",
+    "Subacromial bursitis: current evidence and future directions. 2026. https://pmc.ncbi.nlm.nih.gov/articles/PMC13182149/",
+    "Septic subdeltoid bursitis: case series and review. 1992. https://pubmed.ncbi.nlm.nih.gov/1411579/",
+    "Guideline for management of septic arthritis in native joints (SANJO). 2023. https://pmc.ncbi.nlm.nih.gov/articles/PMC9901514/",
+    "ACR Appropriateness Criteria Chronic Shoulder Pain: 2022 Update. 2023. https://pubmed.ncbi.nlm.nih.gov/37236752/"
   ],
   "validation": {
     "status": "passed",
@@ -389,5 +388,5 @@
       "ZIP CRC/extraction/bit comparison/path"
     ]
   },
-  "generated_at_utc": "2026-11-10T00:09:40.123247+00:00"
+  "generated_at_utc": "2026-11-11T00:10:47.952684+00:00"
 }
