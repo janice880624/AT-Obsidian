@@ -1,11 +1,11 @@
 {
   "schema_version": 8,
-  "date": "2026-11-11",
-  "region": "肩部第十一輪",
+  "date": "2026-11-12",
+  "region": "肘部第十一輪",
   "github": {
     "repository": "janice880624/AT-Obsidian",
     "branch": "main",
-    "commit": "1d3e69fbdce80e70b1243b2df0b9161ba1ac1ee9",
+    "commit": "5f7566aa62be44459338157fe9c8bac64fb9097a",
     "mode": "read-only"
   },
   "template_policy": {
@@ -80,8 +80,9 @@
     "used_templates": [
       "模板－主觀問診.md",
       "模板－傷害.md",
-      "模板－神經.md",
       "模板－系統性評估.md",
+      "模板－肌肉.md",
+      "模板－肌腱.md",
       "模板－身體檢查.md",
       "模板－運動治療.md",
       "模板－骨骼或關節.md"
@@ -103,113 +104,114 @@
     "index_or_support_files": 9
   },
   "topic_candidates_skipped": [
-    "肩部第一至第十輪全部既有主題",
-    "既有骨折、不穩定、旋轉肌袖、胸廓出口與常見感染主題",
+    "肘部第一至第十輪全部既有主題",
+    "鷹嘴滑囊炎（主庫已有）",
+    "鷹嘴應力性骨折（主庫已有）",
     "無專屬模板的筆記類型",
     "任何需要建立新資料夾的候選主題"
   ],
   "notes": [
     {
-      "path": "03_傷害與疾病/過度使用/傷害－肩關節滑膜軟骨瘤病.md",
-      "title": "傷害－肩關節滑膜軟骨瘤病",
+      "path": "03_傷害與疾病/急性傷害/傷害－遠端肱二頭肌腱撕裂.md",
+      "title": "傷害－遠端肱二頭肌腱撕裂",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－肩關節腱鞘巨細胞瘤.md",
-      "title": "傷害－肩關節腱鞘巨細胞瘤",
+      "path": "03_傷害與疾病/急性傷害/傷害－遠端肱三頭肌腱撕裂.md",
+      "title": "傷害－遠端肱三頭肌腱撕裂",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－Milwaukee 肩症候群.md",
-      "title": "傷害－Milwaukee 肩症候群",
+      "path": "03_傷害與疾病/過度使用/傷害－肘關節結核性關節炎.md",
+      "title": "傷害－肘關節結核性關節炎",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－肩關節神經性關節病變.md",
-      "title": "傷害－肩關節神經性關節病變",
-      "role": "核心",
-      "type": "傷害",
-      "template": "模板－傷害.md"
+      "path": "01_基礎解剖/肌腱/肌腱－遠端肱二頭肌腱與橈骨粗隆止點.md",
+      "title": "肌腱－遠端肱二頭肌腱與橈骨粗隆止點",
+      "role": "相關",
+      "type": "肌腱",
+      "template": "模板－肌腱.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－肩峰下三角肌下滑囊感染.md",
-      "title": "傷害－肩峰下三角肌下滑囊感染",
-      "role": "核心",
-      "type": "傷害",
-      "template": "模板－傷害.md"
-    },
-    {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－肩關節滑膜囊與肱二頭肌腱鞘.md",
-      "title": "骨骼與關節－肩關節滑膜囊與肱二頭肌腱鞘",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－鷹嘴與後肘伸展機制.md",
+      "title": "骨骼與關節－鷹嘴與後肘伸展機制",
       "role": "相關",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－肩峰下三角肌下滑囊與旋轉肌袖間隙.md",
-      "title": "骨骼與關節－肩峰下三角肌下滑囊與旋轉肌袖間隙",
+      "path": "04_臨床評估/系統性評估/評估－遠端肱二頭肌與肱三頭肌撕裂安全分流.md",
+      "title": "評估－遠端肱二頭肌與肱三頭肌撕裂安全分流",
       "role": "相關",
-      "type": "骨骼或關節",
-      "template": "模板－骨骼或關節.md"
+      "type": "系統性評估",
+      "template": "模板－系統性評估.md"
     },
     {
-      "path": "01_基礎解剖/神經/神經－脊髓空洞症與肩部痛溫覺路徑.md",
-      "title": "神經－脊髓空洞症與肩部痛溫覺路徑",
+      "path": "05_處置與復健/運動治療/運動治療－遠端肱二頭肌修補後旋後與屈肘恢復.md",
+      "title": "運動治療－遠端肱二頭肌修補後旋後與屈肘恢復",
       "role": "相關",
-      "type": "神經",
-      "template": "模板－神經.md"
+      "type": "運動治療",
+      "template": "模板－運動治療.md"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－持續腫脹快速破壞與非典型肩痛主觀問診.md",
-      "title": "評估－持續腫脹快速破壞與非典型肩痛主觀問診",
+      "path": "05_處置與復健/運動治療/運動治療－遠端肱三頭肌修補後伸肘與推撐恢復.md",
+      "title": "運動治療－遠端肱三頭肌修補後伸肘與推撐恢復",
+      "role": "相關",
+      "type": "運動治療",
+      "template": "模板－運動治療.md"
+    },
+    {
+      "path": "03_傷害與疾病/神經卡壓/傷害－橈管症候群.md",
+      "title": "傷害－橈管症候群",
+      "role": "核心",
+      "type": "傷害",
+      "template": "模板－傷害.md"
+    },
+    {
+      "path": "03_傷害與疾病/神經卡壓/傷害－後骨間神經症候群.md",
+      "title": "傷害－後骨間神經症候群",
+      "role": "核心",
+      "type": "傷害",
+      "template": "模板－傷害.md"
+    },
+    {
+      "path": "01_基礎解剖/肌肉/肌肉－旋後肌弓與橈管通道.md",
+      "title": "肌肉－旋後肌弓與橈管通道",
+      "role": "相關",
+      "type": "肌肉",
+      "template": "模板－肌肉.md"
+    },
+    {
+      "path": "04_臨床評估/主觀問診/評估－急性前後肘無力外側前臂痛與慢性單關節炎問診.md",
+      "title": "評估－急性前後肘無力外側前臂痛與慢性單關節炎問診",
       "role": "相關",
       "type": "主觀問診",
       "template": "模板－主觀問診.md"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－肩部腫脹積液神經感覺與全身紅旗身體檢查.md",
-      "title": "評估－肩部腫脹積液神經感覺與全身紅旗身體檢查",
+      "path": "04_臨床評估/身體檢查/評估－肘屈旋後伸直腱完整性與橈神經運動身體檢查.md",
+      "title": "評估－肘屈旋後伸直腱完整性與橈神經運動身體檢查",
       "role": "相關",
       "type": "身體檢查",
       "template": "模板－身體檢查.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－肩關節滑膜增生游離體與腫瘤安全分流.md",
-      "title": "評估－肩關節滑膜增生游離體與腫瘤安全分流",
+      "path": "04_臨床評估/系統性評估/評估－慢性肘單關節炎與結核感染安全分流.md",
+      "title": "評估－慢性肘單關節炎與結核感染安全分流",
       "role": "相關",
       "type": "系統性評估",
       "template": "模板－系統性評估.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－快速破壞肩與神經性關節病變分流.md",
-      "title": "評估－快速破壞肩與神經性關節病變分流",
-      "role": "相關",
-      "type": "系統性評估",
-      "template": "模板－系統性評估.md"
-    },
-    {
-      "path": "05_處置與復健/運動治療/運動治療－滑膜病灶處置後肩部活動與負荷恢復.md",
-      "title": "運動治療－滑膜病灶處置後肩部活動與負荷恢復",
-      "role": "相關",
-      "type": "運動治療",
-      "template": "模板－運動治療.md"
-    },
-    {
-      "path": "05_處置與復健/運動治療/運動治療－神經性肩關節病變保護與功能訓練.md",
-      "title": "運動治療－神經性肩關節病變保護與功能訓練",
-      "role": "相關",
-      "type": "運動治療",
-      "template": "模板－運動治療.md"
-    },
-    {
-      "path": "05_處置與復健/運動治療/運動治療－肩部感染控制後活動與耐力恢復.md",
-      "title": "運動治療－肩部感染控制後活動與耐力恢復",
+      "path": "05_處置與復健/運動治療/運動治療－橈管與後骨間神經症狀負荷管理.md",
+      "title": "運動治療－橈管與後骨間神經症狀負荷管理",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
@@ -217,7 +219,7 @@
   ],
   "per_note_validation": [
     {
-      "path": "03_傷害與疾病/過度使用/傷害－肩關節滑膜軟骨瘤病.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－遠端肱二頭肌腱撕裂.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -226,7 +228,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－肩關節腱鞘巨細胞瘤.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－遠端肱三頭肌腱撕裂.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -235,7 +237,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－Milwaukee 肩症候群.md",
+      "path": "03_傷害與疾病/過度使用/傷害－肘關節結核性關節炎.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -244,8 +246,8 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－肩關節神經性關節病變.md",
-      "template": "模板－傷害.md",
+      "path": "01_基礎解剖/肌腱/肌腱－遠端肱二頭肌腱與橈骨粗隆止點.md",
+      "template": "模板－肌腱.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -253,16 +255,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－肩峰下三角肌下滑囊感染.md",
-      "template": "模板－傷害.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－肩關節滑膜囊與肱二頭肌腱鞘.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－鷹嘴與後肘伸展機制.md",
       "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
@@ -271,8 +264,8 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－肩峰下三角肌下滑囊與旋轉肌袖間隙.md",
-      "template": "模板－骨骼或關節.md",
+      "path": "04_臨床評估/系統性評估/評估－遠端肱二頭肌與肱三頭肌撕裂安全分流.md",
+      "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -280,8 +273,8 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/神經/神經－脊髓空洞症與肩部痛溫覺路徑.md",
-      "template": "模板－神經.md",
+      "path": "05_處置與復健/運動治療/運動治療－遠端肱二頭肌修補後旋後與屈肘恢復.md",
+      "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -289,7 +282,43 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－持續腫脹快速破壞與非典型肩痛主觀問診.md",
+      "path": "05_處置與復健/運動治療/運動治療－遠端肱三頭肌修補後伸肘與推撐恢復.md",
+      "template": "模板－運動治療.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "03_傷害與疾病/神經卡壓/傷害－橈管症候群.md",
+      "template": "模板－傷害.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "03_傷害與疾病/神經卡壓/傷害－後骨間神經症候群.md",
+      "template": "模板－傷害.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "01_基礎解剖/肌肉/肌肉－旋後肌弓與橈管通道.md",
+      "template": "模板－肌肉.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "04_臨床評估/主觀問診/評估－急性前後肘無力外側前臂痛與慢性單關節炎問診.md",
       "template": "模板－主觀問診.md",
       "yaml": "passed",
       "h1": "passed",
@@ -298,7 +327,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－肩部腫脹積液神經感覺與全身紅旗身體檢查.md",
+      "path": "04_臨床評估/身體檢查/評估－肘屈旋後伸直腱完整性與橈神經運動身體檢查.md",
       "template": "模板－身體檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -307,7 +336,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－肩關節滑膜增生游離體與腫瘤安全分流.md",
+      "path": "04_臨床評估/系統性評估/評估－慢性肘單關節炎與結核感染安全分流.md",
       "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
@@ -316,34 +345,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－快速破壞肩與神經性關節病變分流.md",
-      "template": "模板－系統性評估.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "05_處置與復健/運動治療/運動治療－滑膜病灶處置後肩部活動與負荷恢復.md",
-      "template": "模板－運動治療.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "05_處置與復健/運動治療/運動治療－神經性肩關節病變保護與功能訓練.md",
-      "template": "模板－運動治療.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "05_處置與復健/運動治療/運動治療－肩部感染控制後活動與耐力恢復.md",
+      "path": "05_處置與復健/運動治療/運動治療－橈管與後骨間神經症狀負荷管理.md",
       "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
@@ -353,22 +355,22 @@
     }
   ],
   "assets": [
-    "assets/anatomy/肩部第十一輪滑膜滑囊與神經關節圖.svg",
-    "assets/assessment/肩部第十一輪腫脹積液與快速破壞安全分流圖.svg",
-    "assets/assessment/肩部第十一輪醫療穩定後活動恢復矩陣.svg"
+    "assets/anatomy/肘部第十一輪肌腱橈管與後骨間神經圖.svg",
+    "assets/assessment/肘部第十一輪急性無力外側前臂痛與慢性單關節炎分流圖.svg",
+    "assets/assessment/肘部第十一輪肌腱神經醫療穩定後恢復矩陣.svg"
   ],
   "sources_checked": [
-    "Sayegh ET, et al. Synovial chondromatosis of the shoulder: a systematic review. 2022. https://pubmed.ncbi.nlm.nih.gov/35845621/",
-    "Tenosynovial giant cell tumor in the shoulder: case series and literature review. 2026. https://pmc.ncbi.nlm.nih.gov/articles/PMC12971862/",
-    "Stacchiotti S, et al. Best clinical management of tenosynovial giant cell tumour: systematic review. 2020. https://pubmed.ncbi.nlm.nih.gov/33156160/",
-    "Milwaukee Shoulder Syndrome: a systematic review. 2026. https://pubmed.ncbi.nlm.nih.gov/42986443/",
-    "Basic calcium phosphate crystal-associated musculoskeletal syndromes: an update. 2018. https://pubmed.ncbi.nlm.nih.gov/29227355/",
-    "Neuropathic shoulder arthropathy: a systematic review. 2019. https://pubmed.ncbi.nlm.nih.gov/31663919/",
-    "Shoulder arthropathy secondary to syringomyelia: systematic review. 2023. https://pubmed.ncbi.nlm.nih.gov/36705617/",
-    "Subacromial bursitis: current evidence and future directions. 2026. https://pmc.ncbi.nlm.nih.gov/articles/PMC13182149/",
-    "Septic subdeltoid bursitis: case series and review. 1992. https://pubmed.ncbi.nlm.nih.gov/1411579/",
-    "Guideline for management of septic arthritis in native joints (SANJO). 2023. https://pmc.ncbi.nlm.nih.gov/articles/PMC9901514/",
-    "ACR Appropriateness Criteria Chronic Shoulder Pain: 2022 Update. 2023. https://pubmed.ncbi.nlm.nih.gov/37236752/"
+    "Distal biceps pathology: an evidence-based approach. 2024. https://doi.org/10.1016/j.mporth.2024.05.002",
+    "Current concepts in partial distal biceps tendon tears. 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11562466/",
+    "Distal Biceps Tendon Ruptures: Diagnostic Strategy Through Physical Examination. 2022. https://pubmed.ncbi.nlm.nih.gov/36349931/",
+    "Distal triceps tendon rupture repair and return to sport: systematic review. 2026. https://pubmed.ncbi.nlm.nih.gov/41847163/",
+    "Postoperative rehabilitation and return-to-sport criteria after distal triceps repair: scoping review. 2024. https://pubmed.ncbi.nlm.nih.gov/39444937/",
+    "Establishing the diagnosis of radial tunnel syndrome: a systematic review of published clinical series. 2024. https://pubmed.ncbi.nlm.nih.gov/38782802/",
+    "Radial Tunnel Syndrome: Review and Best Evidence. 2023. https://pubmed.ncbi.nlm.nih.gov/37276490/",
+    "Posterior interosseous neuropathy: electrodiagnostic evaluation. 2013. https://pubmed.ncbi.nlm.nih.gov/23874261/",
+    "Role of high-resolution dynamic ultrasonography in the diagnosis of posterior interosseous nerve entrapment. 2026. https://pubmed.ncbi.nlm.nih.gov/42036961/",
+    "Tuberculous arthritis of native joints: systematic review and EBJIS workgroup report. 2023. https://pmc.ncbi.nlm.nih.gov/articles/PMC10539782/",
+    "Current concepts in diagnosis and management of tuberculosis of the elbow joint. 2021. https://pmc.ncbi.nlm.nih.gov/articles/PMC8185235/"
   ],
   "validation": {
     "status": "passed",
@@ -388,5 +390,5 @@
       "ZIP CRC/extraction/bit comparison/path"
     ]
   },
-  "generated_at_utc": "2026-11-11T00:10:47.952684+00:00"
+  "generated_at_utc": "2026-11-12T00:13:13.854432+00:00"
 }
