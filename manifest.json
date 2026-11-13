@@ -1,11 +1,11 @@
 {
-  "schema_version": 8,
-  "date": "2026-11-12",
-  "region": "肘部第十一輪",
+  "schema_version": 11,
+  "date": "2026-11-13",
+  "region": "手腕與手第十一輪",
   "github": {
     "repository": "janice880624/AT-Obsidian",
     "branch": "main",
-    "commit": "5f7566aa62be44459338157fe9c8bac64fb9097a",
+    "commit": "663d39272fcd88bedd38cfd571d2ea771aae67e6",
     "mode": "read-only"
   },
   "template_policy": {
@@ -81,8 +81,6 @@
       "模板－主觀問診.md",
       "模板－傷害.md",
       "模板－系統性評估.md",
-      "模板－肌肉.md",
-      "模板－肌腱.md",
       "模板－身體檢查.md",
       "模板－運動治療.md",
       "模板－骨骼或關節.md"
@@ -104,114 +102,113 @@
     "index_or_support_files": 9
   },
   "topic_candidates_skipped": [
-    "肘部第一至第十輪全部既有主題",
-    "鷹嘴滑囊炎（主庫已有）",
-    "鷹嘴應力性骨折（主庫已有）",
+    "手腕與手第一至第十輪全部既有主題",
+    "既有腕隧道、腫瘤、腕骨骨折及肌腱韌帶主題",
     "無專屬模板的筆記類型",
     "任何需要建立新資料夾的候選主題"
   ],
   "notes": [
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－遠端肱二頭肌腱撕裂.md",
-      "title": "傷害－遠端肱二頭肌腱撕裂",
+      "path": "03_傷害與疾病/過度使用/傷害－舟月進階塌陷手腕（SLAC Wrist）.md",
+      "title": "傷害－舟月進階塌陷手腕（SLAC Wrist）",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－遠端肱三頭肌腱撕裂.md",
-      "title": "傷害－遠端肱三頭肌腱撕裂",
+      "path": "03_傷害與疾病/過度使用/傷害－Madelung 手腕變形.md",
+      "title": "傷害－Madelung 手腕變形",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－肘關節結核性關節炎.md",
-      "title": "傷害－肘關節結核性關節炎",
+      "path": "03_傷害與疾病/過度使用/傷害－豆三角關節骨關節炎與不穩定.md",
+      "title": "傷害－豆三角關節骨關節炎與不穩定",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "01_基礎解剖/肌腱/肌腱－遠端肱二頭肌腱與橈骨粗隆止點.md",
-      "title": "肌腱－遠端肱二頭肌腱與橈骨粗隆止點",
-      "role": "相關",
-      "type": "肌腱",
-      "template": "模板－肌腱.md"
+      "path": "03_傷害與疾病/急性傷害/傷害－手部骨髓炎.md",
+      "title": "傷害－手部骨髓炎",
+      "role": "核心",
+      "type": "傷害",
+      "template": "模板－傷害.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－鷹嘴與後肘伸展機制.md",
-      "title": "骨骼與關節－鷹嘴與後肘伸展機制",
+      "path": "03_傷害與疾病/急性傷害/傷害－手腕與手部感染性關節炎.md",
+      "title": "傷害－手腕與手部感染性關節炎",
+      "role": "核心",
+      "type": "傷害",
+      "template": "模板－傷害.md"
+    },
+    {
+      "path": "01_基礎解剖/骨骼/骨骼與關節－舟月進階塌陷與橈腕退化鏈.md",
+      "title": "骨骼與關節－舟月進階塌陷與橈腕退化鏈",
       "role": "相關",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－遠端肱二頭肌與肱三頭肌撕裂安全分流.md",
-      "title": "評估－遠端肱二頭肌與肱三頭肌撕裂安全分流",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－Madelung 遠端橈骨尺掌側生長板與 Vickers 韌帶.md",
+      "title": "骨骼與關節－Madelung 遠端橈骨尺掌側生長板與 Vickers 韌帶",
       "role": "相關",
-      "type": "系統性評估",
-      "template": "模板－系統性評估.md"
+      "type": "骨骼或關節",
+      "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－遠端肱二頭肌修補後旋後與屈肘恢復.md",
-      "title": "運動治療－遠端肱二頭肌修補後旋後與屈肘恢復",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－豆三角關節與尺側腕負荷.md",
+      "title": "骨骼與關節－豆三角關節與尺側腕負荷",
       "role": "相關",
-      "type": "運動治療",
-      "template": "模板－運動治療.md"
+      "type": "骨骼或關節",
+      "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－遠端肱三頭肌修補後伸肘與推撐恢復.md",
-      "title": "運動治療－遠端肱三頭肌修補後伸肘與推撐恢復",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－手部骨與鄰近腱鞘感染路徑.md",
+      "title": "骨骼與關節－手部骨與鄰近腱鞘感染路徑",
       "role": "相關",
-      "type": "運動治療",
-      "template": "模板－運動治療.md"
+      "type": "骨骼或關節",
+      "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－橈管症候群.md",
-      "title": "傷害－橈管症候群",
-      "role": "核心",
-      "type": "傷害",
-      "template": "模板－傷害.md"
-    },
-    {
-      "path": "03_傷害與疾病/神經卡壓/傷害－後骨間神經症候群.md",
-      "title": "傷害－後骨間神經症候群",
-      "role": "核心",
-      "type": "傷害",
-      "template": "模板－傷害.md"
-    },
-    {
-      "path": "01_基礎解剖/肌肉/肌肉－旋後肌弓與橈管通道.md",
-      "title": "肌肉－旋後肌弓與橈管通道",
-      "role": "相關",
-      "type": "肌肉",
-      "template": "模板－肌肉.md"
-    },
-    {
-      "path": "04_臨床評估/主觀問診/評估－急性前後肘無力外側前臂痛與慢性單關節炎問診.md",
-      "title": "評估－急性前後肘無力外側前臂痛與慢性單關節炎問診",
+      "path": "04_臨床評估/主觀問診/評估－慢性腕變形尺側痛與急性紅腫問診.md",
+      "title": "評估－慢性腕變形尺側痛與急性紅腫問診",
       "role": "相關",
       "type": "主觀問診",
       "template": "模板－主觀問診.md"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－肘屈旋後伸直腱完整性與橈神經運動身體檢查.md",
-      "title": "評估－肘屈旋後伸直腱完整性與橈神經運動身體檢查",
+      "path": "04_臨床評估/身體檢查/評估－腕部變形豆三角痛與手部感染身體檢查.md",
+      "title": "評估－腕部變形豆三角痛與手部感染身體檢查",
       "role": "相關",
       "type": "身體檢查",
       "template": "模板－身體檢查.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－慢性肘單關節炎與結核感染安全分流.md",
-      "title": "評估－慢性肘單關節炎與結核感染安全分流",
+      "path": "04_臨床評估/系統性評估/評估－手腕與手感染骨關節安全分流.md",
+      "title": "評估－手腕與手感染骨關節安全分流",
       "role": "相關",
       "type": "系統性評估",
       "template": "模板－系統性評估.md"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－橈管與後骨間神經症狀負荷管理.md",
-      "title": "運動治療－橈管與後骨間神經症狀負荷管理",
+      "path": "04_臨床評估/系統性評估/評估－手腕退化塌陷與先天變形安全分流.md",
+      "title": "評估－手腕退化塌陷與先天變形安全分流",
+      "role": "相關",
+      "type": "系統性評估",
+      "template": "模板－系統性評估.md"
+    },
+    {
+      "path": "05_處置與復健/運動治療/運動治療－腕部退化與豆三角症狀負荷管理.md",
+      "title": "運動治療－腕部退化與豆三角症狀負荷管理",
+      "role": "相關",
+      "type": "運動治療",
+      "template": "模板－運動治療.md"
+    },
+    {
+      "path": "05_處置與復健/運動治療/運動治療－手部感染醫療處置後活動與握捏恢復.md",
+      "title": "運動治療－手部感染醫療處置後活動與握捏恢復",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
@@ -219,7 +216,7 @@
   ],
   "per_note_validation": [
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－遠端肱二頭肌腱撕裂.md",
+      "path": "03_傷害與疾病/過度使用/傷害－舟月進階塌陷手腕（SLAC Wrist）.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -228,7 +225,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－遠端肱三頭肌腱撕裂.md",
+      "path": "03_傷害與疾病/過度使用/傷害－Madelung 手腕變形.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -237,7 +234,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－肘關節結核性關節炎.md",
+      "path": "03_傷害與疾病/過度使用/傷害－豆三角關節骨關節炎與不穩定.md",
       "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
@@ -246,8 +243,8 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/肌腱/肌腱－遠端肱二頭肌腱與橈骨粗隆止點.md",
-      "template": "模板－肌腱.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－手部骨髓炎.md",
+      "template": "模板－傷害.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -255,7 +252,16 @@
       "links": "passed"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－鷹嘴與後肘伸展機制.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－手腕與手部感染性關節炎.md",
+      "template": "模板－傷害.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "01_基礎解剖/骨骼/骨骼與關節－舟月進階塌陷與橈腕退化鏈.md",
       "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
@@ -264,8 +270,8 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－遠端肱二頭肌與肱三頭肌撕裂安全分流.md",
-      "template": "模板－系統性評估.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－Madelung 遠端橈骨尺掌側生長板與 Vickers 韌帶.md",
+      "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -273,8 +279,8 @@
       "links": "passed"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－遠端肱二頭肌修補後旋後與屈肘恢復.md",
-      "template": "模板－運動治療.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－豆三角關節與尺側腕負荷.md",
+      "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -282,8 +288,8 @@
       "links": "passed"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－遠端肱三頭肌修補後伸肘與推撐恢復.md",
-      "template": "模板－運動治療.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－手部骨與鄰近腱鞘感染路徑.md",
+      "template": "模板－骨骼或關節.md",
       "yaml": "passed",
       "h1": "passed",
       "h2_order": "passed",
@@ -291,34 +297,7 @@
       "links": "passed"
     },
     {
-      "path": "03_傷害與疾病/神經卡壓/傷害－橈管症候群.md",
-      "template": "模板－傷害.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "03_傷害與疾病/神經卡壓/傷害－後骨間神經症候群.md",
-      "template": "模板－傷害.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "01_基礎解剖/肌肉/肌肉－旋後肌弓與橈管通道.md",
-      "template": "模板－肌肉.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "04_臨床評估/主觀問診/評估－急性前後肘無力外側前臂痛與慢性單關節炎問診.md",
+      "path": "04_臨床評估/主觀問診/評估－慢性腕變形尺側痛與急性紅腫問診.md",
       "template": "模板－主觀問診.md",
       "yaml": "passed",
       "h1": "passed",
@@ -327,7 +306,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－肘屈旋後伸直腱完整性與橈神經運動身體檢查.md",
+      "path": "04_臨床評估/身體檢查/評估－腕部變形豆三角痛與手部感染身體檢查.md",
       "template": "模板－身體檢查.md",
       "yaml": "passed",
       "h1": "passed",
@@ -336,7 +315,7 @@
       "links": "passed"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－慢性肘單關節炎與結核感染安全分流.md",
+      "path": "04_臨床評估/系統性評估/評估－手腕與手感染骨關節安全分流.md",
       "template": "模板－系統性評估.md",
       "yaml": "passed",
       "h1": "passed",
@@ -345,7 +324,25 @@
       "links": "passed"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－橈管與後骨間神經症狀負荷管理.md",
+      "path": "04_臨床評估/系統性評估/評估－手腕退化塌陷與先天變形安全分流.md",
+      "template": "模板－系統性評估.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "05_處置與復健/運動治療/運動治療－腕部退化與豆三角症狀負荷管理.md",
+      "template": "模板－運動治療.md",
+      "yaml": "passed",
+      "h1": "passed",
+      "h2_order": "passed",
+      "required_subfields": "passed",
+      "links": "passed"
+    },
+    {
+      "path": "05_處置與復健/運動治療/運動治療－手部感染醫療處置後活動與握捏恢復.md",
       "template": "模板－運動治療.md",
       "yaml": "passed",
       "h1": "passed",
@@ -355,22 +352,22 @@
     }
   ],
   "assets": [
-    "assets/anatomy/肘部第十一輪肌腱橈管與後骨間神經圖.svg",
-    "assets/assessment/肘部第十一輪急性無力外側前臂痛與慢性單關節炎分流圖.svg",
-    "assets/assessment/肘部第十一輪肌腱神經醫療穩定後恢復矩陣.svg"
+    "assets/anatomy/手腕與手第十一輪腕骨排列感染與負荷圖.svg",
+    "assets/assessment/手腕與手第十一輪感染骨關節安全分流圖.svg",
+    "assets/assessment/手腕與手第十一輪退化感染醫療穩定後恢復矩陣.svg"
   ],
   "sources_checked": [
-    "Distal biceps pathology: an evidence-based approach. 2024. https://doi.org/10.1016/j.mporth.2024.05.002",
-    "Current concepts in partial distal biceps tendon tears. 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11562466/",
-    "Distal Biceps Tendon Ruptures: Diagnostic Strategy Through Physical Examination. 2022. https://pubmed.ncbi.nlm.nih.gov/36349931/",
-    "Distal triceps tendon rupture repair and return to sport: systematic review. 2026. https://pubmed.ncbi.nlm.nih.gov/41847163/",
-    "Postoperative rehabilitation and return-to-sport criteria after distal triceps repair: scoping review. 2024. https://pubmed.ncbi.nlm.nih.gov/39444937/",
-    "Establishing the diagnosis of radial tunnel syndrome: a systematic review of published clinical series. 2024. https://pubmed.ncbi.nlm.nih.gov/38782802/",
-    "Radial Tunnel Syndrome: Review and Best Evidence. 2023. https://pubmed.ncbi.nlm.nih.gov/37276490/",
-    "Posterior interosseous neuropathy: electrodiagnostic evaluation. 2013. https://pubmed.ncbi.nlm.nih.gov/23874261/",
-    "Role of high-resolution dynamic ultrasonography in the diagnosis of posterior interosseous nerve entrapment. 2026. https://pubmed.ncbi.nlm.nih.gov/42036961/",
-    "Tuberculous arthritis of native joints: systematic review and EBJIS workgroup report. 2023. https://pmc.ncbi.nlm.nih.gov/articles/PMC10539782/",
-    "Current concepts in diagnosis and management of tuberculosis of the elbow joint. 2021. https://pmc.ncbi.nlm.nih.gov/articles/PMC8185235/"
+    "SLAC and SNAC wrist treatment review, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11127752/",
+    "PRC versus four-corner fusion systematic review and meta-analysis, 2024. https://pubmed.ncbi.nlm.nih.gov/38416092/",
+    "Madelung Deformity: A Current Concepts Review, 2026. https://pubmed.ncbi.nlm.nih.gov/41686103/",
+    "State of the art review: pathogenesis and management of Madelung deformity, 2023. https://pubmed.ncbi.nlm.nih.gov/37572317/",
+    "Pisotriquetral joint osteoarthritis and instability: narrative review, 2026. https://doi.org/10.1016/j.jorep.2026.100905",
+    "Management of Pisotriquetral Instability, 2018. https://pubmed.ncbi.nlm.nih.gov/29169722/",
+    "Hand Osteomyelitis: systematic review and recommendations, 2025. https://pmc.ncbi.nlm.nih.gov/articles/PMC11559780/",
+    "Hand osteomyelitis clinical associations and MRI, 2026. https://pubmed.ncbi.nlm.nih.gov/42739735/",
+    "Guideline for management of septic arthritis in native joints, 2023. https://pmc.ncbi.nlm.nih.gov/articles/PMC9901514/",
+    "Management of the Septic Wrist: systematic review, 2024. https://pubmed.ncbi.nlm.nih.gov/38403373/",
+    "Managing Small Joint Septic Arthritis of the Hand, 2023. https://pubmed.ncbi.nlm.nih.gov/37905368/"
   ],
   "validation": {
     "status": "passed",
@@ -390,5 +387,5 @@
       "ZIP CRC/extraction/bit comparison/path"
     ]
   },
-  "generated_at_utc": "2026-11-12T00:13:13.854432+00:00"
+  "generated_at_utc": "2026-11-13T00:09:39.323009+00:00"
 }
