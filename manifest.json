@@ -1,11 +1,11 @@
 {
-  "schema_version": 11,
-  "date": "2026-11-13",
-  "region": "手腕與手第十一輪",
+  "schema_version": 12,
+  "date": "2026-11-14",
+  "region": "胸腰椎第十一輪",
   "github": {
     "repository": "janice880624/AT-Obsidian",
     "branch": "main",
-    "commit": "663d39272fcd88bedd38cfd571d2ea771aae67e6",
+    "commit": "faaf561d2efef287c83872fff6452136aabf33f5",
     "mode": "read-only"
   },
   "template_policy": {
@@ -13,76 +13,276 @@
     "all_templates_read": {
       "模板－STTT理學檢查.md": {
         "git_blob_sha": "2b44e8cbf72f3738aa341613a12faf9399ec6bde",
-        "sha256": "91055a3cfefaf1ccbabfecad989f5194de524e705b1ba1fb54f7a3885b0f14df"
+        "sha256": "91055a3cfefaf1ccbabfecad989f5194de524e705b1ba1fb54f7a3885b0f14df",
+        "h2": [
+          "檢查目的",
+          "收縮性與非收縮性組織",
+          "檢查順序",
+          "主動動作測試",
+          "被動動作測試",
+          "等長阻力測試",
+          "判讀矩陣",
+          "區域應用範例",
+          "注意事項與限制",
+          "紅旗與轉介",
+          "關聯內容",
+          "參考資料"
+        ]
       },
       "模板－主觀問診.md": {
         "git_blob_sha": "4f7496906111cd5e00b7e4520d97517f67463a18",
-        "sha256": "c12410f10346eea2067c8b2fe5f12b4595f0d5b8589ce032339bf78555c55a70"
+        "sha256": "c12410f10346eea2067c8b2fe5f12b4595f0d5b8589ce032339bf78555c55a70",
+        "h2": [
+          "問診目的",
+          "現病史",
+          "受傷機轉與症狀行為",
+          "過去病史與相關背景",
+          "功能與運動需求",
+          "紅旗問題",
+          "判讀與臨床推論",
+          "轉介條件",
+          "紀錄重點",
+          "關聯內容",
+          "參考資料"
+        ]
       },
       "模板－傷害.md": {
         "git_blob_sha": "5a7dbb16e4a18f51db93496cb4da9cafaab0fe40",
-        "sha256": "cff336b061adeb879ded696075adae55c480416f8e884e2f37a62315d8d93e4c"
+        "sha256": "cff336b061adeb879ded696075adae55c480416f8e884e2f37a62315d8d93e4c",
+        "h2": [
+          "定義",
+          "受傷機轉",
+          "常見症狀與徵象",
+          "危險因子",
+          "鑑別診斷",
+          "問診重點",
+          "觀察與觸診",
+          "關節活動度與肌力",
+          "特殊檢查",
+          "影像與轉介",
+          "急性處置",
+          "復健原則",
+          "回場條件",
+          "相關解剖",
+          "參考文獻"
+        ]
       },
       "模板－功能性測試.md": {
         "git_blob_sha": "873c3c5874594189ab2ca52620460de5cc82efac",
-        "sha256": "4b0da535c9d548c3fe4b5f9e5a8ab294bdc40a11b0bb74db9d5bb4c1ce947d49"
+        "sha256": "4b0da535c9d548c3fe4b5f9e5a8ab294bdc40a11b0bb74db9d5bb4c1ce947d49",
+        "h2": [
+          "測試目的",
+          "適用對象",
+          "器材與場地",
+          "操作流程",
+          "計分方式",
+          "判讀方式",
+          "測試品質與限制",
+          "停止條件",
+          "關聯傷害與回場條件",
+          "參考文獻"
+        ]
       },
       "模板－文獻筆記.md": {
         "git_blob_sha": "8933777e008ca2a67f74b4ccb1e21a0e3fd0261b",
-        "sha256": "ee6c68de8e32e798c9513d1896e0a1b621eada3a85bdcea0c01e7a262c51b6d3"
+        "sha256": "ee6c68de8e32e798c9513d1896e0a1b621eada3a85bdcea0c01e7a262c51b6d3",
+        "h2": [
+          "完整引用",
+          "研究問題",
+          "研究設計與對象",
+          "評估方法",
+          "主要結果",
+          "臨床意義",
+          "限制",
+          "可連結的知識頁",
+          "重要原文與頁碼",
+          "我的備註"
+        ]
       },
       "模板－特殊檢查.md": {
         "git_blob_sha": "9da5365450cb85d533ee52ac813734fa67afb70b",
-        "sha256": "eb32c17d3900ae8b5abc68a6a3e4c7597940e1b12633402f5fcae5be48277010"
+        "sha256": "eb32c17d3900ae8b5abc68a6a3e4c7597940e1b12633402f5fcae5be48277010",
+        "h2": [
+          "檢查目的",
+          "操作方法",
+          "陽性結果",
+          "臨床解釋",
+          "注意事項與常見錯誤",
+          "診斷價值",
+          "搭配檢查",
+          "參考文獻"
+        ]
       },
       "模板－神經.md": {
         "git_blob_sha": "8a17a385ad26643d0c25cbdc65d2d8f5b5b7532c",
-        "sha256": "e74f0bfdb08dfe84af66f8132838502dc704c7ea41b1aec41a8ed020f819743a"
+        "sha256": "e74f0bfdb08dfe84af66f8132838502dc704c7ea41b1aec41a8ed020f819743a",
+        "h2": [
+          "解剖位置與走向",
+          "神經支配與功能",
+          "感覺／運動分布",
+          "觸診與檢查方式",
+          "常見神經病變",
+          "臨床意義",
+          "紅旗與轉介",
+          "關聯內容",
+          "參考資料"
+        ]
       },
       "模板－系統性評估.md": {
         "git_blob_sha": "95b465181f4983a78976135133d564cae227e889",
-        "sha256": "457f74969a0b469f027bd8290a0d5fc0b8ae6e990a4088dc5698b4c9c3e506a5"
+        "sha256": "457f74969a0b469f027bd8290a0d5fc0b8ae6e990a4088dc5698b4c9c3e506a5",
+        "h2": [
+          "評估目的",
+          "適用情境",
+          "評估流程",
+          "判讀框架",
+          "紅旗與轉介",
+          "處置與追蹤",
+          "紀錄最小集合",
+          "常見錯誤與限制",
+          "關聯內容",
+          "參考資料"
+        ]
       },
       "模板－肌肉.md": {
         "git_blob_sha": "94a490a64f0fa670568c0e0583ff3ec8c87939f4",
-        "sha256": "ab7208d5949983fd943503c9554d211b1f4c944fdff4d110f2414bbb2eef96f2"
+        "sha256": "ab7208d5949983fd943503c9554d211b1f4c944fdff4d110f2414bbb2eef96f2",
+        "h2": [
+          "基本資料",
+          "觸診方式",
+          "肌力測試",
+          "柔軟度／長度測試",
+          "臨床意義",
+          "關聯內容",
+          "參考資料"
+        ]
       },
       "模板－肌腱.md": {
         "git_blob_sha": "ddc9da86c27283ba665721645fc94874ec55542c",
-        "sha256": "d7de94a951a34b95158262303b36d8c2c8a75221270ae400ae8f7bd351ebac16"
+        "sha256": "d7de94a951a34b95158262303b36d8c2c8a75221270ae400ae8f7bd351ebac16",
+        "h2": [
+          "基本資料",
+          "解剖位置與走向",
+          "觸診方式",
+          "功能與負荷特性",
+          "常見傷害",
+          "評估重點",
+          "臨床意義",
+          "關聯內容",
+          "參考資料"
+        ]
       },
       "模板－貼紮.md": {
         "git_blob_sha": "0b4c1bafe09f4978bed54c912fb8984a54193ccb",
-        "sha256": "f5c049b70cdafd4acbdf00f4e62098a33d2791e85930ad20916b8c8209ab5226"
+        "sha256": "f5c049b70cdafd4acbdf00f4e62098a33d2791e85930ad20916b8c8209ab5226",
+        "h2": [
+          "使用目的",
+          "適應症",
+          "禁忌與注意事項",
+          "準備",
+          "操作步驟",
+          "張力設定",
+          "貼紮後檢查",
+          "關聯內容",
+          "參考資料"
+        ]
       },
       "模板－身體區域.md": {
         "git_blob_sha": "39accb7de26de7a911bb7ed164f3f2606f3f69e8",
-        "sha256": "15fb66b8b70e3afc3885b5fc49476f510db2a1d03831e1c50362926f9f11a6fb"
+        "sha256": "15fb66b8b70e3afc3885b5fc49476f510db2a1d03831e1c50362926f9f11a6fb",
+        "h2": [
+          "區域概述",
+          "重要骨骼與關節",
+          "重要肌肉、肌腱與韌帶",
+          "神經與血管",
+          "常見傷害與疾病",
+          "問診重點",
+          "系統性檢查",
+          "紅旗與轉介",
+          "復健與回場原則",
+          "關聯內容",
+          "參考資料"
+        ]
       },
       "模板－身體檢查.md": {
         "git_blob_sha": "f59ebb0f40097d4a1791895ece8dd865d5b9fe62",
-        "sha256": "7dca68e6f24e713222c5e5fa0a116b6ec1a96d22f475b206fa082e71cae54150"
+        "sha256": "7dca68e6f24e713222c5e5fa0a116b6ec1a96d22f475b206fa082e71cae54150",
+        "h2": [
+          "檢查目的",
+          "檢查前準備",
+          "觀察",
+          "觸診",
+          "關節活動度",
+          "肌力與等長收縮",
+          "神經血管檢查",
+          "特殊檢查",
+          "功能性測試",
+          "判讀與臨床推論",
+          "停止與轉介條件",
+          "紀錄重點",
+          "關聯內容",
+          "參考資料"
+        ]
       },
       "模板－運動治療.md": {
         "git_blob_sha": "9274bd022457d1ce84da25ad403fc097fe3b8ff7",
-        "sha256": "886477d6466c50442d863b15e9df5726ee0268040c97fb6ca9d7bcf65c7f8909"
+        "sha256": "886477d6466c50442d863b15e9df5726ee0268040c97fb6ca9d7bcf65c7f8909",
+        "h2": [
+          "訓練目的",
+          "適用階段",
+          "起始姿勢",
+          "動作步驟",
+          "劑量",
+          "動作品質提示",
+          "常見代償",
+          "退階方式",
+          "進階方式",
+          "停止條件",
+          "關聯傷害",
+          "參考資料"
+        ]
       },
       "模板－韌帶.md": {
         "git_blob_sha": "b200fa9d482c104d983119cd4da42df93de475ff",
-        "sha256": "2a6c086b647f7451dbb1667704217302539478cfc6e17e499db841d4b445e157"
+        "sha256": "2a6c086b647f7451dbb1667704217302539478cfc6e17e499db841d4b445e157",
+        "h2": [
+          "解剖位置",
+          "主要功能",
+          "穩定作用與受力方向",
+          "觸診方式",
+          "常見受傷機轉",
+          "評估與特殊檢查",
+          "臨床意義",
+          "關聯內容",
+          "參考資料"
+        ]
       },
       "模板－骨骼或關節.md": {
         "git_blob_sha": "6736643aac8086dccc0a9f59bbf5dcbb5b4e17f3",
-        "sha256": "f6478782ded9a18f7b68eea8026dc0cb0e77e029244caa28dd7a909eaecc07e4"
+        "sha256": "f6478782ded9a18f7b68eea8026dc0cb0e77e029244caa28dd7a909eaecc07e4",
+        "h2": [
+          "解剖位置",
+          "骨性標誌／關節面",
+          "關節運動",
+          "穩定結構",
+          "觸診方式",
+          "臨床意義",
+          "關聯內容",
+          "參考資料"
+        ]
       }
     },
     "template_count": 16,
     "used_templates": [
       "模板－主觀問診.md",
       "模板－傷害.md",
+      "模板－功能性測試.md",
+      "模板－特殊檢查.md",
+      "模板－神經.md",
       "模板－系統性評估.md",
       "模板－身體檢查.md",
       "模板－運動治療.md",
+      "模板－韌帶.md",
       "模板－骨骼或關節.md"
     ],
     "validated_note_count": 15,
@@ -99,293 +299,352 @@
     "related_notes": 10,
     "knowledge_notes": 15,
     "svg": 3,
-    "index_or_support_files": 9
+    "index_or_support_files": 6
   },
   "topic_candidates_skipped": [
-    "手腕與手第一至第十輪全部既有主題",
-    "既有腕隧道、腫瘤、腕骨骨折及肌腱韌帶主題",
-    "無專屬模板的筆記類型",
+    "胸腰椎第一至第十輪全部既有主題",
+    "無專屬模板的候選類型",
     "任何需要建立新資料夾的候選主題"
   ],
   "notes": [
     {
-      "path": "03_傷害與疾病/過度使用/傷害－舟月進階塌陷手腕（SLAC Wrist）.md",
-      "title": "傷害－舟月進階塌陷手腕（SLAC Wrist）",
+      "path": "03_傷害與疾病/過度使用/傷害－瀰漫性特發性骨肥厚症（DISH）.md",
+      "title": "傷害－瀰漫性特發性骨肥厚症（DISH）",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－Madelung 手腕變形.md",
-      "title": "傷害－Madelung 手腕變形",
+      "path": "03_傷害與疾病/過度使用/傷害－軸性脊椎痛風.md",
+      "title": "傷害－軸性脊椎痛風",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－豆三角關節骨關節炎與不穩定.md",
-      "title": "傷害－豆三角關節骨關節炎與不穩定",
+      "path": "03_傷害與疾病/急性傷害/傷害－腰椎小面關節感染性關節炎.md",
+      "title": "傷害－腰椎小面關節感染性關節炎",
       "role": "核心",
       "type": "傷害",
       "template": "模板－傷害.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－手部骨髓炎.md",
-      "title": "傷害－手部骨髓炎",
+      "path": "04_臨床評估/系統性評估/評估－代謝發炎感染性胸腰痛安全分流.md",
+      "title": "評估－代謝發炎感染性胸腰痛安全分流",
       "role": "核心",
-      "type": "傷害",
-      "template": "模板－傷害.md"
+      "type": "系統性評估",
+      "template": "模板－系統性評估.md"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－手腕與手部感染性關節炎.md",
-      "title": "傷害－手腕與手部感染性關節炎",
+      "path": "04_臨床評估/系統性評估/評估－僵硬脊柱低能量創傷安全分流.md",
+      "title": "評估－僵硬脊柱低能量創傷安全分流",
       "role": "核心",
-      "type": "傷害",
-      "template": "模板－傷害.md"
+      "type": "系統性評估",
+      "template": "模板－系統性評估.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－舟月進階塌陷與橈腕退化鏈.md",
-      "title": "骨骼與關節－舟月進階塌陷與橈腕退化鏈",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－胸腰椎前外側骨橋與僵硬脊柱.md",
+      "title": "骨骼與關節－胸腰椎前外側骨橋與僵硬脊柱",
       "role": "相關",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－Madelung 遠端橈骨尺掌側生長板與 Vickers 韌帶.md",
-      "title": "骨骼與關節－Madelung 遠端橈骨尺掌側生長板與 Vickers 韌帶",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－胸腰椎小面關節與後方元素沉積空間.md",
+      "title": "骨骼與關節－胸腰椎小面關節與後方元素沉積空間",
       "role": "相關",
       "type": "骨骼或關節",
       "template": "模板－骨骼或關節.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－豆三角關節與尺側腕負荷.md",
-      "title": "骨骼與關節－豆三角關節與尺側腕負荷",
+      "path": "01_基礎解剖/韌帶/韌帶－前縱韌帶與胸腰椎骨化鏈.md",
+      "title": "韌帶－前縱韌帶與胸腰椎骨化鏈",
       "role": "相關",
-      "type": "骨骼或關節",
-      "template": "模板－骨骼或關節.md"
+      "type": "韌帶",
+      "template": "模板－韌帶.md"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－手部骨與鄰近腱鞘感染路徑.md",
-      "title": "骨骼與關節－手部骨與鄰近腱鞘感染路徑",
-      "role": "相關",
-      "type": "骨骼或關節",
-      "template": "模板－骨骼或關節.md"
-    },
-    {
-      "path": "04_臨床評估/主觀問診/評估－慢性腕變形尺側痛與急性紅腫問診.md",
-      "title": "評估－慢性腕變形尺側痛與急性紅腫問診",
+      "path": "04_臨床評估/主觀問診/評估－高尿酸感染免疫與用藥風險問診.md",
+      "title": "評估－高尿酸感染免疫與用藥風險問診",
       "role": "相關",
       "type": "主觀問診",
       "template": "模板－主觀問診.md"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－腕部變形豆三角痛與手部感染身體檢查.md",
-      "title": "評估－腕部變形豆三角痛與手部感染身體檢查",
+      "path": "04_臨床評估/身體檢查/評估－胸腰椎僵硬代謝與感染風險身體檢查.md",
+      "title": "評估－胸腰椎僵硬代謝與感染風險身體檢查",
       "role": "相關",
       "type": "身體檢查",
       "template": "模板－身體檢查.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－手腕與手感染骨關節安全分流.md",
-      "title": "評估－手腕與手感染骨關節安全分流",
+      "path": "04_臨床評估/特殊檢查/特殊檢查－胸腰椎叩擊痛測試.md",
+      "title": "特殊檢查－胸腰椎叩擊痛測試",
       "role": "相關",
-      "type": "系統性評估",
-      "template": "模板－系統性評估.md"
+      "type": "特殊檢查",
+      "template": "模板－特殊檢查.md"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－手腕退化塌陷與先天變形安全分流.md",
-      "title": "評估－手腕退化塌陷與先天變形安全分流",
+      "path": "06_功能性測試/軀幹/功能性測試－五次坐站與短程步行轉身追蹤.md",
+      "title": "功能性測試－五次坐站與短程步行轉身追蹤",
       "role": "相關",
-      "type": "系統性評估",
-      "template": "模板－系統性評估.md"
+      "type": "功能性測試",
+      "template": "模板－功能性測試.md"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－腕部退化與豆三角症狀負荷管理.md",
-      "title": "運動治療－腕部退化與豆三角症狀負荷管理",
+      "path": "05_處置與復健/運動治療/運動治療－胸腰椎醫療穩定後步行與轉位進展.md",
+      "title": "運動治療－胸腰椎醫療穩定後步行與轉位進展",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－手部感染醫療處置後活動與握捏恢復.md",
-      "title": "運動治療－手部感染醫療處置後活動與握捏恢復",
+      "path": "05_處置與復健/運動治療/運動治療－僵硬胸腰椎醫療穩定後呼吸與軀幹容量恢復.md",
+      "title": "運動治療－僵硬胸腰椎醫療穩定後呼吸與軀幹容量恢復",
       "role": "相關",
       "type": "運動治療",
       "template": "模板－運動治療.md"
+    },
+    {
+      "path": "01_基礎解剖/神經/神經－胸腰椎硬膜外後方神經壓迫路徑.md",
+      "title": "神經－胸腰椎硬膜外後方神經壓迫路徑",
+      "role": "相關",
+      "type": "神經",
+      "template": "模板－神經.md"
     }
   ],
   "per_note_validation": [
     {
-      "path": "03_傷害與疾病/過度使用/傷害－舟月進階塌陷手腕（SLAC Wrist）.md",
+      "path": "03_傷害與疾病/過度使用/傷害－瀰漫性特發性骨肥厚症（DISH）.md",
       "template": "模板－傷害.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
+      "yaml_order": true,
+      "h1": true,
+      "h2_order": true,
+      "wikilink": true,
+      "passed": true
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－Madelung 手腕變形.md",
+      "path": "03_傷害與疾病/過度使用/傷害－軸性脊椎痛風.md",
       "template": "模板－傷害.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
+      "yaml_order": true,
+      "h1": true,
+      "h2_order": true,
+      "wikilink": true,
+      "passed": true
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－豆三角關節骨關節炎與不穩定.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－腰椎小面關節感染性關節炎.md",
       "template": "模板－傷害.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
+      "yaml_order": true,
+      "h1": true,
+      "h2_order": true,
+      "wikilink": true,
+      "passed": true
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－手部骨髓炎.md",
-      "template": "模板－傷害.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
+      "path": "04_臨床評估/系統性評估/評估－代謝發炎感染性胸腰痛安全分流.md",
+      "template": "模板－系統性評估.md",
+      "yaml_order": true,
+      "h1": true,
+      "h2_order": true,
+      "wikilink": true,
+      "passed": true
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－手腕與手部感染性關節炎.md",
-      "template": "模板－傷害.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
+      "path": "04_臨床評估/系統性評估/評估－僵硬脊柱低能量創傷安全分流.md",
+      "template": "模板－系統性評估.md",
+      "yaml_order": true,
+      "h1": true,
+      "h2_order": true,
+      "wikilink": true,
+      "passed": true
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－舟月進階塌陷與橈腕退化鏈.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－胸腰椎前外側骨橋與僵硬脊柱.md",
       "template": "模板－骨骼或關節.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
+      "yaml_order": true,
+      "h1": true,
+      "h2_order": true,
+      "wikilink": true,
+      "passed": true
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－Madelung 遠端橈骨尺掌側生長板與 Vickers 韌帶.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－胸腰椎小面關節與後方元素沉積空間.md",
       "template": "模板－骨骼或關節.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
+      "yaml_order": true,
+      "h1": true,
+      "h2_order": true,
+      "wikilink": true,
+      "passed": true
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－豆三角關節與尺側腕負荷.md",
-      "template": "模板－骨骼或關節.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
+      "path": "01_基礎解剖/韌帶/韌帶－前縱韌帶與胸腰椎骨化鏈.md",
+      "template": "模板－韌帶.md",
+      "yaml_order": true,
+      "h1": true,
+      "h2_order": true,
+      "wikilink": true,
+      "passed": true
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－手部骨與鄰近腱鞘感染路徑.md",
-      "template": "模板－骨骼或關節.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
-    },
-    {
-      "path": "04_臨床評估/主觀問診/評估－慢性腕變形尺側痛與急性紅腫問診.md",
+      "path": "04_臨床評估/主觀問診/評估－高尿酸感染免疫與用藥風險問診.md",
       "template": "模板－主觀問診.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
+      "yaml_order": true,
+      "h1": true,
+      "h2_order": true,
+      "wikilink": true,
+      "passed": true
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－腕部變形豆三角痛與手部感染身體檢查.md",
+      "path": "04_臨床評估/身體檢查/評估－胸腰椎僵硬代謝與感染風險身體檢查.md",
       "template": "模板－身體檢查.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
+      "yaml_order": true,
+      "h1": true,
+      "h2_order": true,
+      "wikilink": true,
+      "passed": true
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－手腕與手感染骨關節安全分流.md",
-      "template": "模板－系統性評估.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
+      "path": "04_臨床評估/特殊檢查/特殊檢查－胸腰椎叩擊痛測試.md",
+      "template": "模板－特殊檢查.md",
+      "yaml_order": true,
+      "h1": true,
+      "h2_order": true,
+      "wikilink": true,
+      "passed": true
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－手腕退化塌陷與先天變形安全分流.md",
-      "template": "模板－系統性評估.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
+      "path": "06_功能性測試/軀幹/功能性測試－五次坐站與短程步行轉身追蹤.md",
+      "template": "模板－功能性測試.md",
+      "yaml_order": true,
+      "h1": true,
+      "h2_order": true,
+      "wikilink": true,
+      "passed": true
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－腕部退化與豆三角症狀負荷管理.md",
+      "path": "05_處置與復健/運動治療/運動治療－胸腰椎醫療穩定後步行與轉位進展.md",
       "template": "模板－運動治療.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
+      "yaml_order": true,
+      "h1": true,
+      "h2_order": true,
+      "wikilink": true,
+      "passed": true
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－手部感染醫療處置後活動與握捏恢復.md",
+      "path": "05_處置與復健/運動治療/運動治療－僵硬胸腰椎醫療穩定後呼吸與軀幹容量恢復.md",
       "template": "模板－運動治療.md",
-      "yaml": "passed",
-      "h1": "passed",
-      "h2_order": "passed",
-      "required_subfields": "passed",
-      "links": "passed"
+      "yaml_order": true,
+      "h1": true,
+      "h2_order": true,
+      "wikilink": true,
+      "passed": true
+    },
+    {
+      "path": "01_基礎解剖/神經/神經－胸腰椎硬膜外後方神經壓迫路徑.md",
+      "template": "模板－神經.md",
+      "yaml_order": true,
+      "h1": true,
+      "h2_order": true,
+      "wikilink": true,
+      "passed": true
     }
   ],
-  "assets": [
-    "assets/anatomy/手腕與手第十一輪腕骨排列感染與負荷圖.svg",
-    "assets/assessment/手腕與手第十一輪感染骨關節安全分流圖.svg",
-    "assets/assessment/手腕與手第十一輪退化感染醫療穩定後恢復矩陣.svg"
+  "sources_verified": [
+    "Beyond Resnick and Niwayama: a structured narrative literature review on the clinical and imaging phenotypes of diffuse idiopathic skeletal hyperostosis (DISH). 2026. https://pubmed.ncbi.nlm.nih.gov/42463279/",
+    "Whole Spine CT Scan for the Detection of Acute Spinal Fractures in DISH Patients Who Sustained Low-energy Trauma. Spine. 2020. https://pubmed.ncbi.nlm.nih.gov/32341308/",
+    "Rigid spine injuries—A comprehensive review on diagnostic and therapeutic challenges. 2024. https://pubmed.ncbi.nlm.nih.gov/38681176/",
+    "Patient characteristics, surgical treatment, and outcomes in spinal gout: a systematic review of 315 cases. Eur Spine J. 2024. https://doi.org/10.1007/s00586-023-07942-8",
+    "Axial gout diagnosed by dual-energy CT in a normouricaemic patient: a case-based review. Rheumatol Int. 2026. https://doi.org/10.1007/s00296-026-06223-z",
+    "Ross JJ, et al. Septic Arthritis of the Spinal Facet Joint: Review of 117 Cases. Open Forum Infect Dis. 2024;11:ofae091. https://doi.org/10.1093/ofid/ofae091",
+    "ACR Appropriateness Criteria: Suspected Spine Infection. J Am Coll Radiol. 2021. https://pubmed.ncbi.nlm.nih.gov/34794603/",
+    "WHO guideline for non-surgical management of chronic primary low back pain in adults. 2023. https://www.who.int/publications/i/item/9789240081789",
+    "George SZ, et al. Interventions for the Management of Acute and Chronic Low Back Pain: Revision 2021. JOSPT. https://doi.org/10.2519/jospt.2021.0304"
   ],
-  "sources_checked": [
-    "SLAC and SNAC wrist treatment review, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11127752/",
-    "PRC versus four-corner fusion systematic review and meta-analysis, 2024. https://pubmed.ncbi.nlm.nih.gov/38416092/",
-    "Madelung Deformity: A Current Concepts Review, 2026. https://pubmed.ncbi.nlm.nih.gov/41686103/",
-    "State of the art review: pathogenesis and management of Madelung deformity, 2023. https://pubmed.ncbi.nlm.nih.gov/37572317/",
-    "Pisotriquetral joint osteoarthritis and instability: narrative review, 2026. https://doi.org/10.1016/j.jorep.2026.100905",
-    "Management of Pisotriquetral Instability, 2018. https://pubmed.ncbi.nlm.nih.gov/29169722/",
-    "Hand Osteomyelitis: systematic review and recommendations, 2025. https://pmc.ncbi.nlm.nih.gov/articles/PMC11559780/",
-    "Hand osteomyelitis clinical associations and MRI, 2026. https://pubmed.ncbi.nlm.nih.gov/42739735/",
-    "Guideline for management of septic arthritis in native joints, 2023. https://pmc.ncbi.nlm.nih.gov/articles/PMC9901514/",
-    "Management of the Septic Wrist: systematic review, 2024. https://pubmed.ncbi.nlm.nih.gov/38403373/",
-    "Managing Small Joint Septic Arthritis of the Hand, 2023. https://pubmed.ncbi.nlm.nih.gov/37905368/"
-  ],
-  "validation": {
-    "status": "passed",
-    "checks": [
-      "all template SHAs",
-      "exact YAML keys/order",
-      "H1 filename",
-      "exact H2 order",
-      "required subfields",
-      "no placeholders",
-      "deduplication",
-      "bidirectional indexes",
-      "SVG XML and render",
-      "no new directories",
-      "unresolved new links zero",
-      "SHA-256",
-      "ZIP CRC/extraction/bit comparison/path"
-    ]
-  },
-  "generated_at_utc": "2026-11-13T00:09:39.323009+00:00"
+  "files": {
+    "03_傷害與疾病/過度使用/傷害－瀰漫性特發性骨肥厚症（DISH）.md": {
+      "sha256": "4189c1a97fe9f39fc5a94a9acff73ef110d43fcab29273698b8c9a36cc632463",
+      "bytes": 3020
+    },
+    "03_傷害與疾病/過度使用/傷害－軸性脊椎痛風.md": {
+      "sha256": "25edc35b0971c4e5db0835d016e0f444f1d524b9e746915f1b9dee8f8680b985",
+      "bytes": 2750
+    },
+    "03_傷害與疾病/急性傷害/傷害－腰椎小面關節感染性關節炎.md": {
+      "sha256": "09cd6e63e7c95d7f54427949784220cac31eb4a672a53556597cd976bdc53f59",
+      "bytes": 2711
+    },
+    "04_臨床評估/系統性評估/評估－代謝發炎感染性胸腰痛安全分流.md": {
+      "sha256": "61acf1dd5dd9b8d06037da3eaf5d101e43a2fbf384f2e7e041bbb594dc71e223",
+      "bytes": 2565
+    },
+    "04_臨床評估/系統性評估/評估－僵硬脊柱低能量創傷安全分流.md": {
+      "sha256": "f63654e8adfc4a83dcb29ce168c4857628f178f9ccf5d4b04eae712a555ba903",
+      "bytes": 2265
+    },
+    "01_基礎解剖/骨骼/骨骼與關節－胸腰椎前外側骨橋與僵硬脊柱.md": {
+      "sha256": "0cb88b7637fdfef602eab8036c0376854d1b5ae55667d5075d1709c16e6c8c00",
+      "bytes": 1671
+    },
+    "01_基礎解剖/骨骼/骨骼與關節－胸腰椎小面關節與後方元素沉積空間.md": {
+      "sha256": "d6f777998ae39946677efed0ba45f2c72b6f91c754c37f3eb4433d0783799aa4",
+      "bytes": 1714
+    },
+    "01_基礎解剖/韌帶/韌帶－前縱韌帶與胸腰椎骨化鏈.md": {
+      "sha256": "ef48105825cef23a172211500b4fc8ce7b9c985f565ef57f75ae817c80d3a6b5",
+      "bytes": 1708
+    },
+    "04_臨床評估/主觀問診/評估－高尿酸感染免疫與用藥風險問診.md": {
+      "sha256": "ff195b26e0ee1b5d8c2676871670f9718b8193260d4880ee187b8252aa2e9034",
+      "bytes": 2307
+    },
+    "04_臨床評估/身體檢查/評估－胸腰椎僵硬代謝與感染風險身體檢查.md": {
+      "sha256": "9a27a0fd403492467577d4c8a849fe8298966e276984b4ffd5f3155946088a69",
+      "bytes": 2572
+    },
+    "04_臨床評估/特殊檢查/特殊檢查－胸腰椎叩擊痛測試.md": {
+      "sha256": "a867f2aed2a264204096d94ae3c7c57328f1bb52a53b1986c7ab069602ae0df4",
+      "bytes": 2221
+    },
+    "06_功能性測試/軀幹/功能性測試－五次坐站與短程步行轉身追蹤.md": {
+      "sha256": "18f60ca07afc1cb2022021305f8b003afb3cf87a1b50ef6f77b5d8cbd6237959",
+      "bytes": 1634
+    },
+    "05_處置與復健/運動治療/運動治療－胸腰椎醫療穩定後步行與轉位進展.md": {
+      "sha256": "cfe653e813477ace168e1907d97405d80cdbc9b3a85ca65c0c5e46cfbe845462",
+      "bytes": 2120
+    },
+    "05_處置與復健/運動治療/運動治療－僵硬胸腰椎醫療穩定後呼吸與軀幹容量恢復.md": {
+      "sha256": "ffa5c8d2d57e9e5f704b5f6cc64b5953ba70a19453cf96087621abbb7b822d5d",
+      "bytes": 2301
+    },
+    "01_基礎解剖/神經/神經－胸腰椎硬膜外後方神經壓迫路徑.md": {
+      "sha256": "eb9737151e216c72a717e2e03e8ad2370bac481cfde379fa881ef8f0c118f338",
+      "bytes": 1903
+    },
+    "00_首頁與索引/每日知識包目錄/每日知識包－2026-11-14－胸腰椎第十一輪.md": {
+      "sha256": "91090e0e0e34da8482dc63510a1263f16a581911be762c9d9560c2f176544c3d",
+      "bytes": 1961
+    },
+    "assets/anatomy/胸腰椎第十一輪僵硬脊柱痛風與小面關節感染圖.svg": {
+      "sha256": "f9785069976220f2d1b4036872b235e80a2c29077d713490a0ac644274dc86bc",
+      "bytes": 2018
+    },
+    "assets/assessment/胸腰椎第十一輪代謝發炎感染安全分流圖.svg": {
+      "sha256": "5ef74e3b0883c77c3ceb7277dd9f6dd6e2fde558e9e5eff91dc10b22a64e0abc",
+      "bytes": 2056
+    },
+    "assets/assessment/胸腰椎第十一輪醫療穩定後活動進展矩陣.svg": {
+      "sha256": "2038d717909f38968819d4fe764f389fcea5b2290fb8577787e2fe32d0c23a80",
+      "bytes": 1969
+    },
+    "00_首頁與索引/傷害索引.md": {
+      "sha256": "46a05d3b091f5e118dc63a17d4cccc16dd5dcc5d32fcb61714efbe4471a14556",
+      "bytes": 18629
+    },
+    "assets/圖片來源與授權.md": {
+      "sha256": "b0fcda89a8479f2b932098ca0ea98dcda4ab307e029cd202ccadd736c477d16e",
+      "bytes": 40864
+    }
+  }
 }
