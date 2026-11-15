@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>防護員知識系統・互動學習</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@600;700&display=swap">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
+<style>
+:root{
+  --bg:#f6f3ee;--panel:#fffdf9;--ink:#1f2a2c;--ink2:#56625f;--ink3:#8a948f;--line:#e4ded3;--soft:#efe9df;
+  --acc:#0f6e64;--acc2:#e3f1ee;--warn:#b4442f;--ok:#2f7d4a;
+  --anat:#7a5cc7;--inj:#c2543d;--eval:#2f6fb0;--test:#b07a12;--rx:#2f8a5a;--func:#a1478a;--idx:#6b7570;
+  --r:14px;--shadow:0 1px 2px rgba(40,30,10,.05),0 6px 20px rgba(40,30,10,.06);
+}
+@media (prefers-color-scheme:dark){:root{
+  --bg:#141a1a;--panel:#1b2322;--ink:#e8ecea;--ink2:#a9b4b0;--ink3:#76827e;--line:#2c3735;--soft:#222c2b;
+  --acc:#4fc1b0;--acc2:#1d3532;--warn:#ef8a74;--ok:#6fcf8f;
+  --anat:#a990ee;--inj:#ef8a74;--eval:#79aee8;--test:#e0b44e;--rx:#6fcf9b;--func:#e08acb;--idx:#98a29d;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 6px 20px rgba(0,0,0,.25);}}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--ink);font-family:"Noto Sans TC",system-ui,-apple-system,"PingFang TC","Microsoft JhengHei",sans-serif;font-size:16px;line-height:1.7}
+a{color:var(--acc);text-decoration:none}
+a:hover{text-decoration:underline}
+button{font:inherit;cursor:pointer}
+h1,h2,h3{font-family:"Noto Serif TC",serif;line-height:1.35}
+/* top bar */
+header.top{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.topin{max-width:1240px;margin:0 auto;display:flex;align-items:center;gap:18px;padding:10px 20px}
+.brand{display:flex;align-items:center;gap:10px;font-family:"Noto Serif TC",serif;font-weight:700;font-size:18px;color:var(--ink);white-space:nowrap}
+.brand .mark{width:30px;height:30px;border-radius:9px;background:var(--acc);display:grid;place-items:center;color:#fff;font-size:15px}
+nav.tabs{display:flex;gap:4px}
+nav.tabs a{padding:7px 13px;border-radius:999px;color:var(--ink2);font-size:15px;white-space:nowrap}
+nav.tabs a.on{background:var(--acc2);color:var(--acc);font-weight:500}
+nav.tabs a:hover{text-decoration:none;background:var(--soft)}
+.searchbtn{margin-left:auto;display:flex;align-items:center;gap:8px;border:1px solid var(--line);background:var(--panel);color:var(--ink3);border-radius:999px;padding:7px 14px;min-width:220px;font-size:14px}
+.searchbtn kbd{margin-left:auto;font-size:11px;border:1px solid var(--line);border-radius:5px;padding:0 5px}
+main{max-width:1240px;margin:0 auto;padding:26px 20px 90px}
+.foot{color:var(--ink3);font-size:13px;text-align:center;padding:10px 20px 40px;max-width:900px;margin:0 auto}
+@media (max-width:820px){
+  nav.tabs{position:fixed;bottom:0;left:0;right:0;justify-content:space-around;background:var(--panel);border-top:1px solid var(--line);padding:6px 4px calc(6px + env(safe-area-inset-bottom));z-index:30}
+  nav.tabs a{font-size:13px;padding:6px 10px}
+  .searchbtn{min-width:0}.searchbtn span,.searchbtn kbd{display:none}
+  header.top{backdrop-filter:none;-webkit-backdrop-filter:none;background:var(--bg)}
+  main .hero h1{font-size:29px}main .ntitle{font-size:27px}main .rhead h1{font-size:28px}
+  main .face{padding:20px}main .face.front .q{font-size:23px}
+}
+/* common */
+.card{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow)}
+.chip{display:inline-flex;align-items:center;gap:5px;font-size:12.5px;padding:2px 10px;border-radius:999px;background:var(--soft);color:var(--ink2);white-space:nowrap}
+.dot{width:8px;height:8px;border-radius:50%;display:inline-block;flex:none}
+.btn{border:1px solid var(--line);background:var(--panel);color:var(--ink);padding:8px 16px;border-radius:10px;font-size:15px}
+.btn:hover{border-color:var(--acc)}
+.btn.pri{background:var(--acc);border-color:var(--acc);color:#fff}
+.btn.pri:hover{filter:brightness(1.07)}
+.btn.ghost{background:transparent}
+.btn:disabled{opacity:.45;cursor:default}
+.muted{color:var(--ink3)}
+.eyebrow{font-size:13px;letter-spacing:.08em;color:var(--acc);font-weight:500}
+.seg{display:inline-flex;flex-wrap:wrap;gap:6px}
+.seg button{border:1px solid var(--line);background:var(--panel);color:var(--ink2);border-radius:999px;padding:5px 13px;font-size:14px}
+.seg button.on{background:var(--acc);border-color:var(--acc);color:#fff}
+.bar{height:6px;background:var(--soft);border-radius:9px;overflow:hidden}
+.bar>i{display:block;height:100%;background:var(--acc);border-radius:9px}
+/* home */
+.hero{display:grid;grid-template-columns:1.25fr 1fr;gap:26px;align-items:stretch}
+.hero h1{font-size:38px;margin:6px 0 10px}
+.hero p.lead{color:var(--ink2);font-size:17px;max-width:560px;margin:0 0 20px}
+.stats{display:flex;gap:26px;flex-wrap:wrap;margin:18px 0 22px}
+.stats b{display:block;font-size:26px;font-family:"Noto Serif TC",serif}
+.stats span{font-size:13px;color:var(--ink3)}
+.path{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:8px}
+.path .chip{font-size:13px}
+.path .arr{color:var(--ink3)}
+.bodybox{padding:18px;display:flex;flex-direction:column;align-items:center}
+.bodybox svg{width:100%;max-width:300px;height:auto}
+.hot{cursor:pointer}
+.hot circle.ring{fill:var(--acc);opacity:.16;transition:.2s}
+.hot circle.core{fill:var(--acc)}
+.hot:hover circle.ring,.hot.hl circle.ring{opacity:.38}
+.hot text{font-size:12px;fill:var(--ink);font-family:"Noto Sans TC",sans-serif}
+.figure-shape{fill:var(--soft);stroke:var(--line);stroke-width:1.5}
+.quick{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:26px 0}
+.quick .card{padding:18px 20px;cursor:pointer}
+.quick .card:hover{border-color:var(--acc)}
+.quick h3{margin:0 0 4px;font-size:18px}
+.quick p{margin:0;color:var(--ink2);font-size:14px}
+.regions{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.reg{padding:16px 18px;cursor:pointer;transition:.15s}
+.reg:hover{border-color:var(--acc);transform:translateY(-1px)}
+.reg h3{margin:0;font-size:20px}
+.reg .meta{font-size:13px;color:var(--ink3);margin:2px 0 10px}
+.reg .stk{display:flex;height:6px;border-radius:9px;overflow:hidden;margin-bottom:10px;gap:2px}
+.secttl{display:flex;align-items:baseline;gap:12px;margin:34px 0 14px}
+.secttl h2{margin:0;font-size:23px}
+@media (max-width:980px){.hero{grid-template-columns:1fr}.regions{grid-template-columns:repeat(2,1fr)}.quick{grid-template-columns:1fr}}
+/* region */
+.rhead{display:flex;flex-wrap:wrap;align-items:flex-end;gap:16px;justify-content:space-between;margin-bottom:18px}
+.rhead h1{margin:2px 0 0;font-size:34px}
+.pipeline{display:grid;grid-template-columns:repeat(6,minmax(180px,1fr));gap:12px;overflow-x:auto;padding-bottom:8px}
+.col{padding:14px 12px;min-height:200px}
+.col h3{margin:0 0 2px;font-size:16px;display:flex;align-items:center;gap:7px;font-family:"Noto Sans TC",sans-serif}
+.col .cnt{font-size:12.5px;color:var(--ink3);margin-bottom:10px}
+.col ul{list-style:none;margin:0;padding:0;max-height:62vh;overflow:auto}
+.col li a{display:flex;gap:6px;align-items:flex-start;padding:5px 8px;border-radius:8px;color:var(--ink);font-size:14px;line-height:1.45}
+.col li a:hover{background:var(--soft);text-decoration:none}
+.col li a .ck{flex:none;width:15px;color:var(--ok);font-size:12px;margin-top:2px}
+/* sub-area chips */
+.subbar{display:flex;flex-wrap:wrap;gap:8px;margin:-4px 0 18px}
+.subchip{position:relative;overflow:hidden;display:inline-flex;align-items:center;gap:7px;padding:7px 14px;border-radius:999px;border:1px solid var(--line);background:var(--panel);color:var(--ink);font-size:14.5px}
+.subchip b{font-weight:500;font-size:12px;color:var(--ink3)}
+.subchip i{position:absolute;left:0;bottom:0;height:3px;background:var(--ok)}
+.subchip:hover{text-decoration:none;border-color:var(--acc)}
+.subchip.on{background:var(--acc);border-color:var(--acc);color:#fff}.subchip.on b{color:#d8efe9}
+.col li.sg a{font-size:12.5px;font-weight:500;color:var(--ink2);padding:10px 8px 3px;display:flex;justify-content:space-between;border-bottom:1px solid var(--line);border-radius:0;margin-bottom:3px}
+.col li.sg:first-child a{padding-top:2px}
+.col li.sg a span{color:var(--ink3);font-weight:400}
+.reg .subs{display:flex;flex-wrap:wrap;gap:5px;margin-top:10px}
+.reg .subs a{font-size:12px;padding:1px 9px;border-radius:999px;background:var(--soft);color:var(--ink2)}
+.reg .subs a:hover{background:var(--acc2);color:var(--acc);text-decoration:none}
+.rfilter{border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:10px;padding:8px 12px;font-size:15px;min-width:230px}
+/* note */
+.notewrap{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:30px}
+@media (max-width:980px){.notewrap{grid-template-columns:1fr}}
+.crumb{font-size:14px;color:var(--ink3);display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+.ntitle{font-size:34px;margin:8px 0 2px}
+.nen{color:var(--ink2);font-size:16px;margin-bottom:10px;font-style:italic}
+.nmeta{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:16px}
+.ntools{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 22px}
+.ntools .btn{font-size:14px;padding:6px 13px}
+.btn.toggled{background:var(--acc2);border-color:var(--acc);color:var(--acc)}
+.md{font-size:16.5px}
+.md h2{font-size:21px;margin:0;padding:0}
+.md h3{font-size:17px;margin:16px 0 6px}
+.md p{margin:8px 0}
+.md ul,.md ol{padding-left:1.4em;margin:8px 0}
+.md li{margin:3px 0}
+.md table{border-collapse:collapse;width:100%;font-size:14.5px;margin:10px 0;display:block;overflow-x:auto}
+.md th,.md td{border:1px solid var(--line);padding:6px 9px;text-align:left;vertical-align:top}
+.md th{background:var(--soft)}
+.md blockquote{margin:12px 0;padding:8px 14px;border-left:3px solid var(--acc);background:var(--acc2);border-radius:0 8px 8px 0;color:var(--ink2)}
+.md img{max-width:100%;background:#fff;border-radius:10px;border:1px solid var(--line);padding:6px;margin:8px 0;cursor:zoom-in}
+.md code{background:var(--soft);padding:1px 5px;border-radius:5px;font-size:.9em}
+.sec{border-top:1px solid var(--line);padding:16px 0 10px}
+.sec:first-child{border-top:0;padding-top:0}
+.sech{display:flex;align-items:center;gap:10px;cursor:pointer;user-select:none}
+.sech .tg{margin-left:auto;font-size:12px;color:var(--ink3)}
+.secb{transition:filter .2s}
+.recall .secb.cov{filter:blur(7px);opacity:.55;cursor:pointer;user-select:none}
+.recall .secb.cov *{pointer-events:none}
+.sec.collapsed .secb{display:none}
+a.wl{border-bottom:1px dashed currentColor;color:var(--c,var(--acc))}
+a.wl:hover{text-decoration:none;background:var(--soft)}
+.wlm{color:var(--ink3);border-bottom:1px dotted var(--ink3)}
+.side{position:sticky;top:76px;align-self:start;max-height:calc(100vh - 96px);overflow:auto;display:flex;flex-direction:column;gap:14px}
+@media (max-width:980px){.side{position:static;max-height:none}}
+.side .card{padding:14px 16px}
+.side h4{margin:0 0 8px;font-size:14px;color:var(--ink2);font-weight:500}
+.side ul{list-style:none;margin:0;padding:0}
+.side li{font-size:14px;line-height:1.45;padding:3px 0}
+.side li a{color:var(--ink)}
+.side .grp{font-size:12px;color:var(--ink3);margin:8px 0 2px;display:flex;gap:6px;align-items:center}
+.toc a{color:var(--ink2)!important}
+/* list/browse */
+.filters{display:flex;flex-direction:column;gap:10px;margin-bottom:18px}
+.nlist{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:10px}
+.nitem{padding:12px 14px;display:block;color:var(--ink)}
+.nitem:hover{text-decoration:none;border-color:var(--acc)}
+.nitem .t{font-weight:500;line-height:1.45}
+.nitem .s{font-size:13px;color:var(--ink3);margin-top:4px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+/* flashcards */
+.setup{padding:20px 22px;display:flex;flex-direction:column;gap:14px;max-width:860px}
+.setup label.l{font-size:14px;color:var(--ink2);display:block;margin-bottom:6px}
+.fc-wrap{max-width:820px;margin:0 auto}
+.fc{perspective:1600px;margin:16px 0}
+.fc-in{position:relative;min-height:360px;transition:transform .45s;transform-style:preserve-3d;cursor:pointer}
+.fc.flip .fc-in{transform:rotateY(180deg)}
+.face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;padding:26px 30px;overflow:auto}
+.face.back{transform:rotateY(180deg)}
+.face.front{display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center}
+.face.front .q{font-family:"Noto Serif TC",serif;font-size:28px;margin:10px 0 4px;line-height:1.4}
+.face.front .ask{font-size:20px;color:var(--acc);margin-top:14px}
+.fc-ctl{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+.fc-ctl .btn{min-width:120px}
+.btn.bad{border-color:var(--warn);color:var(--warn)}
+.btn.mid{border-color:var(--test);color:var(--test)}
+.btn.good{border-color:var(--ok);color:var(--ok)}
+.prog-line{display:flex;align-items:center;gap:12px;font-size:14px;color:var(--ink2)}
+.prog-line .bar{flex:1}
+/* quiz */
+.qz{max-width:820px;margin:0 auto}
+.qcard{padding:24px 26px;margin:16px 0}
+.qstem{font-size:18px;line-height:1.75}
+.qctx{background:var(--soft);border-radius:10px;padding:12px 16px;margin:12px 0;font-size:15.5px;color:var(--ink);line-height:1.8}
+.mask{background:var(--ink);color:transparent;border-radius:4px;padding:0 .3em;user-select:none}
+.opts{display:flex;flex-direction:column;gap:9px;margin-top:16px}
+.opt{text-align:left;border:1.5px solid var(--line);background:var(--panel);color:var(--ink);border-radius:12px;padding:11px 15px;font-size:16px;display:flex;gap:12px;align-items:center}
+.opt:hover:not(:disabled){border-color:var(--acc)}
+.opt .k{flex:none;width:26px;height:26px;border-radius:50%;background:var(--soft);display:grid;place-items:center;font-size:13px;color:var(--ink2)}
+.opt.right{border-color:var(--ok);background:color-mix(in srgb,var(--ok) 10%,var(--panel))}
+.opt.wrong{border-color:var(--warn);background:color-mix(in srgb,var(--warn) 10%,var(--panel))}
+.opt:disabled{cursor:default}
+.fb{margin-top:16px;padding:12px 16px;border-radius:10px;font-size:15px}
+.fb.ok{background:color-mix(in srgb,var(--ok) 12%,transparent)}
+.fb.no{background:color-mix(in srgb,var(--warn) 12%,transparent)}
+.score{font-family:"Noto Serif TC",serif;font-size:56px;margin:0}
+/* progress */
+.heat{border-collapse:separate;border-spacing:4px;font-size:13.5px;width:100%}
+.heat th{font-weight:500;color:var(--ink2);text-align:left;padding:2px 6px;white-space:nowrap}
+.heat td{border-radius:8px;text-align:center;padding:9px 4px;min-width:62px;cursor:pointer}
+.boxes{display:flex;gap:10px;align-items:flex-end;height:120px;margin-top:10px}
+.boxes div{flex:1;background:var(--acc);border-radius:8px 8px 0 0;min-height:2px;position:relative;opacity:.85}
+.boxes span{position:absolute;top:-20px;left:0;right:0;text-align:center;font-size:12px;color:var(--ink2)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media (max-width:820px){.grid2{grid-template-columns:1fr}}
+/* overlay */
+.ov{position:fixed;inset:0;background:rgba(10,15,15,.45);z-index:50;display:none;align-items:flex-start;justify-content:center;padding:8vh 16px}
+.ov.on{display:flex}
+.sbox{width:min(720px,100%);max-height:78vh;display:flex;flex-direction:column;overflow:hidden}
+.sbox input{border:0;border-bottom:1px solid var(--line);background:transparent;color:var(--ink);font-size:18px;padding:16px 20px;outline:none}
+.sres{overflow:auto;padding:6px}
+.sres a{display:block;padding:9px 14px;border-radius:10px;color:var(--ink)}
+.sres a.sel,.sres a:hover{background:var(--soft);text-decoration:none}
+.sres .t{font-weight:500}
+.sres .s{font-size:13px;color:var(--ink3);overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+.sres mark{background:color-mix(in srgb,var(--test) 30%,transparent);color:inherit;border-radius:3px}
+.imgov img{max-width:94vw;max-height:84vh;background:#fff;border-radius:12px;padding:10px}
+.imgov{align-items:center;cursor:zoom-out}
+.dlg{padding:22px 24px;width:min(420px,100%)}
+.toast{position:fixed;bottom:80px;left:50%;transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:9px 18px;border-radius:999px;font-size:14px;z-index:60;opacity:0;transition:.25s;pointer-events:none}
+.toast.on{opacity:1}
+.empty{padding:40px;text-align:center;color:var(--ink3)}
+</style>
+</head>
+<body>
+<header class="top"><div class="topin">
+  <a class="brand" href="#home"><span class="mark">AT</span>防護員知識系統</a>
+  <nav class="tabs" id="tabs">
+    <a href="#home" data-r="home">首頁</a>
+    <a href="#browse" data-r="browse">全部筆記</a>
+    <a href="#cards" data-r="cards">閃卡</a>
+    <a href="#quiz" data-r="quiz">測驗</a>
+    <a href="#progress" data-r="progress">學習進度</a>
+  </nav>
+  <button class="searchbtn" id="sbtn">⌕ <span>搜尋筆記、檢查、傷害…</span><kbd>/</kbd></button>
+</div></header>
+<main id="app"></main>
+<div class="foot">本網站整理自 AT-Obsidian 知識庫，供運動防護學習與複習使用，不取代完整病史、理學檢查、醫療影像、醫師診斷或緊急醫療處置。<br><span id="buildinfo"></span></div>
+
+<div class="ov" id="sov"><div class="card sbox" onclick="event.stopPropagation()">
+  <input id="sin" placeholder="輸入關鍵字，例如 Lachman、旋轉肌袖、踝扭傷…" autocomplete="off">
+  <div class="sres" id="sres"></div>
+</div></div>
+<div class="ov imgov" id="iov"><img id="iimg" alt=""></div>
+<div class="ov" id="dov"><div class="card dlg" onclick="event.stopPropagation()"><div id="dmsg"></div><div style="display:flex;gap:8px;justify-content:flex-end;margin-top:18px"><button class="btn" id="dno">取消</button><button class="btn pri" id="dyes">確定</button></div></div></div>
+<div class="toast" id="toast"></div>
+
+<script type="application/json" id="data">/*DATA*/</script>
+<script>
+"use strict";
+const D = JSON.parse(document.getElementById('data').textContent);
+const N = D.notes, SVG = D.svgs;
+const REGIONS = ['頭頸','肩部','肘部','手腕與手','胸腰椎','骨盆與髖','膝部','足踝'];
+const STAGES = [
+  {k:'anat',n:'解剖構造',d:'骨骼、關節、肌肉、韌帶、神經'},
+  {k:'inj',n:'傷害與疾病',d:'機轉、症狀、鑑別與紅旗'},
+  {k:'eval',n:'臨床評估',d:'問診、系統性與身體檢查'},
+  {k:'test',n:'特殊檢查',d:'操作、陽性與診斷價值'},
+  {k:'rx',n:'處置與復健',d:'運動治療與貼紮'},
+  {k:'func',n:'功能與回場',d:'功能性測試與回場判讀'}];
+const SN = Object.fromEntries(STAGES.map(s=>[s.k,s.n])); SN.idx='索引';
+const byName = new Map(N.map(n=>[n.t,n]));
+const back = N.map(()=>[]);
+N.forEach(n=>n.l.forEach(k=>back[k].push(n.id)));
+const dn = t => t.includes('－') ? t.slice(t.indexOf('－')+1) : t;
+const esc = s => String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const $ = s => document.querySelector(s);
+const app = $('#app');
+const rnd = a => a[Math.floor(Math.random()*a.length)];
+const shuffle = a => {a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a};
+const stageColor = k => `var(--${k||'idx'})`;
+const regionNote = r => N.find(n=>n.ty==='身體區域' && n.t===r);
+const inRegion = (n,r) => r==null || n.r.includes(r);
+const SUBS = D.subs||{};
+const subOf = (n,r) => n.sa ? (n.sa[n.r.indexOf(r)]||'') : '';
+const inSub = (n,r,sub) => sub==null || (r!=null && subOf(n,r)===sub);
+const subLink = (r,sub) => `#region-${REGIONS.indexOf(r)}-${SUBS[r].indexOf(sub)}`;
+
+/* ---------- persistence (per-browser, best effort) ---------- */
+const KEY='at-learn-v1';
+let P = {read:{},cards:{},quiz:[],wrong:{},last:null};
+try{const s=localStorage.getItem(KEY); if(s) P=Object.assign(P,JSON.parse(s));}catch(e){}
+function save(){try{localStorage.setItem(KEY,JSON.stringify(P))}catch(e){}}
+function toast(m){const t=$('#toast');t.textContent=m;t.classList.add('on');clearTimeout(toast._t);toast._t=setTimeout(()=>t.classList.remove('on'),1800)}
+function ask(msg){return new Promise(res=>{$('#dmsg').innerHTML=msg;const o=$('#dov');o.classList.add('on');
+  const done=v=>{o.classList.remove('on');$('#dyes').onclick=$('#dno').onclick=o.onclick=null;res(v)};
+  $('#dyes').onclick=()=>done(true);$('#dno').onclick=()=>done(false);o.onclick=()=>done(false);})}
+
+/* ---------- text helpers ---------- */
+function plain(md){return md.replace(/!\[[^\]]*\]\([^)]*\)/g,'').replace(/\[\[([^\]|#]+)(#[^\]|]*)?(\|([^\]]*))?\]\]/g,(m,a,b,c,d)=>d||dn(a)).replace(/\[([^\]]+)\]\([^)]*\)/g,'$1').replace(/[#>*_`|]/g,' ').replace(/^\s*[-\d.]+\s+/gm,'').replace(/\s+/g,' ').trim()}
+const SKIP_SEC = /參考|關聯內容|相關解剖|搭配檢查|補充內容|關聯傷害|相關筆記|延伸閱讀|圖片|區域概述|重要骨骼|常見傷害與疾病|復健與回場原則|問診重點$/;
+function sections(n){
+  if(n._sec) return n._sec;
+  const out=[];let cur=null;
+  for(const line of n.b.split('\n')){
+    const m=line.match(/^## (.+)/);
+    if(m){cur={h:m[1].trim(),md:''};out.push(cur)}else if(cur){cur.md+=line+'\n'}
+  }
+  out.forEach(s=>{s.txt=plain(s.md);const links=(s.md.match(/\[\[/g)||[]).length;s.good=!SKIP_SEC.test(s.h)&&s.txt.length>=30&&links<6&&(s.txt.match(/未建立|未提供|尚無/g)||[]).length<2});
+  return n._sec=out;
+}
+function snippet(n,len=90){const s=sections(n).find(x=>x.good)||sections(n)[0];return s?s.txt.slice(0,len):''}
+
+/* ---------- markdown ---------- */
+function wikify(md){
+  return md.replace(/\[\[([^\]|#]+)(#[^\]|]*)?(\|([^\]]*))?\]\]/g,(m,name,h,_,alias)=>{
+    const t=byName.get(name.trim());
+    const label=esc(alias||dn(name.trim()));
+    return t?`<a class="wl" style="--c:${stageColor(t.g)}" href="#n${t.id}">${label}</a>`:`<span class="wlm" title="尚未建立">${label}</span>`;
+  });
+}
+function svgURI(p){const s=SVG[p];return s?'data:image/svg+xml;charset=utf-8,'+encodeURIComponent(s):''}
+function renderMD(md){
+  let h;
+  const src=wikify(md);
+  if(window.marked){h=marked.parse(src,{gfm:true,breaks:false})}
+  else{h=src.split(/\n{2,}/).map(p=>'<p>'+p.replace(/\n/g,'<br>')+'</p>').join('')}
+  const div=document.createElement('div');div.innerHTML=h;
+  div.querySelectorAll('img').forEach(im=>{const s=im.getAttribute('src')||'';if(s.startsWith('svg:')){const u=svgURI(decodeURIComponent(s.slice(4)));if(u)im.src=u;else im.remove()}});
+  div.querySelectorAll('a[href^="http"]').forEach(a=>{a.target='_blank';a.rel='noopener'});
+  return div;
+}
+
+/* ---------- router ---------- */
+const routes={home:vHome,browse:vBrowse,cards:vCards,quiz:vQuiz,progress:vProgress};
+function route(){
+  const h=location.hash.slice(1)||'home';
+  let tab=h;
+  window.scrollTo(0,0);
+  if(/^n\d+$/.test(h)&&N[+h.slice(1)]){vNote(N[+h.slice(1)]);tab='browse'}
+  else if(/^region-\d(-\d+)?$/.test(h)){const [,a,b]=h.split('-');vRegion(+a,b==null?null:+b);tab='home'}
+  else (routes[h]||vHome)();
+  document.querySelectorAll('#tabs a').forEach(a=>a.classList.toggle('on',a.dataset.r===tab));
+}
+window.addEventListener('hashchange',route);
+
+/* ---------- views ---------- */
+const BODY_HOT=[ // x,y on 240x520 figure, label side
+  [120,46,0,'r'],[72,112,1,'l'],[48,196,2,'l'],[30,262,3,'l'],[120,190,4,'r'],[120,268,5,'r'],[96,378,6,'l'],[100,478,7,'l']];
+function bodySVG(){
+  const fig=`<g class="figure-shape">
+   <circle cx="120" cy="40" r="26"/><rect x="108" y="64" width="24" height="18" rx="6"/>
+   <path d="M76 86 Q120 74 164 86 L172 178 Q168 236 156 262 L84 262 Q72 236 68 178 Z"/>
+   <path d="M78 262 L162 262 Q170 296 160 316 L80 316 Q70 296 78 262Z"/>
+   <path d="M74 92 Q56 100 52 140 L40 214 L24 270 L36 276 L60 220 L78 150Z"/>
+   <path d="M166 92 Q184 100 188 140 L200 214 L216 270 L204 276 L180 220 L162 150Z"/>
+   <path d="M84 312 L116 312 L112 400 L110 486 L88 486 L86 400Z"/>
+   <path d="M124 312 L156 312 L154 400 L152 486 L130 486 L128 400Z"/>
+   <path d="M86 484 L112 484 L114 500 L76 500 Z"/><path d="M128 484 L154 484 L164 500 L126 500Z"/></g>`;
+  const hots=BODY_HOT.map(([x,y,i,s])=>{const tx=s==='l'?x-14:x+14;return `<g class="hot" data-i="${i}" onclick="location.hash='region-${i}'"><circle class="ring" cx="${x}" cy="${y}" r="15"/><circle class="core" cx="${x}" cy="${y}" r="5"/><text x="${s==='l'?Math.max(tx,0):tx}" y="${y+4}" text-anchor="${s==='l'?'end':'start'}">${REGIONS[i]}</text></g>`}).join('');
+  return `<svg viewBox="-40 0 320 520" role="img" aria-label="身體區域選單">${fig}${hots}</svg>`;
+}
+function regionStats(r){
+  const ns=N.filter(n=>n.g!=='idx'&&inRegion(n,r));
+  const read=ns.filter(n=>P.read[n.id]).length;
+  const by={};STAGES.forEach(s=>by[s.k]=ns.filter(n=>n.g===s.k).length);
+  return {total:ns.length,read,by};
+}
+function dueCount(){const now=Date.now();return Object.values(P.cards).filter(c=>c.due<=now).length}
+function vHome(){
+  const content=N.filter(n=>n.g!=='idx');
+  const nlinks=N.reduce((a,n)=>a+n.l.length,0);
+  const last=P.last!=null&&N[P.last]?N[P.last]:null;
+  const due=dueCount();
+  app.innerHTML=`
+  <section class="hero">
+    <div>
+      <div class="eyebrow">運動防護員檢定・互動複習</div>
+      <h1>從解剖到回場，<br>一條臨床路徑學完一個部位</h1>
+      <p class="lead">把知識庫裡的解剖、傷害、評估、特殊檢查與處置筆記串起來：點身體部位進入臨床路徑，用閃卡主動回想，再用自動出題的測驗檢查自己。</p>
+      <div class="path">${STAGES.map((s,i)=>`<span class="chip"><span class="dot" style="background:${stageColor(s.k)}"></span>${s.n}</span>${i<5?'<span class="arr">→</span>':''}`).join('')}</div>
+      <div class="stats">
+        <div><b>${content.length.toLocaleString()}</b><span>篇筆記</span></div>
+        <div><b>${nlinks.toLocaleString()}</b><span>條雙向連結</span></div>
+        <div><b>${Object.keys(SVG).length}</b><span>張解剖示意圖</span></div>
+        <div><b>${Object.keys(P.read).length}</b><span>篇已讀</span></div>
+      </div>
+      <div style="display:flex;gap:10px;flex-wrap:wrap">
+        ${last?`<a class="btn pri" href="#n${last.id}">繼續閱讀：${esc(dn(last.t)).slice(0,18)}</a>`:`<a class="btn pri" href="#region-6">從膝部開始</a>`}
+        <button class="btn" id="rndbtn">隨機一篇</button>
+      </div>
+    </div>
+    <div class="card bodybox"><div class="muted" style="font-size:13px;margin-bottom:4px">點選身體部位</div>${bodySVG()}</div>
+  </section>
+  <div class="quick">
+    <div class="card" onclick="location.hash='cards'"><h3>閃卡複習 ${due?`<span class="chip" style="background:var(--acc);color:#fff">${due} 張到期</span>`:''}</h3><p>以「定義、機轉、陽性結果、回場條件」等段落出題，間隔重複安排複習。</p></div>
+    <div class="card" onclick="location.hash='quiz'"><h3>自動測驗</h3><p>看描述猜名稱、找出對應的特殊檢查或處置、英中對照，答錯自動收進錯題本。</p></div>
+    <div class="card" onclick="location.hash='progress'"><h3>學習進度</h3><p>各部位 × 各階段的閱讀熱度圖、閃卡熟練度與測驗紀錄。</p></div>
+  </div>
+  <div class="secttl"><h2>身體區域</h2><span class="muted">每個區域依臨床路徑分欄整理</span></div>
+  <div class="regions">${REGIONS.map((r,i)=>{const s=regionStats(r);const pct=s.total?Math.round(s.read/s.total*100):0;
+    return `<div class="card reg" data-i="${i}" onclick="location.hash='region-${i}'"><h3>${r}</h3><div class="meta">${s.total} 篇・已讀 ${pct}%</div>
+    <div class="stk">${STAGES.map(st=>`<i style="flex:${s.by[st.k]||0.01};background:${stageColor(st.k)}" title="${st.n} ${s.by[st.k]}"></i>`).join('')}</div>
+    <div class="bar"><i style="width:${pct}%"></i></div>
+    <div class="subs">${(SUBS[r]||[]).filter(x=>x!=='整體評估與回場'&&N.some(n=>n.r.includes(r)&&subOf(n,r)===x)).map(x=>`<a href="${subLink(r,x)}" onclick="event.stopPropagation()">${esc(x)}</a>`).join('')}</div></div>`}).join('')}</div>`;
+  $('#rndbtn').onclick=()=>{location.hash='n'+rnd(content).id};
+  document.querySelectorAll('.reg').forEach(el=>{el.onmouseenter=()=>document.querySelector(`.hot[data-i="${el.dataset.i}"]`)?.classList.add('hl');el.onmouseleave=()=>document.querySelectorAll('.hot').forEach(h=>h.classList.remove('hl'))});
+}
+function vRegion(i,si){
+  const r=REGIONS[i];const rn=regionNote(r);const s=regionStats(r);
+  const subs=(SUBS[r]||[]).filter(x=>N.some(n=>n.g!=='idx'&&n.r.includes(r)&&subOf(n,r)===x));
+  const sub=si!=null&&SUBS[r]?SUBS[r][si]:null;
+  const cnt=x=>N.filter(n=>n.g!=='idx'&&n.r.includes(r)&&subOf(n,r)===x).length;
+  app.innerHTML=`<div class="rhead"><div><div class="crumb"><a href="#home">首頁</a> › <a href="#region-${i}">${r}</a>${sub?` › ${esc(sub)}`:''}</div><h1>${sub?esc(sub):r}</h1>
+    <div class="muted">${sub?`${r}・${cnt(sub)} 篇筆記`:`${s.total} 篇筆記・已讀 ${s.read} 篇`} ${rn&&!sub?`・<a href="#n${rn.id}">區域總覽筆記</a>`:''}</div></div>
+    <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center"><input class="rfilter" id="rf" placeholder="在${sub?esc(sub):r}中篩選…">
+    <a class="btn" href="#cards" id="rc">閃卡練習</a><a class="btn pri" href="#quiz" id="rq">測驗${sub?'這個部位':'本區'}</a></div></div>
+    <div class="subbar"><a class="subchip ${sub?'':'on'}" href="#region-${i}">全部部位 <b>${s.total}</b></a>${subs.map(x=>{const rd=N.filter(n=>n.g!=='idx'&&n.r.includes(r)&&subOf(n,r)===x&&P.read[n.id]).length,c=cnt(x);
+      return `<a class="subchip ${x===sub?'on':''}" href="${subLink(r,x)}">${esc(x)} <b>${c}</b>${rd?`<i style="width:${rd/c*100}%"></i>`:''}</a>`}).join('')}</div>
+    <div class="pipeline" id="pl"></div>`;
+  const item=n=>`<li><a href="#n${n.id}" title="${esc(n.en)}"><span class="ck">${P.read[n.id]?'✓':''}</span><span>${esc(dn(n.t))}</span></a></li>`;
+  const draw=q=>{
+    $('#pl').innerHTML=STAGES.map(st=>{
+      const ns=N.filter(n=>n.g===st.k&&n.r.includes(r)&&inSub(n,r,sub)&&(!q||n.t.toLowerCase().includes(q)||n.en.toLowerCase().includes(q))).sort((a,b)=>a.t.localeCompare(b.t,'zh-Hant'));
+      let body;
+      if(sub){body=ns.map(item).join('')}
+      else{body=subs.map(x=>{const g=ns.filter(n=>subOf(n,r)===x);return g.length?`<li class="sg"><a href="${subLink(r,x)}">${esc(x)}<span>${g.length}</span></a></li>${g.map(item).join('')}`:''}).join('');
+        const rest=ns.filter(n=>!subs.includes(subOf(n,r)));if(rest.length)body+=`<li class="sg"><a>其他<span>${rest.length}</span></a></li>`+rest.map(item).join('')}
+      return `<div class="card col"><h3><span class="dot" style="background:${stageColor(st.k)}"></span>${st.n}</h3><div class="cnt">${st.d}・${ns.length} 篇</div>
+      <ul>${body||'<li class="muted" style="font-size:13px;padding:6px">無符合項目</li>'}</ul></div>`}).join('');
+  };
+  draw('');
+  $('#rf').oninput=e=>draw(e.target.value.trim().toLowerCase());
+  $('#rc').onclick=()=>{cardCfg.region=r;cardCfg.sub=sub};$('#rq').onclick=()=>{quizCfg.region=r;quizCfg.sub=sub};
+}
+let recallMode=false;
+try{recallMode=localStorage.getItem('at-recall')==='1'}catch(e){}
+function vNote(n){
+  P.read[n.id]=P.read[n.id]||Date.now();P.last=n.id;save();
+  const div=renderMD(n.b);
+  // wrap h2 sections
+  const wrap=document.createElement('div');wrap.className='md'+(recallMode?' recall':'');
+  let cur=null;const toc=[];
+  [...div.childNodes].forEach(node=>{
+    if(node.nodeName==='H2'){
+      cur=document.createElement('section');cur.className='sec';cur.id='s'+toc.length;
+      const hh=document.createElement('div');hh.className='sech';hh.appendChild(node);
+      const tg=document.createElement('span');tg.className='tg';tg.textContent='收合';hh.appendChild(tg);
+      const body=document.createElement('div');body.className='secb';
+      cur.appendChild(hh);cur.appendChild(body);wrap.appendChild(cur);toc.push(node.textContent);
+      hh.onclick=()=>{cur&&0;const sec=hh.parentNode;sec.classList.toggle('collapsed');tg.textContent=sec.classList.contains('collapsed')?'展開':'收合'};
+    } else if(cur){cur.lastChild.appendChild(node)} else {wrap.appendChild(node)}
+  });
+  const coverAll=()=>wrap.querySelectorAll('.secb').forEach(b=>b.classList.add('cov'));
+  if(recallMode) coverAll();
+  wrap.addEventListener('click',e=>{const b=e.target.closest('.secb.cov');if(b&&wrap.classList.contains('recall')){b.classList.remove('cov');e.preventDefault()}
+    const im=e.target.closest('img');if(im&&!e.target.closest('.cov')){$('#iimg').src=im.src;$('#iov').classList.add('on')}});
+  const grp=ids=>{const m={};ids.forEach(k=>{const t=N[k];(m[t.g]=m[t.g]||[]).push(t)});
+    return [...STAGES.map(s=>s.k),'idx'].filter(k=>m[k]).map(k=>`<div class="grp"><span class="dot" style="background:${stageColor(k)}"></span>${SN[k]}・${m[k].length}</div><ul>${m[k].map(t=>`<li><a href="#n${t.id}">${esc(dn(t.t))}</a></li>`).join('')}</ul>`).join('')};
+  const bl=back[n.id].filter(k=>!n.l.includes(k));
+  const mastered=!!(P.mastered&&P.mastered[n.id]);
+  const reg=n.r[0];const ri=REGIONS.indexOf(reg);
+  app.innerHTML=`<div class="notewrap"><article>
+    <div class="crumb"><a href="#home">首頁</a> ›${ri>=0?` <a href="#region-${ri}">${reg}</a> ›`:''}${ri>=0&&subOf(n,reg)?` <a href="${subLink(reg,subOf(n,reg))}">${esc(subOf(n,reg))}</a> ›`:''} <span style="color:${stageColor(n.g)}">${SN[n.g]}</span></div>
+    <h1 class="ntitle">${esc(dn(n.t))}</h1>${n.en?`<div class="nen">${esc(n.en)}</div>`:''}
+    <div class="nmeta"><span class="chip"><span class="dot" style="background:${stageColor(n.g)}"></span>${esc(n.ty)}</span>${n.r.map(r=>`<span class="chip">${esc(r)}</span>`).join('')}${n.st?`<span class="chip">${esc(n.st)}</span>`:''}${n.d?`<span class="chip">更新 ${esc(n.d)}</span>`:''}</div>
+    <div class="ntools">
+      <button class="btn ${recallMode?'toggled':''}" id="rcb" title="遮住每段內容，先回想再點開">🙈 回想模式</button>
+      <button class="btn" id="exb">全部展開</button>
+      <button class="btn" id="fcb">用本篇做閃卡</button>
+      <button class="btn ${mastered?'toggled':''}" id="msb">${mastered?'★ 已掌握':'☆ 標記已掌握'}</button>
+    </div>
+    <div id="mdhost"></div></article>
+    <aside class="side">
+      ${toc.length>2?`<div class="card toc"><h4>段落</h4><ul>${toc.map((t,i)=>`<li><a href="javascript:void 0" data-s="${i}">${esc(t)}</a></li>`).join('')}</ul></div>`:''}
+      ${n.l.length?`<div class="card"><h4>本篇連結到（${n.l.length}）</h4>${grp(n.l)}</div>`:''}
+      ${bl.length?`<div class="card"><h4>被這些筆記引用（${bl.length}）</h4>${grp(bl)}</div>`:''}
+    </aside></div>`;
+  $('#mdhost').appendChild(wrap);
+  document.querySelectorAll('.toc a').forEach(a=>a.onclick=()=>{const s=document.getElementById('s'+a.dataset.s);s.classList.remove('collapsed');s.querySelector('.secb')?.classList.remove('cov');s.scrollIntoView({behavior:'smooth',block:'start'})});
+  $('#rcb').onclick=()=>{recallMode=!recallMode;try{localStorage.setItem('at-recall',recallMode?'1':'0')}catch(e){}
+    wrap.classList.toggle('recall',recallMode);$('#rcb').classList.toggle('toggled',recallMode);if(recallMode)coverAll();toast(recallMode?'回想模式：先想答案，再點段落揭曉':'已關閉回想模式')};
+  $('#exb').onclick=()=>{wrap.querySelectorAll('.sec').forEach(s=>s.classList.remove('collapsed'));wrap.querySelectorAll('.cov').forEach(b=>b.classList.remove('cov'))};
+  $('#fcb').onclick=()=>{cardCfg.single=n.id;location.hash='cards'};
+  $('#msb').onclick=()=>{P.mastered=P.mastered||{};if(P.mastered[n.id])delete P.mastered[n.id];else P.mastered[n.id]=Date.now();save();vNote(n)};
+  document.title=dn(n.t)+'・防護員知識系統';
+}
+/* browse */
+const brCfg={region:null,stage:null,q:'',lim:120};
+function segHTML(id,items,cur){return `<div class="seg" id="${id}">${items.map(([v,l])=>`<button data-v="${v??''}" class="${(cur??'')===(v??'')?'on':''}">${l}</button>`).join('')}</div>`}
+function bindSeg(id,fn){document.querySelectorAll('#'+id+' button').forEach(b=>b.onclick=()=>{fn(b.dataset.v||null)})}
+function vBrowse(){
+  document.title='防護員知識系統・互動學習';
+  const list=N.filter(n=>(brCfg.stage?n.g===brCfg.stage:n.g!=='idx')&&inRegion(n,brCfg.region)&&(!brCfg.q||(n.t+' '+n.en).toLowerCase().includes(brCfg.q)));
+  app.innerHTML=`<div class="secttl" style="margin-top:0"><h2>全部筆記</h2><span class="muted">${list.length} 篇</span></div>
+  <div class="filters">${segHTML('fr',[[null,'全部區域'],...REGIONS.map(r=>[r,r])],brCfg.region)}
+  ${segHTML('fs',[[null,'全部類別'],...STAGES.map(s=>[s.k,s.n]),['idx','索引']],brCfg.stage)}
+  <input class="rfilter" id="bq" placeholder="篩選標題或英文名稱…" value="${esc(brCfg.q)}" style="max-width:360px"></div>
+  <div class="nlist">${list.slice(0,brCfg.lim).map(n=>`<a class="card nitem" href="#n${n.id}" style="border-left:4px solid ${stageColor(n.g)}"><div class="t">${P.read[n.id]?'<span style="color:var(--ok)">✓ </span>':''}${esc(dn(n.t))}</div><div class="s">${esc(n.en?n.en+'・':'')}${esc(snippet(n,80))}</div></a>`).join('')}</div>
+  ${list.length>brCfg.lim?`<div style="text-align:center;margin-top:16px"><button class="btn" id="more">顯示更多（還有 ${list.length-brCfg.lim} 篇）</button></div>`:''}`;
+  bindSeg('fr',v=>{brCfg.region=v;brCfg.lim=120;vBrowse()});bindSeg('fs',v=>{brCfg.stage=v;brCfg.lim=120;vBrowse()});
+  const bq=$('#bq');bq.oninput=()=>{clearTimeout(bq._t);bq._t=setTimeout(()=>{brCfg.q=bq.value.trim().toLowerCase();vBrowse();const x=$('#bq');x.focus();x.setSelectionRange(x.value.length,x.value.length)},250)};
+  $('#more')&&($('#more').onclick=()=>{brCfg.lim+=240;vBrowse()});
+}
+/* ---------- flashcards (Leitner) ---------- */
+const INTERVAL=[0,1,3,7,16,35].map(d=>d*864e5);
+const cardCfg={region:null,sub:null,stages:['inj','test','anat','eval','rx','func'],mode:'mix',size:20,single:null};
+let deck=null;
+function buildCards(filter){
+  const out=[];
+  N.forEach(n=>{if(!filter(n))return;sections(n).forEach(s=>{if(s.good)out.push({key:n.id+'|'+s.h,n,s})})});
+  return out;
+}
+function vCards(){
+  document.title='閃卡・防護員知識系統';
+  if(cardCfg.single!=null){const id=cardCfg.single;cardCfg.single=null;const cs=buildCards(n=>n.id===id);if(cs.length){startDeck(cs);return}}
+  const filt=n=>n.g!=='idx'&&cardCfg.stages.includes(n.g)&&inRegion(n,cardCfg.region)&&inSub(n,cardCfg.region,cardCfg.sub);
+  const all=buildCards(filt);const now=Date.now();
+  const due=all.filter(c=>P.cards[c.key]&&P.cards[c.key].due<=now);
+  const fresh=all.filter(c=>!P.cards[c.key]);
+  app.innerHTML=`<div class="secttl" style="margin-top:0"><h2>閃卡</h2><span class="muted">以筆記段落主動回想，依熟練度安排下次複習</span></div>
+  <div class="card setup">
+   <div><label class="l">區域</label>${segHTML('cr',[[null,'全部'],...REGIONS.map(r=>[r,r])],cardCfg.region)}</div>
+   ${cardCfg.region?`<div><label class="l">細分部位</label>${segHTML('cb',[[null,'全部部位'],...SUBS[cardCfg.region].map(x=>[x,x])],cardCfg.sub)}</div>`:''}
+   <div><label class="l">類別（可複選）</label><div class="seg" id="cs">${STAGES.map(s=>`<button data-v="${s.k}" class="${cardCfg.stages.includes(s.k)?'on':''}">${s.n}</button>`).join('')}</div></div>
+   <div><label class="l">出卡方式</label>${segHTML('cm',[['mix','到期優先＋新卡'],['due','只複習到期'],['new','只看新卡'],['weak','錯題本筆記']],cardCfg.mode)}</div>
+   <div><label class="l">每回張數</label>${segHTML('cz',[['10','10'],['20','20'],['40','40']],String(cardCfg.size))}</div>
+   <div class="prog-line">可用 ${all.length} 張・到期 ${due.length} 張・未學過 ${fresh.length} 張</div>
+   <div><button class="btn pri" id="go" ${all.length?'':'disabled'}>開始</button> <span class="muted" style="font-size:13px;margin-left:8px">快捷鍵：空白鍵翻面，1 忘記・2 模糊・3 記得</span></div>
+  </div>`;
+  bindSeg('cr',v=>{cardCfg.region=v;cardCfg.sub=null;vCards()});bindSeg('cb',v=>{cardCfg.sub=v;vCards()});bindSeg('cm',v=>{cardCfg.mode=v;vCards()});bindSeg('cz',v=>{cardCfg.size=+v;vCards()});
+  document.querySelectorAll('#cs button').forEach(b=>b.onclick=()=>{const k=b.dataset.v;const i=cardCfg.stages.indexOf(k);if(i>=0){if(cardCfg.stages.length>1)cardCfg.stages.splice(i,1)}else cardCfg.stages.push(k);vCards()});
+  $('#go').onclick=()=>{
+    let pool;
+    if(cardCfg.mode==='due')pool=shuffle(due);
+    else if(cardCfg.mode==='new')pool=shuffle(fresh);
+    else if(cardCfg.mode==='weak')pool=shuffle(all.filter(c=>P.wrong[c.n.id]));
+    else pool=shuffle(due).concat(shuffle(fresh));
+    if(!pool.length){toast('這個條件下目前沒有卡片');return}
+    startDeck(pool.slice(0,cardCfg.size));
+  };
+}
+function startDeck(cards){deck={cards,i:0,res:[0,0,0]};drawCard()}
+function drawCard(){
+  const c=deck.cards[deck.i];
+  if(!c){const [a,b,g]=deck.res;app.innerHTML=`<div class="fc-wrap"><div class="card" style="padding:34px;text-align:center"><div class="eyebrow">本回完成</div><p class="score">${g}<span style="font-size:22px" class="muted"> / ${deck.cards.length} 記得</span></p><p class="muted">忘記 ${a}・模糊 ${b}・記得 ${g}　｜　目前共有 ${dueCount()} 張到期</p><div style="display:flex;gap:10px;justify-content:center;margin-top:14px"><button class="btn pri" onclick="deck=null;vCards()">再來一回</button><a class="btn" href="#progress">看進度</a></div></div></div>`;document.onkeydown=null;return}
+  const box=P.cards[c.key]?.box||0;
+  app.innerHTML=`<div class="fc-wrap">
+   <div class="prog-line"><span>${deck.i+1} / ${deck.cards.length}</span><div class="bar"><i style="width:${deck.i/deck.cards.length*100}%"></i></div><span>熟練度 ${'●'.repeat(box)}${'○'.repeat(5-box)}</span></div>
+   <div class="fc" id="fc"><div class="fc-in">
+    <div class="card face front"><span class="chip"><span class="dot" style="background:${stageColor(c.n.g)}"></span>${esc(c.n.ty)}・${esc(c.n.r.join('、')||'—')}</span>
+      <div class="q">${esc(dn(c.n.t))}</div>${c.n.en?`<div class="nen" style="margin:0">${esc(c.n.en)}</div>`:''}
+      <div class="ask">「${esc(c.s.h)}」是什麼？</div><div class="muted" style="font-size:13px;margin-top:22px">先在心裡說出答案，再點卡片翻面</div></div>
+    <div class="card face back"><div class="eyebrow">${esc(dn(c.n.t))}・${esc(c.s.h)}</div><div class="md" id="bk"></div><div style="margin-top:12px;font-size:14px"><a href="#n${c.n.id}">閱讀完整筆記 →</a></div></div>
+   </div></div>
+   <div class="fc-ctl" id="ctl"><button class="btn pri" id="flip">翻面</button></div></div>`;
+  $('#bk').appendChild(renderMD(c.s.md));
+  const fc=$('#fc');
+  const flip=()=>{fc.classList.add('flip');$('#ctl').innerHTML=`<button class="btn bad" data-g="0">1 忘記</button><button class="btn mid" data-g="1">2 模糊</button><button class="btn good" data-g="2">3 記得</button>`;document.querySelectorAll('#ctl button').forEach(b=>b.onclick=()=>grade(+b.dataset.g))};
+  fc.onclick=e=>{if(e.target.closest('a'))return;if(!fc.classList.contains('flip'))flip()};
+  $('#flip').onclick=flip;
+  document.onkeydown=e=>{if(!location.hash.startsWith('#cards')){document.onkeydown=null;return}
+    if(e.key===' '){e.preventDefault();if(!fc.classList.contains('flip'))flip()}
+    else if(fc.classList.contains('flip')&&'123'.includes(e.key))grade(+e.key-1)};
+}
+function grade(g){
+  const c=deck.cards[deck.i];const now=Date.now();const st=P.cards[c.key]||{box:0,due:now};
+  if(g===0){st.box=1;st.due=now+10*6e4}
+  else if(g===1){st.box=Math.max(1,st.box);st.due=now+864e5}
+  else{st.box=Math.min(5,st.box+1);st.due=now+INTERVAL[st.box]}
+  P.cards[c.key]=st;deck.res[g]++;
+  if(g===0)deck.cards.push(c); // see again this round
+  save();deck.i++;drawCard();
+}
+/* ---------- quiz ---------- */
+const quizCfg={region:null,sub:null,stages:['inj','test','anat','eval','rx','func'],size:10};
+let quiz=null;
+const PREF_SEC=/定義|檢查目的|評估目的|訓練目的|解剖位置|臨床意義|適用情境|受傷機轉|常見症狀/;
+function maskText(text,n){
+  const core=dn(n.t).replace(/[（(][^）)]*[）)]/g,'');
+  const terms=new Set();
+  (core+' '+n.en).split(/[\s、，,／\/與和及]+/).forEach(w=>{if(/^[A-Za-z][A-Za-z0-9\-']{2,}$/.test(w)&&!/^(and|the|of|test|tests|for|with|injury|syndrome)$/i.test(w))terms.add(w)});
+  let out='',i=0,masked=0;
+  const cjk=core.replace(/[A-Za-z0-9\s\-'’]+/g,'');
+  while(i<text.length){
+    let best=0;
+    if(/[\u4e00-\u9fff]/.test(text[i])){for(let L=Math.min(12,text.length-i);L>=3;L--){if(cjk.includes(text.substr(i,L))){best=L;break}}}
+    if(best){out+='\u0000';i+=best;masked++;
+      const m=text.slice(i).match(/^[（(][A-Za-z0-9\-\/]{2,10}[）)]/);if(m){i+=m[0].length}
+      continue}
+    out+=text[i];i++;
+  }
+  terms.forEach(w=>{const re=new RegExp('\\b'+w.replace(/[-']/g,'\\$&')+'\\b','gi');out=out.replace(re,()=>{masked++;return '\u0000'})});
+  return {html:esc(out).replace(/\u0000/g,'<span class="mask">████</span>'),masked};
+}
+function pickDistract(correct,pool,k=3){
+  const sameS=pool.filter(x=>x.id!==correct.id&&correct.r.some(r=>x.r.includes(r)&&subOf(x,r)&&subOf(x,r)===subOf(correct,r)&&subOf(x,r)!=='整體評估與回場'));
+  const sameR=pool.filter(x=>x.id!==correct.id&&x.r.some(r=>correct.r.includes(r)));
+  const other=pool.filter(x=>x.id!==correct.id);
+  const out=[];const seen=new Set([dn(correct.t)]);
+  for(const x of shuffle(sameS).concat(shuffle(sameR),shuffle(other))){if(out.length>=k)break;const d=dn(x.t);if(!seen.has(d)){seen.add(d);out.push(x)}}
+  return out;
+}
+function genQuestion(pool,used){
+  const types=['desc','desc','desc','rel','rel','rel','en'];
+  for(let tries=0;tries<60;tries++){
+    const ty=rnd(types);
+    if(ty==='desc'){
+      const n=rnd(pool);if(used.has(n.id))continue;
+      const secs=sections(n).filter(s=>s.good);const s=secs.find(x=>PREF_SEC.test(x.h))||secs[0];if(!s)continue;
+      let txt=s.txt;if(txt.length>230)txt=txt.slice(0,230)+'…';
+      const mk=maskText(txt,n);
+      const same=N.filter(x=>x.g===n.g);const ds=pickDistract(n,same);if(ds.length<3)continue;
+      used.add(n.id);
+      return {n,stem:`下列描述（<b>${esc(s.h)}</b>）指的是哪一篇${esc(SN[n.g])}筆記？`,ctx:mk.html,opts:shuffle([n,...ds]),ans:n,why:n};
+    }
+    if(ty==='rel'){
+      const n=rnd(pool.filter(x=>x.g==='inj'||x.g==='test'));if(!n||used.has(n.id))continue;
+      const relAll=[...new Set([...n.l,...back[n.id]])].map(k=>N[k]);
+      const want=n.g==='inj'?['test','test','rx','anat','func']:['inj','inj','anat'];
+      const avail=want.filter(s=>relAll.some(x=>x.g===s));if(!avail.length)continue;
+      const tgtStage=rnd(avail);
+      const linked=relAll.filter(x=>x.g===tgtStage);
+      const ans=rnd(linked);const rel=new Set([...n.l,...back[n.id]]);
+      const cand=N.filter(x=>x.g===tgtStage&&!rel.has(x.id));
+      const ds=pickDistract(ans,cand);if(ds.length<3)continue;
+      used.add(n.id);
+      const q={test:'哪一項特殊檢查',rx:'哪一項處置或運動治療',anat:'哪一個解剖構造',func:'哪一項功能性測試',inj:'哪一種傷害'}[tgtStage];
+      return {n,stem:`在知識庫中，與「<b>${esc(dn(n.t))}</b>」直接關聯的是下列${q}？`,ctx:'',opts:shuffle([ans,...ds]),ans,why:n};
+    }
+    if(ty==='en'){
+      const n=rnd(pool.filter(x=>x.en&&/[A-Za-z]/.test(x.en)));if(!n||used.has(n.id))continue;
+      if(dn(n.t).toLowerCase().includes(n.en.toLowerCase().slice(0,6)))continue; // title already contains the English
+      const ds=pickDistract(n,N.filter(x=>x.g===n.g));if(ds.length<3)continue;
+      used.add(n.id);
+      return {n,stem:`英文名稱「<b>${esc(n.en)}</b>」對應哪一篇筆記？`,ctx:'',opts:shuffle([n,...ds]),ans:n,why:n};
+    }
+  }
+  return null;
+}
+function vQuiz(){
+  document.title='測驗・防護員知識系統';
+  app.innerHTML=`<div class="secttl" style="margin-top:0"><h2>自動測驗</h2><span class="muted">題目由筆記內容與雙向連結即時產生，每次都不同</span></div>
+  <div class="card setup">
+   <div><label class="l">區域</label>${segHTML('qr',[[null,'全部'],...REGIONS.map(r=>[r,r])],quizCfg.region)}</div>
+   ${quizCfg.region?`<div><label class="l">細分部位</label>${segHTML('qb',[[null,'全部部位'],...SUBS[quizCfg.region].map(x=>[x,x])],quizCfg.sub)}</div>`:''}
+   <div><label class="l">出題範圍（可複選）</label><div class="seg" id="qs">${STAGES.map(s=>`<button data-v="${s.k}" class="${quizCfg.stages.includes(s.k)?'on':''}">${s.n}</button>`).join('')}</div></div>
+   <div><label class="l">題數</label>${segHTML('qz',[['10','10 題'],['20','20 題'],['30','30 題']],String(quizCfg.size))}</div>
+   <div class="muted" style="font-size:14px">題型：看描述猜名稱（名稱已遮蔽）・找出直接關聯的檢查／處置／構造・英中名稱對照</div>
+   <div><button class="btn pri" id="go">開始測驗</button></div>
+  </div>
+  ${P.quiz.length?`<div class="secttl"><h2 style="font-size:19px">最近紀錄</h2></div><div class="card" style="padding:12px 18px">${P.quiz.slice(-5).reverse().map(q=>`<div style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid var(--line);font-size:14px"><span>${new Date(q.ts).toLocaleString('zh-TW',{month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit'})}・${esc(q.scope)}</span><b>${q.score} / ${q.total}</b></div>`).join('')}</div>`:''}`;
+  bindSeg('qr',v=>{quizCfg.region=v;quizCfg.sub=null;vQuiz()});bindSeg('qb',v=>{quizCfg.sub=v;vQuiz()});bindSeg('qz',v=>{quizCfg.size=+v;vQuiz()});
+  document.querySelectorAll('#qs button').forEach(b=>b.onclick=()=>{const k=b.dataset.v;const i=quizCfg.stages.indexOf(k);if(i>=0){if(quizCfg.stages.length>1)quizCfg.stages.splice(i,1)}else quizCfg.stages.push(k);vQuiz()});
+  $('#go').onclick=()=>{
+    const pool=N.filter(n=>quizCfg.stages.includes(n.g)&&inRegion(n,quizCfg.region)&&inSub(n,quizCfg.region,quizCfg.sub));
+    const used=new Set();const qs=[];
+    for(let i=0;i<quizCfg.size*3&&qs.length<quizCfg.size;i++){const q=genQuestion(pool,used);if(q)qs.push(q)}
+    if(qs.length<(quizCfg.sub?1:3)){toast('這個範圍的筆記太少，請放寬條件');return}
+    quiz={qs,i:0,score:0,wrong:[],scope:(quizCfg.region||'全部區域')+(quizCfg.sub?'・'+quizCfg.sub:'')};drawQ();
+  };
+}
+function drawQ(){
+  const q=quiz.qs[quiz.i];
+  if(!q){
+    P.quiz.push({ts:Date.now(),score:quiz.score,total:quiz.qs.length,scope:quiz.scope});if(P.quiz.length>60)P.quiz=P.quiz.slice(-60);save();
+    app.innerHTML=`<div class="qz"><div class="card" style="padding:32px;text-align:center"><div class="eyebrow">測驗結束</div><p class="score">${quiz.score}<span class="muted" style="font-size:22px"> / ${quiz.qs.length}</span></p>
+    <p class="muted">${quiz.score===quiz.qs.length?'全對！':'答錯的題目已收進錯題本，可在閃卡選「錯題本筆記」複習。'}</p>
+    <div style="display:flex;gap:10px;justify-content:center"><button class="btn pri" onclick="vQuiz()">再測一次</button><a class="btn" href="#progress">錯題本</a></div></div>
+    ${quiz.wrong.length?`<div class="secttl"><h2 style="font-size:19px">建議重讀</h2></div><div class="nlist">${quiz.wrong.map(n=>`<a class="card nitem" href="#n${n.id}" style="border-left:4px solid ${stageColor(n.g)}"><div class="t">${esc(dn(n.t))}</div><div class="s">${esc(snippet(n,70))}</div></a>`).join('')}</div>`:''}</div>`;
+    document.onkeydown=null;return;
+  }
+  app.innerHTML=`<div class="qz"><div class="prog-line"><span>第 ${quiz.i+1} / ${quiz.qs.length} 題</span><div class="bar"><i style="width:${quiz.i/quiz.qs.length*100}%"></i></div><span>得分 ${quiz.score}</span></div>
+   <div class="card qcard"><div class="qstem">${q.stem}</div>${q.ctx?`<div class="qctx">${q.ctx}</div>`:''}
+   <div class="opts">${q.opts.map((o,i)=>`<button class="opt" data-i="${i}"><span class="k">${'ABCD'[i]}</span><span><span style="display:block">${esc(dn(o.t))}</span>${o.en&&q.stem.indexOf('英文名稱')<0?`<span class="muted" style="font-size:13px">${esc(o.en)}</span>`:''}</span></button>`).join('')}</div>
+   <div id="fbx"></div></div></div>`;
+  const answer=i=>{
+    const btns=document.querySelectorAll('.opt');if(btns[0].disabled)return;
+    btns.forEach(b=>b.disabled=true);
+    const pick=q.opts[i];const ok=pick.id===q.ans.id;
+    btns[q.opts.indexOf(q.ans)].classList.add('right');if(!ok)btns[i].classList.add('wrong');
+    if(ok)quiz.score++;else{quiz.wrong.push(q.ans);P.wrong[q.ans.id]=(P.wrong[q.ans.id]||0)+1;if(q.why.id!==q.ans.id)P.wrong[q.why.id]=(P.wrong[q.why.id]||0)+1;save()}
+    const exp=snippet(q.ans,140);
+    $('#fbx').innerHTML=`<div class="fb ${ok?'ok':'no'}"><b>${ok?'答對了':'答錯了，正確答案是「'+esc(dn(q.ans.t))+'」'}</b><div style="margin-top:6px;color:var(--ink2)">${esc(exp)}…</div>
+     <div style="margin-top:8px;display:flex;gap:14px;flex-wrap:wrap;font-size:14px"><a href="#n${q.ans.id}" target="_self">閱讀「${esc(dn(q.ans.t))}」</a>${q.why.id!==q.ans.id?`<a href="#n${q.why.id}">閱讀「${esc(dn(q.why.t))}」</a>`:''}</div></div>
+     <div style="text-align:right;margin-top:14px"><button class="btn pri" id="nx">${quiz.i+1<quiz.qs.length?'下一題 →':'看結果'}</button></div>`;
+    $('#nx').onclick=()=>{quiz.i++;drawQ()};$('#nx').focus();
+  };
+  document.querySelectorAll('.opt').forEach(b=>b.onclick=()=>answer(+b.dataset.i));
+  document.onkeydown=e=>{if(!location.hash.startsWith('#quiz')){document.onkeydown=null;return}const k='abcd1234'.indexOf(e.key.toLowerCase());if(k>=0&&!document.querySelector('.opt').disabled)answer(k%4);};
+}
+/* ---------- progress ---------- */
+function vProgress(){
+  document.title='學習進度・防護員知識系統';
+  const cells=REGIONS.map(r=>STAGES.map(s=>{const ns=N.filter(n=>n.g===s.k&&n.r.includes(r));const rd=ns.filter(n=>P.read[n.id]).length;return {r,s,t:ns.length,rd}}));
+  const boxes=[0,0,0,0,0,0];Object.values(P.cards).forEach(c=>boxes[c.box||0]++);const bmax=Math.max(1,...boxes);
+  const wrong=Object.entries(P.wrong).sort((a,b)=>b[1]-a[1]).slice(0,30).map(([k,v])=>[N[+k],v]).filter(x=>x[0]);
+  const qavg=P.quiz.length?Math.round(P.quiz.reduce((a,q)=>a+q.score/q.total,0)/P.quiz.length*100):null;
+  const mast=Object.keys(P.mastered||{}).length;
+  app.innerHTML=`<div class="secttl" style="margin-top:0"><h2>學習進度</h2><span class="muted">紀錄只存在這個瀏覽器</span></div>
+  <div class="stats card" style="padding:16px 22px;margin-top:0">
+    <div><b>${Object.keys(P.read).length}</b><span>篇已讀</span></div><div><b>${mast}</b><span>篇已掌握</span></div>
+    <div><b>${Object.keys(P.cards).length}</b><span>張閃卡學過</span></div><div><b>${dueCount()}</b><span>張到期</span></div>
+    <div><b>${P.quiz.length}</b><span>次測驗</span></div><div><b>${qavg==null?'—':qavg+'%'}</b><span>平均答對率</span></div></div>
+  <div class="secttl"><h2 style="font-size:19px">閱讀熱度：區域 × 臨床路徑</h2><span class="muted">點格子進入該區域</span></div>
+  <div class="card" style="padding:12px;overflow-x:auto"><table class="heat"><tr><th></th>${STAGES.map(s=>`<th><span class="dot" style="background:${stageColor(s.k)}"></span> ${s.n}</th>`).join('')}</tr>
+  ${cells.map((row,i)=>`<tr><th>${REGIONS[i]}</th>${row.map(c=>{const p=c.t?c.rd/c.t:0;return `<td onclick="location.hash='region-${i}'" style="background:color-mix(in srgb,var(--acc) ${Math.round(8+p*80)}%,var(--panel));color:${p>.5?'#fff':'var(--ink)'}" title="${c.r}・${c.s.n}：${c.rd}/${c.t}">${c.rd}/${c.t}</td>`}).join('')}</tr>`).join('')}</table></div>
+  <div class="grid2" style="margin-top:16px">
+   <div class="card" style="padding:16px 20px"><h3 style="margin:0;font-size:17px">閃卡熟練度分布</h3><div class="muted" style="font-size:13px">盒子 1 → 5 代表越來越熟</div>
+     <div class="boxes" style="margin-top:28px">${boxes.slice(1).map((b,i)=>`<div style="height:${b/bmax*100}%"><span>${b}</span></div>`).join('')}</div>
+     <div style="display:flex;gap:10px;font-size:12px;color:var(--ink3);margin-top:4px">${[1,2,3,4,5].map(i=>`<span style="flex:1;text-align:center">盒 ${i}</span>`).join('')}</div></div>
+   <div class="card" style="padding:16px 20px"><h3 style="margin:0 0 8px;font-size:17px">錯題本</h3>
+     ${wrong.length?`<ul style="margin:0;padding-left:1.1em;max-height:240px;overflow:auto">${wrong.map(([n,v])=>`<li><a href="#n${n.id}">${esc(dn(n.t))}</a> <span class="muted" style="font-size:13px">×${v}</span></li>`).join('')}</ul><div style="margin-top:10px"><button class="btn" id="wc">用錯題做閃卡</button></div>`:'<div class="muted">還沒有錯題，去<a href="#quiz">測驗</a>試試看。</div>'}</div>
+  </div>
+  <div style="margin-top:22px"><button class="btn ghost" id="rst" style="color:var(--warn)">清除所有學習紀錄</button></div>`;
+  $('#wc')&&($('#wc').onclick=()=>{cardCfg.mode='weak';cardCfg.region=null;location.hash='cards'});
+  $('#rst').onclick=async()=>{if(await ask('確定要清除這個瀏覽器中的已讀、閃卡、測驗與錯題紀錄嗎？此動作無法復原。')){P={read:{},cards:{},quiz:[],wrong:{},last:null};save();vProgress();toast('已清除')}};
+}
+/* ---------- search ---------- */
+const idx=N.map(n=>({n,t:(n.t+' '+n.en).toLowerCase(),b:plain(n.b).toLowerCase()}));
+let sel=0,hits=[];
+function openSearch(){$('#sov').classList.add('on');const i=$('#sin');i.value='';doSearch('');setTimeout(()=>i.focus(),20)}
+function closeSearch(){$('#sov').classList.remove('on')}
+function hl(s,q){if(!q)return esc(s);const i=s.toLowerCase().indexOf(q);if(i<0)return esc(s);return esc(s.slice(0,i))+'<mark>'+esc(s.slice(i,i+q.length))+'</mark>'+esc(s.slice(i+q.length))}
+function doSearch(q){
+  q=q.trim().toLowerCase();
+  if(!q){hits=N.filter(n=>P.read[n.id]).sort((a,b)=>P.read[b.id]-P.read[a.id]).slice(0,8);}
+  else{const terms=q.split(/\s+/);
+    hits=idx.map(x=>{let s=0;for(const t of terms){if(x.t.includes(t))s+=10+(dn(x.n.t).toLowerCase().startsWith(t)?5:0);else if(x.b.includes(t))s+=1;else return null}return [x,s]}).filter(Boolean).sort((a,b)=>b[1]-a[1]).slice(0,40).map(a=>a[0].n)}
+  sel=0;const t1=q.split(/\s+/)[0];
+  $('#sres').innerHTML=(q?'':'<div class="muted" style="padding:8px 14px;font-size:13px">最近讀過</div>')+(hits.map((n,i)=>{
+    let sn=snippet(n,80);if(q){const b=plain(n.b);const k=b.toLowerCase().indexOf(t1);if(k>=0)sn=(k>30?'…':'')+b.slice(Math.max(0,k-30),k+60)}
+    return `<a href="#n${n.id}" class="${i?'':'sel'}"><div class="t"><span class="dot" style="background:${stageColor(n.g)}"></span> ${hl(dn(n.t),t1)} <span class="muted" style="font-size:12px">${esc(n.en)}</span></div><div class="s">${hl(sn,t1)}</div></a>`}).join('')||`<div class="empty">${q?'找不到符合的筆記':'輸入關鍵字開始搜尋'}</div>`);
+  document.querySelectorAll('#sres a').forEach(a=>a.onclick=closeSearch);
+}
+$('#sbtn').onclick=openSearch;
+$('#sov').onclick=closeSearch;
+$('#iov').onclick=()=>$('#iov').classList.remove('on');
+$('#sin').oninput=e=>{clearTimeout(doSearch._t);doSearch._t=setTimeout(()=>doSearch(e.target.value),120)};
+$('#sin').onkeydown=e=>{const as=document.querySelectorAll('#sres a');if(e.key==='ArrowDown'||e.key==='ArrowUp'){e.preventDefault();sel=(sel+(e.key==='ArrowDown'?1:-1)+as.length)%as.length;as.forEach((a,i)=>a.classList.toggle('sel',i===sel));as[sel]?.scrollIntoView({block:'nearest'})}
+  else if(e.key==='Enter'&&as[sel]){location.hash=as[sel].getAttribute('href').slice(1);closeSearch()}else if(e.key==='Escape')closeSearch()};
+document.addEventListener('keydown',e=>{if(e.key==='/'&&!/INPUT|TEXTAREA/.test(document.activeElement.tagName)&&!$('#sov').classList.contains('on')){e.preventDefault();openSearch()}
+  if(e.key==='Escape'){$('#iov').classList.remove('on');closeSearch()}});
+$('#buildinfo').textContent=D.built||'';
+route();
+</script>
+</body>
+</html>

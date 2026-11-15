@@ -1,0 +1,76 @@
+# 每個區域的細分部位：依序比對標題與英文名稱，第一個符合的規則決定歸屬
+# 先套用共通規則：區域總覽、系統性檢查、紅旗、回場與通用功能量表
+COMMON = ('整體評估與回場', r'系統性檢查|紅旗與轉介|功能測試與回場判讀|漸進負荷與回場|STTT|複合體$|疼痛及負荷問診|疼痛與負荷反應|回場決策|坐站|步行測試|Walking Test|Timed Up|Y.?Balance|MSTS|QuickDASH|SPADI|Oxford|Mayo|FIT-HaNSA|Back Performance|Neck Disability|失能指數|Michigan|第三輪安全|第五輪感染|骨折與脫臼紅旗|紅旗與影像轉介')
+
+SUB = {
+'頭頸': [
+ ('耳與前庭', r'耳|聽|前庭|眩暈|迷路|鼓膜|Dix-Hallpike|Rinne|Weber|凝視穩定|Functional Gait'),
+ ('顏面與顳顎', r'鼻|顎|顴|Le Fort|額竇|牙|咬合|咀嚼|三叉|眶下|顏面|Tongue Blade|Jaw|張口|翼肌'),
+ ('上頸椎與顱頸交界', r'寰|樞|齒突|枕寰|枕骨髁|顱頸|Sharp-Purser|Flexion-Rotation|高位頸|覆膜|翼狀|Hangman|Jefferson|下位顱神經|顱骨與顱頸'),
+ ('腦與頭部創傷', r'腦|顱|頭部|頭頂|意識|失憶|SCAT|SCOAT|GCS|硬膜下|急性硬膜外血腫'),
+ ('眼睛與視覺', r'眼|視|瞳孔|角膜|視網膜|黃斑|前房|Seidel|Flashlight|動眼|近點聚合|King-Devick'),
+ ('頸部肌肉與血管', r'斜方|提肩胛|斜角|胸鎖乳突|喉|動脈|血管|Horner|頸前|等長肌力|肌群|肌$'),
+ ('頸椎與神經根', r'.'),
+],
+'肩部': [
+ ('胸廓出口與神經', r'胸廓出口|臂叢|第一肋|神經|四邊孔|Parsonage|胸小肌症候群|脊髓空洞|Paget|缺血|EAST|麻腫'),
+ ('鎖骨與肩鎖關節', r'鎖骨|肩鎖|胸鎖|肋鎖|喙突|Cross-body|懸吊|浮動肩'),
+ ('肩胛胸廓', r'肩胛胸廓|肩胛骨|肩胛帶|翼狀|前鋸|斜方|提肩胛|彈響肩胛|肩胛運動|Scapular|肩峰與肩胛棘|肩盂與肩胛|肩胛'),
+ ('旋轉肌袖與肩峰下', r'旋轉肌|肩峰下|大結節|肩胛下肌|喙突下|Drop Arm|Lag|Full Can|Hornblower|Bear Hug|Belly|小圓肌|三角肌|鈣化|Acromiale|肩峰骨|無力肩|主動抬舉|Athletic Shoulder'),
+ ('肱二頭肌與盂唇', r'二頭|Speed|Yergason|唇|胸大肌'),
+ ('盂肱穩定與投擲肩', r'不穩定|脫臼|盂肱|Apprehension|Sulcus|Kim|HAGL|關節囊|旋轉間隙|後盂|肩盂|投擲|過頭|Impingement|旋轉弧|夾擠|Rotation|Shot Put|CKCUEST|Endurance|閉鎖鏈|跳躍'),
+ ('肱骨頭與關節病變', r'.'),
+],
+'肘部': [
+ ('骨折、脫臼與兒少骨骺', r'骨折|脫臼|脫位|兒童|兒少|幼兒|骨骺|骨化中心|三聯|Monteggia|Essex|前臂|骨間膜|尺橈|Elbow Extension Test|高能量'),
+ ('內側肘與尺神經', r'內側|尺側副|尺神經|肘隧道|外翻(?!伸展)|Valgus(?! Extension)|內上髁|副肘肌|Flexion-Compression|屈肌旋前|共同屈肌|投擲|Throwing'),
+ ('後肘與肱三頭肌', r'三頭|鷹嘴|後肘|伸肘|外翻伸展|Valgus Extension|推撐'),
+ ('前肘與肱二頭肌', r'二頭|旋前圓|前骨間|正中|髁上突|Hook|Biceps|Pucker|肱肌|冠狀突|肘前|旋後與屈肘'),
+ ('外側肘與橈神經', r'外側|橈|後骨間|旋後|伸肌|Cozen|Panner|肱骨小頭|環狀韌帶|Chair Push-up|Posterolateral|皺襞|內翻'),
+ ('肘關節病變與腫塊', r'.'),
+],
+'手腕與手': [
+ ('拇指', r'拇指|Thumb|De Quervain|第一與第二背側|大多角|橈側腕交叉|伸拇|WHAT'),
+ ('手指與手功能', r'手指|指骨|PIP|Mallet|Jersey|Boutonniere|中央腱|矢狀帶|扳機|滑車|屈肌腱鞘|Kanavel|甲|Seymour|掌骨|Dupuytren|掌腱膜|內生軟骨|握|捏|Peg|Box and Block|Jebsen|Sollerman|Moberg|Michigan|短管骨|伸肌系統'),
+ ('舟狀骨與橈側腕', r'舟|Watson|SLAC|SNAC|Preiser|橈側|小多角|有頭骨|第二第三腕掌|腕背|Lister'),
+ ('月骨與腕中關節', r'月|腕中|Midcarpal|Kienb|腕骨|骨間'),
+ ('尺側腕（TFCC／DRUJ）', r'尺|TFCC|三角纖維|DRUJ|ECU|豆|鉤骨|三角骨|小魚際|Guyon|Madelung|第四第五'),
+ ('神經、血管與腫脹', r'腕隧道|正中神經|Phalen|Durkan|神經|Allen|缺血|CRPS|複雜性區域|筋膜室|麻|血管'),
+ ('遠端橈骨、感染與其他', r'.'),
+],
+'胸腰椎': [
+ ('胸廓、肋骨與側腹', r'肋|胸壁|胸骨|胸廓|呼吸|側腹|Hooking|Tietze'),
+ ('脊髓與馬尾', r'脊髓|圓錐|馬尾|硬膜|蛛網膜|室管膜|胸髓|牽繫|Tarlov|薦神經|McCormick|上運動神經元|中央管'),
+ ('骨折與創傷', r'骨折|創傷|叩擊'),
+ ('全身性與紅旗', r'感染|腫瘤|轉移|內臟|主動脈|痛風|關節炎|代謝|骨髓炎|膿瘍|血管瘤|紅旗|重大病因|全身|用藥|血管'),
+ ('腰椎與神經根', r'腰|神經根|椎間盤|Straight Leg|Slump|Femoral Nerve|跛行|管狹窄|小面|椎弓|滑脫|Prone Instability|Quadrant|後支|Bertolotti|臀皮神經|髂嵴|下背|Back Performance|彎腰|搬舉|黃旗'),
+ ('胸椎與脊柱排列', r'胸椎|側彎|後凸|Scheuermann|Adam|成長期|Schober|DISH|骨化|僵直|僵硬|Baastrup|棘|神經'),
+ ('軀幹肌群與耐力', r'.'),
+],
+'骨盆與髖': [
+ ('髖周神經與血管', r'神經|筋膜室|出血|血腫|囊腫與神經血管|橫紋肌'),
+ ('外側髖', r'大轉子|臀中|臀小|外彈響|闊筋膜|臀肌肌腱|外側'),
+ ('後側髖與臀部', r'腿後|坐骨|深臀|梨狀|Piriformis|臀|陰部|Bent-Knee|後側'),
+ ('前骨盆與腹股溝', r'腹股溝|恥骨|內收|Copenhagen|核心肌|腹直肌|腹壁|髂腰|髂前下棘|股直肌|Doha|前髖'),
+ ('薦髂與骨盆環', r'薦|骨盆環|骨盆|FABER|Morel'),
+ ('髖關節（唇、FAI、骨骺）', r'.'),
+],
+'膝部': [
+ ('半月板', r'半月板|Ramp|McMurray|Apley'),
+ ('股骨髁與骨折', r'股骨髁|Hoffa 股骨|平台|髁間隆起|骨折紅旗|遠端股骨'),
+ ('十字與側副韌帶', r'十字|ACL|PCL|側副|Lachman|Drawer|Sag|Varus|Dial|後外側角|前外側韌帶|Segond|脫臼與血管'),
+ ('髕股與伸膝機轉', r'髕|Patellar|伸膝|股四頭|Osgood|Sinding|SLJ|脂肪墊|Hoffa|皺襞|Plica|脛骨粗隆|伸肌|前膝|膝前|股直肌|足跟高度差'),
+ ('膝外側與脛腓關節', r'腓|髂脛|Noble|外側|膕肌'),
+ ('膝後側、血管與腫塊', r'膕|Baker|腓腸肌|血管|動脈|靜脈|腫塊|腫瘤|肉瘤|骨巨細胞|小腿痛'),
+ ('膝內側與鵝足', r'鵝足|內側|隱神經'),
+ ('軟骨、滑膜與關節', r'.'),
+],
+'足踝': [
+ ('前足與足趾', r'蹠|趾|拇|籽骨|Morton|Mulder|Freiberg|Iselin|Turf|前足|MTP|足底纖維|足底共同'),
+ ('跟腱與後足', r'跟腱|小腿三頭|Thompson|跟骨|踵骨|足跟|足底跟|Baxter|踝後|三角骨|距骨後突|屈拇長|FHL|Windlass|足根管|脛神經|足底神經|提踵|跟提'),
+ ('外踝韌帶與腓骨肌', r'外側踝|踝外側|外踝|Anterior Drawer|Talar Tilt|不穩定|高位踝|脛腓|Syndesmosis|External Rotation|距下竇|腓骨肌|支持帶|籃式|Ottawa|外側|Hop|平衡'),
+ ('內側足弓與中足', r'舟|足弓|後脛|脛後|彈簧|塌陷|扁平|跗骨聯合|Chopart|Lisfranc|中足|Müller|Köhler|Low-Dye|短足|三角韌帶|內踝|Charcot|內側'),
+ ('神經與血管', r'神經|前跗管|Tinel|靜脈|血管|腔室|麻木'),
+ ('距骨與踝關節', r'.'),
+],
+}
