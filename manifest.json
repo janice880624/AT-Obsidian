@@ -1,7 +1,7 @@
 {
-  "date": "2026-11-15",
-  "region": "骨盆與髖第十一輪",
-  "git_commit": "a5dda835f061acde5a1653aee95a479acd279c10",
+  "date": "2026-11-16",
+  "region": "膝部第十一輪",
+  "git_commit": "50357177ef19703055e42aaddd22331495251882",
   "github_mode": "read-only",
   "templates": [
     {
@@ -76,20 +76,12 @@
     "svg": 3
   },
   "skipped": [
-    "已跳過骨盆與髖第一至第十輪既有主題",
+    "已跳過膝部第一至第十輪既有主題",
     "未建立任何新資料夾"
   ],
   "note_validation": [
     {
-      "path": "01_基礎解剖/肌腱/肌腱－近端腿後肌共同腱與半膜肌腱.md",
-      "template": "99_模板/模板－肌腱.md",
-      "yaml_order": "pass",
-      "h1": "pass",
-      "h2_order": "pass",
-      "required_subfields": "pass"
-    },
-    {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－骨盆腫瘤分區與髖臼承重柱.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－股骨遠端幹骺端與骨壓力路徑.md",
       "template": "99_模板/模板－骨骼或關節.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -97,7 +89,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－髂腰肌滑囊與髂恥隆起.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－膝上囊與滑膜絨毛增生區.md",
       "template": "99_模板/模板－骨骼或關節.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -105,7 +97,23 @@
       "required_subfields": "pass"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－近端腿後肌腱急性撕脫.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－膝關節滑膜隱窩與血管分布.md",
+      "template": "99_模板/模板－骨骼或關節.md",
+      "yaml_order": "pass",
+      "h1": "pass",
+      "h2_order": "pass",
+      "required_subfields": "pass"
+    },
+    {
+      "path": "01_基礎解剖/骨骼/骨骼與關節－髁間窩前十字韌帶與囊腫空間.md",
+      "template": "99_模板/模板－骨骼或關節.md",
+      "yaml_order": "pass",
+      "h1": "pass",
+      "h2_order": "pass",
+      "required_subfields": "pass"
+    },
+    {
+      "path": "03_傷害與疾病/急性傷害/傷害－膝關節結核性關節炎.md",
       "template": "99_模板/模板－傷害.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -113,7 +121,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－髖關節結核性關節炎.md",
+      "path": "03_傷害與疾病/過度使用/傷害－前十字韌帶黏液樣變性與關節內囊腫.md",
       "template": "99_模板/模板－傷害.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -121,7 +129,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－骨盆尤文氏肉瘤.md",
+      "path": "03_傷害與疾病/過度使用/傷害－股骨遠端骨壓力性損傷.md",
       "template": "99_模板/模板－傷害.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -129,7 +137,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－骨盆軟骨肉瘤.md",
+      "path": "03_傷害與疾病/過度使用/傷害－膝關節樹枝狀脂肪瘤.md",
       "template": "99_模板/模板－傷害.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -137,7 +145,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－髂腰肌滑囊炎.md",
+      "path": "03_傷害與疾病/過度使用/傷害－膝關節滑膜血管瘤與關節內靜脈畸形.md",
       "template": "99_模板/模板－傷害.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -145,7 +153,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－夜間骨盆痛腫塊與全身症狀問診.md",
+      "path": "04_臨床評估/主觀問診/評估－慢性單關節膝腫與反覆血腫問診.md",
       "template": "99_模板/模板－主觀問診.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -153,7 +161,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－慢性單關節髖炎與結核感染分流.md",
+      "path": "04_臨床評估/系統性評估/評估－慢性單關節膝炎與結核感染分流.md",
       "template": "99_模板/模板－系統性評估.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -161,7 +169,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－骨盆原發性惡性骨腫瘤安全分流.md",
+      "path": "04_臨床評估/系統性評估/評估－滑膜脂肪與血管性病灶影像分流.md",
       "template": "99_模板/模板－系統性評估.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -169,7 +177,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－髂腰肌滑囊腫大與神經血管壓迫分流.md",
+      "path": "04_臨床評估/系統性評估/評估－股骨遠端骨壓力傷與訓練負荷分流.md",
       "template": "99_模板/模板－系統性評估.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -177,7 +185,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－急性後大腿近端撕脫身體檢查.md",
+      "path": "04_臨床評估/身體檢查/評估－非創傷性積液與血腫身體檢查.md",
       "template": "99_模板/模板－身體檢查.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -185,16 +193,8 @@
       "required_subfields": "pass"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－近端腿後肌腱撕脫處置後負荷進展.md",
+      "path": "05_處置與復健/運動治療/運動治療－膝滑膜病灶處置後步態與力量恢復.md",
       "template": "99_模板/模板－運動治療.md",
-      "yaml_order": "pass",
-      "h1": "pass",
-      "h2_order": "pass",
-      "required_subfields": "pass"
-    },
-    {
-      "path": "06_功能性測試/下肢/功能性測試－近端腿後肌腱力量與跳躍回場組合.md",
-      "template": "99_模板/模板－功能性測試.md",
       "yaml_order": "pass",
       "h1": "pass",
       "h2_order": "pass",
