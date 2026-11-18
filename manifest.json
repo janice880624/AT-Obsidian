@@ -1,7 +1,8 @@
 {
-  "date": "2026-11-16",
-  "region": "膝部第十一輪",
-  "git_commit": "50357177ef19703055e42aaddd22331495251882",
+  "date": "2026-11-18",
+  "region": "足踝第十一輪",
+  "next_region": "頭頸第十二輪",
+  "git_commit": "18f88ba7a7b2510738675440b45965be71424c97",
   "github_mode": "read-only",
   "templates": [
     {
@@ -75,13 +76,61 @@
     "knowledge_notes": 15,
     "svg": 3
   },
+  "core_topics": [
+    "傷害－足踝結核性關節炎",
+    "傷害－距骨缺血性骨壞死",
+    "傷害－足踝腱鞘巨細胞瘤",
+    "傷害－踝關節滑膜軟骨瘤病",
+    "傷害－遠端腓骨骨壓力性損傷"
+  ],
   "skipped": [
-    "已跳過膝部第一至第十輪既有主題",
+    "已跳過足踝第一至第十輪既有主題",
+    "2026-11-17 執行環境失敗未產生可合併內容，故本日仍延續第十一輪",
     "未建立任何新資料夾"
   ],
   "note_validation": [
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－股骨遠端幹骺端與骨壓力路徑.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－足踝結核性關節炎.md",
+      "template": "99_模板/模板－傷害.md",
+      "yaml_order": "pass",
+      "h1": "pass",
+      "h2_order": "pass",
+      "required_subfields": "pass"
+    },
+    {
+      "path": "03_傷害與疾病/過度使用/傷害－距骨缺血性骨壞死.md",
+      "template": "99_模板/模板－傷害.md",
+      "yaml_order": "pass",
+      "h1": "pass",
+      "h2_order": "pass",
+      "required_subfields": "pass"
+    },
+    {
+      "path": "03_傷害與疾病/過度使用/傷害－足踝腱鞘巨細胞瘤.md",
+      "template": "99_模板/模板－傷害.md",
+      "yaml_order": "pass",
+      "h1": "pass",
+      "h2_order": "pass",
+      "required_subfields": "pass"
+    },
+    {
+      "path": "03_傷害與疾病/過度使用/傷害－踝關節滑膜軟骨瘤病.md",
+      "template": "99_模板/模板－傷害.md",
+      "yaml_order": "pass",
+      "h1": "pass",
+      "h2_order": "pass",
+      "required_subfields": "pass"
+    },
+    {
+      "path": "03_傷害與疾病/過度使用/傷害－遠端腓骨骨壓力性損傷.md",
+      "template": "99_模板/模板－傷害.md",
+      "yaml_order": "pass",
+      "h1": "pass",
+      "h2_order": "pass",
+      "required_subfields": "pass"
+    },
+    {
+      "path": "01_基礎解剖/骨骼/骨骼與關節－距骨血供與缺血風險.md",
       "template": "99_模板/模板－骨骼或關節.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -89,7 +138,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－膝上囊與滑膜絨毛增生區.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－踝關節滑膜與游離體空間.md",
       "template": "99_模板/模板－骨骼或關節.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -97,7 +146,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－膝關節滑膜隱窩與血管分布.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－遠端腓骨與外踝負荷路徑.md",
       "template": "99_模板/模板－骨骼或關節.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -105,55 +154,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－髁間窩前十字韌帶與囊腫空間.md",
-      "template": "99_模板/模板－骨骼或關節.md",
-      "yaml_order": "pass",
-      "h1": "pass",
-      "h2_order": "pass",
-      "required_subfields": "pass"
-    },
-    {
-      "path": "03_傷害與疾病/急性傷害/傷害－膝關節結核性關節炎.md",
-      "template": "99_模板/模板－傷害.md",
-      "yaml_order": "pass",
-      "h1": "pass",
-      "h2_order": "pass",
-      "required_subfields": "pass"
-    },
-    {
-      "path": "03_傷害與疾病/過度使用/傷害－前十字韌帶黏液樣變性與關節內囊腫.md",
-      "template": "99_模板/模板－傷害.md",
-      "yaml_order": "pass",
-      "h1": "pass",
-      "h2_order": "pass",
-      "required_subfields": "pass"
-    },
-    {
-      "path": "03_傷害與疾病/過度使用/傷害－股骨遠端骨壓力性損傷.md",
-      "template": "99_模板/模板－傷害.md",
-      "yaml_order": "pass",
-      "h1": "pass",
-      "h2_order": "pass",
-      "required_subfields": "pass"
-    },
-    {
-      "path": "03_傷害與疾病/過度使用/傷害－膝關節樹枝狀脂肪瘤.md",
-      "template": "99_模板/模板－傷害.md",
-      "yaml_order": "pass",
-      "h1": "pass",
-      "h2_order": "pass",
-      "required_subfields": "pass"
-    },
-    {
-      "path": "03_傷害與疾病/過度使用/傷害－膝關節滑膜血管瘤與關節內靜脈畸形.md",
-      "template": "99_模板/模板－傷害.md",
-      "yaml_order": "pass",
-      "h1": "pass",
-      "h2_order": "pass",
-      "required_subfields": "pass"
-    },
-    {
-      "path": "04_臨床評估/主觀問診/評估－慢性單關節膝腫與反覆血腫問診.md",
+      "path": "04_臨床評估/主觀問診/評估－慢性單關節踝腫夜痛卡住與負荷痛問診.md",
       "template": "99_模板/模板－主觀問診.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -161,31 +162,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－慢性單關節膝炎與結核感染分流.md",
-      "template": "99_模板/模板－系統性評估.md",
-      "yaml_order": "pass",
-      "h1": "pass",
-      "h2_order": "pass",
-      "required_subfields": "pass"
-    },
-    {
-      "path": "04_臨床評估/系統性評估/評估－滑膜脂肪與血管性病灶影像分流.md",
-      "template": "99_模板/模板－系統性評估.md",
-      "yaml_order": "pass",
-      "h1": "pass",
-      "h2_order": "pass",
-      "required_subfields": "pass"
-    },
-    {
-      "path": "04_臨床評估/系統性評估/評估－股骨遠端骨壓力傷與訓練負荷分流.md",
-      "template": "99_模板/模板－系統性評估.md",
-      "yaml_order": "pass",
-      "h1": "pass",
-      "h2_order": "pass",
-      "required_subfields": "pass"
-    },
-    {
-      "path": "04_臨床評估/身體檢查/評估－非創傷性積液與血腫身體檢查.md",
+      "path": "04_臨床評估/身體檢查/評估－足踝滑膜腫塊積液與骨壓力身體檢查.md",
       "template": "99_模板/模板－身體檢查.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -193,7 +170,39 @@
       "required_subfields": "pass"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－膝滑膜病灶處置後步態與力量恢復.md",
+      "path": "04_臨床評估/系統性評估/評估－慢性單關節踝炎與結核感染分流.md",
+      "template": "99_模板/模板－系統性評估.md",
+      "yaml_order": "pass",
+      "h1": "pass",
+      "h2_order": "pass",
+      "required_subfields": "pass"
+    },
+    {
+      "path": "04_臨床評估/系統性評估/評估－足踝滑膜腫瘤與游離體影像分流.md",
+      "template": "99_模板/模板－系統性評估.md",
+      "yaml_order": "pass",
+      "h1": "pass",
+      "h2_order": "pass",
+      "required_subfields": "pass"
+    },
+    {
+      "path": "04_臨床評估/系統性評估/評估－距骨缺血與遠端腓骨骨壓力安全分流.md",
+      "template": "99_模板/模板－系統性評估.md",
+      "yaml_order": "pass",
+      "h1": "pass",
+      "h2_order": "pass",
+      "required_subfields": "pass"
+    },
+    {
+      "path": "05_處置與復健/運動治療/運動治療－足踝滑膜病灶處置後步態與活動恢復.md",
+      "template": "99_模板/模板－運動治療.md",
+      "yaml_order": "pass",
+      "h1": "pass",
+      "h2_order": "pass",
+      "required_subfields": "pass"
+    },
+    {
+      "path": "05_處置與復健/運動治療/運動治療－遠端腓骨骨壓力傷後回跑進展.md",
       "template": "99_模板/模板－運動治療.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -202,14 +211,14 @@
     }
   ],
   "validation": {
-    "markdown_count": "pass (15 knowledge notes)",
-    "yaml_schema_and_order": "pass",
-    "h1_and_h2_order": "pass",
-    "required_template_subfields": "pass",
-    "bidirectional_link_targets": "pass",
-    "svg_xml": "pass",
-    "folder_paths": "pass (0 new directories)",
-    "duplicate_topics": "pass",
+    "markdown_count": "pass (15 knowledge notes; support files excluded)",
+    "yaml_schema_and_order": "pass (15/15)",
+    "h1_and_h2_order": "pass (15/15)",
+    "required_template_subfields": "pass (15/15)",
+    "bidirectional_link_targets": "pass (all targets resolve; every knowledge note has inbound and outbound links)",
+    "svg_xml": "pass (3/3)",
+    "folder_paths": "pass (0 new directories; 16 package directories all exist in main)",
+    "duplicate_topics": "pass (15/15 filenames absent from main; first ten foot/ankle rounds skipped)",
     "github_remote_write": "none"
   }
 }
