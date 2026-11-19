@@ -1,8 +1,8 @@
 {
-  "date": "2026-11-18",
-  "region": "足踝第十一輪",
-  "next_region": "頭頸第十二輪",
-  "git_commit": "18f88ba7a7b2510738675440b45965be71424c97",
+  "date": "2026-11-19",
+  "region": "頭頸第十二輪",
+  "next_region": "肩部第十二輪",
+  "git_commit": "bd7146aa7748c65cb6f2b5b39bd92cfafef5c039",
   "github_mode": "read-only",
   "templates": [
     {
@@ -77,20 +77,19 @@
     "svg": 3
   },
   "core_topics": [
-    "傷害－足踝結核性關節炎",
-    "傷害－距骨缺血性骨壞死",
-    "傷害－足踝腱鞘巨細胞瘤",
-    "傷害－踝關節滑膜軟骨瘤病",
-    "傷害－遠端腓骨骨壓力性損傷"
+    "傷害－旋轉性椎動脈阻塞症候群（Bow Hunter Syndrome）",
+    "傷害－Eagle 症候群",
+    "傷害－長頸肌急性鈣化性肌腱炎",
+    "傷害－冠齒症候群",
+    "傷害－寰樞關節化膿性感染"
   ],
   "skipped": [
-    "已跳過足踝第一至第十輪既有主題",
-    "2026-11-17 執行環境失敗未產生可合併內容，故本日仍延續第十一輪",
+    "已跳過頭頸第一至第十一輪既有主題",
     "未建立任何新資料夾"
   ],
   "note_validation": [
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－足踝結核性關節炎.md",
+      "path": "03_傷害與疾病/過度使用/傷害－旋轉性椎動脈阻塞症候群（Bow Hunter Syndrome）.md",
       "template": "99_模板/模板－傷害.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -98,7 +97,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－距骨缺血性骨壞死.md",
+      "path": "03_傷害與疾病/過度使用/傷害－Eagle 症候群.md",
       "template": "99_模板/模板－傷害.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -106,7 +105,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－足踝腱鞘巨細胞瘤.md",
+      "path": "03_傷害與疾病/過度使用/傷害－長頸肌急性鈣化性肌腱炎.md",
       "template": "99_模板/模板－傷害.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -114,7 +113,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－踝關節滑膜軟骨瘤病.md",
+      "path": "03_傷害與疾病/過度使用/傷害－冠齒症候群.md",
       "template": "99_模板/模板－傷害.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -122,7 +121,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－遠端腓骨骨壓力性損傷.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－寰樞關節化膿性感染.md",
       "template": "99_模板/模板－傷害.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -130,7 +129,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－距骨血供與缺血風險.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－椎動脈頸段與橫突孔動態路徑.md",
       "template": "99_模板/模板－骨骼或關節.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -138,7 +137,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－踝關節滑膜與游離體空間.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－顳骨莖突莖突舌骨韌帶與頸動脈空間.md",
       "template": "99_模板/模板－骨骼或關節.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -146,7 +145,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－遠端腓骨與外踝負荷路徑.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－齒突周圍晶體與長頸肌椎前空間.md",
       "template": "99_模板/模板－骨骼或關節.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -154,7 +153,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－慢性單關節踝腫夜痛卡住與負荷痛問診.md",
+      "path": "04_臨床評估/主觀問診/評估－旋轉性暈眩咽痛與上頸痛主觀問診.md",
       "template": "99_模板/模板－主觀問診.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -162,7 +161,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－足踝滑膜腫塊積液與骨壓力身體檢查.md",
+      "path": "04_臨床評估/身體檢查/評估－上頸痛吞嚥與旋轉神經血管身體檢查.md",
       "template": "99_模板/模板－身體檢查.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -170,7 +169,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－慢性單關節踝炎與結核感染分流.md",
+      "path": "04_臨床評估/系統性評估/評估－轉頭誘發後循環症狀安全分流.md",
       "template": "99_模板/模板－系統性評估.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -178,7 +177,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－足踝滑膜腫瘤與游離體影像分流.md",
+      "path": "04_臨床評估/系統性評估/評估－Eagle 症候群咽耳痛與血管症狀分流.md",
       "template": "99_模板/模板－系統性評估.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -186,7 +185,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－距骨缺血與遠端腓骨骨壓力安全分流.md",
+      "path": "04_臨床評估/系統性評估/評估－急性上頸痛吞嚥痛晶體與感染分流.md",
       "template": "99_模板/模板－系統性評估.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -194,15 +193,15 @@
       "required_subfields": "pass"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－足踝滑膜病灶處置後步態與活動恢復.md",
-      "template": "99_模板/模板－運動治療.md",
+      "path": "04_臨床評估/系統性評估/評估－寰樞感染與深頸膿瘍緊急分流.md",
+      "template": "99_模板/模板－系統性評估.md",
       "yaml_order": "pass",
       "h1": "pass",
       "h2_order": "pass",
       "required_subfields": "pass"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－遠端腓骨骨壓力傷後回跑進展.md",
+      "path": "05_處置與復健/運動治療/運動治療－上頸椎發炎與感染醫療穩定後活動恢復.md",
       "template": "99_模板/模板－運動治療.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -215,10 +214,10 @@
     "yaml_schema_and_order": "pass (15/15)",
     "h1_and_h2_order": "pass (15/15)",
     "required_template_subfields": "pass (15/15)",
-    "bidirectional_link_targets": "pass (all targets resolve; every knowledge note has inbound and outbound links)",
+    "bidirectional_link_targets": "pass (all targets resolve; every note has inbound and outbound links)",
     "svg_xml": "pass (3/3)",
     "folder_paths": "pass (0 new directories; 16 package directories all exist in main)",
-    "duplicate_topics": "pass (15/15 filenames absent from main; first ten foot/ankle rounds skipped)",
+    "duplicate_topics": "pass (15/15 filenames absent from main; first eleven head/neck rounds skipped)",
     "github_remote_write": "none"
   }
 }
