@@ -1,8 +1,8 @@
 {
-  "date": "2026-11-20",
-  "region": "肩部第十二輪",
-  "next_region": "肘部第十二輪",
-  "git_commit": "60279cc772f5c440d28dc591db58d2081ea1123e",
+  "date": "2026-11-21",
+  "region": "肘部第十二輪",
+  "next_region": "手腕與手第十二輪",
+  "git_commit": "186c9809294cdff13f2e456ca6b529e15e1a154b",
   "github_mode": "read-only",
   "templates": [
     {
@@ -77,20 +77,20 @@
     "svg": 3
   },
   "core_topics": [
-    "傷害－投擲肩 Bennett 病灶",
-    "傷害－肩胛盂發育不良與後方不穩定",
-    "傷害－盂唇旁囊腫與肩胛上神經壓迫",
-    "傷害－肩關節脫臼後腋神經損傷",
-    "傷害－肩鎖關節骨關節炎"
+    "傷害－肘部痛風與鷹嘴痛風石",
+    "傷害－感染性鷹嘴滑囊炎",
+    "傷害－肱骨滑車剝離性骨軟骨炎",
+    "傷害－青少年鷹嘴骨骺炎",
+    "傷害－肘關節滑膜血管瘤與靜脈畸形"
   ],
   "skipped": [
-    "已跳過肩部第一至第十一輪既有主題",
-    "候選「肩胛上神經病變」已存在，改寫為具盂唇旁囊腫與神經壓迫條件的不同主題",
+    "已跳過肘部第一至第十一輪既有主題",
+    "已跳過主庫既有的鷹嘴滑囊炎、鷹嘴應力性骨折、肱骨小頭 OCD 與其他重複主題",
     "未建立任何新資料夾"
   ],
   "note_validation": [
     {
-      "path": "03_傷害與疾病/過度使用/傷害－投擲肩 Bennett 病灶.md",
+      "path": "03_傷害與疾病/過度使用/傷害－肘部痛風與鷹嘴痛風石.md",
       "template": "99_模板/模板－傷害.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -98,7 +98,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－肩胛盂發育不良與後方不穩定.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－感染性鷹嘴滑囊炎.md",
       "template": "99_模板/模板－傷害.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -106,7 +106,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－盂唇旁囊腫與肩胛上神經壓迫.md",
+      "path": "03_傷害與疾病/過度使用/傷害－肱骨滑車剝離性骨軟骨炎.md",
       "template": "99_模板/模板－傷害.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -114,7 +114,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－肩關節脫臼後腋神經損傷.md",
+      "path": "03_傷害與疾病/過度使用/傷害－青少年鷹嘴骨骺炎.md",
       "template": "99_模板/模板－傷害.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -122,7 +122,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－肩鎖關節骨關節炎.md",
+      "path": "03_傷害與疾病/過度使用/傷害－肘關節滑膜血管瘤與靜脈畸形.md",
       "template": "99_模板/模板－傷害.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -130,7 +130,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－後下肩胛盂緣與後關節囊附著區.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－鷹嘴滑囊皮下層與痛風石好發區.md",
       "template": "99_模板/模板－骨骼或關節.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -138,7 +138,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－肩胛盂版本凹度與後下緣形態.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－肱骨滑車骨化中心與尺骨滑車切跡.md",
       "template": "99_模板/模板－骨骼或關節.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -146,7 +146,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－棘盂切跡盂唇與肩胛上神經通道.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－青少年鷹嘴骨骺板與肱三頭肌止點.md",
       "template": "99_模板/模板－骨骼或關節.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -154,7 +154,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－肩頂局部痛神經性無力與後方症狀主觀問診.md",
+      "path": "04_臨床評估/主觀問診/評估－反覆肘腫脹積血紅熱與青少年後肘痛主觀問診.md",
       "template": "99_模板/模板－主觀問診.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -162,7 +162,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－肩部局部關節與周邊神經身體檢查.md",
+      "path": "04_臨床評估/身體檢查/評估－肘後腫脹機械症狀與神經身體檢查.md",
       "template": "99_模板/模板－身體檢查.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -170,7 +170,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－Bennett 病灶與投擲肩後側疼痛分流.md",
+      "path": "04_臨床評估/系統性評估/評估－紅熱鷹嘴腫塊晶體與感染安全分流.md",
       "template": "99_模板/模板－系統性評估.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -178,7 +178,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－肩胛盂形態與後方不穩定分流.md",
+      "path": "04_臨床評估/系統性評估/評估－青少年滑車骨軟骨病灶與機械症狀分流.md",
       "template": "99_模板/模板－系統性評估.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -186,7 +186,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－盂唇旁囊腫與肩胛上神經病變分流.md",
+      "path": "04_臨床評估/系統性評估/評估－鷹嘴骨骺板過度使用與不癒合分流.md",
       "template": "99_模板/模板－系統性評估.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -194,7 +194,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－脫臼後三角肌腋神經與臂叢追蹤.md",
+      "path": "04_臨床評估/系統性評估/評估－反覆非創傷性肘積血與血管病灶分流.md",
       "template": "99_模板/模板－系統性評估.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -202,7 +202,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－肩部周邊神經與局部關節醫療穩定後負荷恢復.md",
+      "path": "05_處置與復健/運動治療/運動治療－肘部發炎骨軟骨與骨骺病灶醫療穩定後恢復.md",
       "template": "99_模板/模板－運動治療.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -218,7 +218,7 @@
     "bidirectional_link_targets": "pass (all targets resolve; every note has inbound and outbound links)",
     "svg_xml": "pass (3/3)",
     "folder_paths": "pass (0 new directories; 16 package directories all exist in main)",
-    "duplicate_topics": "pass (15/15 filenames absent from main; first eleven shoulder rounds skipped)",
+    "duplicate_topics": "pass (15/15 filenames absent from main; first eleven elbow rounds skipped)",
     "zip_integrity": "pass (testzip, path traversal, extraction byte comparison)",
     "github_remote_write": "none"
   }
