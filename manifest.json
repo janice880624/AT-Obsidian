@@ -1,8 +1,8 @@
 {
-  "date": "2026-11-21",
-  "region": "肘部第十二輪",
-  "next_region": "手腕與手第十二輪",
-  "git_commit": "186c9809294cdff13f2e456ca6b529e15e1a154b",
+  "date": "2026-11-22",
+  "region": "手腕與手第十二輪",
+  "next_region": "胸腰椎第十二輪",
+  "git_commit": "f140c2c3465d9e0b7e6a3f1005e6bb39e7f1daac",
   "github_mode": "read-only",
   "templates": [
     {
@@ -77,20 +77,20 @@
     "svg": 3
   },
   "core_topics": [
-    "傷害－肘部痛風與鷹嘴痛風石",
-    "傷害－感染性鷹嘴滑囊炎",
-    "傷害－肱骨滑車剝離性骨軟骨炎",
-    "傷害－青少年鷹嘴骨骺炎",
-    "傷害－肘關節滑膜血管瘤與靜脈畸形"
+    "傷害－拇指 Bennett 骨折",
+    "傷害－手指中央滑束損傷與鈕扣孔變形",
+    "傷害－急性腕隧道症候群",
+    "傷害－尺骨莖突骨折與遠端橈尺關節不穩定",
+    "傷害－握拳人咬傷與掌指關節感染"
   ],
   "skipped": [
-    "已跳過肘部第一至第十一輪既有主題",
-    "已跳過主庫既有的鷹嘴滑囊炎、鷹嘴應力性骨折、肱骨小頭 OCD 與其他重複主題",
+    "已跳過手腕與手第一至第十一輪既有主題",
+    "已排除主庫既有的舟狀骨、月骨周圍、TFCC、腕隧道慢性型與其他重複主題",
     "未建立任何新資料夾"
   ],
   "note_validation": [
     {
-      "path": "03_傷害與疾病/過度使用/傷害－肘部痛風與鷹嘴痛風石.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－拇指 Bennett 骨折.md",
       "template": "99_模板/模板－傷害.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -98,7 +98,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－感染性鷹嘴滑囊炎.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－手指中央滑束損傷與鈕扣孔變形.md",
       "template": "99_模板/模板－傷害.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -106,7 +106,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－肱骨滑車剝離性骨軟骨炎.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－急性腕隧道症候群.md",
       "template": "99_模板/模板－傷害.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -114,7 +114,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－青少年鷹嘴骨骺炎.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－尺骨莖突骨折與遠端橈尺關節不穩定.md",
       "template": "99_模板/模板－傷害.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -122,7 +122,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－肘關節滑膜血管瘤與靜脈畸形.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－握拳人咬傷與掌指關節感染.md",
       "template": "99_模板/模板－傷害.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -130,7 +130,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－鷹嘴滑囊皮下層與痛風石好發區.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－第一掌骨基底與拇指腕掌關節穩定結構.md",
       "template": "99_模板/模板－骨骼或關節.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -138,23 +138,23 @@
       "required_subfields": "pass"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－肱骨滑車骨化中心與尺骨滑車切跡.md",
-      "template": "99_模板/模板－骨骼或關節.md",
+      "path": "01_基礎解剖/肌腱/肌腱－手指中央滑束外側束與伸肌機轉.md",
+      "template": "99_模板/模板－肌腱.md",
       "yaml_order": "pass",
       "h1": "pass",
       "h2_order": "pass",
       "required_subfields": "pass"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－青少年鷹嘴骨骺板與肱三頭肌止點.md",
-      "template": "99_模板/模板－骨骼或關節.md",
+      "path": "01_基礎解剖/神經/神經－急性腕隧道正中神經壓力與灌流.md",
+      "template": "99_模板/模板－神經.md",
       "yaml_order": "pass",
       "h1": "pass",
       "h2_order": "pass",
       "required_subfields": "pass"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－反覆肘腫脹積血紅熱與青少年後肘痛主觀問診.md",
+      "path": "04_臨床評估/主觀問診/評估－拇指基底腕傷手指伸直缺失與手背傷口主觀問診.md",
       "template": "99_模板/模板－主觀問診.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -162,7 +162,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－肘後腫脹機械症狀與神經身體檢查.md",
+      "path": "04_臨床評估/身體檢查/評估－手背傷口伸肌機轉與神經血管身體檢查.md",
       "template": "99_模板/模板－身體檢查.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -170,7 +170,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－紅熱鷹嘴腫塊晶體與感染安全分流.md",
+      "path": "04_臨床評估/系統性評估/評估－拇指基底關節內骨折與 CMC 不穩定分流.md",
       "template": "99_模板/模板－系統性評估.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -178,7 +178,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－青少年滑車骨軟骨病灶與機械症狀分流.md",
+      "path": "04_臨床評估/系統性評估/評估－PIP 背側傷與中央滑束安全分流.md",
       "template": "99_模板/模板－系統性評估.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -186,7 +186,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－鷹嘴骨骺板過度使用與不癒合分流.md",
+      "path": "04_臨床評估/系統性評估/評估－急性腕傷後進展正中神經壓迫分流.md",
       "template": "99_模板/模板－系統性評估.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -194,7 +194,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－反覆非創傷性肘積血與血管病灶分流.md",
+      "path": "04_臨床評估/系統性評估/評估－尺骨莖突骨折與 DRUJ 穩定度分流.md",
       "template": "99_模板/模板－系統性評估.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -202,8 +202,8 @@
       "required_subfields": "pass"
     },
     {
-      "path": "05_處置與復健/運動治療/運動治療－肘部發炎骨軟骨與骨骺病灶醫療穩定後恢復.md",
-      "template": "99_模板/模板－運動治療.md",
+      "path": "04_臨床評估/系統性評估/評估－掌指背側小傷口與握拳咬傷緊急分流.md",
+      "template": "99_模板/模板－系統性評估.md",
       "yaml_order": "pass",
       "h1": "pass",
       "h2_order": "pass",
@@ -217,8 +217,8 @@
     "required_template_subfields": "pass (15/15)",
     "bidirectional_link_targets": "pass (all targets resolve; every note has inbound and outbound links)",
     "svg_xml": "pass (3/3)",
-    "folder_paths": "pass (0 new directories; 16 package directories all exist in main)",
-    "duplicate_topics": "pass (15/15 filenames absent from main; first eleven elbow rounds skipped)",
+    "folder_paths": "pass (0 new directories; 15 package directories all exist in main)",
+    "duplicate_topics": "pass (15/15 filenames absent from main; first eleven hand and wrist rounds skipped)",
     "zip_integrity": "pass (testzip, path traversal, extraction byte comparison)",
     "github_remote_write": "none"
   }
