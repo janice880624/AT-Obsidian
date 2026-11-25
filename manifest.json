@@ -1,8 +1,8 @@
 {
-  "date": "2026-11-24",
-  "region": "骨盆與髖第十二輪",
-  "next_region": "膝部第十二輪",
-  "git_commit": "9ea074ff780810e24b320dbd0408b8830436b8a2",
+  "date": "2026-11-25",
+  "region": "膝部第十二輪",
+  "next_region": "足踝第十二輪",
+  "git_commit": "701b6982de874becf51a7fd44eae2ba3ca7d0296",
   "github_mode": "read-only",
   "templates": [
     {
@@ -77,20 +77,20 @@
     "svg": 3
   },
   "core_topics": [
-    "傷害－全髖關節置換術後髂腰肌撞擊",
-    "傷害－人工髖關節周圍感染",
-    "傷害－人工髖關節周圍股骨骨折",
-    "傷害－人工髖關節脫臼與不穩定",
-    "傷害－人工髖金屬磨屑不良局部組織反應"
+    "傷害－人工膝關節周圍感染",
+    "傷害－人工膝關節周圍骨折",
+    "傷害－人工膝關節置換術後伸膝機轉失效",
+    "傷害－人工膝關節不穩定",
+    "傷害－人工膝無菌性鬆動與骨溶解"
   ],
   "skipped": [
-    "已跳過骨盆與髖第一至第十一輪既有主題",
-    "已排除主庫既有骨折、FAI、髖臼唇、感染、腫瘤、肌腱與神經重複主題",
-    "未建立任何新資料夾"
+    "已跳過膝部第一至第十一輪全部既有主題",
+    "已排除 main 既有一般膝感染、一般伸膝斷裂、膝纖維化、骨關節炎與腫瘤等重複題目",
+    "本輪限定於人工膝植入物相關情境，沒有建立任何新資料夾"
   ],
   "note_validation": [
     {
-      "path": "03_傷害與疾病/過度使用/傷害－全髖關節置換術後髂腰肌撞擊.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－人工膝關節周圍感染.md",
       "template": "99_模板/模板－傷害.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -98,7 +98,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－人工髖關節周圍感染.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－人工膝關節周圍骨折.md",
       "template": "99_模板/模板－傷害.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -106,7 +106,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－人工髖關節周圍股骨骨折.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－人工膝關節置換術後伸膝機轉失效.md",
       "template": "99_模板/模板－傷害.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -114,7 +114,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－人工髖關節脫臼與不穩定.md",
+      "path": "03_傷害與疾病/過度使用/傷害－人工膝關節不穩定.md",
       "template": "99_模板/模板－傷害.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -122,7 +122,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－人工髖金屬磨屑不良局部組織反應.md",
+      "path": "03_傷害與疾病/過度使用/傷害－人工膝無菌性鬆動與骨溶解.md",
       "template": "99_模板/模板－傷害.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -130,7 +130,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－人工髖關節組件與周圍骨界面.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－人工膝關節組件與周圍骨界面.md",
       "template": "99_模板/模板－骨骼或關節.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -138,7 +138,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "01_基礎解剖/肌肉/肌肉－人工髖前方髂腰肌腱與髖臼杯關係.md",
+      "path": "01_基礎解剖/肌肉/肌肉－人工膝伸膝機轉與髕骨組件關係.md",
       "template": "99_模板/模板－肌肉.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -146,7 +146,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "01_基礎解剖/神經/神經－人工髖周圍股神經坐骨神經與神經血管風險.md",
+      "path": "01_基礎解剖/神經/神經－人工膝周圍腓總神經隱神經與膕血管風險.md",
       "template": "99_模板/模板－神經.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -154,7 +154,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "04_臨床評估/主觀問診/評估－人工髖疼痛創傷感染與植入物問診.md",
+      "path": "04_臨床評估/主觀問診/評估－人工膝疼痛手術感染創傷與植入物問診.md",
       "template": "99_模板/模板－主觀問診.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -162,7 +162,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－人工髖疼痛傷口神經血管與功能身體檢查.md",
+      "path": "04_臨床評估/身體檢查/評估－人工膝疼痛傷口神經血管與功能身體檢查.md",
       "template": "99_模板/模板－身體檢查.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -170,7 +170,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－人工髖術後前腹股溝痛與髂腰肌撞擊分流.md",
+      "path": "04_臨床評估/系統性評估/評估－人工膝疼痛感染與無菌性失效安全分流.md",
       "template": "99_模板/模板－系統性評估.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -178,7 +178,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－人工髖疼痛感染與無菌性鬆動安全分流.md",
+      "path": "04_臨床評估/系統性評估/評估－人工膝周圍骨折與植入物穩定緊急分流.md",
       "template": "99_模板/模板－系統性評估.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -186,7 +186,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－人工髖周圍骨折與植入物穩定緊急分流.md",
+      "path": "04_臨床評估/系統性評估/評估－人工膝伸膝失能與髕骨周圍損傷分流.md",
       "template": "99_模板/模板－系統性評估.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -194,7 +194,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－人工髖脫臼不穩定與神經血管緊急分流.md",
+      "path": "04_臨床評估/系統性評估/評估－人工膝不穩定與反覆積液安全分流.md",
       "template": "99_模板/模板－系統性評估.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -202,7 +202,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－人工髖金屬磨屑與軟組織反應分流.md",
+      "path": "04_臨床評估/系統性評估/評估－人工膝負重痛鬆動骨溶解與磨耗分流.md",
       "template": "99_模板/模板－系統性評估.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -218,7 +218,7 @@
     "bidirectional_link_targets": "pass (all targets resolve; every note has inbound and outbound links)",
     "svg_xml": "pass (3/3)",
     "folder_paths": "pass (0 new directories; 16 package directories all exist in main)",
-    "duplicate_topics": "pass (15/15 filenames absent from main; first eleven pelvis and hip rounds skipped)",
+    "duplicate_topics": "pass (15/15 filenames absent from main; first eleven knee rounds skipped)",
     "zip_integrity": "pass (testzip, path traversal, extraction byte comparison)",
     "github_remote_write": "none"
   }
