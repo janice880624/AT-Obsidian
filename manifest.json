@@ -1,8 +1,8 @@
 {
-  "date": "2026-11-27",
-  "region": "頭頸第十三輪",
-  "next_region": "肩部第十三輪",
-  "git_commit": "d2c86182e59683dd6fc32cb066681fd07d23af77",
+  "date": "2026-11-28",
+  "region": "肩部第十三輪",
+  "next_region": "肘部第十三輪",
+  "git_commit": "9932cf62051ffee745862aa8e16727eeb59bfa5a",
   "github_mode": "read-only",
   "templates": [
     {
@@ -77,20 +77,20 @@
     "svg": 3
   },
   "core_topics": [
-    "傷害－頸椎手術後切口與深部感染",
-    "傷害－頸椎手術後血腫與急性氣道或脊髓壓迫",
-    "傷害－頸椎減壓手術後 C5 神經麻痺",
-    "傷害－頸椎融合術後假關節與內固定失效",
-    "傷害－頸椎融合術後鄰近節段退化與疾病"
+    "傷害－人工肩關節周圍感染",
+    "傷害－人工肩關節周圍肱骨骨折",
+    "傷害－反式人工肩關節不穩定與脫臼",
+    "傷害－人工肩關節無菌性組件鬆動與骨溶解",
+    "傷害－反式人工肩關節後肩峰與肩胛棘壓力性骨折"
   ],
   "skipped": [
-    "已跳過頭頸第一至第十二輪全部既有主題",
-    "已排除 main 既有腦震盪、頸髓病、神經根病、骨折脫位、顱內出血、血管剝離、感染與特殊病灶等重複題目",
-    "本輪限定頸椎術後併發症安全情境；無路徑衝突，沒有建立任何新資料夾"
+    "已跳過肩部第一至第十二輪全部既有主題",
+    "已排除 main 既有旋轉肌袖、不穩定、骨折、神經血管、胸廓出口、感染與腫瘤等重複題目",
+    "本輪限定人工肩關節情境；無路徑衝突，沒有建立任何新資料夾"
   ],
   "note_validation": [
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－頸椎手術後切口與深部感染.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－人工肩關節周圍感染.md",
       "template": "99_模板/模板－傷害.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -98,7 +98,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－頸椎手術後血腫與急性氣道或脊髓壓迫.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－人工肩關節周圍肱骨骨折.md",
       "template": "99_模板/模板－傷害.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -106,7 +106,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "03_傷害與疾病/急性傷害/傷害－頸椎減壓手術後 C5 神經麻痺.md",
+      "path": "03_傷害與疾病/急性傷害/傷害－反式人工肩關節不穩定與脫臼.md",
       "template": "99_模板/模板－傷害.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -114,7 +114,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－頸椎融合術後假關節與內固定失效.md",
+      "path": "03_傷害與疾病/過度使用/傷害－人工肩關節無菌性組件鬆動與骨溶解.md",
       "template": "99_模板/模板－傷害.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -122,7 +122,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "03_傷害與疾病/過度使用/傷害－頸椎融合術後鄰近節段退化與疾病.md",
+      "path": "03_傷害與疾病/過度使用/傷害－反式人工肩關節後肩峰與肩胛棘壓力性骨折.md",
       "template": "99_模板/模板－傷害.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -130,7 +130,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "01_基礎解剖/骨骼/骨骼與關節－頸椎融合節段內固定與鄰近節段.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－解剖式與反式人工肩關節組件.md",
       "template": "99_模板/模板－骨骼或關節.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -138,7 +138,15 @@
       "required_subfields": "pass"
     },
     {
-      "path": "01_基礎解剖/神經/神經－頸椎術後 C5 神經根與臂叢運動分布.md",
+      "path": "01_基礎解剖/骨骼/骨骼與關節－肩峰肩胛棘三角肌附著與反式置換應力.md",
+      "template": "99_模板/模板－骨骼或關節.md",
+      "yaml_order": "pass",
+      "h1": "pass",
+      "h2_order": "pass",
+      "required_subfields": "pass"
+    },
+    {
+      "path": "01_基礎解剖/神經/神經－人工肩關節周圍腋神經橈神經與臂叢風險.md",
       "template": "99_模板/模板－神經.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -146,15 +154,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "01_基礎解剖/肌肉/肌肉－頸前肌群與頸椎前路手術通道.md",
-      "template": "99_模板/模板－肌肉.md",
-      "yaml_order": "pass",
-      "h1": "pass",
-      "h2_order": "pass",
-      "required_subfields": "pass"
-    },
-    {
-      "path": "04_臨床評估/主觀問診/評估－頸椎術後疼痛傷口吞嚥呼吸與神經問診.md",
+      "path": "04_臨床評估/主觀問診/評估－人工肩關節疼痛外傷感染與植入物問診.md",
       "template": "99_模板/模板－主觀問診.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -162,7 +162,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "04_臨床評估/身體檢查/評估－頸椎術後傷口氣道神經與功能身體檢查.md",
+      "path": "04_臨床評估/身體檢查/評估－人工肩關節傷口輪廓神經血管與功能身體檢查.md",
       "template": "99_模板/模板－身體檢查.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -170,7 +170,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－頸椎術後感染傷口與深部病灶分流.md",
+      "path": "04_臨床評估/系統性評估/評估－人工肩關節感染與隱匿低毒力菌安全分流.md",
       "template": "99_模板/模板－系統性評估.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -178,7 +178,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－頸椎術後血腫氣道與進展神經缺損緊急分流.md",
+      "path": "04_臨床評估/系統性評估/評估－人工肩關節周圍骨折組件穩定與神經血管分流.md",
       "template": "99_模板/模板－系統性評估.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -186,7 +186,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－頸椎術後 C5 無力與其他神經缺損鑑別.md",
+      "path": "04_臨床評估/系統性評估/評估－反式人工肩關節失穩脫臼與急性失能分流.md",
       "template": "99_模板/模板－系統性評估.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -194,7 +194,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－頸椎融合後假關節內固定與持續疼痛分流.md",
+      "path": "04_臨床評估/系統性評估/評估－人工肩關節疼痛組件鬆動骨溶解與感染鑑別.md",
       "template": "99_模板/模板－系統性評估.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -202,7 +202,7 @@
       "required_subfields": "pass"
     },
     {
-      "path": "04_臨床評估/系統性評估/評估－頸椎融合後鄰近節段神經與功能分流.md",
+      "path": "04_臨床評估/系統性評估/評估－反式肩置換後肩峰肩胛棘疼痛與壓力骨折分流.md",
       "template": "99_模板/模板－系統性評估.md",
       "yaml_order": "pass",
       "h1": "pass",
@@ -217,8 +217,8 @@
     "required_template_subfields": "pass (15/15)",
     "bidirectional_link_targets": "pass (all targets resolve; every note has inbound and outbound links)",
     "svg_xml": "pass (3/3)",
-    "folder_paths": "pass (0 new directories; 16 package directories all exist in main)",
-    "duplicate_topics": "pass (15/15 filenames absent from main; first twelve head-neck rounds skipped)",
+    "folder_paths": "pass (0 new directories; 15 package directories all exist in main)",
+    "duplicate_topics": "pass (15/15 filenames absent from main; first twelve shoulder rounds skipped)",
     "zip_integrity": "pass (testzip, path traversal, extraction byte comparison)",
     "github_remote_write": "none"
   }
